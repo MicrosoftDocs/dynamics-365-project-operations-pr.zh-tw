@@ -1,1 +1,1 @@
-適用於 Project Service 應用程式 3.x、2.x 和 1.x 版
+<span data-ttu-id="29d11-101">適用於 Project Service 應用程式 3.x、2.x 和 1.x 版</span><span class="sxs-lookup"><span data-stu-id="29d11-101">Applies to Project Service app versions 3.x, 2.x, and 1.x</span></span>

@@ -1,1 +1,1 @@
-商務用 OneDrive
+<span data-ttu-id="5331c-101">商務用 OneDrive</span><span class="sxs-lookup"><span data-stu-id="5331c-101">OneDrive for Business</span></span>

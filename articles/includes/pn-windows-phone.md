@@ -1,1 +1,1 @@
-Windows Phone
+<span data-ttu-id="fbe75-101">Windows Phone</span><span class="sxs-lookup"><span data-stu-id="fbe75-101">Windows Phone</span></span>
