@@ -28,6 +28,8 @@
               href: environment/resource-provision-new-environment.md
             - name: 安全性模型
               href: environment/security-model.md
+            - name: 設定每個法律實體的 Project Operations 整合
+              href: environment/resource-configure-integration-per-legal-entity.md
     - name: 銷售處理
       items:
         - name: 銷售概觀
@@ -44,10 +46,14 @@
           href: sales/manage-leads.md
         - name: 管理商機
           items:
+            - name: 管理專案型商機
+              href: sales/manage-project-based-opportunities.md
             - name: 商機標題
               href: sales/opportunity-header.md
             - name: 專案型明細
               href: sales/project-based-lines.md
+            - name: 複製專案型商機
+              href: sales/copy-project-based-opportunity.md
             - name: 從商機建立專案報價
               href: sales/link-quotes-opportunities.md
             - name: 關閉商機
@@ -56,6 +62,8 @@
           items:
             - name: 重要概念
               href: sales/quotes-key-concepts.md
+            - name: 專案報價的摘要資訊
+              href: sales/quote-values-budget-limits-contract.md
             - name: 管理報價上的多個客戶
               href: sales/manage-multiple-customers-quote.md
             - name: 產品型報價明細
@@ -68,16 +76,40 @@
               items:
                 - name: 管理專案價目表
                   href: sales/managing-project-price-lists.md
-                - name: 在報價訂單上建立估計值
+                - name: 管理專案型報價明細上的多個客戶
+                  href: sales/manage-multiple-customers-quote-line.md
+                - name: 在報價明細上建立估計值
                   href: sales/create-estimate-quote-line.md
+                - name: 將專案的估計值匯入至專案型報價明細
+                  href: sales/import-estimate-quote-line.md
                 - name: 管理報價值、客戶預算，以及不得超過的限制
                   href: sales/manage-quoted-values-budget-limits-quote-line.md
+                - name: 專案型報價明細的發票排程
+                  href: sales/invoice-schedule-quote-line.md
             - name: 複製專案型報價
               href: sales/lose-quote.md
             - name: 結束報價
               href: sales/win-quote.md
+        - name: 管理合約
+          items:
+            - name: 重要概念 - 專案合約
+              href: sales/contracts-key-concepts.md
+            - name: 專案合約設定
+              href: sales/project-contract-settings.md
+            - name: 專案型合約服務內容
+              items:
+                - name: 設定專案型合約服務內容的應收費元件
+                  href: sales/configure-chargeable-contract-line.md
+                - name: 將估計值匯入至專業型合約服務內容
+                  href: sales/import-estimate-project-contract-line.md
+                - name: 在專案型合約服務內容中建立發票排程
+                  href: sales/invoice-schedules-contract-line.md
+            - name: 確認專案合約
+              href: pro/sales/confirm-contract-sales.md
     - name: 定價和成本計算
       items:
+        - name: 設定價目表
+          href: pricing-costing/price-list-setup.md
         - name: 產品價目表
           href: pricing-costing/product-price-list.md
         - name: 專案價目表
@@ -86,6 +118,22 @@
               items:
                 - name: 設定銷售價目表
                   href: pricing-costing/sales-price-list-setup.md
+                - name: 設定人力帳單費率
+                  href: pricing-costing/set-up-labor-bill-rate.md
+                - name: 設定人力成本費率
+                  href: pricing-costing/set-up-labor-cost-rate.md
+                - name: 設定費用的成本及銷售費率
+                  href: pricing-costing/set-up-cost-sales-rates-expenses.md
+                - name: 預設價目表
+                  href: pricing-costing/default-project-sales-price-lists.md
+                - name: 解析估計值及實際值的成本價
+                  href: pricing-costing/cost-price-resolution.md
+        - name: 預設值和覆寫
+          items:
+            - name: 解析估計值及實際值的銷售價
+              href: pricing-costing/sales-price-resolution.md
+            - name: 成本價目表
+              href: pricing-costing/copy-price-lists.md
         - name: 定價維度
           items:
             - name: 定價維度概觀
@@ -146,6 +194,10 @@
           items:
             - name: 與 Office 群組的共同作業
               href: project-management/collaboration-groups.md
+        - name: 開發人員附註
+          items:
+            - name: 使用複製專案來開發專案範本
+              href: project-management/dev-copy-project.md
     - name: 資源管理
       items:
         - name: 重要概念
@@ -162,10 +214,24 @@
               href: resource-management/define-resource-requirements.md
             - name: 更新資源需求
               href: resource-management/update-resource-requirements.md
+            - name: 送出資源要求
+              href: resource-management/submit-resource-requirements.md
+            - name: 預約給專案
+              href: resource-management/book-project.md
+            - name: 檢閱提案的資源
+              href: resource-management/review-proposed-resources.md
         - name: 分散式資源預約 (混合式)
           items:
             - name: 從團隊成員網格新增團隊成員
               href: resource-management/add-team-members-grid.md
+            - name: 一般資源需求履行
+              href: resource-management/generic-resource-requirement-fulfillment.md
+        - name: 資源管理
+          items:
+            - name: 定義技能和熟練度
+              href: resource-management/define-skills-proficiencies.md
+            - name: 定義資源行事曆
+              href: resource-management/define-resource-calendars.md
         - name: 預約配置方法
           href: resource-management/booking-allocation-methods.md
         - name: 技能和熟練度模型
@@ -174,8 +240,16 @@
           items:
             - name: 資源協調概觀
               href: resource-management/resource-reconciliation-overview.md
+            - name: 管理時區
+              href: resource-management/manage-multiple-time-zones.md
     - name: 時間
       items:
+        - name: 時間概觀
+          href: time/time-entry-overview.md
+        - name: 建立時間項目
+          items:
+            - name: 時間項目使用者介面行為
+              href: time/ui-behavior-time.md
         - name: 開發人員附註
           items:
             - name: 自訂每週時間項目網格
@@ -242,16 +316,22 @@
               href: actuals/create-confirm-correction-journals.md
     - name: 開立預估發票
       items:
+        - name: 管理帳務積存
+          href: proforma-invoicing/manage-billing-backlog.md
         - name: 建立手動預估發票
           href: proforma-invoicing/create-manual-proforma-invoice.md
+        - name: 確認預估發票
+          href: proforma-invoicing/confirm-proforma-invoice.md
         - name: 更正過的發票
           href: proforma-invoicing/corrective-invoices.md
-        - name: 設定自動化發票建立作業
+        - name: 設定自動發票建立作業
           href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: 專案會計
       items:
         - name: 設定專案類別
           href: project-accounting/configure-project-categories.md
+        - name: 設定內部專案會計
+          href: project-accounting/configure-accounting-internal-projects.md
         - name: 設定計費專案會計
           href: project-accounting/configure-accounting-billable-projects.md
 - name: 精簡部署 - 交易至開立預估發票
@@ -280,10 +360,14 @@
           href: pro/sales/managing-leads-sales.md
         - name: 管理商機
           items:
+            - name: 管理專案型商機
+              href: sales/manage-project-based-opportunities.md
             - name: 商機標題
               href: pro/sales/opportunity-header-sales.md
             - name: 專案型明細
               href: pro/sales/project-based-lines-sales.md
+            - name: 複製專案型商機
+              href: sales/copy-project-based-opportunity.md
             - name: 從商機建立專案報價
               href: sales/link-quotes-opportunities.md
             - name: 產品型商機明細
@@ -316,18 +400,70 @@
                   href: pro/sales/create-estimate-quote-line-sales.md
                 - name: 專案型報價明細 (銷售)
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
+                - name: 將專案的估計值匯入至專案型報價明細
+                  href: pro/sales/import-estimate-project-quote-sales.md
+                - name: 專案型報價明細的發票排程
+                  href: sales/invoice-schedule-quote-line.md
+                - name: 設定報價明細的應收費元件
+                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
         - name: 複製專案型報價
           href: sales/lose-quote.md
         - name: 結束報價
           href: pro/sales/win-quote-sales.md
+    - name: 管理合約
+      items:
+        - name: 專案合約的重要概念
+          href: pro/sales/contracts-key-concepts-sales.md
+        - name: 專案合約欄位及資訊
+          href: pro/sales/project-contract-settings-sales.md
+        - name: 產品型合約服務內容
+          items:
+            - name: 產品型合約服務內容概觀
+              href: pro/sales/product-based-contract-lines-overview-sales.md
+            - name: 計算產品型合約服務內容的成本
+              href: pro/sales/cost-product-based-contract-lines-sales.md
+        - name: 專案型合約服務內容
+          items:
+            - name: 正在設定專案型合約服務內容的應收費元件
+              href: pro/sales/configure-chargeable-components-contract-line.md
+            - name: 正在將估計值匯入至專業型合約服務內容
+              href: pro/sales/import-estimate-project-contract-line-sales.md
+            - name: 正在專案型合約服務內容中建立發票排程
+              href: pro/sales/invoice-schedules-contract-line-sales.md
+        - name: 正在複製專案合約
+          href: pro/sales/copy-project-contracts-sales.md
+        - name: 確認專案合約
+          href: pro/sales/confirm-contract-sales.md
+        - name: 預付金或定額保留後隨用即扣型合約
+          href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
     - name: 定價和成本計算
       items:
+        - name: 設定價目表
+          href: pricing-costing/price-list-setup.md
         - name: 專案價目表
           items:
             - name: 銷售價目表設定
               items:
                 - name: 設定銷售價目表
                   href: pricing-costing/sales-price-list-setup.md
+                - name: 正在設定人力帳單費率
+                  href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
+                - name: 正在設定人力成本費率
+                  href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
+                - name: 設定產品類別目錄產品的成本及銷售費率
+                  href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
+                - name: 設定費用的成本及銷售費率
+                  href: pricing-costing/set-up-cost-sales-rates-expenses.md
+                - name: 預設價目表
+                  href: pricing-costing/default-project-sales-price-lists.md
+                - name: 正在解析估計值及實際值的成本價
+                  href: pro/pricing-costing/cost-price-resolution-sales.md
+        - name: 預設值和覆寫
+          items:
+            - name: 正在解析估計值及實際值的銷售價
+              href: pro/pricing-costing/sales-price-resolution-sales.md
+            - name: 成本價目表
+              href: pricing-costing/copy-price-lists.md
         - name: 定價維度
           items:
             - name: 使用現有欄位做為定價維度
@@ -402,10 +538,24 @@
               href: resource-management/define-resource-requirements.md
             - name: 更新資源需求
               href: resource-management/update-resource-requirements.md
+            - name: 送出資源要求
+              href: resource-management/submit-resource-requirements.md
+            - name: 預約給專案
+              href: resource-management/book-project.md
+            - name: 檢閱提案的資源
+              href: resource-management/review-proposed-resources.md
         - name: 分散式資源預約 (混合式)
           items:
             - name: 從團隊成員網格新增團隊成員
               href: resource-management/add-team-members-grid.md
+            - name: 一般資源需求履行
+              href: resource-management/generic-resource-requirement-fulfillment.md
+        - name: 資源管理
+          items:
+            - name: 定義技能和熟練度
+              href: resource-management/define-skills-proficiencies.md
+            - name: 定義資源行事曆
+              href: resource-management/define-resource-calendars.md
         - name: 預約配置方法
           href: resource-management/booking-allocation-methods.md
         - name: 技能和熟練度模型
@@ -414,8 +564,16 @@
           items:
             - name: 資源協調概觀
               href: resource-management/resource-reconciliation-overview.md
+            - name: 管理時區
+              href: resource-management/manage-multiple-time-zones.md
     - name: 時間
       items:
+        - name: 時間概觀
+          href: time/time-entry-overview.md
+        - name: 建立時間項目
+          items:
+            - name: 時間項目使用者介面行為
+              href: time/ui-behavior-time.md
         - name: 開發人員附註
           items:
             - name: 自訂每週時間項目網格
@@ -440,9 +598,520 @@
               href: actuals/create-confirm-correction-journals.md
         - name: 開立預估發票
           items:
-            - name: 建立手動預估發票
-              href: proforma-invoicing/create-manual-proforma-invoice.md
+            - name: 管理帳務積存
+              href: proforma-invoicing/manage-billing-backlog.md
+            - name: 正在建立手動預估發票
+              href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
+            - name: 開立定額保留後隨用即扣型付款 (或預付金) 的發票
+              href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
             - name: 更正過的發票
               href: proforma-invoicing/corrective-invoices.md
             - name: 設定自動化發票建立作業
               href: proforma-invoicing/configure-automated-invoice-creation.md
+- name: 庫存/生產型案例適用的 Project Operations
+  items:
+    - name: 專案管理與會計概觀
+      href: prod-pma/overview-project-management-accounting.md
+    - name: 公司間開立開票
+      href: prod-pma/intercompany-invoicing.md
+    - name: 設定公司間的專案發票開立
+      href: prod-pma/tasks/configure-intercompany-project-invoicing.md
+    - name: 設定人力和費用的標準成本
+      href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
+    - name: 建立和套用供應商付款保留條款
+      href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
+    - name: 設定和使用背靠背式供應商付款
+      href: prod-pma/setup-manage-vendor-payments.md
+    - name: 根據採購收據的專案成本累算方式
+      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
+    - name: 專案發票請款
+      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
+    - name: 專案合約
+      href: prod-pma/project-contracts.md
+    - name: 根據進度扣款的預付型合約
+      href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
+    - name: 專案預測和預算
+      href: prod-pma/project-forecasts-budgets.md
+    - name: 建立專案預算的預測模型
+      href: prod-pma/create-forecast-models-project-budgets.md
+    - name: 在會計年度結束時轉移專案預算
+      href: prod-pma/process-project-budgets-for-fiscal-year-end.md
+    - name: 專案銷售訂單
+      href: prod-pma/project-sales-orders.md
+    - name: 專案採購單
+      href: prod-pma/project-purchase-orders.md
+    - name: 專案報價
+      href: prod-pma/project-quotations.md
+    - name: 確認、更新和傳送專案報價
+      href: prod-pma/confirm-update-send-project-quotation.md
+    - name: 將報價轉移至專案
+      href: prod-pma/transfer-quote-new-existing-project.md
+    - name: 專案資源分配
+      items:
+        - name: 專案資源分配概觀
+          href: prod-pma/project-resourcing.md
+        - name: 設定專案資源
+          href: prod-pma/set-up-project-resources.md
+        - name: 管理資源專長
+          href: prod-pma/manage-resource-competencies.md
+        - name: 建立新專案
+          href: prod-pma/create-new-project.md
+        - name: 設定基於角色的定價
+          href: prod-pma/set-up-role-based-pricing.md
+        - name: 建立專案團隊
+          href: prod-pma/create-project-team.md
+        - name: 同步處理資源產能
+          href: prod-pma/synchronize-resource-capacity.md
+        - name: 專案資源排程效能
+          href: prod-pma/project-scheduling-performance.md
+        - name: 在分工結構圖範本上設定角色
+          href: prod-pma/set-up-roles-wbs-template.md
+        - name: 計劃資源的資源履行
+          href: prod-pma/resource-fulfillment-planned-resources.md
+    - name: 從項目需求接收採購單上的項目
+      href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
+    - name: 分工結構圖
+      items:
+        - name: 分工結構圖概觀
+          href: prod-pma/work-breakdown-structures.md
+        - name: Microsoft Project Client 整合
+          href: prod-pma/project-integration.md
+        - name: Project 行動應用程式概觀
+          href: prod-pma/project-mobile-application-overview.md
+        - name: 專案時間項目行動工作區
+          href: prod-pma/project-time-entry-mobile-workspace.md
+        - name: 專案時程表行動應用程式
+          href: prod-pma/project-timesheet.md
+        - name: 行動裝置上的專案時程表
+          href: prod-pma/mobile-timesheets.md
+        - name: 實作專案時程表行動應用程式的自訂欄位
+          href: prod-pma/custom-fields-mobile.md
+    - name: 專案資助
+      href: prod-pma/project-grants.md
+    - name: 消除專案估計值
+      href: prod-pma/eliminate-project-estimate.md
+- name: 費用管理
+  items:
+    - name: 費用管理概觀
+      href: prod-exp/expense-management.md
+    - name: 顛覆想像的費用報表
+      href: prod-exp/ExpenseWorkspaceNew.md
+    - name: 方案費用管理
+      href: prod-exp/plan-expense-management.md
+    - name: 費用管理參數
+      href: prod-exp/Expense-Management-Parameters.md
+    - name: 費用管理行動工作區
+      href: prod-exp/expense-management-mobile-workspace.md
+    - name: 設定費用管理的工作流程
+      href: prod-exp/expense-workflows.md
+    - name: 費用管理工作流程
+      href: prod-exp/expense-workflow.md
+    - name: 管理費用委派
+      href: prod-exp/manage-expense-delegation.md
+    - name: 費用收據處理
+      href: prod-exp/expense-receipt-processing.md
+    - name: 匯入和維護信用卡交易
+      href: prod-exp/import-credit-card.md
+    - name: 費用報表的分佈
+      href: prod-exp/expense-report-distributions.md
+    - name: 公司間費用
+      href: prod-exp/intercompany-expense.md
+    - name: 定義費用原則
+      href: prod-exp/travel-expense-policies.md
+    - name: 檢視費用報表
+      href: prod-exp/view-expense-report.md
+    - name: 將費用報表過帳
+      href: prod-exp/post-expense.md
+    - name: 費用報表和多個核准者
+      href: prod-exp/expense-report-multiple-approvers.md
+    - name: 費用管理中的加值稅退還
+      href: prod-exp/VAT-expense-report.md
+    - name: 每日津貼規則
+      href: prod-exp/per-diem.md
+    - name: 差旅申請
+      href: prod-exp/travel-req.md
+    - name: 費用報表上的個人費用
+      href: prod-exp/personal-expenses.md
+- name: Dynamics 365 Project Service Automation
+  items:
+    - name: Project Service Automation 概觀
+      href: psa/overview.md
+    - name: 新增功能
+      items:
+        - name: Project Service 3.x 的更新版本排程
+          href: psa/version-history-ps.md
+        - name: 更新版本 24 V3 的新功能或變更
+          href: psa/whats-new-ur-24.md
+        - name: 更新版本 23 V3 的新功能或變更
+          href: psa/whats-new-ur-23.md
+        - name: 更新版本 22 V3 的新功能或變更
+          href: psa/whats-new-ur-21.md
+        - name: 更新版本 20 V3 的新功能或變更
+          href: psa/whats-new-ur-20.md
+        - name: 更新版本 19 V3 的新功能或變更
+          href: psa/whats-new-ur-19.md
+        - name: 更新版本 18 V3 的新功能或變更
+          href: psa/whats-new-ur-18.md
+        - name: 更新版本 17.5 Hotfix V3 的新功能或變更
+          href: psa/whats-new-ur-17-5.md
+        - name: 更新版本 17 V3 的新功能或變更
+          href: psa/whats-new-ur-17.md
+        - name: 更新版本 16 V3 的新功能或變更
+          href: psa/whats-new-ur-16.md
+        - name: 更新版本 15 V3 的新功能或變更
+          href: psa/whats-new-ur-15.md
+        - name: 更新版本 14 V3 的新功能或變更
+          href: psa/whats-new-ur-14.md
+        - name: 更新版本 13 V3 的新功能或變更
+          href: psa/whats-new-ur-13.md
+        - name: 更新版本 12 V3 的新功能或變更
+          href: psa/whats-new-ur-12.md
+        - name: Project Service Automation V3.x 2020 年第 1 段浪潮的新功能或變更
+          href: psa/whats-new-v3-2020-wave1.md
+        - name: Project Service Automation V3 的新功能或變更
+          href: psa/whats-new-changed-v3.md
+    - name: 實作 Project Service Automation 3.x
+      items:
+        - name: 實作概觀
+          href: psa/install-sample-data-3-x.md
+    - name: 升級
+      items:
+        - name: Project Service Automation 升級 (3.x)
+          href: psa/upgrade-psa-home-page.md
+        - name: 升級考量 - 版本 2.x 或 1.x 至版本 3
+          href: psa/upgrade-v3.md
+        - name: 開發 (3.x)
+          href: psa/developer-guides/overview-dev-notes-v3.x.md
+        - name: 實體變更
+          href: psa/developer-guides/entity-changes-v3.x.md
+        - name: 時間和費用
+          href: psa/developer-guides/time-expense-changes-v3.x.md
+        - name: 資源管理
+          href: psa/developer-guides/resource-management-changes-v3.x.md
+        - name: Project Service Automation v3.x 中已被取代的 Web 資源
+          href: psa/developer-guides/web-resources-deprecated-v3.x.md
+    - name: 專案規劃
+      items:
+        - name: 專案規劃概觀
+          href: psa/project-planning.md
+        - name: 專案排程
+          href: psa/project-creating.md
+        - name: 專案成本和營收
+          href: psa/project-estimating.md
+        - name: 銷售估計和專案
+          href: psa/project-leveraging.md
+        - name: 專案進度及成本耗用
+          href: psa/project-tracking.md
+        - name: 專案範本
+          href: psa/project-templates.md
+        - name: 專案階段
+          href: psa/project-stages.md
+        - name: 專案設定
+          href: psa/project-settings.md
+    - name: 定價和成本維度
+      items:
+        - name: 定價和成本維度概觀
+          href: psa/pricing-costing-dimensions.md
+        - name: 建立自訂定價維度解決方案
+          href: psa/custompricingdimensionssolution.md
+        - name: 建立自訂欄位和實體
+          href: psa/create-custom-fields-entities.md
+        - name: 將自訂欄位新增至價格設定與交易實體
+          href: psa/field-references.md
+        - name: 將自訂欄位設定為定價維度
+          href: psa/set-up-pricing-dimensions.md
+        - name: 更新外掛程式屬性以包含新的定價維度
+          href: psa/update-plug-in-attributes.md
+        - name: 重複使用元素做為定價維度
+          items:
+            - name: 使用 Project Service 中現有的欄位做為定價維度
+              href: psa/use-existing-field.md
+            - name: 使用可預約資源做為定價維度
+              href: psa/bookable-resource-pricing-dimension.md
+            - name: 使用交易類別做為定價維度
+              href: psa/transaction-category-pricing-dimension.md
+        - name: 具有專案中多個角色的可預約資源
+          href: psa/bookable-resource-multiple-roles.md
+        - name: 關閉定價維度
+          href: psa/turn-off-pricing-dimension.md
+    - name: 報價、定價和帳務
+      items:
+        - name: 報價、定價和帳務概觀
+          href: psa/quote-bill-price.md
+        - name: 正在報價
+          items:
+            - name: 銷售處理
+              href: psa/basic-sales-process.md
+            - name: 單位群組和單位
+              href: psa/advanced-units.md
+            - name: 組織單位
+              href: psa/advanced-organizational.md
+            - name: 報價和報價明細
+              href: psa/basic-quote-lines.md
+            - name: 產品型報價明細
+              href: psa/product-based-quote-lines.md
+            - name: 分析專案報價
+              href: psa/basic-analyzing-quotes.md
+        - name: 定價
+          items:
+            - name: 專案定價
+              href: psa/basic-pricing.md
+            - name: 產品類別目錄定價
+              hreF: psa/product-catalog-pricing.md
+            - name: 商務交易
+              href: psa/basic-business-transactions.md
+            - name: 估計值
+              href: psa/estimates.md
+        - name: 帳單
+          items:
+            - name: 分析專案報價
+              href: psa/basic-analyzing-quotes.md
+            - name: 回收先前核准的時間或費用項目
+              href: psa/recall-approved.md
+            - name: 取消核准先前核准的時間或費用項目
+              href: psa/cancel-approval.md
+            - name: 實際值
+              href: psa/actuals.md
+            - name: 大量更正由核准時間及費用項目所建立的實際值
+              href: psa/bulk-corrections-actuals-created-by-approved-time-expense-entries.md
+            - name: 檢閱專案帳務積存
+              href: psa/review-invoicing-backlog.md
+            - name: 發票請款
+              href: psa/invoicing.md
+            - name: 多重貨幣案例
+              href: psa/advanced-currency.md
+    - name: 資源分配專案
+      items:
+        - name: 資源分配專案概觀
+          href: psa/resource-management.md
+        - name: 指派一般可預約資源至工作，並產生資源需求
+          href: psa/assign-generic-bookable-resource.md
+        - name: 將具名可預約資源預約給專案團隊並指派工作
+          href: psa/assign-named-bookable-resource.md
+        - name: 將資源指派給工作
+          href: psa/FAQ-assign-resources-to-tasks.md
+        - name: 透過資源需求預約具名資源
+          href: psa/book-named-resource.md
+        - name: 資源預約以及這些預約如何與工作指派相關聯
+          href: psa/FAQ-bookings-and-assignments.md
+        - name: 送出資源要求
+          href: psa/submit-resource-request.md
+        - name: 接受或拒絕提案的資源
+          href: psa/accept-reject-proposed-resource.md
+        - name: 檢視資源的應收費使用率
+          href: psa/FAQ-utilization-view.md
+        - name: 協調預約與指派
+          href: psa/reconcile-booking-assignment.md
+    - name: 資源管理
+      items:
+        - name: 資源管理首頁
+          href: psa/resource-management-home-page.md
+        - name: 管理資源
+          href: psa/manage-resources.md
+        - name: 重要概念
+          href: psa/reports-key-concepts.md
+        - name: 履行資源要求
+          href: psa/resource-management-fulfill-requests.md
+        - name: 建議資源
+          href: psa/resource-management-propose-resources.md
+        - name: 資源預約
+          href: psa/resource-management-book-resources-scheduleboard.md
+        - name: 預約配置方法
+          href: psa/FAQ-allocation-methods.md
+        - name: 未確認預約需求
+          href: psa/resource-management-softbook-requirements.md
+        - name: 以未確認方式預約資源
+          href: psa/FAQ-soft-book.md
+        - name: 從排程面板建立專案預約
+          href: psa/FAQ-project-booking-schedule-board.md
+        - name: 技能和熟練度模型
+          href: psa/resource-management-skills-proficiency.md
+        - name: 資源管理常見問題集
+          href: psa/resource-management-faq.md
+    - name: 報表
+      items:
+        - name: 報表概觀
+          href: psa/reports-reporting-dynamics-365-project-service.md
+        - name: 儀表板
+          href: psa/reports-dashboards.md
+        - name: 使用 Project Service Automation 資料模型
+          href: psa/reports-working-project-service-data-model.md
+    - name: 時間項目
+      items:
+        - name: 建立時間項目
+          href: psa/time-entries.md
+        - name: 時間項目行事曆
+          href: psa/time-entry-calendar.md
+        - name: 自訂每週時間項目
+          href: psa/time-entry-extensibility-v3.md
+    - name: 常見問題與疑難排解
+      items:
+        - name: 為什麼費用成本實際值上的價格會預設為零?
+          href: psa/FAQ-zero-price-expense-cost-actuals.md
+        - name: 為什麼費用銷售實際值上的價格會預設為零?
+          href: psa/FAQ-zero-price-expense-sales-actuals.md
+        - name: 為什麼時間成本實際值上的價格會預設為零?
+          href: psa/FAQ-zero-price-time-cost-actuals.md
+        - name: 為什麼時間銷售實際值上的價格會預設為零?
+          href: psa/FAQ-zero-price-time-sales-actuals.md
+        - name: 為什麼我無法從實際值實體刪除記錄?
+          href: psa/FAQ-deleting-actuals.md
+    - name: Project Service Automation 2.x 和 1.x
+      items:
+        - name: 常見問題與疑難排解
+          items:
+            - name: 如何將資源指派給工作 (應用程式 2.x 版)?
+              href: psa/FAQ-assign-resources-to-tasks-in-web-app.md
+            - name: 如何進行資源的「未確認預約」(應用程式 2.x 版)?
+              href: psa/FAQ-soft-book-in-web-app.md
+            - name: 如何自訂專案階段商務程序流程?
+              href: psa/FAQ-customize-bpf.md
+            - name: 分工結構圖升級考量
+              href: psa/upgrade-considerations-tasks.md
+        - name: 白皮書
+          href: psa/white-papers.md
+        - name: 系統管理員指南
+          href: psa/admin-guide.md
+        - name: 安裝和自訂
+          href: psa/install-customize.md
+        - name: 使用示範資料
+          href: psa/use-demo-data.md
+        - name: 設定 Project Service Automation
+          items:
+            - name: 設定 Project Service Automation 應用程式
+              href: psa/configure.md
+            - name: 設定時間單位
+              href: psa/set-up-time-units.md
+            - name: 設定貨幣和匯率
+              href: psa/set-up-currencies-exchange-rates.md
+            - name: 建立組織單位
+              href: psa/create-organizational-units.md
+            - name: 設定發票週期
+              href: psa/set-up-invoice-frequencies.md
+            - name: 設定交易類別
+              href: psa/configure-transaction-categories.md
+            - name: 設定費用類別
+              href: psa/configure-expense-categories.md
+            - name: 建立產品類別目錄項目
+              href: psa/create-product-catalog-items.md
+            - name: 建立價目表
+              href: psa/create-price-list.md
+        - name: 資源
+          items:
+            - name: 設定資源
+              href: psa/set-up-resources.md
+            - name: 新增資源
+              href: psa/add-resources.md
+            - name: 新增資源技能
+              href: psa/add-resource-skills.md
+            - name: 設定熟練度模型
+              href: psa/set-up-proficiency-models.md
+            - name: 新增資源角色
+              href: psa/add-resource-roles.md
+            - name: 設定資源角色
+              href: psa/configure-resource-roles.md
+            - name: 將技能與資源建立關聯
+              href: psa/associate-skills-with-resources.md
+            - name: 將技能與資源角色建立關聯
+              href: psa/associate-skills-with-resource-roles.md
+            - name: 建立工作時數範本
+              href: psa/create-work-hours-template.md
+            - name: 套用行事曆至資源
+              href: psa/apply-calendar-resource.md
+            - name: 進行其他設定
+              href: psa/configure-additional-parameters-settings.md
+            - name: 啟用 Project Finder Mobile
+              href: psa/enable-project-finder-mobile-app-features.md
+        - name: 資源管理
+          items:
+            - name: 資源管理員指南
+              href: psa/resource-manager-guide.md
+            - name: 管理資源要求
+              href: psa/manage-resource-requests.md
+            - name: 排程專案的資源
+              href: psa/schedule-resources-project.md
+            - name: 檢視資源可用性
+              href: psa/view-resource-availability.md
+            - name: 檢視資源使用率
+              href: psa/view-resource-utilization.md
+            - name: Universal Resource Scheduling (URS)
+              href: 'https://docs.microsoft.com/dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling'
+        - name: 專案管理
+          items:
+            - name: 專案經理指南
+              href: psa/project-manager-guide.md
+            - name: 提供工作估計值
+              href: psa/provide-estimates-project-during-sales-process.md
+            - name: 建立專案
+              href: psa/create-project.md
+            - name: 透過分工結構圖排程專案
+              href: psa/schedule-project-work-breakdown-structure.md
+            - name: 決定專案成本與營收預估值
+              href: psa/determine-project-cost-revenue-estimates.md
+            - name: 追蹤專案進度及成本
+              href: psa/track-project-progress-cost.md
+            - name: 建立專案範本
+              href: psa/create-project-template.md
+            - name: 送出資源要求
+              href: psa/submit-resource-requests.md
+            - name: 建立專案的 Office 365 群組
+              href: psa/create-office-365-group-project.md
+            - name: 將文件新增至專案
+              href: psa/add-documents-project.md
+            - name: 追蹤專案狀態
+              href: psa/track-project-status.md
+            - name: 檢視專案團隊成員和管理預約
+              href: psa/view-project-team-members-manage-bookings.md
+            - name: 檢視和編輯專案估計值
+              href: psa/view-edit-project-estimates.md
+            - name: 核准時間和費用
+              href: psa/approve-time-expenses.md
+            - name: 檢閱專案實際值
+              href: psa/review-project-actuals.md
+            - name: 檢視並傳送發票
+              href: psa/view-send-invoices.md
+            - name: 檢視儀表板及報表
+              href: psa/view-dashboards-reports.md
+            - name: 使用增益集在 Microsoft Project 中規劃工作
+              href: psa/add-plan-work-microsoft-project.md
+        - name: 帳戶管理
+          items:
+            - name: 客戶經理指南
+              href: psa/account-manager-guide.md
+            - name: 建立客戶帳戶
+              href: psa/create-customer-account.md
+            - name: 建立專案商機
+              href: psa/create-project-opportunity.md
+            - name: 建立專案報價
+              href: psa/create-project-quote.md
+            - name: 建立專案合約
+              href: psa/create-project-contract.md
+        - name: 時間和費用
+          items:
+            - name: 時間、費用和共同作業
+              href: psa/time-expense-collaboration-guide.md
+            - name: 取得應用程式
+              href: psa/get-apps.md
+            - name: 登入
+              href: psa/sign-in.md
+            - name: 檢視排程
+              href: psa/view-schedule.md
+            - name: 管理 Office 365 中的專案和預約
+              href: psa/manage-project-bookings-office-365-calendar.md
+            - name: 輸入時間
+              href: psa/enter-time.md
+            - name: 輸入費用
+              href: psa/enter-expenses.md
+            - name: 委派時間或費用項目
+              href: psa/allow-someone-else-enter-time-entry-expense.md
+            - name: 排程休假
+              href: psa/schedule-time-off.md
+            - name: '[使用 Office 365 群組進行共同作業](collaborate-project-team-members-office-365-groups.md)'
+            - name: 使用 Project Finder Mobile 尋找專案
+              href: psa/find-next-project-finder-mobile-app.md
+            - name: 專案資源中心指南
+              href: psa/project-resource-hub-users-guide.md
+        - name: 開發人員附註
+          items:
+            - name: 新增實體的自訂表單
+              href: psa/developer-guides/add-custom-qoi-forms-v2.x.md
