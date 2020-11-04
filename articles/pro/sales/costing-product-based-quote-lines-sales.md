@@ -9,20 +9,20 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 17b377eab5bcbc1a2327cb3ff87cc75d8de40953
-ms.sourcegitcommit: a0f80d024a5d3112a39781815bd31d0c05ddaf6f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3906094"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072899"
 ---
 # <a name="costing-product-based-quote-lines"></a>計算產品型報價明細的成本
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
 
-Dynamics 365 Project Operations 中的產品報價明細也會有**成本價**欄位。 此欄位會用來追蹤報價明細上的產品成本價，並用於進行下游續獲利率計算。
+Dynamics 365 Project Operations 中的產品報價明細也會有 **成本價** 欄位。 此欄位會用來追蹤報價明細上的產品成本價，並用於進行下游續獲利率計算。
 
-建立產品類別目錄產品的產品型報價明細時，產品型報價明細的成本預設會使用產品類別目錄中的**標準成本**欄位。 產品類別目錄中的標準成本欄位是以組織的基準貨幣來設定。 產品型報價明細上的預設單位成本會轉換為報價上的銷售貨幣。
+建立產品類別目錄產品的產品型報價明細時，產品型報價明細的成本預設會使用產品類別目錄中的 **標準成本** 欄位。 產品類別目錄中的標準成本欄位是以組織的基準貨幣來設定。 產品型報價明細上的預設單位成本會轉換為報價上的銷售貨幣。
 
 ## <a name="unit-cost-on-a-product-based-quote-line"></a>產品型報價明細的單位成本
 

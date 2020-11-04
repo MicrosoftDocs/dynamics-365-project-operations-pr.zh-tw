@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 27f58f0dacc3404119a719547ad374629c740740
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961830"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072934"
 ---
 # <a name="manage-time-zones"></a>管理時區
 
@@ -22,7 +22,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 ## <a name="projects"></a>專案
 
-建立專案時，時區取決於所套用工作時數範本中定義的時區。 在**專案**上，日期一律相對於每個索引標籤 (**工作**索引標籤除外) 中已登入的使用者。當您檢視分工結構圖時，日期永遠以專案的時區來顯示。
+建立專案時，時區取決於所套用工作時數範本中定義的時區。 在 **專案** 上，日期一律相對於每個索引標籤 ( **工作** 索引標籤除外) 中已登入的使用者。當您檢視分工結構圖時，日期永遠以專案的時區來顯示。
 
 ## <a name="tasks"></a>工作
 
@@ -30,9 +30,9 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 ## <a name="manage-resources-with-time-zones"></a>使用時區來管理資源
 
-若要在使用**延伸預約**時獲得準確且可預測的結果，必須符合兩個重要先決條件：  
+若要在使用 **延伸預約** 時獲得準確且可預測的結果，必須符合兩個重要先決條件：  
 
-- 使用者必須設定其裝置的時區，使其符合系統**個人化設定**中所定義的時區。
+- 使用者必須設定其裝置的時區，使其符合系統 **個人化設定** 中所定義的時區。
  
   ![Windows 10 的時區設定](media/reconcile-assignments-03.png)
 
@@ -57,7 +57,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 |資源 C  |  ![資源 C 行事曆](media/reconcile-assignments-08.png) |
 |資源 D  | ![資源 D 行事曆](media/reconcile-assignments-09.png)  |
  
-當您瀏覽至**協調**檢視表時，會顯示資源指派以及相關聯的預約短缺。
+當您瀏覽至 **協調** 檢視表時，會顯示資源指派以及相關聯的預約短缺。
 
 ![延長前的協調檢視表](media/reconcile-assignments-10.png)
 

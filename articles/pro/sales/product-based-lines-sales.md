@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 17ffcf8dc94d42102115281d281d6b553cf1fa17
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896226"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072922"
 ---
 # <a name="product-based-opportunity-lines"></a>產品型商機明細
 
@@ -23,6 +23,6 @@ _**適用於：** 精簡部署 - 交易至開立預估發票_
 
 產品型明細可以是類別目錄項目或目錄外產品。 商機的產品型明細上大部分功能都採用 Dynamics 365 Sales 應用程式所提供的功能。 如需產品型商機明細的詳細資訊，請參閱[將產品新增至商機](https://docs.microsoft.com/dynamics365/sales-enterprise/add-products-opportunity)。
 
-一個關於專案型商機所特有產品型商機明細的概念就是**客戶預算**。 使用此欄位來追蹤客戶願意為該明細項目支付的金額。
+一個關於專案型商機所特有產品型商機明細的概念就是 **客戶預算** 。 使用此欄位來追蹤客戶願意為該明細項目支付的金額。
 
-如果商機摘要的營收方式設定為**系統計算**，則會跨產品型與專案型明細彙總預算值，以計算估計營收。
+如果商機摘要的營收方式設定為 **系統計算** ，則會跨產品型與專案型明細彙總預算值，以計算估計營收。

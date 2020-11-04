@@ -7,7 +7,6 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cd0d415b9cc85bac91de8fb9427da290ae0c6108
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 47c1bce0c886897b295a3c1a355f4db843c4b73a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897126"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073062"
 ---
 # <a name="expense-reports-reimagined"></a>顛覆想像的費用報表
 
@@ -35,7 +34,7 @@ ms.locfileid: "3897126"
 - 新的頁面，可用來指定必要欄位、選用欄位以及不應包含的欄位。 此頁面有助於減少必須設定的欄位數目。
 - 新的費用報表外觀與風格，讓報表看起來不再像是專為會計人員設計的一樣。
 
-若要開啟新的體驗，請使用**功能管理**工作區來開啟**顛覆想像的費用報表**功能。 下列動作會在您開啟此功能時發生：
+若要開啟新的體驗，請使用 **功能管理** 工作區來開啟 **顛覆想像的費用報表** 功能。 下列動作會在您開啟此功能時發生：
 
 - 現有的費用工作區會用新的工作區來取代。
 - 新增費用欄位顯示性的新功能表項目。
@@ -62,7 +61,7 @@ ms.locfileid: "3897126"
 | 提升顯示性的新增工作區 | 新的工作區將功能與連結統合，使用者可用來移至不同的區域。 |
 | 在建立費用過程中新增現有的費用和收據 | 建立費用報表時，您可以新增所有或所選的費用和收據。 |
 | 匯率計算機 | 您可以新增匯率計算機，用來計算現款支付的多重貨幣交易匯率。 |
-| 儲存並新增費用明細 | 輸入新的費用時，可以使用**儲存**和**新增**按鈕，協助您快速輸入費用明細。 |
+| 儲存並新增費用明細 | 輸入新的費用時，可以使用 **儲存** 和 **新增** 按鈕，協助您快速輸入費用明細。 |
 | 更清楚地查看分割和逐條列舉的明細 | 逐條列舉和分割的明細會直接新增至費用清單以增加顯示性，並協助您輕鬆判斷是否有任何錯誤。 |
 | 進行逐條列舉時顯示收據 | 進行逐條列舉時可以顯示收據。 |
 

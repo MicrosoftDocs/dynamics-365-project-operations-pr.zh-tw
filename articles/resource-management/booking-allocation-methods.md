@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 74f8889022e42a7bbd37879df870401c0e103446
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: c2a964c18c7eae61c5a0239da3b18da31b6ad574
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897666"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072946"
 ---
 # <a name="booking-allocation-methods"></a>預約配置方法
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
-不論您是直接將團隊成員新增至**團隊**索引標籤上的專案，還是透過排程面板將資源預約到專案或需求，您都有一些可以用來預約配置的不同方法。 本主題說明每個方法的運作方式，以及哪些方法可能導致過量預約資源。
+不論您是直接將團隊成員新增至 **團隊** 索引標籤上的專案，還是透過排程面板將資源預約到專案或需求，您都有一些可以用來預約配置的不同方法。 本主題說明每個方法的運作方式，以及哪些方法可能導致過量預約資源。
 
 ## <a name="booking-allocation-methods"></a>預約配置方法
 
@@ -72,7 +71,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 因為可用產能已納入考量，如果資源沒有可供預約吸收的剩餘產能，您可能會收到錯誤訊息。 使用此方法時，您不可過量預約。
 
 ### <a name="none"></a><a name="none"></a>無
-[無] 方法只有當您在專案內透過**團隊**索引標籤進行預約時，才可使用。 此方法會新增資源做為專案上的團隊成員，但不會建立任何吸收資源產能的預約。 如果建立專案時新增預設專案經理團隊成員，會使用此方法。 建立專案的專案經理使用者預設會新增至專案，讓專案實體記錄有負責人，以及使專案存在一個核准者。 因為此使用者沒有任何預約，如果您確實想要預約資源，則可以使用不同的配置方法將資源刪除然後重新加入，或是將資源新增至工作，然後使用**協調**索引標籤上的**延長預約**來為指派建立預約。
+[無] 方法只有當您在專案內透過 **團隊** 索引標籤進行預約時，才可使用。 此方法會新增資源做為專案上的團隊成員，但不會建立任何吸收資源產能的預約。 如果建立專案時新增預設專案經理團隊成員，會使用此方法。 建立專案的專案經理使用者預設會新增至專案，讓專案實體記錄有負責人，以及使專案存在一個核准者。 因為此使用者沒有任何預約，如果您確實想要預約資源，則可以使用不同的配置方法將資源刪除然後重新加入，或是將資源新增至工作，然後使用 **協調** 索引標籤上的 **延長預約** 來為指派建立預約。
 
 ## <a name="allocation-methods-that-lead-to-overbooking"></a>導致過量預約的配置方法
 總而言之，如果資源已指定用於其他專案 (或已調撥給其他工單或可排程的實體)，下列配置方法將會導致過量預約：

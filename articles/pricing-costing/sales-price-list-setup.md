@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 2a66802adfcadab7b4d34149b146ca3cb27c903e
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 1d2c797b72666123eb0a18d2d0c1df9fe3d207f7
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896451"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073051"
 ---
 # <a name="sales-price-list-setup"></a>銷售價目表設定
 
@@ -47,7 +46,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 將專案價目表附加至銷售實體時，系統會驗證下列資訊：
 
-- 價目表的內容與**銷售**有關。 
+- 價目表的內容與 **銷售** 有關。 
 - 價目表貨幣與客戶貨幣相符。 
 
 在專案合約上，使用下列優先順序自動設定相關的專案價目表：
@@ -57,6 +56,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 3. 客戶 
 4. 全域設定 
 
-預設會輸入專案價目表時，系統會驗證貨幣是否與客戶貨幣相符，以及所輸入預設價目表的內容是否與**銷售**有關。
+預設會輸入專案價目表時，系統會驗證貨幣是否與客戶貨幣相符，以及所輸入預設價目表的內容是否與 **銷售** 有關。
 
 您可以將或多個專案價目表與客戶、商機、報價及專案合約銷售實體建立關聯。 此功能支援長期專案合約的日期特定預設價格，您可能需要多個價目表來處理因通貨膨脹而進行的價格更新。 不過，如果與客戶、商機、報價或專案合約實體建立關聯的價目表有重疊的有效日期範圍，則預設價格可能不正確。 因此，您必須確保有效日期範圍重疊的專案價目表未與這些實體相關聯。

@@ -3,23 +3,23 @@ title: 複製專案
 description: 本主題提供有關在 Dynamics 365 Project Operations 中複製專案的資訊。
 author: ruhercul
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e35dc725e7938e9f59f7151dd1b37500fabf77a4
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: cf80f2a1cd27aae33d123e45dee70d94ea4d01a9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907945"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072937"
 ---
 # <a name="copy-a-project"></a>複製專案
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
-有了 Dynamics 365 Project Operations，您就可以使用**專案**表單上的**複製專案動作**快速建置新的專案。 若要複製專案，請選取專案，然後選取**複製**。 此動作會複製：
+有了 Dynamics 365 Project Operations，您就可以選取 **專案** 表單上的 **複製專案** 快速建置新的專案。 若要複製專案，請開啟想要複製的專案，然後選取 **複製專案** 。 此動作會複製：
 
 - 專案屬性
 - 分工結構圖
@@ -58,4 +58,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 ## <a name="estimates"></a>估計值
 
-複製專案時，會從來源專案複製資源及費用估計明細。
+複製專案時，會從來源專案複製資源及費用估計明細。 
+
+如需有關如何以程式設計方式存取 [複製專案] 的詳細資訊，請參閱[使用 [複製專案] 開發專案範本](dev-copy-project.md)。

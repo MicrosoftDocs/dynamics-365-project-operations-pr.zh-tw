@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ffcfa8a9c8e31c5665acd3c3919fa90d36a3f3ca
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e875d1765b5038e60830d626abb5bcd61749ece1
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896721"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072881"
 ---
 # <a name="security-model"></a>安全性模型
 
@@ -36,10 +36,11 @@ Project Operations 前端功能包含下列角色：
 
 
 Microsoft Project 網頁版包含下列角色：
-| 角色                          | 描述                                                                                                          | Scope |                                                       
-|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-| 專案使用者 | 專案的共同作業使用者，他們可以建立自己的專案，並檢視任何與其共用的專案。| 使用者|
-| 專案系統 | 用於應用程式內容的角色。 客戶不應使用此系統角色。 | 全域|
+
+| 角色           | 描述                                                                                                        | Scope  |
+|----------------|--------------------------------------------------------------------------------------------------------------------|--------|
+| 專案使用者   | 專案的共同作業使用者，他們可以建立自己的專案，並檢視任何與其共用的專案。 | 使用者   |
+| 專案系統 | 用於應用程式內容的角色。 客戶不應使用此系統角色。                                    | 全域 |
 
 ## <a name="security-enforcement"></a>安全性強制
 在專案層級執行的動作會已登入使用者的內容中執行。 這表示要建立、開啟或刪除專案，使用者就必須具有可在 CDS 中使用的存取權。 CDS 中的存取權可能會透過平台提供的任何可能機制來授與。 例如，範圍較大的使用者可以存取專案，或者如果已執行授與使用者存取權的明確專案共用動作。
@@ -55,7 +56,9 @@ Project 網頁版會自動在指派時將使用者新增至群組。
 
 Project Operations 不會透過隱含式動作建立群組，只會透過按下群組的明確動作這樣做。
 
-**群組管理**對話方塊中的群組成員搜尋，僅限於已設定為環境安全性群組之一部分的人員。 如需詳細資訊，請參閱[控制使用者對環境的存取：安全性群組和授權](https://docs.microsoft.com/power-platform/admin/control-user-access)。
+**群組管理** 對話方塊中的群組成員搜尋，僅限於已設定為環境安全性群組之一部分的人員。 如需詳細資訊，請參閱[控制使用者對環境的存取：安全性群組和授權](https://docs.microsoft.com/power-platform/admin/control-user-access)。
+
+![群組模式](./media/groupsmode.png)
 
 1. 專案已建立並且由建立使用者所擁有。
 2. 專案負責人會更新為團隊。

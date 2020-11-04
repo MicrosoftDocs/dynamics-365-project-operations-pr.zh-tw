@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 741230e69302138cce8f7379f520f7178e1c80af
-ms.sourcegitcommit: fd8ea1779db2bb39a428f459ae3293c4fd785572
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3965741"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072928"
 ---
 # <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines"></a>管理產品型報價明細的複雜單位，例如按使用者、按月為單位
 
@@ -25,22 +25,22 @@ Dynamics 365 Project Operations 使用數量因數來支援以訂閱型產品的
 
 為了支援此類型的銷售，Project Operations 引進了數量因數的概念。 數量因數依賴 Dynamics 365 中的產品屬性。 設定產品的特定屬性時，Project Operations 可讓您將這些屬性子集或所有屬性標記為數量因數。
 
-Project Operations 會驗證是否只有含有數值資料類型的數值屬性或產品屬性，才會標記為數量因數。 當您將含有數量因數的產品新增至報價明細時，**數量**欄位會變成唯讀。 輸入數量因數的產品屬性值之後，Project Operations 會計算報價明細的數量。
+Project Operations 會驗證是否只有含有數值資料類型的數值屬性或產品屬性，才會標記為數量因數。 當您將含有數量因數的產品新增至報價明細時， **數量** 欄位會變成唯讀。 輸入數量因數的產品屬性值之後，Project Operations 會計算報價明細的數量。
 
 例如，Dynamics 365 Sales 可能有下列屬性：
 
-- **使用者數**：使用者的數目
-- **月數**：訂閱的月期數
+- **使用者數** ：使用者的數目
+- **月數** ：訂閱的月期數
 - **產品 SKU**
 
-您可以編輯產品明細的屬性，將**使用者數**和**月數**屬性標記為數量因數。
+您可以編輯產品明細的屬性，將 **使用者數** 和 **月數** 屬性標記為數量因數。
 
 若要從產品屬性建立數量因數，請依照下列步驟進行：
 
-1. 在 Project Operations 左導覽窗格上，移至**銷售** > **產品**。
+1. 在 Project Operations 左導覽窗格上，移至 **銷售** > **產品** 。
 2. 開啟需要設定數量因數的產品。 確定已設定產品的屬性。
-3. 在產品的**專案資訊**頁面上，選取**數量因數**索引標籤。
-4. 在子格中，選取 **+ 新增欄位計算**。
+3. 在產品的 **專案資訊** 頁面上，選取 **數量因數** 索引標籤。
+4. 在子格中，選取 **+ 新增欄位計算** 。
 5. 輸入數量因數的名稱，並選取對應至欄位計算的屬性值。
 6. 儲存後關閉表單。 針對所有要用於計算產品型報價明細數量的屬性，重複這些步驟。
 

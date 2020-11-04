@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: d050258ae457bb4392d5fa761442cfc7a444feb0
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966745"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072927"
 ---
 # <a name="summary-information-on-a-project-quote-sales"></a>專案報價的摘要資訊 (銷售)
 
@@ -25,7 +25,7 @@ _**適用於：** 精簡部署 - 交易至開立預估發票_
 
 | **欄位** | **位置** | **關聯性、目的和指引** | **下游影響** |
 | --- | --- | --- | --- |
-| 鍵入 | [摘要] 索引標籤 (隱藏) | 此選項組欄位具有下列選項：</br>- 工作型 (只有在 Project Operations 已安裝時提供)</br>- 項目型 (只有在 Project Operations 和 Sales 已安裝時提供)</br>- 服務維護型 (安裝 Dynamics 365 Field Service 時提供) | 使用 Project Operations 應用程式時，此欄位的值會自動設定為**工作型**。 這會將報價分類為專案型報價。 報價必須是專案型，才能啟用所有專案特定擴充和功能。 |
+| 鍵入 | [摘要] 索引標籤 (隱藏) | 此選項組欄位具有下列選項：</br>- 工作型 (只有在 Project Operations 已安裝時提供)</br>- 項目型 (只有在 Project Operations 和 Sales 已安裝時提供)</br>- 服務維護型 (安裝 Dynamics 365 Field Service 時提供) | 使用 Project Operations 應用程式時，此欄位的值會自動設定為 **工作型** 。 這會將報價分類為專案型報價。 報價必須是專案型，才能啟用所有專案特定擴充和功能。 |
 | 潛在客戶 | 摘要索引標籤 | 參考客戶的公司或客戶記錄。 根據商機建立報價時，此欄位是從商機的對應欄位複製而來。 | 專案報價上的貨幣是根據客戶的貨幣來設定預設值。 不過，這可以在儲存報價之前變更。 |
 | 客戶經理 | 摘要索引標籤 | 此交易之客戶經理的姓名。 根據商機建立報價時，此欄位是從商機的對應欄位複製而來。 | 客戶經理負責管理與客戶之間的關聯，直到此專案完成。 根據繫結至客戶經理的可預約資源記錄，專案報價上預設會使用合約單位。 |
 | 合約單位 | 摘要索引標籤 | 負責交付專案或與此報價相關之專案的組織單位。 根據商機建立報價時，此欄位是從商機的對應欄位複製而來。 | 合約單位是要在完成交易後執行專案的公司部門。 每個合約單位都有貨幣，而此貨幣可用來報告執行專案期間所產生的估計和實際成本。 |

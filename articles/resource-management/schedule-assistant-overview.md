@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: da551e805f395e466952df1dbb7d193bdddba358
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907936"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072852"
 ---
 # <a name="schedule-assistant-overview"></a>排程小幫手概觀
 
@@ -42,7 +42,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 ## <a name="launch-the-schedule-assistant"></a>啟動排程小幫手
 
-有兩種方式可以用來啟動排程小幫手。 如果您使用的是混合模式，則可以在團隊成員網格中選取任何有未履行資源需求的團隊成員，然後選取**預約**。 如果您使用的是集中模式，則資源管理員會尋找並選取資源。
+有兩種方式可以用來啟動排程小幫手。 如果您使用的是混合模式，則可以在團隊成員網格中選取任何有未履行資源需求的團隊成員，然後選取 **預約** 。 如果您使用的是集中模式，則資源管理員會尋找並選取資源。
 
 ## <a name="schedule-assistant-filters"></a>排程小幫手篩選
 

@@ -9,17 +9,17 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 06c6f06754714af3260ddb1c86aacc2f937ba77d
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897396"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072840"
 ---
 # <a name="close-an-opportunity"></a>關閉商機
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
-專案商機可以當做 [成交] 或 [未成交] 來關閉。 **關閉商機**對話方塊允許您在其中加入狀態原因、日期以及其他有關商機成交或未成交的詳細資料。
+專案商機可以當做 [成交] 或 [未成交] 來關閉。 **關閉商機** 對話方塊允許您在其中加入狀態原因、日期以及其他有關商機成交或未成交的詳細資料。
 
 如果商機有任何相關的使用中報價，則不允許您將其關閉。 您可以先將所有與商機相關聯的使用中及草稿報價同時關閉。 系統然後才會允許您關閉商機。
 

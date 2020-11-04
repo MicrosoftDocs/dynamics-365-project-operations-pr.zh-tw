@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: fa99783e52dbcdeaf80bbfd03df0f458f86b5e99
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896001"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072845"
 ---
 # <a name="bookings-vs-assignments"></a>預約與指派的比較
 
@@ -23,4 +23,4 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 指派是在專案排程中對專案工作的資源指派。 資源可以是實際或一般資源。 
 
-對於實際資源，預約與指派最好要一致，因為兩者並無差別。 不過，Microsoft Dynamics Project Operations 不會強制這樣的一致性。 **協調**檢視表會向專案經理顯示資源預約與指派不一致的地方。
+對於實際資源，預約與指派最好要一致，因為兩者並無差別。 不過，Microsoft Dynamics Project Operations 不會強制這樣的一致性。 **協調** 檢視表會向專案經理顯示資源預約與指派不一致的地方。

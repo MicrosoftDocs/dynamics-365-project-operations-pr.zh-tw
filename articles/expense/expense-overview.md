@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: 6da831fef5dba060b8019d7689645405c7ebdbed
-ms.sourcegitcommit: 0874b3d89e1dc0e65a51cedb82bf8f80831ca0bb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3967356"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072876"
 ---
 # <a name="expense-home-page"></a>費用首頁
 
@@ -24,8 +24,8 @@ Dynamics 365 Project Operations 支援處理費用的功能。 使用原則、�
 
 在 Project Operations 中，費用有兩個支援的部署模型： 
 
-- **完整**：**資源/非庫存型案例適用的 Project Operations** 或**生產訂單型案例適用的 Project Operations** 可以使用完整部署。
-- **基本**：**資源/非庫存型案例適用的 Project Operations**和**精簡部署 – 交易至開立預估發票**可以使用基本部署。
+- **完整** ： **資源/非庫存型案例適用的 Project Operations** 或 **生產訂單型案例適用的 Project Operations** 可以使用完整部署。
+- **基本** ： **資源/非庫存型案例適用的 Project Operations** 和 **精簡部署 – 交易至開立預估發票** 可以使用基本部署。
 
 ## <a name="full"></a>完整 
 完整費用部署提供完整原則強制，其中包含建立原則的功能，例如：
