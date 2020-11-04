@@ -8,71 +8,74 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ffcfa8a9c8e31c5665acd3c3919fa90d36a3f3ca
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e875d1765b5038e60830d626abb5bcd61749ece1
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896721"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072881"
 ---
-# <a name="security-model"></a>安全性模型
+# <a name="security-model"></a><span data-ttu-id="5dd0d-103">安全性模型</span><span class="sxs-lookup"><span data-stu-id="5dd0d-103">Security Model</span></span>
 
-_**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
+<span data-ttu-id="5dd0d-104">_**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_</span><span class="sxs-lookup"><span data-stu-id="5dd0d-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-Microsoft Dynamics 365 Project Operations 包含獨特安全性模型，允許與 Microsoft Office 群組共同作業的角色型業務安全性模型。 
+<span data-ttu-id="5dd0d-105">Microsoft Dynamics 365 Project Operations 包含獨特安全性模型，允許與 Microsoft Office 群組共同作業的角色型業務安全性模型。</span><span class="sxs-lookup"><span data-stu-id="5dd0d-105">Microsoft Dynamics 365 Project Operations contains a unique security model that allows for a role-based business security model that collaborates with Microsoft Office Groups.</span></span> 
 
 
-## <a name="security-roles"></a>安全性角色
-Project Operations 前端功能包含下列角色：
+## <a name="security-roles"></a><span data-ttu-id="5dd0d-106">安全性角色</span><span class="sxs-lookup"><span data-stu-id="5dd0d-106">Security roles</span></span>
+<span data-ttu-id="5dd0d-107">Project Operations 前端功能包含下列角色：</span><span class="sxs-lookup"><span data-stu-id="5dd0d-107">Project Operations front-end capabilities include the following roles:</span></span>
 
-| 角色                          | 描述                                                                                                                                                                 | Scope |
+| <span data-ttu-id="5dd0d-108">角色</span><span class="sxs-lookup"><span data-stu-id="5dd0d-108">Role</span></span>                          | <span data-ttu-id="5dd0d-109">描述</span><span class="sxs-lookup"><span data-stu-id="5dd0d-109">Description</span></span>                                                                                                                                                                 | <span data-ttu-id="5dd0d-110">Scope</span><span class="sxs-lookup"><span data-stu-id="5dd0d-110">Scope</span></span> |
 |-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------|
-| 實務經理              | 支援跨專案報表。                                                                                                            | 營業單位              |
-| 專案核准者              | 核准專案的時間和費用。                                                                                                                              | 營業單位 |
-| 專案帳務管理員 | 建立發票提案。                                                                                                                                                 | 營業單位 |
-| 專案經理               | 建立專案計劃並要求資源。                                                                                                                              | 營業單位 |
-| 專案資源              | 可供預約和報告時間的團隊成員。                                                                                                          | 營業單位|
-| 資源管理員              | 所有資源管理功能 (例如履行資源要求和預約)，分別支援混合式「專案經理 + 資源管理員」設定以及單一和集中式資源管理員角色。 | 營業單位 |
+| <span data-ttu-id="5dd0d-111">實務經理</span><span class="sxs-lookup"><span data-stu-id="5dd0d-111">Practice manager</span></span>              | <span data-ttu-id="5dd0d-112">支援跨專案報表。</span><span class="sxs-lookup"><span data-stu-id="5dd0d-112">Supports cross-project reporting.</span></span>                                                                                                            | <span data-ttu-id="5dd0d-113">營業單位</span><span class="sxs-lookup"><span data-stu-id="5dd0d-113">Business unit</span></span>              |
+| <span data-ttu-id="5dd0d-114">專案核准者</span><span class="sxs-lookup"><span data-stu-id="5dd0d-114">Project approver</span></span>              | <span data-ttu-id="5dd0d-115">核准專案的時間和費用。</span><span class="sxs-lookup"><span data-stu-id="5dd0d-115">Approves time and expenses against a project.</span></span>                                                                                                                              | <span data-ttu-id="5dd0d-116">營業單位</span><span class="sxs-lookup"><span data-stu-id="5dd0d-116">Business unit</span></span> |
+| <span data-ttu-id="5dd0d-117">專案帳務管理員</span><span class="sxs-lookup"><span data-stu-id="5dd0d-117">Project billing administrator</span></span> | <span data-ttu-id="5dd0d-118">建立發票提案。</span><span class="sxs-lookup"><span data-stu-id="5dd0d-118">Creates the invoice proposal.</span></span>                                                                                                                                                 | <span data-ttu-id="5dd0d-119">營業單位</span><span class="sxs-lookup"><span data-stu-id="5dd0d-119">Business unit</span></span> |
+| <span data-ttu-id="5dd0d-120">專案經理</span><span class="sxs-lookup"><span data-stu-id="5dd0d-120">Project manager</span></span>               | <span data-ttu-id="5dd0d-121">建立專案計劃並要求資源。</span><span class="sxs-lookup"><span data-stu-id="5dd0d-121">Creates the project plan and requests resources.</span></span>                                                                                                                              | <span data-ttu-id="5dd0d-122">營業單位</span><span class="sxs-lookup"><span data-stu-id="5dd0d-122">Business unit</span></span> |
+| <span data-ttu-id="5dd0d-123">專案資源</span><span class="sxs-lookup"><span data-stu-id="5dd0d-123">Project resource</span></span>              | <span data-ttu-id="5dd0d-124">可供預約和報告時間的團隊成員。</span><span class="sxs-lookup"><span data-stu-id="5dd0d-124">Team members who can be booked and report time.</span></span>                                                                                                          | <span data-ttu-id="5dd0d-125">營業單位</span><span class="sxs-lookup"><span data-stu-id="5dd0d-125">Business unit</span></span>|
+| <span data-ttu-id="5dd0d-126">資源管理員</span><span class="sxs-lookup"><span data-stu-id="5dd0d-126">Resource manager</span></span>              | <span data-ttu-id="5dd0d-127">所有資源管理功能 (例如履行資源要求和預約)，分別支援混合式「專案經理 + 資源管理員」設定以及單一和集中式資源管理員角色。</span><span class="sxs-lookup"><span data-stu-id="5dd0d-127">All resource management functions, such as fulfill resource requests and bookings, separated to support a hybrid Project manager + Resource manager configuration and a single and centralized Resource manager role.</span></span> | <span data-ttu-id="5dd0d-128">營業單位</span><span class="sxs-lookup"><span data-stu-id="5dd0d-128">Business unit</span></span> |
 
 
-Microsoft Project 網頁版包含下列角色：
-| 角色                          | 描述                                                                                                          | Scope |                                                       
-|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-| 專案使用者 | 專案的共同作業使用者，他們可以建立自己的專案，並檢視任何與其共用的專案。| 使用者|
-| 專案系統 | 用於應用程式內容的角色。 客戶不應使用此系統角色。 | 全域|
+<span data-ttu-id="5dd0d-129">Microsoft Project 網頁版包含下列角色：</span><span class="sxs-lookup"><span data-stu-id="5dd0d-129">Microsoft Project for the Web includes the following roles:</span></span>
 
-## <a name="security-enforcement"></a>安全性強制
-在專案層級執行的動作會已登入使用者的內容中執行。 這表示要建立、開啟或刪除專案，使用者就必須具有可在 CDS 中使用的存取權。 CDS 中的存取權可能會透過平台提供的任何可能機制來授與。 例如，範圍較大的使用者可以存取專案，或者如果已執行授與使用者存取權的明確專案共用動作。
+| <span data-ttu-id="5dd0d-130">角色</span><span class="sxs-lookup"><span data-stu-id="5dd0d-130">Role</span></span>           | <span data-ttu-id="5dd0d-131">描述</span><span class="sxs-lookup"><span data-stu-id="5dd0d-131">Description</span></span>                                                                                                        | <span data-ttu-id="5dd0d-132">Scope</span><span class="sxs-lookup"><span data-stu-id="5dd0d-132">Scope</span></span>  |
+|----------------|--------------------------------------------------------------------------------------------------------------------|--------|
+| <span data-ttu-id="5dd0d-133">專案使用者</span><span class="sxs-lookup"><span data-stu-id="5dd0d-133">Project user</span></span>   | <span data-ttu-id="5dd0d-134">專案的共同作業使用者，他們可以建立自己的專案，並檢視任何與其共用的專案。</span><span class="sxs-lookup"><span data-stu-id="5dd0d-134">Collaborative user of Project   who is able to create their own projects and view any projects shared with   them.</span></span> | <span data-ttu-id="5dd0d-135">使用者</span><span class="sxs-lookup"><span data-stu-id="5dd0d-135">User</span></span>   |
+| <span data-ttu-id="5dd0d-136">專案系統</span><span class="sxs-lookup"><span data-stu-id="5dd0d-136">Project system</span></span> | <span data-ttu-id="5dd0d-137">用於應用程式內容的角色。</span><span class="sxs-lookup"><span data-stu-id="5dd0d-137">Role used for application   context.</span></span> <span data-ttu-id="5dd0d-138">客戶不應使用此系統角色。</span><span class="sxs-lookup"><span data-stu-id="5dd0d-138">Customers should not use this system role.</span></span>                                    | <span data-ttu-id="5dd0d-139">全域</span><span class="sxs-lookup"><span data-stu-id="5dd0d-139">Global</span></span> |
 
-在 Project Operations 中建立專案時，請務必要考慮這一點。
+## <a name="security-enforcement"></a><span data-ttu-id="5dd0d-140">安全性強制</span><span class="sxs-lookup"><span data-stu-id="5dd0d-140">Security enforcement</span></span>
+<span data-ttu-id="5dd0d-141">在專案層級執行的動作會已登入使用者的內容中執行。</span><span class="sxs-lookup"><span data-stu-id="5dd0d-141">Actions that are performed at the project level are performed in the context of the logged in user.</span></span> <span data-ttu-id="5dd0d-142">這表示要建立、開啟或刪除專案，使用者就必須具有可在 CDS 中使用的存取權。</span><span class="sxs-lookup"><span data-stu-id="5dd0d-142">This means that in order to create, open, or delete a project, the user is required to have access available in CDS.</span></span> <span data-ttu-id="5dd0d-143">CDS 中的存取權可能會透過平台提供的任何可能機制來授與。</span><span class="sxs-lookup"><span data-stu-id="5dd0d-143">Access in CDS may be granted through any of the possible mechanisms included in the platform.</span></span> <span data-ttu-id="5dd0d-144">例如，範圍較大的使用者可以存取專案，或者如果已執行授與使用者存取權的明確專案共用動作。</span><span class="sxs-lookup"><span data-stu-id="5dd0d-144">For example, a user with a larger scope may access the project or if an explicit project share action has been performed which grants the user access.</span></span>
 
-## <a name="modern-group-collaboration-with-project-operations"></a>使用 Project Operations 的新式群組共同作業
-Project 網頁版和 Project Operations 支援新式共同作業群組。 透過群組新增至專案的使用者可以編輯專案計劃。
+<span data-ttu-id="5dd0d-145">在 Project Operations 中建立專案時，請務必要考慮這一點。</span><span class="sxs-lookup"><span data-stu-id="5dd0d-145">It's important to consider this when creating projects in Project Operations.</span></span>
 
-Project 網頁版會自動在指派時將使用者新增至群組。
+## <a name="modern-group-collaboration-with-project-operations"></a><span data-ttu-id="5dd0d-146">使用 Project Operations 的新式群組共同作業</span><span class="sxs-lookup"><span data-stu-id="5dd0d-146">Modern group collaboration with Project Operations</span></span>
+<span data-ttu-id="5dd0d-147">Project 網頁版和 Project Operations 支援新式共同作業群組。</span><span class="sxs-lookup"><span data-stu-id="5dd0d-147">Project for the Web and Project Operations support modern groups for collaboration.</span></span> <span data-ttu-id="5dd0d-148">透過群組新增至專案的使用者可以編輯專案計劃。</span><span class="sxs-lookup"><span data-stu-id="5dd0d-148">Users added to the project through a group are able to edit the project plan.</span></span>
 
-群組允許專案權限，並且可以支援共同處理共同作業成品。 下圖描述執行群組指派程序時發生的事件和狀態變更。
+<span data-ttu-id="5dd0d-149">Project 網頁版會自動在指派時將使用者新增至群組。</span><span class="sxs-lookup"><span data-stu-id="5dd0d-149">Project for the Web adds users to the group automatically upon assignment.</span></span>
 
-Project Operations 不會透過隱含式動作建立群組，只會透過按下群組的明確動作這樣做。
+<span data-ttu-id="5dd0d-150">群組允許專案權限，並且可以支援共同處理共同作業成品。</span><span class="sxs-lookup"><span data-stu-id="5dd0d-150">Groups allow the permissions of the project and supporting collaboration artifacts to be worked on collaboratively.</span></span> <span data-ttu-id="5dd0d-151">下圖描述執行群組指派程序時發生的事件和狀態變更。</span><span class="sxs-lookup"><span data-stu-id="5dd0d-151">The following diagram depicts the events and state changes that happen during the group assignment process.</span></span>
 
-**群組管理**對話方塊中的群組成員搜尋，僅限於已設定為環境安全性群組之一部分的人員。 如需詳細資訊，請參閱[控制使用者對環境的存取：安全性群組和授權](https://docs.microsoft.com/power-platform/admin/control-user-access)。
+<span data-ttu-id="5dd0d-152">Project Operations 不會透過隱含式動作建立群組，只會透過按下群組的明確動作這樣做。</span><span class="sxs-lookup"><span data-stu-id="5dd0d-152">Project Operations does not create a group through implicit action and only does so through the explicit action of pressing groups.</span></span>
 
-1. 專案已建立並且由建立使用者所擁有。
-2. 專案負責人會更新為團隊。
-3. 負責人團隊會對應至指定的或建立的 Office 群組。
-4. 專案的原始負責人會新增至 Office 群組。
+<span data-ttu-id="5dd0d-153">**群組管理** 對話方塊中的群組成員搜尋，僅限於已設定為環境安全性群組之一部分的人員。</span><span class="sxs-lookup"><span data-stu-id="5dd0d-153">Group member search in the **Group management** dialog, is limited to those who are set as part of the environment's security group.</span></span> <span data-ttu-id="5dd0d-154">如需詳細資訊，請參閱[控制使用者對環境的存取：安全性群組和授權](https://docs.microsoft.com/power-platform/admin/control-user-access)。</span><span class="sxs-lookup"><span data-stu-id="5dd0d-154">For more information, see [Control user access to environments: security groups and licenses](https://docs.microsoft.com/power-platform/admin/control-user-access).</span></span>
 
-## <a name="deployment-recommendation"></a>部署建議
-隨著 Office 群組共同作業模型的演變，將會不斷新增功能，與時俱進地提供更精細的控制。 現今部署 Project Operations 的使用者，最好還是將重點放在傳統 Microsoft Dynamics 365 安全性模型上。
+![群組模式](./media/groupsmode.png)
 
-如需詳細資訊，請參閱 [Common Data Service 中的安全性](https://docs.microsoft.com/power-platform/admin/wp-security)。
+1. <span data-ttu-id="5dd0d-156">專案已建立並且由建立使用者所擁有。</span><span class="sxs-lookup"><span data-stu-id="5dd0d-156">The Project is created and owned by the creating User.</span></span>
+2. <span data-ttu-id="5dd0d-157">專案負責人會更新為團隊。</span><span class="sxs-lookup"><span data-stu-id="5dd0d-157">The Project owner is updated to the team.</span></span>
+3. <span data-ttu-id="5dd0d-158">負責人團隊會對應至指定的或建立的 Office 群組。</span><span class="sxs-lookup"><span data-stu-id="5dd0d-158">The Owner team is mapped to the specified or created Office Group.</span></span>
+4. <span data-ttu-id="5dd0d-159">專案的原始負責人會新增至 Office 群組。</span><span class="sxs-lookup"><span data-stu-id="5dd0d-159">The original owner of the Project is added to the Office Group.</span></span>
 
-## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Project Operations 和 Microsoft Dynamics 365 Finance 安全性
-Project Operations 包含下列角色：
+## <a name="deployment-recommendation"></a><span data-ttu-id="5dd0d-160">部署建議</span><span class="sxs-lookup"><span data-stu-id="5dd0d-160">Deployment recommendation</span></span>
+<span data-ttu-id="5dd0d-161">隨著 Office 群組共同作業模型的演變，將會不斷新增功能，與時俱進地提供更精細的控制。</span><span class="sxs-lookup"><span data-stu-id="5dd0d-161">As the Office group collaboration model evolves, functionality will be added to provide more detailed control over time.</span></span> <span data-ttu-id="5dd0d-162">現今部署 Project Operations 的使用者，最好還是將重點放在傳統 Microsoft Dynamics 365 安全性模型上。</span><span class="sxs-lookup"><span data-stu-id="5dd0d-162">Customers that deploy Project Operations today are encouraged to focus on a traditional Microsoft Dynamics 365 security model.</span></span>
 
-- 專案經理
-- 專案會計師
+<span data-ttu-id="5dd0d-163">如需詳細資訊，請參閱 [Common Data Service 中的安全性](https://docs.microsoft.com/power-platform/admin/wp-security)。</span><span class="sxs-lookup"><span data-stu-id="5dd0d-163">For more information, see [Security in Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).</span></span>
 
-如需有關 Finance 中安全性的詳細資訊，請參閱[角色型安全性](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security)。
+## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a><span data-ttu-id="5dd0d-164">Project Operations 和 Microsoft Dynamics 365 Finance 安全性</span><span class="sxs-lookup"><span data-stu-id="5dd0d-164">Project Operations and Microsoft Dynamics 365 Finance security</span></span>
+<span data-ttu-id="5dd0d-165">Project Operations 包含下列角色：</span><span class="sxs-lookup"><span data-stu-id="5dd0d-165">Project Operations includes the following roles:</span></span>
+
+- <span data-ttu-id="5dd0d-166">專案經理</span><span class="sxs-lookup"><span data-stu-id="5dd0d-166">Project manager</span></span>
+- <span data-ttu-id="5dd0d-167">專案會計師</span><span class="sxs-lookup"><span data-stu-id="5dd0d-167">Project accountant</span></span>
+
+<span data-ttu-id="5dd0d-168">如需有關 Finance 中安全性的詳細資訊，請參閱[角色型安全性](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security)。</span><span class="sxs-lookup"><span data-stu-id="5dd0d-168">For more information about security in Finance, see [Role-based security](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).</span></span>
 
 

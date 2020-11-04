@@ -9,66 +9,66 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 005e36811643b0b1e98a686792cf39125ae97949
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896316"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072925"
 ---
-# <a name="manage-leads-pro"></a>管理潛在客戶 (專案版)
+# <a name="manage-leads-pro"></a><span data-ttu-id="0aea3-103">管理潛在客戶 (專案版)</span><span class="sxs-lookup"><span data-stu-id="0aea3-103">Manage leads (Pro)</span></span>
 
-_**適用於：** 精簡部署 - 交易至開立預估發票_
+<span data-ttu-id="0aea3-104">_**適用於：** 精簡部署 - 交易至開立預估發票_</span><span class="sxs-lookup"><span data-stu-id="0aea3-104">_**Applies To:** Lite deployment - deal to proforma invoicing_</span></span>
 
-在 Project Operations 中，可以管理專案型潛在客戶並授與其資格。 潛在客戶管理程序包括建立工作型潛在客戶以及授與這些潛在客戶資格。 
+<span data-ttu-id="0aea3-105">在 Project Operations 中，可以管理專案型潛在客戶並授與其資格。</span><span class="sxs-lookup"><span data-stu-id="0aea3-105">Project-based leads can be managed and qualified in Project Operations.</span></span> <span data-ttu-id="0aea3-106">潛在客戶管理程序包括建立工作型潛在客戶以及授與這些潛在客戶資格。</span><span class="sxs-lookup"><span data-stu-id="0aea3-106">The process of lead management includes creating work-based leads and qualifying those leads.</span></span> 
 
-## <a name="list-of-project-sales-leads"></a>專案銷售潛在客戶清單
+## <a name="list-of-project-sales-leads"></a><span data-ttu-id="0aea3-107">專案銷售潛在客戶清單</span><span class="sxs-lookup"><span data-stu-id="0aea3-107">List of Project sales leads</span></span>
 
-在**銷售**區段的左導覽窗格中，開啟**潛在客戶**清單頁面，以檢視系統中所有潛在客戶記錄的清單。 如果您也有 Dynamics 365 Sales 或 Dynamics 365 Field Service 應用程式，則顯示的潛在客戶清單是工作型潛在客戶及其他可建立之類型的潛在客戶。
+<span data-ttu-id="0aea3-108">在 **銷售** 區段的左導覽窗格中，開啟 **潛在客戶** 清單頁面，以檢視系統中所有潛在客戶記錄的清單。</span><span class="sxs-lookup"><span data-stu-id="0aea3-108">In the **Sales** section, in the left navigation pane, open the **Leads** list page to view a list of all lead records in the system.</span></span> <span data-ttu-id="0aea3-109">如果您也有 Dynamics 365 Sales 或 Dynamics 365 Field Service 應用程式，則顯示的潛在客戶清單是工作型潛在客戶及其他可建立之類型的潛在客戶。</span><span class="sxs-lookup"><span data-stu-id="0aea3-109">The list of leads shown are work-based and other types of leads that can be created if you also have the Dynamics 365 Sales or Dynamics 365 Field Service applications.</span></span>
 
-您可以建立依據**類型**值的篩選來建立篩選過的檢視，只查看專案型潛在客戶。 例如，您可以選擇只顯示工作型潛在客戶。
+<span data-ttu-id="0aea3-110">您可以建立依據 **類型** 值的篩選來建立篩選過的檢視，只查看專案型潛在客戶。</span><span class="sxs-lookup"><span data-stu-id="0aea3-110">You can create a filtered view to see only project-based leads by creating a filter on the **Type** value.</span></span> <span data-ttu-id="0aea3-111">例如，您可以選擇只顯示工作型潛在客戶。</span><span class="sxs-lookup"><span data-stu-id="0aea3-111">For example, you can select to show only work-based leads.</span></span>
 
-## <a name="creating-a-new-lead-for-a-project-based-deal"></a>建立專案型交易的新潛在客戶
+## <a name="creating-a-new-lead-for-a-project-based-deal"></a><span data-ttu-id="0aea3-112">建立專案型交易的新潛在客戶</span><span class="sxs-lookup"><span data-stu-id="0aea3-112">Creating a new lead for a project-based deal</span></span>
 
-授與專案型潛在客戶資格時，會建立商機和客戶。 專案型商機是商機階段中銷售追隨活動的起點。 專案型商機具有銷售專案工作所需的獨特功能。 這些功能包括：
+<span data-ttu-id="0aea3-113">授與專案型潛在客戶資格時，會建立商機和客戶。</span><span class="sxs-lookup"><span data-stu-id="0aea3-113">When a project-based lead is qualified, an opportunity and an account are created.</span></span> <span data-ttu-id="0aea3-114">專案型商機是商機階段中銷售追隨活動的起點。</span><span class="sxs-lookup"><span data-stu-id="0aea3-114">A project-based opportunity is the starting point for sales pursuit activities in the Opportunity phase.</span></span> <span data-ttu-id="0aea3-115">專案型商機具有銷售專案工作所需的獨特功能。</span><span class="sxs-lookup"><span data-stu-id="0aea3-115">Project-based opportunities have unique capabilities that are required for selling project work.</span></span> <span data-ttu-id="0aea3-116">這些功能包括：</span><span class="sxs-lookup"><span data-stu-id="0aea3-116">These capabilities include:</span></span>
 
-- 時間和材料以及固定價格帳務方式
-- 專案上所產生人力資源、費用和材料的多個有效日期價目表。
+- <span data-ttu-id="0aea3-117">時間和材料以及固定價格帳務方式</span><span class="sxs-lookup"><span data-stu-id="0aea3-117">Time and material and Fixed Price billing methods</span></span>
+- <span data-ttu-id="0aea3-118">專案上所產生人力資源、費用和材料的多個有效日期價目表。</span><span class="sxs-lookup"><span data-stu-id="0aea3-118">Multiple date effective price lists for human resources, expenses, and material incurred on projects.</span></span>
 
-為了讓合格的潛在客戶自動建立商機，請在建立潛在客戶時，將**類型**屬性設定為**工作型**。 如果您選擇不同的類型，則潛在客戶無法在授與其資格時建立專案型商機。 如果未建立專案型商機，則下游銷售處理中將無法使用專案特定的功能。
+<span data-ttu-id="0aea3-119">為了讓合格的潛在客戶自動建立商機，請在建立潛在客戶時，將 **類型** 屬性設定為 **工作型** 。</span><span class="sxs-lookup"><span data-stu-id="0aea3-119">For a qualified lead to automatically create an opportunity, set the **Type** attribute to **Work-based** when you create the lead.</span></span> <span data-ttu-id="0aea3-120">如果您選擇不同的類型，則潛在客戶無法在授與其資格時建立專案型商機。</span><span class="sxs-lookup"><span data-stu-id="0aea3-120">If you choose a different type, the lead won't create a project-based opportunity when it is qualified.</span></span> <span data-ttu-id="0aea3-121">如果未建立專案型商機，則下游銷售處理中將無法使用專案特定的功能。</span><span class="sxs-lookup"><span data-stu-id="0aea3-121">If the project-based opportunity isn't created, the project-specific capabilities won't be available in the downstream sales processes.</span></span>
 
-下表包含潛在客戶的重要欄位資訊，以及這些欄位的下游含意。
+<span data-ttu-id="0aea3-122">下表包含潛在客戶的重要欄位資訊，以及這些欄位的下游含意。</span><span class="sxs-lookup"><span data-stu-id="0aea3-122">The following table includes important field information for a lead, and the downstream implications of those fields.</span></span>
 
-| **欄位** | **位置** | **關聯性、目的和指引** | **下游影響** |
+| <span data-ttu-id="0aea3-123">**欄位**</span><span class="sxs-lookup"><span data-stu-id="0aea3-123">**Field**</span></span> | <span data-ttu-id="0aea3-124">**位置**</span><span class="sxs-lookup"><span data-stu-id="0aea3-124">**Location**</span></span> | <span data-ttu-id="0aea3-125">**關聯性、目的和指引**</span><span class="sxs-lookup"><span data-stu-id="0aea3-125">**Relevance, purpose, and guidance**</span></span> | <span data-ttu-id="0aea3-126">**下游影響**</span><span class="sxs-lookup"><span data-stu-id="0aea3-126">**Downstream impact**</span></span> |
 | --- | --- | --- | --- |
-| 主題 | [一般] 索引標籤 | 此文字欄位應包含交易的簡短描述。 | 潛在客戶的主題會預設為商機的主題，以及報價與專案合約的名稱。 |
-| 鍵入 | [一般] 索引標籤 | 此選項組欄位具有下列選項：</br>- 工作型 (只有在 Project Operations 已安裝時提供)</br>- 項目型 (只有在 Project Operations 和 Sales 已安裝時提供)</br>- 服務維護型 (安裝 Field Service 時提供) | 此欄位的值在潛在客戶上設定為**工作型**時，會授與潛在客戶資格以建立專案型商機。 若要在此交易的下游銷售處理中啟用所有專案特定擴充及功能，必須有專案型商機。 |
-| 名字 | [一般] 索引標籤 | 潛在客戶連絡人的名字 | 授與專案型潛在客戶資格時，會建立客戶、連絡人和商機。 連絡人的名字是此處所設定的值。 |
-| 姓氏 | [一般] 索引標籤 | 潛在客戶連絡人的姓氏 | 授與專案型潛在客戶資格時，會建立客戶、連絡人和商機。 連絡人姓氏是此處所設定的值。 |
-| 公司 | [一般] 索引標籤 | 潛在客戶公司的名稱 | 授與專案型潛在客戶資格時，會建立客戶、連絡人和商機。 已建立客戶的名稱是此處所設定的值。 |
-| 貨幣 | 詳細資料索引標籤 | 潛在客戶的貨幣 | 授與專案型潛在客戶資格時，會建立客戶、連絡人和商機。 已建立客戶的貨幣是此處所設定的值。 |
+| <span data-ttu-id="0aea3-127">主題</span><span class="sxs-lookup"><span data-stu-id="0aea3-127">Topic</span></span> | <span data-ttu-id="0aea3-128">[一般] 索引標籤</span><span class="sxs-lookup"><span data-stu-id="0aea3-128">General tab</span></span> | <span data-ttu-id="0aea3-129">此文字欄位應包含交易的簡短描述。</span><span class="sxs-lookup"><span data-stu-id="0aea3-129">This text field and should contain a short description of the deal.</span></span> | <span data-ttu-id="0aea3-130">潛在客戶的主題會預設為商機的主題，以及報價與專案合約的名稱。</span><span class="sxs-lookup"><span data-stu-id="0aea3-130">The topic of the lead will default as the topic of the Opportunity, and the name of Quote and Project contract.</span></span> |
+| <span data-ttu-id="0aea3-131">鍵入</span><span class="sxs-lookup"><span data-stu-id="0aea3-131">Type</span></span> | <span data-ttu-id="0aea3-132">[一般] 索引標籤</span><span class="sxs-lookup"><span data-stu-id="0aea3-132">General tab</span></span> | <span data-ttu-id="0aea3-133">此選項組欄位具有下列選項：</span><span class="sxs-lookup"><span data-stu-id="0aea3-133">This option set field has the following options:</span></span></br><span data-ttu-id="0aea3-134">- 工作型 (只有在 Project Operations 已安裝時提供)</span><span class="sxs-lookup"><span data-stu-id="0aea3-134">- Work-based (available only when Project Operations is installed)</span></span></br><span data-ttu-id="0aea3-135">- 項目型 (只有在 Project Operations 和 Sales 已安裝時提供)</span><span class="sxs-lookup"><span data-stu-id="0aea3-135">- Item-based (available only when Project Operations and Sales are installed)</span></span></br><span data-ttu-id="0aea3-136">- 服務維護型 (安裝 Field Service 時提供)</span><span class="sxs-lookup"><span data-stu-id="0aea3-136">- Service maintenance-based (available when Field Service is installed)</span></span> | <span data-ttu-id="0aea3-137">此欄位的值在潛在客戶上設定為 **工作型** 時，會授與潛在客戶資格以建立專案型商機。</span><span class="sxs-lookup"><span data-stu-id="0aea3-137">When the value of this field is set to **Work-based** on the lead, the lead is qualified to create a Project-based Opportunity.</span></span> <span data-ttu-id="0aea3-138">若要在此交易的下游銷售處理中啟用所有專案特定擴充及功能，必須有專案型商機。</span><span class="sxs-lookup"><span data-stu-id="0aea3-138">A project-based opportunity is required to enable all project-specific extensions and functionality in the downstream sales process for this deal.</span></span> |
+| <span data-ttu-id="0aea3-139">名字</span><span class="sxs-lookup"><span data-stu-id="0aea3-139">First name</span></span> | <span data-ttu-id="0aea3-140">[一般] 索引標籤</span><span class="sxs-lookup"><span data-stu-id="0aea3-140">General tab</span></span> | <span data-ttu-id="0aea3-141">潛在客戶連絡人的名字</span><span class="sxs-lookup"><span data-stu-id="0aea3-141">First name of the prospect's contact</span></span> | <span data-ttu-id="0aea3-142">授與專案型潛在客戶資格時，會建立客戶、連絡人和商機。</span><span class="sxs-lookup"><span data-stu-id="0aea3-142">When the lead is qualified, an account, contact, and opportunity are created.</span></span> <span data-ttu-id="0aea3-143">連絡人的名字是此處所設定的值。</span><span class="sxs-lookup"><span data-stu-id="0aea3-143">The first name of the contact is the value set here.</span></span> |
+| <span data-ttu-id="0aea3-144">姓氏</span><span class="sxs-lookup"><span data-stu-id="0aea3-144">Last name</span></span> | <span data-ttu-id="0aea3-145">[一般] 索引標籤</span><span class="sxs-lookup"><span data-stu-id="0aea3-145">General tab</span></span> | <span data-ttu-id="0aea3-146">潛在客戶連絡人的姓氏</span><span class="sxs-lookup"><span data-stu-id="0aea3-146">Last name of the prospect's contact</span></span> | <span data-ttu-id="0aea3-147">授與專案型潛在客戶資格時，會建立客戶、連絡人和商機。</span><span class="sxs-lookup"><span data-stu-id="0aea3-147">When the lead is qualified, an account, contact, and opportunity are created.</span></span> <span data-ttu-id="0aea3-148">連絡人姓氏是此處所設定的值。</span><span class="sxs-lookup"><span data-stu-id="0aea3-148">The last name of the contact is the value set here.</span></span> |
+| <span data-ttu-id="0aea3-149">公司</span><span class="sxs-lookup"><span data-stu-id="0aea3-149">Company</span></span> | <span data-ttu-id="0aea3-150">[一般] 索引標籤</span><span class="sxs-lookup"><span data-stu-id="0aea3-150">General tab</span></span> | <span data-ttu-id="0aea3-151">潛在客戶公司的名稱</span><span class="sxs-lookup"><span data-stu-id="0aea3-151">Name of the prospect customer's company</span></span> | <span data-ttu-id="0aea3-152">授與專案型潛在客戶資格時，會建立客戶、連絡人和商機。</span><span class="sxs-lookup"><span data-stu-id="0aea3-152">When the lead is qualified, an account, contact, and opportunity are created.</span></span> <span data-ttu-id="0aea3-153">已建立客戶的名稱是此處所設定的值。</span><span class="sxs-lookup"><span data-stu-id="0aea3-153">The name of the account created is the value set here.</span></span> |
+| <span data-ttu-id="0aea3-154">貨幣</span><span class="sxs-lookup"><span data-stu-id="0aea3-154">Currency</span></span> | <span data-ttu-id="0aea3-155">詳細資料索引標籤</span><span class="sxs-lookup"><span data-stu-id="0aea3-155">Details tab</span></span> | <span data-ttu-id="0aea3-156">潛在客戶的貨幣</span><span class="sxs-lookup"><span data-stu-id="0aea3-156">Prospect customer's currency</span></span> | <span data-ttu-id="0aea3-157">授與專案型潛在客戶資格時，會建立客戶、連絡人和商機。</span><span class="sxs-lookup"><span data-stu-id="0aea3-157">When the lead is qualified, an account, contact, and opportunity are created.</span></span> <span data-ttu-id="0aea3-158">已建立客戶的貨幣是此處所設定的值。</span><span class="sxs-lookup"><span data-stu-id="0aea3-158">The currency of the account created is the value set here.</span></span> |
 
-## <a name="qualify-a-new-project-based-lead"></a>授與新專案型潛在客戶資格
+## <a name="qualify-a-new-project-based-lead"></a><span data-ttu-id="0aea3-159">授與新專案型潛在客戶資格</span><span class="sxs-lookup"><span data-stu-id="0aea3-159">Qualify a new project-based lead</span></span>
 
-**類型**值設定為**工作型**的潛在客戶稱為專案型潛在客戶。 授與專案型潛在客戶資格時，會建立下列項目：
+<span data-ttu-id="0aea3-160">**類型** 值設定為 **工作型** 的潛在客戶稱為專案型潛在客戶。</span><span class="sxs-lookup"><span data-stu-id="0aea3-160">Leads that have the **Type** value set to **Work-based** are called project-based leads.</span></span> <span data-ttu-id="0aea3-161">授與專案型潛在客戶資格時，會建立下列項目：</span><span class="sxs-lookup"><span data-stu-id="0aea3-161">When a project-based lead is qualified, the following is created:</span></span>
 
-- 使用潛在客戶**公司**欄位的客戶。
-- 與採用潛在客戶**名字**及**姓氏**欄位值之客戶相關聯的連絡人記錄。
-- **類型**欄位已設定為&quot;**工作型**的專案型商機。
+- <span data-ttu-id="0aea3-162">使用潛在客戶 **公司** 欄位的客戶。</span><span class="sxs-lookup"><span data-stu-id="0aea3-162">An account that uses the **Company** field from the lead.</span></span>
+- <span data-ttu-id="0aea3-163">與採用潛在客戶 **名字** 及 **姓氏** 欄位值之客戶相關聯的連絡人記錄。</span><span class="sxs-lookup"><span data-stu-id="0aea3-163">A contact record associated to the account based on the values in the **First Name** and **Last Name** fields on the lead.</span></span>
+- <span data-ttu-id="0aea3-164">**類型** 欄位已設定為&quot;**工作型** 的專案型商機。</span><span class="sxs-lookup"><span data-stu-id="0aea3-164">A project-based opportunity that has the **Type** field set to &quot;**Work-based**.</span></span>
 
-如需有關授與潛在客戶資格的詳細資訊，請參閱[授與客戶資格或轉換潛在客戶](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales)。
+<span data-ttu-id="0aea3-165">如需有關授與潛在客戶資格的詳細資訊，請參閱[授與客戶資格或轉換潛在客戶](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales)。</span><span class="sxs-lookup"><span data-stu-id="0aea3-165">For more detailed information on qualifying leads, see[Qualify or convert leads](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).</span></span>
 
-## <a name="business-process-flow-for-project-based-deals"></a>專案型交易的商務程序流程
+## <a name="business-process-flow-for-project-based-deals"></a><span data-ttu-id="0aea3-166">專案型交易的商務程序流程</span><span class="sxs-lookup"><span data-stu-id="0aea3-166">Business process flow for project-based deals</span></span>
 
-Project Operations 中的專案型交易支援下列商務程序流程：
+<span data-ttu-id="0aea3-167">Project Operations 中的專案型交易支援下列商務程序流程：</span><span class="sxs-lookup"><span data-stu-id="0aea3-167">The following business process flows are supported for project-based deals in Project Operations:</span></span>
 
-- 潛在客戶變商機商務程序
-- 商機銷售處理
+- <span data-ttu-id="0aea3-168">潛在客戶變商機商務程序</span><span class="sxs-lookup"><span data-stu-id="0aea3-168">Lead to Opportunity business process</span></span>
+- <span data-ttu-id="0aea3-169">商機銷售處理</span><span class="sxs-lookup"><span data-stu-id="0aea3-169">Opportunity sales process</span></span>
 
-潛在客戶變商機商務程序支援下列階段：
+<span data-ttu-id="0aea3-170">潛在客戶變商機商務程序支援下列階段：</span><span class="sxs-lookup"><span data-stu-id="0aea3-170">The Lead to Opportunity business process supports the following stages:</span></span>
 
-| 階段名稱 | 對應的實體 | 功能 |
+| <span data-ttu-id="0aea3-171">階段名稱</span><span class="sxs-lookup"><span data-stu-id="0aea3-171">Stage name</span></span> | <span data-ttu-id="0aea3-172">對應的實體</span><span class="sxs-lookup"><span data-stu-id="0aea3-172">Mapped entity</span></span> | <span data-ttu-id="0aea3-173">功能</span><span class="sxs-lookup"><span data-stu-id="0aea3-173">Functionality</span></span> |
 | --- | --- | --- |
-| 授與資格​​ | 潛在客戶​​ | 授與潛在客戶資格以建立客戶、連絡人和商機。 |
-| 開發 | 商機​​ | 開發商機以新增有關所涉及工作、主要利害關係人和競爭者的詳細資訊。 |
-| 提案 | 商機​​ | 開發提案，並取得內部審查團隊的核准。 |
-| 關閉​​ | 商機​​ | 贏得商機以完成交易。 |
+| <span data-ttu-id="0aea3-174">授與資格​​</span><span class="sxs-lookup"><span data-stu-id="0aea3-174">Qualify</span></span> | <span data-ttu-id="0aea3-175">潛在客戶​​</span><span class="sxs-lookup"><span data-stu-id="0aea3-175">Lead</span></span> | <span data-ttu-id="0aea3-176">授與潛在客戶資格以建立客戶、連絡人和商機。</span><span class="sxs-lookup"><span data-stu-id="0aea3-176">Qualify the lead to create an account, contact, and an opportunity.</span></span> |
+| <span data-ttu-id="0aea3-177">開發</span><span class="sxs-lookup"><span data-stu-id="0aea3-177">Develop</span></span> | <span data-ttu-id="0aea3-178">商機​​</span><span class="sxs-lookup"><span data-stu-id="0aea3-178">Opportunity</span></span> | <span data-ttu-id="0aea3-179">開發商機以新增有關所涉及工作、主要利害關係人和競爭者的詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="0aea3-179">Develop the opportunity to add more information on the work involved, key stakeholders, and competition.</span></span> |
+| <span data-ttu-id="0aea3-180">提案</span><span class="sxs-lookup"><span data-stu-id="0aea3-180">Propose</span></span> | <span data-ttu-id="0aea3-181">商機​​</span><span class="sxs-lookup"><span data-stu-id="0aea3-181">Opportunity</span></span> | <span data-ttu-id="0aea3-182">開發提案，並取得內部審查團隊的核准。</span><span class="sxs-lookup"><span data-stu-id="0aea3-182">Develop the proposal and get approval from the internal review team.</span></span> |
+| <span data-ttu-id="0aea3-183">關閉​​</span><span class="sxs-lookup"><span data-stu-id="0aea3-183">Close</span></span> | <span data-ttu-id="0aea3-184">商機​​</span><span class="sxs-lookup"><span data-stu-id="0aea3-184">Opportunity</span></span> | <span data-ttu-id="0aea3-185">贏得商機以完成交易。</span><span class="sxs-lookup"><span data-stu-id="0aea3-185">Win the opportunity to close the deal.</span></span> |

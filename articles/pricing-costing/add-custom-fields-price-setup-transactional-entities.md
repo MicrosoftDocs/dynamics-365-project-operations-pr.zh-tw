@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,118 +17,118 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: a27bfe881fdb6431941fa860d279e3e7b526f623
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e589465eb98723b3b49c5d96e263eb3abf15eb2c
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898296"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073036"
 ---
-# <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>將必要的自訂欄位新增至價格設定與交易實體
+# <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a><span data-ttu-id="2486f-103">將必要的自訂欄位新增至價格設定與交易實體</span><span class="sxs-lookup"><span data-stu-id="2486f-103">Add required custom fields to price setup and transactional entities</span></span>
 
-_**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
+<span data-ttu-id="2486f-104">_**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_</span><span class="sxs-lookup"><span data-stu-id="2486f-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-本主題假設您已完成主題[建立自訂欄位和實體以做為定價維度使用](create-custom-fields-entities-pricing-dimensions.md)中的程序。 如果您尚未完成這些程序，請返回並加以完，然後再回到本主題。 
+<span data-ttu-id="2486f-105">本主題假設您已完成主題[建立自訂欄位和實體以做為定價維度使用](create-custom-fields-entities-pricing-dimensions.md)中的程序。</span><span class="sxs-lookup"><span data-stu-id="2486f-105">This topic assumes that you have completed the procedures in the topic, [Create custom fields and entities to be used as pricing dimensions](create-custom-fields-entities-pricing-dimensions.md).</span></span> <span data-ttu-id="2486f-106">如果您尚未完成這些程序，請返回並加以完，然後再回到本主題。</span><span class="sxs-lookup"><span data-stu-id="2486f-106">If you haven't completed those procedures, go back and complete them and then return to this topic.</span></span> 
 
-本主題中的程序會告訴您如何將必要的自訂欄位參照新增至實體和使用者介面 (UI) 元素，例如表單和檢視表。
+<span data-ttu-id="2486f-107">本主題中的程序會告訴您如何將必要的自訂欄位參照新增至實體和使用者介面 (UI) 元素，例如表單和檢視表。</span><span class="sxs-lookup"><span data-stu-id="2486f-107">In this topic, the procedures will show you how to add the required custom field references to entities and to the user interface (UI) elements such as forms and views.</span></span>
 
-## <a name="add-custom-pricing-dimension-fields"></a>新增自訂定價維度欄位 
-建立自訂欄位和實體之後，下一個步驟是透過建立參照欄位，讓價格設定和交易實體感知任何自訂實體或選項組。 依據定價維度清單包含的是選項組維度、實體維度還是這兩個維度都包含而定，分別依照**選項組型自訂定價維度**或**實體型自訂定價維度**或兩者中的步驟操作。
+## <a name="add-custom-pricing-dimension-fields"></a><span data-ttu-id="2486f-108">新增自訂定價維度欄位</span><span class="sxs-lookup"><span data-stu-id="2486f-108">Add custom pricing dimension fields</span></span> 
+<span data-ttu-id="2486f-109">建立自訂欄位和實體之後，下一個步驟是透過建立參照欄位，讓價格設定和交易實體感知任何自訂實體或選項組。</span><span class="sxs-lookup"><span data-stu-id="2486f-109">After custom fields and entities have been created, the next step is to make price setup and transactional entities aware of any custom entities or option sets by creating reference fields.</span></span> <span data-ttu-id="2486f-110">依據定價維度清單包含的是選項組維度、實體維度還是這兩個維度都包含而定，分別依照 **選項組型自訂定價維度** 或 **實體型自訂定價維度** 或兩者中的步驟操作。</span><span class="sxs-lookup"><span data-stu-id="2486f-110">Depending on whether your pricing dimensions list includes option set dimensions or entity dimensions or both, follow only the steps in **Option set-based custom pricing dimensions** or **Entity-based custom pricing dimensions** , or both, respectively.</span></span>
 
-### <a name="option-set-based-custom-pricing-dimensions"></a>選項組型自訂定價維度
-自訂定價維度以選項組為準時，將其新增為主要實體的欄位。 在下列程序中，**資源工作地點**和**資源工作時數**會用來做為選項組的定價維度。 這些維度必須先新增為定價實體的欄位**角色價格**和**角色價格加成**。
+### <a name="option-set-based-custom-pricing-dimensions"></a><span data-ttu-id="2486f-111">選項組型自訂定價維度</span><span class="sxs-lookup"><span data-stu-id="2486f-111">Option set-based custom pricing dimensions</span></span>
+<span data-ttu-id="2486f-112">自訂定價維度以選項組為準時，將其新增為主要實體的欄位。</span><span class="sxs-lookup"><span data-stu-id="2486f-112">When a custom pricing dimension is option set-based, add it as a field to key entities.</span></span> <span data-ttu-id="2486f-113">在下列程序中， **資源工作地點** 和 **資源工作時數** 會用來做為選項組的定價維度。</span><span class="sxs-lookup"><span data-stu-id="2486f-113">In the following procedure, **Resource Work Location** and **Resource Work Hours** are used as the option set-based pricing dimensions.</span></span> <span data-ttu-id="2486f-114">這些維度必須先新增為定價實體的欄位 **角色價格** 和 **角色價格加成** 。</span><span class="sxs-lookup"><span data-stu-id="2486f-114">These must first be added as fields to the pricing entities, **Role Price** and **Role Price Markup**.</span></span>
 
-1. 在 Project Operations 中，選取**設定** > **解決方案**，然後按兩下 **\<your organization name> 定價維度**。 
-2. 在方案總管的左導覽窗格中，選取**實體 > 角色價格**。
-3. 展開實體**角色價格**，並選取**欄位**。
-4. 選取**新增**建立名為**資源工作地點**的新欄位，然後選取**選項組**做為欄位類型。 
-5. 選取**使用現有的選項組**、選取**資源工作地點**選項組，然後選取**儲存**。
-6. 重複步驟 1-5，將此欄位新增至**角色價格加成**實體。 
-7. 針對**資源工作時數**選項組，重複步驟 1-5。
+1. <span data-ttu-id="2486f-115">在 Project Operations 中，選取 **設定** > **解決方案** ，然後按兩下 **\<your organization name> 定價維度** 。</span><span class="sxs-lookup"><span data-stu-id="2486f-115">In Project operations, select **Settings** > **Solutions** , and double-click **\<your organization name> pricing dimensions**.</span></span> 
+2. <span data-ttu-id="2486f-116">在方案總管的左導覽窗格中，選取 **實體 > 角色價格** 。</span><span class="sxs-lookup"><span data-stu-id="2486f-116">In Solution Explorer, on the left navigation pane, select **Entities > Role Price**.</span></span>
+3. <span data-ttu-id="2486f-117">展開實體 **角色價格** ，並選取 **欄位** 。</span><span class="sxs-lookup"><span data-stu-id="2486f-117">Expand the entity **Role Price** and select **Fields**.</span></span>
+4. <span data-ttu-id="2486f-118">選取 **新增** 建立名為 **資源工作地點** 的新欄位，然後選取 **選項組** 做為欄位類型。</span><span class="sxs-lookup"><span data-stu-id="2486f-118">Select **New** to create a new field called **Resource Work Location** and select **Option set** as the field type.</span></span> 
+5. <span data-ttu-id="2486f-119">選取 **使用現有的選項組** 、選取 **資源工作地點** 選項組，然後選取 **儲存** 。</span><span class="sxs-lookup"><span data-stu-id="2486f-119">Select **Use an existing Option set** , select the **Resource Work Location** option set, and then select **Save**.</span></span>
+6. <span data-ttu-id="2486f-120">重複步驟 1-5，將此欄位新增至 **角色價格加成** 實體。</span><span class="sxs-lookup"><span data-stu-id="2486f-120">Repeat steps 1 - 5 to add this field to the **Role Price Markup** entity.</span></span> 
+7. <span data-ttu-id="2486f-121">針對 **資源工作時數** 選項組，重複步驟 1-5。</span><span class="sxs-lookup"><span data-stu-id="2486f-121">Repeat steps 1 - 5 for the **Resource Work Hours** option set.</span></span>
 
 > [!IMPORTANT]
-> 新增欄位至多個實體時，請在所有的實體中使用相同的欄位名稱。 
+> <span data-ttu-id="2486f-122">新增欄位至多個實體時，請在所有的實體中使用相同的欄位名稱。</span><span class="sxs-lookup"><span data-stu-id="2486f-122">When you add a field to more than one entity, use the same field name across all of the entities.</span></span> 
 
-在專案的銷售和估計階段中，完成**本地**和**現場**工作所需的工作投入估計 (以**正常時數**和**加班時數**計) 會用來估計報價/專案的值。 **資源工作地點**和**資源工作時數**將會新增至估計實體**報價明細詳細資料**、**合約服務內容詳細資料**、**專案團隊成員**以及**估計明細**。
+<span data-ttu-id="2486f-123">在專案的銷售和估計階段中，完成 **本地** 和 **現場** 工作所需的工作投入估計 (以 **正常時數** 和 **加班時數** 計) 會用來估計報價/專案的值。</span><span class="sxs-lookup"><span data-stu-id="2486f-123">In the sales and estimation phases for a project, estimates of the work effort that is required to complete **Local** and **Onsite** work, in **Regular hours** and **Overtime hours**  are used to estimate the value of the Quote/Project.</span></span> <span data-ttu-id="2486f-124">**資源工作地點** 和 **資源工作時數** 將會新增至估計實體 **報價明細詳細資料** 、 **合約服務內容詳細資料** 、 **專案團隊成員** 以及 **估計明細** 。</span><span class="sxs-lookup"><span data-stu-id="2486f-124">The fields **Resource Work Location** and **Resource Work Hours** will be added to the estimation entities, **Quote Line Detail** , **Contract Line detail** , **Project Team Member** , and **Estimate Line**.</span></span>
 
-1. 在 Project Operations 中，選取**設定** > **解決方案**，然後按兩下 **\<your organization name> 定價維度**。 
-2. 在方案總管的左導覽窗格中，選取**實體 > 報價明細詳細資料**。
-3. 展開**報價明細詳細資料**實體，然後選取**欄位**。
-4. 選取**新增**建立名為**資源工作地點**的新欄位，然後選取欄位類型**選項組**。 
-5. 選取**使用現有的選項組**，再選取**資源工作地點**，然後選取**儲存**。
-6. 重複步驟 1-5，將此欄位新增至**專案合約服務內容詳細資料**、**專案團隊成員**以及**估計明細**實體。
-7. 針對**資源工作時數**選項組，重複步驟 1-6。 
+1. <span data-ttu-id="2486f-125">在 Project Operations 中，選取 **設定** > **解決方案** ，然後按兩下 **\<your organization name> 定價維度** 。</span><span class="sxs-lookup"><span data-stu-id="2486f-125">In Project operations, select **Settings** > **Solutions** , and then double-click **\<your organization name> pricing dimensions**.</span></span> 
+2. <span data-ttu-id="2486f-126">在方案總管的左導覽窗格中，選取 **實體 > 報價明細詳細資料** 。</span><span class="sxs-lookup"><span data-stu-id="2486f-126">In Solution Explorer, on the left navigation pane, select **Entities > Quote Line Detail**.</span></span>
+3. <span data-ttu-id="2486f-127">展開 **報價明細詳細資料** 實體，然後選取 **欄位** 。</span><span class="sxs-lookup"><span data-stu-id="2486f-127">Expand the **Quote Line Detail** entity, and select **Fields**.</span></span>
+4. <span data-ttu-id="2486f-128">選取 **新增** 建立名為 **資源工作地點** 的新欄位，然後選取欄位類型 **選項組** 。</span><span class="sxs-lookup"><span data-stu-id="2486f-128">Select **New** to create a new field called **Resource Work Location** and select the field type, **Option set**.</span></span> 
+5. <span data-ttu-id="2486f-129">選取 **使用現有的選項組** ，再選取 **資源工作地點** ，然後選取 **儲存** 。</span><span class="sxs-lookup"><span data-stu-id="2486f-129">Select **Use an existing Option set** and **Resource Work Location** , and then select **Save**.</span></span>
+6. <span data-ttu-id="2486f-130">重複步驟 1-5，將此欄位新增至 **專案合約服務內容詳細資料** 、 **專案團隊成員** 以及 **估計明細** 實體。</span><span class="sxs-lookup"><span data-stu-id="2486f-130">Repeat steps 1 - 5 to add this field to the **Project Contract line detail** , **Project Team Member** , and **Estimate Line** entities.</span></span>
+7. <span data-ttu-id="2486f-131">針對 **資源工作時數** 選項組，重複步驟 1-6。</span><span class="sxs-lookup"><span data-stu-id="2486f-131">Repeat steps 1 - 6 for the **Resource Work Hours** option set.</span></span> 
 
-進行交付和開立發票時，已完成的工作必須準確定價，才能選取工作是在**本地**還是**現場**執行，以及是在專案實際值上的**正常時數**還是**加班時數**期間完成。 **資源工作地點**和**資源工作時數**欄位應新增至**時間項目**、**實際值**、**發票明細詳細資料**和**帳目明細**實體。
+<span data-ttu-id="2486f-132">進行交付和開立發票時，已完成的工作必須準確定價，才能選取工作是在 **本地** 還是 **現場** 執行，以及是在專案實際值上的 **正常時數** 還是 **加班時數** 期間完成。</span><span class="sxs-lookup"><span data-stu-id="2486f-132">For delivery and invoicing, completed work needs to be accurately priced to select whether it was performed **Local** or **Onsite** , and whether it was completed during **Regular hours** or **Overtime** on the Project Actuals.</span></span> <span data-ttu-id="2486f-133">**資源工作地點** 和 **資源工作時數** 欄位應新增至 **時間項目** 、 **實際值** 、 **發票明細詳細資料** 和 **帳目明細** 實體。</span><span class="sxs-lookup"><span data-stu-id="2486f-133">The **Resource Work Location** and **Resource Work hours** fields should be added to the **Time Entry** , **Actual** , **Invoice Line Detail** , and **Journal Line** entities.</span></span>
 
-1. 選取**設定** > **解決方案**，然後按兩下 **\<your organization name> 定價維度**。
-2. 在方案總管的左導覽窗格中，選取**實體 > 時間項目**。
-3. 展開**報價明細詳細資料**實體，然後選取**欄位**。
-4. 選取**新增**建立名為**資源工作地點**的新欄位，然後選取**選項組**做為欄位類型。 
-5. 選取**使用現有的選項組**、選取**資源工作地點**選項組，然後選取**儲存**。
-6. 重複步驟 1-5，將此欄位新增至**實際值**、**發票明細詳細資料**和**帳目明細**實體。
-7. 針對**資源工作時數**選項組，重複步驟 1-6。 
+1. <span data-ttu-id="2486f-134">選取 **設定** > **解決方案** ，然後按兩下 **\<your organization name> 定價維度** 。</span><span class="sxs-lookup"><span data-stu-id="2486f-134">Select **Settings** > **Solutions** , and then double-click **\<your organization name> pricing dimensions**.</span></span>
+2. <span data-ttu-id="2486f-135">在方案總管的左導覽窗格中，選取 **實體 > 時間項目** 。</span><span class="sxs-lookup"><span data-stu-id="2486f-135">In Solution Explorer, on the left navigation pane, select  **Entities > Time Entry**.</span></span>
+3. <span data-ttu-id="2486f-136">展開 **報價明細詳細資料** 實體，然後選取 **欄位** 。</span><span class="sxs-lookup"><span data-stu-id="2486f-136">Expand the **Quote Line Detail** entity, and then select **Fields**.</span></span>
+4. <span data-ttu-id="2486f-137">選取 **新增** 建立名為 **資源工作地點** 的新欄位，然後選取 **選項組** 做為欄位類型。</span><span class="sxs-lookup"><span data-stu-id="2486f-137">Select **New** to create a new field called **Resource Work Location** and select **Option set** as the field type.</span></span> 
+5. <span data-ttu-id="2486f-138">選取 **使用現有的選項組** 、選取 **資源工作地點** 選項組，然後選取 **儲存** 。</span><span class="sxs-lookup"><span data-stu-id="2486f-138">Select **Use an existing Option set** , select the **Resource Work Location** option set, and then select **Save**.</span></span>
+6. <span data-ttu-id="2486f-139">重複步驟 1-5，將此欄位新增至 **實際值** 、 **發票明細詳細資料** 和 **帳目明細** 實體。</span><span class="sxs-lookup"><span data-stu-id="2486f-139">Repeat steps 1 - 5 to add this field to the **Actual** , **Invoice Line Detail** , and **Journal Line** entities.</span></span>
+7. <span data-ttu-id="2486f-140">針對 **資源工作時數** 選項組，重複步驟 1-6。</span><span class="sxs-lookup"><span data-stu-id="2486f-140">Repeat steps 1 - 6 for the **Resource Work Hours** option set.</span></span> 
 
-這樣就完成選項組型自訂維度所需的結構描述變更。
+<span data-ttu-id="2486f-141">這樣就完成選項組型自訂維度所需的結構描述變更。</span><span class="sxs-lookup"><span data-stu-id="2486f-141">This completes the schema changes required for option set-based custom dimensions.</span></span>
 
-## <a name="entity-based-custom-pricing-dimensions"></a>實體型自訂定價維度
+## <a name="entity-based-custom-pricing-dimensions"></a><span data-ttu-id="2486f-142">實體型自訂定價維度</span><span class="sxs-lookup"><span data-stu-id="2486f-142">Entity-based custom pricing dimensions</span></span>
 
-自訂定價維度是實體時，您將會在維度實體與主要實體之間新增 1:N 關聯。 使用上述的「標準職稱」範例，預計每個員工都會獲指派標準職稱。 因此，您將需要從「標準職稱」到「可預約資源」的 1:N 關聯，如果是建立為「可預約資源」到「標準職稱」，則需要 N:1 關聯。
+<span data-ttu-id="2486f-143">自訂定價維度是實體時，您將會在維度實體與主要實體之間新增 1:N 關聯。</span><span class="sxs-lookup"><span data-stu-id="2486f-143">When the custom pricing dimension is an entity, you will add 1:N relationships between the dimension entity and key entities.</span></span> <span data-ttu-id="2486f-144">使用上述的「標準職稱」範例，預計每個員工都會獲指派標準職稱。</span><span class="sxs-lookup"><span data-stu-id="2486f-144">Using the Standard Title example from above, it is reasonable to expect that each employee is assigned a standard title.</span></span> <span data-ttu-id="2486f-145">因此，您將需要從「標準職稱」到「可預約資源」的 1:N 關聯，如果是建立為「可預約資源」到「標準職稱」，則需要 N:1 關聯。</span><span class="sxs-lookup"><span data-stu-id="2486f-145">SAs a result, you will need a 1:N relationship from Standard Title to Bookable Resource, or a N:1 relationship if it were created from Bookable Resource to Standard Title.</span></span>
 
-1. 在 Project Operations 中，選取**設定** > **解決方案**，然後按兩下 **\<your organization name> 定價維度**。 
-2. 在方案總管的左導覽窗格中，選取**實體 > 標準職稱**。
-3. 展開**標準職稱**實體，然後選取 **1:N 關聯**。
-4. 選取**新增**以建立新的 1:N 關聯 (稱為**可預約資源的標準職稱**)。 輸入必要資訊，然後選取**儲存**。
+1. <span data-ttu-id="2486f-146">在 Project Operations 中，選取 **設定** > **解決方案** ，然後按兩下 **\<your organization name> 定價維度** 。</span><span class="sxs-lookup"><span data-stu-id="2486f-146">In Project operations, select **Settings** > **Solutions** , and then double-click **\<your organization name> pricing dimensions**.</span></span> 
+2. <span data-ttu-id="2486f-147">在方案總管的左導覽窗格中，選取 **實體 > 標準職稱** 。</span><span class="sxs-lookup"><span data-stu-id="2486f-147">In Solution Explorer, on the left navigation pane, select **Entities > Standard Title**.</span></span>
+3. <span data-ttu-id="2486f-148">展開 **標準職稱** 實體，然後選取 **1:N 關聯** 。</span><span class="sxs-lookup"><span data-stu-id="2486f-148">Expand the **Standard Title** entity and select **1:N Relationships**.</span></span>
+4. <span data-ttu-id="2486f-149">選取 **新增** 以建立新的 1:N 關聯 (稱為 **可預約資源的標準職稱** )。</span><span class="sxs-lookup"><span data-stu-id="2486f-149">Select **New** to create a new 1:N relationship called **Standard Title to Bookable Resource**.</span></span> <span data-ttu-id="2486f-150">輸入必要資訊，然後選取 **儲存** 。</span><span class="sxs-lookup"><span data-stu-id="2486f-150">Enter the required information, and then select **Save**.</span></span>
 
-也必須將標準職稱新增至定價實體**角色價格**和**角色價格加成**。 這也是在**標準職稱**及**角色價格**實體與**標準職稱**及**角色價格加成**實體之間使用 1:N 關聯所完成。
+<span data-ttu-id="2486f-151">也必須將標準職稱新增至定價實體 **角色價格** 和 **角色價格加成** 。</span><span class="sxs-lookup"><span data-stu-id="2486f-151">The Standard Title will also need to be added to Pricing entities, **Role Price** and **Role Price Markup**.</span></span> <span data-ttu-id="2486f-152">這也是在 **標準職稱** 及 **角色價格** 實體與 **標準職稱** 及 **角色價格加成** 實體之間使用 1:N 關聯所完成。</span><span class="sxs-lookup"><span data-stu-id="2486f-152">This is also completed using 1:N relationships between the **Standard Title** and **Role Price** entities and **Standard Title** and **Role Price Markup** entities.</span></span>
 
-1. 在方案總管的左導覽窗格中，選取**實體 > 標準職稱**。
-2. 展開**標準職稱**實體，然後選取 **1:N 關聯**。
-3. 選取**新增**以建立新的 1:N 關聯 (稱為**角色價格的標準職稱**)。 輸入必要資訊，然後選取**儲存**。
-4. 重複步驟 1 - 4，建立**標準職稱**與**角色價格加成**實體之間的 1:N 關聯。
+1. <span data-ttu-id="2486f-153">在方案總管的左導覽窗格中，選取 **實體 > 標準職稱** 。</span><span class="sxs-lookup"><span data-stu-id="2486f-153">In Solution Explorer, on the left navigation pane, select **Entities > Standard Title**.</span></span>
+2. <span data-ttu-id="2486f-154">展開 **標準職稱** 實體，然後選取 **1:N 關聯** 。</span><span class="sxs-lookup"><span data-stu-id="2486f-154">Expand the **Standard Title** entity and select **1:N Relationships**.</span></span>
+3. <span data-ttu-id="2486f-155">選取 **新增** 以建立新的 1:N 關聯 (稱為 **角色價格的標準職稱** )。</span><span class="sxs-lookup"><span data-stu-id="2486f-155">Select **New** to create a new 1:N relationship called **Standard Title to Role Price**.</span></span> <span data-ttu-id="2486f-156">輸入必要資訊，然後選取 **儲存** 。</span><span class="sxs-lookup"><span data-stu-id="2486f-156">Enter the required information, and then select **Save**.</span></span>
+4. <span data-ttu-id="2486f-157">重複步驟 1 - 4，建立 **標準職稱** 與 **角色價格加成** 實體之間的 1:N 關聯。</span><span class="sxs-lookup"><span data-stu-id="2486f-157">Repeat steps 1 - 4 to create 1:N relationships between the **Standard Title** and **Role Price Markup** entities,</span></span>
 
-在專案的銷售與估計階段中，若要對報價/專案定價，每個標準職稱都必須有工作投入的估計。 這表示需要從標準職稱到其中每個估計實體的 1:N 關聯： 
+<span data-ttu-id="2486f-158">在專案的銷售與估計階段中，若要對報價/專案定價，每個標準職稱都必須有工作投入的估計。</span><span class="sxs-lookup"><span data-stu-id="2486f-158">In the sales and estimation phases for the project, to price the Quote/Project, estimates of the work effort are required for each standard title.</span></span> <span data-ttu-id="2486f-159">這表示需要從標準職稱到其中每個估計實體的 1:N 關聯：</span><span class="sxs-lookup"><span data-stu-id="2486f-159">This means that 1:N relationships from Standard Title to each of these estimation entities are needed:</span></span> 
 
-- **報價明細詳細資訊**
-- **專案合約服務內容詳細資料**
-- **專案團隊成員**
-- **估計明細**
+- <span data-ttu-id="2486f-160">**報價明細詳細資訊**</span><span class="sxs-lookup"><span data-stu-id="2486f-160">**Quote line Detail**</span></span>
+- <span data-ttu-id="2486f-161">**專案合約服務內容詳細資料**</span><span class="sxs-lookup"><span data-stu-id="2486f-161">**Project Contract Line Detail**</span></span>
+- <span data-ttu-id="2486f-162">**專案團隊成員**</span><span class="sxs-lookup"><span data-stu-id="2486f-162">**Project Team Member**</span></span>
+- <span data-ttu-id="2486f-163">**估計明細**</span><span class="sxs-lookup"><span data-stu-id="2486f-163">**Estimate Line**</span></span>
 
-5. 重複步驟 1 - 5，建立從**標準職稱**到**報價明細詳細資訊**、**專案合約服務內容詳細資料**、**專案團隊成員**和**估計明細**的 1:N 關聯。
+5. <span data-ttu-id="2486f-164">重複步驟 1 - 5，建立從 **標準職稱** 到 **報價明細詳細資訊** 、 **專案合約服務內容詳細資料** 、 **專案團隊成員** 和 **估計明細** 的 1:N 關聯。</span><span class="sxs-lookup"><span data-stu-id="2486f-164">Repeat steps 1 - 5 to create 1:N relationships from **Standard Title** to **Quote line Detail** , **Project Contract Line Detail** , **Project Team Member** , and **Estimate Line**.</span></span>
 
-  在交付和開立發票階段中，每個標準職稱所完成的工作都必須根據專案實際值準確地定價。 這表示必須有從**標準職稱**到**時間項目**、**實際值**、**發票明細詳細資料**和**帳目明細**實體的 1:N 關聯。
+  <span data-ttu-id="2486f-165">在交付和開立發票階段中，每個標準職稱所完成的工作都必須根據專案實際值準確地定價。</span><span class="sxs-lookup"><span data-stu-id="2486f-165">In the Delivery and Invoicing phases, the work completed by each standard title must be accurately priced on the Project Actuals.</span></span> <span data-ttu-id="2486f-166">這表示必須有從 **標準職稱** 到 **時間項目** 、 **實際值** 、 **發票明細詳細資料** 和 **帳目明細** 實體的 1:N 關聯。</span><span class="sxs-lookup"><span data-stu-id="2486f-166">This means that there needs to be 1:N relationships from **Standard Title** to **Time Entry** , **Actual** , **Invoice Line Detail** , and **Journal Line entities**.</span></span>
 
-6. 重複步驟 1 - 6，建立從**標準職稱**到**時間項目**、**實際值**、**發票明細詳細資料**和**帳目明細**實體的 1:N 關聯。
+6. <span data-ttu-id="2486f-167">重複步驟 1 - 6，建立從 **標準職稱** 到 **時間項目** 、 **實際值** 、 **發票明細詳細資料** 和 **帳目明細** 實體的 1:N 關聯。</span><span class="sxs-lookup"><span data-stu-id="2486f-167">Repeat steps 1 - 6 to create 1:N relationships from **Standard Title** to **Time Entry** , **Actual** , **Invoice Line Detail** , and **Journal Line entities**.</span></span>
 
-### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>使用平台的對應功能設定維度值預設。
-至於時間項目，讓系統根據記錄時間項目的可預約資源的時間項目來預設標準職稱，會很有幫助。 使用下列步驟，在從**可預約資源**到**時間項目**的 1:N 關聯上新增欄位對應。
+### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a><span data-ttu-id="2486f-168">使用平台的對應功能設定維度值預設。</span><span class="sxs-lookup"><span data-stu-id="2486f-168">Set up Dimension value defaulting using the mappings features of the platform</span></span>
+<span data-ttu-id="2486f-169">至於時間項目，讓系統根據記錄時間項目的可預約資源的時間項目來預設標準職稱，會很有幫助。</span><span class="sxs-lookup"><span data-stu-id="2486f-169">For Time Entry, it would be helpful to have the system default the standard title on the Time Entry from the Bookable Resource that is recording the time entry.</span></span> <span data-ttu-id="2486f-170">使用下列步驟，在從 **可預約資源** 到 **時間項目** 的 1:N 關聯上新增欄位對應。</span><span class="sxs-lookup"><span data-stu-id="2486f-170">Use the following steps to add field mappings on the 1:N relationship from **Bookable Resource** to **Time Entry**.</span></span>
 
-1. 在方案總管的左導覽窗格中，選取**實體 > 標準職稱**。
-2. 展開**標準職稱**實體，然後選取 **1:N 關聯**。
-3. 按兩下**時間項目的可預約資源**。 在**關聯**頁面上，選取**使用欄位對應**。 
-4. 選取**新增**，在**可預約資源**實體的**標準職稱**欄位到**時間項目**實體的**標準職稱**參照欄位之間建立新的欄位對應。 
+1. <span data-ttu-id="2486f-171">在方案總管的左導覽窗格中，選取 **實體 > 標準職稱** 。</span><span class="sxs-lookup"><span data-stu-id="2486f-171">In Solution Explorer, on the left navigation pane, select **Entities > Standard Title**.</span></span>
+2. <span data-ttu-id="2486f-172">展開 **標準職稱** 實體，然後選取 **1:N 關聯** 。</span><span class="sxs-lookup"><span data-stu-id="2486f-172">Expand the **Standard Title** entity and select **1:N Relationships**.</span></span>
+3. <span data-ttu-id="2486f-173">按兩下 **時間項目的可預約資源** 。</span><span class="sxs-lookup"><span data-stu-id="2486f-173">Double-click **Bookable Resource to Time Entry**.</span></span> <span data-ttu-id="2486f-174">在 **關聯** 頁面上，選取 **使用欄位對應** 。</span><span class="sxs-lookup"><span data-stu-id="2486f-174">On the **Relationship** page, select **Use Field mappings**.</span></span> 
+4. <span data-ttu-id="2486f-175">選取 **新增** ，在 **可預約資源** 實體的 **標準職稱** 欄位到 **時間項目** 實體的 **標準職稱** 參照欄位之間建立新的欄位對應。</span><span class="sxs-lookup"><span data-stu-id="2486f-175">Select **New** to create a new field mapping between the **Standard Title** field on the **Bookable Resource** entity to the **Standard Title** reference field on **Time Entry** entity.</span></span> 
 
-這樣就完成實體型自訂維度所需的結構描述變更。
+<span data-ttu-id="2486f-176">這樣就完成實體型自訂維度所需的結構描述變更。</span><span class="sxs-lookup"><span data-stu-id="2486f-176">This completes the schema changes required for entity-based custom dimensions.</span></span>
 
-##  <a name="add-custom-fields-to-forms-views-and-business-rules"></a>將自訂欄位新增至表單、檢視表和商務規則
+##  <a name="add-custom-fields-to-forms-views-and-business-rules"></a><span data-ttu-id="2486f-177">將自訂欄位新增至表單、檢視表和商務規則</span><span class="sxs-lookup"><span data-stu-id="2486f-177">Add custom fields to forms, views, and business rules</span></span>
 
-進行所有必要的結構描述變更之後，下一個步驟是將欄位新增至表單和檢視表，讓欄位可以在 UI 中看到。
+<span data-ttu-id="2486f-178">進行所有必要的結構描述變更之後，下一個步驟是將欄位新增至表單和檢視表，讓欄位可以在 UI 中看到。</span><span class="sxs-lookup"><span data-stu-id="2486f-178">After you have made all of the required schema changes, the next step is to make the fields visible in the UI by adding the fields to the forms and views.</span></span>
 
-1. 開啟表單或檢視表。 在右導覽窗格中，選取欄位，並將其拖曳至表單畫布。 
-2. 如果您正在編輯檢視表，請使用右導覽窗格，選取**新增欄位**，然後在**欄位清單**對話方塊中選取所需的欄位，然後選取**確定**。
+1. <span data-ttu-id="2486f-179">開啟表單或檢視表。</span><span class="sxs-lookup"><span data-stu-id="2486f-179">Open the form or the view.</span></span> <span data-ttu-id="2486f-180">在右導覽窗格中，選取欄位，並將其拖曳至表單畫布。</span><span class="sxs-lookup"><span data-stu-id="2486f-180">On the right navigation pane, select the field and drag it on to the form canvas.</span></span> 
+2. <span data-ttu-id="2486f-181">如果您正在編輯檢視表，請使用右導覽窗格，選取 **新增欄位** ，然後在 **欄位清單** 對話方塊中選取所需的欄位，然後選取 **確定** 。</span><span class="sxs-lookup"><span data-stu-id="2486f-181">If you are editing a view, use the right navigation pane, select **Add fields** , and in the **Field listing** dialog box, select the fields that you need and select **Ok**.</span></span>
 
-下表提供現成可用表單及檢視表的完整清單 (依實體排列)，這需要使用新的欄位來更新。 如果您在這些實體的自訂中有任何其他檢視表或表單，也請將新欄位新增至其中。
+<span data-ttu-id="2486f-182">下表提供現成可用表單及檢視表的完整清單 (依實體排列)，這需要使用新的欄位來更新。</span><span class="sxs-lookup"><span data-stu-id="2486f-182">The following table provides a comprehensive list of out-of-the-box forms and views, by entity, that will need to be updated with the new fields.</span></span> <span data-ttu-id="2486f-183">如果您在這些實體的自訂中有任何其他檢視表或表單，也請將新欄位新增至其中。</span><span class="sxs-lookup"><span data-stu-id="2486f-183">If you have any additional views or forms in your customizations on these entities, add the new fields to those as well.</span></span>
 
-| Entity        | 需要新欄位的表單   |需要新欄位的檢視表      |
+| <span data-ttu-id="2486f-184">Entity</span><span class="sxs-lookup"><span data-stu-id="2486f-184">Entity</span></span>        | <span data-ttu-id="2486f-185">需要新欄位的表單</span><span class="sxs-lookup"><span data-stu-id="2486f-185">Forms that need the new field</span></span>   |<span data-ttu-id="2486f-186">需要新欄位的檢視表</span><span class="sxs-lookup"><span data-stu-id="2486f-186">Views that need the new field</span></span>      |
 | ------------------------------|---------------------------------|----------------------------------|
-|  角色價格|• 資訊 |• 使用中資源類別價格<br> • 資源類別價格相關檢視表|
-|  角色價格加成|• 資訊|• 使用中角色價格加成<br>• 角色價格加成相關檢視|
-|  報價明細詳細資訊|• 專案資訊<br>• 專案快速建立|• 使用中報價明細詳細資訊<br>• 合併的報價明細詳細資料<br>• 報價明細詳細資料相關檢視表|
-|  • 專案合約服務內容詳細資料|• 專案資訊<br>• 專案快速建立|• 合併的合約服務內容詳細資料<br>• 使用中合約服務內容詳細資料<br>• 合約服務內容詳細資料相關檢視表|
-|  專案團隊成員|• 資訊<br>• 新表單|• 使用中專案團隊成員<br>• 專案團隊成員<br>• 專案團隊成員相關檢視表|
-|  時間項目|• 資訊<br>• 建立時間項目|• 我依日期的時間項目<br>• 我本週的時間項目<br>• 供核准的時間項目|
-|  帳目明細|• 資訊<br>• 快速建立|• 使用中帳目明細<br>• 帳目明細相關檢視表|
-|  發票明細詳細資料|• 資訊<br>• 快速建立|• 使用中發票明細詳細資料<br>• 應收費發票交易<br>• 附贈發票交易<br>• 發票明細詳細資料相關檢視表<br>• 不應收費發票交易|
-|  實際|• 資訊<br>• 使用中實際值|• 實際值相關檢視表|
+|  <span data-ttu-id="2486f-187">角色價格</span><span class="sxs-lookup"><span data-stu-id="2486f-187">Role Price</span></span>|<span data-ttu-id="2486f-188">• 資訊</span><span class="sxs-lookup"><span data-stu-id="2486f-188">• Information</span></span> |<span data-ttu-id="2486f-189">• 使用中資源類別價格</span><span class="sxs-lookup"><span data-stu-id="2486f-189">• Active Resource Category Prices</span></span><br> <span data-ttu-id="2486f-190">• 資源類別價格相關檢視表</span><span class="sxs-lookup"><span data-stu-id="2486f-190">• Resource Category Price Associated View</span></span>|
+|  <span data-ttu-id="2486f-191">角色價格加成</span><span class="sxs-lookup"><span data-stu-id="2486f-191">Role Price Markup</span></span>|<span data-ttu-id="2486f-192">• 資訊</span><span class="sxs-lookup"><span data-stu-id="2486f-192">• Information</span></span>|<span data-ttu-id="2486f-193">• 使用中角色價格加成</span><span class="sxs-lookup"><span data-stu-id="2486f-193">• Active Role Price Markup</span></span><br><span data-ttu-id="2486f-194">• 角色價格加成相關檢視</span><span class="sxs-lookup"><span data-stu-id="2486f-194">• Role Price Markup Associated View</span></span>|
+|  <span data-ttu-id="2486f-195">報價明細詳細資訊</span><span class="sxs-lookup"><span data-stu-id="2486f-195">Quote line detail</span></span>|<span data-ttu-id="2486f-196">• 專案資訊</span><span class="sxs-lookup"><span data-stu-id="2486f-196">• Project Information</span></span><br><span data-ttu-id="2486f-197">• 專案快速建立</span><span class="sxs-lookup"><span data-stu-id="2486f-197">• Project Quick Create</span></span>|<span data-ttu-id="2486f-198">• 使用中報價明細詳細資訊</span><span class="sxs-lookup"><span data-stu-id="2486f-198">• Active Quote Line Detail</span></span><br><span data-ttu-id="2486f-199">• 合併的報價明細詳細資料</span><span class="sxs-lookup"><span data-stu-id="2486f-199">• Combined Quote Line Details</span></span><br><span data-ttu-id="2486f-200">• 報價明細詳細資料相關檢視表</span><span class="sxs-lookup"><span data-stu-id="2486f-200">• Quote Line Detail associated view</span></span>|
+|  <span data-ttu-id="2486f-201">• 專案合約服務內容詳細資料</span><span class="sxs-lookup"><span data-stu-id="2486f-201">Project Contract line detail</span></span>|<span data-ttu-id="2486f-202">• 專案資訊</span><span class="sxs-lookup"><span data-stu-id="2486f-202">• Project Information</span></span><br><span data-ttu-id="2486f-203">• 專案快速建立</span><span class="sxs-lookup"><span data-stu-id="2486f-203">• Project Quick Create</span></span>|<span data-ttu-id="2486f-204">• 合併的合約服務內容詳細資料</span><span class="sxs-lookup"><span data-stu-id="2486f-204">• Combined Contract Line Details</span></span><br><span data-ttu-id="2486f-205">• 使用中合約服務內容詳細資料</span><span class="sxs-lookup"><span data-stu-id="2486f-205">• Active Contract Line Details</span></span><br><span data-ttu-id="2486f-206">• 合約服務內容詳細資料相關檢視表</span><span class="sxs-lookup"><span data-stu-id="2486f-206">• Contract Line Details Associated View</span></span>|
+|  <span data-ttu-id="2486f-207">專案團隊成員</span><span class="sxs-lookup"><span data-stu-id="2486f-207">Project Team Member</span></span>|<span data-ttu-id="2486f-208">• 資訊</span><span class="sxs-lookup"><span data-stu-id="2486f-208">• Information</span></span><br><span data-ttu-id="2486f-209">• 新表單</span><span class="sxs-lookup"><span data-stu-id="2486f-209">• New Form</span></span>|<span data-ttu-id="2486f-210">• 使用中專案團隊成員</span><span class="sxs-lookup"><span data-stu-id="2486f-210">• Active Project Team Members</span></span><br><span data-ttu-id="2486f-211">• 專案團隊成員</span><span class="sxs-lookup"><span data-stu-id="2486f-211">• Project Team Members</span></span><br><span data-ttu-id="2486f-212">• 專案團隊成員相關檢視表</span><span class="sxs-lookup"><span data-stu-id="2486f-212">• Project Team members associated View</span></span>|
+|  <span data-ttu-id="2486f-213">時間項目</span><span class="sxs-lookup"><span data-stu-id="2486f-213">Time Entry</span></span>|<span data-ttu-id="2486f-214">• 資訊</span><span class="sxs-lookup"><span data-stu-id="2486f-214">• Information</span></span><br><span data-ttu-id="2486f-215">• 建立時間項目</span><span class="sxs-lookup"><span data-stu-id="2486f-215">• Create Time Entry</span></span>|<span data-ttu-id="2486f-216">• 我依日期的時間項目</span><span class="sxs-lookup"><span data-stu-id="2486f-216">• My Time Entries By Date</span></span><br><span data-ttu-id="2486f-217">• 我本週的時間項目</span><span class="sxs-lookup"><span data-stu-id="2486f-217">• My time Entries for this week</span></span><br><span data-ttu-id="2486f-218">• 供核准的時間項目</span><span class="sxs-lookup"><span data-stu-id="2486f-218">• Time entries for approval</span></span>|
+|  <span data-ttu-id="2486f-219">帳目明細</span><span class="sxs-lookup"><span data-stu-id="2486f-219">Journal Line</span></span>|<span data-ttu-id="2486f-220">• 資訊</span><span class="sxs-lookup"><span data-stu-id="2486f-220">• Information</span></span><br><span data-ttu-id="2486f-221">• 快速建立</span><span class="sxs-lookup"><span data-stu-id="2486f-221">• Quick create</span></span>|<span data-ttu-id="2486f-222">• 使用中帳目明細</span><span class="sxs-lookup"><span data-stu-id="2486f-222">• Active journal lines</span></span><br><span data-ttu-id="2486f-223">• 帳目明細相關檢視表</span><span class="sxs-lookup"><span data-stu-id="2486f-223">• Journal Line associated view</span></span>|
+|  <span data-ttu-id="2486f-224">發票明細詳細資料</span><span class="sxs-lookup"><span data-stu-id="2486f-224">Invoice Line Detail</span></span>|<span data-ttu-id="2486f-225">• 資訊</span><span class="sxs-lookup"><span data-stu-id="2486f-225">• Information</span></span><br><span data-ttu-id="2486f-226">• 快速建立</span><span class="sxs-lookup"><span data-stu-id="2486f-226">• Quick create</span></span>|<span data-ttu-id="2486f-227">• 使用中發票明細詳細資料</span><span class="sxs-lookup"><span data-stu-id="2486f-227">• Active Invoice Line Details</span></span><br><span data-ttu-id="2486f-228">• 應收費發票交易</span><span class="sxs-lookup"><span data-stu-id="2486f-228">• Chargeable Invoice Transactions</span></span><br><span data-ttu-id="2486f-229">• 附贈發票交易</span><span class="sxs-lookup"><span data-stu-id="2486f-229">• Complimentary Invoice Transactions</span></span><br><span data-ttu-id="2486f-230">• 發票明細詳細資料相關檢視表</span><span class="sxs-lookup"><span data-stu-id="2486f-230">• Invoice Line Detail associated view</span></span><br><span data-ttu-id="2486f-231">• 不應收費發票交易</span><span class="sxs-lookup"><span data-stu-id="2486f-231">• Non-Chargeable Invoice Transactions</span></span>|
+|  <span data-ttu-id="2486f-232">實際</span><span class="sxs-lookup"><span data-stu-id="2486f-232">Actual</span></span>|<span data-ttu-id="2486f-233">• 資訊</span><span class="sxs-lookup"><span data-stu-id="2486f-233">• Information</span></span><br><span data-ttu-id="2486f-234">• 使用中實際值</span><span class="sxs-lookup"><span data-stu-id="2486f-234">• Active Actuals</span></span>|<span data-ttu-id="2486f-235">• 實際值相關檢視表</span><span class="sxs-lookup"><span data-stu-id="2486f-235">• Actual Associated view</span></span>|
 
-可能也需要根據您定義的內容，在商務規則上新增自訂欄位。 現成可用的範例適用於商務規則**根據狀態的時間項目編輯功能**。 此規則定義時間項目處於不可編輯狀態 (**已核准**) 時，需要鎖定哪些欄位。 將欄位新增至此商務規則，以便在時間項目處於**草稿**或**已退回**以外的狀態時，鎖定欄位不得編輯。
+<span data-ttu-id="2486f-236">可能也需要根據您定義的內容，在商務規則上新增自訂欄位。</span><span class="sxs-lookup"><span data-stu-id="2486f-236">Custom fields may also need to be added on business rules depending on what you have defined.</span></span> <span data-ttu-id="2486f-237">現成可用的範例適用於商務規則 **根據狀態的時間項目編輯功能** 。</span><span class="sxs-lookup"><span data-stu-id="2486f-237">One out-of-the-box example is for the business rule **Editability of Time Entry based on status**.</span></span> <span data-ttu-id="2486f-238">此規則定義時間項目處於不可編輯狀態 ( **已核准** ) 時，需要鎖定哪些欄位。</span><span class="sxs-lookup"><span data-stu-id="2486f-238">This rule defines which fields need to be locked when the Time Entry is in a non-editable status such as **Approved**.</span></span> <span data-ttu-id="2486f-239">將欄位新增至此商務規則，以便在時間項目處於 **草稿** 或 **已退回** 以外的狀態時，鎖定欄位不得編輯。</span><span class="sxs-lookup"><span data-stu-id="2486f-239">Add fields to this business rule so that the fields are locked for editing when the Time Entry is in a status other than **Draft** or **Returned**.</span></span>

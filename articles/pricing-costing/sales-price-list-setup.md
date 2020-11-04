@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,45 +17,45 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 2a66802adfcadab7b4d34149b146ca3cb27c903e
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 1d2c797b72666123eb0a18d2d0c1df9fe3d207f7
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896451"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073051"
 ---
-# <a name="sales-price-list-setup"></a>銷售價目表設定
+# <a name="sales-price-list-setup"></a><span data-ttu-id="97a99-103">銷售價目表設定</span><span class="sxs-lookup"><span data-stu-id="97a99-103">Sales price list setup</span></span>
 
-_**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
+<span data-ttu-id="97a99-104">_**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_</span><span class="sxs-lookup"><span data-stu-id="97a99-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-對於專案報價和合約，專案價目表的價格覆寫模式與產品價目表的不同。 在產品類別目錄型報價明細上，您可以直接在報價明細上覆寫角色和類別的價格，因為每個報價明細都只指向一個目錄項目。 不過，在專案型報價明細上，您無法直接在報價明細上覆寫角色和類別的價格。 您可以使用專案價目表來處理兩種不同的覆寫模式。
+<span data-ttu-id="97a99-105">對於專案報價和合約，專案價目表的價格覆寫模式與產品價目表的不同。</span><span class="sxs-lookup"><span data-stu-id="97a99-105">For project quotes and contracts, a project price list has a different price override pattern than a product price list.</span></span> <span data-ttu-id="97a99-106">在產品類別目錄型報價明細上，您可以直接在報價明細上覆寫角色和類別的價格，因為每個報價明細都只指向一個目錄項目。</span><span class="sxs-lookup"><span data-stu-id="97a99-106">On a product catalog–based quote line, you can override the price to roles and categories directly on the quote line, because each quote line points to exactly one catalog item.</span></span> <span data-ttu-id="97a99-107">不過，在專案型報價明細上，您無法直接在報價明細上覆寫角色和類別的價格。</span><span class="sxs-lookup"><span data-stu-id="97a99-107">However, on a project-based quote line, you can't override the price to roles and categories directly on the quote line.</span></span> <span data-ttu-id="97a99-108">您可以使用專案價目表來處理兩種不同的覆寫模式。</span><span class="sxs-lookup"><span data-stu-id="97a99-108">You can use the project price list to work with the two distinct override patterns.</span></span>
 
 > [!NOTE]
-> 建議您讓專案資源和目錄項目使用不同的價目表，因為覆寫定價時，兩者之間的行為有差異。
+> <span data-ttu-id="97a99-109">建議您讓專案資源和目錄項目使用不同的價目表，因為覆寫定價時，兩者之間的行為有差異。</span><span class="sxs-lookup"><span data-stu-id="97a99-109">We recommend that you have a separate price list for your project resources and your catalog items, because of the behavior differences between the two when you override pricing.</span></span>
 
-下列每個實體都可以有一個或多個用於專案定價的相關聯銷售價目表：
+<span data-ttu-id="97a99-110">下列每個實體都可以有一個或多個用於專案定價的相關聯銷售價目表：</span><span class="sxs-lookup"><span data-stu-id="97a99-110">Each of the following entities can have one or more associated sales price lists for project pricing:</span></span>
 
-- 客戶 (帳戶) 
-- 商機 
-- 報價 
-- 專案合約
+- <span data-ttu-id="97a99-111">客戶 (帳戶)</span><span class="sxs-lookup"><span data-stu-id="97a99-111">Customer (account)</span></span> 
+- <span data-ttu-id="97a99-112">商機</span><span class="sxs-lookup"><span data-stu-id="97a99-112">Opportunity</span></span> 
+- <span data-ttu-id="97a99-113">報價</span><span class="sxs-lookup"><span data-stu-id="97a99-113">Quote</span></span> 
+- <span data-ttu-id="97a99-114">專案合約</span><span class="sxs-lookup"><span data-stu-id="97a99-114">Project Contract</span></span>
 
-這些實體與價目表的關聯是透過專案價目表來表示。 您可以將一個或多個價目表與客戶、商機、報價及專案合約銷售實體建立關聯。
+<span data-ttu-id="97a99-115">這些實體與價目表的關聯是透過專案價目表來表示。</span><span class="sxs-lookup"><span data-stu-id="97a99-115">The association of these entities with a price list is indicated by the project price lists.</span></span> <span data-ttu-id="97a99-116">您可以將一個或多個價目表與客戶、商機、報價及專案合約銷售實體建立關聯。</span><span class="sxs-lookup"><span data-stu-id="97a99-116">You can associate one or more price lists with the Customer, Opportunity, Quote, and Project Contract sales entities.</span></span>
 
-系統不會自動在客戶記錄上輸入預設專案價目表。 不過，您可以手動將專案價目表附加至客戶記錄。 然而，只有在與客戶之間存在自訂定價合約時，您才應該手動附加專案價目表。 
+<span data-ttu-id="97a99-117">系統不會自動在客戶記錄上輸入預設專案價目表。</span><span class="sxs-lookup"><span data-stu-id="97a99-117">A default project price list isn't automatically entered on a customer record.</span></span> <span data-ttu-id="97a99-118">不過，您可以手動將專案價目表附加至客戶記錄。</span><span class="sxs-lookup"><span data-stu-id="97a99-118">However, you can manually attach a project price list to the customer record.</span></span> <span data-ttu-id="97a99-119">然而，只有在與客戶之間存在自訂定價合約時，您才應該手動附加專案價目表。</span><span class="sxs-lookup"><span data-stu-id="97a99-119">Nevertheless, you should manually attach a project price list only when you have a custom pricing agreement with the customer.</span></span> 
 
-將專案價目表附加至銷售實體時，系統會驗證下列資訊：
+<span data-ttu-id="97a99-120">將專案價目表附加至銷售實體時，系統會驗證下列資訊：</span><span class="sxs-lookup"><span data-stu-id="97a99-120">When a project price list is attached to a sales entity, the following information is validated:</span></span>
 
-- 價目表的內容與**銷售**有關。 
-- 價目表貨幣與客戶貨幣相符。 
+- <span data-ttu-id="97a99-121">價目表的內容與 **銷售** 有關。</span><span class="sxs-lookup"><span data-stu-id="97a99-121">The price list has a context of **Sales**.</span></span> 
+- <span data-ttu-id="97a99-122">價目表貨幣與客戶貨幣相符。</span><span class="sxs-lookup"><span data-stu-id="97a99-122">The price list currency matches the customer currency.</span></span> 
 
-在專案合約上，使用下列優先順序自動設定相關的專案價目表：
+<span data-ttu-id="97a99-123">在專案合約上，使用下列優先順序自動設定相關的專案價目表：</span><span class="sxs-lookup"><span data-stu-id="97a99-123">On a project contract, the following order of precedence is used to automatically set related project price lists:</span></span>
 
-1. 報價
-2. 商機​​
-3. 客戶 
-4. 全域設定 
+1. <span data-ttu-id="97a99-124">報價</span><span class="sxs-lookup"><span data-stu-id="97a99-124">Quote</span></span>
+2. <span data-ttu-id="97a99-125">商機​​</span><span class="sxs-lookup"><span data-stu-id="97a99-125">Opportunity</span></span>
+3. <span data-ttu-id="97a99-126">客戶</span><span class="sxs-lookup"><span data-stu-id="97a99-126">Customer</span></span> 
+4. <span data-ttu-id="97a99-127">全域設定</span><span class="sxs-lookup"><span data-stu-id="97a99-127">Global settings</span></span> 
 
-預設會輸入專案價目表時，系統會驗證貨幣是否與客戶貨幣相符，以及所輸入預設價目表的內容是否與**銷售**有關。
+<span data-ttu-id="97a99-128">預設會輸入專案價目表時，系統會驗證貨幣是否與客戶貨幣相符，以及所輸入預設價目表的內容是否與 **銷售** 有關。</span><span class="sxs-lookup"><span data-stu-id="97a99-128">When a project price list is entered by default, the system validates that the currency matches the customer’s currency, and that the default price lists that have been entered have a context of **Sales**.</span></span>
 
-您可以將或多個專案價目表與客戶、商機、報價及專案合約銷售實體建立關聯。 此功能支援長期專案合約的日期特定預設價格，您可能需要多個價目表來處理因通貨膨脹而進行的價格更新。 不過，如果與客戶、商機、報價或專案合約實體建立關聯的價目表有重疊的有效日期範圍，則預設價格可能不正確。 因此，您必須確保有效日期範圍重疊的專案價目表未與這些實體相關聯。
+<span data-ttu-id="97a99-129">您可以將或多個專案價目表與客戶、商機、報價及專案合約銷售實體建立關聯。</span><span class="sxs-lookup"><span data-stu-id="97a99-129">You can associate multiple project price lists with the Customer, Opportunity, Quote, and Project Contract entities.</span></span> <span data-ttu-id="97a99-130">此功能支援長期專案合約的日期特定預設價格，您可能需要多個價目表來處理因通貨膨脹而進行的價格更新。</span><span class="sxs-lookup"><span data-stu-id="97a99-130">This capability supports date-specific default prices for a long-running project contract, where you might require more than one price list to account for price updates that occur because of inflation.</span></span> <span data-ttu-id="97a99-131">不過，如果與客戶、商機、報價或專案合約實體建立關聯的價目表有重疊的有效日期範圍，則預設價格可能不正確。</span><span class="sxs-lookup"><span data-stu-id="97a99-131">However, if the price lists that you associate with the Customer, Opportunity, Quote, or Project Contract entity have overlapping date effectivity, the default prices might be incorrect.</span></span> <span data-ttu-id="97a99-132">因此，您必須確保有效日期範圍重疊的專案價目表未與這些實體相關聯。</span><span class="sxs-lookup"><span data-stu-id="97a99-132">Therefore, you should make sure that project price lists that have overlapping date effectivity aren't associated with those entities.</span></span>

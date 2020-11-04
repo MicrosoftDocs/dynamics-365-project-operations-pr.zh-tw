@@ -8,63 +8,63 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ecaf4d872873473b0e7fe3b08d62c6fe5af9c3d
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: 3ead79371c5ebf5801123e47dc0d24e35ae51e58
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907951"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072929"
 ---
-# <a name="invoice-schedules-on-project-based-quote-lines"></a>專案型報價明細的發票排程
+# <a name="invoice-schedules-on-project-based-quote-lines"></a><span data-ttu-id="ee7a0-103">專案型報價明細的發票排程</span><span class="sxs-lookup"><span data-stu-id="ee7a0-103">Invoice schedules on project-based quote lines</span></span>
 
-_**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
+<span data-ttu-id="ee7a0-104">_**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_</span><span class="sxs-lookup"><span data-stu-id="ee7a0-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-專案型報價明細提供表示發票排程的功能。 這在報價階段中是選擇性的，因為應用程式繫結至報價明細時，不支援開立專案開票。 只有在報價成交後，才允許開立發票。 在報價階段建立發票排程唯一造成的下游影響是，將此發票排程複製到專案型合約服務內容。 如果您未在報價階段建立發票排程，則可以在專案型合約服務內容上這樣做。
+<span data-ttu-id="ee7a0-105">專案型報價明細提供表示發票排程的功能。</span><span class="sxs-lookup"><span data-stu-id="ee7a0-105">A project-based quote line gives the ability to express an invoice schedule.</span></span> <span data-ttu-id="ee7a0-106">這在報價階段中是選擇性的，因為應用程式繫結至報價明細時，不支援開立專案開票。</span><span class="sxs-lookup"><span data-stu-id="ee7a0-106">This is optional during the quote phase because the application does not support invoicing a project when it is tied to a Quote line.</span></span> <span data-ttu-id="ee7a0-107">只有在報價成交後，才允許開立發票。</span><span class="sxs-lookup"><span data-stu-id="ee7a0-107">Invoicing is only allowed after the quote is won.</span></span> <span data-ttu-id="ee7a0-108">在報價階段建立發票排程唯一造成的下游影響是，將此發票排程複製到專案型合約服務內容。</span><span class="sxs-lookup"><span data-stu-id="ee7a0-108">The only downstream impact of creating an invoice schedule during the quote phase, is that this invoice schedule is copied over to the project-based contract line.</span></span> <span data-ttu-id="ee7a0-109">如果您未在報價階段建立發票排程，則可以在專案型合約服務內容上這樣做。</span><span class="sxs-lookup"><span data-stu-id="ee7a0-109">If you do not create an invoice schedule during the quote phase, you will be able to do so on the project-based contract line.</span></span>
 
-總而言之，發票排程的目的在於允許自動建立專案型合約服務內容的草稿發票。 
+<span data-ttu-id="ee7a0-110">總而言之，發票排程的目的在於允許自動建立專案型合約服務內容的草稿發票。</span><span class="sxs-lookup"><span data-stu-id="ee7a0-110">Overall, the purpose of invoice schedules is to allow for the automatic creation of draft invoices for a project-based contract line.</span></span> 
 
-## <a name="create-a-time-and-material-invoice-schedule-for-a-project-based-quote-line"></a>建立專案型報價明細的時間和材料發票排程
+## <a name="create-a-time-and-material-invoice-schedule-for-a-project-based-quote-line"></a><span data-ttu-id="ee7a0-111">建立專案型報價明細的時間和材料發票排程</span><span class="sxs-lookup"><span data-stu-id="ee7a0-111">Create a Time and material invoice schedule for a project-based quote line</span></span>
 
-專案型報價明細的帳務方式為 [時間和材料] 時，系統會產生基於日期的發票排程。 若要讓系統自動產生基於日期的發票排程，請完成下列步驟。
+<span data-ttu-id="ee7a0-112">專案型報價明細的帳務方式為 [時間和材料] 時，系統會產生基於日期的發票排程。</span><span class="sxs-lookup"><span data-stu-id="ee7a0-112">When the billing method for a project-based quote line is Time and material, the system generates a date-based invoice schedule.</span></span> <span data-ttu-id="ee7a0-113">若要讓系統自動產生基於日期的發票排程，請完成下列步驟。</span><span class="sxs-lookup"><span data-stu-id="ee7a0-113">To automatically generate a date-based invoice schedule, complete the following steps.</span></span>
 
-1. 移至**設定** > **發票週期**，並設定發票週期。
-2. 在**報價**頁面上，開啟專案報價，並在**摘要**索引標籤中設定要求的交付日期。
-3. 開啟需要建立基於日期的發票排程的時間和材料報價明細。 
-4. 在**發票排程**索引標籤上，選取**帳單開始日期**及**發票週期**欄位中的值。 
-5. 在子格上，選取**產生發票排程**。
-6. 應用程式會產生以下列方式設定**發票執行日期**、**交易截止日期**和**執行狀態**欄位的發票排程：
+1. <span data-ttu-id="ee7a0-114">移至 **設定** > **發票週期** ，並設定發票週期。</span><span class="sxs-lookup"><span data-stu-id="ee7a0-114">Go to **Settings** > **invoice frequencies** and set up an invoice frequency.</span></span>
+2. <span data-ttu-id="ee7a0-115">在 **報價** 頁面上，開啟專案報價，並在 **摘要** 索引標籤中設定要求的交付日期。</span><span class="sxs-lookup"><span data-stu-id="ee7a0-115">On the **Quotes** page, open the Project quote and on the **Summary** tab, set a requested delivery date.</span></span>
+3. <span data-ttu-id="ee7a0-116">開啟需要建立基於日期的發票排程的時間和材料報價明細。</span><span class="sxs-lookup"><span data-stu-id="ee7a0-116">Open the time and material quote line that you need to create a date-based invoice schedule for.</span></span> 
+4. <span data-ttu-id="ee7a0-117">在 **發票排程** 索引標籤上，選取 **帳單開始日期** 及 **發票週期** 欄位中的值。</span><span class="sxs-lookup"><span data-stu-id="ee7a0-117">On the **Invoice Schedule** tab, select values in the **Billing start** and **Invoice Frequency** fields.</span></span> 
+5. <span data-ttu-id="ee7a0-118">在子格上，選取 **產生發票排程** 。</span><span class="sxs-lookup"><span data-stu-id="ee7a0-118">On the sub-grid, select **Generate Invoice Schedule**.</span></span>
+6. <span data-ttu-id="ee7a0-119">應用程式會產生以下列方式設定 **發票執行日期** 、 **交易截止日期** 和 **執行狀態** 欄位的發票排程：</span><span class="sxs-lookup"><span data-stu-id="ee7a0-119">The application generates the invoice schedule with the **Invoice Run Date** , **Transaction Cutoff Date** , and **Run Status** fields set in the following way:</span></span>
 
-    - **發票執行日期**會設定為取決於發票週期的日期。
-    - **交易截止日期**會設定為**發票執行日期**的前一天。
-    - **執行狀態**會自動設為**未執行**。 自動發票建立作業針對特定發票執行日期執行時，此作業會將此欄位更新為**執行成功**或**執行失敗**。
+    - <span data-ttu-id="ee7a0-120">**發票執行日期** 會設定為取決於發票週期的日期。</span><span class="sxs-lookup"><span data-stu-id="ee7a0-120">**Invoice Run Date** is set to the date that is dictated based on the invoice frequency.</span></span>
+    - <span data-ttu-id="ee7a0-121">**交易截止日期** 會設定為 **發票執行日期** 的前一天。</span><span class="sxs-lookup"><span data-stu-id="ee7a0-121">**Transaction cut-off date** is set to the day before the **Invoice Run Date**.</span></span>
+    - <span data-ttu-id="ee7a0-122">**執行狀態** 會自動設為 **未執行** 。</span><span class="sxs-lookup"><span data-stu-id="ee7a0-122">**Run Status** is automatically set to **Not Run**.</span></span> <span data-ttu-id="ee7a0-123">自動發票建立作業針對特定發票執行日期執行時，此作業會將此欄位更新為 **執行成功** 或 **執行失敗** 。</span><span class="sxs-lookup"><span data-stu-id="ee7a0-123">When the automatic invoice creation job runs for a certain invoice run date, it will update this field to either **Run Successful** or **Run Failed**.</span></span>
 
-## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>建立專案型報價明細的固定價格發票排程
+## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a><span data-ttu-id="ee7a0-124">建立專案型報價明細的固定價格發票排程</span><span class="sxs-lookup"><span data-stu-id="ee7a0-124">Create a Fixed price invoice schedule for a project-based quote line</span></span>
 
-專案型報價明細的帳務方式為**固定價格**時，系統會建立基於里程碑的發票排程。 完成下列步驟，為一組在行事曆期間平均分佈的固定里程碑，自動產生此排程。
+<span data-ttu-id="ee7a0-125">專案型報價明細的帳務方式為 **固定價格** 時，系統會建立基於里程碑的發票排程。</span><span class="sxs-lookup"><span data-stu-id="ee7a0-125">When the project-based quote line has a **Fixed** billing method, the system creates a milestone-based invoice schedule.</span></span> <span data-ttu-id="ee7a0-126">完成下列步驟，為一組在行事曆期間平均分佈的固定里程碑，自動產生此排程。</span><span class="sxs-lookup"><span data-stu-id="ee7a0-126">Complete the following steps to automatically generate this schedule for a fixed set of milestones that are equally distributed for the calendar period.</span></span>
 
-1. 移至**設定** > **發票週期**，並設定發票週期。
-2. 在**報價**頁面上，開啟專案報價，並在**摘要**索引標籤中設定要求的交付日期。
-3. 開啟需要建立里程碑排程的固定價格報價明細。 
-4. 在**發票排程**索引標籤上，選取**帳單開始日期**及**發票週期**欄位中的值。 
-5. 在子格上，選取**產生定期里程碑**。
-6. 應用程式會產生包含里程碑名稱、日期和金額的發票排程。
+1. <span data-ttu-id="ee7a0-127">移至 **設定** > **發票週期** ，並設定發票週期。</span><span class="sxs-lookup"><span data-stu-id="ee7a0-127">Go to **Settings** > **invoice frequencies** and set up an invoice frequency.</span></span>
+2. <span data-ttu-id="ee7a0-128">在 **報價** 頁面上，開啟專案報價，並在 **摘要** 索引標籤中設定要求的交付日期。</span><span class="sxs-lookup"><span data-stu-id="ee7a0-128">On the **Quotes** page, open the Project quote and on the **Summary** tab, set a requested delivery date.</span></span>
+3. <span data-ttu-id="ee7a0-129">開啟需要建立里程碑排程的固定價格報價明細。</span><span class="sxs-lookup"><span data-stu-id="ee7a0-129">Open the fixed price quote line that you need to create a milestone schedule for.</span></span> 
+4. <span data-ttu-id="ee7a0-130">在 **發票排程** 索引標籤上，選取 **帳單開始日期** 及 **發票週期** 欄位中的值。</span><span class="sxs-lookup"><span data-stu-id="ee7a0-130">On the **Invoice Schedule** tab, select values in the **Billing start** and **Invoice Frequency** fields.</span></span> 
+5. <span data-ttu-id="ee7a0-131">在子格上，選取 **產生定期里程碑** 。</span><span class="sxs-lookup"><span data-stu-id="ee7a0-131">On the sub-grid, select **Generate Periodic Milestones**.</span></span>
+6. <span data-ttu-id="ee7a0-132">應用程式會產生包含里程碑名稱、日期和金額的發票排程。</span><span class="sxs-lookup"><span data-stu-id="ee7a0-132">The application generates the invoice schedule with a milestone name, date, and amount.</span></span>
 
-    - 里程碑名稱會設定為取決於發票週期的日期。
-    - 里程碑日期會設定為取決於發票週期的日期。
-    - 里程碑金額的計算方式是，將專案型報價明細的報價金額除以根據週期和帳單開始日期以及要求的交付日期所決定的里程碑數目。
-    - 如果報價明細還有估計稅額，此值會產生定期里程碑時，均等分攤至每個里程碑。
+    - <span data-ttu-id="ee7a0-133">里程碑名稱會設定為取決於發票週期的日期。</span><span class="sxs-lookup"><span data-stu-id="ee7a0-133">The milestone name is set to the date that is dictated based on the invoice frequency.</span></span>
+    - <span data-ttu-id="ee7a0-134">里程碑日期會設定為取決於發票週期的日期。</span><span class="sxs-lookup"><span data-stu-id="ee7a0-134">The milestone date is set to the date that is dictated based on the invoice frequency.</span></span>
+    - <span data-ttu-id="ee7a0-135">里程碑金額的計算方式是，將專案型報價明細的報價金額除以根據週期和帳單開始日期以及要求的交付日期所決定的里程碑數目。</span><span class="sxs-lookup"><span data-stu-id="ee7a0-135">The milestone amount is computed by dividing the quote amount on the project-based quote line by the number of milestones as dictated by the frequency and billing start and requested delivery dates.</span></span>
+    - <span data-ttu-id="ee7a0-136">如果報價明細還有估計稅額，此值會產生定期里程碑時，均等分攤至每個里程碑。</span><span class="sxs-lookup"><span data-stu-id="ee7a0-136">If the Quote line also has as estimated tax amount, this value is split between each milestone equally when generating periodic milestones.</span></span>
 
-### <a name="manually-create-milestones"></a>手動建立里程碑
+### <a name="manually-create-milestones"></a><span data-ttu-id="ee7a0-137">手動建立里程碑</span><span class="sxs-lookup"><span data-stu-id="ee7a0-137">Manually create milestones</span></span>
 
-當固定價格里程碑並非定期分割時，您也可以手動產生這些里程碑。 若要手動建立里程碑：
+<span data-ttu-id="ee7a0-138">當固定價格里程碑並非定期分割時，您也可以手動產生這些里程碑。</span><span class="sxs-lookup"><span data-stu-id="ee7a0-138">Fixed price milestones can also be generated manually when they are not periodically split.</span></span> <span data-ttu-id="ee7a0-139">若要手動建立里程碑：</span><span class="sxs-lookup"><span data-stu-id="ee7a0-139">To create a milestone manually:</span></span>
 
-開啟需要建立里程碑的固定價格報價明細。 在**發票排程**索引標籤的子格上，選取 **+ 建立新的報價明細里程碑**，然後根據下表輸入必要的資訊。
+<span data-ttu-id="ee7a0-140">開啟需要建立里程碑的固定價格報價明細。</span><span class="sxs-lookup"><span data-stu-id="ee7a0-140">Open the Fixed price quote line where you need to create a milestone.</span></span> <span data-ttu-id="ee7a0-141">在 **發票排程** 索引標籤的子格上，選取 **+ 建立新的報價明細里程碑** ，然後根據下表輸入必要的資訊。</span><span class="sxs-lookup"><span data-stu-id="ee7a0-141">On the **Invoice Schedule** tab, on the sub-grid, select **+ Create new quote line milestone** and enter the required information based on the following table.</span></span>
 
-| **欄位** | **位置** | **關聯性、目的和指引** | **下游影響** |
+| <span data-ttu-id="ee7a0-142">**欄位**</span><span class="sxs-lookup"><span data-stu-id="ee7a0-142">**Field**</span></span> | <span data-ttu-id="ee7a0-143">**位置**</span><span class="sxs-lookup"><span data-stu-id="ee7a0-143">**Location**</span></span> | <span data-ttu-id="ee7a0-144">**關聯性、目的和指引**</span><span class="sxs-lookup"><span data-stu-id="ee7a0-144">**Relevance, purpose, and guidance**</span></span> | <span data-ttu-id="ee7a0-145">**下游影響**</span><span class="sxs-lookup"><span data-stu-id="ee7a0-145">**Downstream impact**</span></span> |
 | --- | --- | --- | --- |
-| 里程碑名稱 | 快速建立 | 里程碑的名稱。 | 這會傳播至專案合約服務內容里程碑和發票 |
-| 專案工作 | 快速建立 | 如果里程碑已繫結至專案工作，您可以使用此參考，新增根據工作狀態設定里程碑狀態的自訂邏輯。 | 應用程式不會對工作產生此參考的任何下游影響。 |
-| 里程碑日期 | 快速建立 | 設定日期，自動發票建立程序應在此日期尋找此里程碑的這個要考慮開立發票的狀態。 | 這會傳播至專案合約服務內容里程碑和發票。 |
-| 發票狀態 | 快速建立 | 建立里程碑時，此狀態一律設定為**尚未準備好開立發票**。 | 這會傳播至專案合約服務內容里程碑和發票。 |
-| 明細金額 | 快速建立 | 向客戶開立發票的里程碑金額或值。 | 這會傳播至專案合約服務內容里程碑和發票。 |
-| 稅額 | 快速建立 | 將套用至里程碑的稅額。 | 這會傳播至專案合約服務內容里程碑和發票。 |
+| <span data-ttu-id="ee7a0-146">里程碑名稱</span><span class="sxs-lookup"><span data-stu-id="ee7a0-146">Milestone name</span></span> | <span data-ttu-id="ee7a0-147">快速建立</span><span class="sxs-lookup"><span data-stu-id="ee7a0-147">Quick create</span></span> | <span data-ttu-id="ee7a0-148">里程碑的名稱。</span><span class="sxs-lookup"><span data-stu-id="ee7a0-148">The name of the milestone.</span></span> | <span data-ttu-id="ee7a0-149">這會傳播至專案合約服務內容里程碑和發票</span><span class="sxs-lookup"><span data-stu-id="ee7a0-149">This is propagated to the project contract line milestone and to the invoice</span></span> |
+| <span data-ttu-id="ee7a0-150">專案工作</span><span class="sxs-lookup"><span data-stu-id="ee7a0-150">Project Task</span></span> | <span data-ttu-id="ee7a0-151">快速建立</span><span class="sxs-lookup"><span data-stu-id="ee7a0-151">Quick create</span></span> | <span data-ttu-id="ee7a0-152">如果里程碑已繫結至專案工作，您可以使用此參考，新增根據工作狀態設定里程碑狀態的自訂邏輯。</span><span class="sxs-lookup"><span data-stu-id="ee7a0-152">If the milestone is tied to project task, you can use this reference to add custom logic set the milestone status based on the task status.</span></span> | <span data-ttu-id="ee7a0-153">應用程式不會對工作產生此參考的任何下游影響。</span><span class="sxs-lookup"><span data-stu-id="ee7a0-153">The application, does not have any downstream impact of this reference to a task.</span></span> |
+| <span data-ttu-id="ee7a0-154">里程碑日期</span><span class="sxs-lookup"><span data-stu-id="ee7a0-154">Milestone date</span></span> | <span data-ttu-id="ee7a0-155">快速建立</span><span class="sxs-lookup"><span data-stu-id="ee7a0-155">Quick create</span></span> | <span data-ttu-id="ee7a0-156">設定日期，自動發票建立程序應在此日期尋找此里程碑的這個要考慮開立發票的狀態。</span><span class="sxs-lookup"><span data-stu-id="ee7a0-156">Set the date on which the automatic invoice creation process should look for the status of this milestone to consider it for invoicing.</span></span> | <span data-ttu-id="ee7a0-157">這會傳播至專案合約服務內容里程碑和發票。</span><span class="sxs-lookup"><span data-stu-id="ee7a0-157">This is propagated to the project contract line milestone and to the invoice.</span></span> |
+| <span data-ttu-id="ee7a0-158">發票狀態</span><span class="sxs-lookup"><span data-stu-id="ee7a0-158">Invoice status</span></span> | <span data-ttu-id="ee7a0-159">快速建立</span><span class="sxs-lookup"><span data-stu-id="ee7a0-159">Quick create</span></span> | <span data-ttu-id="ee7a0-160">建立里程碑時，此狀態一律設定為 **尚未準備好開立發票** 。</span><span class="sxs-lookup"><span data-stu-id="ee7a0-160">When a milestone is created, this status is always set to **Not ready for invoicing**.</span></span> | <span data-ttu-id="ee7a0-161">這會傳播至專案合約服務內容里程碑和發票。</span><span class="sxs-lookup"><span data-stu-id="ee7a0-161">This is propagated to the project contract line milestone and to the invoice.</span></span> |
+| <span data-ttu-id="ee7a0-162">明細金額</span><span class="sxs-lookup"><span data-stu-id="ee7a0-162">Line Amount</span></span> | <span data-ttu-id="ee7a0-163">快速建立</span><span class="sxs-lookup"><span data-stu-id="ee7a0-163">Quick create</span></span> | <span data-ttu-id="ee7a0-164">向客戶開立發票的里程碑金額或值。</span><span class="sxs-lookup"><span data-stu-id="ee7a0-164">Amount or value of the milestone that will be invoiced to the customer.</span></span> | <span data-ttu-id="ee7a0-165">這會傳播至專案合約服務內容里程碑和發票。</span><span class="sxs-lookup"><span data-stu-id="ee7a0-165">This is propagated to the project contract line milestone and to the invoice.</span></span> |
+| <span data-ttu-id="ee7a0-166">稅額</span><span class="sxs-lookup"><span data-stu-id="ee7a0-166">Tax</span></span> | <span data-ttu-id="ee7a0-167">快速建立</span><span class="sxs-lookup"><span data-stu-id="ee7a0-167">Quick create</span></span> | <span data-ttu-id="ee7a0-168">將套用至里程碑的稅額。</span><span class="sxs-lookup"><span data-stu-id="ee7a0-168">Tax amount that will be applied to the milestone.</span></span> | <span data-ttu-id="ee7a0-169">這會傳播至專案合約服務內容里程碑和發票。</span><span class="sxs-lookup"><span data-stu-id="ee7a0-169">This is propagated to the project contract line milestone and to the invoice.</span></span> |

@@ -3,67 +3,67 @@ title: 將專案的估計值匯入至專案型報價明細
 description: 本主題提供有關如何將估計值從專案匯入至報價明細的資訊。
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 75511f0d7ef1d2d1b3bf5cc598a8f51d0c553939
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: 8c0fe18b33207f73848709b99334f64aadc7867a
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907941"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072912"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>將專案的估計值匯入至專案型報價明細
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a><span data-ttu-id="49552-103">將專案的估計值匯入至專案型報價明細</span><span class="sxs-lookup"><span data-stu-id="49552-103">Import estimates for a project to a project-based quote line</span></span>
 
-_**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
+<span data-ttu-id="49552-104">_**適用於：** 資源/非庫存型案例適用的 Project Operations_</span><span class="sxs-lookup"><span data-stu-id="49552-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
 
-如果已在售前階段期間建立專案，您可以選擇將財務估計值從專案匯入至專案型報價明細。
+<span data-ttu-id="49552-105">如果已在售前階段期間建立專案，您可以選擇將財務估計值從專案匯入至專案型報價明細。</span><span class="sxs-lookup"><span data-stu-id="49552-105">If a project is created during the pre-sales stage, you can select to import the financial estimate from the project to the project-based quote line.</span></span>
 
-1. 請確定專案型報價明細在**專案**欄位中有專案資訊。
-2. 在**報價明細詳細資料**索引標籤中，選取**從專案估計值匯入**。
-3. 在開啟的對話方塊中，選取下列其中一個摘要選項。
+1. <span data-ttu-id="49552-106">請確定專案型報價明細在 **專案** 欄位中有專案資訊。</span><span class="sxs-lookup"><span data-stu-id="49552-106">Make sure that the project-based quote line has the project information in the **Project** field.</span></span>
+2. <span data-ttu-id="49552-107">在 **報價明細詳細資料** 索引標籤中，選取 **從專案估計值匯入** 。</span><span class="sxs-lookup"><span data-stu-id="49552-107">On the **Quote line details** tab, select **Import from Project Estimation**.</span></span>
+3. <span data-ttu-id="49552-108">在開啟的對話方塊中，選取下列其中一個摘要選項：</span><span class="sxs-lookup"><span data-stu-id="49552-108">On the dialog page opens, select one of the following summarization options:</span></span>
 
-  - **交易分類**
-  - **類別**
-  - **角色** 
-  - **專案工作**
+  - <span data-ttu-id="49552-109">**交易分類**</span><span class="sxs-lookup"><span data-stu-id="49552-109">**Transaction class**</span></span>
+  - <span data-ttu-id="49552-110">**類別**</span><span class="sxs-lookup"><span data-stu-id="49552-110">**Category**</span></span>
+  - <span data-ttu-id="49552-111">**角色**</span><span class="sxs-lookup"><span data-stu-id="49552-111">**Role**</span></span> 
+  - <span data-ttu-id="49552-112">**專案工作**</span><span class="sxs-lookup"><span data-stu-id="49552-112">**Project task**</span></span>
 
-根據您的選取項目，系統會從專案複製對此報價明細所包含所有交易分類的估計值。 若要檢查包含哪些交易分類，請選取專案型報價明細上的**一般**索引標籤，然後檢查**包含時間**、**包含費用**及**包含服務費**的值。
+<span data-ttu-id="49552-113">根據您的選取項目，系統會從專案複製對此報價明細所包含所有交易分類的估計值。</span><span class="sxs-lookup"><span data-stu-id="49552-113">Based on your selection, the estimate from the project for all transaction classes included on this quote line are copied over.</span></span> <span data-ttu-id="49552-114">若要檢查包含哪些交易分類，請選取專案型報價明細上的 **一般** 索引標籤，然後檢查 **包含時間** 、 **包含費用** 及 **包含服務費** 的值。</span><span class="sxs-lookup"><span data-stu-id="49552-114">To check what transaction classes are included, select the **General** tab on the project-based quote line, and check the values for **Include Time** , **Include Expenses** , and **Include Fees**.</span></span>
 
-匯入估計值時，系統會根據附加至報價的專案價目表，以及專案型報價明細上設定的帳單類型來預設定價。 如果角色或類別在專案型報價明細上設定為不應收費，則匯入的估計明細也會設定為不應收費，而不會加計至報價明細的報價值。
+<span data-ttu-id="49552-115">匯入估計值時，系統會根據附加至報價的專案價目表，以及專案型報價明細上設定的帳單類型來預設定價。</span><span class="sxs-lookup"><span data-stu-id="49552-115">When you import estimates, the system will default pricing based on the project price lists attached to the quote and the billing type set up on the project-based quote line.</span></span> <span data-ttu-id="49552-116">如果角色或類別在專案型報價明細上設定為不應收費，則匯入的估計明細也會設定為不應收費，而不會加計至報價明細的報價值。</span><span class="sxs-lookup"><span data-stu-id="49552-116">If a role or category is set up on the project-based quote line as non-chargeable, the imported estimate line will set as non-chargeable and won't add up to the quoted value of quote line.</span></span>
 
-報價明細有明細詳細資料時，報價明細上的**報價值**和**估計稅金**欄位會摘要列出，但無法加以編輯。
+<span data-ttu-id="49552-117">報價明細有明細詳細資料時，會總結報價明細上的 **報價值** 和 **估計稅金** 欄位，但無法加以編輯。</span><span class="sxs-lookup"><span data-stu-id="49552-117">When a quote line has line details, the **Quote Value** and the **Estimated Tax** fields on the quote line are summarized and can't be edited.</span></span>
 
-選取多個摘要選項時，摘要會嘗試依據所有選取的選項來列出摘要。 這表示所匯入報價明細的輸出會比您僅選取一個摘要選項時的輸入還要多。
+<span data-ttu-id="49552-118">選取多個摘要選項時，系統會嘗試依據所有選取的選項進行總結。</span><span class="sxs-lookup"><span data-stu-id="49552-118">When multiple summarization options are selected, the system attempts to summarize by all selected options.</span></span> <span data-ttu-id="49552-119">結果是所匯入之報價明細的輸出會比您僅選取一個摘要選項時的輸入還要多。</span><span class="sxs-lookup"><span data-stu-id="49552-119">The result is that the output of imported quote lines will be more than if you selected only one summarization option.</span></span>
 
-例如，如果專案的費用有下列估計明細。
+<span data-ttu-id="49552-120">例如，如果專案的費用有下列估計明細。</span><span class="sxs-lookup"><span data-stu-id="49552-120">For example, if the project has the following estimate lines for expenses.</span></span>
 
-| 工作​​ | Category | 日期 | 數量 | 單價 | 總數 |
+| <span data-ttu-id="49552-121">工作​​</span><span class="sxs-lookup"><span data-stu-id="49552-121">Task</span></span> | <span data-ttu-id="49552-122">Category</span><span class="sxs-lookup"><span data-stu-id="49552-122">Category</span></span> | <span data-ttu-id="49552-123">日期</span><span class="sxs-lookup"><span data-stu-id="49552-123">Date</span></span> | <span data-ttu-id="49552-124">數量</span><span class="sxs-lookup"><span data-stu-id="49552-124">Quantity</span></span> | <span data-ttu-id="49552-125">單價</span><span class="sxs-lookup"><span data-stu-id="49552-125">Unit price</span></span> | <span data-ttu-id="49552-126">總數</span><span class="sxs-lookup"><span data-stu-id="49552-126">Amount</span></span> |
 | --- | --- | --- | --- | --- | --- |
-| 工作 A | 機票 | 2020/10/1 | 4 | 400 | 1600 |
-| 工作 B | 飯店 | 2020/10/1 | 4 | 200 | 800 |
-| 工作 C | 飯店 | 2020/11/1 | 2 | 200 | 400 |
+| <span data-ttu-id="49552-127">工作 A</span><span class="sxs-lookup"><span data-stu-id="49552-127">Task A</span></span> | <span data-ttu-id="49552-128">機票</span><span class="sxs-lookup"><span data-stu-id="49552-128">Airfare</span></span> | <span data-ttu-id="49552-129">2020/10/1</span><span class="sxs-lookup"><span data-stu-id="49552-129">10/1/2020</span></span> | <span data-ttu-id="49552-130">4</span><span class="sxs-lookup"><span data-stu-id="49552-130">4</span></span> | <span data-ttu-id="49552-131">400</span><span class="sxs-lookup"><span data-stu-id="49552-131">400</span></span> | <span data-ttu-id="49552-132">1600</span><span class="sxs-lookup"><span data-stu-id="49552-132">1600</span></span> |
+| <span data-ttu-id="49552-133">工作 B</span><span class="sxs-lookup"><span data-stu-id="49552-133">Task B</span></span> | <span data-ttu-id="49552-134">飯店</span><span class="sxs-lookup"><span data-stu-id="49552-134">Hotel</span></span> | <span data-ttu-id="49552-135">2020/10/1</span><span class="sxs-lookup"><span data-stu-id="49552-135">10/1/2020</span></span> | <span data-ttu-id="49552-136">4</span><span class="sxs-lookup"><span data-stu-id="49552-136">4</span></span> | <span data-ttu-id="49552-137">200</span><span class="sxs-lookup"><span data-stu-id="49552-137">200</span></span> | <span data-ttu-id="49552-138">800</span><span class="sxs-lookup"><span data-stu-id="49552-138">800</span></span> |
+| <span data-ttu-id="49552-139">工作 C</span><span class="sxs-lookup"><span data-stu-id="49552-139">Task C</span></span> | <span data-ttu-id="49552-140">飯店</span><span class="sxs-lookup"><span data-stu-id="49552-140">Hotel</span></span> | <span data-ttu-id="49552-141">2020/11/1</span><span class="sxs-lookup"><span data-stu-id="49552-141">11/1/2020</span></span> | <span data-ttu-id="49552-142">2</span><span class="sxs-lookup"><span data-stu-id="49552-142">2</span></span> | <span data-ttu-id="49552-143">200</span><span class="sxs-lookup"><span data-stu-id="49552-143">200</span></span> | <span data-ttu-id="49552-144">400</span><span class="sxs-lookup"><span data-stu-id="49552-144">400</span></span> |
 
-使用者選擇依交易分類摘要列出時，將會匯入下列資訊。
+<span data-ttu-id="49552-145">使用者選擇依交易分類摘要列出時，將會匯入下列資訊。</span><span class="sxs-lookup"><span data-stu-id="49552-145">When the user selects to summarize by Transaction class, the following information will be imported.</span></span>
 
-| 工作​​ | Category | 日期 | 數量 | 單價 | 總數 |
+| <span data-ttu-id="49552-146">工作​​</span><span class="sxs-lookup"><span data-stu-id="49552-146">Task</span></span> | <span data-ttu-id="49552-147">Category</span><span class="sxs-lookup"><span data-stu-id="49552-147">Category</span></span> | <span data-ttu-id="49552-148">日期</span><span class="sxs-lookup"><span data-stu-id="49552-148">Date</span></span> | <span data-ttu-id="49552-149">數量</span><span class="sxs-lookup"><span data-stu-id="49552-149">Quantity</span></span> | <span data-ttu-id="49552-150">單價</span><span class="sxs-lookup"><span data-stu-id="49552-150">Unit price</span></span> | <span data-ttu-id="49552-151">總數</span><span class="sxs-lookup"><span data-stu-id="49552-151">Amount</span></span> |
 | --- | --- | --- | --- | --- | --- |
-| | | 2020/10/1 | 3.34 | 840 | 2800 |
+| | | <span data-ttu-id="49552-152">2020/10/1</span><span class="sxs-lookup"><span data-stu-id="49552-152">10/1/2020</span></span> | <span data-ttu-id="49552-153">3.34</span><span class="sxs-lookup"><span data-stu-id="49552-153">3.34</span></span> | <span data-ttu-id="49552-154">840</span><span class="sxs-lookup"><span data-stu-id="49552-154">840</span></span> | <span data-ttu-id="49552-155">2800</span><span class="sxs-lookup"><span data-stu-id="49552-155">2800</span></span> |
 
-使用者選擇依交易分類和類別摘要列出時，將會匯入下列資訊。
+<span data-ttu-id="49552-156">使用者選擇依交易分類和類別摘要列出時，將會匯入下列資訊。</span><span class="sxs-lookup"><span data-stu-id="49552-156">When the user selects to summarize by Transaction class and Category, the following information will be imported.</span></span>
 
-| 工作​​ | Category | 日期 | 數量 | 單價 | 總數 |
+| <span data-ttu-id="49552-157">工作​​</span><span class="sxs-lookup"><span data-stu-id="49552-157">Task</span></span> | <span data-ttu-id="49552-158">Category</span><span class="sxs-lookup"><span data-stu-id="49552-158">Category</span></span> | <span data-ttu-id="49552-159">日期</span><span class="sxs-lookup"><span data-stu-id="49552-159">Date</span></span> | <span data-ttu-id="49552-160">數量</span><span class="sxs-lookup"><span data-stu-id="49552-160">Quantity</span></span> | <span data-ttu-id="49552-161">單價</span><span class="sxs-lookup"><span data-stu-id="49552-161">Unit price</span></span> | <span data-ttu-id="49552-162">總數</span><span class="sxs-lookup"><span data-stu-id="49552-162">Amount</span></span> |
 | --- | --- | --- | --- | --- | --- |
-| 工作 A | 機票 | 2020/10/1 | 4 | 400 | 1600 |
-| | 飯店 | 2020/10/1 | 6 | 200 | 1200 |
+| <span data-ttu-id="49552-163">工作 A</span><span class="sxs-lookup"><span data-stu-id="49552-163">Task A</span></span> | <span data-ttu-id="49552-164">機票</span><span class="sxs-lookup"><span data-stu-id="49552-164">Airfare</span></span> | <span data-ttu-id="49552-165">2020/10/1</span><span class="sxs-lookup"><span data-stu-id="49552-165">10/1/2020</span></span> | <span data-ttu-id="49552-166">4</span><span class="sxs-lookup"><span data-stu-id="49552-166">4</span></span> | <span data-ttu-id="49552-167">400</span><span class="sxs-lookup"><span data-stu-id="49552-167">400</span></span> | <span data-ttu-id="49552-168">1600</span><span class="sxs-lookup"><span data-stu-id="49552-168">1600</span></span> |
+| | <span data-ttu-id="49552-169">飯店</span><span class="sxs-lookup"><span data-stu-id="49552-169">Hotel</span></span> | <span data-ttu-id="49552-170">2020/10/1</span><span class="sxs-lookup"><span data-stu-id="49552-170">10/1/2020</span></span> | <span data-ttu-id="49552-171">6</span><span class="sxs-lookup"><span data-stu-id="49552-171">6</span></span> | <span data-ttu-id="49552-172">200</span><span class="sxs-lookup"><span data-stu-id="49552-172">200</span></span> | <span data-ttu-id="49552-173">1200</span><span class="sxs-lookup"><span data-stu-id="49552-173">1200</span></span> |
 
-使用者選擇依交易分類、類別和分葉節點工作摘要列出時，將會匯入下列資訊。 請注意，此結果與專案的內容相同。
+<span data-ttu-id="49552-174">使用者選擇依交易分類、類別和分葉節點工作摘要列出時，將會匯入下列資訊。</span><span class="sxs-lookup"><span data-stu-id="49552-174">When the user selects to summarize by Transaction class, Category, and Leaf Node Task, the following information will be imported.</span></span> <span data-ttu-id="49552-175">請注意，此結果與專案的內容相同。</span><span class="sxs-lookup"><span data-stu-id="49552-175">Notice that this result is the same as what was on the project.</span></span>
 
-| 工作​​ | Category | 日期 | 數量 | 單價 | 總數 |
+| <span data-ttu-id="49552-176">工作​​</span><span class="sxs-lookup"><span data-stu-id="49552-176">Task</span></span> | <span data-ttu-id="49552-177">Category</span><span class="sxs-lookup"><span data-stu-id="49552-177">Category</span></span> | <span data-ttu-id="49552-178">日期</span><span class="sxs-lookup"><span data-stu-id="49552-178">Date</span></span> | <span data-ttu-id="49552-179">數量</span><span class="sxs-lookup"><span data-stu-id="49552-179">Quantity</span></span> | <span data-ttu-id="49552-180">單價</span><span class="sxs-lookup"><span data-stu-id="49552-180">Unit price</span></span> | <span data-ttu-id="49552-181">總數</span><span class="sxs-lookup"><span data-stu-id="49552-181">Amount</span></span> |
 | --- | --- | --- | --- | --- | --- |
-| 工作 A | 機票 | 2020/10/1 | 4 | 400 | 1600 |
-| 工作 B | 飯店 | 2020/10/1 | 4 | 200 | 800 |
-| 工作 C | 飯店 | 2020/11/1 | 2 | 200 | 400 |
+| <span data-ttu-id="49552-182">工作 A</span><span class="sxs-lookup"><span data-stu-id="49552-182">Task A</span></span> | <span data-ttu-id="49552-183">機票</span><span class="sxs-lookup"><span data-stu-id="49552-183">Airfare</span></span> | <span data-ttu-id="49552-184">2020/10/1</span><span class="sxs-lookup"><span data-stu-id="49552-184">10/1/2020</span></span> | <span data-ttu-id="49552-185">4</span><span class="sxs-lookup"><span data-stu-id="49552-185">4</span></span> | <span data-ttu-id="49552-186">400</span><span class="sxs-lookup"><span data-stu-id="49552-186">400</span></span> | <span data-ttu-id="49552-187">1600</span><span class="sxs-lookup"><span data-stu-id="49552-187">1600</span></span> |
+| <span data-ttu-id="49552-188">工作 B</span><span class="sxs-lookup"><span data-stu-id="49552-188">Task B</span></span> | <span data-ttu-id="49552-189">飯店</span><span class="sxs-lookup"><span data-stu-id="49552-189">Hotel</span></span> | <span data-ttu-id="49552-190">2020/10/1</span><span class="sxs-lookup"><span data-stu-id="49552-190">10/1/2020</span></span> | <span data-ttu-id="49552-191">4</span><span class="sxs-lookup"><span data-stu-id="49552-191">4</span></span> | <span data-ttu-id="49552-192">200</span><span class="sxs-lookup"><span data-stu-id="49552-192">200</span></span> | <span data-ttu-id="49552-193">800</span><span class="sxs-lookup"><span data-stu-id="49552-193">800</span></span> |
+| <span data-ttu-id="49552-194">工作 C</span><span class="sxs-lookup"><span data-stu-id="49552-194">Task C</span></span> | <span data-ttu-id="49552-195">飯店</span><span class="sxs-lookup"><span data-stu-id="49552-195">Hotel</span></span> | <span data-ttu-id="49552-196">2020/11/1</span><span class="sxs-lookup"><span data-stu-id="49552-196">11/1/2020</span></span> | <span data-ttu-id="49552-197">2</span><span class="sxs-lookup"><span data-stu-id="49552-197">2</span></span> | <span data-ttu-id="49552-198">200</span><span class="sxs-lookup"><span data-stu-id="49552-198">200</span></span> | <span data-ttu-id="49552-199">400</span><span class="sxs-lookup"><span data-stu-id="49552-199">400</span></span> |

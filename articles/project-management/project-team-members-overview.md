@@ -9,54 +9,54 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: f4941803c657fab55ee2702d9f58d6e333592889
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907943"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072887"
 ---
-# <a name="project-team-members"></a>專案團隊成員
+# <a name="project-team-members"></a><span data-ttu-id="97164-103">專案團隊成員</span><span class="sxs-lookup"><span data-stu-id="97164-103">Project team members</span></span>
 
-_**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
+<span data-ttu-id="97164-104">_**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_</span><span class="sxs-lookup"><span data-stu-id="97164-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-專案團隊成員是完成專案工作的專案參與者。 團隊成員網格的目標是提供已委身參與專案的具名資源清單，以及做為預留位置資源且將於日後配置人力的一般團隊成員。
+<span data-ttu-id="97164-105">專案團隊成員是完成專案工作的專案參與者。</span><span class="sxs-lookup"><span data-stu-id="97164-105">Project team members are the project participants who complete the work on a project.</span></span> <span data-ttu-id="97164-106">團隊成員網格的目標是提供已委身參與專案的具名資源清單，以及做為預留位置資源且將於日後配置人力的一般團隊成員。</span><span class="sxs-lookup"><span data-stu-id="97164-106">The objective of the team member grid is to provide a list of named resources who are committed to the engagement, and generic team members who are place holder resources and will be staffed later.</span></span>
 
-在團隊成員網格中，專案經理和其他專案參與者可以查看誰已投入專案工作中。 他們也可以檢視其預約、計劃投入量和個別資源指派的摘要。 團隊成員網格可供專案經理用來定義一般團隊成員的資源需求，並管理現有團隊成員的預約。
+<span data-ttu-id="97164-107">在團隊成員網格中，專案經理和其他專案參與者可以查看誰已投入專案工作中。</span><span class="sxs-lookup"><span data-stu-id="97164-107">From the team member grid, the Project manager and the other project participants have the ability to see who has been committed to the project.</span></span> <span data-ttu-id="97164-108">他們也可以檢視其預約、計劃投入量和個別資源指派的摘要。</span><span class="sxs-lookup"><span data-stu-id="97164-108">They can also view a summary of their bookings, planned effort, and individual resource assignments.</span></span> <span data-ttu-id="97164-109">團隊成員網格可供專案經理用來定義一般團隊成員的資源需求，並管理現有團隊成員的預約。</span><span class="sxs-lookup"><span data-stu-id="97164-109">The team member grid allows Project managers to define resource requirements for generic team members and manage the bookings of existing team members.</span></span>
 
-下表列出專案團隊成員的重要屬性。
+<span data-ttu-id="97164-110">下表列出專案團隊成員的重要屬性。</span><span class="sxs-lookup"><span data-stu-id="97164-110">The following table lists the key attributes of a project team member.</span></span>
 
-| 欄位名稱          | 描述                                                                                                                                                                  |
+| <span data-ttu-id="97164-111">欄位名稱</span><span class="sxs-lookup"><span data-stu-id="97164-111">Field name</span></span>          | <span data-ttu-id="97164-112">描述</span><span class="sxs-lookup"><span data-stu-id="97164-112">Description</span></span>                                                                                                                                                                  |
 |--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 配置方法        | 用來預約專案資源的配置方法。                                                                         |
-| 帳單類型             | 選取是否將團隊成員分類為可計費。                                                                                                                                       |
-| 可預約資源        | 所選取要取代一般資源的可預約資源。                                                                                                                   |
-| 刪除狀態            | 團隊成員的刪除狀態，用來追蹤是否有傳送至 PSS 的刪除要求，以及 PSS 是否已成功在預期的時間範圍內送出回覆。 |
-| 總投入 (小時)     | 團隊成員對其工作指派的投入總和。                                                                                                                         |
-| 完成的投入 (小時) | 追蹤團隊成員對其工作指派所完成的投入量。                                                                                           |
-| 剩餘未完成投入 (小時) | 追蹤團隊成員對其工作指派尚未完成的投入量。                                                                                    |
-| 結束                   | 資源團隊成員資格結束日期。                                                                                                                                            |
-| 已確認預約時數        | 團隊成員的已確認預約時數。                                                                                                                                                                |
-| 職位名稱            | 用來識別一般資源的名稱。                                                                                                                                   |
-| 資源分配單位          | 執行工作之資源的組織單位。                                                                                                                      |
-| 專案核准者         | 選取團隊成員能否核准時間和費用。                                                                                                                     |
-| 需要的時數           | 團隊成員在團隊成員需求中所需的時數。                                                                                                                       |
-| 角色                     | 團隊成員在此團隊中擔任的角色。                                                                                                                                |
-| 職位描述     | 輸入此團隊成員的角色描述。                                                                                                                             |
-| 未確認預約時數        | 團隊成員的未確認預約時數。                                                                                                                                                                 |
-| 啟動                    | 資源團隊成員資格開始日期。                                                                                                                                          |
+| <span data-ttu-id="97164-113">配置方法</span><span class="sxs-lookup"><span data-stu-id="97164-113">Allocation method</span></span>        | <span data-ttu-id="97164-114">用來預約專案資源的配置方法。</span><span class="sxs-lookup"><span data-stu-id="97164-114">The allocation method used to book resources on the project.</span></span>                                                                         |
+| <span data-ttu-id="97164-115">帳單類型</span><span class="sxs-lookup"><span data-stu-id="97164-115">Billing Type</span></span>             | <span data-ttu-id="97164-116">選取是否將團隊成員分類為可計費。</span><span class="sxs-lookup"><span data-stu-id="97164-116">Select whether the team member is classified as billable.</span></span>                                                                                                                                       |
+| <span data-ttu-id="97164-117">可預約資源</span><span class="sxs-lookup"><span data-stu-id="97164-117">Bookable Resource</span></span>        | <span data-ttu-id="97164-118">所選取要取代一般資源的可預約資源。</span><span class="sxs-lookup"><span data-stu-id="97164-118">The bookable resource selected to replace the generic resource.</span></span>                                                                                                                   |
+| <span data-ttu-id="97164-119">刪除狀態</span><span class="sxs-lookup"><span data-stu-id="97164-119">Delete Status</span></span>            | <span data-ttu-id="97164-120">團隊成員的刪除狀態，用來追蹤是否有傳送至 PSS 的刪除要求，以及 PSS 是否已成功在預期的時間範圍內送出回覆。</span><span class="sxs-lookup"><span data-stu-id="97164-120">The delete status of the team member to track if there is a delete request sent to PSS and whether PSS sends back response successfully and within the expected time window.</span></span> |
+| <span data-ttu-id="97164-121">總投入 (小時)</span><span class="sxs-lookup"><span data-stu-id="97164-121">Total Effort (Hours)</span></span>     | <span data-ttu-id="97164-122">團隊成員對其工作指派的投入總和。</span><span class="sxs-lookup"><span data-stu-id="97164-122">The sum of the team member's effort on their assignments.</span></span>                                                                                                                         |
+| <span data-ttu-id="97164-123">完成的投入 (小時)</span><span class="sxs-lookup"><span data-stu-id="97164-123">Effort Completed (Hours)</span></span> | <span data-ttu-id="97164-124">追蹤團隊成員對其工作指派所完成的投入量。</span><span class="sxs-lookup"><span data-stu-id="97164-124">A tracking of the effort accomplished by the team member on their assignments.</span></span>                                                                                           |
+| <span data-ttu-id="97164-125">剩餘未完成投入 (小時)</span><span class="sxs-lookup"><span data-stu-id="97164-125">Effort Remaining (Hours)</span></span> | <span data-ttu-id="97164-126">追蹤團隊成員對其工作指派尚未完成的投入量。</span><span class="sxs-lookup"><span data-stu-id="97164-126">A tracking of the effort not yet completed by the team member on their assignments.</span></span>                                                                                    |
+| <span data-ttu-id="97164-127">結束</span><span class="sxs-lookup"><span data-stu-id="97164-127">Finish</span></span>                   | <span data-ttu-id="97164-128">資源團隊成員資格結束日期。</span><span class="sxs-lookup"><span data-stu-id="97164-128">The resource team membership end date.</span></span>                                                                                                                                            |
+| <span data-ttu-id="97164-129">已確認預約時數</span><span class="sxs-lookup"><span data-stu-id="97164-129">Hard Booked Hours</span></span>        | <span data-ttu-id="97164-130">團隊成員的已確認預約時數。</span><span class="sxs-lookup"><span data-stu-id="97164-130">The hard booked hours of the team member.</span></span>                                                                                                                                                                |
+| <span data-ttu-id="97164-131">職位名稱</span><span class="sxs-lookup"><span data-stu-id="97164-131">Position Name</span></span>            | <span data-ttu-id="97164-132">用來識別一般資源的名稱。</span><span class="sxs-lookup"><span data-stu-id="97164-132">The name used to identify the generic resource.</span></span>                                                                                                                                   |
+| <span data-ttu-id="97164-133">資源分配單位</span><span class="sxs-lookup"><span data-stu-id="97164-133">Resourcing Unit</span></span>          | <span data-ttu-id="97164-134">執行工作之資源的組織單位。</span><span class="sxs-lookup"><span data-stu-id="97164-134">The organizational unit of the resource performing the work.</span></span>                                                                                                                      |
+| <span data-ttu-id="97164-135">專案核准者</span><span class="sxs-lookup"><span data-stu-id="97164-135">Project Approver</span></span>         | <span data-ttu-id="97164-136">選取團隊成員能否核准時間和費用。</span><span class="sxs-lookup"><span data-stu-id="97164-136">Select whether the team member can approve time and expenses.</span></span>                                                                                                                     |
+| <span data-ttu-id="97164-137">需要的時數</span><span class="sxs-lookup"><span data-stu-id="97164-137">Required Hours</span></span>           | <span data-ttu-id="97164-138">團隊成員在團隊成員需求中所需的時數。</span><span class="sxs-lookup"><span data-stu-id="97164-138">The required hours of the team member from team member requirement.</span></span>                                                                                                                       |
+| <span data-ttu-id="97164-139">角色</span><span class="sxs-lookup"><span data-stu-id="97164-139">Role</span></span>                     | <span data-ttu-id="97164-140">團隊成員在此團隊中擔任的角色。</span><span class="sxs-lookup"><span data-stu-id="97164-140">The role the team member fills on this team.</span></span>                                                                                                                                |
+| <span data-ttu-id="97164-141">職位描述</span><span class="sxs-lookup"><span data-stu-id="97164-141">Position Description</span></span>     | <span data-ttu-id="97164-142">輸入此團隊成員的角色描述。</span><span class="sxs-lookup"><span data-stu-id="97164-142">Enter a description of the role for this team member.</span></span>                                                                                                                             |
+| <span data-ttu-id="97164-143">未確認預約時數</span><span class="sxs-lookup"><span data-stu-id="97164-143">Soft Booked Hours</span></span>        | <span data-ttu-id="97164-144">團隊成員的未確認預約時數。</span><span class="sxs-lookup"><span data-stu-id="97164-144">The soft booked hours of the team member.</span></span>                                                                                                                                                                 |
+| <span data-ttu-id="97164-145">啟動</span><span class="sxs-lookup"><span data-stu-id="97164-145">Start</span></span>                    | <span data-ttu-id="97164-146">資源團隊成員資格開始日期。</span><span class="sxs-lookup"><span data-stu-id="97164-146">The resource team membership start date.</span></span>                                                                                                                                          |
 
-從團隊成員網格中，可以執行下列動作：
+<span data-ttu-id="97164-147">從團隊成員網格中，可以執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="97164-147">From the team member grid, the following actions can be taken:</span></span>
 
-- **服務**：對於運用混合式預約方法執行的組織，預約動作允許使用者根據一般團隊成員產生的必要需求來預約具名資源
-- **產生需求**：此動作會產生需求。
-- **指定模式**：可讓專案經理在細微層級上調整資源需求分佈。 專案經理可以在預設分佈不適合的執行個體中，針對專案的特定需求進行調整。
-- **提交要求**：適用於使用集中預約方法的組織。
-- **編輯**：您可以編輯的團隊成員屬性包括組織單位、角色和職位名稱。
-- **維護預約**：需要更新資源時，維護預約可讓專案經理調整：
+- <span data-ttu-id="97164-148">**服務** ：對於運用混合式預約方法執行的組織，預約動作允許使用者根據一般團隊成員產生的必要需求來預約具名資源</span><span class="sxs-lookup"><span data-stu-id="97164-148">**Book** : For organizations that execute leveraging the hybrid bookings methodology, the book action will allow users to book a named resource based on the require requirements generated from the generic team member</span></span>
+- <span data-ttu-id="97164-149">**產生需求** ：此動作會產生需求。</span><span class="sxs-lookup"><span data-stu-id="97164-149">**Generate Requirement** : This action generates the requirement.</span></span>
+- <span data-ttu-id="97164-150">**指定模式** ：可讓專案經理在細微層級上調整資源需求分佈。</span><span class="sxs-lookup"><span data-stu-id="97164-150">**Specify Pattern** : Allows project managers to adjust resource requirement contours at a granular level.</span></span> <span data-ttu-id="97164-151">專案經理可以在預設分佈不適合的執行個體中，針對專案的特定需求進行調整。</span><span class="sxs-lookup"><span data-stu-id="97164-151">Project managers can adjust for the specific needs of the project in instances where the default distribution does not fit.</span></span>
+- <span data-ttu-id="97164-152">**提交要求** ：適用於使用集中預約方法的組織。</span><span class="sxs-lookup"><span data-stu-id="97164-152">**Submit Request** : For organizations using the central bookings methodology.</span></span>
+- <span data-ttu-id="97164-153">**編輯** ：您可以編輯的團隊成員屬性包括組織單位、角色和職位名稱。</span><span class="sxs-lookup"><span data-stu-id="97164-153">**Edit** : Team member attributes can be edited including organizational unit, role, and position name.</span></span>
+- <span data-ttu-id="97164-154">**維護預約** ：需要更新資源時，維護預約可讓專案經理調整：</span><span class="sxs-lookup"><span data-stu-id="97164-154">**Maintain Bookings** : When resources bookings need to be updated, maintain bookings allow the Project manager to adjust the:</span></span>
 
-    - 啟動
-    - 尾端
-    - 總投入量分攤
+    - <span data-ttu-id="97164-155">啟動</span><span class="sxs-lookup"><span data-stu-id="97164-155">Start</span></span>
+    - <span data-ttu-id="97164-156">尾端</span><span class="sxs-lookup"><span data-stu-id="97164-156">End</span></span>
+    - <span data-ttu-id="97164-157">總投入量分攤</span><span class="sxs-lookup"><span data-stu-id="97164-157">Total effort allocation</span></span>
 
-- **新增**：除了直接從排程新增資源之外，專案經理還可以從團隊成員網格新增具名或一般團隊成員。
-- **刪除**：專案經理可以選取一個或多個團隊成員來刪除不再參與專案的資源。 刪除團隊成員也會刪除所有相關聯的資源指派，並取消所有現有的預約。
+- <span data-ttu-id="97164-158">**新增** ：除了直接從排程新增資源之外，專案經理還可以從團隊成員網格新增具名或一般團隊成員。</span><span class="sxs-lookup"><span data-stu-id="97164-158">**New** : In addition to adding resources directly from the schedule, Project managers can add new named or generic team members from the team member grid.</span></span>
+- <span data-ttu-id="97164-159">**刪除** ：專案經理可以選取一個或多個團隊成員來刪除不再參與專案的資源。</span><span class="sxs-lookup"><span data-stu-id="97164-159">**Delete** : By selecting one or many team members, the Project manager can delete resources who are no longer going to be participating on the project.</span></span> <span data-ttu-id="97164-160">刪除團隊成員也會刪除所有相關聯的資源指派，並取消所有現有的預約。</span><span class="sxs-lookup"><span data-stu-id="97164-160">Deleting a team member will also delete all associated resource assignments and  cancel all existing bookings.</span></span>
