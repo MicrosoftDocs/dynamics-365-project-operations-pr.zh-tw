@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 275ef9b9706d212a6da0dc7c060081c3226572f3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072875"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130928"
 ---
 # <a name="default-price-lists"></a>預設價目表
 
@@ -46,7 +46,7 @@ Dynamics 365 Project Operations 中的每個專案報價和合約都包含預設
 Project Operations 中的任何實體都不會預設使用成本價目表。 對於專案成本所要使用之成本價目表的判斷一直都是在此刻完成。 系統會完成下列程序，以判斷哪個價目表要用於專案成本：
 
 1. 系統首先查看附加至專案承包組織單位的價目表。
-2. 系統接著查看價目表的日期有效性 (是否符合新加入估計或實際明細的日期)。 在此情況下， *估計明細* 是指 Project Operations 中的全部三種估計內容。
+2. 系統接著查看價目表的日期有效性 (是否符合新加入估計或實際明細的日期)。 在此情況下，*估計明細* 是指 Project Operations 中的全部三種估計內容。
 
     - 專案估計明細
     - 報價明細詳細資訊

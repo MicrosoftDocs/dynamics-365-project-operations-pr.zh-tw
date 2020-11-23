@@ -3,7 +3,7 @@ title: 管理 Office 365 行事曆中的專案和預約
 description: 如何管理 Office 365 行事曆中的專案和預約
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fd4119693875fb851c7bd3f34287db7d81237140
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31ff541f5b817c29b162c38c282df8cfd866e375
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073030"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129038"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>管理行事曆中的專案和預約 (Project Service)
 
@@ -54,38 +54,38 @@ ms.locfileid: "4073030"
   
 ## <a name="turn-on-synchronization-for-your-organization-admin-task"></a>開啟您的組織的同步處理 (系統管理員工作)  
   
-1.  從主要功能表按一下 **設定** > **管理** 。  
+1.  從主要功能表按一下 **設定** > **管理**。  
   
-2.  按一下 **系統設定** 。  
+2.  按一下 **系統設定**。  
   
 3.  按一下 **同步處理** 索引標籤。  
   
-4.  在 **選取是否啟用同步處理資源預約** 底下，勾選 **與 Outlook 同步處理資源預約** 。  
+4.  在 **選取是否啟用同步處理資源預約** 底下，勾選 **與 Outlook 同步處理資源預約**。  
   
 ## <a name="turn-on-synchronization-for-your-user-profile-user-task"></a>開啟使用者設定檔的同步處理 (使用者工作)  
   
 1.  按一下畫面右上角的 **設定** 按鈕。  
   
-2.  按一下 **選項** 。  
+2.  按一下 **選項**。  
   
 3.  按一下 **同步處理** 索引標籤。  
   
-4.  在 **與 Outlook 同步處理資源預約** 底下，勾選 **與 Outlook 同步處理資源預約** 。  
+4.  在 **與 Outlook 同步處理資源預約** 底下，勾選 **與 Outlook 同步處理資源預約**。  
   
 ## <a name="import-your-personal-appointments-user-task"></a>匯入您的私人約會 (使用者工作)  
  您可以從行事曆將私人約會匯入到 Project Service Automation 時間項目檢視表即可。  
   
-1. 開啟 [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] 行事曆，並按一下 **匯入資料** 。  
+1. 開啟 [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] 行事曆，並按一下 **匯入資料**。  
   
-2. 在 [篩選] 畫面中，選取 **來自 Exchange 的約會** ，然後按一下 **套用** 。  
+2. 在 [篩選] 畫面中，選取 **來自 Exchange 的約會**，然後按一下 **套用**。  
   
-3. 系統會將約會擷取到時間項目檢視表中，做為本週的建議項目。 若要新增其他週的項目，請按一下 **上一週** 或 **下一週** 。  
+3. 系統會將約會擷取到時間項目檢視表中，做為本週的建議項目。 若要新增其他週的項目，請按一下 **上一週** 或 **下一週**。  
   
 4. 選取您要新增至 Project Service Automation 時間項目檢視表的約會。  
   
 5. 在 **時間項目** 快顯方塊中，選取適當的選項，以將約會轉換成 Project Service Automation 時間項目檢視表。  
   
-6. 按一下 **儲存** 。  
+6. 按一下 **儲存**。  
   
 ### <a name="see-also"></a>請參閱  
  [時間、費用及共同作業指南](../psa/time-expense-collaboration-guide.md)

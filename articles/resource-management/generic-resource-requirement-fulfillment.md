@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 6bb7c185656ff87bb3ca24209594c07d25862d70
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c4d02fd589d4a5d39380688852377f57fceb05b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072941"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130297"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>一般資源需求履行
 
@@ -22,8 +22,8 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 您可以預約具名資源，以取代有資源需求的一般資源。
 
 1. 在 **專案** 頁面上，選取 **團隊** 索引標籤。
-2. 從清單中選取具有資源需求的一般資源，然後選取 **預約** 。 或者，開啟資源需求，然後選取 **預約** 。
-3. 在 **排程小幫手** 頁面上，選取要預約到專案團隊的具名資源，然後選取 **預約** 。
+2. 從清單中選取具有資源需求的一般資源，然後選取 **預約**。 或者，開啟資源需求，然後選取 **預約**。
+3. 在 **排程小幫手** 頁面上，選取要預約到專案團隊的具名資源，然後選取 **預約**。
 
 預約由具名資源完成並履行後，將會以具名資源取代一般資源。
 

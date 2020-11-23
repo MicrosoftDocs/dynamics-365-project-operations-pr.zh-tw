@@ -5,21 +5,21 @@ author: rumant
 manager: AnnBe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 560bb68cba865a6af60504114126ae6ea73dde2d
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: fa1e6c17fbda76a283c2ec68760a00e846decf83
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072841"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128093"
 ---
 # <a name="confirm-a-proforma-invoice"></a>確認預估發票
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
-確認預估發票之後，專案發票的狀態會更新為 **已確認** 。 確認發票時，它會變成唯讀。 從現在開始，發票僅於有任何客戶提議更正或賒帳，或將其標示為已付款時，才能進行更正。
+確認預估發票之後，專案發票的狀態會更新為 **已確認**。 確認發票時，它會變成唯讀。 從現在開始，發票僅於有任何客戶提議更正或賒帳，或將其標示為已付款時，才能進行更正。
 
 下表列出系統所建立的實際值。 這些實際值是在確認草稿專案發票前對其執行特定作業時所建立。
 

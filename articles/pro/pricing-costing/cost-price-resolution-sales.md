@@ -1,25 +1,25 @@
 ---
-title: 解析估計值及實際值的成本價
+title: 解析估計值及實際值的成本價 - 精簡
 description: 本主題提供有關如何在估計值及實際值上解析成本價的資訊。
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bad8f4b95ac5803d3f334e1b306d2a9d27a6645d
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 3fedf7b577e2372fb10ea85ea1e3caa9bf2f5ad0
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072906"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176781"
 ---
-# <a name="resolving-cost-prices-on-estimates-and-actuals"></a>解析估計值及實際值的成本價
+# <a name="resolve-cost-prices-on-estimates-and-actuals---lite"></a>解析估計值及實際值的成本價 - 精簡
 
 _**適用於：** 精簡部署 - 交易至開立預估發票_
 
-為了解析成本價以及估計值與實際值的成本價目表，系統會使用相關專案的 **日期** 、 **貨幣** 和 **合約單位** 欄位中的資訊。 解析成本價目表之後，應用程式會解析成本費率。
+為了解析成本價以及估計值與實際值的成本價目表，系統會使用相關專案的 **日期**、**貨幣** 和 **合約單位** 欄位中的資訊。 解析成本價目表之後，應用程式會解析成本費率。
 
 ## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-time"></a>解析時間實際及估計明細的成本費率
 
@@ -34,4 +34,4 @@ _**適用於：** 精簡部署 - 交易至開立預估發票_
 
 費用的估計明細是指專案上費用和費用估計明細的報價及合約服務內容詳細資料。
 
-解析成本價目表之後，系統會使用費用估計明細上的 **類別** 與 **單位** 欄位組合，來比對解析後價目表中的 **類別價格** 明細。 如果系統找到具有 **類別** 與 **單位** 欄位組合成本費率的類別價格明細，則預設使用該成本費率。 如果系統找不到相符的 **類別** 與 **單位** 值，或者可以找到相符類別價格明細，但定價方式並非 **單價** ，則成本費率預設為零 (0)。
+解析成本價目表之後，系統會使用費用估計明細上的 **類別** 與 **單位** 欄位組合，來比對解析後價目表中的 **類別價格** 明細。 如果系統找到具有 **類別** 與 **單位** 欄位組合成本費率的類別價格明細，則預設使用該成本費率。 如果系統找不到相符的 **類別** 與 **單位** 值，或者可以找到相符類別價格明細，但定價方式並非 **單價**，則成本費率預設為零 (0)。

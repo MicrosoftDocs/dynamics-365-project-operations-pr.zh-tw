@@ -3,7 +3,7 @@ title: Project Service Automation V3 更新版本 23 的新功能或變更內容
 description: 本主題列出 Project Service Automation 更新版本 23 V3 中提供的功能和修正。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 08/25/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: eaae9cc62c449695cb2e999be48c57075aadbb21
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 07f1a274914d7e641ddf2fd42f377dce1da7f815
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072943"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131108"
 ---
 # <a name="project-service-automation-update-release-23-v3"></a>Project Service Automation 更新版本 23 V3
 
@@ -44,7 +44,7 @@ ms.locfileid: "4072943"
 
 下列問題已獲修正：
 
-- 時幅超過五天時， **資源使用率網格資源卡片** 會顯示不正確的資料。
+- 時幅超過五天時，**資源使用率網格資源卡片** 會顯示不正確的資料。
 - 客戶建立可預約資源時，外掛程式會間歇性發生無法自動將資源新增至 Microsoft Office 365 群組的情況。
 - **協調** 檢視表未正確顯示 **週** 或 **月** 檢視表中的手動分佈。
 
@@ -56,8 +56,8 @@ ms.locfileid: "4072943"
 - **工作規劃** 網格資源查詢受到限制，最多只能顯示五個來自專案團隊的團隊成員。 
 - **工作規劃** 網格資源查詢不會篩選非使用中資源。
 - 在專案規劃分工結構圖中，手動模式無法依預期正常運作。
-- **工作規劃** 網格會顯示 **非使用中交易類別** 。
-- 工作有多個指派時， **資源指派** 網格捨入不正確。
+- **工作規劃** 網格會顯示 **非使用中交易類別**。
+- 工作有多個指派時，**資源指派** 網格捨入不正確。
 - 單一工作的捨入值在計劃成本與實際成本之間不相同。
 
 **Sales**

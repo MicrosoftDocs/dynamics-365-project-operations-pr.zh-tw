@@ -3,7 +3,7 @@ title: Project Service Automation V3 更新版本 17 的新功能或變更內容
 description: 本主題列出 Project Service Automation 更新版本 17 V3 中提供的功能和修正。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 03/06/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7ba685568692dafe117de42a71bb14d391cd7cc4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bb93208217972639f91b39b7b6705d9897373ef7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072952"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126788"
 ---
 # <a name="project-service-automation-update-release-17-v3"></a>Project Service Automation 更新版本 17 V3
 
@@ -46,12 +46,12 @@ ms.locfileid: "4072952"
 **專案管理**
 
 - 已修正：已新增對團隊成員職位名稱的 null 值檢查。
-- 已修正： **msdyn_resourceassignment** 實體上的 **msdyn_userresourceid** 欄位已被取代。
+- 已修正：**msdyn_resourceassignment** 實體上的 **msdyn_userresourceid** 欄位已被取代。
 - 已修正：從 2.x 到 3.x 的升級現在會在工作指派上處理空白努力分佈。
 
 **Sales**
 
-- 已修正： **Invoice.PreValidateInvoiceUpdate** 現在會正確處理重新指派記錄負責人。
-- 已修正：交易類別為 **時間** 時， **UnitGroup** 對所有實體 (包括 **QuoteLineDetails** 、 **JournalLine** 、 **InvoiceLineDetail** 和 **ContractLineDetails** ) 都是不可編輯的。 不過， **單位** 只有對 **JournalLine** 和 **InvoiceLineDetails** 才是不可編輯。
+- 已修正：**Invoice.PreValidateInvoiceUpdate** 現在會正確處理重新指派記錄負責人。
+- 已修正：交易類別為 **時間** 時，**UnitGroup** 對所有實體 (包括 **QuoteLineDetails**、**JournalLine**、**InvoiceLineDetail** 和 **ContractLineDetails**) 都是不可編輯的。 不過，**單位** 只有對 **JournalLine** 和 **InvoiceLineDetails** 才是不可編輯。
 
 

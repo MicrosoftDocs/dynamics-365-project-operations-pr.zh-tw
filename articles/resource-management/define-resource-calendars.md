@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: ab39d7e5dc2d8c01ed49ca0f1a4d1691aaf15637
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: daa49cf8ba9ba005a16777f590c4c06d024de529
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072844"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123908"
 ---
 # <a name="define-resource-calendars"></a>定義資源行事曆
 
@@ -26,8 +26,8 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 ## <a name="define-a-resources-working-hours"></a>定義資源的工作時數
 
-1. 在 **資源** 功能表中，選取 **資源** 。
-2. 從網格檢視中，選取適當的 **可預約資源** 。
+1. 在 **資源** 功能表中，選取 **資源**。
+2. 從網格檢視中，選取適當的 **可預約資源**。
 3. 在 **資源詳細資料** 頁面上，選取 **工作時數** 索引標籤。根據預設，可預約資源行事曆預設使用組織所定義預設工作時數範本的工作時數。
 4. 若要更新工作時數，請以滑鼠右鍵按一下要定義的建議行事曆規則的開始日期。 使用行事曆規則功能表來定義特定日期、數列其餘部分或整個行事曆的行事曆規則。
 5. 選取選項之後，可以接著定義：
@@ -39,7 +39,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 ## <a name="applying-a-calendar-template-to-a-resource"></a>將行事曆範本套用至資源
 
-1. 在 **資源** 功能表中，選取 **資源** 。
-2. 從網格檢視中，選取最多 25 個要更新的 **可預約資源** 。
-3. 選取 **設定行事曆** ，然後對話方塊就會向您提示可用工作時數範本的清單。
-4. 選取您要使用的範本，然後選取 **套用** 。
+1. 在 **資源** 功能表中，選取 **資源**。
+2. 從網格檢視中，選取最多 25 個要更新的 **可預約資源**。
+3. 選取 **設定行事曆**，然後對話方塊就會向您提示可用工作時數範本的清單。
+4. 選取您要使用的範本，然後選取 **套用**。

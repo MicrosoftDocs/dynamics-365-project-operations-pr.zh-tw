@@ -5,21 +5,21 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: babce9c64098a9c87072786d914d2340251a8986
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 24da0887c0266d51bddcbbf8efd6f2644b6d0f4f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073116"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128273"
 ---
 # <a name="confirm-a-project-contract"></a>確認專案合約
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
-Dynamics 365 Project Operations 中的專案合約可以藉 **已確認** 的原因進入使用中狀態，或是以 **未成交** 的原因來關閉。 確認專案合約時，狀態會從 **草稿** 更新為 **使用中** ，而且狀態原因為 **已確認** 。 您無法編輯或重新開啟使用中或已關閉的合約。 
+Dynamics 365 Project Operations 中的專案合約可以藉 **已確認** 的原因進入使用中狀態，或是以 **未成交** 的原因來關閉。 確認專案合約時，狀態會從 **草稿** 更新為 **使用中**，而且狀態原因為 **已確認**。 您無法編輯或重新開啟使用中或已關閉的合約。 
 
 ### <a name="financial-impact-of-confirming-a-project-contract"></a>確認專案合約所產生的財務影響
 
@@ -29,7 +29,7 @@ Dynamics 365 Project Operations 中的專案合約可以藉 **已確認** 的原
 
 ## <a name="close-a-project-contract-as-lost"></a>以未成交關閉專案合約
 
-以未成交關閉專案合約時，合約狀態會更新為 **已關閉** ，而且狀態原因為 **未成交** 。 專案合約會變成唯讀。 因為您無法重新開啟已關閉的專案合約，系統會在變更完成之前提供確認對話方塊。
+以未成交關閉專案合約時，合約狀態會更新為 **已關閉**，而且狀態原因為 **未成交**。 專案合約會變成唯讀。 因為您無法重新開啟已關閉的專案合約，系統會在變更完成之前提供確認對話方塊。
 
 如果以未成交關閉的專案合約在其服務內容中參考某個專案，也會將這個專案標示為已關閉。 任何從那天以後的資源預約都會取消。 專案合約中任何尚未列於發票的未開單銷售實際值都將予以沖銷。
 

@@ -1,21 +1,21 @@
 ---
-title: 註冊預覽版訂閱
+title: 註冊預覽版訂閱 - 精簡
 description: 本主題提供有關如何訂閱和部署「Project Operations Lite 部署 – 交易至開立預估發票」的資訊。
 author: sigitac
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5342466f308ab62a9f73a85fbd838d7c33bb1f47
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072859"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175881"
 ---
-# <a name="sign-up-for-a-preview-subscription-for-lite-deployment--deal-to-proforma-invoicing"></a>註冊「精簡部署 - 交易至開立預估發票」的預覽版訂閱
+# <a name="sign-up-for-a-preview-subscription---lite"></a>註冊預覽版訂閱 - 精簡 
 
 本主題說明如何訂閱預覽版合作夥伴供應項目，以及部署「Dynamics 365 Project Operations Lite 部署 – 交易至開立預估發票」。
 
@@ -72,11 +72,11 @@ ms.locfileid: "4072859"
 ![指派授權](./media/15AssignLicenses.png)
 
 3. 確認是否已選取 **Dynamics 365 Project Operations (CRM) 預覽** 及 **Office 365 Project Operations - 預覽** 授權。 
-4. 選取 **儲存變更** 。
+4. 選取 **儲存變更**。
 
 ## <a name="create-a-new-cds-environment"></a>建立新的 CDS 環境
 
-1. 依照主題 [CDS 部署模型](lite-deployment.md)中的指示，佈建新的 Project Operations CDS 部署環境。 選取環境類型時，請務必使用 **試用 (以訂閱為準)** 。
+1. 依照主題 [CDS 部署模型](lite-deployment.md)中的指示，佈建新的 Project Operations CDS 部署環境。 選取環境類型時，請務必使用 **試用 (以訂閱為準)**。
 ![新環境](./media/19CreateEnvironment.png)
 
 2. 選取 **啟用 Dynamics 365 應用程式** 設定，並讓 **自動部署這些應用程式** 保持空白。  

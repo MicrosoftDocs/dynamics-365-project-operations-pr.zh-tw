@@ -3,7 +3,7 @@ title: 範例資料安裝
 description: 本主題提供有關安裝 Project Service Automation 其中範例資料的資訊。
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 46dbd8d125396baa97537ea5d11c47864558c113
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c9cca7aa9d85bb38e48820b361ba07923ceddbd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073061"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132413"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Project Service 應用程式的範例資料安裝
 
@@ -43,13 +43,13 @@ ms.locfileid: "4073061"
 這些範例資料套件僅提供英文版。
 
 > [!IMPORTANT]
-> **沒有方法可以解除安裝範例資料。** 您只能將這些套件安裝在示範、評估、訓練或測試系統。 另請注意，不支援安裝個別套件後再安裝其他個別封裝。 (換句話說，您無法在 **PSMasterData** 之後安裝 **FSMasterData** ，反之亦然)。如果您日後任何時候覺得需要這兩個應用程式的範例資料，就應該安裝 **v902FPSMasterData** 套件。
+> **沒有方法可以解除安裝範例資料。** 您只能將這些套件安裝在示範、評估、訓練或測試系統。 另請注意，不支援安裝個別套件後再安裝其他個別封裝。 (換句話說，您無法在 **PSMasterData** 之後安裝 **FSMasterData**，反之亦然)。如果您日後任何時候覺得需要這兩個應用程式的範例資料，就應該安裝 **v902FPSMasterData** 套件。
 
 安裝其中任一範例資料套件時，安裝程序會執行下列動作：
 
 - 建立或設定使用 Project Service、Field Service 或這兩個應用程式時的預設參數 (若適用)。
 
-- 匯入應用程式的範例資料 (例如可預約資源、應用程式特定角色、銷售與成本價目表、組織單位、銷售處理記錄以及其他實體) 以示範主要功能。  
+- 匯入應用程式的範例資料 (例如可預約資源、應用程式特定角色、銷售與成本價目表、組織單位、銷售處理記錄以及其他實體) 以示範主要功能。  
 
 您可以透過 **示範資料** 套件，取得上述及其他交易資料，例如工單和專案。
 
@@ -80,7 +80,7 @@ ms.locfileid: "4073061"
 
 您必須在使用最新版 Windows (最好是 Windows 10) 的電腦上執行安裝程式。
 
-您必須規劃讓電腦保持與網路連線，並且讓安裝執行長達 **1 小時** 以取得 **設定/參考資料** 。 (安裝通常需要約 30 分鐘來取得 **FPSMasterData** ，其中包含這兩個應用程式的範例資料)。至於 **FPSDemoData** ，安裝則需要約 **3 小時** 。
+您必須規劃讓電腦保持與網路連線，並且讓安裝執行長達 **1 小時** 以取得 **設定/參考資料**。 (安裝通常需要約 30 分鐘來取得 **FPSMasterData**，其中包含這兩個應用程式的範例資料)。至於 **FPSDemoData**，安裝則需要約 **3 小時**。
 
 電腦必須關閉螢幕保護裝置功能。 否則，螢幕保護裝置開始啟動時，安裝可能會遺失工作階段認證 (除非您讓工作階段自始至終都保持在使用中狀態)。
 
@@ -97,11 +97,11 @@ Project Service 及 Field Service 的範例資料安裝程式是以自動解壓�
 
 1. 在 **v902FPSMasterData** / **PackageDeployer_FPSDemoData** 資料夾中尋找 **FPSDemoData.dll** 檔案，並以滑鼠右鍵按一下該檔案。
 
-2. 選擇 **解除封鎖** 。
+2. 選擇 **解除封鎖**。
 
-3. 選取 **套用** 。
+3. 選取 **套用**。
 
-4. 選取 **確定** 。
+4. 選取 **確定**。
 
 
 ## <a name="create-or-configure-users"></a>建立或設定使用者
@@ -112,13 +112,13 @@ Project Service 及 Field Service 的範例資料安裝程式是以自動解壓�
 
 **FPSMasterData** 套件是設計要透過一個名為 Spencer Low 的使用者使用下述設定值來進行安裝。 若要正確安裝套件，您必須在環境中建立 (或暫時重新命名) 使用者以符合傳入的範例資料設定。
 
-若要建立或設定使用者，請移至 **設定** > **安全性** > **使用者** ，然後執行下列動作：
+若要建立或設定使用者，請移至 **設定** > **安全性** > **使用者**，然後執行下列動作：
 
-1. 將 UserFullname="Spencer Low" 且使用者名稱為 "spencerl" ( **小寫** ) 的使用者設定為專案經理及實務經理角色。
+1. 將 UserFullname="Spencer Low" 且使用者名稱為 "spencerl" (**小寫**) 的使用者設定為專案經理及實務經理角色。
 
-2. 選取 **Spencer Low** 使用者，然後選取 **管理角色** 。 尋找並選取 **系統管理員** 角色，然後選取 **確定** 以授與 Spencer Low 完整的系統管理員權限。 必須執行此步驟，才能確保範例記錄是使用正確的使用者擁有權所建立，因而可以正確填入檢視表。
+2. 選取 **Spencer Low** 使用者，然後選取 **管理角色**。 尋找並選取 **系統管理員** 角色，然後選取 **確定** 以授與 Spencer Low 完整的系統管理員權限。 必須執行此步驟，才能確保範例記錄是使用正確的使用者擁有權所建立，因而可以正確填入檢視表。
 
-3. 在已下載的套件中，您需要使用預設使用者內容的電子郵件地址來更新資料對應檔。 若要這樣做，請開啟 **PkgFolder** ，再找出 **ImportUserMapFile.xml** 檔案，然後在記事本 (Visual Studio 或其他 XML 編輯器) 中開啟該檔案。 將 **DefaultUserToMapTo=** 欄位設定為 Spencer Low 使用者的電子郵件地址。
+3. 在已下載的套件中，您需要使用預設使用者內容的電子郵件地址來更新資料對應檔。 若要這樣做，請開啟 **PkgFolder**，再找出 **ImportUserMapFile.xml** 檔案，然後在記事本 (Visual Studio 或其他 XML 編輯器) 中開啟該檔案。 將 **DefaultUserToMapTo=** 欄位設定為 Spencer Low 使用者的電子郵件地址。
 
 4. 如果使用的不是使用者名稱為 **spencerl** 的 Spencer Low，則需要更新額外的檔案。 開啟 **DemoDataPreImportConfig.xml** 檔案，然後尋找 **userstocreateandconfigure** 標籤。 使用 Spencer Low 使用者的使用者名稱更新 **\<login\>** 標籤。 如需詳細資訊，請參閱[技術注意事項](#technical-notes)。
 
@@ -126,7 +126,7 @@ Project Service 及 Field Service 的範例資料安裝程式是以自動解壓�
 
 示範資料套件需要六位使用者。 為了讓套件正確安裝，請執行下列動作：
 
- 1. 移至 **設定** > **安全性** > **使用者** ，建立使用者或暫時重新命名現有使用者以符合接收範例資料設定。
+ 1. 移至 **設定** > **安全性** > **使用者**，建立使用者或暫時重新命名現有使用者以符合接收範例資料設定。
  
     只有角色型示範才需要這些角色。  
     - 使用者全名 = "David So"，擔任現場服務技師   
@@ -138,26 +138,26 @@ Project Service 及 Field Service 的範例資料安裝程式是以自動解壓�
   
 2. 為了匯入示範資料，請將系統管理員角色指派給上述六位使用者，讓範例記錄正確匯入。 
 
-3. 開啟 **PkgFolder** ，然後尋找並開啟 **ImportUserMapFile.xml** 。 將 **New=** 欄位更新為系統中對應使用者的電子郵件地址。
+3. 開啟 **PkgFolder**，然後尋找並開啟 **ImportUserMapFile.xml**。 將 **New=** 欄位更新為系統中對應使用者的電子郵件地址。
 
    > [!div class="mx-imgBorder"]
    > ![UserMapFile 的螢幕擷取畫面](media/sample-data-7.png)
 
-4. 如果 "Spencer Low" 全名使用者的使用者識別碼與 **"spencerl"** 不同，您必須更新額外的檔案。 開啟 **DemoDataPreImportConfig.xml** ，並尋找 **userstocreateandconfigure** 標籤。 以 loginId (區分大小寫) 來更新 **\<login\>** 標籤。 
+4. 如果 "Spencer Low" 全名使用者的使用者識別碼與 **"spencerl"** 不同，您必須更新額外的檔案。 開啟 **DemoDataPreImportConfig.xml**，並尋找 **userstocreateandconfigure** 標籤。 以 loginId (區分大小寫) 來更新 **\<login\>** 標籤。 
 
-5. 第一個使用者的行事曆 (在 **userstocreateandconfigure** 標籤中) 會在匯入示範資料時，用來填入所有可預約資源的工作時數。 瀏覽至 **設定** > **安全性** > **使用者** 、尋找您 "Spencer Low" 使用者，然後開啟 [工作時數] 選項。 編輯現有的工作時數，並選取 **從開始到結束整個週期性每週排程** 選項。 確認 **工作時數設定為星期一至星期五上午 8 時 - 下午 5 時 (9 小時)，以及時區設定為太平洋時間 (美國和加拿大)** 。 必須這樣才能確保專案及排程面板如預期般顯示。
+5. 第一個使用者的行事曆 (在 **userstocreateandconfigure** 標籤中) 會在匯入示範資料時，用來填入所有可預約資源的工作時數。 瀏覽至 **設定** > **安全性** > **使用者**、尋找您 "Spencer Low" 使用者，然後開啟 [工作時數] 選項。 編輯現有的工作時數，並選取 **從開始到結束整個週期性每週排程** 選項。 確認 **工作時數設定為星期一至星期五上午 8 時 - 下午 5 時 (9 小時)，以及時區設定為太平洋時間 (美國和加拿大)**。 必須這樣才能確保專案及排程面板如預期般顯示。
 
 **建議：** 考慮立即建立您組織的資料備份，以防範例資料安裝過程中發生錯誤時，您需要回復到起始點。 如需詳細資訊，請參閱[備份與還原執行個體](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances)。
 
 ## <a name="run-the-package-deployer"></a>執行 Package Deployer
 
-1. 在 **v902FPSMasterData** 或 **PackageDeployer_FPSDemoData** 資料夾中尋找並執行 **PackageDeployer.exe** 。
+1. 在 **v902FPSMasterData** 或 **PackageDeployer_FPSDemoData** 資料夾中尋找並執行 **PackageDeployer.exe**。
 
 2. 接受條款及條件。
 
 3. 在下一個視窗中：
 
-   a. 選取部署類型 **Office 365** 。
+   a. 選取部署類型 **Office 365**。
 
    b. 使用系統管理員使用者在 [建立或設定使用者] 中的使用者和密碼 (「Spencer Low」的使用者名稱為「spencerl」)。
 
@@ -168,14 +168,14 @@ Project Service 及 Field Service 的範例資料安裝程式是以自動解壓�
 
 4. 選取您要安裝範例資料所在的組織。
 
-5. 選取 **下一步** ，直到您看到 **示範資料安裝程式** 對話方塊。
+5. 選取 **下一步**，直到您看到 **示範資料安裝程式** 對話方塊。
 
    > [!div class="mx-imgBorder"]
    > ![示範資料安裝程式狀態視窗的螢幕擷取畫面](media/sample-data-3.png)
 
 6. 繼續之前，請注意，安裝範例資料最多可能需要花費一個小時 (通常不到 10 分鐘)。 您必須確保電腦在整個安裝過程中保持開啟且連線至網路，以及您的工作階段維持在使用中狀態。   
 
-7. 當您準備好時，按 **下一步** 以開始範例資料安裝程序。 載入範例資料後，按一下 **完成** 。
+7. 當您準備好時，按 **下一步** 以開始範例資料安裝程序。 載入範例資料後，按一下 **完成**。
 
 ## <a name="verify-the-sample-data-installation"></a>驗證範例資料安裝
 
@@ -183,11 +183,11 @@ Project Service 及 Field Service 的範例資料安裝程式是以自動解壓�
 
 範例資料完全載入之後，以 Spencer Low 使用者身分登入，並確認下列各項：
 
-- 如果 Project Service 應用程式已安裝，請移至 **Project Service** > **設定** > **價目表** 。 確認資料集中的每個國家/地區都有適當貨幣的帳單費率和成本費率。
+- 如果 Project Service 應用程式已安裝，請移至 **Project Service** > **設定** > **價目表**。 確認資料集中的每個國家/地區都有適當貨幣的帳單費率和成本費率。
 
-- 如果 Project Service 應用程式已安裝，請移至 **Universal Resource Scheduling** > **設定** > **業務單位** 。 確認使用適當貨幣的成本價目表已經與每個組織單位 (不含市/鎮項目) 建立關聯。 如果有任何遺漏，請尋找正確的成本價目表並與之建立關聯。
+- 如果 Project Service 應用程式已安裝，請移至 **Universal Resource Scheduling** > **設定** > **業務單位**。 確認使用適當貨幣的成本價目表已經與每個組織單位 (不含市/鎮項目) 建立關聯。 如果有任何遺漏，請尋找正確的成本價目表並與之建立關聯。
 
-- 如果 Field Service 應用程式已安裝，請移至 **Project Service** > **設定** > **價目表** 。 確認有帳單費率和成本費率存在。 移至 **Field Service** > **設定** > **價目表** ，然後檢查資料集中的每個國家/地區是否有適當貨幣的帳單費率和成本費率。
+- 如果 Field Service 應用程式已安裝，請移至 **Project Service** > **設定** > **價目表**。 確認有帳單費率和成本費率存在。 移至 **Field Service** > **設定** > **價目表**，然後檢查資料集中的每個國家/地區是否有適當貨幣的帳單費率和成本費率。
 
   > [!div class="mx-imgBorder"]
   > ![使用中價目表的螢幕擷取畫面](media/sample-data-4.png)
@@ -213,11 +213,11 @@ Project Service 及 Field Service 的範例資料安裝程式是以自動解壓�
 
 這項變更會導致安裝程式略過一些重要的安全性檢查，包括：
 
-- 確認沒有多個使用中 **組織單位** 記錄，然後將其重新命名為 **Fabrikam US** 。
+- 確認沒有多個使用中 **組織單位** 記錄，然後將其重新命名為 **Fabrikam US**。
 
 - 確認沒有多個使用中 **工作範本** 記錄。
 
-- 確認沒有多個使用中 **專案參數** 記錄，然後將該項目重新命名為 **參數** 。
+- 確認沒有多個使用中 **專案參數** 記錄，然後將該項目重新命名為 **參數**。
 
 ### <a name="configuration-components"></a>設定元件
 
@@ -241,7 +241,7 @@ Project Service 及 Field Service 的範例資料安裝程式是以自動解壓�
 
 ### <a name="fabrikam-robotics-fictitious-scenario"></a>Fabrikam Robotics 虛構案例
 
-Field Service 和 Project Service 範例參考資料套件會安裝 **Fabrikam Manufacturing 主要資料 (v3.0.0.0) 解決方案** ，以及大約 4,000 筆記錄和大約 40 個不同實體。 Field Service 或 Project Service 的個別範例資料套件包含應用程式各自 **v902FPSMasterData** 範例資料的子集。 **示範資料** 套件會安裝 **Fabrikam Manufacturing 示範資料 (v3.0.0.7) 解決方案** ，包含 148 個實體約 22,000 筆的記錄。
+Field Service 和 Project Service 範例參考資料套件會安裝 **Fabrikam Manufacturing 主要資料 (v3.0.0.0) 解決方案**，以及大約 4,000 筆記錄和大約 40 個不同實體。 Field Service 或 Project Service 的個別範例資料套件包含應用程式各自 **v902FPSMasterData** 範例資料的子集。 **示範資料** 套件會安裝 **Fabrikam Manufacturing 示範資料 (v3.0.0.7) 解決方案**，包含 148 個實體約 22,000 筆的記錄。
 
 虛構公司 Fabrikam Robotics 是電子裝置裝配線機器人的製造商，因其產品的品質、創新以及可信賴的客戶服務 (包括安裝規劃、實作與持續維護服務) 而聞名。 Fabrikam 總部設於美國 (Fabrikam US)，並且在法國、印度、英國和瑞士都有專案服務企業營運據點。
 
@@ -289,9 +289,9 @@ Field Service 和 Project Service 範例參考資料套件會安裝 **Fabrikam M
 
 根據預設，所有可預約資源都會有 24 工作時數行事曆。
 
-如果您需要變更範例可預約資源的工作時數，請移至 **Universal Resource Scheduling** > **排程** > **排程資源** 。
+如果您需要變更範例可預約資源的工作時數，請移至 **Universal Resource Scheduling** > **排程** > **排程資源**。
 
-選取使用者 (例如，Spencer Low)，並將 Spencer 的工作時數變更為您想要套用至多個使用者的時數。 移至 **Universal Resource Scheduling** > **設定** > **工作時數範本** ，然後編輯 **預設工作範本** 記錄。 在 **範本資源** 欄位中，選取具有您要套用至其他資源之工作時數的使用者。 移至 **Universal Resource Scheduling** > **排程** > **資源** > **使用中的可預約資源** 。 選取您要變更的資源，然後選取 **設定行事曆** 。 在在 **工作範本** 下拉式清單中，選取 **預設工作時數** 範本或其他含有正確範本化資源的範本。 當您移至排程面板時，您應該會看到資源的工作時數現在已更新。
+選取使用者 (例如，Spencer Low)，並將 Spencer 的工作時數變更為您想要套用至多個使用者的時數。 移至 **Universal Resource Scheduling** > **設定** > **工作時數範本**，然後編輯 **預設工作範本** 記錄。 在 **範本資源** 欄位中，選取具有您要套用至其他資源之工作時數的使用者。 移至 **Universal Resource Scheduling** > **排程** > **資源** > **使用中的可預約資源**。 選取您要變更的資源，然後選取 **設定行事曆**。 在在 **工作範本** 下拉式清單中，選取 **預設工作時數** 範本或其他含有正確範本化資源的範本。 當您移至排程面板時，您應該會看到資源的工作時數現在已更新。
 
 > [!div class="mx-imgBorder"]
 > ![使用中可預約資源的螢幕擷取畫面](media/sample-data-6.png)

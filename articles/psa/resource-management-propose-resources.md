@@ -3,7 +3,7 @@ title: 提案建議專案資源
 description: 本主題提供有關如何提案建議專案資源的資訊。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,19 +18,19 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18d7dcd95806841c952ea621ec65b513ef614958
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1fcb8d1d40286cf5cbb23338f93b072ae5bed70d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073215"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120173"
 ---
 # <a name="propose-project-resources"></a>提案建議專案資源
 
 資源管理員可以使用資源要求，提案向專案經理建議資源。
 
-1. 從要求網格或要求本身中選取 **尋找資源** 。
-2. 在 **排程小幫手** 頁面上，選取資源，然後在 **建立資源預約** 窗格的 **預約狀態** 欄位中選取 **預約** 。
+1. 從要求網格或要求本身中選取 **尋找資源**。
+2. 在 **排程小幫手** 頁面上，選取資源，然後在 **建立資源預約** 窗格的 **預約狀態** 欄位中選取 **預約**。
 
     ![提案的資源已選取](media/Resource-Management-image62.png)
 
@@ -40,11 +40,11 @@ ms.locfileid: "4073215"
 
     ![排程小幫手頁面上提案的預約的狀態指示器](media/Resource-Management-image63.png)
 
-- 在資源要求上，狀態已變更為 **需要檢閱** 。
+- 在資源要求上，狀態已變更為 **需要檢閱**。
 
     ![資源要求狀態已變更為 [需要檢閱]。](media/Resource-Management-image64.png)
 
-- 在專案的 **團隊** 索引標籤上，一般團隊成員的 **要求狀態** 值會變更為 **需要檢閱** 。
+- 在專案的 **團隊** 索引標籤上，一般團隊成員的 **要求狀態** 值會變更為 **需要檢閱**。
 
     ![一般團隊成員的要求狀態在 [團隊] 索引標籤上已變更為 [需要檢閱]。](media/Resource-Management-image48.png)
 
@@ -80,9 +80,9 @@ ms.locfileid: "4073215"
 
 因為 **資源使用率** 檢視表以排程面板為基礎，所以您可以使用排程面板的篩選功能來篩選結果。
 
-網格要求您必須對角色或個別資源設定目標使用率。 若要進行此設定，請移至 **資源** \> **資源角色** 。
+網格要求您必須對角色或個別資源設定目標使用率。 若要進行此設定，請移至 **資源** \> **資源角色**。
 
-此外，還必須將預設角色指派給每個可預約資源。 移至 **資源** \> **資源** 。 在 **Project Service** 索引標籤上，確認已定義資源角色，且該角色的 **是預設值** 欄位已設定為 **是** 。 您可以新增其他角色，其中 **是預設值 = 否** 。 **是預設值 = 是** 的角色會用來對照該角色的目標來評估資源的使用率。
+此外，還必須將預設角色指派給每個可預約資源。 移至 **資源** \> **資源**。 在 **Project Service** 索引標籤上，確認已定義資源角色，且該角色的 **是預設值** 欄位已設定為 **是**。 您可以新增其他角色，其中 **是預設值 = 否**。 **是預設值 = 是** 的角色會用來對照該角色的目標來評估資源的使用率。
 
 ![預設角色已設定](media/Resource-Management-image67.png)
 

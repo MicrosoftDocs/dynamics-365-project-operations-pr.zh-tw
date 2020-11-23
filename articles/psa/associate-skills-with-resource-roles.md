@@ -3,7 +3,7 @@ title: 將技能與資源角色建立關聯
 description: 如何將技能與 Project Service 中的資源角色建立關聯
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0b4d5fe145fc39afc1a909e0ff274c19e9a36d7a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 70c4b5cfca1495cb887ad6034542c46fd4cb079c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073113"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130253"
 ---
 # <a name="associate-skills-with-resource-roles-project-service"></a>將技能與資源角色建立關聯 (Project Service)
 
@@ -39,9 +39,9 @@ ms.locfileid: "4073113"
   
 4.  在 [角色專長認證需求] 窗格中，按一下 **技能** 欄位，按一下 **搜尋** 按鈕，然後選取技能。  
   
-5.  選取該技能的熟練度，然後按一下 **儲存** 。  
+5.  選取該技能的熟練度，然後按一下 **儲存**。  
   
-6.  視需要繼續新增技能。 完成時，按一下畫面右下角的 **儲存** 。  
+6.  視需要繼續新增技能。 完成時，按一下畫面右下角的 **儲存**。  
   
 ### <a name="see-also"></a>請參閱  
  [設定資源](../psa/set-up-resources.md)

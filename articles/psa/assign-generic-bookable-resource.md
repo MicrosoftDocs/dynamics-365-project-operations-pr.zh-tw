@@ -3,7 +3,7 @@ title: 指派一般可預約資源至工作與專案團隊
 description: 這主題提供有關為工作與專案團隊預約一般資源的資訊。
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ca0999ae5413d824dd1384fe2262e5226695a5f8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 19761b3e570ad664522e832069a8ac50fffead64
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073011"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127058"
 ---
 # <a name="assign-generic-bookable-resources-to-a-task-and-generate-resource-requirements"></a>指派一般可預約資源至工作，並產生資源需求 
 
@@ -37,7 +37,7 @@ ms.locfileid: "4073011"
 
 這會開啟 **快速建立：專案團隊成員** 面板。 
 
-2. 輸入一般資源團隊成員的角色與組織單位，然後按一下 **儲存** 。
+2. 輸入一般資源團隊成員的角色與組織單位，然後按一下 **儲存**。
 
 ![一般團隊成員快速建立](media/RM-how-to-10.png)
 
@@ -51,7 +51,7 @@ ms.locfileid: "4073011"
 
 在團隊成員網格中，除了可以使用上述資源選擇器之外，還可以直接新增一般資源。 資源會因為根據 **快速建立：專案團隊成員** 面板所指定開始/結束日期與配置方法所產生的資源需求而新增。
 
-如果直接新增一般團隊成員，然後將更多工作指派給一般資源，超過這些工作所獲必須要時數所能支援的範圍時，您就可以看出差異。 按一下 **產生需求** ，重新產生需求以平衡工作指派所需的時數。
+如果直接新增一般團隊成員，然後將更多工作指派給一般資源，超過這些工作所獲必須要時數所能支援的範圍時，您就可以看出差異。 按一下 **產生需求**，重新產生需求以平衡工作指派所需的時數。
 
 您也可以按一下團隊網格中的 **資源需求** 連結，以開啟需求並新增技能、偏好資源等。
 

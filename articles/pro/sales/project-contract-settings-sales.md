@@ -1,21 +1,21 @@
 ---
-title: 專案合約欄位及資訊
+title: 專案合約設定 - 精簡
 description: 本主題提供有關影響合約服務內容之欄位的資訊，以及有關概括所有明細項目之合約的資訊。
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 082292c54682022933a4b46b856f9241078a9067
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 28dfb256eb75ca9484161f053969c205fcd60965
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087837"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180902"
 ---
-# <a name="project-contract-fields-and-information"></a>專案合約欄位及資訊 
+# <a name="project-contract-settings---lite"></a>專案合約設定 - 精簡
 
 _**適用於：** 精簡部署 - 交易至開立預估發票_
 
@@ -23,9 +23,9 @@ _**適用於：** 精簡部署 - 交易至開立預估發票_
 
 下表列出專案合約的欄位，這些欄位是 Dynamics 365 Project Operations 所獨有的欄位，或是其中有一些在行為上與 Dynamics 365 Sales 中銷售訂單不同的重要變更。
 
-| 欄位 | 地點 | 關聯性、目的和指引 | 下游影響 |
+| 欄位 | 地點 | 描述 | 下游影響 |
 | --- | --- | --- | --- |
-| 鍵入 | **摘要** 索引標籤 (隱藏) | 這是具有下列選項的選項組欄位：</br>- **工作型** (只有在 Project Operations 已安裝時提供)</br>- **項目型** (只有在 Project Operations 和 Sales 已安裝時提供)</br>- **服務維護型** (安裝 Dynamics 365 Field Service 時提供) | 在 Project Operations 中，此欄位的值預設為 **工作型** ，並將合約分類為專案型合約。 合約必須是專案型，才能啟用所有專案特定擴充和功能。 |
+| 鍵入 | **摘要** 索引標籤 (隱藏) | 這是具有下列選項的選項組欄位：</br>- **工作型** (只有在 Project Operations 已安裝時提供)</br>- **項目型** (只有在 Project Operations 和 Sales 已安裝時提供)</br>- **服務維護型** (安裝 Dynamics 365 Field Service 時提供) | 在 Project Operations 中，此欄位的值預設為 **工作型**，並將合約分類為專案型合約。 合約必須是專案型，才能啟用所有專案特定擴充和功能。 |
 | 潛在客戶 | **摘要** 索引標籤 | 客戶公司或客戶記錄的參考。 根據報價建立合約時，此欄位是從報價記錄的對應欄位複製而來。 | 專案合約上的貨幣是根據客戶的貨幣來設定預設值。 這可以在儲存合約之前變更。 |
 | 客戶經理 | **摘要** 索引標籤 | 此交易之客戶經理的姓名。 根據報價建立合約時，此欄位是從報價記錄的對應欄位複製而來。 | 客戶經理會負責管理與客戶之間的關聯，直到專案完成。 根據繫結至客戶經理的可預約資源記錄，專案合約預設會使用合約單位。 |
 | 合約單位 | **摘要** 索引標籤 | 負責交付與此合約相關之專案的組織單位。 根據報價建立合約時，此欄位是從報價記錄的對應欄位複製而來。 | 合約單位是執行專案的公司部門。 每個合約單位都有貨幣，而此貨幣可用來報告專案期間所產生的估計和實際成本。 |
@@ -36,7 +36,7 @@ _**適用於：** 精簡部署 - 交易至開立預估發票_
 
 專案合約的 **合約績效** 索引標籤中提供下列 KPI。
 
-| 欄位 | 地點 | 關聯性、目的和指引 |
+| 欄位 | 地點 | 描述 |
 | --- | --- | --- |
 | 合約值 | 整體合約 | 專案合約的總值。 |
 | 帳單金額 | 整體合約 | 所有據此合約開立之發票的金額加總。 |

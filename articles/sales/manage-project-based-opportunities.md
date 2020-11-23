@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 39ce52d5da4c7027ee2f2fa44579c0d4bf74925e
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: c5a8bfea5540432a62d7075443cf237571bfa4de
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087839"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118463"
 ---
 # <a name="manage-project-based-opportunities"></a>管理專案型商機
 
@@ -27,7 +27,7 @@ Dynamics 365 Project Operations 中的專案型商機是使用 Dynamics 365 Sale
 
 您可以從 **商機** 清單頁面查看所有專案型商機的清單。 
 
-1. 移至 **銷售** > **商機** 。
+1. 移至 **銷售** > **商機**。
 2. 使用 **檢視表切換器** 來選取商機的其他篩選過的檢視。 若要設定這些檢視表和導覽選項，您可以使用自訂篩選準則來建立您自己的檢視表。
 
 您可以從此清單頁面或詳細資料頁面建立或刪除專案商機。

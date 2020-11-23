@@ -3,7 +3,7 @@ title: 在銷售處理期間提供專案的工作估計值
 description: 如何在 Project Service 的銷售處理期間提供專案的工作估計值
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ddb7f8c0ff8c7fd7e51edb42f9d227f2b91a811b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7bd83b6872d437f1d074d6ea2336c751bdfdd9e6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073046"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120578"
 ---
 # <a name="provide-work-estimates-for-a-project-during-the-sales-process-project-service"></a>在銷售處理期間提供專案的工作估計值 (Project Service)
 
@@ -46,7 +46,7 @@ ms.locfileid: "4073046"
 ## <a name="import-estimates-from-a-project-into-a-quote"></a>從專案將估計值匯入至報價  
  一旦專案中有專案估計值，就可以將這些估計值匯入報價明細中：  
   
--   在 **報價明細詳細資料** 中，按一下 **從估計值匯入** 。 
+-   在 **報價明細詳細資料** 中，按一下 **從估計值匯入**。 
 
 -   選取要匯入依交易類型、角色或分工結構圖節點層級摘要的專案估計值。  
   

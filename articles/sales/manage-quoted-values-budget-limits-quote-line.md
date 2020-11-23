@@ -1,21 +1,21 @@
 ---
-title: 專案型報價明細
+title: 專案型報價明細概觀
 description: 本主題提供有關將專案型報價明細用於專案工作的資訊。
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 06a47c45dc3b3b174658e2fba14d3d2050aabf85
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: ea54d83b1e26d1ee3520dbfab9ba56ffd1191dc9
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072863"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181847"
 ---
-# <a name="project-based-quote-lines"></a>專案型報價明細
+# <a name="project-based-quote-lines-overview"></a>專案型報價明細概觀
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
@@ -31,7 +31,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 下表提供有關專案型報價明細的 **一般** 索引標籤上的欄位資訊。 這些欄位可協助為專案工作設定詳細的全新估計基礎。
 
-| **欄位** | **關聯性、目的和指引** | **下游影響** |
+| **欄位** | **描述** | **下游影響** |
 | --- | --- | --- |
 | 名字 | 報價明細的名稱，應可協助您找出估計中報價的分立元件。 | 已複製到報價成交時從此報價明細中建立的專案合約服務內容。 |
 | 計費方式 | 在根據商機所建立的報價上，此值是從商機明細的對應欄位複製而來。 此欄位包含 Dynamics 365 Project Operations 所支援的兩個主要合約模型：</br>- 固定價格</br>- 時間和材料。| 此欄位值已複製到報價成交時從此報價明細中建立的專案合約服務內容。 |
@@ -47,11 +47,11 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>專案型報價明細的 [一般] 索引標籤上的欄位驗證規則
 
-**規則 1** ：所選專案上的特定交易分類只能包含在報價的一個專案型報價明細中。
+**規則 1**：所選專案上的特定交易分類只能包含在報價的一個專案型報價明細中。
 
-**規則 2** ：如果商機有多個報價，則可以有來自各種全都參考相同專案且包含相同交易分類之不同報價的報價明細。
+**規則 2**：如果商機有多個報價，則可以有來自各種全都參考相同專案且包含相同交易分類之不同報價的報價明細。
 
-**規則 3** ：如果報價不屬於同一個商機，則不能包含相同的專案和交易分類。
+**規則 3**：如果報價不屬於同一個商機，則不能包含相同的專案和交易分類。
 
 <table border="1" cellspacing="0" cellpadding="0">
     <tbody>

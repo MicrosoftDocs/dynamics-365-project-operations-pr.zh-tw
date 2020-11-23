@@ -3,7 +3,7 @@ title: 專案成本和營收
 description: 此主題提供有關評估專案成本和營收的資訊。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9862b6c69596f5b998cf40691f8478bb87251583
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 282950c0ee21f430a2f20b21128830891c76c84a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073026"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127958"
 ---
 # <a name="project-costs-and-revenue"></a>專案成本和營收
 
@@ -50,7 +50,7 @@ ms.locfileid: "4073026"
 如果系統未找到角色的價格，則估計明細中的成本價會設定為 **0.00** 的預設值。 在專案成本估計明細上的所有成本金額都是使用承包單位的貨幣來記錄。
 
 > [!NOTE]
-> 根據預設，Microsoft Dynamics 365 會以基準貨幣儲存成本金額。 不過， **估計值** 索引標籤上顯示的成本金額是以承包單位的貨幣來表示。  
+> 根據預設，Microsoft Dynamics 365 會以基準貨幣儲存成本金額。 不過，**估計值** 索引標籤上顯示的成本金額是以承包單位的貨幣來表示。  
 
 ### <a name="default-sales-price"></a>預設售價 
 
@@ -76,7 +76,7 @@ ms.locfileid: "4073026"
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>根據工作模式配置估計投入量
 
-在分時期檢視表中，您可以藉由配置每單位時段 (以所選時幅表示) 的投入時數，分佈工作估計的總投入量。 工作模式決定投入量在工作期間的配置方式。 兩種配置方式分別是 **平均** 和 **根據工作時數** 。
+在分時期檢視表中，您可以藉由配置每單位時段 (以所選時幅表示) 的投入時數，分佈工作估計的總投入量。 工作模式決定投入量在工作期間的配置方式。 兩種配置方式分別是 **平均** 和 **根據工作時數**。
 
 ### <a name="work-hours-based-allocation"></a>根據工作時數配置
  
@@ -88,7 +88,7 @@ ms.locfileid: "4073026"
 
 ## <a name="grouping-and-time-phasing-options"></a>分組和分時期選項
 
-分時期檢視表會顯示每天、每週、每月或每年的投入量、成本和銷售估計值的分佈。 估計資料預設依據 **角色** 維度進行樞紐分析。 不過，您可以使用 **分組依據** 選項，在另外兩個維度上進行 樞紐分析： **類別** 和 **資源** 。
+分時期檢視表會顯示每天、每週、每月或每年的投入量、成本和銷售估計值的分佈。 估計資料預設依據 **角色** 維度進行樞紐分析。 不過，您可以使用 **分組依據** 選項，在另外兩個維度上進行 樞紐分析：**類別** 和 **資源**。
 
 在網格和分時期檢視表中，您可以選擇顯示哪些欄位。 每個時間塊的總計都會顯示在專案下方。 這些總計會顯示日、週、月或年的總估計投入量、成本和銷售。 預設成本價和銷售價是有生效日期。 換句話說，這些價格會根據您所選取的分時期檢視表來針對每個資源變更。
 

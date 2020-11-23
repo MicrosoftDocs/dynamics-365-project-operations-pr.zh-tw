@@ -3,7 +3,7 @@ title: 建立工作時數範本
 description: 如何建立 Project Service 中的工作時數範本
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c34634817fc8e4c993261024a8b19d45052bf5e5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a0fce327587940e557e0214c8c0897116ac91901
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073006"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133043"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>建立工作時數範本 (Project Service)
 
@@ -41,25 +41,25 @@ ms.locfileid: "4073006"
   
 #### <a name="to-create-a-work-hours-template-based-on-a-resources-calendar"></a>依據資源的行事曆建立工作時數範本  
   
-1.  移至 **Project Service > 資源** 。  
+1.  移至 **Project Service > 資源**。  
   
 2.  選取要做為工作時數的依據的資源。  
   
-3.  按一下 **將行事曆儲存為** ，輸入工作時數範本的名稱，然後按一下 **儲存** 。  
+3.  按一下 **將行事曆儲存為**，輸入工作時數範本的名稱，然後按一下 **儲存**。  
   
-4.  完成變更選項時，按一下 **儲存後關閉** 。  
+4.  完成變更選項時，按一下 **儲存後關閉**。  
   
 5.  按一下畫面右下角的 **儲存** 按鈕。  
   
 #### <a name="to-create-a-new-work-hours-template"></a>建立新的工作時數範本  
   
-1.  移至 **Project Service > 工作時數範本** 。  
+1.  移至 **Project Service > 工作時數範本**。  
   
-2.  按一下 **新增** 。  
+2.  按一下 **新增**。  
   
 3.  輸入工作時數範本的名稱。  
   
-4.  選取要做為工作時數依據的資源，然後按一下 **儲存** 。  
+4.  選取要做為工作時數依據的資源，然後按一下 **儲存**。  
   
 ### <a name="see-also"></a>請參閱  
  [設定資源](../psa/set-up-resources.md)

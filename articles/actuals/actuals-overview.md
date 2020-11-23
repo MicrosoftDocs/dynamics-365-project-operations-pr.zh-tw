@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -16,12 +16,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 93a945ffbe9c6dd998456b506b95e717ab8fbab7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 13c429763fa805fae5324e4dcf1bf7669e842281
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072986"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126293"
 ---
 # <a name="actuals"></a>實際值 
 
@@ -45,7 +45,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 建立預設價格的邏輯會存在於帳目明細。 時間項目中的欄位值都會複製到帳目明細。 這些值包含交易日期、專案所對應至的合約服務內容，以及適當價目表中的貨幣結果。
 
-影響預設定價的欄位 (例如 **角色** 和 **組織單位** ) 會在帳目明細上用來決定適當價格。 您可以在時間項目上新增自訂欄位。 如果您想要讓欄位值傳播至實際值，請在實際值實體上建立欄位，並使用欄位對應將欄位從時間項目複製到實際值。
+影響預設定價的欄位 (例如 **角色** 和 **組織單位**) 會在帳目明細上用來決定適當價格。 您可以在時間項目上新增自訂欄位。 如果您想要讓欄位值傳播至實際值，請在實際值實體上建立欄位，並使用欄位對應將欄位從時間項目複製到實際值。
 
 ## <a name="journal-lines-and-basic-expense-submission"></a>帳目明細和基本費用提交
 

@@ -3,7 +3,7 @@ title: 管理資源要求
 description: 如何管理 Project Service 中的資源要求
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49a2d2102246126f6edc9cb36a072583c566c95a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11d7e603755c9339c2d43b79ef65c27e3bb6e6fd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072995"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128993"
 ---
 # <a name="manage-resource-requests-project-service"></a>管理資源要求 (Project Service)
 
@@ -31,13 +31,13 @@ ms.locfileid: "4072995"
 
 客戶經理和專案經理會定期為其專案要求資源。 您可以使用 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 功能，尋找和比對具備這些資源要求所需技能和熟練度的顧問。  
   
-1. 移至 **Project Service** > **資源要求** 。  
+1. 移至 **Project Service** > **資源要求**。  
   
-2. 選取資源要求並按一下 **尋找資源** 。 這會顯示所有資源及其可用性的行事曆檢視表，並以色彩編碼，提供資源預約狀態的視覺檢視。  
+2. 選取資源要求並按一下 **尋找資源**。 這會顯示所有資源及其可用性的行事曆檢視表，並以色彩編碼，提供資源預約狀態的視覺檢視。  
   
     執行下列任一項操作可最佳化您的搜尋：  
   
-   -   從畫面頂端選取檢視表或排序順序。 您也可以選取顯示 **日** 、 **週** 或 **月** 的可用性，並使用箭頭檢視上一個或下一個時段。 使用搜尋方塊尋找特定資源。  
+   -   從畫面頂端選取檢視表或排序順序。 您也可以選取顯示 **日**、**週** 或 **月** 的可用性，並使用箭頭檢視上一個或下一個時段。 使用搜尋方塊尋找特定資源。  
   
    -   按一下 **選項** 變更顯示內容。 例如，您可以顯示帶有色彩配置的圖例，以代表不同預約類型，或者您可以選擇只顯示特定一種預約類型 (例如，已確認預約或未確認預約)。  
   

@@ -6,7 +6,7 @@ manager: kfend
 ms.custom: ''
 ms.date: 11/19/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f215555dd7b29444e00499c0e731624e51057250
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c42e5fda79d51430f4dedf46037e11c86a38c474
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073079"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121838"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>更新外掛程式屬性以包含新的定價維度
 
@@ -40,17 +40,17 @@ ms.locfileid: "4073079"
 下列步驟將引導您逐步完成註冊外掛程式的程序。
 
 1. 開啟 **PluginRegistrationTool** 並連接至您的線上執行個體。
-2. 按一下 **搜尋** ，然後搜尋要更新的外掛程式。
+2. 按一下 **搜尋**，然後搜尋要更新的外掛程式。
 
  ![搜尋樹狀結構的螢幕擷取畫面](media/PRT-1.png)
 
-3. 找到外掛程式後，選取該外掛程式，然後按一下 **在主要表單上選取** 。
+3. 找到外掛程式後，選取該外掛程式，然後按一下 **在主要表單上選取**。
 
-4. 選取要更新外掛程式的步驟，按一下滑鼠右鍵，然後選取 **更新** 。
+4. 選取要更新外掛程式的步驟，按一下滑鼠右鍵，然後選取 **更新**。
 
  ![要更新的外掛程式螢幕擷取畫面](media/PRT-2.png)
  
-5. 在更新視窗中，按一下篩選屬性中的省略符號 ( **...** )。
+5. 在更新視窗中，按一下篩選屬性中的省略符號 (**...**)。
 
  ![更新現有步驟設定資訊的螢幕擷取畫面](media/PRT-3.png)
  
@@ -58,7 +58,7 @@ ms.locfileid: "4073079"
 
  ![螢幕擷取畫面顯示定價屬性的核取方塊選擇](media/PRT-4.png)
 
-7. 按一下 **確定** 關閉頁面，然後選取 **更新步驟** 。
+7. 按一下 **確定** 關閉頁面，然後選取 **更新步驟**。
 
  ![螢幕擷取畫面顯示 [更新步驟] 按鈕](media/PRT-5.png)
  

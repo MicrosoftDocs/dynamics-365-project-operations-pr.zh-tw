@@ -1,21 +1,21 @@
 ---
-title: 重要概念 - 專案合約
+title: 專案合約 - 重要概念
 description: 本主題提供有關 Project Operations 中專案合約重要概念的資訊。
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4ab43a9de6b27f0f0e9b8cbe6ea8b613ce81e08d
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 24b3fcd74e4167ba419e12c890a119d22c54c99a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072932"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175521"
 ---
-# <a name="key-concepts---project-contracts"></a>重要概念 - 專案合約
+# <a name="project-contracts---key-concepts"></a>專案合約 - 重要概念
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 

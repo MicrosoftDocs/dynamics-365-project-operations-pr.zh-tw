@@ -5,29 +5,29 @@ author: rumant
 manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2c7d63d0cfd5c9b6dbfb65fa8c8227c7f6eeac48
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 501458510efca6434a51577aacd1f09d1a4faa25
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073020"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180678"
 ---
-# <a name="set-up-bill-rates-for-labor-rate-billing"></a>設定人力費率帳單的帳單費率 
+# <a name="set-up-labor-bill-rates"></a>設定人力帳單費率
 
 **適用於：** 資源/非庫存型案例適用的 Project Operations
 
 每個價目表都有一組在價目表標題所含內容及有效日期範圍中生效的角色價格 (或人力費率)。 Dynamics 365 Project Operations 中的時間帳單費率只能設定一種貨幣，這是價目表標題上的貨幣。
 
 1. 若要設定銷售價目表的人力帳單費率，請根據價目表標題建立價目表。 
-2. 在 **角色價格** 索引標籤的子格中，選取 **+ 新增角色價格** 。 
+2. 在 **角色價格** 索引標籤的子格中，選取 **+ 新增角色價格**。 
 3. 在 **快速建立** 窗格中，輸入需要設定帳單費率的角色與組織單位組合。
 
    下表包含角色價格明細的 **一般** 索引標籤及 **快速建立** 窗格上的欄位，當您在銷售或成本價目表上建立角色價格時，應留意這些欄位：
 
-    | 欄位 | 地點 | 關聯性、目的和指引 | 下游影響 |
+    | 欄位 | 地點 | 描述 | 下游影響 |
     | --- | --- | --- | --- |
     | 角色 | **一般** 索引標籤和 **快速建立** 窗格 | 選取需要設定帳單費率的角色。 | 新加入估計值或實際值的角色將會根據此明細進行比對，以設定角色的帳單費率預設值。 |
     | 資源供應公司 | **一般** 索引標籤和 **快速建立** 窗格 | 選取將角色所屬的公司或法律實體。 例如，Fabrikam India 的開發人員或 Fabrikam USA 的開發人員。 | 新加入估計值或實際值的資源供應公司將會根據此明細進行比對，以設定角色的帳單費率預設值。 |
@@ -39,7 +39,7 @@ ms.locfileid: "4073020"
 
 ## <a name="transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions"></a>對來自其他組織單位或部門之資源的轉撥定價或設定帳單費率 
 
-以專案為主的公司經常會任用來自不同法律實體和不同部門的員工來處理專案。 專案可以從特定法律實體和部門中執行，但是在專案上工作的員工或顧問則可能來自相同法律實體與部門或不同法律實體與部門。 專案也可以由不同法律實體與部門中的人員組合而成。 在 Project Operations 中，負責交付專案的法律實體稱為 **負責公司** ，而負責交付的部門則稱為 **合約單位** 。 所有其他提供資源的法律實體稱為 **資源供應公司** ，而提供資源的部門則稱為 **資源分配單位** 。 由於不同地理區域的人力成本以及全世界的人力市場各有不同，因此人力帳單費率也會隨地理區域不同而以不同方式進行設定。
+以專案為主的公司經常會任用來自不同法律實體和不同部門的員工來處理專案。 專案可以從特定法律實體和部門中執行，但是在專案上工作的員工或顧問則可能來自相同法律實體與部門或不同法律實體與部門。 專案也可以由不同法律實體與部門中的人員組合而成。 在 Project Operations 中，負責交付專案的法律實體稱為 **負責公司**，而負責交付的部門則稱為 **合約單位**。 所有其他提供資源的法律實體稱為 **資源供應公司**，而提供資源的部門則稱為 **資源分配單位**。 由於不同地理區域的人力成本以及全世界的人力市場各有不同，因此人力帳單費率也會隨地理區域不同而以不同方式進行設定。
 
 例如，來自 Fabrikam India 機器人部門從事美國專案的開發人員，按每小時 100 美元的費率計費。 來自 Fabrikam US 機器人部門從事美國專案的開發人員，按每小時 150 美元的費率計費。 
 

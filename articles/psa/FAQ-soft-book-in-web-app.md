@@ -3,7 +3,7 @@ title: 如何在應用程式版本 2.x 中進行資源的「未確認預約」�
 description: 本文說明如何使用 Project Service 對專案團隊成員進行未確認預約。
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9e5d1c91f8ea98117583996552c2f2834be9c537
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a35799b422fa338c2666e1b2aa11bc2a54f5cce3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073019"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122243"
 ---
 # <a name="how-do-i-soft-book-resources-in-the-web-app-project-service-app-v2x"></a>如何在 Web 應用程式 (Project Service 應用程式 2.x 版) 中進行資源的「未確認預約」？
 

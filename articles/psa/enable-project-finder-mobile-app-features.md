@@ -3,7 +3,7 @@ title: 啟用 Project Finder Mobile 應用程式功能
 description: 如何啟用 Project Service 的 Project Finder Mobile 應用程式功能
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 749c5682dc2e639843a0a8a085fe8af65502d433
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: af267b5adc48b6edec57de196f91e338c058558c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073003"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132953"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>啟用 Project Finder Mobile 應用程式功能 (Project Service)
 
@@ -38,13 +38,13 @@ ms.locfileid: "4073003"
 > [!NOTE]
 >  Project Finder Mobile 應用程式僅適用於 [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]，無法搭配內部部署安裝使用。  
   
-1. 移至 **Project Service > 參數** 。  
+1. 移至 **Project Service > 參數**。  
   
 2. 按一下您要使用的參數設定，允許 Project Finder Mobile 應用程式功能。  
   
-3. 在 **一般** 區域中，將 **資源看得到資源需求** 設定為 **是** 。  
+3. 在 **一般** 區域中，將 **資源看得到資源需求** 設定為 **是**。  
   
-4. 將 **允許資源更新技能** 設定為 **是** 。  
+4. 將 **允許資源更新技能** 設定為 **是**。  
   
    ![ProjectService_ProjectFinderEnable](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
   

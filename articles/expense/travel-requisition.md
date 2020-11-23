@@ -5,15 +5,15 @@ author: suvaidya
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 0261405abb9305d7f6abcde9cb90d9b184868580
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 46a678ac4486c99f11d74dbac07dedd08364cb2f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072865"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123728"
 ---
 # <a name="travel-requisitions"></a>差旅申請
 
@@ -31,12 +31,12 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 ## <a name="create-and-submit-a-travel-requisition"></a>建立和提交差旅申請
 
-1. 移至 **我的費用：差旅申請** ，然後選取 **新的差旅申請** 。
+1. 移至 **我的費用：差旅申請**，然後選取 **新的差旅申請**。
 2. 輸入申請的用途和目的地。
 3. 在 **旅遊描述** 欄位中，輸入任何其他資訊。 
 4. 為每一項預期的費用 (例如航班、餐飲或租車) 建立費用明細項目。 包括每項費用的估計日期、估計金額和貨幣。 
-5. 新增預期費用完畢後，選取 **儲存** 。
-6. 準備好提交差旅申請時，選取 **工作流程** > **提交** 。
+5. 新增預期費用完畢後，選取 **儲存**。
+6. 準備好提交差旅申請時，選取 **工作流程** > **提交**。
 
 您可以在 **我的費用：差旅申請** 底下檢視已獲核准的差旅申請。 
 
@@ -46,11 +46,11 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 ## <a name="approve-travel-requisitions"></a>核准差旅申請
 
-選取您要核准的差旅申請，然後選取 **工作流程** > **核准** 。  
+選取您要核准的差旅申請，然後選取 **工作流程** > **核准**。  
 
 ## <a name="submit-an-expense-report-using-your-approved-travel-requisition"></a>使用核准的差旅申請來提交費用報表
 
-1. 建立新的費用報表，並在費用報價標題以及核准的差旅申請清單中，選取 **對應差旅申請** 。
+1. 建立新的費用報表，並在費用報價標題以及核准的差旅申請清單中，選取 **對應差旅申請**。
 2. **差旅申請金額** 欄位會在費用報表標題中自動更新。
 3. 新增出差時產生的每項費用。 如果 **預先授權** 欄位已啟用，則會更新特定費用類別的對帳金額和授權金額。
 

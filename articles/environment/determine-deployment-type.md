@@ -3,17 +3,17 @@ title: 判斷您的部署類型
 description: 本主題提供資訊以協助您判斷適合您公司的正確 Project Operations 部署類型。
 author: stsporen
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 11/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 564f2878553fe3904a7c47c7e80a3b57c763a3b2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073000"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401208"
 ---
 # <a name="determine-your-deployment-type"></a>判斷您的部署類型
 
@@ -25,11 +25,11 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>使用 Dynamics 365 Project Service Automation 的 Dynamics 現有客戶
-Project Operations 包含隨附於 Project Service Automation 的功能。 日後將會為這些客戶發行升級路徑。
+Project Operations 包含隨附於 Project Service Automation 的功能。 將會在 2021 年第 1 段發行浪潮中，為這些客戶發行升級路徑。
 
 ## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>使用專案管理與會計的 Dynamics 365 Finance 現有客戶 
 
-使用專案管理與會計功能的現有 Finance 客戶可以依照原本方式繼續使用。 請參閱[庫存/生產訂單案例適用的 Project Operations](#pma)。
+使用 [專案管理與會計] 功能的現有 Finance 客戶仍可繼續依照原本方式使用該功能。 請參閱[庫存/生產訂單案例適用的 Project Operations](#pma)。
 
 
 ## <a name="deployment-types"></a>部署類型
@@ -47,12 +47,13 @@ Project Operations 透過法律實體層級設定在同一個環境中支援庫�
 
 精簡部署包含下列功能：
 
+- 延伸 Dynamics 365 Sales 應用程式體驗的專案銷售處理
 - 使用 Microsoft Project 網頁版進行專案規劃
 - 多維度定價
 - 統一資源管理
 - 時間追蹤
 - 基本費用
-- 發票提案
+- 開立預估發票和客戶面向發票 
 
 #### <a name="deployment-steps"></a>部署步驟
 使用[部署問卷](https://aka.ms/provisionprojectoperations)來判斷 Project Operations 的最佳部署模型。
@@ -62,7 +63,8 @@ Project Operations 透過法律實體層級設定在同一個環境中支援庫�
 
 ### <a name="project-operations-for-resourcenon-stocked-scenarios"></a><a name="integrated"></a>資源/非庫存案例適用的 Project Operations
 資源/非庫存案例適用的 Project Operations 包含下列功能：
-  
+ 
+- 擴充 Dynamics 365 Sales 應用程式的專案銷售處理
 - 使用 Microsoft Project 網頁版進行專案規劃
 - 多維度定價
 - 統一資源管理
@@ -70,8 +72,8 @@ Project Operations 透過法律實體層級設定在同一個環境中支援庫�
 - 基本費用
 - 全額費用
 - 收據 OCR
-- 完整發票
-- 收入認列
+- 開立預估發票和客戶面向發票 
+- 專案的營收認列
 
 #### <a name="deployment-steps"></a>部署步驟
 使用[部署問卷](https://aka.ms/provisionprojectoperations)來判斷 Project Operations 的最佳部署模型。

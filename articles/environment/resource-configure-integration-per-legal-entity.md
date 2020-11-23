@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c0e02ef2d17bf49209369f7adad681d9a5981e2a
-ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
+ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096742"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122873"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>設定每個法律實體的 Project Operations 整合 
 
@@ -38,7 +38,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 您可以在法律實體層級啟用 Dynamics 365 Customer Engagement 上的 Project Operations。 您在 Dynamics 365 Customer Engagement 上可以有一個使用資源/非庫存型案例適用 Project Operations 的法律實體。 在相同的環境中，您可以有另一個使用庫存/生產訂單案例適用 Project Operations 的法律實體。
 
-1. 在 Dynamics 365 Finance 中，移至 **專案管理與會計** > **設定** > **全域專案管理與會計參數** 。
+1. 在 Dynamics 365 Finance 中，移至 **專案管理與會計** > **設定** > **全域專案管理與會計參數**。
 2. 在可用法律實體清單中，選取要在 Dynamics 365 Customer Engagement 功能上啟用多個合約服務內容和 Project Operations 的實體。 讓將要使用庫存/生產訂單案例適用 Project Operations 的法律實體保持未選取狀態。
 
 > [!NOTE]
@@ -48,6 +48,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 每個在 Dynamics 365 Customer Engagement 上使用 Project Operations 的法律實體都需要一組預設參數。 這些參數是在 **專案管理與會計參數** 頁面的 **Project Operations** 索引標籤上進行設定。 這些參數包括：
 
-  - **帳單類型預設值** ：Project Operations 使用固定一組必須對應至 Finance 明細屬性的帳單類型預設值。 建立下列每個帳單類型的記錄： **未指定** 、 **應收費** 、 **不應收費** 、 **附贈** 和 **無法使用** 。
-  - **專案類別預設值** ：選取每個交易類型要使用的預設專案類別。 這些預設值將用於 **Project Operations 整合帳目** 以及未指定專案實際值交易類別的估計值。
-  - **預測** ：選取時間和費用估計值要使用的預測模型。
+  - **帳單類型預設值**：Project Operations 使用固定一組必須對應至 Finance 明細屬性的帳單類型預設值。 建立下列每個帳單類型的記錄：**未指定**、**應收費**、**不應收費**、**附贈** 和 **無法使用**。
+  - **專案類別預設值**：選取每個交易類型要使用的預設專案類別。 這些預設值將用於 **Project Operations 整合帳目** 以及未指定專案實際值交易類別的估計值。
+  - **預測**：選取時間和費用估計值要使用的預測模型。

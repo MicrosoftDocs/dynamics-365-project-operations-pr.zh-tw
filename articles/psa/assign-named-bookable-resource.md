@@ -3,7 +3,7 @@ title: 將具名可預約資源預約給專案團隊並指派工作
 description: 本主題提供有關如何將具名資源預約給專案團隊以及將這些資源指派至工作的資訊。
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: defc92e701ae6baf9d54f41dca123a09ef834c35
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0300c494a3294b26e2de6bbfa1dd50a76bb72651
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073115"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130163"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>將具名可預約資源預約給專案團隊並指派工作 
 
@@ -31,15 +31,15 @@ ms.locfileid: "4073115"
 
 您可以直接預約具名資源給團隊，以將此資源新增至團隊。 若要這麼做，請完成下列步驟。
 
-1. 在 Project Service Automation 中，移至 **專案** ，然後選取並開啟您要預約到的專案。
-2. 在 **專案** 頁面的 **團隊** 索引標籤上，按一下 **新增** 。 
+1. 在 Project Service Automation 中，移至 **專案**，然後選取並開啟您要預約到的專案。
+2. 在 **專案** 頁面的 **團隊** 索引標籤上，按一下 **新增**。 
 
 ![從團隊索引標籤新增團隊成員](media/RM-how-to-1.png)
 
 3. 在 **快速建立專案團隊成員** 對話方塊中，選取可預約資源。 **角色** 欄位將會有資源的預設角色填入 (如果已指派此角色)。 您可以視需要變更角色。 
 4. 選取需要資源的開始及結束日期，並選取資源產能的配置方法。 
-5. 如果您要讓團隊成員成為專案核准者，請在 **專案核准者** 欄位中選取 **是** 。 這表示團隊成員可以核准為此專案送出的時間和費用項目。 
-6. 按一下 **儲存** 。
+5. 如果您要讓團隊成員成為專案核准者，請在 **專案核准者** 欄位中選取 **是**。 這表示團隊成員可以核准為此專案送出的時間和費用項目。 
+6. 按一下 **儲存**。
 
 ![在快速建立表單上新增團隊成員](media/RM-how-to-2.png)
 
@@ -53,7 +53,7 @@ ms.locfileid: "4073115"
 
 ![[資源協調] 索引標籤](media/RM-how-to-4.png)
 
-您也可以使用 **排程** 索引標籤上的資源選擇器來搜尋和選取尚不屬於專案團隊的可預約資源。 這些資源會在資源選擇器中顯示為 **其他資源** 。
+您也可以使用 **排程** 索引標籤上的資源選擇器來搜尋和選取尚不屬於專案團隊的可預約資源。 這些資源會在資源選擇器中顯示為 **其他資源**。
 
 ![將非團隊成員資源指派給工作](media/RM-how-to-5.png)
 
@@ -61,7 +61,7 @@ ms.locfileid: "4073115"
 
 ![有指派但無預約的團隊成員](media/RM-how-to-6.png)
 
-您可以使用 **協調** 索引標籤的延長預約功能或是 **排程面板** ，將資源的產能預約給專案。
+您可以使用 **協調** 索引標籤的延長預約功能或是 **排程面板**，將資源的產能預約給專案。
 
 ![在資源協調索引標籤上，為團隊成員延長預約](media/RM-how-to-7.png)
 

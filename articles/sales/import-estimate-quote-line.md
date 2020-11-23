@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8c0fe18b33207f73848709b99334f64aadc7867a
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: fda8fee6dcf55126077fb6b8c502ee9dada9b44c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072912"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125573"
 ---
 # <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>將專案的估計值匯入至專案型報價明細
 
@@ -23,7 +23,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 如果已在售前階段期間建立專案，您可以選擇將財務估計值從專案匯入至專案型報價明細。
 
 1. 請確定專案型報價明細在 **專案** 欄位中有專案資訊。
-2. 在 **報價明細詳細資料** 索引標籤中，選取 **從專案估計值匯入** 。
+2. 在 **報價明細詳細資料** 索引標籤中，選取 **從專案估計值匯入**。
 3. 在開啟的對話方塊中，選取下列其中一個摘要選項：
 
   - **交易分類**
@@ -31,7 +31,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
   - **角色** 
   - **專案工作**
 
-根據您的選取項目，系統會從專案複製對此報價明細所包含所有交易分類的估計值。 若要檢查包含哪些交易分類，請選取專案型報價明細上的 **一般** 索引標籤，然後檢查 **包含時間** 、 **包含費用** 及 **包含服務費** 的值。
+根據您的選取項目，系統會從專案複製對此報價明細所包含所有交易分類的估計值。 若要檢查包含哪些交易分類，請選取專案型報價明細上的 **一般** 索引標籤，然後檢查 **包含時間**、**包含費用** 及 **包含服務費** 的值。
 
 匯入估計值時，系統會根據附加至報價的專案價目表，以及專案型報價明細上設定的帳單類型來預設定價。 如果角色或類別在專案型報價明細上設定為不應收費，則匯入的估計明細也會設定為不應收費，而不會加計至報價明細的報價值。
 

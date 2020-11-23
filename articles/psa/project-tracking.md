@@ -3,7 +3,7 @@ title: 專案進度及成本耗用
 description: 本主題提供有關如何追蹤專案進度和成本耗用的資訊。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/21/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3b60f72b371a76a59216b0b528d8e63513b06e0d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0793ee0c75bcbdde0fd92a16634457f73f872b5e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073157"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120623"
 ---
 # <a name="project-progress-and-cost-consumption"></a>專案進度及成本耗用
 
@@ -95,4 +95,4 @@ Project Service Automation 使用下列公式來計算追蹤計量：
 
 **整體專案狀態** 欄位是顯示專案整體狀態的可編輯欄位。 此欄位會使用色彩代碼 (例如綠色、黃色和紅色) 來表示風險增加。 **註解** 欄位可讓專案經理輸入關於狀態的特定註解。 **狀態更新時間** 欄位不可編輯的欄位，其值是指示狀態上次更新時的時間戳記。
 
-**排程效能** 和 **成本績效** 欄位是從追蹤日期開始設定。 當 **投入量追蹤** 檢視表中根節點的排程與成本差異為正值時，您可以將這些欄位設定為 **提前** 。 當根節點的排程與成本差異是負值時，您可以將其設定為 **落後** 。
+**排程效能** 和 **成本績效** 欄位是從追蹤日期開始設定。 當 **投入量追蹤** 檢視表中根節點的排程與成本差異為正值時，您可以將這些欄位設定為 **提前**。 當根節點的排程與成本差異是負值時，您可以將其設定為 **落後**。

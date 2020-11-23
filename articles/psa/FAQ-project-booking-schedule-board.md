@@ -3,7 +3,7 @@ title: 從排程面板建立專案預約
 description: 本主題提供有關如何從排程面板建立專案預約的資訊。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57fbc71681015fca73cdda4bc7d392f6be4289f3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ccbfedec82b2d9035b51cf1b283ae5c441f1cbcc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073013"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122288"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>從排程面板建立專案預約
 
@@ -35,7 +35,7 @@ ms.locfileid: "4073013"
 
 - **從主要需求預約：** 主要需求會顯示在 **專案** 索引標籤的排程面板上。 
 
-- **透過新的資源需求預約** ：您可以從頭開始建立資源需求，並將其與專案產生關聯。 在排程面板中，資源需求會出現在 **開啟需求** 索引標籤上。
+- **透過新的資源需求預約**：您可以從頭開始建立資源需求，並將其與專案產生關聯。 在排程面板中，資源需求會出現在 **開啟需求** 索引標籤上。
 
 ## <a name="book-from-a-generated-resource-requirement"></a>透過產生的資源需求預約
 
@@ -70,7 +70,7 @@ ms.locfileid: "4073013"
 
 4. 因為 **主要需求** 是期間為零 (0) 的空白需求，當您選取和預約資源時，必須在 **建立資源預約** 面板上設定期間。
 
-5. 您也可以選取排程面板底部的 **專案主要需求** ，再將其拖放到要預約的資源。
+5. 您也可以選取排程面板底部的 **專案主要需求**，再將其拖放到要預約的資源。
  
     因為 **主要需求** 是期間為零 (0) 的空白需求，當您選取和預約資源時，必須在 **建立資源預約** 面板上設定期間。
  
@@ -79,11 +79,11 @@ ms.locfileid: "4073013"
 ## <a name="book-from-a-new-resource-requirement"></a>透過新的資源需求預約
 完成下列步驟，以透過新的資源需求預約。 
 
-1. 移至 **資源需求** ，然後選取 **新增** 以建立新的資源需求。
+1. 移至 **資源需求**，然後選取 **新增** 以建立新的資源需求。
 
 2. 在 **專案** 索引標籤上，選取要將需求與專案建立關聯的專案。
  
-    在排程面板上，這個新需求會在排程面板上顯示為您可以履行的 **開啟需求** 。
+    在排程面板上，這個新需求會在排程面板上顯示為您可以履行的 **開啟需求**。
 
 3. 預約資源以將該資源新增至專案團隊。
 

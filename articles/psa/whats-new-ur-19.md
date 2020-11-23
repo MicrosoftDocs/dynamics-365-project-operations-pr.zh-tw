@@ -3,7 +3,7 @@ title: Project Service Automation V3 更新版本 19 的新功能或變更內容
 description: 本主題列出 Project Service Automation 更新版本 19 V3 中提供的功能和修正。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 05/05/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ecc923cccfad21985025ab9d8006aaff16afc25f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e116bcbb8e9d184b7b894709c893aaf1dadefc2f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072949"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126822"
 ---
 # <a name="project-service-automation-update-release-19-v3"></a>Project Service Automation 更新版本 19 V3
 
@@ -53,7 +53,7 @@ ms.locfileid: "4072949"
 下列問題已獲修正： 
 
 - **重新計算** 動作無法使用費用合約服務內容詳細資料或報價明細詳細資料。
-- 費用估計值缺少 **更新價格** 。
+- 費用估計值缺少 **更新價格**。
 -  客戶無法從 **專案合約** 頁面選取自訂合約狀態原因。
 - 從報價建立自訂價目表時，客戶感受到效能變差。
 - 客戶發現 **報價明細詳細資料** 與 **合約服務內容詳細資料** 頁面上的 **單位** 預設值不一致。
@@ -62,5 +62,5 @@ ms.locfileid: "4072949"
 - 客戶感受到效能變差 PreValidateProjectTeamMemberUpdate.cs 中不必要的擷取
 - 必須將 **資源類別** 清單中設定為非收費的角色當做專案合約服務內容的 **非收費項目** 新增至 **收費角色** 索引標籤。
 - 建立專案時，客戶可能會感受到效能變差，因為 **GetBookableResourceIdFromUser** 擷取的是可預約資源所有的欄，而不只是主要識別碼。
-- **TransactionType** 實體缺少預先驗證更新外掛程式，無法防止使用者輸入對交易類型不正確的 **單位** 和 **單位群組** 。
+- **TransactionType** 實體缺少預先驗證更新外掛程式，無法防止使用者輸入對交易類型不正確的 **單位** 和 **單位群組**。
 - **移除** 步驟不適用於時間項目匯入。

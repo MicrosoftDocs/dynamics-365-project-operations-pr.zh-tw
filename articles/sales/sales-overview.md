@@ -2,28 +2,22 @@
 title: 銷售處理概觀
 description: 本主題提供有關基本銷售處理的資訊。
 author: rumant
-manager: kfend
-ms.service: dynamics-365-customerservice
-ms.custom:
-- dyn365-projectservice
-ms.date: 09/23/2019
+manager: Annbe
+ms.date: 10/29/2020
 ms.topic: article
-ms.prod: ''
+ms.service: project-operations
+ms.reviewer: kfend
 ms.author: rumant
-audience: Admin
-search.audienceType:
-- admin
-- customizer
-- enduser
-search.app: ''
-ms.openlocfilehash: c70760748c5faa87f6738ab7e2ab593e2df49e41
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073195"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177591"
 ---
-# <a name="sales-processes-overview"></a>銷售處理概觀
+# <a name="sales-process-overview"></a>銷售處理概觀
+
+_**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
 在專案型組織中使用的銷售處理與在產品型組織中使用的銷售處理不同。 這是因為專案型組織的銷售週期較長，且需要自訂估計技術來為每筆交易進行分析並建立報價。 Dynamics 365 Project Operations 使用下列一些在銷售處理中使用的功能：
 
@@ -38,7 +32,7 @@ ms.locfileid: "4073195"
 
 您可以建立報價的概略估計。 這項概略估計最終會由更詳細的估計所取代，取代的估計是根據您使用標準化專案範本所建立之專案計劃來產生。 這些範本可協助您建立排程，並判斷報價及其組成部分的金額值 (報價明細)。 
 
-您可以為專案建立多個報價，並將這些報價分組在單一商機記錄之下。 其中一個報價最終會標示為 **以成交關閉** ，而且會建立專案合約或工作說明書 (SOW)。 專案合約會保留客戶接受交付的每個部分 (合約服務內容) 的合約價值。 SOW 通常會建立為 Microsoft Word 文件。 所有在專案交付過程中傳送給客戶的發票都會參照專案合約或工作說明書。
+您可以為專案建立多個報價，並將這些報價分組在單一商機記錄之下。 其中一個報價最終會標示為 **以成交關閉**，而且會建立專案合約或工作說明書 (SOW)。 專案合約會保留客戶接受交付的每個部分 (合約服務內容) 的合約價值。 SOW 通常會建立為 Microsoft Word 文件。 所有在專案交付過程中傳送給客戶的發票都會參照專案合約或工作說明書。
 
 您也可以在一個商機記錄下建立替代報價，或設定系統，讓報價完成時，建立專案合約。 在此情況下，您可以將代表 SOW 的 Word 檔案附加至專案合約記錄。
 
@@ -56,7 +50,7 @@ ms.locfileid: "4073195"
  
 隨著交易進展，您的組織可能會使用不同的實體來表示這同一筆交易。 在銷售處理初期，交易是由商機實體表示。 隨著時間推移以及更多詳節顯現，您可能會使用概略估計來建立一個或多個報價。 如果這其中一個報價是由內部及客戶利害關係人審查，則由報價實體表示此交易。 客戶接受報價之後，由專案合約或 SOW 表示交易。 為了支援此行為，BPF 會進行結構化，讓程序中每個階段連結至不同的資料庫表格。
 
-銷售處理中的 **授與資格** 階段可由商機實體來支援。 **估計** 和 **內部審查** 階段可以由報價實體支援。 **合約** 、 **交付** 及 **關閉** 階段可以由專案合約實體支援。
+銷售處理中的 **授與資格** 階段可由商機實體來支援。 **估計** 和 **內部審查** 階段可以由報價實體支援。 **合約**、**交付** 及 **關閉** 階段可以由專案合約實體支援。
 
 當您移動交易通過各階段時，系統會提示您建立適當的實體記錄，以便協助並引導您完成處理。 階段可以有條件。 例如，如果只有在報價使用自訂價目表時才需要報價內部審查，您可以在商務程序的適當階段中設定該條件。 然後 **內部審查** 階段便只會針對使用自訂價目表的報價顯示。 所有其他交易及報價的 **估計** 階段後面都會跟著 **合約** 階段。
 
@@ -65,7 +59,7 @@ ms.locfileid: "4073195"
 
 
 ## <a name="track-revisions-to-quotes-and-project-plans-in-the-sales-cycle"></a>追蹤銷售週期中對報價和專案計劃的修訂
-在 Project Operations 中，您無法追蹤對報價所做的修訂。 相反地，您必須將現有報價標示為 **以未成交關** ，然後再建立新報價。 您可以複製報價或再製專案中的報價。
+在 Project Operations 中，您無法追蹤對報價所做的修訂。 相反地，您必須將現有報價標示為 **以未成交關**，然後再建立新報價。 您可以複製報價或再製專案中的報價。
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>追蹤報價與專案合約的註解和核准
 您可以使用記錄留言板和文章來管理報價與專案合約的審查與核准。 您的組織可以建立自訂工作流程和外掛程式，以指派、重新導向、上呈和管理工作項目審查及核准的通知。

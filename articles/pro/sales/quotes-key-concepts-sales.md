@@ -1,21 +1,21 @@
 ---
-title: 專案報價重要概念
+title: 報價 - 重要概念 - 精簡
 description: 本主題提供有關在 Project Operations 中使用專案報價的資訊。
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 64d2fd9bab9452d71e8cd194fbab70edadf00b93
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e86f1a5a7b2859df5bf9569ee9ca306c6dcc6293
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072920"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177996"
 ---
-# <a name="project-quote-key-concepts"></a>專案報價重要概念
+# <a name="quotes---key-concepts---lite"></a>報價 - 重要概念 - 精簡
 
 _**適用於：** 精簡部署 - 交易至開立預估發票_
 

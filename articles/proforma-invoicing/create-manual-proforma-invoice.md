@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 203b8a057d8ef3b699b20c4303061e622d2a3acd
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 9d3c84664f1b0701db17f0c05654e0c99bb6c640
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4073226"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128047"
 ---
 # <a name="create-a-manual-proforma-invoice"></a>建立手動預估發票
 
@@ -48,13 +48,13 @@ Dynamics 365 Project Operations 不是為了產生客戶面向發票而設計，
 
 依照此步驟，建立特定專案合約的發票。
 
-- 在 **專案合約** 清單頁面上，開啟專案合約，然後選取 **建立發票** 。
+- 在 **專案合約** 清單頁面上，開啟專案合約，然後選取 **建立發票**。
 
     發票會針對狀態為 **已準備好開立發票** 的所選專案合約的所有交易來產生。 這些交易包括時間、費用、里程碑和產品型合約服務內容。
 
 請依照下列步驟大量建立發票。
 
-1. 在 **專案合約** 清單頁面上，選取一個或多個您必須為其建立發票的專案合約，然後選取 **建立專案發票** 。
+1. 在 **專案合約** 清單頁面上，選取一個或多個您必須為其建立發票的專案合約，然後選取 **建立專案發票**。
 
     出現一則警告訊息通知您，建立發票之前可能會有一段延遲。 也會顯示程序。
 
@@ -62,29 +62,29 @@ Dynamics 365 Project Operations 不是為了產生客戶面向發票而設計，
 
     發票會針對狀態為 **已準備好開立發票** 的合約服務內容的所有交易來產生。 這些交易包括時間、費用、里程碑和產品型合約服務內容。
 
-3. 若要檢視已產生的發票，請移至 **銷售**\>**帳務**\>**發票** 。 您會看到每個專案合約的一份發票。
+3. 若要檢視已產生的發票，請移至 **銷售**\>**帳務**\>**發票**。 您會看到每個專案合約的一份發票。
 
 ### <a name="set-up-automated-creation-of-project-invoices"></a>設定自動建立專案發票 
 
 依照下列步驟設定自動化發票執行。
 
-1. 移至 **設定** \> **批次工作** 。
-2. 建立批次工作，並將其命名為 **Project Operations 建立發票** 。 批次工作的名稱必須包含「建立發票」一詞。
-3. 在 **工作類型** 欄位中，選取 **無** 。 **每日頻率** 和 **使用中** 選項預設會設定為 **是** 。
-4. 選取 **執行工作流程** 。 在 **查詢記錄** 對話方塊中，您會看到三個工作流程：
+1. 移至 **設定** \> **批次工作**。
+2. 建立批次工作，並將其命名為 **Project Operations 建立發票**。 批次工作的名稱必須包含「建立發票」一詞。
+3. 在 **工作類型** 欄位中，選取 **無**。 **每日頻率** 和 **使用中** 選項預設會設定為 **是**。
+4. 選取 **執行工作流程**。 在 **查詢記錄** 對話方塊中，您會看到三個工作流程：
 
     - ProcessRunCaller
     - ProcessRunner
     - UpdateRoleUtilization
 
-5. 選取 **ProcessRunCaller** ，然後選取 **新增** 。
-6. 在下一個對話方塊中選取 **確定** 。 **睡眠** 工作流程後面會跟著 **程序** 工作流程。
+5. 選取 **ProcessRunCaller**，然後選取 **新增**。
+6. 在下一個對話方塊中選取 **確定**。 **睡眠** 工作流程後面會跟著 **程序** 工作流程。
 
-    您也可以選取步驟 5 中的 **ProcessRunner** 。 然後，當您選取 **確定** 時， **程序** 工作流程後面會接著 **睡眠** 工作流程。
+    您也可以選取步驟 5 中的 **ProcessRunner**。 然後，當您選取 **確定** 時，**程序** 工作流程後面會接著 **睡眠** 工作流程。
 
-**ProcessRunCaller** 和 **ProcessRunner** 工作流程會建立發票。 **ProcessRunCaller** 會呼叫 **ProcessRunner** 。 **ProcessRunner** 是實際建立發票的工作流程。 它會處理所有需要建立發票的合約服務內容，然後為這些服務內容建立發票。 為了確定必須建立其發票的合約服務內容，工作會查看合約服務內容的發票執行日期。 如果屬於一個合約的合約服務內容具有相同的發票執行日期，則會將交易合併成一個有兩個發票明細的發票。 如果沒有要要建立其發票的交易，則工作會跳過發票建立作業。
+**ProcessRunCaller** 和 **ProcessRunner** 工作流程會建立發票。 **ProcessRunCaller** 會呼叫 **ProcessRunner**。 **ProcessRunner** 是實際建立發票的工作流程。 它會處理所有需要建立發票的合約服務內容，然後為這些服務內容建立發票。 為了確定必須建立其發票的合約服務內容，工作會查看合約服務內容的發票執行日期。 如果屬於一個合約的合約服務內容具有相同的發票執行日期，則會將交易合併成一個有兩個發票明細的發票。 如果沒有要要建立其發票的交易，則工作會跳過發票建立作業。
 
-**ProcessRunner** 執行完畢後，會呼叫 **ProcessRunCaller** 、提供結束時間，然後關閉。 **ProcessRunCaller** 接著啟動計時器，從指定的結束時間開始執行 24 小時。 計時器結束時，會關閉 **ProcessRunCaller** 。
+**ProcessRunner** 執行完畢後，會呼叫 **ProcessRunCaller**、提供結束時間，然後關閉。 **ProcessRunCaller** 接著啟動計時器，從指定的結束時間開始執行 24 小時。 計時器結束時，會關閉 **ProcessRunCaller**。
 
 用於建立發票的批次處理工作是週期性工作。 如果此批次處理已執行多次，就會建立工作的多個執行個體，並造成錯誤。 因此，您只能啟動批次處理一次，並且只有在其停止執行時才要重新啟動此工作。
 

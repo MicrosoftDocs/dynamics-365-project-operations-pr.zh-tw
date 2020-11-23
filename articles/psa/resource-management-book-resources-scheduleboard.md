@@ -3,7 +3,7 @@ title: 使用排程面板預約專案資源
 description: 本主題提供有關如何預約資源的資訊。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa7e34b12f3767e89cc13ddde930e5c9f8ebc565
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ac3438da6bae45683d9eb2dee3544dff862e3ddd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073218"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120218"
 ---
 # <a name="use-the-schedule-board-to-book-project-resources"></a>使用排程面板預約專案資源
 
@@ -38,7 +38,7 @@ ms.locfileid: "4073218"
 
 3. 選取 **尋找可用性** 來篩選可預約資源並檢視可用的資源。 
 4. 從排程面板選取一個或多個資源。 
-5. 在頁面右側的 **建立資源預約** 窗格中，輸入預約資訊，然後選取 **預約並結束** 。
+5. 在頁面右側的 **建立資源預約** 窗格中，輸入預約資訊，然後選取 **預約並結束**。
 
     ![所選可預約資源的 [建立資源預約] 窗格](media/Resource-Management-image74.png)
 
@@ -46,7 +46,7 @@ ms.locfileid: "4073218"
 
     ![為資源選取的多個儲存格](media/Resource-Management-image75.png)
 
-7. 選取 **預約** 。
+7. 選取 **預約**。
 
 使用選取的資源來履行需求。 在 **預約需求** 窗格中，請注意需求已更新，且資源在專案中顯示為已預約。
 

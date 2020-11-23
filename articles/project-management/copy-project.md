@@ -5,21 +5,21 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: cf80f2a1cd27aae33d123e45dee70d94ea4d01a9
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 53c72e5fd680eb28128644788752368705440445
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072937"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131783"
 ---
 # <a name="copy-a-project"></a>複製專案
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
-有了 Dynamics 365 Project Operations，您就可以選取 **專案** 表單上的 **複製專案** 快速建置新的專案。 若要複製專案，請開啟想要複製的專案，然後選取 **複製專案** 。 此動作會複製：
+有了 Dynamics 365 Project Operations，您就可以選取 **專案** 表單上的 **複製專案** 快速建置新的專案。 若要複製專案，請開啟想要複製的專案，然後選取 **複製專案**。 此動作會複製：
 
 - 專案屬性
 - 分工結構圖

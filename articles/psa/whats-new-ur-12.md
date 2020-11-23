@@ -3,7 +3,7 @@ title: Project Service Automation V3 更新版本 12 的新功能或變更內容
 description: 本主題提供 Project Service Automation V3 更新版本 12 中新功能的相關資訊。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/04/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 62c3a0c5cfbecb568faef570da309c20afd86de9
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: fc92a5dcc111688159f9be5b2839b7c040404a3b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072957"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119948"
 ---
 # <a name="project-service-automation-update-release-12-v3"></a>Project Service Automation 更新版本 12 V3
 我們很高興宣布 Dynamics 365 Project Service Automation (PSA) 應用程式的最新更新。 此版本包含一些對品質、效能和可用性的重要改進。 此版本與 Dynamics 365 9. x 相容。 若要更新至此版本，請前往 Dynamics 365 online 系統管理中心，然後移至解決方案頁面以安裝更新。 如需詳細資訊，請參閱[安裝、更新或移除偏好的解決方案](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution)。
@@ -39,11 +39,11 @@ ms.locfileid: "4072957"
     - 已修正：時間項目網格和排程會視需要正確顯示垂直捲軸。
     - 已修正：可以核准已送出的費用及時間項目。
     - 已修正：[取消核准] 確認對話方塊訊息已更正為可在狀態由 **已核准** 變更成 **已送出** 時反映核准狀態。
-    - 已修正：核准了費用記錄之後，現在會鎖定此記錄上的 **價格** 、 **單位** 和 **品質** 欄位。
+    - 已修正：核准了費用記錄之後，現在會鎖定此記錄上的 **價格**、**單位** 和 **品質** 欄位。
 
 - 專案管理
 
-    - 已修正： **團隊成員** 主要表單上的 **新增** 動作已移除。
+    - 已修正：**團隊成員** 主要表單上的 **新增** 動作已移除。
     - 已修正：資源指派已更新，可解決不正確的捨入錯誤，此錯誤會導致工作結束日期變動。
     - 已修正：在工作網格中，會向使用者顯露相關的伺服器端錯誤。
     - 已修正：團隊成員在工作人員選擇器中顯示的是其姓名而不是職位名稱。

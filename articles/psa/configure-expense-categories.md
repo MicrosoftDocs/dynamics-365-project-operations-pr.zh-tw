@@ -3,7 +3,7 @@ title: 設定費用類別
 description: 如何設定 Project Service 中的費用類別
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 82522c0ba8587446c5038a9cf38fcadfdcb6ba8d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1768d7bd7ab94d909e53cd71f9c39b44e7ed4b4f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072968"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129263"
 ---
 # <a name="configure-expense-categories-project-service"></a>設定費用類別 (Project Service)
 
@@ -33,9 +33,9 @@ ms.locfileid: "4072968"
   
 每個費用類別都有自己的單位群組和單位。 您可以為指派至費用類別的單位群組中的每個單位定義每個費用類別的定價。  
   
-1.  移至 **Project Service > 費用類別** 。  
+1.  移至 **Project Service > 費用類別**。  
   
-2.  按一下 **新增** 。  
+2.  按一下 **新增**。  
   
 3.  在 **一般** 區域中，視需要填入欄位。 建議您至少設定下列費用類別：  
   
@@ -49,7 +49,7 @@ ms.locfileid: "4072968"
   
     -   按日  
   
-4.  按一下畫面右下角的 **儲存** 。  
+4.  按一下畫面右下角的 **儲存**。  
   
 ### <a name="see-also"></a>請參閱  
  [設定 Project Service Automation](../psa/configure.md)

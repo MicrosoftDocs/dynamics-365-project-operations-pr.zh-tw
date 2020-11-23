@@ -3,7 +3,7 @@ title: 記錄實際值
 description: 這主題提供有關如何記錄實際值的資訊。
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a7b5af20081ca3978810ef559160a86b64f7cc03
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a52e0f57f36d535b746e5379eb3910a2368355fb
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072992"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129398"
 ---
 # <a name="recording-actuals"></a>記錄實際值 
 

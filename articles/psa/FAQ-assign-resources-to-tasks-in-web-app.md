@@ -3,7 +3,7 @@ title: 如何在 Web 應用程式中將可預約資源指派給工作
 description: 有關如何指派可預約資源的概觀。
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7b95eff52351904f97c62b3806f17b02db47860b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cc1859540ede064c4ab3e2ac128573972912a207
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073184"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125168"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>如何在 Web 應用程式 (Project Service 應用程式 2.x 版) 中將可預約資源指派給工作？
 
@@ -51,16 +51,16 @@ ms.locfileid: "4073184"
     - **依時數平均分配** 會預約指定時數的資源，並在指定之開始和結束日期內平均分配每日的時數。
     - **依時數前重後輕** 會預約指定時數的資源，並在指定之開始和結束日期內以前重後輕的方式分配每日的時數。
 
-    不要選取 **無** ，因為這會將資源新增至團隊，但不會建立任何吸收資源產能的預約。
-5.  選取 **儲存** 。
+    不要選取 **無**，因為這會將資源新增至團隊，但不會建立任何吸收資源產能的預約。
+5.  選取 **儲存**。
 
     請注意，預約的時數必須足以涵蓋獲指派此資源之工作的努力時數和日期範圍。 如果其間有不一致的情況，就無法將資源指派給工作。
 
 6.  在工作的分工結構圖 (WBS) 上，按一下資源儲存格下拉式清單。 接下來： 
 
-    1. 選取 **新增** 。
+    1. 選取 **新增**。
     2. 選取 **資源** 下方的下拉式清單，並選取您先前新增的團隊成員。
-    3. 選取 **確定** 。 團隊成員現在已指派給工作。
+    3. 選取 **確定**。 團隊成員現在已指派給工作。
 
     > [!div class="mx-imgBorder"] 
     > ![透過 WBS 新增資源的螢幕擷取畫面](media/FAQ-Resources-to-Tasks2-2.png "透過 WBS 新增資源的螢幕擷取畫面")
@@ -89,12 +89,12 @@ ms.locfileid: "4073184"
 1. 在分工結構圖中，選取一項工作。
 2. 選取資源儲存格中的 **指派的角色** 下拉式清單圖示。
 3. 選取 **角色** 下拉式清單，並為一般資源選取角色。
-4. 選取 **確定** 。
+4. 選取 **確定**。
 
     > [!div class="mx-imgBorder"] 
     > ![使用 WBS 新增資源的螢幕擷取畫面](media/FAQ-Resources-to-Tasks2-4.png "使用 WBS 新增資源的螢幕擷取畫面")
  
-當您完成指派角色給 WBS 中的工作後，選取 **產生專案團隊** 。 Project Service 會彙總工作指派，以根據角色、資源分配組織單位和專案行事曆，建立最小數目的一般團隊成員。
+當您完成指派角色給 WBS 中的工作後，選取 **產生專案團隊**。 Project Service 會彙總工作指派，以根據角色、資源分配組織單位和專案行事曆，建立最小數目的一般團隊成員。
 
 > [!div class="mx-imgBorder"] 
 > ![產生專案團隊的螢幕擷取畫面](media/FAQ-Resources-to-Tasks2-5.png "產生專案團隊的螢幕擷取畫面")
@@ -109,7 +109,7 @@ ms.locfileid: "4073184"
 > [!div class="mx-imgBorder"] 
 > ![開啟支援資源需求的螢幕擷取畫面](media/FAQ-Resources-to-Tasks2-7.png "開啟支援資源需求的螢幕擷取畫面")
 
-選取一般資源的 **預約** ，然後您就可以使用排程面板來尋找並預訂實際資源。 您也可以選取 **送出要求** ，送出要求資源管理員履行的需求。
+選取一般資源的 **預約**，然後您就可以使用排程面板來尋找並預訂實際資源。 您也可以選取 **送出要求**，送出要求資源管理員履行的需求。
 
 使用具名資源履行一般資源時，一般資源將會從團隊中移除，而且一般資源的工作指派會指派給履行一般資源之資源需求的具名資源。
  

@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8e7ee4888a907b9d8c3ce06c1597f6b05be84477
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d35be82563515adbba2c22402a751ed3daca8f83
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072885"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131558"
 ---
 # <a name="estimate-projects-overview"></a>評估專案概觀
 
@@ -23,7 +23,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 專案型報價單明細可以有零到多項報價明細詳細資料。 報價明細詳細資料可用來估計時間、費用或服務費。 Microsoft Dynamics 365 Project Operations 不允許報價明細詳細資料上有材料估計值。 這些稱為交易分類。 估計的稅額也可以在交易分類上輸入。
 
-除了交易分類之外，報價明細詳細資料還有一種交易類型。 報價明細詳細資料支援兩種交易類型： **成本** 和 **專案合約** 。
+除了交易分類之外，報價明細詳細資料還有一種交易類型。 報價明細詳細資料支援兩種交易類型：**成本** 和 **專案合約**。
 
 ## <a name="estimate-by-using-a-contract"></a>使用合約進行估計
 
@@ -37,7 +37,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 專案合約支援的程序是發票建立與確認作業。 發票建立作業會建立包含目前日期以前所有未開單銷售之專案型發票的草稿。
 
-確認作業會讓合約變成唯讀，並將其狀態從 **草稿** 變更為 **已確認** 。 執行此動作之後，您無法加以復原。 因為此動作為永久性，最佳做法是讓合約保持在 **草稿** 狀態。
+確認作業會讓合約變成唯讀，並將其狀態從 **草稿** 變更為 **已確認**。 執行此動作之後，您無法加以復原。 因為此動作為永久性，最佳做法是讓合約保持在 **草稿** 狀態。
 
 草稿合約與已確認合約之間的區別在於其狀態，以及在於草稿合約可編輯但已確認合約卻不能編輯的事實。 在草稿合約和已確認合約上都可以執行發票建立作業和追蹤實際值作業。
 
@@ -71,11 +71,11 @@ Project Operations 不支援變更合約或專案上的訂單。
 如果您在報價明細詳細資料中新增自訂欄位，並且希望系統輸入欄位值做為其所建立相關成本明細的預設值時，請使用 **PreOperationContractLineDetailUpdate** 和 **PreOperationQuoteLineDetailUpdate** 外掛程式註冊工具。 變更報價明細詳細資料或合約服務內容詳細資料之後，您必須重新註冊這些外掛程式。 請依照下列步驟完成此程序：
 
 1. 開啟 PluginRegistrationTool，並連接至您的線上執行個體。
-2. 選取 **搜尋** ，然後搜尋要更新的外掛程式。
-3. 選取外掛程式，然後按一下主要頁面上的 **選取** 。
-4. 選取要更新外掛程式的步驟、按一下滑鼠右鍵，然後選取 **更新** 。
-5. 在 **更新現有步驟** 對話方塊的 **篩選屬性** 欄位中，選取省略符號按鈕 ( **...** )：
+2. 選取 **搜尋**，然後搜尋要更新的外掛程式。
+3. 選取外掛程式，然後按一下主要頁面上的 **選取**。
+4. 選取要更新外掛程式的步驟、按一下滑鼠右鍵，然後選取 **更新**。
+5. 在 **更新現有步驟** 對話方塊的 **篩選屬性** 欄位中，選取省略符號按鈕 (**...**)：
 6. 在 **選取屬性** 對話方塊中，選取自訂屬性的核取方塊。
-7. 選取 **確定** 關閉對話方塊，然後選取 **更新步驟** 。
+7. 選取 **確定** 關閉對話方塊，然後選取 **更新步驟**。
 8. 對第二個外掛程式重複步驟 1 到 7。
-9. 關閉 **PluginRegistrationTool** 。
+9. 關閉 **PluginRegistrationTool**。

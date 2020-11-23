@@ -3,7 +3,7 @@ title: 產品類別目錄定價
 description: 此主題提供有關產品類別目錄定價如何在 Dynamics 365 Project Service Automation (PSA) 中運作的資訊。
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e6d9266cfee996b68608c99f77d1b0c053985b3d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11f1d237be4540a64f1854fbed4e5c72ebbce18d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073027"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132233"
 ---
 # <a name="product-catalog-pricing"></a>產品類別目錄定價 
 
@@ -46,7 +46,7 @@ ms.locfileid: "4073027"
 
 > ![將類別目錄中的產品新增至不同的價目表](media/basic-guide-16.png)
 
-選取 **專案報價** 頁面上的 **建立自訂定價** 以建立報價的新自訂價目表時，PSA 會製作價目表的複本，而新價目表標頭上的 **實體** 欄位會設定為 **銷售實體** 。 新價目表的名稱會附加在報價名稱和時間戳記的後面。 您也可以在自訂工作流程中使用新價目表名稱和報價名稱，以觸發對使用自訂定價之報價的其他檢閱和核准。
+選取 **專案報價** 頁面上的 **建立自訂定價** 以建立報價的新自訂價目表時，PSA 會製作價目表的複本，而新價目表標頭上的 **實體** 欄位會設定為 **銷售實體**。 新價目表的名稱會附加在報價名稱和時間戳記的後面。 您也可以在自訂工作流程中使用新價目表名稱和報價名稱，以觸發對使用自訂定價之報價的其他檢閱和核准。
 
  
 ## <a name="default-product-price-list"></a>預設產品價目表

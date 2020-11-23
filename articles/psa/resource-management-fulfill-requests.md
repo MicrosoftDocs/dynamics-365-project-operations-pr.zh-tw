@@ -3,7 +3,7 @@ title: 履行資源需求
 description: 本主題提供有關如何履行資源需求的資訊。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 626828b96e110de4dcb6cad4a191994972ec26c3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7156e1beb0df033331d91abf9ca7f6ddc18df796
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073219"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124403"
 ---
 # <a name="fulfilling-resource-requests"></a>履行資源要求
 
@@ -35,11 +35,11 @@ ms.locfileid: "4073219"
 
 > ![資源要求清單](media/Resource-Management-image59.png)
 
-若要履行要求，請在清單中選取要求，然後選取 **尋找資源** 。 或者，按兩下一列以開啟要求。 您可以接著選取 **資源需求** 索引標籤來檢視該要求的需求。 若要開始履行要求，請選取 **尋找資源** 。
+若要履行要求，請在清單中選取要求，然後選取 **尋找資源**。 或者，按兩下一列以開啟要求。 您可以接著選取 **資源需求** 索引標籤來檢視該要求的需求。 若要開始履行要求，請選取 **尋找資源**。
 
 > ![資源要求詳細資料](media/Resource-Management-image60.png)
 
-排程小幫手隨即出現，並根據需求進行篩選。 選取資源，然後選取 **預約** 。
+排程小幫手隨即出現，並根據需求進行篩選。 選取資源，然後選取 **預約**。
 
 > ![已選取的資源](media/Resource-Management-image61.png)
 

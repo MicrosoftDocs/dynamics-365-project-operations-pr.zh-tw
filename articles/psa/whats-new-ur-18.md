@@ -3,7 +3,7 @@ title: Project Service Automation V3 更新版本 18 的新功能或變更內容
 description: 本主題列出 Project Service Automation 更新版本 18 V3 中提供的功能和修正。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 04/27/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d7ea200531dd24d56a829f879e3a2532a9b38dc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3a6d3ee21ecf742b2253132f3d3cc1cb2b57af75
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072950"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119858"
 ---
 # <a name="project-service-automation-update-release-18-v3"></a>Project Service Automation 更新版本 18 V3
 
@@ -36,7 +36,7 @@ ms.locfileid: "4072950"
 
 **時間和費用**
 
-- 已修正： **回收** 、 **要求** 和 **取消核准** 流程擲回例外狀況，並出現不明確的錯誤訊息。
+- 已修正：**回收**、**要求** 和 **取消核准** 流程擲回例外狀況，並出現不明確的錯誤訊息。
 - 已修正：費用的 **取消核准** 失敗時，未擲回相關的錯誤。
 - 已修正：在 10 月份的日光節約時間 (DST) 切換之後，時間項目網格未正確處理澳大利亞的非工作日。
 - 已修正：不正確的預設邏輯導致無法提交費用。
@@ -55,9 +55,9 @@ ms.locfileid: "4072950"
 
 **資源管理**
 
-- 已修正：延長預約之後， **協調** 檢視表小計列計算的預約差異不正確。
-- 已修正：可預約資源的行事曆與專案行事曆不相符時， **協調** 檢視表無法正確顯示資源指派。
+- 已修正：延長預約之後，**協調** 檢視表小計列計算的預約差異不正確。
+- 已修正：可預約資源的行事曆與專案行事曆不相符時，**協調** 檢視表無法正確顯示資源指派。
 
 **Sales**
 
-- 已修正：重新核准時間項目 ( **核准 > 取消 >** 再次核准) 時，會建立重複的不應收費實際值。
+- 已修正：重新核准時間項目 (**核准 > 取消 >** 再次核准) 時，會建立重複的不應收費實際值。

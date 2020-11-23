@@ -3,7 +3,7 @@ title: 未確認預約需求
 description: 本主題提供有關如何以未確認預約方式預約需求的資訊。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,16 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 861e484ea2fc251e0082b4cb0cd5409a45a74057
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e753dd2f5635d1e9d0d6a02ea5d1d537879dd3a5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073206"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124088"
 ---
 # <a name="soft-book-requirements"></a>未確認預約需求
 
-資源需求可以進行已確認預約。 已確認預約會建立耗用資源產能的提案。 提案接著會傳送回到要求者以取得核准。 未確認預約會暫時將資源新增至專案團隊，並且在排程面板上的狀態有所不同，但不會耗用資源的產能。 若要以未確認預約方式從排程面板預約資源，請將 **預約狀態** 欄位設定為 **未確認** 。
+資源需求可以進行已確認預約。 已確認預約會建立耗用資源產能的提案。 提案接著會傳送回到要求者以取得核准。 未確認預約會暫時將資源新增至專案團隊，並且在排程面板上的狀態有所不同，但不會耗用資源的產能。 若要以未確認預約方式從排程面板預約資源，請將 **預約狀態** 欄位設定為 **未確認**。
 
 ![預約狀態設定為 [未確認]](media/Resource-Management-image77.png)
 
@@ -50,14 +50,14 @@ ms.locfileid: "4073206"
 
 ![排程面板上的未確認預約](media/Resource-Management-image81.png)
 
-若要將未確認預約轉換成已確認預約，請在排程板上以滑鼠右鍵按一下未確認預約，然後選取 **變更狀態** \> **已確認預約** \> **已確認** 。
+若要將未確認預約轉換成已確認預約，請在排程板上以滑鼠右鍵按一下未確認預約，然後選取 **變更狀態** \> **已確認預約** \> **已確認**。
 
 ![將預約狀態變更為 [已確認]](media/Resource-Management-image82.png)
 
-預約已變更，而且排程面板上的狀態也已變更。 預約狀態現在是 **已確認** ，因此資源會顯示為已預約，而且其產能和可用性也會進行調整。
+預約已變更，而且排程面板上的狀態也已變更。 預約狀態現在是 **已確認**，因此資源會顯示為已預約，而且其產能和可用性也會進行調整。
 
 您可以使用相同的方法，從排程面板中取消已確認預約或未確認預約。
 
-若要在專案的 **團隊** 索引標籤上將未確認預約資源轉換會已確認預約，請選取該資源，然後選取 **確認** 。
+若要在專案的 **團隊** 索引標籤上將未確認預約資源轉換會已確認預約，請選取該資源，然後選取 **確認**。
 
 ![確認命令](media/Resource-Management-image83.png)

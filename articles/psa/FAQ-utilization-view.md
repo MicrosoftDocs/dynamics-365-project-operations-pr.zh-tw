@@ -3,7 +3,7 @@ title: 檢視資源的應收費使用率
 description: 本主題提供有關資源使用率檢視表的資訊。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6daa6cfa1c6a237d8a1685123f7c1a6926418bfe
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a1d1db532c65b2a13f3cf4e1281a5987490b96df
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073018"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122153"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>檢視資源的應收費使用率
  
@@ -44,7 +44,7 @@ ms.locfileid: "4073018"
 
 ## <a name="set-target-on-a-resource"></a>對資源設定目標
 
-1. 移至 **資源** \> **資源** 。 
+1. 移至 **資源** \> **資源**。 
 2. 選取要開啟記錄的資源。 
 3. 在 **Project Service** 索引標籤上，您可以設定資源的目標使用率。
 
@@ -52,7 +52,7 @@ ms.locfileid: "4073018"
  
 ## <a name="set-target-utilization-on-a-role"></a>設定角色的目標使用率
 
-1. 移至 **資源**\>**資源角色** 。 
+1. 移至 **資源**\>**資源角色**。 
 2. 選取角色並開啟記錄。 
 3. 設定角色的目標使用率。
 
@@ -66,24 +66,24 @@ ms.locfileid: "4073018"
 
 首先，必須對個別資源或資源角色設定目標使用率。 如果您使用資源角色設定目標，則每項個別資源都必須有預設角色。 
 
-1. 若要進行此設定，請移至 **資源**\>**資源** 。 
+1. 若要進行此設定，請移至 **資源**\>**資源**。 
 2. 選取資源、開啟記錄，然後選取 **Project Service** 索引標籤。 
-3. 在 **資源角色** 網格中，確定資源有一個角色，且 **是預設值** 已設定為 **是** 。
+3. 在 **資源角色** 網格中，確定資源有一個角色，且 **是預設值** 已設定為 **是**。
  
 ### <a name="change-billing-type-for-resource-role"></a>變更資源角色的帳單類型
 
 必須設定資源角色，才會有 **應收費** 的帳單類型。 
 
-1. 移至 **資源**\>**資源角色** 。 
-2. 開啟要更新的記錄，然後將帳單類型設定為 **應收費** 。
+1. 移至 **資源**\>**資源角色**。 
+2. 開啟要更新的記錄，然後將帳單類型設定為 **應收費**。
 
 ### <a name="set-working-hours-for-resource-role"></a>設定資源角色的工作時數
  
 資源必須有工作時數，才能計算產能。 
 
-1. 移至 **資源** \> **資源** 。 
-2. 選取要開啟記錄的資源，然後選取 **顯示工作時數** 。 
-3. 您可套用 **資源清單** 檢視表的 **工作時數範本** ，以大量更新資源清單。
+1. 移至 **資源** \> **資源**。 
+2. 選取要開啟記錄的資源，然後選取 **顯示工作時數**。 
+3. 您可套用 **資源清單** 檢視表的 **工作時數範本**，以大量更新資源清單。
 
 ## <a name="troubleshooting-chargeable-actual-hours"></a>應收費實際時數疑難排解
 

@@ -3,7 +3,7 @@ title: 組織單位
 description: 本主題提供有關 Dynamics 365 Project Service Automation 中組織單位的資訊。
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 454d9a4c4d139f493adf4604f8ba40a0211f0eec
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 755eee6ab9993c72ff1db46e0993527ac0826bfe
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073108"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130613"
 ---
 # <a name="organizational-units"></a>組織單位 
 
@@ -50,7 +50,7 @@ ms.locfileid: "4073108"
 
 組織單位在 PSA 中扮演兩種角色：
 
-- **承包單位** – 代表公司中主要負責贏得銷售和管理客戶工作與服務交付之群組或部門的組織單位。 承包單位是依據 **商機** 、 **報價** 、 **專案合約** 及 **專案** 頁面標頭區段中的 **承包單位** 欄位來識別。
+- **承包單位** – 代表公司中主要負責贏得銷售和管理客戶工作與服務交付之群組或部門的組織單位。 承包單位是依據 **商機**、**報價**、**專案合約** 及 **專案** 頁面標頭區段中的 **承包單位** 欄位來識別。
 - **資源分配單位** – 資源所隸屬於或指派至的組織單位。 此組織單位可以為工作說明書 (SOW) 上的一些角色以及承包單位負責的專案提供其資源。
 
 > ![承包單位和資源分配單位](media/advanced-1.png)

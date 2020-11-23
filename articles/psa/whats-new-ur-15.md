@@ -3,7 +3,7 @@ title: Project Service Automation V3 更新版本 15 的新功能或變更內容
 description: 本主題提供 Project Service Automation V3 更新版本 15 中新功能的相關資訊。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/27/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6112e4874025e528a2bb583cf215fd9eff681534
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2112e70d7359e7f30725ef3069a18570da651c06
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072953"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119903"
 ---
 # <a name="project-service-automation-update-release-15-v3"></a>Project Service Automation 更新版本 15 V3
 
@@ -47,17 +47,17 @@ ms.locfileid: "4072953"
 
 - 專案管理
 
-  - 已修正： **在追蹤檢視表中使用** 的下拉式功能表現在會根據選項的寬度展開。
+  - 已修正：**在追蹤檢視表中使用** 的下拉式功能表現在會根據選項的寬度展開。
   - 已修正：管理 +13 時區的專案時，工作計算可能會顯示不正確的結果。
-  - 已修正：使用 24 小時制行事曆時， **團隊成員結束時間** 已更正。
-  - 已修正：已在 **msdyn_project** 主要表單中重新啟用 **BPF** 。
+  - 已修正：使用 24 小時制行事曆時，**團隊成員結束時間** 已更正。
+  - 已修正：已在 **msdyn_project** 主要表單中重新啟用 **BPF**。
   - 已修正：指派計算不再忽略一天。
   - 已修正：已在使用者與專案之間的時區不同時，將新的通知橫幅加入至專案表單。
 
 - Sales
 
   - 已修正：費用估計值類別查詢可以用來篩選重復資料。
-  - 已修正： **PluginDomain.ExecuteInTryCatchBlock(..)** 中的程式碼不再隱藏例外狀況的來源。
+  - 已修正：**PluginDomain.ExecuteInTryCatchBlock(..)** 中的程式碼不再隱藏例外狀況的來源。
   - 已修正：當有 1000 個以上的專案時，不再於 **報價明細** 表單中的 **專案查詢** 中收到錯誤訊息。
   - 已修正：人力估計值及費用估計值的 **估計值** 網格現在會顯示正確的貨幣符號。
-  - 已修正：組織將 PSA 從更新版本 14 更新為更新版本 15 之後， **排程** 索引標籤不再於 **專案** 表單上顯示為空白。
+  - 已修正：組織將 PSA 從更新版本 14 更新為更新版本 15 之後，**排程** 索引標籤不再於 **專案** 表單上顯示為空白。

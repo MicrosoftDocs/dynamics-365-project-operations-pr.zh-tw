@@ -5,15 +5,15 @@ author: suvaidya
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 7d1c4ac7781cb711e2cc0d09606d422b4dd554f3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 8d723b49e9556401c364b323cf58eaaf44906275
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072870"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128498"
 ---
 # <a name="per-diems"></a>每日津貼
 
@@ -24,10 +24,10 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 ## <a name="configuration"></a>組態 
 
-1. 若要新增每日津貼地點，請移至 **設定** > **計算和代碼** > **每日津貼地點** 。
+1. 若要新增每日津貼地點，請移至 **設定** > **計算和代碼** > **每日津貼地點**。
 2. 針對上述新增的每個地點，選取在住宿、餐飲及其他費用的特定開始與結束日期之間有效的每日津貼費率和貨幣。 每日津貼費率和貨幣是在 **設定** > **計算和代碼** > **每日津貼** 底下進行設定。
 3. 在 **每日津貼地點** 頁面上，設定每日津貼費率分級。 每日津貼費率分級可讓您定義住宿、餐飲及其他費用每日補貼的分割百分比。 
 4. 若要指定早餐、午餐或晚餐的餐費百分比，請更新 **每日津貼** 索引標籤 **費用管理參數** 頁面上的欄位 。 
     
 ## <a name="submit-expenses-using-per-diem"></a>提交使用每日津貼的費用
-若要提交使用每日津貼的費用，請在建立費用報表時使用 **每日津貼** 費用類別。 輸入 **每個津貼開始日期** 、 **到目前為止的每日津貼** 和 **每日津貼地點** 。 金額會根據所選地點的每日津貼費率進行計算，而餐費扣減則是根據每日津貼費率分級所計算。
+若要提交使用每日津貼的費用，請在建立費用報表時使用 **每日津貼** 費用類別。 輸入 **每個津貼開始日期**、**到目前為止的每日津貼** 和 **每日津貼地點**。 金額會根據所選地點的每日津貼費率進行計算，而餐費扣減則是根據每日津貼費率分級所計算。

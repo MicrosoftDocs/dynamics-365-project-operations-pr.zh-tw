@@ -3,7 +3,7 @@ title: 資源預約以及其與工作指派有何關聯
 description: 本主題提供有關如何管理具名資源、資源預約和工作指派，以及其彼此之間有何關聯的資訊。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 03285d324e855ecf933b155559e5a4826420ab25
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c4b976b49bd643bc7a774a86b1ba89bd76d7c916
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073183"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124988"
 ---
 # <a name="resource-bookings-and-how-they-relate-to-task-assignments"></a>資源預約以及其與工作指派有何關聯
 

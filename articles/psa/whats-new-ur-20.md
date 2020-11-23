@@ -3,7 +3,7 @@ title: Project Service Automation V3 更新版本 20 的新功能或變更內容
 description: 本主題列出 Project Service Automation 更新版本 20 V3 中提供的功能和修正
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/12/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 12edae76dbc6de63d3e2d36058c4092f80ede77d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ef24c20f3fa520b25a14773a15363a0f04f98d36
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072945"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126743"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Project Service Automation 更新版本 20 V3
 
@@ -40,8 +40,8 @@ ms.locfileid: "4072945"
 
 - 使用需要時數的配置方法匯入專案團隊成員會在指定的時數為零時產生不明確的錯誤訊息。
 - 在專案工作的 **描述** 欄位中輸入數目已達上限的字元時，使用者收到不正確的錯誤訊息。
-- 當使用者的語言設定設為日文時， **Microsoft Dynamics 365 Project Service Automation 增益集下載** 頁面重新導向至英文下載頁面。
-- 發生伺服器錯誤時， **專案** 表單 **排程** 索引標籤上的同步處理標籤有時會保留。
+- 當使用者的語言設定設為日文時，**Microsoft Dynamics 365 Project Service Automation 增益集下載** 頁面重新導向至英文下載頁面。
+- 發生伺服器錯誤時，**專案** 表單 **排程** 索引標籤上的同步處理標籤有時會保留。
 - 工作遭修改時，多餘的工作更新將會傳送至伺服器。
 
 **Sales**
@@ -51,12 +51,12 @@ ms.locfileid: "4072945"
 - 在 **合約** 表單上，按兩下 **建立發票** 會為單一實際值記錄建立兩份發票。
 - 在 Internet Explorer 11 中，使用者無法建立費用分錄。
 - 成本沖回與未開單銷售實際值沖回未連結。
-- **專案** 表單上的 **重新整理實際值** 按鈕不會重新整理 **工作實際時數** 。
-- 將 **msdyn_isgenericresourceprojectscoped** 屬性設定為 **否** 時， **PreValidateProjectTeamMemberCreate** 外掛程式可能會建立重複的一般可預約資源。
+- **專案** 表單上的 **重新整理實際值** 按鈕不會重新整理 **工作實際時數**。
+- 將 **msdyn_isgenericresourceprojectscoped** 屬性設定為 **否** 時，**PreValidateProjectTeamMemberCreate** 外掛程式可能會建立重複的一般可預約資源。
 - **重新計算** 會清除產品型報價明細詳細資料和合約服務內容詳細資料的應收費成本。
-- 在特定案例中， **PostEstimateLineUpdate** 外掛程式會顯示 Null 參考例外狀況錯誤。
+- 在特定案例中，**PostEstimateLineUpdate** 外掛程式會顯示 Null 參考例外狀況錯誤。
 - **獲利率分析圖表** 的時間階段期間與報價固定價格報價明細詳細資料中的成本期間不相符。
 - 在 **合約服務內容詳細資料** 和 **報價明細詳細資料** 表單上的費用類別未正確設定單位與單位群組的預設值。
 - **組織單位成本價** 清單允許日期時效性有重疊。
-- 當訂單類型不是工作型時，不允許使用者變更 **組織單位** ，因為這會導致 Null 參考例外狀況錯誤。
+- 當訂單類型不是工作型時，不允許使用者變更 **組織單位**，因為這會導致 Null 參考例外狀況錯誤。
 - 嘗試從 **報價明細詳細資料** 表單瀏覽返回 **報價** 索引標籤時，表單會重新整理並顯示 **摘要** 索引標籤。

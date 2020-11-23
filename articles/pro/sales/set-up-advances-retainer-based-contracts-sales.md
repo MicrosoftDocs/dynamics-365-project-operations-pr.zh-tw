@@ -1,21 +1,21 @@
 ---
-title: 預付金或定額保留後隨用即扣型合約
+title: 預付款及保留款型合約 - 精簡
 description: 本主題提供 Project Operations 中有關定額保留後隨用即扣型合約模型和預付金的資訊。
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5ccf8ff4fa52fa6ff9fe534dfbe6736afc24ffba
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087835"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180857"
 ---
-# <a name="advances-and-retainer-based-contracts"></a>預付金或定額保留後隨用即扣型合約 
+# <a name="advances-and-retainer-based-contracts---lite"></a>預付款及保留款型合約 - 精簡
 
 
 _**適用於：** 精簡部署 - 交易至開立預估發票_
@@ -33,7 +33,7 @@ Project Operations 中定額保留後隨用即扣型合約模型與固定價格�
 
 Project Operations 中的定額保留後隨用即扣型付款 (保留款) 在開立發票給客戶之前，無法供使用。 下列在預付金和保留款子格中的欄位會指出這種情況。
 
-| 欄位 | 關聯性、目的和指引 | 下游影響 |
+| 欄位 | 描述 | 下游影響 |
 | --- | --- | --- |
 | 可用金額 | 可用於保留款或預付金記錄的金額。 | 直到開立預付金或保留款的發票之前都無法使用，這表示可用金額會是零。 |
 | 已用金額 | 已經用於保留款或預付金的金額。 | 在發票上可以將預付金或保留款與實際成本進行差異協調，這會將某部分標示為已使用或已耗用。 剩餘的預付金或保留款金額可在未來的發票上用來與實際成本進行差異協調。 |

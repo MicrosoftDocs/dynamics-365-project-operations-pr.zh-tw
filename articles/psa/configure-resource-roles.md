@@ -3,7 +3,7 @@ title: 設定資源角色
 description: 如何設定 Project Service 中的資源角色
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f899d17980df16602c964bab4bbab1e976b3ebf
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b573bec395217e105cc8d9c669343e37ff6662e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072994"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129128"
 ---
 # <a name="configure-resource-roles-project-service"></a>設定資源角色 (Project Service)
 
@@ -37,9 +37,9 @@ ms.locfileid: "4072994"
   
  針對您要新增的每個角色，執行下列操作：  
   
-1.  移至 **Project Service > 資源角色** 。  
+1.  移至 **Project Service > 資源角色**。  
   
-2.  按一下 **新增** 。  
+2.  按一下 **新增**。  
   
 3.  在 **一般** 區域的 **名稱** 中，輸入角色的名稱，然後依需要填入其他欄位。  
   
@@ -49,11 +49,11 @@ ms.locfileid: "4072994"
   
 6.  在 **角色專長認證需求** 窗格中，按一下 **技能** 欄位，按一下 **搜尋** 按鈕，然後選取技能。  
   
-7.  選取該技能的熟練度，然後按一下 **儲存** 。  
+7.  選取該技能的熟練度，然後按一下 **儲存**。  
   
-8.  視需要繼續新增技能。 完成時，按一下畫面右下角的 **儲存** 。  
+8.  視需要繼續新增技能。 完成時，按一下畫面右下角的 **儲存**。  
   
-9. 若要將此資源角色提供給專案使用，按一下 **啟用** 。  
+9. 若要將此資源角色提供給專案使用，按一下 **啟用**。  
   
 ### <a name="see-also"></a>請參閱  
  [設定資源](../psa/set-up-resources.md)

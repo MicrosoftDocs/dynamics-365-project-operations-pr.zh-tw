@@ -5,17 +5,17 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c4e91c1a869347ac1182db2de1ab9244309eb856
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 1344e21d58fbc28198468146f9cea9cf00572d7d
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072871"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181217"
 ---
-# <a name="opportunity-headersummary"></a>商機標題/摘要
+# <a name="opportunity-settings"></a>商機設定
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
@@ -26,9 +26,9 @@ Dynamics 365 Project Operations 中的專案型商機是 Dynamics 365 Sales 中�
 
 下表包含專案型商機中的欄位，這些欄位若不是 Project Operations 所特有的欄位，就是有一些在行為上與 Sales 中的商機不同的重要變更。
 
-| **欄位** | **位置** | **關聯性、目的和指引** | **下游影響** |
+| **欄位** | **位置** | **描述** | **下游影響** |
 | --- | --- | --- | --- |
-| 鍵入 | [一般] 索引標籤 (隱藏) | 此選項組欄位具有下列選項：</br>- 工作型 (只有 Project Operations 提供)</br>- 項目型 (只有在 Project Operations 和 Sales 已安裝時提供)</br>- 服務維護型 (安裝 Field Service 時提供) | 使用 Project Operations時，此欄位值會自動設定為 **工作型** ，這會將商機分類為專案型商機。 商機必須是專案型商機，才能在此交易的下游銷售處理中啟用所有專案特定擴充及功能。 |
+| 鍵入 | [一般] 索引標籤 (隱藏) | 此選項組欄位具有下列選項：</br>- 工作型 (只有 Project Operations 提供)</br>- 項目型 (只有在 Project Operations 和 Sales 已安裝時提供)</br>- 服務維護型 (安裝 Field Service 時提供) | 使用 Project Operations時，此欄位值會自動設定為 **工作型**，這會將商機分類為專案型商機。 商機必須是專案型商機，才能在此交易的下游銷售處理中啟用所有專案特定擴充及功能。 |
 | 負責公司 | [一般] 索引標籤 | 這是將會交付專案給客戶的公司或法律實體。 | 此欄位資訊會複製到根據此商機所建立專案報價中的對應欄位。 |
 | 連絡人 | [一般] 索引標籤 | 參考此交易的客戶主要連絡人。 | |
 | 帳戶 | [一般] 索引標籤 | 參考客戶的公司或客戶記錄。 | |

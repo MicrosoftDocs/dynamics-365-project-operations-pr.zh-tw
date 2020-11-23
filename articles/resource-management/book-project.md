@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 19128264ed3db7efeeba948155f0ddbdc806c2a0
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: c87b0c32ef081f601ed79c11687f008bb454dd45
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072848"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131063"
 ---
 # <a name="book-to-a-project"></a>預約給專案
 
@@ -29,7 +29,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 如果您的組織是在混合資源配置模式下運作，則專案經理可以完成下列步驟，直接將資源預約給專案。
 
-1. 從專案中移至團隊成員網格，然後選取 **新增** 。
+1. 從專案中移至團隊成員網格，然後選取 **新增**。
 2. 定義資源的職位名稱和角色。
 3. 從可用的查詢中選取可預約資源。
 4. 選取資源之後，定義下列欄位資訊以預約資源：
@@ -61,7 +61,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 身為專案經理，您可能需要將資源預約給專案，但是只知道準則，而不知資源的名稱。 請完成下列步驟，使用排程小幫手根據資源的任何可用屬性來尋找資源。 
 
 1. 瀏覽至專案，並選取 **預約** 以開啟排程小幫手。
-2. 使用排程小幫手左側的篩選，縮小準則的範圍並選取 **搜尋** 。
+2. 使用排程小幫手左側的篩選，縮小準則的範圍並選取 **搜尋**。
 3. 您可以根據結果中傳回的資源來預約資源。
 
 > [!NOTE]

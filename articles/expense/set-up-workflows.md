@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: db1bda71e18369550cd2d38fee1d0ac40e07555d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: af6463b07e282ae1ff6aa7dc1a540ff7c8cc318a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073023"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127688"
 ---
 # <a name="set-up-workflows-for-expense-management"></a>設定費用管理的工作流程
 
@@ -30,9 +30,9 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 工作流程代表商務程序，並定義單據在系統中流動的方式。 工作流程也會指出必須完成工作或核准單據的人員。 在組織中使用工作流程系統會有幾個好處：
 
-- **一致的程序** ：您可以定義特定單據 (例如採購申請和費用報表) 的審查程序。 使用工作流程系統有助於確保單據是依照一致且有效率的方式進行處理和核准。
-- **程序可見度** ：您可以追蹤特定工作流程執行個體的狀態、歷程記錄和效能計量。 這可協助您判斷工作流程是否應進行變更以改善效率。
-- **集中式工作清單** ：使用者可以查看集中式工作清單來檢視指派給他們的工作流程工作與核准。 
+- **一致的程序**：您可以定義特定單據 (例如採購申請和費用報表) 的審查程序。 使用工作流程系統有助於確保單據是依照一致且有效率的方式進行處理和核准。
+- **程序可見度**：您可以追蹤特定工作流程執行個體的狀態、歷程記錄和效能計量。 這可協助您判斷工作流程是否應進行變更以改善效率。
+- **集中式工作清單**：使用者可以查看集中式工作清單來檢視指派給他們的工作流程工作與核准。 
 
 ## <a name="workflow-types"></a>工作流程類型
 

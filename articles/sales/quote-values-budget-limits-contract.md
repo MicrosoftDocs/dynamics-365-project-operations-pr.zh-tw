@@ -1,21 +1,21 @@
 ---
-title: 專案報價的摘要資訊
+title: 專案報價設定
 description: 本主題提供有關套用至專案報價並對其造成影響之資訊及設定的資訊。
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6dde5305f179e9a4454bf97c44f1ebdf9986dd43
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072842"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180227"
 ---
-# <a name="summary-information-on-a-project-quote"></a>專案報價的摘要資訊
+# <a name="project-quote-settings"></a>專案報價設定
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
@@ -24,9 +24,9 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 下表列出專案報價上的摘要資訊欄位，這些欄位是 Dynamics 365 Project Operations 所獨有的欄位，或是其中有一些與 Dynamics 365 Sales 報價不同的行為重要變更。
 
-| **欄位** | **位置** | **關聯性、目的和指引** | **下游影響** |
+| **欄位** | **位置** | **描述** | **下游影響** |
 | --- | --- | --- | --- |
-| 鍵入 | [摘要] 索引標籤 (隱藏) | 此選項組欄位具有下列選項：</br>- 工作型 (只有在 Project Operations 已安裝時提供)</br>- 項目型 (只有在 Project Operations 和 Sales 已安裝時提供)</br>- 服務維護型 (安裝 Dynamics 365 Field Service 時提供) | 使用 Project Operations 應用程式時，此欄位的值會自動設定為 **工作型** 。 這會將報價分類為專案型報價。 報價必須是專案型，才能啟用所有專案特定擴充和功能。 |
+| 鍵入 | [摘要] 索引標籤 (隱藏) | 此選項組欄位具有下列選項：</br>- 工作型 (只有在 Project Operations 已安裝時提供)</br>- 項目型 (只有在 Project Operations 和 Sales 已安裝時提供)</br>- 服務維護型 (安裝 Dynamics 365 Field Service 時提供) | 使用 Project Operations 應用程式時，此欄位的值會自動設定為 **工作型**。 這會將報價分類為專案型報價。 報價必須是專案型，才能啟用所有專案特定擴充和功能。 |
 | 負責公司 | 總結 | 對此專案或與此報價相關專案中所產生之成本與營收負有責任的法律實體。 根據商機建立報價時，此欄位是從商機的對應欄位複製而來。 | 負責公司相當於 Project Operations 的 **專案管理與會計** 模組中的法律實體概念。 此專案中產生的所有成本與營收都會計入負責公司的總帳中。 |
 | 潛在客戶 | 摘要索引標籤 | 參考客戶的公司或客戶記錄。 要在專案報價上參考的有效客戶必須設定為報價負責公司中的客戶。 負責公司會顯示法律實體清單，而這些實體是在 Project Operations 的 **專案管理與會計** 模組中進行設定。 根據商機建立報價時，此欄位是從商機的對應欄位複製而來。 | 專案報價上的貨幣是根據客戶的貨幣來設定預設值。 不過，這可以在儲存報價之前變更。 |
 | 客戶經理 | 摘要索引標籤 | 此交易之客戶經理的姓名。 根據商機建立報價時，此欄位是從商機的對應欄位複製而來。 | 客戶經理負責管理與客戶之間的關聯，直到此專案完成。 根據繫結至客戶經理的可預約資源記錄，專案報價上預設會使用合約單位。|
@@ -38,7 +38,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 以下是專案報價上提供的索引標籤和 KPI，這些項目是 Project Operations 所特有，或是有一些與 Sales 報價不同的重要行為變更：
 
-| **欄位** | **位置** | **關聯性、目的和指引** |
+| **欄位** | **位置** | **描述** |
 | --- | --- | --- |
 | 獲利率分析 | 報價上的索引標籤 | 此索引標籤會顯示下列計量：</br>- 應收費總成本</br></br>- 不應收費總成本</br>- 總營收</br>- 總營收 (基準貨幣)</br>- 毛利率</br>- 調整後毛利率|
 | 與客戶期望的比較 | 報價上的索引標籤 | 此索引標籤會顯示下列計量：</br>- 估計完成</br>- 要求的完成</br>- 客戶預算</br>- 報價值 |

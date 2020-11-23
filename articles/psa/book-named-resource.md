@@ -3,7 +3,7 @@ title: 透過資源需求預約具名資源
 description: 本主題提供有關為一般資源需求預約具名資源的資訊。
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 20e3a904bc33360b194c0c53e58430c80d1ff55f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d7ff58ec08661adc702867c6c26805a74a3637c9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073201"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125888"
 ---
 # <a name="book-named-resources-from-resource-requirements"></a>透過資源需求預約具名資源
 
@@ -32,13 +32,13 @@ ms.locfileid: "4073201"
 您可以預約具名資源，以取代有資源需求的一般資源。
 
 1. 在 Project Service Automation (PSA) 的 **專案** 頁面上，按一下 **團隊** 索引標籤。
-2. 從清單中選取具有資源需求的一般資源，然後按一下 **預約** 。 或者，開啟資源需求，然後按一下 **預約** 。
+2. 從清單中選取具有資源需求的一般資源，然後按一下 **預約**。 或者，開啟資源需求，然後按一下 **預約**。
 
 
 ![預約一般團隊成員](media/RM-how-to-14.png)
 
 
-3. 在 **排程小幫手** 頁面上，選取要預約到專案團隊的具名資源，然後按一下 **預約** 。
+3. 在 **排程小幫手** 頁面上，選取要預約到專案團隊的具名資源，然後按一下 **預約**。
 
 ![使用排程小幫手預約一般團隊成員](media/RM-how-to-15.png)
 

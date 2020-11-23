@@ -3,7 +3,7 @@ title: Project Service Automation V3 更新版本 21 的新功能或變更內容
 description: 本主題列出 Project Service Automation 更新版本 21 V3 中提供的功能和修正。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/19/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e8a15d5f723da528640c62c1892bac0d801c2bee
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 799be481c365e82e8ffb59ba242e30378644008b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072947"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126698"
 ---
 # <a name="project-service-automation-update-release-21-v3"></a>Project Service Automation 更新版本 21 V3
 
@@ -39,7 +39,7 @@ ms.locfileid: "4072947"
 下列問題已獲修正：
 
 - 在儀表板中裝載 **時間項目網格控制項** 時，網格未使用儀表板網格容器的全幅寬度。
-- 對於特定時區， **時間項目** 網格控制項無法顯示記錄。
+- 對於特定時區，**時間項目** 網格控制項無法顯示記錄。
 - 下午 9:00 以後的時間項目出現在錯誤的日期上。
 - 如果費用類別 **需要費用收據** 沒有值，使用者就無法提交費用。
 
@@ -54,7 +54,7 @@ ms.locfileid: "4072947"
 
 下列問題已獲修正：
 
-- 即使專案處於非使用中狀態， **專案** 表單網格 ( **資源指派** 、 **工作** 、 **協調** 檢視表、 **費用估計值** ) 仍會保持可編輯。
+- 即使專案處於非使用中狀態，**專案** 表單網格 (**資源指派**、**工作**、**協調** 檢視表、**費用估計值**) 仍會保持可編輯。
 - 重複的客戶無法與連結至已確認專案合約的客戶合併。
 - 新增未具備有效行事曆的資源時，系統不會傳回使用者易懂的錯誤訊息。
 - 當專案連結至 **Microsoft Project 增益集** 時，工作網格會啟用 **新增工作** 按鈕。
@@ -69,9 +69,9 @@ ms.locfileid: "4072947"
 下列問題已獲修正：
 
 - **類別** 的 **總售價** 為零 (0)，即使 **角色** 的總售價不為零也一樣。
-- 另一個自訂程序正在更新其他欄位時，客戶無法將 **發票狀態** 欄位值變更為 **已準備好開立發票** 。
+- 另一個自訂程序正在更新其他欄位時，客戶無法將 **發票狀態** 欄位值變更為 **已準備好開立發票**。
 - 如果重複選取 **重新整理發票明細** 按鈕，此按鈕可以建立多個重複的明細。
-- **更新價格** 按鈕對 **快速檢視** 表單中的 **角色價格** 子格沒有作用。
+- **更新價格** 按鈕在 **快速檢視** 表單的 **角色價格** 子格上不起作用。
 - **銷售價目表解析** 邏輯處理時區不當，導致錯誤選擇價目表。
 - 核准單一時間項目之後，專案的 **總實際成本** 可能會不計整數以外尾數的金額。
-- 如果 **擷取的角色價格** 沒有 **主要單位** 及 **以主要單位計的價格** 欄位中的值， **價格解析** 邏輯無法提供使用者易懂的錯誤訊息。
+- 如果 **擷取的角色價格** 沒有 **主要單位** 及 **以主要單位計的價格** 欄位中的值，**價格解析** 邏輯無法提供使用者易懂的錯誤訊息。

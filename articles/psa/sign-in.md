@@ -3,7 +3,7 @@ title: 登入 Project Service Automation
 description: 如何登入 Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b256820c52214b76e377d84c99d809fad88b8abe
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5ecd3d38c11ffe17fbe967dc83db4c27d53807a3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073090"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128932"
 ---
 # <a name="sign-in-to-project-service-automation"></a>登入 Project Service Automation
 
@@ -44,13 +44,13 @@ ms.locfileid: "4073090"
   
 1.  按一下畫面右上角的齒輪按鈕。  
   
-2.  按一下 **選項** 。  
+2.  按一下 **選項**。  
   
 3.  按一下 **電子郵件** 索引標籤。  
   
-4.  選取 **允許其他 Microsoft Dynamics 365 使用者代表您來傳送電子郵件** 。  
+4.  選取 **允許其他 Microsoft Dynamics 365 使用者代表您來傳送電子郵件**。  
   
-5.  按一下 **確定** 。  
+5.  按一下 **確定**。  
   
 ### <a name="see-also"></a>請參閱  
  [時間、費用及共同作業指南](../psa/time-expense-collaboration-guide.md)

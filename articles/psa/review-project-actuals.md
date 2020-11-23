@@ -3,7 +3,7 @@ title: 檢閱專案實際值
 description: 如何檢閱 Project Service 中的專案實際值
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a8ddcb891597a6d501ac2d7323c7a77b5ac2fcce
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34438012f23ed0af1b2d0edbfb8c8f69d73c1bfe
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073203"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131161"
 ---
 # <a name="review-project-actuals-project-service"></a>檢閱專案實際值 (Project Service)
 

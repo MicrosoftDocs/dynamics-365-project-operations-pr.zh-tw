@@ -3,7 +3,7 @@ title: 商務交易
 description: 本主題提供有關商務交易的資訊。
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,18 +18,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d82f5d75de69b32b39c9a55d77287c0719930eb4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 048bd2d98e6332e6c48a24f4eacee5b937ef04a9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073118"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126968"
 ---
 # <a name="business-transactions"></a>商務交易
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-在 Dynamics 365 Project Service Automation 中， *商務交易* 是不由任何實體表示的抽象概念。 不過，實體上的一些通用欄位及程序是為了使用商務交易的概念而設計。 下列實體使用了這個概念：
+在 Dynamics 365 Project Service Automation 中，*商務交易* 是不由任何實體表示的抽象概念。 不過，實體上的一些通用欄位及程序是為了使用商務交易的概念而設計。 下列實體使用了這個概念：
 
 - 報價明細詳細資料
 - 合約服務內容詳細資料

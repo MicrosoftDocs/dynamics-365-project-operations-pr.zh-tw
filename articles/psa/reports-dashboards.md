@@ -3,7 +3,7 @@ title: 儀表板
 description: 本主題提供有關 Dynamics 365 Project Service Automation 中所含報表儀表板的資訊。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,18 +18,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 69c295e2bf8f19a573f1d97f37931624a2d7f70c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5f3a667823ac2b789bb106a1831cb7b6a56baf4c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073041"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120398"
 ---
 # <a name="dashboards"></a>儀表板
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Dynamics 365 Project Service Automation 包含兩個系統儀表板： **實務經理** 和 **資源管理員** 。
+Dynamics 365 Project Service Automation 包含兩個系統儀表板：**實務經理** 和 **資源管理員**。
 
 ## <a name="practice-manager"></a>實務經理 
 

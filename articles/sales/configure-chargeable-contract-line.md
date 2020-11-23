@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: af97904b0171618cb15d060da9bc87fcf6bbabeb
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d6f67d5dc6b94148d437b3399229c1235c702c6a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072933"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128678"
 ---
 # <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>設定專案型合約服務內容的應收費元件
 
@@ -27,21 +27,21 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 您可以在角色和交易類別上定義應收費元件。
 
-就專案合約服務內容而言，角色上所定義的可收費率只能套用至 **時間** 交易分類。 如果 **包含時間** 在專案合約服務內容上設定為 **否** ，則沒有提供 **應收費角色** 索引標籤。
+就專案合約服務內容而言，角色上所定義的可收費率只能套用至 **時間** 交易分類。 如果 **包含時間** 在專案合約服務內容上設定為 **否**，則沒有提供 **應收費角色** 索引標籤。
 
-專案合約服務內容的交易類別上所定義的可收費率只能套用至 **費用** 交易分類。 如果 **包含費用** 在專案合約服務內容上設定為 **否** ，則沒有提供 **應收費類別** 索引標籤。
+專案合約服務內容的交易類別上所定義的可收費率只能套用至 **費用** 交易分類。 如果 **包含費用** 在專案合約服務內容上設定為 **否**，則沒有提供 **應收費類別** 索引標籤。
 
 ### <a name="update-a-role-to-be-chargeable-or-non-chargeable"></a>將角色更新為應收費或不應收費
 
 角色在特定專案型合約服務內容上，可以是應收費，也可以是不應收費。
 
-在專案型合約服務內容的 **應收費角色** 索引標籤上的 **應收費類別** 子格的 **帳單類型** 欄位中，更新角色的帳單類型。
+在專案型合約服務內容 **應收費角色** 索引標籤之 **應收費類別** 子格的 **帳單類型** 欄位中，更新角色的帳單類型。
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>將交易類別更新為應收費或不應收費
 
 交易類別在特定專案型合約服務內容上，可以是應收費，也可以是不應收費。
 
-在專案型合約服務內容的 **應收費類別** 索引標籤上的 **應收費類別** 子格的 **帳單類型** 欄位中，更新交易的帳單類型。
+在專案型合約服務內容 **應收費類別** 索引標籤之 **應收費類別** 子格的 **帳單類型** 欄位中，更新交易的帳單類型。
 
 ### <a name="resolve-chargeability"></a>解析可收費率
 

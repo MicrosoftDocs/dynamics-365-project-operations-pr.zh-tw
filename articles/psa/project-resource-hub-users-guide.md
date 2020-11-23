@@ -3,7 +3,7 @@ title: 專案資源中心使用手冊
 description: Project Service 專案資源中心使用者的指南
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 181e47a7bf923100e480eabd120d8bd784c24d07
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1c52a17d791b5656f13535077e4300b331db71b5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072987"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123143"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>專案資源中心使用手冊
 
@@ -50,7 +50,7 @@ ms.locfileid: "4072987"
 
 ## <a name="basic-navigation"></a>基本導覽
 1.  登入行動應用程式時，您會看到 MyApps 頁面上有您可存取的應用程式清單。 
-2.  選取 **專案資源中心** 。
+2.  選取 **專案資源中心**。
 
 ![選擇應用程式](media/chooseApp_1.png "選擇應用程式")
 
@@ -73,28 +73,28 @@ ms.locfileid: "4072987"
 ## <a name="enter-time"></a>輸入時間
 至少每週輸入您的時數，或依照您的經理要求的頻率輸入，以確保客戶收到發票且您收到正確的付款。
 
-1. 點選功能表 ![功能表按鈕](media/MenuButton.png "選單鍵") 按鈕，然後點選 **時間項目** 。 這樣會顯示您的行事曆。
+1. 點選功能表 ![功能表按鈕](media/MenuButton.png "選單鍵") 按鈕，然後點選 **時間項目**。 這樣會顯示您的行事曆。
 
 2. 若要查看行事曆的上一週或下一週，點選 **上一個** 或 **下一個** 按鈕。 點選 **今天** 返回本週。
 
-3. 若要輸入您的時間，請點選命令列上的 **新增** 。 
+3. 若要輸入您的時間，請點選命令列上的 **新增**。 
 
-4. 填寫表單中的欄位，然後點選 **儲存** 。
+4. 填寫表單中的欄位，然後點選 **儲存**。
 
-5. 繼續輸入當週的時間。 當您完成且輸入內容正確時，點選 **送出** 。 經理將會審閱和核准您的時間項目。
+5. 繼續輸入當週的時間。 當您完成且輸入內容正確時，點選 **送出**。 經理將會審閱和核准您的時間項目。
 
 ## <a name="enter-expenses"></a>輸入費用 
 至少每週輸入您的費用，或依照您的經理要求的頻率輸入，以確保客戶收到發票且您收到正確的付款。
 
-1. 點選功能表 ![功能表按鈕](media/MenuButton.png "選單鍵") 按鈕，然後點選 **費用** 。 這樣會顯示您的行事曆。
+1. 點選功能表 ![功能表按鈕](media/MenuButton.png "選單鍵") 按鈕，然後點選 **費用**。 這樣會顯示您的行事曆。
 
-2. 您可以切換至 **日** 、 **週** 或 **月** 檢視，或瀏覽至上一個或下一個時段。 
+2. 您可以切換至 **日**、**週** 或 **月** 檢視，或瀏覽至上一個或下一個時段。 
 
-3. 若要輸入您的費用，請點選命令列上的 **新增** 。 
+3. 若要輸入您的費用，請點選命令列上的 **新增**。 
 
-4. 填寫表單中的欄位，然後點選 **儲存** 。
+4. 填寫表單中的欄位，然後點選 **儲存**。
 
-5. 繼續輸入當週的費用。 當您完成且輸入內容正確時，點選 **送出** 。 經理將會審閱和核准您的費用。
+5. 繼續輸入當週的費用。 當您完成且輸入內容正確時，點選 **送出**。 經理將會審閱和核准您的費用。
 
 ## <a name="general-information-on-how-to-use-the-mobile-app"></a>行動應用程式使用方式的一般資訊 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][行動基礎手冊](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide)

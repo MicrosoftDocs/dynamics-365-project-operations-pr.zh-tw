@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 504aa90bfb478207059b5e2894a3990f9a4a5e9e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 702402854c0787dae0bde854c9c274f5c23c131f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073064"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119588"
 ---
 # <a name="product-price-lists"></a>產品價目表
 
@@ -42,7 +42,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 當價格設定為定價、標準成本或目前成本的函數時，PSA 支援各種不同的舍入選項。 除了利用多個定價方式和舍入選項之外，您還可以將折扣清單與價目表項目建立關聯。 
 
-選取 **專案報價** 頁面上的 **建立自訂定價** 以建立報價的新自訂價目表時，系統會建立價目表的複本，並將新價目表標題中的 **實體** 欄位設定為 **銷售實體** 。 新價目表的名稱會附加在報價名稱和時間戳記的後面。 您也可以在自訂工作流程中使用新價目表名稱和報價名稱，以觸發對使用自訂定價之報價的其他檢閱和核准。
+選取 **專案報價** 頁面上的 **建立自訂定價** 以建立報價的新自訂價目表時，系統會建立價目表的複本，並將新價目表標題中的 **實體** 欄位設定為 **銷售實體**。 新價目表的名稱會附加在報價名稱和時間戳記的後面。 您也可以在自訂工作流程中使用新價目表名稱和報價名稱，以觸發對使用自訂定價之報價的其他檢閱和核准。
 
  
 ## <a name="default-product-price-list"></a>預設產品價目表

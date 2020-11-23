@@ -1,21 +1,21 @@
 ---
-title: 管理專案型報價明細上的多個客戶
+title: 管理專案型報價明細上的多個客戶 - 精簡
 description: 本主題說明如何管理專案型報價明細上的多個客戶。
 author: rumant
 manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6a509fcf8d1fa11b4ce1ba1493d9c3cc64b4f22f
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 7cab29693fc1447beba74dc6266367f13e48634d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072897"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176466"
 ---
-# <a name="managing-multiple-customers-on-project-based-quote-lines"></a>管理專案型報價明細上的多個客戶
+# <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>管理專案型報價明細上的多個客戶 - 精簡
 
 _**適用於：** 精簡部署 - 交易至開立預估發票_
 
@@ -42,4 +42,4 @@ _**適用於：** 精簡部署 - 交易至開立預估發票_
 
 您可以直接編輯帳單分割百分比。 帳單分割百分比的總計不是 100% 時，會發生錯誤。 編輯帳單分割百分比之後，重新整理報價明細整理頁面以移除錯誤。
 
-使用報價明細客戶子格上的平均分配動作，將帳單分割配置到所有報價明細客戶。 如果有捨入因素，就會新增至捨入客戶。 永遠都會有其中一個報價明細客戶標記為捨入客戶，這表示會將報價明細客戶記錄的捨入旗標設定為 **是** 。 
+使用報價明細客戶子格上的平均分配動作，將帳單分割配置到所有報價明細客戶。 如果有捨入因素，就會新增至捨入客戶。 永遠都會有其中一個報價明細客戶標記為捨入客戶，這表示會將報價明細客戶記錄的捨入旗標設定為 **是**。 

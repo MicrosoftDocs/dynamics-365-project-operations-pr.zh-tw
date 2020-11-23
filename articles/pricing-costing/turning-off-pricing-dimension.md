@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1a7c91ef70b1dd3697f6a8b5044c6ad4a14c4e74
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ffeff2ab465f37b8a4e40f4e64b118e3bb412cb8
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073092"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119273"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>關閉定價維度
 
@@ -34,7 +34,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 不過，這樣做時，您可能會收到錯誤訊息 **如果有相關聯的價格記錄，則無法更新或刪除定價維度。**
 
-此錯誤訊息表示存在先前為所要關閉維度設定的價格記錄。 必須先刪除參照該維度的所有 **角色價格** 和 **角色價格加成** 記錄，才能將維度的適用性設為 **否** 。 此規則適用於內建定價維度以及任何您可能已建立的自訂定價維度。 這項驗證的原因是，每個 **角色價格** 記錄都必須有一個唯一的維度組合。 例如，在名為 **2018 年美國成本費率** 的價目表中，您有下列 **角色價格** 列。 
+此錯誤訊息表示存在先前為所要關閉維度設定的價格記錄。 必須先刪除參照該維度的所有 **角色價格** 和 **角色價格加成** 記錄，才能將維度的適用性設為 **否**。 此規則適用於內建定價維度以及任何您可能已建立的自訂定價維度。 這項驗證的原因是，每個 **角色價格** 記錄都必須有一個唯一的維度組合。 例如，在名為 **2018 年美國成本費率** 的價目表中，您有下列 **角色價格** 列。 
 
 | 標準職稱         | 組織單位    |單位   |價格  |貨幣  |
 | -----------------------|-------------|-------|-------|----------|

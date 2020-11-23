@@ -1,33 +1,33 @@
 ---
-title: 設定人力成本費率
+title: 設定人力成本費率 - 精簡
 description: 本主題提供有關如何在 Project Operations 中設定人力成本費率的資訊。
 author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 66a254ce4e7c7f25ac3ea303b73a01625988b0d9
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2e79dde867833fb952349c073ce8975381029dcf
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072907"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180694"
 ---
-# <a name="setting-up-labor-cost-rates"></a>設定人力成本費率 
+# <a name="set-up-labor-cost-rates---lite"></a>設定人力成本費率 - 精簡
 
 _**適用於：** 精簡部署 - 交易至開立預估發票_
 
 每個價目表都有一組與價目表內容及日期有效性一致的人力費率 (角色價格)。
 
-1. 建立價目表，並在 **角色價格** 索引標籤的子格中，選取 **新增角色** 。
+1. 建立價目表，並在 **角色價格** 索引標籤的子格中，選取 **新增角色**。
 2. 在 **快速建立** 頁面上，選取角色和組織單位。
 3. 輸入任何其他必要欄位資訊。
 
 下表包括一些在成本價目表上建立人力費率時很重要的欄位。
 
-| 欄位 | 地點 | 關聯性、目的和指引 | 下游影響 |
+| 欄位 | 地點 | 描述 | 下游影響 |
 | --- | --- | --- | --- |
 | 角色 | **一般** 索引標籤和 **快速建立** 頁面 | 選取套用成本費率的角色。 | 新加入估計值或實際值的角色將會根據此明細進行比對，以設定角色的成本預設值。 |
 | 資源分配單位 | **一般** 索引標籤和 **快速建立** 頁面 | 選取將使用此角色的公司組織單位或部門。 例如，Fabrikam India 機器人部門的開發人員或 Fabrikam USA 軟體部門的開發人員。 | 新加入估計值或實際值的資源分配單位將會根據此明細進行比對，以設定角色的成本預設值。 |
@@ -38,7 +38,7 @@ _**適用於：** 精簡部署 - 交易至開立預估發票_
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>您的部門或法律實體以外資源的轉撥定價及成本
 
-在以專案為主的公司中，通常會在專案上任用來自不同法律實體或部門的員工。 專案可以由一個法律實體執行，但是在專案上工作的員工或顧問則可能來自相同法律實體或不同法律實體，或是兩者的組合。 在 Dynamics 365 Project Operations 中，負責交付專案的法律實體是 **負責公司** ，而負責交付的部門則是 **合約單位** 。 其他提供資源的法律實體是 **資源供應公司** ，而提供資源的部門則是 **資源分配單位** 。 在大部分國家/地區中，公司必須確保提供資源的法律實體或部門向負責公司或合約單位收取使用資源的費用。
+在以專案為主的公司中，通常會在專案上任用來自不同法律實體或部門的員工。 專案可以由一個法律實體執行，但是在專案上工作的員工或顧問則可能來自相同法律實體或不同法律實體，或是兩者的組合。 在 Dynamics 365 Project Operations 中，負責交付專案的法律實體是 **負責公司**，而負責交付的部門則是 **合約單位**。 其他提供資源的法律實體是 **資源供應公司**，而提供資源的部門則是 **資源分配單位**。 在大部分國家/地區中，公司必須確保提供資源的法律實體或部門向負責公司或合約單位收取使用資源的費用。
 
 例如，Fabrikam 公司必須確保 Fabrikam India-Robotics 已與 Fabrikam US-Robotics 或 Fabrikam UK-Robotics 之間議定成本費率卡。
 

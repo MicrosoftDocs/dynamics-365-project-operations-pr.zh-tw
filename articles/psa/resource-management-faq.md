@@ -3,7 +3,7 @@ title: 資源管理常見問題集
 description: 本主題提供關於資源管理的常見問題解答。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 395aa57d73e5d4a0c9c827c79bf4e7ef229c3981
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 38d9509768323a5a1d78683a2e65ade241adc65f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073207"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120128"
 ---
 # <a name="resource-management-faq"></a>資源管理常見問題集
 
@@ -47,7 +47,7 @@ ms.locfileid: "4073207"
 
 ## <a name="what-resources-types-does-project-service-automation-support"></a>Project Service Automation 支援哪些資源類型？
 
-**使用者** 和 **連絡人** 是唯一在 Dynamics 365 Project Service Automation 中支援的資源類型。 雖然您可以建立其他類型的資源 (例如, **設備** 和 **群組** )，但是不支援這些資源的端對端使用案例。
+**使用者** 和 **連絡人** 是唯一在 Dynamics 365 Project Service Automation 中支援的資源類型。 雖然您可以建立其他類型的資源 (例如, **設備** 和 **群組**)，但是不支援這些資源的端對端使用案例。
 
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>指派與預約之間有何區別？
 

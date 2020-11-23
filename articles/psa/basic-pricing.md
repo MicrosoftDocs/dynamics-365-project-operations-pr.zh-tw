@@ -3,7 +3,7 @@ title: 專案定價
 description: 本主題提供有關定價如何在 Dynamics 365 Project Service Automation 中運作的資訊。
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b319f9be9fd72ac99ce6012b6baffde812e3077d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 88b791a1eb90d2aad67adba69169eab2c49c1318
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073193"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120758"
 ---
 # <a name="project-pricing"></a>專案定價 
 
@@ -56,7 +56,7 @@ Dynamics 365 Project Service Automation 可擴充 Dynamics 365 Sales 中的價�
 
 人力資源時間通常根據資源在特定專案上所填補的角色來報價。 對於人工資源時間，PSA 支援根據資源角色估算成本和開單收費。 時間可按照 **時間** 單位群組中的任何單位來定價。
 
-安裝 PSA 時，會建立 **時間** 單位群組。 其預設單位是 **小時** 。 您無法刪除、重新命名或編輯 **時間** 單位群組的屬性或 **小時** 單位。 不過，您可以將其他單位新增至 **時間** 單位群組。 如果嘗試刪除 **時間** 單位群組或 **小時** 單位，您可能會在 PSA 業務規則中造成失敗。
+安裝 PSA 時，會建立 **時間** 單位群組。 其預設單位是 **小時**。 您無法刪除、重新命名或編輯 **時間** 單位群組的屬性或 **小時** 單位。 不過，您可以將其他單位新增至 **時間** 單位群組。 如果嘗試刪除 **時間** 單位群組或 **小時** 單位，您可能會在 PSA 業務規則中造成失敗。
 
 > ![依角色設定價格](media/basic-guide-13.png)
  
@@ -110,7 +110,7 @@ Dynamics 365 Project Service Automation 可擴充 Dynamics 365 Sales 中的價�
 
 專案合約預設一律要取得主要銷售價目表的複本，而不是與該價格直接連結。 此行為有助於保證即使主要價目表變更時，針對工作說明書 (SOW) 與客戶達成的價格協議也不會變更。
 
-不過，在報價上，您可以使用主要價目表。 或者，也可以複製主要價目表後再進行編輯，以建立只適用於該報價的自訂價目表。 若要建立專屬於報價的新價目表，請在 **報價** 頁面上選取 **建立自訂定價** 。 您只能從報價存取交易特定的專案價目表。 
+不過，在報價上，您可以使用主要價目表。 或者，也可以複製主要價目表後再進行編輯，以建立只適用於該報價的自訂價目表。 若要建立專屬於報價的新價目表，請在 **報價** 頁面上選取 **建立自訂定價**。 您只能從報價存取交易特定的專案價目表。 
 
 當您建立自訂專案價目表時，只會複製價目表的專案元件。 換句話說，新價目表已建立為報價上所附加現有專案價目表的複本，而這個新的價目表只有相關的角色價格和交易類別價格
 

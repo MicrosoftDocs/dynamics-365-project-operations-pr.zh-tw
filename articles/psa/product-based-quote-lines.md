@@ -3,7 +3,7 @@ title: 產品型報價明細
 description: 此主題提供有關產品型報價明細的資訊。
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55a5b5041a494892e6d96bf24e1bc132a26521dc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9c3b2b35abe894e79d6f55a7ddd6e5c64d0f12f2
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073176"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123188"
 ---
 # <a name="product-based-quote-lines"></a>產品型報價明細
 
@@ -41,7 +41,7 @@ Dynamics 365 產品類別目錄中的產品有預設單位與單位群組。 如
 - 使用者數目 
 - 訂閱期間 (以月為單位)
 
-維護這種目錄類型的好方法是建立名為 **訂閱軟體** ，且有 **使用者數目** 和 **訂閱期間** 做為屬性的產品系列。 然後，您可以將個別產品 (例如 **Dynamics 365 Sales** 或 **Dynamics 365 Field Service** ) 新增至 **訂閱軟體** 產品系列。
+維護這種目錄類型的好方法是建立名為 **訂閱軟體**，且有 **使用者數目** 和 **訂閱期間** 做為屬性的產品系列。 然後，您可以將個別產品 (例如 **Dynamics 365 Sales** 或 **Dynamics 365 Field Service**) 新增至 **訂閱軟體** 產品系列。
 
 ## <a name="adding-product-catalog-items-to-a-project-quote"></a>將產品類別目錄專案新增至專案報價
 
@@ -54,9 +54,9 @@ Dynamics 365 產品類別目錄中的產品有預設單位與單位群組。 如
 - 自訂定價  
 - 使用預設
 
-如果將此欄位設定為 **自訂定價** ，Dynamics 365 就不會設定預設價格。 您必須在報價明細上輸入產品的價格。 如果將此欄位設定為 **使用預設** ，則 Dynamics 365 會使用預設銷售價格，並鎖定欄位以防編輯。
+如果將此欄位設定為 **自訂定價**，Dynamics 365 就不會設定預設價格。 您必須在報價明細上輸入產品的價格。 如果將此欄位設定為 **使用預設**，則 Dynamics 365 會使用預設銷售價格，並鎖定欄位以防編輯。
 
-安裝 PSA 之後，會在報價的產品型明細上輸入預設銷售價格。 **定價** 欄位會接著設定為 **自訂定價** ，因此您可以編輯報價明細上的預設價格。
+安裝 PSA 之後，會在報價的產品型明細上輸入預設銷售價格。 **定價** 欄位會接著設定為 **自訂定價**，因此您可以編輯報價明細上的預設價格。
 
 > ![設定自訂定價](media/basic-guide-10.png)
  

@@ -3,7 +3,7 @@ title: 估計值
 description: 本主題提供有關 Dynamics 365 Project Service Automation 中估計值的資訊。
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 1/31/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e21511f78d92ff672e462f63f0dd0d098578516a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 95f739f0c724ff93c4d588776f9e49687bac2035
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073198"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132706"
 ---
 # <a name="estimates"></a>估計值
 
@@ -33,7 +33,7 @@ ms.locfileid: "4073198"
 
 專案型報價單明細不必有任何報價明細詳細資料。 或者，可以有許多報價明細詳細資料。 報價明細詳細資料可用來估計時間、費用或服務費。 PSA 不允許估計報價明細詳細資料上的材料。 這些稱為交易分類。 估計的稅額也可以在交易分類上輸入。
 
-除了交易分類之外，報價明細詳細資料還有一種交易類型。 PSA 支援報價明細詳細資料的兩種交易類型： **成本** 和 **專案合約** 。
+除了交易分類之外，報價明細詳細資料還有一種交易類型。 PSA 支援報價明細詳細資料的兩種交易類型：**成本** 和 **專案合約**。
 
 ## <a name="estimate-by-using-a-contract"></a>使用合約進行估計
 
@@ -47,7 +47,7 @@ PSA 不允許估計合約服務內容詳細資料上的材料。
 
 專案合約支援的程序是發票建立與確認作業。 發票建立作業會建立包含目前日期以前所有未開單銷售之專案型發票的草稿。
 
-確認作業會讓合約變成唯讀，並將其狀態從 **草稿** 變更為 **已確認** 。 執行此動作之後，您無法加以復原。 因為此動作為永久性，最佳做法是讓合約保持在 **草稿** 狀態。
+確認作業會讓合約變成唯讀，並將其狀態從 **草稿** 變更為 **已確認**。 執行此動作之後，您無法加以復原。 因為此動作為永久性，最佳做法是讓合約保持在 **草稿** 狀態。
 
 草稿合約與已確認合約之間的區別在於其狀態，以及在於草稿合約可編輯但已確認合約卻不能編輯的事實。 在草稿合約和已確認合約上都可以執行發票建立作業和追蹤實際值作業。
 
@@ -81,16 +81,16 @@ PSA 不支援變更合約或專案上的訂單。
 如果您在報價明細詳細資料中新增自訂欄位，並且希望系統輸入欄位值做為其所建立相關成本明細的預設值時，請使用 PreOperationContractLineDetailUpdate 和 PreOperationQuoteLineDetailUpdate 外掛程式註冊工具。 變更報價明細詳細資料或合約服務內容詳細資料之後，您必須重新註冊這些外掛程式。 請依照下列步驟完成此程序：
 
 1. 開啟 PluginRegistrationTool，並連接至您的線上執行個體。
-2. 選取 **搜尋** ，然後搜尋要更新的外掛程式。
+2. 選取 **搜尋**，然後搜尋要更新的外掛程式。
 
     ![搜尋樹狀結構對話方塊](media/basic-guide-19.png)
 
-3. 選取外掛程式，然後選取主要頁面上的 **選取** 。
-4. 選取要更新外掛程式的步驟、按一下滑鼠右鍵，然後選取 **更新** 。
+3. 選取外掛程式，然後選取主要頁面上的 **選取**。
+4. 選取要更新外掛程式的步驟、按一下滑鼠右鍵，然後選取 **更新**。
 
     ![選取外掛程式中的步驟](media/basic-guide-20.png)
 
-5. 在 **更新現有步驟** 對話方塊的 **篩選屬性** 欄位中，選取省略符號按鈕 ( **...** )：
+5. 在 **更新現有步驟** 對話方塊的 **篩選屬性** 欄位中，選取省略符號按鈕 (**...**)：
  
     ![[更新現有步驟] 對話方塊](media/basic-guide-21.png)
 
@@ -98,7 +98,7 @@ PSA 不支援變更合約或專案上的訂單。
 
     ![[選取屬性] 對話方塊](media/basic-guide-22.png)
 
-7. 選取 **確定** 關閉對話方塊，然後選取 **更新步驟** 。
+7. 選取 **確定** 關閉對話方塊，然後選取 **更新步驟**。
  
     ![[更新步驟] 按鈕](media/basic-guide-23.png)
 

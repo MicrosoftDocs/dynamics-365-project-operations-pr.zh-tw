@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 84033182ce047d230724409eef9bc6afcaefd2b4
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 3698b68b5dd0460343d26af0fcea5b9a56be4083
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072892"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131918"
 ---
 # <a name="configure-project-categories"></a>設定專案類別
 
@@ -37,15 +37,15 @@ Project Operations 提供可在專案中分類營收及費用的強大功能。 
 
 ## <a name="shared-categories"></a>共用類別
 
-Dynamics 365 使用共用類別概念，將不同應用程式 (例如 Dynamics 365 Finance、Dynamics 365 Supply Chain 和 Dynamics 365 Project Operations) 中的費用分類。 對於建立的每個交易類別，Project Operations 都會自動建立四個相關的共用類別：時數、費用、服務費和項目。 您可以移至 **專案管理與會計**\>**設定**\>**類別**\>**共用類別** ，檢閱並協調共用類別。
+Dynamics 365 使用共用類別概念，將不同應用程式 (例如 Dynamics 365 Finance、Dynamics 365 Supply Chain 和 Dynamics 365 Project Operations) 中的費用分類。 對於建立的每個交易類別，Project Operations 都會自動建立四個相關的共用類別：時數、費用、服務費和項目。 您可以移至 **專案管理與會計**\>**設定**\>**類別**\>**共用類別**，檢閱並協調共用類別。
 
 ## <a name="project-categories"></a>專案類別
 
 專案類別代表最細微的類別設定等級，而且必須由專案會計師分別為每個公司進行設定。
 
-1. 移至 **專案管理與會計**\>**設定**\>**類別**\>**專案類別** 。
-2. 選取 **新增** 。
-3. 選取您在上一節所建立之共用類別的 **類別識別碼** 。 Project Operations 只允許使用那些與交易類別有關聯的共用類別。
+1. 移至 **專案管理與會計**\>**設定**\>**類別**\>**專案類別**。
+2. 選取 **新增**。
+3. 選取您在上一節所建立之共用類別的 **類別識別碼**。 Project Operations 只允許使用那些與交易類別有關聯的共用類別。
 4. 選取類別群組。
 
 ## <a name="category-groups"></a>類別群組

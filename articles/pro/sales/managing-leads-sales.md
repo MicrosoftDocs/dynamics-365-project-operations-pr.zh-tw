@@ -1,21 +1,21 @@
 ---
-title: 管理潛在客戶 (專案版)
+title: 管理潛在客戶 - 精簡
 description: 本主題提供有關管理專案型潛在客戶的資訊 (專案版)。
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 005e36811643b0b1e98a686792cf39125ae97949
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 00fc16b0e723d4df88ceae961d9772e26dd1451e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072925"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180497"
 ---
-# <a name="manage-leads-pro"></a>管理潛在客戶 (專案版)
+# <a name="manage-leads---lite"></a>管理潛在客戶 - 精簡
 
 _**適用於：** 精簡部署 - 交易至開立預估發票_
 
@@ -34,11 +34,11 @@ _**適用於：** 精簡部署 - 交易至開立預估發票_
 - 時間和材料以及固定價格帳務方式
 - 專案上所產生人力資源、費用和材料的多個有效日期價目表。
 
-為了讓合格的潛在客戶自動建立商機，請在建立潛在客戶時，將 **類型** 屬性設定為 **工作型** 。 如果您選擇不同的類型，則潛在客戶無法在授與其資格時建立專案型商機。 如果未建立專案型商機，則下游銷售處理中將無法使用專案特定的功能。
+為了讓合格的潛在客戶自動建立商機，請在建立潛在客戶時，將 **類型** 屬性設定為 **工作型**。 如果您選擇不同的類型，則潛在客戶無法在授與其資格時建立專案型商機。 如果未建立專案型商機，則下游銷售處理中將無法使用專案特定的功能。
 
 下表包含潛在客戶的重要欄位資訊，以及這些欄位的下游含意。
 
-| **欄位** | **位置** | **關聯性、目的和指引** | **下游影響** |
+| **欄位** | **位置** | **描述** | **下游影響** |
 | --- | --- | --- | --- |
 | 主題 | [一般] 索引標籤 | 此文字欄位應包含交易的簡短描述。 | 潛在客戶的主題會預設為商機的主題，以及報價與專案合約的名稱。 |
 | 鍵入 | [一般] 索引標籤 | 此選項組欄位具有下列選項：</br>- 工作型 (只有在 Project Operations 已安裝時提供)</br>- 項目型 (只有在 Project Operations 和 Sales 已安裝時提供)</br>- 服務維護型 (安裝 Field Service 時提供) | 此欄位的值在潛在客戶上設定為 **工作型** 時，會授與潛在客戶資格以建立專案型商機。 若要在此交易的下游銷售處理中啟用所有專案特定擴充及功能，必須有專案型商機。 |
@@ -53,7 +53,7 @@ _**適用於：** 精簡部署 - 交易至開立預估發票_
 
 - 使用潛在客戶 **公司** 欄位的客戶。
 - 與採用潛在客戶 **名字** 及 **姓氏** 欄位值之客戶相關聯的連絡人記錄。
-- **類型** 欄位已設定為&quot;**工作型** 的專案型商機。
+- **類型** 欄位已設定為 **工作型** 的專案型商機。
 
 如需有關授與潛在客戶資格的詳細資訊，請參閱[授與客戶資格或轉換潛在客戶](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales)。
 

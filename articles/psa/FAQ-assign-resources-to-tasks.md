@@ -3,7 +3,7 @@ title: 將資源指派給工作
 description: 本主題提供有關如何將資源指派給工作的資訊。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 77f13d1e96b76dfea241fbf7a67d5676582f0235
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b7aef799ec4b90d602a6f3641cbac06264664f00
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073185"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125123"
 ---
 # <a name="assign-a-resource-to-a-task"></a>將資源指派給工作
 
@@ -58,13 +58,13 @@ ms.locfileid: "4073185"
 
 2. 輸入要做為預留位置資源名稱的名稱。 例如，「方案經理」。
 
-3. 選取 **建立** ，並在右側的 **快速建立專案團隊成員** 欄位中，設定一般資源的角色。
+3. 選取 **建立**，並在右側的 **快速建立專案團隊成員** 欄位中，設定一般資源的角色。
 
 4. 您可以在工作的 **資源選取器** 上選取資源，繼續將工作指派給此預留位置資源。 這些資源會在 **團隊成員** 下方列出。
 
 5. 完成指派一般資源時，選取 **團隊** 索引標籤上的一般資源，然後選取 **產生需求** 以建立一般資源的資源需求。
 
-6. 針對該一般資源選取 **預約** 。 您可以接著使用排程面板來尋找並預約實際的資源。 您也可以送出要求資源管理員履行的需求。
+6. 針對該一般資源選取 **預約**。 您可以接著使用排程面板來尋找並預約實際的資源。 您也可以送出要求資源管理員履行的需求。
 
 7. 使用具名資源履行一般資源時，一般資源將會從團隊中移除，而且一般資源的工作指派會指派給履行一般資源之資源需求的具名資源。
 

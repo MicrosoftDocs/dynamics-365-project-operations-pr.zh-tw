@@ -1,27 +1,27 @@
 ---
-title: 貸記和已更正的發票
+title: 更正過的發票 - 精簡
 description: 本主題提供有關 Project Operations 中已更正發票的資訊
 author: rumant
 manager: Annbe
 ms.date: 10/15/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d2187627439d42b37222dce0a491c62dafc358d5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 55bec8ad1d9c2b55cabb453321f13df8b7cd1614
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073107"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176421"
 ---
-# <a name="credits-and-corrected-invoices"></a>貸記和已更正的發票
+# <a name="corrected-invoices---lite"></a>更正過的發票 - 精簡
 
 _**適用於：** 精簡部署 - 交易至開立預估發票_
 
 確認過的專案發票可進行更正以處理與客戶及專案經理議定的變更或貸記。
 
-若要對已確認的發票進行編輯，請開啟已確認的發票，然後選取 **更正此發票** 。 
+若要對已確認的發票進行編輯，請開啟已確認的發票，然後選取 **更正此發票**。 
 
 > [!NOTE]
 > 除非專案發票已確認，否則不提供此選取項目。
@@ -35,7 +35,7 @@ _**適用於：** 精簡部署 - 交易至開立預估發票_
 - 如果使用了不正確的金額對先前已確認發票上的收費進行協調，則可以更正保留款及預付金的對帳單。
 
 > [!IMPORTANT]
-> 對其他已開發行票的收費做更正的發票明細詳細資料，其 **更正** 欄位會設定為 **是** 。 已更正發票明細詳細資料的發票具有名為 **有更正** 的欄位，此欄位也會設定為 **是** 。
+> 對其他已開發行票的收費做更正的發票明細詳細資料，其 **更正** 欄位會設定為 **是**。 已更正發票明細詳細資料的發票具有名為 **有更正** 的欄位，此欄位也會設定為 **是**。
 
 ## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>在確認更正發票時所建立的實際值：
 
@@ -260,7 +260,7 @@ _**適用於：** 精簡部署 - 交易至開立預估發票_
 原始里程碑發票明細詳細資料上金額的已開單銷售沖銷。
                 </p>
                 <p>
-專案合約服務內容的里程碑發票或帳單狀態已更新為 **已準備好開立發票** 。
+專案合約服務內容的里程碑發票或帳單狀態已更新為 **已準備好開立發票**。
                 </p>
             </td>
         </tr>

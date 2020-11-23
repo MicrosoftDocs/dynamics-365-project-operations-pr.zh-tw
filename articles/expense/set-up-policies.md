@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 30b3a0e1547ca7043b1433da2b4ebf02f2b473a1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c55cec132649daf9ee08ea4d8db3668860247934
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073066"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128408"
 ---
 # <a name="define-expense-policies"></a>定義費用原則
 
@@ -36,12 +36,12 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
         
 您可以定義三種類型的原則：         
         
-- **警告** ：允許工作者提交費用報表或差旅申請，但會標示費用給所有核准者處理並         
+- **警告**：允許工作者提交費用報表或差旅申請，但會標示費用給所有核准者處理並         
   供稍後提報。        
 
-- **錯誤** ：要求工作者必須先將費用修訂成符合原則，才能提交費用報表或差旅申請。        
+- **錯誤**：要求工作者必須先將費用修訂成符合原則，才能提交費用報表或差旅申請。        
  
- - **正當理由** ：要求工作者或經理必須先輸入超出原則金額的正當理由，才能提交費用報表或差旅申請。        
+ - **正當理由**：要求工作者或經理必須先輸入超出原則金額的正當理由，才能提交費用報表或差旅申請。        
 
 ## <a name="policy-tips"></a>原則提示
 以下是一些可在建立費用管理新原則時協助您的建議： 
