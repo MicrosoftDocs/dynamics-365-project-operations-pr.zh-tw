@@ -3,7 +3,7 @@ title: 排程專案的資源
 description: 如何在 Project Service 中排程專案的資源
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,66 +18,66 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: db69348aac96cbfaaa865228c9230cbda4b1e784
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1479bf920be897a6ee3498aada7a6c36692a01fc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073202"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132117"
 ---
-# <a name="schedule-resources-for-a-project-project-service"></a><span data-ttu-id="f3e5c-103">排程專案的資源 (Project Service)</span><span class="sxs-lookup"><span data-stu-id="f3e5c-103">Schedule resources for a project (Project Service)</span></span>
+# <a name="schedule-resources-for-a-project-project-service"></a><span data-ttu-id="658a7-103">排程專案的資源 (Project Service)</span><span class="sxs-lookup"><span data-stu-id="658a7-103">Schedule resources for a project (Project Service)</span></span>
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="f3e5c-104">您可以檢查資源可用性，以檢視資源預約的整體情況，或者您可以依技能、團隊、地點及其他選項篩選檢視。</span><span class="sxs-lookup"><span data-stu-id="f3e5c-104">You can check resource availability to get an overall view of how booked your resources are, or you can filter the view by skills, team, location, and other options.</span></span>  
+<span data-ttu-id="658a7-104">您可以檢查資源可用性，以檢視資源預約的整體情況，或者您可以依技能、團隊、地點及其他選項篩選檢視。</span><span class="sxs-lookup"><span data-stu-id="658a7-104">You can check resource availability to get an overall view of how booked your resources are, or you can filter the view by skills, team, location, and other options.</span></span>  
   
-<span data-ttu-id="f3e5c-105">排程面板會顯示資源清單及其可用性。</span><span class="sxs-lookup"><span data-stu-id="f3e5c-105">The schedule board shows list of resources and their availability.</span></span> <span data-ttu-id="f3e5c-106">選取檢視模式，依 **小時** 、 **日** 、 **週** 或 **月** 顯示可用性。</span><span class="sxs-lookup"><span data-stu-id="f3e5c-106">Select a view mode to show availability by **Hours** , **Day** , **Week** , or **Month**.</span></span>  
+<span data-ttu-id="658a7-105">排程面板會顯示資源清單及其可用性。</span><span class="sxs-lookup"><span data-stu-id="658a7-105">The schedule board shows list of resources and their availability.</span></span> <span data-ttu-id="658a7-106">選取檢視模式，依 **小時**、**日**、**週** 或 **月** 顯示可用性。</span><span class="sxs-lookup"><span data-stu-id="658a7-106">Select a view mode to show availability by **Hours**, **Day**, **Week**, or **Month**.</span></span>  
   
-<span data-ttu-id="f3e5c-107">在您使用排程面版之前，務必將它設定好。</span><span class="sxs-lookup"><span data-stu-id="f3e5c-107">Before you use the schedule board, it’s important to set it up.</span></span> <span data-ttu-id="f3e5c-108">如需詳細資訊，請參閱[設定排程面板 (Field Service 或 Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board)。</span><span class="sxs-lookup"><span data-stu-id="f3e5c-108">For more information, see [Configure the schedule board (Field Service or Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).</span></span>
+<span data-ttu-id="658a7-107">在您使用排程面版之前，務必將它設定好。</span><span class="sxs-lookup"><span data-stu-id="658a7-107">Before you use the schedule board, it’s important to set it up.</span></span> <span data-ttu-id="658a7-108">如需詳細資訊，請參閱[設定排程面板 (Field Service 或 Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board)。</span><span class="sxs-lookup"><span data-stu-id="658a7-108">For more information, see [Configure the schedule board (Field Service or Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).</span></span>
   
-<span data-ttu-id="f3e5c-109">如果您使用的是舊版，請參閱[檢視資源可用性](../psa/view-resource-availability.md)以了解資源可用性。</span><span class="sxs-lookup"><span data-stu-id="f3e5c-109">If you are using an older version, for resource availability, see [View resource availability](../psa/view-resource-availability.md).</span></span>  
+<span data-ttu-id="658a7-109">如果您使用的是舊版，請參閱[檢視資源可用性](../psa/view-resource-availability.md)以了解資源可用性。</span><span class="sxs-lookup"><span data-stu-id="658a7-109">If you are using an older version, for resource availability, see [View resource availability](../psa/view-resource-availability.md).</span></span>  
 
 > [!IMPORTANT]
->  <span data-ttu-id="f3e5c-110">若要使用排程面板預約功能、地理編碼及位置服務，您需要開啟地圖。</span><span class="sxs-lookup"><span data-stu-id="f3e5c-110">To use the schedule board booking functionality, geocoding, and location services, you need to turn on maps.</span></span>  
+>  <span data-ttu-id="658a7-110">若要使用排程面板預約功能、地理編碼及位置服務，您需要開啟地圖。</span><span class="sxs-lookup"><span data-stu-id="658a7-110">To use the schedule board booking functionality, geocoding, and location services, you need to turn on maps.</span></span>  
 > 
-> 1. <span data-ttu-id="f3e5c-111">在主要功能表上，選取 **資源排程** > **管理** 。</span><span class="sxs-lookup"><span data-stu-id="f3e5c-111">On the main menu, select **Resource Scheduling** > **Administration**.</span></span>  
-> 2. <span data-ttu-id="f3e5c-112">按一下 **排程參數** 。</span><span class="sxs-lookup"><span data-stu-id="f3e5c-112">Click **Scheduling parameters**.</span></span>  
-> 3. <span data-ttu-id="f3e5c-113">開啟記錄，然後向下捲動至 **Resource Scheduling Optimization** 區段。</span><span class="sxs-lookup"><span data-stu-id="f3e5c-113">Open record and scroll down to the **Resource Scheduling Optimization** section.</span></span>  
-> 4. <span data-ttu-id="f3e5c-114">在 **連線到地圖服務** 欄位中，選擇 **是** 。</span><span class="sxs-lookup"><span data-stu-id="f3e5c-114">On the **Connect to Maps** field, choose **Yes**.</span></span>  
-> 5. <span data-ttu-id="f3e5c-115">接受條款並儲存記錄。</span><span class="sxs-lookup"><span data-stu-id="f3e5c-115">Accept terms and save the record.</span></span>  
-> 6. <span data-ttu-id="f3e5c-116">在主要功能表上，選取 **Project Service** > **排程面板** 。</span><span class="sxs-lookup"><span data-stu-id="f3e5c-116">On the main menu, select **Project Service** > **Schedule board**.</span></span> <span data-ttu-id="f3e5c-117">在這裡，有數種不同方式可手動排程預約需求。</span><span class="sxs-lookup"><span data-stu-id="f3e5c-117">From here, there are several ways to manually schedule a booking requirement.</span></span> <span data-ttu-id="f3e5c-118">選擇適合您使用的方法。</span><span class="sxs-lookup"><span data-stu-id="f3e5c-118">Choose the method that works for you.</span></span>
+> 1. <span data-ttu-id="658a7-111">在主要功能表上，選取 **資源排程** > **管理**。</span><span class="sxs-lookup"><span data-stu-id="658a7-111">On the main menu, select **Resource Scheduling** > **Administration**.</span></span>  
+> 2. <span data-ttu-id="658a7-112">按一下 **排程參數**。</span><span class="sxs-lookup"><span data-stu-id="658a7-112">Click **Scheduling parameters**.</span></span>  
+> 3. <span data-ttu-id="658a7-113">開啟記錄，然後向下捲動至 **Resource Scheduling Optimization** 區段。</span><span class="sxs-lookup"><span data-stu-id="658a7-113">Open record and scroll down to the **Resource Scheduling Optimization** section.</span></span>  
+> 4. <span data-ttu-id="658a7-114">在 **連線到地圖服務** 欄位中，選擇 **是**。</span><span class="sxs-lookup"><span data-stu-id="658a7-114">On the **Connect to Maps** field, choose **Yes**.</span></span>  
+> 5. <span data-ttu-id="658a7-115">接受條款並儲存記錄。</span><span class="sxs-lookup"><span data-stu-id="658a7-115">Accept terms and save the record.</span></span>  
+> 6. <span data-ttu-id="658a7-116">在主要功能表上，選取 **Project Service** > **排程面板**。</span><span class="sxs-lookup"><span data-stu-id="658a7-116">On the main menu, select **Project Service** > **Schedule board**.</span></span> <span data-ttu-id="658a7-117">在這裡，有數種不同方式可手動排程預約需求。</span><span class="sxs-lookup"><span data-stu-id="658a7-117">From here, there are several ways to manually schedule a booking requirement.</span></span> <span data-ttu-id="658a7-118">選擇適合您使用的方法。</span><span class="sxs-lookup"><span data-stu-id="658a7-118">Choose the method that works for you.</span></span>
   
-## <a name="find-available-resources"></a><span data-ttu-id="f3e5c-119">尋找可用資源</span><span class="sxs-lookup"><span data-stu-id="f3e5c-119">Find available resources</span></span>
+## <a name="find-available-resources"></a><span data-ttu-id="658a7-119">尋找可用資源</span><span class="sxs-lookup"><span data-stu-id="658a7-119">Find available resources</span></span>
 
-1.  <span data-ttu-id="f3e5c-120">在 **預約需求** 清單中，以滑鼠右鍵按一下未排程的預約，然後選擇下列其中一項︰</span><span class="sxs-lookup"><span data-stu-id="f3e5c-120">From the **Booking Requirement** list, right-click an unscheduled booking and choose one of the following:</span></span>  
+1.  <span data-ttu-id="658a7-120">在 **預約需求** 清單中，以滑鼠右鍵按一下未排程的預約，然後選擇下列其中一項︰</span><span class="sxs-lookup"><span data-stu-id="658a7-120">From the **Booking Requirement** list, right-click an unscheduled booking and choose one of the following:</span></span>  
   
-- <span data-ttu-id="f3e5c-121">選擇 **尋找可用性 - 目前資源** ，從排程面板上的清單中尋找可用的資源。</span><span class="sxs-lookup"><span data-stu-id="f3e5c-121">Choose **Find availability - Current Resources** to find an available resource from the list on the schedule board.</span></span>  
-- <span data-ttu-id="f3e5c-122">選擇 **尋找可用性 - 所有資源** ，從系統中的資源尋找可用的資源。</span><span class="sxs-lookup"><span data-stu-id="f3e5c-122">Choose **Find availability - All Resources** , to find an available resource from resources in the system</span></span>  
+- <span data-ttu-id="658a7-121">選擇 **尋找可用性 - 目前資源**，從排程面板上的清單中尋找可用的資源。</span><span class="sxs-lookup"><span data-stu-id="658a7-121">Choose **Find availability - Current Resources** to find an available resource from the list on the schedule board.</span></span>  
+- <span data-ttu-id="658a7-122">選擇 **尋找可用性 - 所有資源**，從系統中的資源尋找可用的資源。</span><span class="sxs-lookup"><span data-stu-id="658a7-122">Choose **Find availability - All Resources**, to find an available resource from resources in the system</span></span>  
    > [!NOTE]
-   >  <span data-ttu-id="f3e5c-123">當您這樣做時，篩選會顯示選取的預約需求的選項。</span><span class="sxs-lookup"><span data-stu-id="f3e5c-123">When you do this, the filters will show options for the selected booking requirement.</span></span>  
+   >  <span data-ttu-id="658a7-123">當您這樣做時，篩選會顯示選取的預約需求的選項。</span><span class="sxs-lookup"><span data-stu-id="658a7-123">When you do this, the filters will show options for the selected booking requirement.</span></span>  
   
-2. <span data-ttu-id="f3e5c-124">看到可用的時段時，以滑鼠右鍵按一下排程面板上的該時段，並選擇 **在這裡預約** 。</span><span class="sxs-lookup"><span data-stu-id="f3e5c-124">When you see an available slot, right-click the time slot on the schedule board and choose **Book Here**.</span></span> <span data-ttu-id="f3e5c-125">或者，將預約需求拖曳到可用的時段。</span><span class="sxs-lookup"><span data-stu-id="f3e5c-125">Or, drag and drop the booking requirement to the available time slot.</span></span>  
+2. <span data-ttu-id="658a7-124">看到可用的時段時，以滑鼠右鍵按一下排程面板上的該時段，並選擇 **在這裡預約**。</span><span class="sxs-lookup"><span data-stu-id="658a7-124">When you see an available slot, right-click the time slot on the schedule board and choose **Book Here**.</span></span> <span data-ttu-id="658a7-125">或者，將預約需求拖曳到可用的時段。</span><span class="sxs-lookup"><span data-stu-id="658a7-125">Or, drag and drop the booking requirement to the available time slot.</span></span>  
   
 
-## <a name="book-a-resource-using-the-daily-view-and-find-whos-under-booked"></a><span data-ttu-id="f3e5c-126">使用每日檢視表預約資源，並尋找誰還能預約</span><span class="sxs-lookup"><span data-stu-id="f3e5c-126">Book a resource using the daily view and find who’s under-booked</span></span>
+## <a name="book-a-resource-using-the-daily-view-and-find-whos-under-booked"></a><span data-ttu-id="658a7-126">使用每日檢視表預約資源，並尋找誰還能預約</span><span class="sxs-lookup"><span data-stu-id="658a7-126">Book a resource using the daily view and find who’s under-booked</span></span>
   
-1.  <span data-ttu-id="f3e5c-127">在排程面板上，選取 **檢視模式** ，然後選取 **天** 。</span><span class="sxs-lookup"><span data-stu-id="f3e5c-127">On the schedule board, select **View Mode** and select **Days**.</span></span>  
+1.  <span data-ttu-id="658a7-127">在排程面板上，選取 **檢視模式**，然後選取 **天**。</span><span class="sxs-lookup"><span data-stu-id="658a7-127">On the schedule board, select **View Mode** and select **Days**.</span></span>  
   
-    <span data-ttu-id="f3e5c-128">這會顯示資源每天預約的時數以及哪些天有空的網格檢視表。</span><span class="sxs-lookup"><span data-stu-id="f3e5c-128">This shows a grid view of how many hours a resource is booked per day and which days they are free.</span></span>  
+    <span data-ttu-id="658a7-128">這會顯示資源每天預約的時數以及哪些天有空的網格檢視表。</span><span class="sxs-lookup"><span data-stu-id="658a7-128">This shows a grid view of how many hours a resource is booked per day and which days they are free.</span></span>  
   
-2.  <span data-ttu-id="f3e5c-129">按一下您想要預約的資源的名稱，然後選取 **預約** 。</span><span class="sxs-lookup"><span data-stu-id="f3e5c-129">Click the name of the resource you want to book, and then select **Book**.</span></span>  
+2.  <span data-ttu-id="658a7-129">按一下您想要預約的資源的名稱，然後選取 **預約**。</span><span class="sxs-lookup"><span data-stu-id="658a7-129">Click the name of the resource you want to book, and then select **Book**.</span></span>  
   
-3.  <span data-ttu-id="f3e5c-130">在 **資源預約 (建立)** 對話方塊中，選擇要預約資源來處理的專案，以及預約方法及開始和結束時間。</span><span class="sxs-lookup"><span data-stu-id="f3e5c-130">On the **Resource booking (create)** dialog box, choose the project that you want to book the resource for along with booking method and start and end times.</span></span>  
+3.  <span data-ttu-id="658a7-130">在 **資源預約 (建立)** 對話方塊中，選擇要預約資源來處理的專案，以及預約方法及開始和結束時間。</span><span class="sxs-lookup"><span data-stu-id="658a7-130">On the **Resource booking (create)** dialog box, choose the project that you want to book the resource for along with booking method and start and end times.</span></span>  
   
-4.  <span data-ttu-id="f3e5c-131">完成時，選取 **預約** 。</span><span class="sxs-lookup"><span data-stu-id="f3e5c-131">When you’re done, select **Book**.</span></span>  
+4.  <span data-ttu-id="658a7-131">完成時，選取 **預約**。</span><span class="sxs-lookup"><span data-stu-id="658a7-131">When you’re done, select **Book**.</span></span>  
   
-## <a name="view-to-the-schedule-board"></a><span data-ttu-id="f3e5c-132">檢視排程面板</span><span class="sxs-lookup"><span data-stu-id="f3e5c-132">View to the schedule board</span></span>
+## <a name="view-to-the-schedule-board"></a><span data-ttu-id="658a7-132">檢視排程面板</span><span class="sxs-lookup"><span data-stu-id="658a7-132">View to the schedule board</span></span>
   
-1.  <span data-ttu-id="f3e5c-133">從底部的清單中選取未排程的預約需求。</span><span class="sxs-lookup"><span data-stu-id="f3e5c-133">Select an unscheduled booking requirement from the list at the bottom.</span></span>  
+1.  <span data-ttu-id="658a7-133">從底部的清單中選取未排程的預約需求。</span><span class="sxs-lookup"><span data-stu-id="658a7-133">Select an unscheduled booking requirement from the list at the bottom.</span></span>  
   
-2.  <span data-ttu-id="f3e5c-134">將預約需求拖曳至排程面板上可用的資源/時段。</span><span class="sxs-lookup"><span data-stu-id="f3e5c-134">Drag the booking requirement to an available resource/time slot on the schedule board.</span></span>  
+2.  <span data-ttu-id="658a7-134">將預約需求拖曳至排程面板上可用的資源/時段。</span><span class="sxs-lookup"><span data-stu-id="658a7-134">Drag the booking requirement to an available resource/time slot on the schedule board.</span></span>  
   
-3.  <span data-ttu-id="f3e5c-135">完成時，選取 **預約** 。</span><span class="sxs-lookup"><span data-stu-id="f3e5c-135">When you're done, select **Book**.</span></span>  
+3.  <span data-ttu-id="658a7-135">完成時，選取 **預約**。</span><span class="sxs-lookup"><span data-stu-id="658a7-135">When you're done, select **Book**.</span></span>  
   
-### <a name="additional-resources"></a><span data-ttu-id="f3e5c-136">其他資源</span><span class="sxs-lookup"><span data-stu-id="f3e5c-136">Additional resources</span></span>  
- [<span data-ttu-id="f3e5c-137">資源管理員指南</span><span class="sxs-lookup"><span data-stu-id="f3e5c-137">Resource manager guide</span></span>](../psa/resource-manager-guide.md)
+### <a name="additional-resources"></a><span data-ttu-id="658a7-136">其他資源</span><span class="sxs-lookup"><span data-stu-id="658a7-136">Additional resources</span></span>  
+ [<span data-ttu-id="658a7-137">資源管理員指南</span><span class="sxs-lookup"><span data-stu-id="658a7-137">Resource manager guide</span></span>](../psa/resource-manager-guide.md)

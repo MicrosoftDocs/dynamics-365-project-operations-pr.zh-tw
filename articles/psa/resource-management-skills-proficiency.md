@@ -3,7 +3,7 @@ title: 技能和熟練度模型
 description: 此主題提供有關如何使用技能和熟練模型的資訊。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/13/2019
@@ -18,31 +18,31 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cd243544df062e5801bbfa0a3bd75c4d9a116a6f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 92735262ebc4b48dd1143af57349d77e1fe3061c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073216"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124178"
 ---
-# <a name="skills-and-proficiency-models"></a><span data-ttu-id="f94d6-103">技能和熟練度模型</span><span class="sxs-lookup"><span data-stu-id="f94d6-103">Skills and proficiency models</span></span>
+# <a name="skills-and-proficiency-models"></a><span data-ttu-id="dcd8f-103">技能和熟練度模型</span><span class="sxs-lookup"><span data-stu-id="dcd8f-103">Skills and proficiency models</span></span>
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="f94d6-104">技能是在 Dynamics 365 Project Service Automation 與 (如果存在) Dynamics 365 Field Service 之間共用的資源特性。</span><span class="sxs-lookup"><span data-stu-id="f94d6-104">Skills are resource characteristics that are shared between Dynamics 365 Project Service Automation and if present, Dynamics 365 Field Service.</span></span> 
+<span data-ttu-id="dcd8f-104">技能是在 Dynamics 365 Project Service Automation 與 (如果存在) Dynamics 365 Field Service 之間共用的資源特性。</span><span class="sxs-lookup"><span data-stu-id="dcd8f-104">Skills are resource characteristics that are shared between Dynamics 365 Project Service Automation and if present, Dynamics 365 Field Service.</span></span> 
 
-<span data-ttu-id="f94d6-105">若要在 Project Service Automation 中維護技能存放庫，請移至 **資源** \> **資源技能** 。</span><span class="sxs-lookup"><span data-stu-id="f94d6-105">To maintain the repository of skills in Project Service Automation, go to **Resources** \> **Resource Skills**.</span></span> 
+<span data-ttu-id="dcd8f-105">若要在 Project Service Automation 中維護技能存放庫，請移至 **資源** \> **資源技能**。</span><span class="sxs-lookup"><span data-stu-id="dcd8f-105">To maintain the repository of skills in Project Service Automation, go to **Resources** \> **Resource Skills**.</span></span> 
 
 > ![資源技能](media/Resource-Management-image84.png)
 
-## <a name="use-proficiency-models-to-rate-resources"></a><span data-ttu-id="f94d6-107">使用熟練度模型來評等資源</span><span class="sxs-lookup"><span data-stu-id="f94d6-107">Use proficiency models to rate resources</span></span>
+## <a name="use-proficiency-models-to-rate-resources"></a><span data-ttu-id="dcd8f-107">使用熟練度模型來評等資源</span><span class="sxs-lookup"><span data-stu-id="dcd8f-107">Use proficiency models to rate resources</span></span>
 
-<span data-ttu-id="f94d6-108">資源的技能由熟練程度模型所評等。</span><span class="sxs-lookup"><span data-stu-id="f94d6-108">Skills for resources are rated by proficiency models.</span></span> <span data-ttu-id="f94d6-109">個別評等是在熟練度模型中。</span><span class="sxs-lookup"><span data-stu-id="f94d6-109">The individual ratings are in a proficiency model.</span></span> 
+<span data-ttu-id="dcd8f-108">資源的技能由熟練程度模型所評等。</span><span class="sxs-lookup"><span data-stu-id="dcd8f-108">Skills for resources are rated by proficiency models.</span></span> <span data-ttu-id="dcd8f-109">個別評等是在熟練度模型中。</span><span class="sxs-lookup"><span data-stu-id="dcd8f-109">The individual ratings are in a proficiency model.</span></span> 
 
-1. <span data-ttu-id="f94d6-110">若要建立熟練度模型，請移至 **資源**\>**熟練度模型** ，然後選取 **新增** 。</span><span class="sxs-lookup"><span data-stu-id="f94d6-110">To create a proficiency model, go to **Resources** \> **Proficiency Models** , and then select **New**.</span></span>
-2. <span data-ttu-id="f94d6-111">在新的評等模型中，指定最小評等值、最大評等值以及要加以評等的實體。</span><span class="sxs-lookup"><span data-stu-id="f94d6-111">In the new rating model, specify the minimum rating value, the maximum rating value, and the entity that is being rated.</span></span>
-3. <span data-ttu-id="f94d6-112">在 **評等值** 子格中，您可以定義從最小值到最大值的不同評等值。</span><span class="sxs-lookup"><span data-stu-id="f94d6-112">In the **Rating Values** sub-grid, you can define the different rating values, from the minimum to the maximum.</span></span>
+1. <span data-ttu-id="dcd8f-110">若要建立熟練度模型，請移至 **資源**\>**熟練度模型**，然後選取 **新增**。</span><span class="sxs-lookup"><span data-stu-id="dcd8f-110">To create a proficiency model, go to **Resources** \> **Proficiency Models**, and then select **New**.</span></span>
+2. <span data-ttu-id="dcd8f-111">在新的評等模型中，指定最小評等值、最大評等值以及要加以評等的實體。</span><span class="sxs-lookup"><span data-stu-id="dcd8f-111">In the new rating model, specify the minimum rating value, the maximum rating value, and the entity that is being rated.</span></span>
+3. <span data-ttu-id="dcd8f-112">在 **評等值** 子格中，您可以定義從最小值到最大值的不同評等值。</span><span class="sxs-lookup"><span data-stu-id="dcd8f-112">In the **Rating Values** subgrid, you can define the different rating values, from the minimum to the maximum.</span></span>
 
 > ![定義的最小與最大評等](media/Resource-Management-image85.png)
 
-<span data-ttu-id="f94d6-114">這些評等值會顯示在 **資源需求** 、 **排程面板和** 和 **排程小幫手** 篩選上。</span><span class="sxs-lookup"><span data-stu-id="f94d6-114">These rating values are shown on the **Resource Requirements** , **Schedule Board** , and **Schedule Assistant** filters.</span></span>
+<span data-ttu-id="dcd8f-114">這些評等值會顯示在 **資源需求**、**排程面板和** 和 **排程小幫手** 篩選上。</span><span class="sxs-lookup"><span data-stu-id="dcd8f-114">These rating values are shown on the **Resource Requirements**, **Schedule Board**, and **Schedule Assistant** filters.</span></span>
