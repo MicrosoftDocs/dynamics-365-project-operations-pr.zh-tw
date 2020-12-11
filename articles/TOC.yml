@@ -38,6 +38,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: 新增功能
       items:
+        - name: 2020 年 12 月 - 資源/非庫存型案例適用的 Project Operations
+          href: whats-new/whats-new-dec-2020-resource-based.md
         - name: 2020 年 11 月 - 資源/非庫存型案例適用的 Project Operations
           href: whats-new/whats-new-nov-2020-resource-based.md
     - name: 專案銷售處理
@@ -87,7 +89,7 @@
                 - name: 管理專案型報價明細上的多個客戶
                   href: sales/manage-multiple-customers-quote-line.md
                 - name: 設定專案報價明細的應收費元件
-                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
+                  href: sales/configure-chargeable-quoteline.md
                 - name: 在報價明細上建立估計值
                   href: sales/create-estimate-quote-line.md
                 - name: 將專案中的估計值匯入至專案型報價明細
@@ -109,7 +111,7 @@
             - name: 管理專案合約上的專案價目表
               href: sales/contracts-manage-project-price-lists.md
             - name: 管理專案合約上的多個客戶
-              href: sales/contracts-manage-project-price-lists.md
+              href: sales/manage-multiple-customers-contract.md
             - name: 專案型合約服務內容
               items:
                 - name: 專案型合約服務內容概觀
@@ -128,6 +130,14 @@
               href: pro/sales/confirm-contract-sales.md
             - name: 複製專案合約
               href: pro/sales/copy-project-contracts-sales.md
+            - name: 預付款和保留款
+              items:
+                - name: 預付款及保留款型合約 - 精簡
+                  href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+                - name: 設定保留款排程 - 精簡
+                  href: pro/sales/set-up-schedule-retainers-sales.md
+                - name: 在合約上建立專項預付金 - 精簡
+                  href: pro/sales/create-ad-hoc-advance-sales.md
     - name: 定價和成本計算
       items:
         - name: 價目表設定
@@ -158,10 +168,18 @@
           items:
             - name: 定價維度概觀
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: 建立自訂定價維度解決方案
+              href: sales/create-solution-custompd.md
             - name: 使用現有欄位做為定價維度
               items:
                 - name: 做為定價維度的 Project Operations 欄位
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: 使用可預約資源做為定價維度
+                  href: sales/use-br-as-pd.md
+                - name: 使用交易類別做為定價維度
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: 具有專案中多個角色的可預約資源
+                  href: sales/br-playing-multiple-roles.md
             - name: 做為定價維度的自訂欄位
               items:
                 - name: 將自訂欄位及實體建立為定價維度
@@ -170,6 +188,8 @@
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
                 - name: 將自訂欄位設定為定價維度
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: 更新外掛程式屬性以包含新的定價維度
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: 關閉定價維度
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: 專案管理
@@ -250,12 +270,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: 資源管理
           items:
+            - name: 建立資源
+              href: resource-management/create-resources.md
             - name: 定義技能和熟練度
               href: resource-management/define-skills-proficiencies.md
+            - name: 定義角色
+              href: resource-management/define-roles.md
             - name: 定義資源行事曆
               href: resource-management/define-resource-calendars.md
         - name: 預約配置方法
           href: resource-management/booking-allocation-methods.md
+        - name: 預約狀態
+          href: resource-management/booking-status.md
         - name: 技能和熟練度模型
           href: resource-management/skills-proficiency-models.md
         - name: 資源協調
@@ -354,6 +380,8 @@
           href: proforma-invoicing/create-manual-proforma-invoice.md
         - name: 管理專案預估發票
           href: proforma-invoicing/manage-proforma-invoice.md
+        - name: 開立定額保留後隨用即扣型付款 (或預付金) 的發票
+          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
         - name: 確認專案預估發票
           href: proforma-invoicing/confirm-proforma-invoice.md
         - name: 設定專案發票自動化
@@ -370,6 +398,32 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Project Operations 中的整合帳目
           href: project-accounting/project-operations-integration-journal.md
+        - name: 公司間開立開票
+          items:
+            - name: 公司間開立開票概觀
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: 設定公司間開立發票
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: 建立公司間客戶與廠商發票
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+            - name: 建立公司間交易
+              href: project-accounting/create-intercompany-transactions.md
+    - name: 收入認列
+      items:
+        - name: 收入認列概觀
+          href: revenue-recognition/revenue-recognition-overview.md
+        - name: 設定收入認列
+          items:
+            - name: 設定期間類型
+              href: project-accounting/period-types.md
+            - name: 設定成本範本
+              href: revenue-recognition/rev-rec-cost-templates.md
+        - name: 管理營收預估值
+          href: revenue-recognition/rev-rec-completed-contract-method.md
+        - name: 固定價格營收估計專案
+          href: revenue-recognition/rev-rec-percentage-completion-method.md
+        - name: 完工成本法
+          href: revenue-recognition/cost-complete-methods.md
 - name: 精簡部署 - 交易至開立預估發票
   items:
     - name: 開始使用
@@ -386,6 +440,8 @@
           href: environment/security-model.md
     - name: 新增功能
       items:
+        - name: 2020 年 12 月新增功能 - 精簡部署 - 交易至開立預估發票
+          href: pro/whats-new/whats-new-dec-2020-lite.md
         - name: 2020 年 11 月新增功能 - 精簡部署 - 交易至開立預估發票
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: 專案銷售處理
@@ -538,10 +594,18 @@
           items:
             - name: 定價維度概觀
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: 建立自訂定價維度解決方案
+              href: sales/create-solution-custompd.md
             - name: 使用現有欄位做為定價維度
               items:
-                - name: 使用現有欄位做為定價維度
+                - name: 做為定價維度的 Project Operations 欄位
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: 使用可預約資源做為定價維度
+                  href: sales/use-br-as-pd.md
+                - name: 使用交易類別做為定價維度
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: 具有專案中多個角色的可預約資源
+                  href: sales/br-playing-multiple-roles.md
             - name: 做為定價維度的自訂欄位
               items:
                 - name: 將自訂欄位及實體建立為定價維度
@@ -550,6 +614,8 @@
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
                 - name: 將自訂欄位設定為定價維度
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: 更新外掛程式屬性以包含新的定價維度
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: 關閉定價維度
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: 專案管理
@@ -626,12 +692,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: 資源管理
           items:
+            - name: 建立資源
+              href: resource-management/create-resources.md
             - name: 定義技能和熟練度
               href: resource-management/define-skills-proficiencies.md
+            - name: 定義角色
+              href: resource-management/define-roles.md
             - name: 定義資源行事曆
               href: resource-management/define-resource-calendars.md
         - name: 預約配置方法
           href: resource-management/booking-allocation-methods.md
+        - name: 預約狀態
+          href: resource-management/booking-status.md
         - name: 技能和熟練度模型
           href: resource-management/skills-proficiency-models.md
         - name: 資源協調
@@ -834,6 +906,8 @@
       items:
         - name: Project Service 3.x 的更新版本排程
           href: psa/version-history-ps.md
+        - name: 更新版本 26 V3 的新功能或變更
+          href: psa/whats-new-ur-26.md
         - name: 更新版本 25 V3 的新功能或變更
           href: psa/whats-new-ur-25.md
         - name: 更新版本 24 V3 的新功能或變更
