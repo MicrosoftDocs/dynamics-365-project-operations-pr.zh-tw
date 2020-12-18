@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dc3b353f19b915f645aed91dc2a8127117027034
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a6dfa51f59119834230b7c9f8859a9d85eaae999
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121118"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642939"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>註冊資源/非庫存案例適用的 Project Operations 預覽版訂閱
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 本主題說明如何訂閱預覽/合作夥伴供應項目，以及部署資源/非庫存型案例適用的 Project Operations 環境。
 
@@ -42,7 +44,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 開始之前，請確定您已使用您要預覽 Project Operations 所在租用戶中的使用者公司帳戶來登入瀏覽器。
 
-1. 在瀏覽器 URL 中貼上第一個供應項目代碼 **Dynamics 365 Project Operations (CRM) - 預覽版試用** 以進行兌換。
+1. 將第一個優惠馬貼到瀏覽器 URL 中來兌換 **Dynamics 365 Project Operations (CRM) - 預覽版試用**。
 
 ![兌換供應項目](./media/16RedeemFirstOfferNew.png)
 
@@ -75,7 +77,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 ![指派授權](./media/15AssignLicenses.png)
 
-3. 確認是否已選取 **Dynamics 365 Project Operations (CRM) 預覽** 及 **Office 365 Project Operations - 預覽** 授權，然後選取 **儲存變更**。
+3. 確認 **Dynamics 365 Project Operations (CRM) 預覽** 和 **Office 365 Project Operations - 預覽** 授權已選取，然後選取 **儲存變更**。
 
 > [!NOTE]
 > Finance 試用版供應項目不需要指派給使用者。

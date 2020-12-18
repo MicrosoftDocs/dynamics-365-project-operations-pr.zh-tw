@@ -1,5 +1,5 @@
 ---
-title: 開立定額保留後隨用即扣型付款或預付金的發票 - 精簡
+title: 開立定額保留後隨用即扣型付款或預付金的發票
 description: 本主題提供有關如何在 Project Operations 中開立定額保留後隨用即扣型付款 (保留款) 或預付金發票的資訊。
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180542"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596182"
 ---
-# <a name="invoice-a-retainer-or-an-advance---lite"></a>開立定額保留後隨用即扣型付款或預付金的發票 - 精簡
+# <a name="invoice-a-retainer-or-an-advance"></a>開立定額保留後隨用即扣型付款 (或預付金) 的發票
 
-_**適用於：** 精簡部署 - 交易至開立預估發票_
+_**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
-Dynamics 365 Project Operations 支援定額保留後隨用即扣型合約 (保留款型合約) 和一次性預付金。 在專案合約上，您可以記錄保留款排程或一次性預付金。 不過，在專案合約層級上所做的記錄並不會立即讓保留款或預付金變成可供使用。 若要在實際收取客戶費用的發票上使用保留款或預付金，必須先開立保留款或預付金的發票。
+Dynamics 365 Project Operations 支援保留款型合約和一次性預付金。 在專案合約上，您可以記錄保留款排程或一次性預付金。 不過，在專案合約層級上所做的記錄並不會立即讓保留款或預付金變成可供使用。 若要在實際收取客戶費用的發票上使用保留款或預付金，必須先開立保留款或預付金的發票。
 
 完成下列步驟，開立保留款或預付金的發票。
 

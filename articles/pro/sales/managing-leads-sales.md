@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 00fc16b0e723d4df88ceae961d9772e26dd1451e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 5e789295d4b1f5a53fcf179a2998f60d35f48f99
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180497"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513779"
 ---
 # <a name="manage-leads---lite"></a>管理潛在客戶 - 精簡
 
@@ -23,7 +23,7 @@ _**適用於：** 精簡部署 - 交易至開立預估發票_
 
 ## <a name="list-of-project-sales-leads"></a>專案銷售潛在客戶清單
 
-在 **銷售** 區段的左導覽窗格中，開啟 **潛在客戶** 清單頁面，以檢視系統中所有潛在客戶記錄的清單。 如果您也有 Dynamics 365 Sales 或 Dynamics 365 Field Service 應用程式，則顯示的潛在客戶清單是工作型潛在客戶及其他可建立之類型的潛在客戶。
+在 **銷售** 區段的左導覽窗格中，開啟 **潛在客戶** 清單頁面，以檢視系統中所有潛在客戶記錄的清單。 如果您也有 Dynamics 365 Sales 或 Dynamics 365 Field Service 應用程式，則清單中的潛在客戶都是工作型，而且可以建立其他的潛在客戶類型。
 
 您可以建立依據 **類型** 值的篩選來建立篩選過的檢視，只查看專案型潛在客戶。 例如，您可以選擇只顯示工作型潛在客戶。
 

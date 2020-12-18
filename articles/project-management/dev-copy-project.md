@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 0100c29873be6346614e958ef6ea0c77da2c9590
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 22976730ef3c8c22ea028b27a6eb5f14fb88993e
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131603"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642398"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>使用複製專案來開發專案範本
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
-Dynamics 365 Project Operations 支援複製專案以及將任何指派還原回一般資源 (代表角色) 的功能。 客戶可以使用此功能來建立基本專案範本。
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Dynamics 365 Project Operations 支援複製專案，並將任何指派回復為代表角色之一般資源的能力。 客戶可以使用此功能來建立基本專案範本。
 
 選取 **複製專案** 時，目標專案的狀態會更新。 使用 **狀態原因** 來判斷複製動作何時完成。 選取 **複製專案** 時，如果在目標專案實體中偵測不到目標日期，也會將專案的開始日期更新為目前的開始日期。
 

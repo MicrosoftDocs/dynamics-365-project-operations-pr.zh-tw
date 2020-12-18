@@ -3,17 +3,17 @@ title: 費用項目 (精簡)
 description: 本主題提供有關如何在精簡部署中處理費用項目的資訊。
 author: stsporen
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 11/19/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 536c961593599df8e7e2986f92259b0e690eae8b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d87094882751f0751a8d9d539fa4cdcfc6b7b0d7
+ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121073"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4590936"
 ---
 # <a name="expense-entry-lite"></a>費用項目 (精簡)
 
@@ -21,7 +21,7 @@ _**適用於：** 精簡部署 - 交易至開立預估發票_
 
 基本 (或精簡) 費用管理是用於記錄簡單費用的功能。 您可以針對專案來記錄費用，然後專案核准者會審查並核准這些費用。
 
-如需 Dynamics 365 Project Operations 中費用功能的詳細資訊，請參閱[費用概觀](expense-overview.md)。
+如需有關 Dynamics 365 Project Operations 中費用功能的詳細資訊，請參閱[費用概觀](expense-overview.md)。
 
 ## <a name="capture-a-basic-expense"></a>擷取基本費用
 
@@ -36,6 +36,10 @@ _**適用於：** 精簡部署 - 交易至開立預估發票_
 
 1. 移至 **費用**，然後選取費用。 或者，使用標題上的核取方塊來選取所有的費用。
 2. 選取 **送出**。 系統會處理選取的項目，然後建立費用核准要求。
+
+## <a name="add-an-attachment"></a>新增附件
+
+您可能必須為核准者提供費用的額外文件。 您可以在費用項目的時間表中附加收據。 選取 **編輯** 並在 **時間表** 區段中選取迴紋針圖示以附加收據。
 
 ## <a name="recall-a-basic-expense"></a>回收基本費用
 

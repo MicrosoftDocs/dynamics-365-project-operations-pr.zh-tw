@@ -1,5 +1,5 @@
 ---
-title: 設定保留款排程 - 精簡
+title: 設定保留款排程
 description: 此主題提供如何在 Project Operations 中設定保留款排程的資訊。
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5e0312b89d9969f140146b6aaaa9bdcfde702c0b
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1c264b544660cf7a0b116f09b6bd7c94fcf0457e
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181262"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596362"
 ---
-# <a name="set-up-a-retainer-schedule---lite"></a>設定保留款排程 - 精簡
+# <a name="set-up-a-retainer-schedule"></a>設定保留款排程
 
-_**適用於：** 精簡部署 - 交易至開立預估發票_
+_**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
-在 Dynamics 365 Project Operations 的 **專案合約** 頁面上設定保留款計劃。
+在 Dynamics 365 Project Operations 的 **專案合約** 頁面上設定保留款排程。
 
 1. 在 **專案合約** 頁面的 **預付款和保留款** 索引標籤中，選取 **設定保留款排程**。
 2. 在開啟的對話方塊頁面上，會顯示下表列出的欄位。 下表給出了所輸入的值如何影響將建立的保留款排程的想法。

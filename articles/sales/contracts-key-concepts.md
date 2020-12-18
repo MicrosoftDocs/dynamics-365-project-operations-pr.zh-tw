@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 24b3fcd74e4167ba419e12c890a119d22c54c99a
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: fa00bd5b4a1179f38d5dfb63a47b39eec69c6ecf
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175521"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642128"
 ---
 # <a name="project-contracts---key-concepts"></a>專案合約 - 重要概念
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
-本主題提供開始使用 Dynamics 365 Project Operations 中的專案合約前，需要了解的重要概念：
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+此主題提供在 Dynamics 365 Project Operations 中開始使用專案合約之前，需注意的重要概念：
 
 ## <a name="owning-company"></a>負責公司
 

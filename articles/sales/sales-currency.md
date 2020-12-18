@@ -17,16 +17,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d4e1d73dc183ed572fb5099d055d2fbe0c08746
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 093eaa78b5f88aee364a753374a56c33e20a5ce3
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121208"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642263"
 ---
 # <a name="currency"></a>貨幣
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 貨幣會決定 [產品類別目錄] 中的產品價格，以及交易的成本 (例如銷售訂單)。 如果您的客戶分散橫跨不同地理位置，請新增他們的貨幣以管理您的交易。 新增最適合您目前和未來業務需求的貨幣。  
 

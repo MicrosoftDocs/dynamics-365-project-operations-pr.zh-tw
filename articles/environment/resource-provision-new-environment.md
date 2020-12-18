@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121163"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642951"
 ---
 # <a name="provision-a-new-environment"></a>佈建新的環境
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
-本主題提供有關如何為資源/非庫存型案例佈建新的 Dynamics 365 Project Operations 環境的資訊。
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+此主題提供關於如何佈建新的資源/非庫存型案例適用的 Dynamics 365 Project Operations 環境的資訊。
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>在 LCS 專案中啟用 Project Operations 自動化佈建
 
@@ -120,7 +122,7 @@ Project Operations 需要應用程式版本為 **10.0.13 (10.0.569.20009)** 或�
 
 ![套用解決方案](./media/13ApplySolutions.png)
 
-5. 選取 **Dynamics 365 Finance and Operations 雙重寫入實體對應** 和 **Dynamics 365 Project Operations 雙重寫入實體對應** 這兩個解決方案，然後選取 **套用**。
+5. 選取兩個解決方案 **Dynamics 365 Finance and Operations 雙重寫入實體對應** 和 **Dynamics 365 Project Operations 雙重寫入實體對應**，然後選取 **套用**。
 
 ![確認解決方案](./media/14ConfirmSolutions.png)
 
@@ -160,6 +162,7 @@ Project Operations 需要應用程式版本為 **10.0.13 (10.0.569.20009)** 或�
 | --- | --- | --- | --- | --- | --- |
 | **所有公司的專案資源角色 (bookableresourcecategories)** | 無 | .是 | Common Data Service | 無 | 不適用 |
 | **法律實體 (cdm\_companies)** | 無 | .是 | Finance and Operations 應用程式 | 無 | 不適用 |
+| **分類帳 (msdyn_ledgers)** | 無 | .是 | Finance and Operations 應用程式 | .是 | 是，Finance and Operations 應用程式 |
 | **Project Operations 整合實際值 (msdyn\_actuals)** | 無 | 無 | 不適用 | .是 | 無 |
 | **專案合約服務內容 (salesorderdetails)** | 無 | 無 | 不適用 | 無 | 無 |
 | **專案交易關聯的整合實體 (msdyn\_transactionconnections)** | 無 | 無 | 不適用 | 無 | 不適用 |

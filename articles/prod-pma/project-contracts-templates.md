@@ -17,16 +17,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 9e4f11ec0bb88ed0971a3d082e7ca7823fcf8453
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073130"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642623"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>將專案合約和專案直接從 Project Service Automation 同步處理至 Finance and Operations
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 本主題說明用於將專案合約和專案直接從 Dynamics 365 Project Service Automation 同步處理至 Dynamics 365 Finance 的範本與基礎工作。
 
@@ -46,7 +48,7 @@ Project Service Automation 至 Finance 整合解決方案會使用資料整合�
 
 ## <a name="templates-and-tasks"></a>範本與工作
 
-若要存取可用範本，請在 Microsoft Power Apps 系統管理中心選取 **專案** ，然後選取右上角的 **新增專案** 以選取公用範本。
+若要存取可用範本，請在 Microsoft Power Apps 系統管理中心選取 **專案**，然後選取右上角的 **新增專案** 以選取公用範本。
 
 下列範本與基礎工作會用來將專案合約和專案從 Project Service Automation 同步處理至 Finance：
 
@@ -95,20 +97,20 @@ Project Service Automation 中發生中繼資料變更，這會影響專案合�
 
 **專案合約識別碼** 欄位可在 **專案合約** 頁面上找到。 此欄位已設定為用來支援整合的自然對唯一索引鍵。
 
-建立新的專案合約時，如果還沒有 **專案合約識別碼** 值，就會使用數字序列自動產生此值。 此值由後面跟著一個遞增數字序列的 **ORD** 以及再接著的六字元尾碼所組成。 以下是範例： **ORD-01022-Z4M9Q0** 。
+建立新的專案合約時，如果還沒有 **專案合約識別碼** 值，就會使用數字序列自動產生此值。 此值由後面跟著一個遞增數字序列的 **ORD** 以及再接著的六字元尾碼所組成。 以下是範例：**ORD-01022-Z4M9Q0**。
 
 **專案編號** 欄位可在 **專案** 頁面上找到。 此欄位已設定為用來支援整合的自然對唯一索引鍵。
 
-建立新的專案合約時，如果還沒有 **專案編號** 值，就會使用數字序列自動產生此值。 此值由後面跟著一個遞增數字序列的 **PRJ** 以及再接著的六字元尾碼所組成。 以下是範例： **PRJ-01049-CCNID0** 。
+建立新的專案合約時，如果還沒有 **專案編號** 值，就會使用數字序列自動產生此值。 此值由後面跟著一個遞增數字序列的 **PRJ** 以及再接著的六字元尾碼所組成。 以下是範例：**PRJ-01049-CCNID0**。
 
-套用 Project Service Automation 至 Finance 整合解決方案時，升級指令碼會在 Project Service Automation 中設定現有專案合約的 **專案合約識別碼** 以及現有專案的 **專案編號** 。
+套用 Project Service Automation 至 Finance 整合解決方案時，升級指令碼會在 Project Service Automation 中設定現有專案合約的 **專案合約識別碼** 以及現有專案的 **專案編號**。
 
 ## <a name="prerequisites-and-mapping-setup"></a>先決條件與對應設定
 
 - 您必須先同步處理帳戶，才能進行專案合約和專案同步處理。
 - 在您的連接集中，新增 **msdyn\_organizationalunits** 至 **msdyn\_name \[名稱\]** 的整合索引鍵欄位對應。 您可能需要先將專案新增至連接集。 如需詳細資訊，請參閱[將資料整合至應用程式適用的 Common Data Service](https://docs.microsoft.com/powerapps/administrator/data-integrator)。
 - 在您的連接集中，新增 **msdyn\_projects** 至 **msdynce\_projectnumber \[專案編號\]** 的整合索引鍵欄位對應。 您可能需要先將專案新增至連接集。 如需詳細資訊，請參閱[將資料整合至應用程式適用的 Common Data Service](https://docs.microsoft.com/powerapps/administrator/data-integrator)。
-- 專案合約和專案的 **SourceDataID** 可以更新為不同的值，或從對應中移除。 預設範本值是 **Project Service Automation** 。
+- 專案合約和專案的 **SourceDataID** 可以更新為不同的值，或從對應中移除。 預設範本值是 **Project Service Automation**。
 - **PaymentTerms** 對應必須更新，以便在 Finance 中反映有效的付款條件。 您也可以從專案工作移除對應。 預設值對應具有示範資料的預設值。 下表顯示 Project Service Automation 中的值。
 
     | 值 | 描述   |
@@ -133,9 +135,9 @@ Project Service Automation 中發生中繼資料變更，這會影響專案合�
 ## <a name="template-mapping-in-data-integration"></a>資料整合中的範本對應
 
 > [!NOTE] 
-> **CustomerReference** 、 **AddressCity** 、 **AddressCountryRegionID** 、 **AddressDescription** 、 **AddressLine1** 、 **AddressLine2** 、 **AddressState** 和 **AddressZipCode** 欄位不會包含在專案合約的預設對應中。 如果專案合約需要同步處理此資料，您可以新增對應。
+> **CustomerReference**、**AddressCity**、**AddressCountryRegionID**、**AddressDescription**、**AddressLine1**、**AddressLine2**、**AddressState** 和 **AddressZipCode** 欄位不會包含在專案合約的預設對應中。 如果專案合約需要同步處理此資料，您可以新增對應。
 >
-> **描述** 、 **ParentID** 、 **ProjectGroup** 、 **ProjectManagerPersonnelNumber** 和 **ProjectType** 欄位不會包含在專案的預設對應中。 如果專案需要同步處理此資料，您可以新增對應。
+> **描述**、**ParentID**、**ProjectGroup**、**ProjectManagerPersonnelNumber** 和 **ProjectType** 欄位不會包含在專案的預設對應中。 如果專案需要同步處理此資料，您可以新增對應。
 
 下圖顯示資料整合中的範本工作對應範例。 此對應顯示會從 Project Service Automation 同步處理至 Finance 的欄位資訊。
 

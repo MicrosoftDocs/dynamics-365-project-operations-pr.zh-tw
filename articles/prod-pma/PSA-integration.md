@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e1a963bccefd1552aab6e42d3b2d1dc63a82e8f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d9ccbb29d5035ea061d232011af87cef2c81e76c
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073137"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642443"
 ---
 # <a name="project-service-automation-overview"></a>Project Service Automation 概觀
 
 [!include[banner](../includes/banner.md)]
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Project Service Automation 至 Finance 整合解決方案會使用資料整合功能，透過 Common Data Service 跨 Dynamics 365 Finance 與 Dynamics 365 Project Service Automation 的執行個體來同步處理資料。 可與資料整合功能搭配使用的整合範本會啟用從 Project Service Automation 到 Finance 的專案、專案合約、專案合約服務內容、專案合約服務內容里程碑、專案工作、費用交易類別、工時估計及費用估計流程。
 

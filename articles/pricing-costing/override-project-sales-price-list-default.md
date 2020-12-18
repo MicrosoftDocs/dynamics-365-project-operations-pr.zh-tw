@@ -5,15 +5,16 @@ author: rumant
 manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c97dca8685c2db7d256017cf4442416feb0e005b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
+ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130838"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672221"
 ---
 # <a name="override-project-sales-price-lists"></a>覆寫專案銷售價目表
 
@@ -27,7 +28,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 1. 開啟 **帳戶** 清單頁面。
 2. 找到並按兩下客戶記錄以開啟 **帳戶** 詳細資料頁面。
-3. 在 **專案價目表** 索引標籤上，選擇 **+ 新增專案價目表^^。
+3. 在 **專案價目表** 索引標籤上，選擇 **+ 新增專案價目表**。
 4. 在 **新的專案價目表** 頁面上，從下拉清單中選擇價目表。 只會包含內容已設定為 **銷售** 且其貨幣符合帳戶貨幣的價目表。
 5. 命名關聯，然後選取 **儲存**。 隨即建立客戶特定的專案價目表。 如果報價或專案合同的建立日期落在價目表的有效期內，則此價目表將用於為此客戶建立的專案報價或合約的預設專案價格。
 

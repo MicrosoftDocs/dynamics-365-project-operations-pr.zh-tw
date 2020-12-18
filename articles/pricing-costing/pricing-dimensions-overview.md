@@ -3,26 +3,18 @@ title: 定價維度概觀
 description: 本主題提供有關 Dynamics 365 Project Operations 中定價維度的資訊。
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ec2e350e0e4c28ea1c9540d70c83fdf0a75dc408
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.author: rumant
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128453"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650175"
 ---
 # <a name="pricing-dimensions-overview"></a>定價維度概觀
 
@@ -40,9 +32,21 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 ## <a name="pricing-dimensions"></a>定價維度
 
-Dynamics 365 Project Operations 隨附一組預設的定價維度。 您可以移至 **Project Operations** > **參數** 來檢視這些定價維度。 在參數記錄的 **以金額為準的定價維度** 索引標籤上，確認角色 **msdyn_resourcecategory** 和資源分配單位 **msdyn_organizationalunit** 的 **適用於銷售** 及 **適用於成本** 欄位已設定為 **是**。 啟用這些欄位後，您就可以設定每個角色與組織單位組合的價格和成本。
+Dynamics 365 Project Operations 隨附一組預設定價維度。 您可以移至 **Project Operations** > **參數** 來檢視這些定價維度。 在參數記錄的 **以金額為準的定價維度** 索引標籤上，確認角色 **msdyn_resourcecategory** 和資源分配單位 **msdyn_organizationalunit** 的 **適用於銷售** 及 **適用於成本** 欄位已設定為 **是**。 啟用這些欄位後，您就可以設定每個角色與組織單位組合的價格和成本。
 
-如果您需要使用其他屬性來為資源定訂價格或估算成本，則可以建立自訂欄位、實體和維度。
+![反白顯示「適用於銷售」的 Project Service 參數螢幕擷取畫面](media/PS-OOB-parameters.png)
+
+如果您需要使用其他屬性來為資源定訂價格或估算成本，則可以建立自訂欄位、實體和維度。 如需詳細資訊，請參閱下列主題。 
+  
+  > [!NOTE]
+  > 必須按照所列的順序來完成程序。
+
+1. [建立自訂定價維度解決方案](../sales/create-solution-custompd.md)
+2. [建立自訂欄位和實體](create-custom-fields-entities-pricing-dimensions.md)
+3. [將自訂欄位新增至價格設定與交易實體](add-custom-fields-price-setup-transactional-entities.md)
+4. [將自訂欄位設定為定價維度](set-up-custom-fields-pricing-dimensions.md)
+5. [更新外掛程式屬性以包含新的定價維度](update-plugin-attributes-pd.md)
+
 
 ## <a name="pricing-human-resource-time"></a>定訂人力資源時間價格
 組織對人力資源時間的定價方式通常是直接影響組織獲利能力的重要策略考量。 當您的組織準備好要確定其設定人力資源時間帳單及成本費率所需的方式時，請與財務團隊和執業負責人合作。

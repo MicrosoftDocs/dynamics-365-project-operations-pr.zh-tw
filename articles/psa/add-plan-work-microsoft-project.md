@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 86b676a0cf74e0257fd76cf32271497eebc06e75
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129668"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642758"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>使用 Project Service Automation 增益集在 Microsoft Project 中規劃您的工作
 
@@ -173,6 +173,59 @@ ms.locfileid: "4129668"
 4. 按一下 **發行**。  
 
 將專案檔案連結至 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]，讓專案檔案成為主要，並且在 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 範本中將分工結構圖設為唯讀。  若要對專案計劃進行變更，您需要在 [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] 中進行變更，並將它們做為更新發行至 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]。
+
+## <a name="read-a-resource-loaded-schedule"></a>讀取資源載入的排程
+
+從 Project Service Automation 讀取專案時，資源的行事曆並不會同步處理至桌面用戶端。 如果工作期間、工作或結束有差異，則可能是因為資源與桌面用戶端的專案中並未套用相同的工作時數範本行事曆。
+
+
+## <a name="data-synchronization"></a>資料同步
+
+下表概述如何在 Project Service Automation 與 Microsoft Project 桌面增益集之間同步處理資料。
+
+| **實體** | **欄位** | **Microsoft Project 至 Project Service Automation** | **Project Service Automation 至 Microsoft Project** |
+| --- | --- | --- | --- |
+| 專案工作 | Due Date | ● | - |
+| 專案工作 | 預估投入的資源 | ● | - |
+| 專案工作 | MS Project 用戶端識別碼 | ● | - |
+| 專案工作 | 上層工作 | ● | - |
+| 專案工作 | Project | ● | - |
+| 專案工作 | 專案工作 | ● | - |
+| 專案工作 | 專案工作名稱 | ● | - |
+| 專案工作 | 資源分配單位 (已於 v3.0 取代) | ● | - |
+| 專案工作 | 已排程的期間 | ● | - |
+| 專案工作 | 開始日期 | ● | - |
+| 專案工作 | WBS 識別碼 | ● | - |
+
+| **實體** | **欄位** | **Microsoft Project 至 Project Service Automation** | **Project Service Automation 至 Microsoft Project** |
+| --- | --- | --- | --- |
+| 小組成員 | MS Project 用戶端識別碼 | ● | - |
+| 小組成員 | 職位名稱 | ● | - |
+| 小組成員 | 專案 | ● | ● |
+| 小組成員 | 專案團隊 | ● | ● |
+| 小組成員 | 資源分配單位 | - | ● |
+| 小組成員 | 角色 | - | ● |
+| 小組成員 | 工作時數 | 未同步處理 | 未同步處理 |
+
+| **實體** | **欄位** | **Microsoft Project 至 Project Service Automation** | **Project Service Automation 至 Microsoft Project** |
+| --- | --- | --- | --- |
+| 資源指派 | 開始日期 | ● | - |
+| 資源指派 | 小時 | ● | - |
+| 資源指派 | MS Project 用戶端識別碼 | ● | - |
+| 資源指派 | 計劃的工作 | ● | - |
+| 資源指派 | Project | ● | - |
+| 資源指派 | 專案團隊 | ● | - |
+| 資源指派 | 資源指派 | ● | - |
+| 資源指派 | 工作​​ | ● | - |
+| 資源指派 | 至今 | ● | - |
+
+| **實體** | **欄位** | **Microsoft Project 至 Project Service Automation** | **Project Service Automation 至 Microsoft Project** |
+| --- | --- | --- | --- |
+| 專案工作相依性 | 專案工作相依性 | ● | - |
+| 專案工作相依性 | 連結類型 | ● | - |
+| 專案工作相依性 | 前置任務工作 | ● | - |
+| 專案工作相依性 | Project | ● | - |
+| 專案工作相依性 | 後續任務工作 | ● | - |
 
 ### <a name="see-also"></a>請參閱  
  [專案經理指南](../psa/project-manager-guide.md)

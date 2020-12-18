@@ -1,5 +1,5 @@
 ---
-title: 預付款及保留款型合約 - 精簡
+title: 預付金或定額保留後隨用即扣型合約
 description: 本主題提供 Project Operations 中有關定額保留後隨用即扣型合約模型和預付金的資訊。
 author: rumant
 manager: Annbe
@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1aee64bf683b7d8d0bcde284f2d5d484e689c4d2
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180857"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596092"
 ---
-# <a name="advances-and-retainer-based-contracts---lite"></a>預付款及保留款型合約 - 精簡
+# <a name="advances-and-retainer-based-contracts"></a>預付金或定額保留後隨用即扣型合約
 
 
-_**適用於：** 精簡部署 - 交易至開立預估發票_
+_**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
-Dynamics 365 Project Operations 支援定額保留後隨用即扣型合約。 定額保留後隨用即扣型合約是議定的一組均等分佈在整段專案期間向客戶開發票扣款的支付款項。 基於時間和材料型或基於耗用量的模型通常會使用此類型的合約，這些模型需要為客戶提供可預知的發票及付款排程。 每個期間應計的營收實際值都會在期間開始時，核對從客戶所收到的付款以進行差異協調。 根據時間和材料帳單模型的概念，每個期間應計的營收值可能會隨發生的成本而變化。 如果應計營收大於期間開始時收到的金額，則專案交付公司可以：
+Dynamics 365 Project Operations 支援保留款型合約。 定額保留後隨用即扣型合約是議定的一組均等分佈在整段專案期間向客戶開發票扣款的支付款項。 基於時間和材料型或基於耗用量的模型通常會使用此類型的合約，這些模型需要為客戶提供可預知的發票及付款排程。 每個期間應計的營收實際值都會在期間開始時，核對從客戶所收到的付款以進行差異協調。 根據時間和材料帳單模型的概念，每個期間應計的營收值可能會隨發生的成本而變化。 如果應計營收大於期間開始時收到的金額，則專案交付公司可以：
 
 - 只開立超額部分的發票給客戶 
 - 延至下一個開票期間再協調營收對帳差異，然後在專案結束時針對任何剩餘的未協調營收進行一次最終的帳務處理

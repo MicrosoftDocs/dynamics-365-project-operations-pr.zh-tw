@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ce37c9dd18fd01e599e8766389e42c066e182547
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 3381707457ef35ff604c716592afd8382b98ad5d
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177051"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643028"
 ---
 # <a name="project-contracts---key-concepts---lite"></a>專案合約 - 重要概念 - 精簡
 
 _**適用於：** 精簡部署 - 交易至開立預估發票_
 
-本主題提供開始使用 Dynamics 365 Project Operations 中的專案合約前，需要了解的重要概念：
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+此主題提供在 Dynamics 365 Project Operations 中開始使用專案合約之前，需注意的重要概念：
 
 ## <a name="contracting-unit"></a>合約單位
 
