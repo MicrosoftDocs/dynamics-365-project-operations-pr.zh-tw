@@ -33,3 +33,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 2. 使用 **檢視表切換器** 選取報價的其他篩選過的檢視。 您可以使用自訂篩選準則來設定自己的檢視和導覽選項。
 
 您可以從此清單頁面或詳細資料頁面建立或刪除報價。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

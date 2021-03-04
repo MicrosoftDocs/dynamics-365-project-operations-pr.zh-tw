@@ -140,3 +140,6 @@ Project Service Automation 至 Finance 整合解決方案會使用資料整合�
 [![範本對應 - 實際值更新](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![範本對應 - 交易更新](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

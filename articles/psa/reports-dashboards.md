@@ -40,3 +40,6 @@ Dynamics 365 Project Service Automation 包含兩個系統儀表板：**實務�
 ## <a name="resource-manager"></a>資源管理員 
 
 **資源管理員** 儀表板提供資源管理員用於監視資源要求和資源索求以及使用率的圖形化儀表板體驗。 此儀表板也會讓資源管理員依據各種維度來分割監視的資訊。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

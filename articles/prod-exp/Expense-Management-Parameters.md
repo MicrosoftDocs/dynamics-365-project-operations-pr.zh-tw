@@ -89,3 +89,6 @@ ms.locfileid: "4960372"
 | <strong>給提交者的反貪腐訊息</strong> |                                                                                             輸入建立新費用報表時要向員工顯示的文字。 按一下<strong>翻譯</strong>按鈕，根據使用者語言輸入顯示的語言特定文字。                                                                                             |
 | <strong>給核准者的反貪腐訊息</strong>  |                                                                                             輸入建立新費用報表時要向核准者顯示的文字。 按一下<strong>翻譯</strong>按鈕，根據使用者語言輸入顯示的語言特定文字。                                                                                             |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

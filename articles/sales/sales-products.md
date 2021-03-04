@@ -124,3 +124,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 - **產品 SKU** 
 
 您可以編輯產品明細的屬性，將 **使用者數** 和 **月數** 屬性標示為數量因數。 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -34,3 +34,6 @@ ms.locfileid: "5145708"
 系統會記錄所有在專案期間發生的財務交易。 這些交易記錄會以 **實際值** 來記錄。 下表顯示根據專案是時間及材料專案、固定價格專案還是內部專案，或是否在售前階段，所建立的不同類型實際值。
 
 > ![顯示實際值如何進行記錄的表格](media/advanced-table2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

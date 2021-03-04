@@ -110,3 +110,6 @@ Dynamics 365 Project Service Automation 和 Dynamics 365 Field Service 都會使
  
 在未產生的團隊成員上變更不同資源分配組織單位的預設值，正是我們建議下列作法的原因：您應該在升級之前，針對每個包含一般資源的專案產生或重新產生團隊，以免組織單位指派遺失。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

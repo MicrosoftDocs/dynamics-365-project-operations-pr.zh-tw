@@ -96,3 +96,6 @@ Microsoft Dynamics 365 Project Timesheet 行動應用程式 (iPhone 或 Android)
 ## <a name="review-timesheets"></a>審查時程表
 
 您可以在功能表中找到需要審查的時程表清單。 此選項只有在將您指定為工作流程核准者時，才會提供。 支援標題和明細核准。 明細等級核准提供標示一行或多行明細以供核准的功能。 審查時程表資訊之後，按一下 **核准** 、 **委派** 或 **退回** 以繼續工作流程。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

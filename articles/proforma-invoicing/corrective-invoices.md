@@ -36,3 +36,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 - 六小時的已開單銷售實際。
 - 剩餘兩個小時的未開單銷售實際值。 依據與客戶的協商，此交易可以稍後再開帳單，或標示為不應收費。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

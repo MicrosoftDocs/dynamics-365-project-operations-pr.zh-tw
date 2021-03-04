@@ -98,3 +98,6 @@ Project Operations 透過法律實體層級設定在同一個環境中支援庫�
 
 若要進行此部署，請參閱[註冊預覽版訂閱](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/finance/toc.json)和[佈建新環境](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/finance/toc.json)。 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

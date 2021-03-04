@@ -38,3 +38,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 > [!NOTE]
 > 您可以使用各自的 URL，直接存取 Common Data Service 中的 Project Operations 和 **專案管理及會計** 模組。 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

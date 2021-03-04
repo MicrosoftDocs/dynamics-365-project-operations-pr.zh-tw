@@ -44,3 +44,6 @@ ms.locfileid: "4073054"
 10. 當此配置是您想要的方式時，按一下 [專案預算] 頁面中的 [提交]，將預算或預算修訂傳送至核准工作流程。  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

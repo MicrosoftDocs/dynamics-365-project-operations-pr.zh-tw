@@ -25,3 +25,6 @@ ms.lasthandoff: 10/28/2020
 ms.locfileid: "4124583"
 ---
 # <a name="sample-data-home-page"></a>範例資料首頁
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

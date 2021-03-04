@@ -61,3 +61,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 複製專案時，會從來源專案複製資源及費用估計明細。 
 
 如需有關如何以程式設計方式存取 [複製專案] 的詳細資訊，請參閱[使用 [複製專案] 開發專案範本](dev-copy-project.md)。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

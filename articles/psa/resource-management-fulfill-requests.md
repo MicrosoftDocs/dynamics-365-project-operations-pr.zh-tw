@@ -46,3 +46,6 @@ ms.locfileid: "5147598"
 > ![已選取的資源](media/Resource-Management-image61.png)
 
 一般團隊成員會在專案排程的專案團隊及工作指派中取代為已確認預約的具名資源。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

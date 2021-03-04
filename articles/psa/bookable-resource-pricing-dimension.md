@@ -76,3 +76,6 @@ ms.locfileid: "5144988"
 5. 將 **msdyn_projectteam** 新增至 **實體邏輯名稱** 欄位，並將 **msdyn_bookableresourceid** 新增至 **欄位名稱** 欄位。 儲存記錄。
 
  ![新增定價維度欄位名稱表單](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

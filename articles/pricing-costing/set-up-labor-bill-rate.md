@@ -55,3 +55,6 @@ ms.locfileid: "4180678"
     | Developer | Fabrikam US | Fabrikam US - Robotics | $150 |
 
 3. 將銷售價目表 **Fabrikam US 帳單費率** 附加至專案合約的專案價目表，或附加至特定帳戶。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

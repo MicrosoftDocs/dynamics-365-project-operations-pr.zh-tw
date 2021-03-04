@@ -42,3 +42,6 @@ Project Operations 本身就很強大，但是需要 Dynamics 365 提供額外�
 - [Project Operations 概觀](https://dynamics.microsoft.com/en-us/project-operations/overview/)
 - [Dynamics 365 Project Operations 2020 年第 1 段發行浪潮概觀](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

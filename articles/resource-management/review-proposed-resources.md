@@ -62,3 +62,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 若要檢視更多關於個別資源的詳細資料，請在其上按滑鼠右鍵以開啟資源卡片。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

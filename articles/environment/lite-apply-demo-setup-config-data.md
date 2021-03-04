@@ -74,3 +74,6 @@ _**精簡部署 - 交易至開立預估發票_
     -   可預約資源特性
 
     ![匯入完成](./media/6CompleteImport.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

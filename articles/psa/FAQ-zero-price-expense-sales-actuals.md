@@ -72,3 +72,6 @@ ms.locfileid: "5146293"
 如果執行上述三項檢查後，費用銷售實際值上仍未看到有效價格，請記入支援票證。
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

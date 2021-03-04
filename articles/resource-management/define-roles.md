@@ -20,3 +20,6 @@ ms.locfileid: "4514499"
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
 您可以使用 Dynamics 365 Field Service 中所提供的功能，來定義 Dynamics 365 Project Operations 環境中的角色。 若要完成此設定，請參閱[設定可預約資源類別](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resource-categories)。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

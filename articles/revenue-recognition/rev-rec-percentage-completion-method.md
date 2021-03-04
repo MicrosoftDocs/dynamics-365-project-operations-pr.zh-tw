@@ -35,3 +35,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
   專案成本、營收設定檔、成本範本以及期間代碼可以手動設定。 如果不是手動設定，則這些值將預設為使用為專案成本和營收設定檔所設定規則在專案的第一次估計值計算。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

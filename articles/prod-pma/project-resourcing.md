@@ -55,3 +55,6 @@ ms.locfileid: "4072982"
 - [專案資源排程效能](project-scheduling-performance.md)
 - [在分工結構圖範本上設定角色](set-up-roles-wbs-template.md)
 - [規劃資源的資源履行](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

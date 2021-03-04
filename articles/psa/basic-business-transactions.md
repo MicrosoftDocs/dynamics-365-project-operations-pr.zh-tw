@@ -149,3 +149,6 @@ PSA 將這五個實體中的記錄視為商務交易。 唯一區別在於，對
 | 草稿發票更正       | 發票明細交易 GUID | 取代          | msdyn_invoicelinetransaction | 已開單銷售 GUID            | 原始           | msdyn_actual       |
 | 確認發票更正     | 已開單銷售沖回 GUID    | 沖回          | msdyn_actual                 | 已開單銷售 GUID            | 原始           | msdyn_actual       |
 | 新的未開單銷售實際值 GUID | 取代                     | msdyn_actual       | 已開單銷售 GUID            | 原始                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 8. 在 **工作範本** 對話方塊中輸入工作範本的名稱，然後選取 **套用**。 
 
 您現在可以將工作範本與專案行事曆範本建立關聯。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ ms.locfileid: "4960507"
 |      <strong>預付現金要求</strong>      |         建立預付現金要求的核准工作流程。          |
 |        <strong>加值稅退還</strong>        | 建立退還加值稅 (VAT) 的核准工作流程。  |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

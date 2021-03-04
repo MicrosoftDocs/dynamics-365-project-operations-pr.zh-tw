@@ -81,3 +81,6 @@ ms.locfileid: "5146698"
 - **重新整理實際值** 按鈕未正確計算摘要工作。
 - Microsoft Project 增益集：如果任何團隊成員有空白資源分配單位，則修正 Null 參考錯誤。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

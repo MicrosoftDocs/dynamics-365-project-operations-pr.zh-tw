@@ -33,3 +33,6 @@ Dynamics 365 Project Operations 中的專案合約，會擷取和管理專案的
 2. 選取 **檢視表切換器**（檢視表名稱旁邊的下拉式箭頭）以選取其他篩選過的檢視。 您可以使用自訂篩選準則來建立您自己的檢視。
 
 您可以從此清單頁面或詳細資料頁面建立或刪除合約。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

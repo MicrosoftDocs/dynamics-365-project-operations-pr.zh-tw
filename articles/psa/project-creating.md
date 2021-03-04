@@ -149,3 +149,6 @@ ms.locfileid: "5148408"
 ### <a name="manual-scheduling"></a>手動排程
 
 如果自動排程的規則不符合您的需求，您可以將工作的工作模式設定為 **手動排程**。 此設定會停止排程引擎計算其他排程屬性的值。 不論工作模式如何，如果將前置任務設定在工作上，永遠都會影響相依工作的開始日期。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

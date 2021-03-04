@@ -57,3 +57,6 @@ ms.locfileid: "5146203"
 
 如果依照上述三項檢查執行後，時間銷售實際值上仍未看到有效價格，請記入支援票證。 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

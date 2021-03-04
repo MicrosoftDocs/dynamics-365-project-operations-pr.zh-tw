@@ -127,3 +127,6 @@ Predecessors資源名稱
 8.  選取要用於資源分配的 **行事曆** 。
 
 11. 按一下 **確定** 。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ PSA 中的專案管理工具可協助您輕鬆執行專案。 內建範本和排
 - [專案範本](project-templates.md)
 - [專案階段](project-stages.md)
 - [專案設定](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

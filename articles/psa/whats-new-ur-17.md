@@ -57,3 +57,6 @@ ms.locfileid: "5143691"
 - 已修正：交易類別為 **時間** 時，**UnitGroup** 對所有實體 (包括 **QuoteLineDetails**、**JournalLine**、**InvoiceLineDetail** 和 **ContractLineDetails**) 都是不可編輯的。 不過，**單位** 只有對 **JournalLine** 和 **InvoiceLineDetails** 才是不可編輯。
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

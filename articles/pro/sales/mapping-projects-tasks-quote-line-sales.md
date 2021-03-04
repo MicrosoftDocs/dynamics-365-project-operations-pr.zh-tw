@@ -90,3 +90,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 >[!NOTE]
 > 此程序不會將工作從專案中刪除。 只是從專案型報價明細中移除工作關聯。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

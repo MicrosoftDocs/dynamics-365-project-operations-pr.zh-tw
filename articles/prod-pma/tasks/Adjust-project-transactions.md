@@ -44,3 +44,6 @@ ms.locfileid: "4073056"
 13. 在清單中，標記所選取的列。 
 14. 在 [成本價] 欄位中，輸入數字。 
 15. 按一下貼文。 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

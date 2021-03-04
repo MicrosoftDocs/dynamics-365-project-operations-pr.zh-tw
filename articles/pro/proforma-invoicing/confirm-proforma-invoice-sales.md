@@ -273,3 +273,6 @@ _**適用於：** 精簡部署 - 交易至開立預估發票_
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

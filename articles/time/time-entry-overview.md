@@ -27,3 +27,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 如需有關如何建立、提交或回收項目，以及其他可協助完成報告之工具的詳細資訊，請參閱[時間項目使用者行為](ui-behavior-time.md)。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

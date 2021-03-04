@@ -42,3 +42,6 @@ Dynamics 365 Project Service Automation 提供新的和可擴充的時間輸入�
 ## <a name="extensibility"></a>擴充性
 
 在有時間輸入網格的 **時間項目** 頁面上，您可以新增自訂欄位、設定查詢欄位，以及建立自訂檢視表。 您也可以根據自訂欄位中所選取或輸入的值，來設定自訂商務規則。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

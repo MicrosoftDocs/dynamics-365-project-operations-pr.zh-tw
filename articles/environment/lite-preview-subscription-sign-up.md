@@ -91,3 +91,6 @@ ms.locfileid: "4175881"
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>安裝 CDS 設定並設定示範資料
 
 依照主題[套用示範設定和設定資料](lite-apply-demo-setup-config-data.md)中的指示，安裝 CDS 設定並設定示範資料。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

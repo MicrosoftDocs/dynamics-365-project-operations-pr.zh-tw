@@ -48,3 +48,6 @@ Dynamics 365 Project Operations 支援兩種模式，讓您執行整體預約流
 透過資源需求預約資源：
 - [指派一般可預約資源至工作，並產生資源需求](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
 - [透過資源需求預約具名資源](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

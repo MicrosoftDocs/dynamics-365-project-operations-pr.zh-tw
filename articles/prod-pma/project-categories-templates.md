@@ -124,3 +124,6 @@ Project Service Automation 與 Finance 整合解決方案會使用資料整合�
 > 此對應顯示會從 Project Service Automation 同步處理至 Finance 的欄位資訊。
 
 [![Project Service Automation 至 Finance 範本對應](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

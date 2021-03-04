@@ -34,3 +34,6 @@ Dynamics 365 Project Operations 中的專案型商機是 Dynamics 365 Sales 中�
 | 合約單位 | [一般] 索引標籤 | 負責交付專案或與此交易相關之專案的組織單位。 | 合約單位是要在完成交易後完成專案的公司部門。 每個合約單位都有貨幣，而此貨幣可用來報告專案期間所產生的估計和實際成本。 |
 
 如需了解商機 **摘要** 索引標籤上的所有其他欄位和區段，請參閱[建立或編輯商機 (Sales 和銷售中心)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-edit-opportunity-sales)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

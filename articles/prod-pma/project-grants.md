@@ -79,3 +79,6 @@ ms.locfileid: "4073177"
 2. 選取要修改的補助款。
 3. 在動作窗格的 **補助款** 索引標籤上，選取 **維護** 群組中的 **編輯** 。
 4. 複查補助款詳細資料，並進行任何必要的變更。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -113,3 +113,6 @@ ms.locfileid: "4073022"
 如需詳細資訊，請參閱 [設定開立公司間專案發票](tasks/configure-intercompany-project-invoicing.md)。
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

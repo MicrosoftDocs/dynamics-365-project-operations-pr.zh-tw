@@ -30,3 +30,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 您可以[手動建立預估發票](../proforma-invoicing/create-manual-proforma-invoice.md)，或使用[週期程序](../proforma-invoicing/configure-automated-invoice-creation.md)。 專案經理可以視需要[調整草稿預估發票](../proforma-invoicing/manage-proforma-invoice.md)，然後確認該發票。
 
 確認的預估發票會傳送至 Finance 中的 **專案管理與會計** 模組。 專案會計師會對專案發票提案進行格式化和更新，然後將此憑證過帳並加以列印。 已過帳的專案發票會記錄在總帳以及客戶和專案的子分類帳中。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -88,3 +88,6 @@ Project Operations 支援四種類型的交易分類：
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Dynamics 365 Sales 訂單發生的變更
 
 Project Operations 中的合約是以 Dynamics 365 Sales 中的訂單為基礎所建置。 不過，在功能上有重要的偏差與變化。 合約有其本身的表單以及 UI 元素、商務規則、外掛程式中的商務規則，以及使其與訂單有所不同的用戶端指令碼。 因此，不要交替使用 Sales 訂單與 Project Operations 合約。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

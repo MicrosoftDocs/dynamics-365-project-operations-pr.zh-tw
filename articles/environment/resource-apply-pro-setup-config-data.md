@@ -134,3 +134,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 13. 選取 **儲存**。 
 
 ![更新專案參數](./media/17UpdatedProjectParameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

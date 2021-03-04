@@ -42,3 +42,6 @@ ms.locfileid: "5151063"
 下列問題已獲修正：
 
 - 排程協助搜尋效能下降
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

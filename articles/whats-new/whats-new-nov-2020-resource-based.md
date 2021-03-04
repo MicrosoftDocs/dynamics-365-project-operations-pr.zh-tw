@@ -68,3 +68,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 ### <a name="regulatory-updates"></a>法規更新
 如需 Finance and Operations 應用程式的法規更新資訊，請參閱[法規更新](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates)。 您也可以使用問題搜尋工具登入 LCS 並查看計畫的法規更新。 問題搜尋可讓您依國家/地區、功能類型和版本進行搜尋。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

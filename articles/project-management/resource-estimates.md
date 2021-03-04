@@ -34,3 +34,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 1. 組織
 2. 客戶
 3. 報價/合約
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

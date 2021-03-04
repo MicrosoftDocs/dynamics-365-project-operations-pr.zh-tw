@@ -33,3 +33,6 @@ Dynamics 365 Project Operations 中的產品報價明細也會有 **成本價** 
 Fabrikam Robotics 正在 A Datum Corporation 的裝配線上安裝機器人手臂。 Fabrikam 提供安裝服務，但機器人手臂是從 Trey Robotics 取得。 如果在 A Datum Corporation 安裝機器人手臂會為 Trey 的機器人手臂開拓新市場，Trey 可能會向 Fabrikam 提供這筆交易的特殊折扣。
 
 在此情況下，Fabrikam 會為機器人手臂建立產品型報價明細，並為此報價輸入每單位成本的特價優惠。 這項成本與 Trey 機器人手臂的標準成本不同。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

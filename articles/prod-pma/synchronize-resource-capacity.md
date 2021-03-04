@@ -49,3 +49,6 @@ ms.locfileid: "4072974"
     | 結束日期    | 輸入資源產能彙總同步處理程序的結束日期。 |
 
 [![同步處理程序](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

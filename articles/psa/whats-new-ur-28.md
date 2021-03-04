@@ -55,3 +55,6 @@ ms.locfileid: "5150613"
 - Null 參考例外狀況是叫用 **GetEstimatesForProject** 外掛程式時所產生。
 - 里程碑網格上的 **標示為已準備好開立發票** 除了更新 **InvoiceStatus** 屬性以外，對其他屬性只會進行部分更新。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -26,3 +26,6 @@ Dynamics 365 Project Operations 中的專案管理工具可協助您輕鬆執行
 - 在銷售處理期間使用專案估計值。
 - 針對處於準銷售案源中的專案預測資源需求。
 - 追蹤進度及成本耗用以成功交付專案。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

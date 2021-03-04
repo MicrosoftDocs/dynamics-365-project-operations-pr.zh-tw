@@ -66,3 +66,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 > [!NOTE]
 > 此方法不會為資源建立任何預約。 反而是將資源新增至團隊。 將團隊成員新增至專案之後，專案經理就可以使用維護預約或延長預約，將必要的預約新增至資源。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

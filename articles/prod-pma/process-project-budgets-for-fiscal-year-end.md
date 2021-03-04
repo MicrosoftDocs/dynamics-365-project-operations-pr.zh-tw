@@ -98,3 +98,6 @@ ms.locfileid: "4073129"
 5. 對於每個您要處理的專案，選取位於專案該行開頭的選項。 
 6. 選取 **程序** ，將所選專案的剩餘預算金額轉移至選取的會計年度。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

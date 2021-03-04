@@ -43,3 +43,5 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 3. 在 **技能** 子格中，選取 **+ 新增需求特性**。
 4. 在快速建立窗格中，尋找並選取所需的特徵，並新增 **評等值**。
 5. 選取 **儲存後關閉**。
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

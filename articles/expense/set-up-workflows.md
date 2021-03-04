@@ -48,3 +48,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 |       <strong>差旅申請</strong>       |          建立差旅申請的核准工作流程。           |
 |      <strong>預付現金要求</strong>      |         建立預付現金要求的核准工作流程。          |
 |        <strong>加值稅退還</strong>        | 建立退還加值稅 (VAT) 的核准工作流程。  |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

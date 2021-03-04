@@ -68,3 +68,6 @@ ms.locfileid: "5145348"
 ![在資源協調索引標籤上，為團隊成員延長預約](media/RM-how-to-7.png)
 
 在專案上預約您的團隊成員之後，您可以使用維護預約或直接使用排程面板來管理其預約。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -96,3 +96,6 @@ Dynamics 365 Project Service Automation 依賴商機、報價、訂單或發票�
     ```
 
 6. 儲存然後發佈自訂。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

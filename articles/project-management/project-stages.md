@@ -63,3 +63,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 將專案所有的交易都記錄下來後，專案經理就可以將階段更新為 **關閉**。 此時，無法記錄任何交易，且專案會設定為唯讀。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

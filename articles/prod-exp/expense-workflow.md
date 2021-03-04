@@ -55,3 +55,6 @@ ms.locfileid: "4960552"
 確認過這些這些需求之後，將費用報表過帳。
 
 將費用報表過帳之後，費用報表的付款便會獲得授權，並撥款給員工。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

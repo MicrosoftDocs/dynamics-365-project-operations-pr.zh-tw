@@ -54,3 +54,6 @@ ms.locfileid: "5144358"
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>指派與預約之間有何區別？
 
 指派是在專案排程中對專案工作的資源指派。 資源可以是實際或一般資源。 預約是為專案進行的已確認或未確認資源配置。 已確認預約會耗用資源的產能。 對於實際資源，預約與指派最好要一致，因為兩者並無差別。 但是，PSA 不會強制這樣的一致性。 協調檢視表會向專案經理顯示資源預約與指派不一致的地方。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

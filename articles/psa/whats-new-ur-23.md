@@ -67,3 +67,6 @@ ms.locfileid: "5150028"
 下列問題已獲修正：
 
 - 按兩下 **擷取所有交易類別** 會建立多行。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

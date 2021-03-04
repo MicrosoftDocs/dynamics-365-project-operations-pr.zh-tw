@@ -48,3 +48,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 - **整體專案狀態**：專案經理所提供的整體專案健全狀況。
 - **註解**：專案經理所提供有關專案目前健全狀況的敘述。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

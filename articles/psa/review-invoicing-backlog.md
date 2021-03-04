@@ -59,3 +59,6 @@ ms.locfileid: "5150478"
 若要檢閱帳單里程碑，請移至 **銷售** \> **帳務**\>**固定價格里程碑**。 選取已準備好開立發票的里程碑，然後選取 **已準備好開立發票**。 這些里程碑的帳單狀態會變更為 **已準備好開立發票**。
 
 ![固定價格里程碑](media/FPBacklog.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

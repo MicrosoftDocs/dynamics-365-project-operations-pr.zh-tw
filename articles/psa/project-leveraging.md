@@ -54,3 +54,6 @@ ms.locfileid: "5148363"
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>從專案將估計值匯入至報價
 
 定義專案估計值之後，您可以將這些值匯入至報價明細。 在 **報價明細詳細資料** 頁面上，選取功能區上的 **從估計值匯入**，以依據交易類型、角色或工作層級來摘要專案估計值。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

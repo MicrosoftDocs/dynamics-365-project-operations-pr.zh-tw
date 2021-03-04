@@ -116,3 +116,6 @@ ms.locfileid: "4841313"
 ## <a name="accessibility-and-keyboard-shortcuts"></a>協助工具和鍵盤快速鍵
 
 **排程** 網格完全可供存取，並且可與朗讀程式、JAWS 或 NVDA 等螢幕助讀程式搭配使用。 您可以使用方向鍵在網格區域中穿行 (如同在 Microsoft Excel 中)、可以使用 Tab 鍵前進通過互動式使用者介面元素，並且可以使用向下鍵、Enter 鍵或空格鍵來選取和開啟下拉式功能表。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

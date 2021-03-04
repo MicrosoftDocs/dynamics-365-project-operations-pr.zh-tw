@@ -71,3 +71,6 @@ Dynamics 365 Project Operations 隨附一組預設定價維度。 您可以移�
 | ----------------|-------------|----------|----------:|----------|
 | My company_Band1 | Contoso US  |Hour | 145|USD     |
 | My company_Band2 | Contoso India |Hour|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

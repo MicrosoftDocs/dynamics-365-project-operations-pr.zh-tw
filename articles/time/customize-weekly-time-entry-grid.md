@@ -144,3 +144,6 @@ Dynamics 365 Project Operations 包含可擴充的時間項目自訂控制項。
 
 ### <a name="copying-time-entries"></a>複製時間項目
 使用 **複製時間項目欄** 檢視表來定義要在時間輸入期間複製的欄位清單。 **日期** 和 **期間** 是必要欄位，不可從檢視表移除。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

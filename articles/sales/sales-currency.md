@@ -71,3 +71,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 > [!IMPORTANT]
 >  其他記錄正在使用的貨幣無法刪除；您只能將其停用。 停用貨幣記錄並不會移除現有記錄中儲存的貨幣資訊 (例如商機或訂單)。 不過，您無法為新交易選取已停用的貨幣。  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

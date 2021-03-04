@@ -77,3 +77,6 @@ Dynamics 365 Project Operations 由兩個元件組成：
 | --- | --- |
 | 10.0.17 | 2021 年 3 月 19 日 |
 | 10.0.18 | 2021 年 4 月 16 日 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

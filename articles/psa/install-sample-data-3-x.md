@@ -297,3 +297,6 @@ Field Service 和 Project Service 範例參考資料套件會安裝 **Fabrikam M
 
 > [!div class="mx-imgBorder"]
 > ![使用中可預約資源的螢幕擷取畫面](media/sample-data-6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

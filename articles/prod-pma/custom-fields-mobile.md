@@ -429,3 +429,6 @@ final class TSTimesheetDetails_Extension
 1. 應用程式嘗試將預設類別從專案資源中放入。 此預設類別是在 **TSTimesheetSettingsService** 類別的 **getCurrentUserResource** 及 **getDelegatedResourcesForCurrentUser** 方法中所設定。
 2. 如果未在專案資源層級提供預設類別，應用程式會嘗試從專案活動中提取此類別。 此預設類別是在 **TSTimesheetProjectService** 類別的 **getActivitiesForProject** 方法中所設定。
 3. 如果未在專案活動層級提供預設類別，則會從專案參數中接受預設類別。 此預設類別是在 **TSTimesheetProjectService** 類別的 **getProjectDetailsbyRule** 方法中所設定。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

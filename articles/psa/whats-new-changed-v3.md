@@ -257,3 +257,6 @@ Project Service Automation 隨附一組預設定價維度和角色以及資源�
 
 > [!NOTE]
 > 按一下 **建立自訂定價** 之時，到建立了自訂價目表之間，可能會發生短暫的延遲。 建議您重新整理網格，而不要多次點按。 如果相關價目表名稱中有出現報價名稱或專案合約名稱，即表示已建立自訂價目表。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

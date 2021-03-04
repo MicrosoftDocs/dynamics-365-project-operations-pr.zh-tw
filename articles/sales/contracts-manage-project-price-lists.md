@@ -72,3 +72,6 @@ Dynamics 365 Project Operations 中的專案合約是設計來支援合約上多
 ## <a name="custom-pricing-on-a-project-contract"></a>專案合約上的自訂定價
 
 有了組織和客戶特定的預設專案價目表之後，系統就會自動使用這些專案價目表關聯來建立您的專案合約。 不過，系統一律會複製專案合約上的專案價目表，並將日期和合約名稱附加至其複本。 客戶經理和專案經理接著即可開始編輯這些複本上的價格。 這些變更過的價格將只適用於此專案合約。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

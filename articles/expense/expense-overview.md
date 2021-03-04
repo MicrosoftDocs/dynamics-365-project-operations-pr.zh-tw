@@ -44,3 +44,6 @@ Dynamics 365 Project Operations 支援處理費用的功能。 使用原則、�
 
 ## <a name="determine-your-expense-deployment"></a>判斷您的費用部署
 若要判斷您是否正在執行基本費用管理部署，請確認位址 URL 是否以 **.crm.dynamics.com** 結尾。 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

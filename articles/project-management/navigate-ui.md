@@ -102,3 +102,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 **新增欄**：允許使用者定義網格中可見的欄。 只有內建的欄才可以新增至 **專案規劃** 表單中的網格。
 
 ![[新增欄] 按鈕](media/navigation5.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

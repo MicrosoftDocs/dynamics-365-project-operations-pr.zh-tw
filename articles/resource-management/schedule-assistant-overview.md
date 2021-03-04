@@ -57,3 +57,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 -   資源供應公司
 -   資源類型
 -   偏好的資源
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

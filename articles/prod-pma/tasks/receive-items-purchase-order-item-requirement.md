@@ -56,3 +56,6 @@ ms.locfileid: "4073163"
 21. 在 **產品收據** 欄位中，輸入值。
 22. 選取 **確定** 。
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

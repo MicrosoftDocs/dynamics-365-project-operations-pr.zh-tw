@@ -32,3 +32,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 將交易過帳到專案之後，如果專案與專案合約相關聯，則系統會沖銷所有累計交易，並建立新的計費交易。 計費交易遵循各自定義於專案成本與營收設定檔的會計規則。
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

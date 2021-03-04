@@ -125,3 +125,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
  
  ![總帳對應同步處理](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

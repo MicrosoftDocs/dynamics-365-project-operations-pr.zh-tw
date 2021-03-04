@@ -52,3 +52,6 @@ Microsoft Power BI 和 Dynamics 365 合起來以見解探索應用程式的形�
 - [使用 Project Service 資料模型](reports-working-project-service-data-model.md)
 - [儀表板 ](reports-dashboards.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

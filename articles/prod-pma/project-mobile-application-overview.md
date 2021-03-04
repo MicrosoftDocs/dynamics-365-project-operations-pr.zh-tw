@@ -49,3 +49,6 @@ Dynamics 365 專案時程表行動應用程式可讓使用者在其行動裝置�
 - [專案時間輸入]( project-time-entry-mobile-workspace.md)
 - [行動裝置上的專案時程表](Mobile-timesheets.md)
 - [在 iOS 和 Android 上實作 Microsoft Dynamics 365 Project Timesheet 行動應用程式的自訂欄位](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

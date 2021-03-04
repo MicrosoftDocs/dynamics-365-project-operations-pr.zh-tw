@@ -101,3 +101,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
           - **資源供應公司** = **Contoso Robotics UK**
           - **帳單費率** = **200 美元**
       9. 移至 **銷售** > **專案合約**，並將 **Adventure Works 帳單費率** 價目表附加至專案合約的 Adventure Works 專案價目表。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

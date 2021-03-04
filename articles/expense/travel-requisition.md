@@ -56,3 +56,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 > [!NOTE]
 > 將費用報表對應至核准的差旅申請時，交易金額不能大於授權金額。 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

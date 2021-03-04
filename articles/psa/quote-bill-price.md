@@ -44,3 +44,6 @@ ms.locfileid: "5147845"
 - [單位群組和單位](advanced-units.md)
 - [多重單位貨幣](advanced-currency.md)
 - [記錄實際值](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

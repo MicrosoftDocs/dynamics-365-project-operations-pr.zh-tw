@@ -41,3 +41,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
     1. 員工的經理會核准費用報表。
     2. 預算負責人會核准費用報表。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

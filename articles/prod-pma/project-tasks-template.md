@@ -83,3 +83,6 @@ Project Service Automation 至 Finance 整合解決方案會使用資料整合�
 下圖顯示資料整合中的範本工作對應範例。 此對應顯示會從 Project Service Automation 同步處理至 Finance 的欄位資訊。
 
 [![範本對應](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

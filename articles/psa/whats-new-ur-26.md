@@ -74,3 +74,6 @@ ms.locfileid: "5143548"
 - 當選取報價或合約中的專案型條項時，只有在選取與現有產品相關的專案型條項時，才會顯示 **建議** 按鈕。
 - 從 **Create_ProjectContract** 權限分割 **Create_Product** 權限。
 - 刪除發票明細會造成 **MarkReadyToInvoiceForProductContractLineAfterDeletingInvoice** 上的 null 參照失敗。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

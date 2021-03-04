@@ -43,3 +43,6 @@ ms.locfileid: "5151153"
 
 - 如果期間為 Null，則建立時間項目時，會自動填入結束日期。
 - 使用者可以變更已核准或送出之時間項目上的工作。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

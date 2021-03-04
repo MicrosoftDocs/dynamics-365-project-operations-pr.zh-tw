@@ -54,3 +54,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
     | &nbsp; | 成本加成 | 在相關成本實際值的單位成本費率上套用類別價格明細所定義的加成 |
 
 4. 如果系統無法找到相符的 **類別** 和 **單位** 欄位值，則銷售費率預設為零 (0)。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

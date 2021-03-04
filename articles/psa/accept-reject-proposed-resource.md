@@ -45,3 +45,6 @@ ms.locfileid: "5146158"
 ![接受資源提案](media/RM-how-to-20.png) 
 
 與直接使用具名資源履行一般資源要求類似，將會以具名團隊成員來取代一般資源並更新指派的工作。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

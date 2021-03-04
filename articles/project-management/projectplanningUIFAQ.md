@@ -106,3 +106,6 @@ Project Operations 需要依賴外部排程服務。 此服務要求使用者必
   - Project Operations 系統
   - Project 系統
   - Project Operations 雙重寫入系統 (如果您要部署資源/非庫存型案例適用的 Project Operations，就必須有此角色)。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

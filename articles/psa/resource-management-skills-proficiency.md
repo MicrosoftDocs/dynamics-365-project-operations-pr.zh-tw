@@ -48,3 +48,6 @@ ms.locfileid: "5147463"
 > ![定義的最小與最大評等](media/Resource-Management-image85.png)
 
 這些評等值會顯示在 **資源需求**、**排程面板和** 和 **排程小幫手** 篩選上。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

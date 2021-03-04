@@ -53,3 +53,6 @@ ms.locfileid: "5144403"
 使用選取的資源來履行需求。 在 **預約需求** 窗格中，請注意需求已更新，且資源在專案中顯示為已預約。
 
 ![專案上已預約的資源](media/Resource-Management-image76.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 在 **Project Service** 索引標籤上，您也可以設定資源的個別目標使用率。 使用率計算接著會使用該目標使用率來評估資源的目標，而不是資源預設角色的目標。
 
 只有當資源在網格所顯示週期內有獲核准的應收費時間時，才會顯示資源的使用率。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

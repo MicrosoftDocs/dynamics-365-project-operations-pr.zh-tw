@@ -113,3 +113,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
     - 貸記：專案 – 應計營收 120 美元
 
     系統現在已準備好建立公司間客戶發票。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

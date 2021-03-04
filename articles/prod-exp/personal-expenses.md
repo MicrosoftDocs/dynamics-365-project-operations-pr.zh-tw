@@ -33,3 +33,6 @@ ms.locfileid: "4960867"
 - **由公司支付** – 您的組織會支付公司信用卡的全部帳單，然後工作者的帳戶中借記個人費用。
 
 您可以在 **費用管理參數** 頁面上選取您的組織所使用的方法。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -75,3 +75,6 @@ ms.locfileid: "4073168"
 - 履行資源要求。
 - 從 WBS 要求人員配置資源。
 - 在沒有要求人員配置資源的情況下，將資源預約給專案。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

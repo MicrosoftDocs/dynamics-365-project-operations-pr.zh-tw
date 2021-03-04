@@ -106,3 +106,6 @@ PSA 不支援變更合約或專案上的訂單。
 
 8. 對第二個外掛程式重複步驟 1 到 7。
 9. 關閉 PluginRegistrationTool。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

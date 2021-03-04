@@ -59,3 +59,6 @@ ms.locfileid: "5147238"
      - 已修正：**新商機**、**報價**、**訂單明細** 和 **新增產品** 的額外按鈕在商機、報價、訂單產品和專案型明細子格的命令中可見。
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

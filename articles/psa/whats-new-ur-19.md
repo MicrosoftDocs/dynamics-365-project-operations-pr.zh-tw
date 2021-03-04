@@ -66,3 +66,6 @@ ms.locfileid: "5143596"
 - 建立專案時，客戶可能會感受到效能變差，因為 **GetBookableResourceIdFromUser** 擷取的是可預約資源所有的欄，而不只是主要識別碼。
 - **TransactionType** 實體缺少預先驗證更新外掛程式，無法防止使用者輸入對交易類型不正確的 **單位** 和 **單位群組**。
 - **移除** 步驟不適用於時間項目匯入。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -116,3 +116,6 @@ ms.locfileid: "5146563"
 使用具名資源履行一般資源時，一般資源將會從團隊中移除，而且一般資源的工作指派會指派給履行一般資源之資源需求的具名資源。
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

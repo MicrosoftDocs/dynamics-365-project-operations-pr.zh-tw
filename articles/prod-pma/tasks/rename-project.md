@@ -35,3 +35,6 @@ ms.locfileid: "4073175"
 4. 在清單中，選取您要修改的預先定義或使用者定義階段。 
 5. 在 [專案階段] 欄位中，輸入新的名稱。
 6. 按一下 [儲存]。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

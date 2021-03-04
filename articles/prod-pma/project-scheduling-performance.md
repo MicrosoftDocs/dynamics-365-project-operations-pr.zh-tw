@@ -69,3 +69,6 @@ ms.locfileid: "4072979"
 
 > [!NOTE]
 > 這會將一般資料發佈至您環境中所有公司之間的 **ResRollup** 資料表，因此批次處理工作只需在一個法律實體中執行。 所有 **資源可用性** 檢視表都需要這個批次工作。 如果此批次作業未執行，則會即時產生 **ResRollup** 資料，而這可能需要一些時間。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

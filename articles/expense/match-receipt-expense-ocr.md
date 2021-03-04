@@ -94,3 +94,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 Finance 會連絡 Cognitive Services 來擷取欄位資料。 進行處理時，Cognitive Services 會保留您的收據複本最長 24 小時。 完成處理後，Cognitive Services 將會移除收據。 收據仍然儲存在 Finance 中。
 
 如需詳細資訊，請參閱[使用表單辨識器的新功能來啟用收據瞭解](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/)。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

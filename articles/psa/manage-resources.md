@@ -344,3 +344,6 @@ PSA 有一個 **協調** 索引標籤，可讓專案經理協調團隊成員的�
 ![[延長預約] 對話方塊](media/Resource-Management-image58.png)
 
 專案經理或資源管理員可以接著使用排程面板，管理任何過量預約資源超過其產能的狀況。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

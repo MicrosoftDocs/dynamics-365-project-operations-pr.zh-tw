@@ -104,3 +104,6 @@ ms.locfileid: "4073131"
 
 3. 選取 **儲存** ，然後關閉頁面。
 4. 在 **專長** 索引標籤中，新增 **ProjectMgmt** 技能和 **PMP** 認證。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 ## <a name="when-to-evaluate-policies"></a>評估原則的時機
 
 在費用管理參數中，您可以選擇在儲存明細時或在提交費用報表時評估費用管理原則。 如果您選擇在儲存明細時進行評估，則使用者可以較早了解一次全部完成其費用報表所需執行的工作。 否則您可以在提交至工作流程的過程中，將原則評估延遲，並透過在結束時驗證的方式節省時間。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

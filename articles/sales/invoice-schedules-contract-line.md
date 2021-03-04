@@ -74,3 +74,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 | 稅額 | 快速建立 | 套用在里程碑上的稅額。 | 這會轉入至專案合約服務內容里程碑和發票。 |
 
 3. 選取 **儲存後關閉**。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

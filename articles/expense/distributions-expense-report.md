@@ -30,3 +30,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 | 車費   | 丹麥克朗 578              | 丹麥克朗 405                         | 丹麥克朗 173                         |
 | 飯店        | 歐元 725              | 歐元 557                         | 歐元 168                         |
 | 餐費        | 歐元 346              | 歐元 284                         | 歐元 62                          |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

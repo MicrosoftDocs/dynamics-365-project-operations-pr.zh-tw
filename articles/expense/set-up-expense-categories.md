@@ -61,3 +61,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
     - 是否有任何子類別不在稅金退還之列？
     - 什麼是子類別的項目銷售課稅群組？
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

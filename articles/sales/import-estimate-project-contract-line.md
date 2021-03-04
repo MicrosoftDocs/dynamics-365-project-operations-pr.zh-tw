@@ -59,3 +59,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 | 工作 A | 機票 | 2020/10/1 | 4 | 400 | 1600 |
 | 工作 B | 飯店 | 2020/10/1 | 4 | 200 | 800 |
 | 工作 C | 飯店 | 2020/11/1 | 2 | 200 | 400 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

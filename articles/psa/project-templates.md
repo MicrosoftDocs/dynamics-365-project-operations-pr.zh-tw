@@ -69,3 +69,6 @@ ms.locfileid: "5148048"
 ### <a name="copying-a-project-team"></a>複製專案團隊
 
 將專案團隊從專案範本複製到專案時，也會一併複製一般資源以及範本中定義的技能和熟練度。 一般資源指派也會維持與原先在專案範本中的一樣。 專案範本不支援具名資源。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ Project Service Automation 使用毛利率和調整後毛利率來分析獲利�
 分析客戶對排程的期望的作法是，在報價的所有報價明細中，將報價明細詳細資料的最後結束日期與要求的交貨日期進行比較。
 
 分析客戶對排程的預算的作法是，在所有報價明細中，將客戶預算總計的總和與報價金額進行比較
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -113,3 +113,6 @@ ms.locfileid: "4072977"
 11. 選取明細屬性。
 12. 選用：輸入任何外部及內部意見。
 13. 選取 **完成** 。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

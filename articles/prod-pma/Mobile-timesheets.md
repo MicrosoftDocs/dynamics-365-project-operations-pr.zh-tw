@@ -62,3 +62,6 @@ ms.locfileid: "4073138"
 13. 選用：輸入其他時程表列。
 
 14. 完成時程表列的輸入後，選取 **工作流程** \> **提交** 動作，將您的時程表提交至工作流程審查查程序。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -23,3 +23,6 @@ Dynamics 365 Project Operations 包含可確保經歷各個核准階段正確進
 
   - 所有的支援列都是在相關的資料表 (例如帳目和實際值) 中建立。
   - 繼續進行之前，核准者會先標示為專案中的 **專案核准者**。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

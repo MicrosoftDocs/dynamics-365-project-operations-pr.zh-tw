@@ -73,3 +73,6 @@ ms.locfileid: "5144853"
 > ![標準職稱實體的範例資料 ](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

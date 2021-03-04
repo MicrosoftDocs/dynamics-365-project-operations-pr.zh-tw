@@ -28,3 +28,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
   - **由公司支付**：您的組織支付公司信用卡的全額帳單，然後借記工作者的個人費用會計科目。
 
 您可以在 **費用管理參數** 頁面上選取您的組織所使用的方法。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

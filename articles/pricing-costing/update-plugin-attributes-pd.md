@@ -52,3 +52,6 @@ ms.locfileid: "4643208"
 7. 選取 **確定** 關閉頁面，然後選取 **更新步驟**。
 8. 對第二個外掛程式 **PreOperationQuoteLineDetail** 重複步驟 2 到 7。 對第二個外掛程式，您需更新 **msdyn_quotelinetransaction 的更新** 步驟。
 9. 關閉 **PluginRegistrationTool**。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

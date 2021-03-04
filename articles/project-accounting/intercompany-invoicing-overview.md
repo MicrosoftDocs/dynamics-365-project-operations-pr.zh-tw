@@ -43,3 +43,6 @@ Dynamics 365 Project Operations 使用以下流程來處理公司間交易：
 - [設定公司間開立發票](configure-intercompany-invoicing.md)
 - [記錄公司間交易](create-intercompany-transactions.md)
 - [建立公司間客戶與廠商發票](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

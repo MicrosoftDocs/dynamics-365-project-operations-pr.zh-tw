@@ -53,3 +53,6 @@ ms.locfileid: "5147417"
 - [透過資源需求預約具名資源](book-named-resource.md)
 - [送出資源要求](submit-resource-request.md)
 - [接受或拒絕資源要求提案的專案資源](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

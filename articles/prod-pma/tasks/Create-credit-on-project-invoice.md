@@ -39,3 +39,6 @@ ms.locfileid: "4072973"
 10. 按一下 [確定]。 
 
 在此步驟之後，折讓單即可用於發票提案。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -26,3 +26,5 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 3.  在 **團隊成員** 索引標籤上，選取團隊成員，然後選取 **產生需求**。
 
 如需有關如何修改資源需求的詳細資訊，請參閱[更新資源需求詳細資料](define-resource-requirements.md)以修改資源需求。
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

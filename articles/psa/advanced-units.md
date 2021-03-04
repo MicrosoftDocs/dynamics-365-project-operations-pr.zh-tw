@@ -112,3 +112,6 @@ Dynamics 365 Project Service Automation 使用單位與單位群組來處理費�
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>是否可以編輯、刪除和新增單位與單位群組？
 是的。 除了 **時間** 單位群組和 **小時** 單位之外，所有單位都可刪除或編輯，而且新單位也可以新增。 在 PSA 中，無法刪除 **時間** 單位群組和 **小時** 單位。 不過，您可以使用 **名稱** 欄位的翻譯文字來更新它們。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

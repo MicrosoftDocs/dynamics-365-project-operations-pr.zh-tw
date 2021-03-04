@@ -43,3 +43,6 @@ ms.locfileid: "5150928"
 
 ### <a name="currently-extended-time-entry-changes"></a>目前已擴充的時間項目變更
 為了盡可能降低對目前時間項目使用者的影響，這個角色變更是繼續使用時間項目所需的唯一核心需求。 如果您已建立自訂檢視表或不同的時間項目體驗，就必須將 **時間項目設定** 欄位設定為正確的 PSA 值。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

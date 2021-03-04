@@ -33,3 +33,6 @@ ms.locfileid: "5148948"
 
 Project Service Automation (PSA) 不允許您刪除實際值，因為這些值可以做為對下游系統 (例如總帳) 有財務影響的交易事實原始資料。 如果可以刪除實際值，可能就會引發對財務報表交易完整性的質疑。 若要建立稽核線索，客戶必須使用帳目來建立補償交易。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

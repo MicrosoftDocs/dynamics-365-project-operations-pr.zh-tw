@@ -84,3 +84,6 @@ SalesOrderDetail (訂單明細) | msdyn_quotelineid | msdyn_quoteline
 > 如需已被取代資源的完整清單，請參閱 [Project Service Automation v3.x 中已被取代的 Web 資源](../developer-guides/web-resources-deprecated-v3.x.md)。
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

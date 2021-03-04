@@ -51,3 +51,6 @@ ms.locfileid: "4073049"
 5. 銷除程序完成之後，會以負值顯示已銷除的估計專案。 
 
 如果您無意銷除估計值，則可以選取已銷除的估計值，並選取 **反轉銷除** 。   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

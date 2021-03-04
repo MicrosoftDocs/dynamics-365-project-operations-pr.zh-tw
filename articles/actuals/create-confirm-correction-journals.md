@@ -89,3 +89,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 8. 在專案頁面的 **實際值** 索引標籤上，檢閱 **實際值相關檢視表**。 原始分錄和更正分錄會列出。 下圖顯示原始費用分錄金額以及對應的已更正費用分錄金額。 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

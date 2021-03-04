@@ -93,3 +93,6 @@ Project Operations 合約是以 Dynamics 365 Sales 合約為基礎所建置。 �
 - Project Operations 合約有其本身的表單以及 UI 元素、商務規則、外掛程式中的商務規則，以及使其與 Sales 合約有所不同的用戶端指令碼。
 
 因此，不可交替使用 Sales 合約與 Project Operations 合約。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

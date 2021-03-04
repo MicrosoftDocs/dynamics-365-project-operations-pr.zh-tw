@@ -57,3 +57,6 @@ ms.locfileid: "4073134"
 
 > [!NOTE]
 > 狀態變更為 **已傳送** 之後，您無法修改專案報價。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -89,3 +89,6 @@ Project Operations 報價是建立在 Dynamics 365 Sales 報價的基礎上。 �
 - Project Operations 報價有其本身的表單以及 UI 元素、商務規則、外掛程式中的商務規則，以及使其與 Sales 報價有所不同的用戶端指令碼。
 
 因此，不建議互換使用 Sales 報價與 Project Operations 報價。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

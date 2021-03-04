@@ -112,3 +112,6 @@ Dynamics 365 Project Operations 支援複製專案，並將任何指派回復為
     }
 }
 ```
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

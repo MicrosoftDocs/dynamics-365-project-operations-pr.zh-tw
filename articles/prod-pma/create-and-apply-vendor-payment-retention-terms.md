@@ -65,3 +65,6 @@ ms.locfileid: "4073133"
 6. 如果供應商的專案還有設定背靠背 (PWP) 條款，請在 **PWP 閾值百分比** 欄位中輸入專案的閾值百分比。
 
 供應商付款保留條款也會顯示在您為供應商建立的採購單上。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 - 需要豐富的企業級銷售稅和匯率引擎，用於為專案產生面向客戶的發票。
 - 符合國際財務報告準則 (IFRS) 的專案會計和營收確認系統。
 - Finance 或 Supply Chain Management 應用程式而且整合專案型交易。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

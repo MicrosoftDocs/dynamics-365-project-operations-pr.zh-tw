@@ -76,3 +76,6 @@ ms.locfileid: "4072984"
 
 如需詳細資訊，請參閱[從項目需求擷取採購單上的項目](tasks/receive-items-purchase-order-item-requirement.md)。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

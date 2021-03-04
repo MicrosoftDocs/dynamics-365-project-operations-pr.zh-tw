@@ -32,3 +32,6 @@ ms.locfileid: "5148588"
 在此之前，[時間] 和 [費用] 的行事曆和網格檢視表是實作成 DHTMLX 控制項。 與行事曆及網格檢視表的這個實作相關的成品現已淘汰 (已被取代)。
 
 如需已被取代資源的完整清單，請參閱[Project Service Automation 3.x 中已被取代的 Web 資源](web-resources-deprecated-v3.x.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

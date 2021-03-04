@@ -65,3 +65,6 @@ ms.locfileid: "5148093"
 ## <a name="close"></a>關閉
 
 將專案所有的交易都記錄下來後，專案經理就可以將階段更新為 **關閉**。 此時，無法記錄任何交易，且專案會設定為唯讀。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

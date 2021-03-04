@@ -62,3 +62,6 @@ ms.locfileid: "4073161"
 ## <a name="monitor-project-teams"></a>監視專案團隊
 1. 在 **所有專案** 頁面上，選取 **XYZ 升級階段 2** 專案的 **專案識別碼** 連結。
 2. 在 **專案團隊與排程** 快速分頁上，確認列出的專案資源是否正確。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

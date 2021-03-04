@@ -106,3 +106,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 ### <a name="estimates-grid"></a>估計值網格 
 
 在 **估計值** 網格上，相同資源的這兩個指派的定價方式不同。 **工作 A** 的資源指派是使用 **諮詢主管** 的 **角色** 屬性值來定價。 同一個資源在 **工作 B** 上的指派是使用 **網路技術人員** 的 **角色** 屬性值來定價。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

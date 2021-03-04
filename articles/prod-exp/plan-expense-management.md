@@ -160,3 +160,6 @@ ms.locfileid: "4960327"
 - 原則何時到期？
 - 什麼是原則規則？
 - 原則規則的結果是什麼？
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

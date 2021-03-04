@@ -81,3 +81,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 - 平均分配時數
 
 使用這三種的其中一個配置方法時，您不會收到資源已過量預約的通知。 若要修正過量預約，您必須使用排程面板。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

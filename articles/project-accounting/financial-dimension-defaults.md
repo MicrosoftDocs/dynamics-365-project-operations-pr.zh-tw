@@ -62,3 +62,6 @@ Dynamics 365 Project Operations 使用 Dynamics 365 Finance 中的[財務維度]
 4. 設定財務維度預設值。 請注意，預設會使用客戶帳戶中的財務維度。 如果專案與包含多個專案合約客戶的合約服務內容相關聯，則會使用主要客戶來設定預設財務維度。
 
 專案預設財務維度會在 **Project Operations 整合帳目** 和相關專案發票明細上用來設定時間、費用及服務費交易的帳目明細預設值。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

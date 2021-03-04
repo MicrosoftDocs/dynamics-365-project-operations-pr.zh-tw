@@ -78,3 +78,6 @@ ms.locfileid: "4122783"
 - 明細層級工作流程
 - 暫時核准者支援
 - 進階逐條列舉
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -91,3 +91,6 @@ ms.locfileid: "5146518"
 
 4. 現在資源已預約，您必須以手動方式指派工作。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

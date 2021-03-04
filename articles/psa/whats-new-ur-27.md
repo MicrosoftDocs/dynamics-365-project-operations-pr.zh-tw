@@ -81,3 +81,6 @@ ms.locfileid: "5146653"
 - Dynamics 365 Field Service 和 Project Service Automation 都已安裝時，**鎖定價格** 和 **使用目前定價** 選項未同時顯示在 **發票** 頁面上。
 - 就日文語言而論，在其他行事曆頁面上的翻譯有不一致的地方。
 - **啟用** 和 **停用** 已從 Project Service Automation 的 **價目表關聯** 實體中移除。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

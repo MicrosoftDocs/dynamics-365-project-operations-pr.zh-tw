@@ -55,3 +55,6 @@ _**適用於：** 精簡部署 - 交易至開立預估發票_
 ## <a name="see-also"></a>請參閱
 
 - [核准概觀](../approvals/approvals-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

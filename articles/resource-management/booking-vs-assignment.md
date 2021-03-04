@@ -26,3 +26,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 資源預約的加總通常等於資源在一個或多個工作中的指派總和。 不過，Project Operations 不會強制這樣的一致性。 **協調** 檢視表會向專案經理顯示資源預約與指派不一致的地方。
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

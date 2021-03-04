@@ -84,3 +84,6 @@ Fabrikam India-Robotics 的開發人員，出借給 Fabrikam US-Robotics 時的�
 | Developer | Fabrikam UK | 115 英鎊 |
 
 成本價目表可以用多種貨幣提供人力費率。 產生對專案的成本估計值時，Project Operations 會將成本費率轉換成專案貨幣，並將其顯示給使用者。 當時間項目獲核准且成本實際值已建立時，此成本實際值是以該相應角色價格在成本價目表上的貨幣來計價。 單一專案的時間成本實際值可以用多種貨幣來記錄。 不過，在專案層級上彙總或總結實際人力成本時，Project Operations 會將所有人力成本金額轉換為使用者可以檢視的專案貨幣。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

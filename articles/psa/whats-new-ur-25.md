@@ -70,3 +70,6 @@ ms.locfileid: "5143719"
 - 改進了錯誤處理，以解決由 **複製專案：估計 HelperResource 管理** 所產生的 Null 參考例外狀況。
 - **時間和資料帳務積存** 上的 **尚未準備好開立發票** 並未清除帳單狀態。
 - 更正 **角色價格** 和 **目錄項目** 索引標籤上錯誤標籤的 **價格** 按鈕。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

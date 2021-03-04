@@ -38,3 +38,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 - **單位成本價**：用於計算費用成本的單價。
 - **單位售價**：用於計算費用售價的單價。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

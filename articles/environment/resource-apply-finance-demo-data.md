@@ -79,3 +79,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 18. 關閉遠端桌面工作階段，並使用 LCS **環境詳細資料** 頁面登入環境，以確認其可依預期正常運作。
 
 ![Finance and Operations](./media/10FinanceAndOperations.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ ms.locfileid: "5146608"
 
 - 排程協助搜尋效能下降
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

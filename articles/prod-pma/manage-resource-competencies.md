@@ -53,3 +53,6 @@ ms.locfileid: "4073021"
 5. 在 **等級日期** 欄位中，選取 **1-/14/2014** 。
 6. 在 **經驗年數** 欄位中，輸入 **10** 。
 7. 選取 **儲存** ，然後關閉頁面。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

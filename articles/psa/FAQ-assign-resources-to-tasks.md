@@ -82,3 +82,6 @@ ms.locfileid: "5149983"
 
 3. 選取您要指派給工作的資源。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

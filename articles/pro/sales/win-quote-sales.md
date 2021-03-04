@@ -40,3 +40,6 @@ _**適用於：** 精簡部署 - 交易至開立預估發票_
 
 > [!NOTE]
 > 在 Project Operations 中，以 [成交] 或 [未成] 交關閉報價並不會影響商機的狀態，商機仍將保持開啟，直到手動將其關閉為止。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

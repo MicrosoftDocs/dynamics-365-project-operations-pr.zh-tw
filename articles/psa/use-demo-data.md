@@ -55,3 +55,6 @@ ms.locfileid: "5151108"
  [專案經理指南](../psa/project-manager-guide.md)   
  [資源管理員指南](../psa/resource-manager-guide.md)   
  [時間、費用及共同作業指南](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -24,3 +24,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 如果商機有任何相關的使用中報價，則不允許您將其關閉。 您可以先將所有與商機相關聯的使用中及草稿報價同時關閉。 系統然後才會允許您關閉商機。
 
 如需關於關閉商機的一般資訊，請參閱[以成交或未成交狀態關閉商機](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales)。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

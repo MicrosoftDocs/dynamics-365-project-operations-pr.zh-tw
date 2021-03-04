@@ -60,3 +60,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 [管理營收預估值](rev-rec-completed-contract-method.md)
 
 [完工成本法](cost-complete-methods.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

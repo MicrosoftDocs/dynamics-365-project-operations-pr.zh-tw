@@ -59,3 +59,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 3. 選取 **儲存**。
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

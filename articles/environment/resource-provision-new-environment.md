@@ -209,3 +209,6 @@ Project Operations 需要應用程式版本為 **10.0.13 (10.0.569.20009)** 或�
 
 
 您的 Project Operations 環境現在已佈建並設定。 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

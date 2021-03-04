@@ -37,3 +37,5 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 ## <a name="edit-resource-assignment-contours"></a>編輯資源指派分佈
 
 除了編輯資源需求的詳細資料之外，專案經理還可以使用 **指定模式** 功能來更新資源需求的個別分佈。 選取 **指定模式** 時，頁面會開啟，您可以在日、週或月的時幅來檢視分佈。 每個分佈都可以對開始時間、結束時間以及指定期間的總投入量進行調整。
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

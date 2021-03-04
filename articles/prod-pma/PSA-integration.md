@@ -75,3 +75,6 @@ Project Service Automation 至 Finance 整合解決方案會使用資料整合�
 ## <a name="install-the-project-service-automation-to-finance-integration-solution-in-your-project-service-automation-instance"></a>在 Project Service Automation 執行個體中安裝 Project Service Automation 至 Finance 整合解決方案
 
 從 [Microsoft 下載中心](https://www.microsoft.com/download/details.aspx?id=57016)下載 Project Service Automation 至 Finance 整合解決方案，並依照解決方案隨附的指示進行。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

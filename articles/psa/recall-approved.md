@@ -107,3 +107,6 @@ ms.locfileid: "5147823"
 下圖顯示已核准費用項目在其被回收時發生的變更
 
 ![費用項目狀態轉換](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

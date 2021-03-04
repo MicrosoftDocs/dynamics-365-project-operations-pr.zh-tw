@@ -37,3 +37,6 @@ Dynamics 365 Project Operations 的精簡部署類型具有下列適用於專案
 - 一種整合系統，用於為排程和財務管理內部和計費專案，從從專案銷售到開立發票。
 - 協力廠商企業資源規劃 (ERP/財務會計系統，與 Project Operations 整合。
 - 使用營業稅、匯率、費用報銷和非專案費用的協力廠商系統。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

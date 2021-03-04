@@ -35,3 +35,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 
 您可以在 Project Operations 中使用一般或具名資源的團隊來為專案配置人員。 您可以使用各種方法來新增和指派團隊成員，以及管理其預約和指派。 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -77,3 +77,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 5. 重複步驟 1-3，為「資深系統工程師」建立另一個標準職稱。
 
 > ![標準職稱實體的範例資料](media/ST-data.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

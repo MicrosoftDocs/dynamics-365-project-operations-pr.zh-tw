@@ -79,3 +79,6 @@ Project Operations 不支援變更合約或專案上的訂單。
 7. 選取 **確定** 關閉對話方塊，然後選取 **更新步驟**。
 8. 對第二個外掛程式重複步驟 1 到 7。
 9. 關閉 **PluginRegistrationTool**。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

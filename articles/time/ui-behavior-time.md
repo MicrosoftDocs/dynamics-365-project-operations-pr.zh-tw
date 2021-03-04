@@ -85,3 +85,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 ## <a name="import"></a>匯入
 您可以使用相同的基本程序，從預約、指派和交換中匯入。 您可以指定匯入預約的日期範圍，然後明確選取應複製到草稿時間項目中的預約。 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

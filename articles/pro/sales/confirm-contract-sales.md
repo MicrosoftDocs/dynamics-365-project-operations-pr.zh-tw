@@ -35,3 +35,6 @@ Dynamics 365 Project Operations 中的專案合約可以藉 **已確認** 的原
 
 > [!NOTE]
 > 在 Dynamics 365 Project Operations 中，以未成交關閉專案合約，並不會影響相關商機的狀態。 商機仍將保持開啟，並必須以手動方式關閉。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

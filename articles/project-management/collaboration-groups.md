@@ -26,3 +26,6 @@ Office 群組可讓您與 Common Data Service 中的其他團隊成員共用專�
 > [!NOTE] 
 > 只有在您按下 **群組** 並新增使用者時，才會將使用者新增至群組。 這與 Project 網頁版的行為不同。 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

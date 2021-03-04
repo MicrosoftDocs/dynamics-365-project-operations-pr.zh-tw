@@ -101,3 +101,6 @@ ms.locfileid: "5147913"
 
 不過，如果更仔細查看預約的詳細資料，就會了解預約開始時間中的差異。 這些預約的開始時間不會早於指派分佈的開始時間，也不會早於資源的可用開始時間。
  ![資源在排程面板中的新預約](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

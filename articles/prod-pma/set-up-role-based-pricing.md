@@ -34,3 +34,6 @@ ms.locfileid: "4073165"
 1. 在 **售價 (小時)** 頁面上，選取 **新增** ，然後輸入生效日期。
 2. 在 **角色** 欄中，選取角色。
 3. 在 **定價** 欄中，輸入所選資源角色的價格。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

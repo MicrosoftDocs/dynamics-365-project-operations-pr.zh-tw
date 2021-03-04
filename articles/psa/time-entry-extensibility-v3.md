@@ -132,3 +132,6 @@ ms.locfileid: "5149623"
 
 > [!IMPORTANT] 
 > 目前，當更新未通過外掛程式驗證時，TBX 頁面會發生一個已知的問題，造成使用者無法更正資訊和重新選取 [完成]。 如需採取因應措施，請設定商務規則驗證，盡可能避免發生這種情況。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

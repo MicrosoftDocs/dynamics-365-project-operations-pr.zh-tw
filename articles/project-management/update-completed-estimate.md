@@ -36,3 +36,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 - 以新的對工作實際進度的估計值覆寫預設進行百分比。
 
 上述每一種方法都會導致重新計算工作的 ETC、完工估計值 (EAC) 和進度百分比，以及工作的預計投入量差異。 系統會重新計算摘要工作的 EAC、ETC 和進度百分比，並產生最新的投入量差異預測。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

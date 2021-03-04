@@ -78,3 +78,6 @@ ms.locfileid: "4643073"
 5. 將 **msdyn_bookableresourceid** 新增至 **欄位名稱**。
 
  ![新增定價維度欄位名稱表單](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

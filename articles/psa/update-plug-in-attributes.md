@@ -68,3 +68,6 @@ ms.locfileid: "5147058"
 
 9. 關閉外掛程式註冊工具
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

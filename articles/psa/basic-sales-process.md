@@ -93,3 +93,6 @@ ms.locfileid: "5145168"
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>追蹤報價與專案合約的註解和核准
 您可以使用記錄留言板和文章來管理報價與專案合約的審查與核准。 您的組織可以建立自訂工作流程和外掛程式，以指派、重新導向、上呈和管理審查及核准工作項目的通知。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

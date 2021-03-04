@@ -31,3 +31,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
     
 ## <a name="submit-expenses-using-per-diem"></a>提交使用每日津貼的費用
 若要提交使用每日津貼的費用，請在建立費用報表時使用 **每日津貼** 費用類別。 輸入 **每個津貼開始日期**、**到目前為止的每日津貼** 和 **每日津貼地點**。 金額會根據所選地點的每日津貼費率進行計算，而餐費扣減則是根據每日津貼費率分級所計算。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

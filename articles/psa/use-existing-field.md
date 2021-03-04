@@ -31,3 +31,6 @@ ms.locfileid: "5144137"
 Project Service Automation (PSA) 的 **實際值** 實體上有許多欄位，可以用來做為專案組織中資源型定價的定價維度。 例如，其中一個常用的欄位是 **可預約資源**。 可計費資源少於 20-30 個的小型公司可能會發現讓每項資源有各自特定的帳單費率與成本費率是比較簡單的方法。 不過，隨著可計費工作力 (員工人數) 擴增，當資源成本和帳單費率開始因資源職位高升、經驗增加或取得其他技能集而改變時，要維持特定費率就會變得不切實際。 由於這種方法對特定規模的公司仍然適用，因此請參閱[使用可預約資源做為定價維度](bookable-resource-pricing-dimension.md)，以了解如何使用現有的 Project Service 欄位做為定價維度。
 
 另一個例子是交易類別的欄位。 客戶與實作者已在 PSA 中使用交易類別來分類工作，並使用該欄位以根據工作類別來估算價格和成本。 如需詳細資訊，請參閱[使用交易類別做為定價維度](transaction-category-pricing-dimension.md)。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

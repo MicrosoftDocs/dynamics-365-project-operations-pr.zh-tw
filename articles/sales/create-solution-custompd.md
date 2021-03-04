@@ -64,3 +64,6 @@ ms.locfileid: "4513965"
 5.  當系統提示您包括所選取實體的任何相依實體時，請選取 **不，請勿包括必要元件**。
 
     ![包括相依實體](./media/Do-not-include-required.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

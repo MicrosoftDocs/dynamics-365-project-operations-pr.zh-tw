@@ -25,3 +25,6 @@ ms.lasthandoff: 10/28/2020
 ms.locfileid: "4132098"
 ---
 # <a name="whats-new-in-project-operations"></a>Project Operations 的最新功能
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

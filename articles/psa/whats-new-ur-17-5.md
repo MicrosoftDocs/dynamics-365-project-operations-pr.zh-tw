@@ -44,3 +44,6 @@ ms.locfileid: "5143690"
 - 已修正：解決 24 小時工作時數範本不正確地將額外一天新增至工作。
 - 已修正：解決 +13 GMT 工作時數範本不正確地將工作提前一天。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 請注意，仔細查看預約的詳細資料，就會顯示預約開始時間中的差異。 預約不會比指派分佈的開始時間更早開始，也不會早於資源的可用開始時間。
 
 ![資源在排程面板中的新預約](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

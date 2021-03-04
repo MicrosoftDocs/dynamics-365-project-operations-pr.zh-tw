@@ -63,3 +63,6 @@ ms.locfileid: "5147373"
 若要在專案的 **團隊** 索引標籤上將未確認預約資源轉換會已確認預約，請選取該資源，然後選取 **確認**。
 
 ![確認命令](media/Resource-Management-image83.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -98,3 +98,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 安裝 CDS 設定和設定資料，如主題[設定和套用 Common Data Service 中的設定資料](resource-apply-pro-setup-config-data.md)中所述。
 只有在部署了 Finance 示範環境，且 FO 中的示範資料準備就緒之後，才能完成此步驟。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ ms.locfileid: "5150073"
 
 > [!NOTE]
 > 為了在您使用舊版 Field Service 和 PSA 應用程式時獲得最佳體驗，請前往 **系統設定** 頁面，並針對 **僅使用新的整合介面 (建議使用)** 欄位選取 **否**，因為這些版本不是設計要在 UCI 中正確載入。 關閉 UCI 之後，您可以使用舊版 Web 用戶端，開啟並執行這些版本的 Field Service 和 PSA。 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

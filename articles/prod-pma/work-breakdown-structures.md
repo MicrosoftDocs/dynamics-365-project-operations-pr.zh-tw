@@ -316,3 +316,6 @@ WBS 範本沒有設定工作時數和非工作日數。
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ ms.locfileid: "5147193"
 **Sales**
 
 - 已修正：重新核准時間項目 (**核准 > 取消 >** 再次核准) 時，會建立重複的不應收費實際值。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
