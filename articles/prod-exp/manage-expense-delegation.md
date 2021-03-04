@@ -1,6 +1,6 @@
 ---
 title: 管理費用委派
-description: 費用代理人使用者可以代表組織中的其他員工建立和管理費用報表。
+description: 費用代理人使用者可以為組織中的其他員工建立和管理費用報表。
 author: KimANelson
 manager: AnnBe
 ms.date: 01/10/2020
@@ -16,27 +16,28 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2020-01-10
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2ce1d1cf35745ef4372258e07fd4d2b108ed4827
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ebe9a47b463498e8e79058019a0b28320590639b
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073148"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960777"
 ---
-# <a name="manage-expense-delegation"></a><span data-ttu-id="e35d9-103">管理費用委派</span><span class="sxs-lookup"><span data-stu-id="e35d9-103">Manage expense delegation</span></span>
+# <a name="manage-expense-delegation"></a><span data-ttu-id="ae62d-103">管理費用委派</span><span class="sxs-lookup"><span data-stu-id="ae62d-103">Manage expense delegation</span></span>
 
-[!include [banner](../includes/banner.md)]
+<span data-ttu-id="ae62d-104">費用代理人可以建立和管理其他員工的費用報表。</span><span class="sxs-lookup"><span data-stu-id="ae62d-104">An expense delegate can create and manage expense reports for another employee.</span></span>
 
-<span data-ttu-id="e35d9-104">費用代理人使用者可以代表組織中的其他員工建立和管理費用報表。</span><span class="sxs-lookup"><span data-stu-id="e35d9-104">An expense delegate user can create and manage expense reports on behalf of another employee in the organization.</span></span>
+## <a name="configure-expense-delegation"></a><span data-ttu-id="ae62d-105">設定費用委派</span><span class="sxs-lookup"><span data-stu-id="ae62d-105">Configure expense delegation</span></span>
 
-## <a name="configuring-expense-delegation"></a><span data-ttu-id="e35d9-105">設定費用代理人</span><span class="sxs-lookup"><span data-stu-id="e35d9-105">Configuring expense delegation</span></span>
+1. <span data-ttu-id="ae62d-106">若要將使用者設定為費用代理人，請移至 **費用管理 > 設定 > 一般 > 代理人**。</span><span class="sxs-lookup"><span data-stu-id="ae62d-106">To set up a user as an expense delegate, go to **Expense management > Setup > General > Delegates**.</span></span>
+2. <span data-ttu-id="ae62d-107">在 **代理人** 頁面上，選取 **新增**。</span><span class="sxs-lookup"><span data-stu-id="ae62d-107">On the **Delegates** page, select **New**.</span></span>
+3. <span data-ttu-id="ae62d-108">選取要定義其代理人的員工。</span><span class="sxs-lookup"><span data-stu-id="ae62d-108">Select the employee that will have a delegate defined.</span></span> 
+4. <span data-ttu-id="ae62d-109">輸入代理人使用者的別名，以及委派期間的開始與結束日期。</span><span class="sxs-lookup"><span data-stu-id="ae62d-109">Enter the alias of the delegate user and the start and end date for the delegation period.</span></span>
 
-<span data-ttu-id="e35d9-106">若要將使用者設定為費用代理人，請移至 **費用管理 > 設定 > 一般 > 代理人** 以開啟 **代理人** 頁面。</span><span class="sxs-lookup"><span data-stu-id="e35d9-106">To set up a user as an expense delegate, go to **Expense management > Setup > General > Delegates** to open the **Delegates** page.</span></span> <span data-ttu-id="e35d9-107">選取 **新增** ，然後選取要定義代理人的員工。</span><span class="sxs-lookup"><span data-stu-id="e35d9-107">Select **New** and then select the employee that will have a delegate defined.</span></span> <span data-ttu-id="e35d9-108">輸入代理人使用者的別名，以及委派期間的開始與結束日期。</span><span class="sxs-lookup"><span data-stu-id="e35d9-108">Enter the alias of the delegate user and the start and end date for the delegation period.</span></span>
+## <a name="manage-expense-delegation-for-another-employee"></a><span data-ttu-id="ae62d-110">管理其他員工的費用委派</span><span class="sxs-lookup"><span data-stu-id="ae62d-110">Manage expense delegation for another employee</span></span>
 
-## <a name="managing-expense-delegation-on-behalf-of-another-employee"></a><span data-ttu-id="e35d9-109">代表其他員工管理費用的委派</span><span class="sxs-lookup"><span data-stu-id="e35d9-109">Managing expense delegation on behalf of another employee</span></span>
+<span data-ttu-id="ae62d-111">啟用功能管理金鑰 **啟用費用代理人清單頁面** 時，就會有 **已委派給我的費用** 清單頁面。</span><span class="sxs-lookup"><span data-stu-id="ae62d-111">When the feature management key **Enable expense delegates list page** is enabled, the **Expenses delegated to me** list page will be available.</span></span> <span data-ttu-id="ae62d-112">移至 **費用管理** > **我的費用** > **已委派給我的費用**。</span><span class="sxs-lookup"><span data-stu-id="ae62d-112">Go to **Expense management** > **My expenses** > **Expenses delegated to me**.</span></span>
 
-<span data-ttu-id="e35d9-110">如果功能管理金鑰 **啟用費用代理人清單頁面** 已啟用，則可瀏覽至 **費用管理 > 我的費用 > 已委派給我的費用** ，即可找到 **已委派給我的費用** 清單頁面 。</span><span class="sxs-lookup"><span data-stu-id="e35d9-110">If the feature management key **Enable expense delegates list page** is enabled, the **Expenses delegated to me** list page will be available by navigating to **Expense management > My expenses > Expenses delegated to me**.</span></span>
+<span data-ttu-id="ae62d-113">代理人使用者可以快速篩選和搜尋已委派給他們的現有費用報表。</span><span class="sxs-lookup"><span data-stu-id="ae62d-113">A delegate user can quickly filter and search on existing expense reports that have been delegated to them.</span></span> <span data-ttu-id="ae62d-114">他們也可以選取 **新增費用報表**，為其他使用者建立新的費用報表。</span><span class="sxs-lookup"><span data-stu-id="ae62d-114">They can also create a new expense report for other users by selecting **New expense report**.</span></span>
 
-<span data-ttu-id="e35d9-111">代理人使用者可以快速篩選和搜尋已委派給使用者的現有費用報表。</span><span class="sxs-lookup"><span data-stu-id="e35d9-111">A delegate user can quickly filter and search on existing expense reports that hae been delegated to the user.</span></span> <span data-ttu-id="e35d9-112">使用者也可以按一下 **新增費用報表** ，代表其他使用者快速建立新的費用報表。</span><span class="sxs-lookup"><span data-stu-id="e35d9-112">The user can also quickly create a new expense report on behalf of other users by clicking **New expense report**.</span></span>
-
-<span data-ttu-id="e35d9-113">代理人使用者還可以瀏覽至 **費用管理> 我的費用> 費用報表** 並按一下 **開啟其他使用者的費用** 按鈕，以代表其他員工建立和管理費用報表。</span><span class="sxs-lookup"><span data-stu-id="e35d9-113">Delegate users can also create and manage expense reports on behalf of other employees by navigating to **Expense management > My expenses > Expense reports** and clicking the **Open other user's expenses** button.</span></span>
+<span data-ttu-id="ae62d-115">代理人使用者還可以移至 **費用管理** > **我的費用** > **費用報表** 並選取 **開啟其他使用者的費用**，建立和管理其他員工的費用報表。</span><span class="sxs-lookup"><span data-stu-id="ae62d-115">Delegate users can also create and manage expense reports for other employees by going to **Expense management** > **My expenses** > **Expense reports** and selecting **Open other user's expenses**.</span></span>
