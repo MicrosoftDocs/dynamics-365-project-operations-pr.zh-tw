@@ -18,23 +18,25 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f3a667823ac2b789bb106a1831cb7b6a56baf4c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 5573bdaf05cb430131d92be771fb91900fb5453a
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120398"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147778"
 ---
-# <a name="dashboards"></a><span data-ttu-id="e83d6-103">儀表板</span><span class="sxs-lookup"><span data-stu-id="e83d6-103">Dashboards</span></span>
+# <a name="dashboards"></a><span data-ttu-id="966d3-103">儀表板</span><span class="sxs-lookup"><span data-stu-id="966d3-103">Dashboards</span></span>
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="e83d6-104">Dynamics 365 Project Service Automation 包含兩個系統儀表板：**實務經理** 和 **資源管理員**。</span><span class="sxs-lookup"><span data-stu-id="e83d6-104">Dynamics 365 Project Service Automation includes two system dashboards: **Practice Manager** and **Resource Manager**.</span></span>
+<span data-ttu-id="966d3-104">Dynamics 365 Project Service Automation 包含兩個系統儀表板：**實務經理** 和 **資源管理員**。</span><span class="sxs-lookup"><span data-stu-id="966d3-104">Dynamics 365 Project Service Automation includes two system dashboards: **Practice Manager** and **Resource Manager**.</span></span>
 
-## <a name="practice-manager"></a><span data-ttu-id="e83d6-105">實務經理</span><span class="sxs-lookup"><span data-stu-id="e83d6-105">Practice Manager</span></span> 
+## <a name="practice-manager"></a><span data-ttu-id="966d3-105">實務經理</span><span class="sxs-lookup"><span data-stu-id="966d3-105">Practice Manager</span></span> 
 
-<span data-ttu-id="e83d6-106">**實務經理** 儀表板提供實務經理用於追蹤成本、銷售及毛利率和使用率的圖形化儀表板體驗。</span><span class="sxs-lookup"><span data-stu-id="e83d6-106">The **Practice Manager** dashboard gives practice managers a graphical dashboard experience for tracking costs, sales, and gross margin and utilization.</span></span> <span data-ttu-id="e83d6-107">此儀表板也會讓實務經理依據各種維度 (例如客戶、專案或資源角色) 來分割資訊。</span><span class="sxs-lookup"><span data-stu-id="e83d6-107">It also lets practice managers slice the information by various dimensions, such as customer, project, or resource role.</span></span> <span data-ttu-id="e83d6-108">如需有關如何建立自訂儀表板的詳細資訊，請參閱[建立或編輯儀表板](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)。</span><span class="sxs-lookup"><span data-stu-id="e83d6-108">For more information about how to create and customize dashboards, see [Create or edit dashboards](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).</span></span>
+<span data-ttu-id="966d3-106">**實務經理** 儀表板提供實務經理用於追蹤成本、銷售及毛利率和使用率的圖形化儀表板體驗。</span><span class="sxs-lookup"><span data-stu-id="966d3-106">The **Practice Manager** dashboard gives practice managers a graphical dashboard experience for tracking costs, sales, and gross margin and utilization.</span></span> <span data-ttu-id="966d3-107">此儀表板也會讓實務經理依據各種維度 (例如客戶、專案或資源角色) 來分割資訊。</span><span class="sxs-lookup"><span data-stu-id="966d3-107">It also lets practice managers slice the information by various dimensions, such as customer, project, or resource role.</span></span> <span data-ttu-id="966d3-108">如需有關如何建立自訂儀表板的詳細資訊，請參閱[建立或編輯儀表板](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)。</span><span class="sxs-lookup"><span data-stu-id="966d3-108">For more information about how to create and customize dashboards, see [Create or edit dashboards](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).</span></span>
 
-## <a name="resource-manager"></a><span data-ttu-id="e83d6-109">資源管理員</span><span class="sxs-lookup"><span data-stu-id="e83d6-109">Resource Manager</span></span> 
+## <a name="resource-manager"></a><span data-ttu-id="966d3-109">資源管理員</span><span class="sxs-lookup"><span data-stu-id="966d3-109">Resource Manager</span></span> 
 
-<span data-ttu-id="e83d6-110">**資源管理員** 儀表板提供資源管理員用於監視資源要求和資源索求以及使用率的圖形化儀表板體驗。</span><span class="sxs-lookup"><span data-stu-id="e83d6-110">The **Resource Manager** dashboard gives resource managers a graphical dashboard experience for monitoring resource requests, and resource demand and utilization.</span></span> <span data-ttu-id="e83d6-111">此儀表板也會讓資源管理員依據各種維度來分割監視的資訊。</span><span class="sxs-lookup"><span data-stu-id="e83d6-111">It also lets resource managers slice the monitored information by various dimensions.</span></span>
+<span data-ttu-id="966d3-110">**資源管理員** 儀表板提供資源管理員用於監視資源要求和資源索求以及使用率的圖形化儀表板體驗。</span><span class="sxs-lookup"><span data-stu-id="966d3-110">The **Resource Manager** dashboard gives resource managers a graphical dashboard experience for monitoring resource requests, and resource demand and utilization.</span></span> <span data-ttu-id="966d3-111">此儀表板也會讓資源管理員依據各種維度來分割監視的資訊。</span><span class="sxs-lookup"><span data-stu-id="966d3-111">It also lets resource managers slice the monitored information by various dimensions.</span></span>
