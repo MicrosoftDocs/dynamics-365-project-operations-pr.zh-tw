@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 91cf4150c651794fe38ebf5a406cad936aa5105d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e1f3ebf8d0cd6c8e25fcab6775cd92d544867af8
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130460"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151108"
 ---
 # <a name="experiment-with-demo-data-project-service"></a>使用示範資料進行實驗 (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 若要熟悉 Dynamics 365 Project Service Automation，擁有預先設定的環境將有助於探索。 為了此目的，我們已建立可讓您輕鬆了解這些解決方案的不同範例資料安裝套件 (目前只有英文版本)。 
 

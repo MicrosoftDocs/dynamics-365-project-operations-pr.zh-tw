@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0019571a1d37d3b6a503e7221db3c3b51365c236
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 00214aa2b514da71b331073cd0eeb5320c03e7d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073080"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150748"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>使用交易類別做為定價維度
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 本主題說明如何使用交易類別做為定價維度。 開始之前，如果尚未建立定價維度解決方案，就必須建立新的定價維度。 如果已經有定價維度解決方案，則可以在該解決方案中進行變更。 如果您沒有為組織建立新的定價維度解決方案，請完成[建立自訂欄位和實體](create-custom-fields-entities.md)主題中的程序。
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>將交易類別新增至表單和檢視表
@@ -46,7 +49,7 @@ ms.locfileid: "4073080"
 
 ## <a name="set-up-transaction-category-as-a-pricing-dimension"></a>設定交易類別做為定價維度
 
-1. 在 Web 介面中，移至 **Project Service** > **設定** > **參數** 。 
+1. 在 Web 介面中，移至 **Project Service** > **設定** > **參數**。 
 2. 在 **參數** 頁面的 **以金額為準的定價維度** 索引標籤上，注意索引標籤上的網格會顯示 **定價維度** 實體中的記錄。
-3. 將 **交易類別** 新增至此清單，並將 **適用於成本** 和 **適用於銷售** 欄位設定為 **是** 。
-4. 在 **維度類型** 欄位中，選取 **以金額為準** ，然後選取與成本及銷售相關之 **交易類別** 的優先順序。
+3. 將 **交易類別** 新增至此清單，並將 **適用於成本** 和 **適用於銷售** 欄位設定為 **是**。
+4. 在 **維度類型** 欄位中，選取 **以金額為準**，然後選取與成本及銷售相關之 **交易類別** 的優先順序。

@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 515a2e2e518614884b414ca43702e8bfea2c6919
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073037"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151288"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>定價和成本維度首頁
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 在專案型組織中用來設定人力定價和成本估算的維度，受到下列屬性影響：
 
@@ -38,7 +40,7 @@ ms.locfileid: "4073037"
 
 ## <a name="pricing-dimensions"></a>定價維度
 
-PSA 隨附一組預設定價維度。 您可以移至 **Project Service** > **參數** 來檢視這些維度。 在參數記錄的 **以金額為準的定價維度** 索引標籤上，確認角色 **msdyn_resourcecategory** 和資源分配單位 **msdyn_organizationalunit** 的 **適用於銷售** 及 **適用於成本** 欄位已設定為 **是** 。 這可讓您設定每個角色與組織單位組合的價格和成本。
+PSA 隨附一組預設定價維度。 您可以移至 **Project Service** > **參數** 來檢視這些維度。 在參數記錄的 **以金額為準的定價維度** 索引標籤上，確認角色 **msdyn_resourcecategory** 和資源分配單位 **msdyn_organizationalunit** 的 **適用於銷售** 及 **適用於成本** 欄位已設定為 **是**。 這可讓您設定每個角色與組織單位組合的價格和成本。
 
 ![反白顯示「適用於銷售」的 Project Service 參數螢幕擷取畫面](media/PS-OOB-parameters.png)
 
@@ -55,7 +57,7 @@ PSA 隨附一組預設定價維度。 您可以移至 **Project Service** > **�
 ## <a name="pricing-human-resource-time"></a>定訂人力資源時間價格
 組織對人力資源時間的定價方式通常是直接影響組織獲利能力的重要策略考量。 當您的組織準備好要確定其設定人力資源時間帳單及成本費率所需的方式時，請與財務團隊和執業負責人合作。
 
-其他定價考量包括是否要重複使用並非目前定價維度但套用做為組織定價維度的欄位或實體。 像 **交易類別** ( **msdyn_transactioncategory** ) 和 **可預約資源** ( **bookableresource** ) 等欄位即是候選維度的範例。 
+其他定價考量包括是否要重複使用並非目前定價維度但套用做為組織定價維度的欄位或實體。 像 **交易類別** (**msdyn_transactioncategory**) 和 **可預約資源** (**bookableresource**) 等欄位即是候選維度的範例。 
 
 考慮定價維度要使用的是表格還是選項組。 如果您預料維度值的變動會超過 10 或 12，而您在這些值上需要其他屬性時，請建立實體，而不是選項組。 維護選項組 (例如新增或移除值) 時，需要系統管理員或開發人員，而將新的列新增至表格則可由大多數商務使用者來完成。
 
