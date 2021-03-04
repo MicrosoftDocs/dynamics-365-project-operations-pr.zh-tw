@@ -17,14 +17,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a5a81893c4a804deb09cf33e0ac3f1a25b8bca36
-ms.sourcegitcommit: a2b810219d381716d3eedb14c4eb6cdefb5b5845
+ms.openlocfilehash: aabee3fe755e33d2c0f01a96b6f53a68957bc041
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "4183533"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5143719"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-25-v3"></a>Project Service Automation V3 更新版本 25 的新功能或變更內容
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 我們很高興地宣佈 Dynamics 365 的 Project Service Automation 應用程式的最新更新。 此版本包含一些對品質、效能和可用性的重要改進。 此版本與 Dynamics 365 9. x 相容。 若要更新至此版本，請前往 Dynamics 365 online 系統管理中心，請移至解決方案頁面以安裝更新。 如需詳細資訊，請參閱[安裝、更新或移除偏好的解決方案](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution)。
 

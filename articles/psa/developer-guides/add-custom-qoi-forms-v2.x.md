@@ -16,28 +16,30 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57d4b9aad433af6d3e73369c76f2793f349c6965
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073190"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144583"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>新增自訂實體表單 (Project Service Automation 2.x)
 
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
 ## <a name="type-field"></a>類型欄位 
 
-Dynamics 365 Project Service Automation 依賴商機、報價、訂單或發票實體的 **類型** ( **msdyn\_ordertype** ) 欄位，將這些實體的 **工作型** 版本與 **項目型** 及 **服務型** 版本區分開來。 這些實體的工作型版本是由 PSA 所處理。 解決方案用戶端及伺服器端的許多商務規則都相依於 **類型** 欄位。 因此，建立實體時，使用正確的值來初始化欄位，非常重要。 不正確的值可能會產生不正確的行為，而且部分商務規則可能無法正確執行。
+Dynamics 365 Project Service Automation 依賴商機、報價、訂單或發票實體的 **類型** (**msdyn\_ordertype**) 欄位，將這些實體的 **工作型** 版本與 **項目型** 及 **服務型** 版本區分開來。 這些實體的工作型版本是由 PSA 所處理。 解決方案用戶端及伺服器端的許多商務規則都相依於 **類型** 欄位。 因此，建立實體時，使用正確的值來初始化欄位，非常重要。 不正確的值可能會產生不正確的行為，而且部分商務規則可能無法正確執行。
 
 ## <a name="automatic-form-switching"></a>自動表單切換
 
-為了避免因不正確初始化和編輯銷售實體記錄而導致可能的資料損壞和非預期行為，PSA 目前已在內建表單中包含自動表單切換邏輯。 此邏輯會將使用者帶到正確的表單，以處理工作型版本或任何其他類型的商機、報價、訂單或發票實體。 使用者開啟商機、報價、訂單或發票實體的工作型版本時，表單會切換至 **專案資訊** 。
+為了避免因不正確初始化和編輯銷售實體記錄而導致可能的資料損壞和非預期行為，PSA 目前已在內建表單中包含自動表單切換邏輯。 此邏輯會將使用者帶到正確的表單，以處理工作型版本或任何其他類型的商機、報價、訂單或發票實體。 使用者開啟商機、報價、訂單或發票實體的工作型版本時，表單會切換至 **專案資訊**。
 
 自動表單切換邏輯依賴 **formId** 值與 **msdyn\_ordertype** 欄位之間的對應。 所有的內建表單都已新增至該對應。 不過，自訂表單必須手動新增，以指出其所需處理的實體版本。 這是以 **msdyn\_ordertype** 欄位為依據。 如果對應中找不到表單切換，邏輯會根據儲存在實體之 **msdyn\_ordertype** 欄位中的值，切換至內建表單。
 
 ## <a name="add-custom-forms-and-turn-on-the-form-switching-logic"></a>新增自訂表單並開啟表單切換邏輯
 
-下列範例顯示如何新增自訂表單 **我的專案資訊** ，讓它與工作型商機搭配使用。 同樣的程序也會用來新增自訂表單，讓這些表單使用報價、訂單和發票。
+下列範例顯示如何新增自訂表單 **我的專案資訊**，讓它與工作型商機搭配使用。 同樣的程序也會用來新增自訂表單，讓這些表單使用報價、訂單和發票。
 
 依照下列步驟建立 **專案資訊** 表單的自訂版本。
 
@@ -47,7 +49,7 @@ Dynamics 365 Project Service Automation 依賴商機、報價、訂單或發票�
     > [!IMPORTANT]
     > 請勿移除指令碼。 否則，部分資料的初始化可能會不正確。
 
-3. 確認 **類型** ( **msdyn\_ordertype** ) 欄位是否存在於表單中。 
+3. 確認 **類型** (**msdyn\_ordertype**) 欄位是否存在於表單中。 
 
     > [!IMPORTANT]
     > 請勿移除此欄位。 否則，初始化指令碼將會失敗。

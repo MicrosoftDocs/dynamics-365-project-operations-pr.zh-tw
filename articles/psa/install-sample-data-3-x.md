@@ -11,14 +11,16 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 3c9cca7aa9d85bb38e48820b361ba07923ceddbd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: aaeb4163c7ace1c3bf4db61f1a10a13cfbdc4fc2
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132413"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144493"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Project Service 應用程式的範例資料安裝
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 為了協助您建立自己的示範環境，Microsoft 提供可下載的範例資料套件，展示應用程式的功能。 有兩種類型的範例資料套件：
 - 參考/設定資料

@@ -3,6 +3,7 @@ title: 啟用 Project Finder Mobile 應用程式功能
 description: 如何啟用 Project Service 的 Project Finder Mobile 應用程式功能
 author: JohnPBurrows
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,22 +19,24 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: af267b5adc48b6edec57de196f91e338c058558c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 1b70182125d607aa17528ef3dc4ea2345b76acd1
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132953"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144538"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>啟用 Project Finder Mobile 應用程式功能 (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-您的資源可以在手機上透過 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]使用 Project Finder Mobile 應用程式，尋找新專案進行處理及更新其技能集。  
+您的資源可以透過 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 使用手機上的 Project Finder Mobile 應用程式，尋找新專案進行處理及更新其技能集。  
   
  應用程式適用於 [!INCLUDE[tn_Apple_iphone](../includes/tn-apple-iphone.md)]、[!INCLUDE[tn_android](../includes/tn-android.md)] 手機和 [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)]。  
-  
- 您需要在參數設定中為組織單位設定一些選項，才能允許使用者檢視專案的資源需求及更新其技能。  
+    
+ 若要允許使用者檢視專案資源需求並更新技能，您必須在組織單位的參數設定中選取選項。
   
 > [!NOTE]
 >  Project Finder Mobile 應用程式僅適用於 [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]，無法搭配內部部署安裝使用。  
@@ -57,10 +60,10 @@ ms.locfileid: "4132953"
   
 |收件者|活動|  
 |---------------|-----------|  
-|專案經理|- 當資源使用 Project Finder Mobile 應用程式註冊專案時。|  
-|資源|- 當資源註冊的專案工作已由另一個資源履行時。<br />- 當其技能核准要求已核准或遭拒時。<br />- 當其專案註冊要求已核准或遭拒時。|  
+|專案經理|- 資源使用 Project Finder Mobile 應用程式註冊專案。|  
+|資源|- 資源註冊的專案工作已由另一個資源履行。<br />- 其技能核准要求已核准或遭拒。<br />- 專案註冊要求已核准或遭拒。|  
   
-## <a name="privacy-notice"></a>隱私權注意事項  
+## <a name="privacy-notice"></a>隱私權通知  
  [!INCLUDE[cc_privacy_crm_project_finder_mobile_app](../includes/cc-privacy-crm-project-finder-mobile-app.md)]  
   
 ### <a name="see-also"></a>請參閱  
