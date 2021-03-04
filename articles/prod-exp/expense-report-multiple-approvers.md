@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce24b156a268f9f5aada35f9314d2d9c6607200b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9b6d07f00fd6c1ba2d860787665d95f95f7b1a89
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073152"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960597"
 ---
 # <a name="multiple-approvers-on-an-expense-report"></a>費用報表上的多個核准者
-
-[!include [banner](../includes/banner.md)]
 
 根據您組織的費用核准原則，可能需要多人來核准員工所提交的費用報表。 設定費用報表核准工作流程程序時，您可以新增包含一個或多個費用報表核准者之工作或步驟的工作流程元素。 例如，您可能需要所有的費用報表先由提交報表之員工的經理核准，然後再由應付帳款協調員來核准。
 

@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f80922877f3d3d0e1149c2aa690f881bcf927b11
-ms.sourcegitcommit: 5791f6347e800fc4f6c76e7460947cb6824edebe
+ms.openlocfilehash: 3889402ab991e307bc3fe5463098dfab383a53b4
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4700670"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727870"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>2020 年 12 月 - 資源/非庫存型案例適用的 Project Operations 新增功能
 
@@ -24,6 +24,8 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 - Dataverse 環境的 Project Operations 版本 4.5.0.134
 - Dynamics 365 Finance 環境 10.0.15 版本的專案管理與會計
+
+如需有關如何更新至此版本的詳細資訊，請參閱[更新 Finance 環境中的 Project Operations](ur5-nonstocked-installation.md)。
 
 ## <a name="features-included-in-this-release"></a>此版本包含的功能
 此版本包含下列功能：

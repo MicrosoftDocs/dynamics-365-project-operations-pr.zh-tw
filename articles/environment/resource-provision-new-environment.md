@@ -3,17 +3,18 @@ title: 佈建新的環境
 description: 本主題提供有關如何佈建新的 Project Operations 環境的資訊。
 author: sigitac
 manager: Annbe
-ms.date: 10/26/2020
+ms.date: 12/11/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 09af2a7693c45d1d0b9c75420d018cc50d2cc0fa
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642951"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727780"
 ---
 # <a name="provision-a-new-environment"></a>佈建新的環境
 
@@ -60,17 +61,15 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 ![部署同意](./media/2DeploymentConsent.png)
 
-7. 完成精靈中的其餘必要欄位，並確認部署。 環境佈建時間會根據環境類型而有所不同。 佈建最多可能需要六小時的時間。
+7. 選用 - 將示範資料套用至環境。 移至 **進階設定**、選取 **自訂 SQL Database 設定**，然後將 **指定應用程式資料庫的資料集** 設定為 **示範**。
+
+8. 完成精靈中的其餘必要欄位，並確認部署。 佈建環境的時間會根據環境類型而有所不同。 佈建最多可能需要六小時的時間。
 
   部署順利完成後，環境將會顯示為 **已部署**。
 
-8. 若要確認已成功部署環境，請選取 **登入**，並登入要確認的環境。
+9. 若要確認環境已部署成功，請選取 **登入**，並登入要確認的環境。
 
 ![ 環境詳細資料](./media/3EnvironmentDetails.png)
-
-## <a name="apply-project-operations-finance-demo-data-optional-step"></a>套用 Project Operations 財務示範資料 (選用步驟)
-
-將 Project Operations 財務示範資料套用至 10.0.13 服務版本雲端託管的環境，如[本文章](resource-apply-finance-demo-data.md)中所述。
 
 ## <a name="apply-updates-to-the-finance-environment"></a>將更新套用至 Finance 環境
 
@@ -151,6 +150,21 @@ Project Operations 需要應用程式版本為 **10.0.13 (10.0.569.20009)** 或�
 重新整理將需要約 20 分鐘的時間。 完成時，您會收到警示。
 
 ![重新整理確認](./media/19RefreshConfirmation.png)
+
+## <a name="update-security-settings-on-project-operations-on-dataverse"></a>在 Dataverse 上更新 Project Operations 的安全性設定
+
+1. 移至 Dataverse 環境上的 Project Operations。 
+2. 移至 **設定** > **安全性** > **資訊安全角色**。 
+3. 在 **資料安全角色** 頁面的角色清單中，選取 **雙重寫入應用程式使用者**，然後選取 **自訂實體** 索引標籤。  
+4. 確認角色是否對下列各項具有 **讀取** 和 **附加至** 權限：
+      
+      - **貨幣匯率類型**
+      - **會計科目表**
+      - **會計行事曆**
+      - **總帳**
+
+5. 更新資訊安全角色之後，移至 **設定** > **安全** > **團隊**，並在 **當地業務負責人** 團隊檢視表中選取預設團隊。
+6. 選取 **管理角色**，並確認 **雙重寫入應用程式使用者** 安全性權限是否已套用至此團隊。
 
 ## <a name="run-project-operations-dual-write-maps"></a>執行 Project Operations 雙重寫入對應
 

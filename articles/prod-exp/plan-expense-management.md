@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e2291515cc154fb5b34ca5802135791958bea1e5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db3529597c662a326730cf6a0b855ae865f0dce5
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073144"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960327"
 ---
 # <a name="configure-expense-management"></a>設定費用管理
-
-[!include [banner](../includes/banner.md)]
 
 本主題說明設定費用管理之前，您必須在規劃過程中進行的考量和決策。 在費用管理中，您可以儲存付款方式、差旅申請、費用報表、原則等相關資訊。
 
@@ -147,7 +145,7 @@ ms.locfileid: "4073144"
 - 是否應在費用上啟用稅金退還？
 
     > [!NOTE]
-    > 規劃總帳當時，如果您已決定套用美國銷售稅並使用課稅規則，則無法在費用上啟用稅金退還。 (若要套用美國銷售稅並使用課稅規則，請將 **套用銷售稅課稅規則** 選項設定為 **是** )。
+    > 規劃總帳當時，如果您已決定套用美國銷售稅並使用課稅規則，則無法在費用上啟用稅金退還。 (若要套用美國銷售稅並使用課稅規則，請將 **套用銷售稅課稅規則** 選項設定為 **是**)。
 
 ## <a name="policies"></a>原則
 

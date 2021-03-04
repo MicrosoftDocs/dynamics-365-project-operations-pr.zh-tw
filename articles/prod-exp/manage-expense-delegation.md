@@ -1,6 +1,6 @@
 ---
 title: 管理費用委派
-description: 費用代理人使用者可以代表組織中的其他員工建立和管理費用報表。
+description: 費用代理人使用者可以為組織中的其他員工建立和管理費用報表。
 author: KimANelson
 manager: AnnBe
 ms.date: 01/10/2020
@@ -16,27 +16,28 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2020-01-10
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2ce1d1cf35745ef4372258e07fd4d2b108ed4827
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ebe9a47b463498e8e79058019a0b28320590639b
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073148"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960777"
 ---
 # <a name="manage-expense-delegation"></a>管理費用委派
 
-[!include [banner](../includes/banner.md)]
+費用代理人可以建立和管理其他員工的費用報表。
 
-費用代理人使用者可以代表組織中的其他員工建立和管理費用報表。
+## <a name="configure-expense-delegation"></a>設定費用委派
 
-## <a name="configuring-expense-delegation"></a>設定費用代理人
+1. 若要將使用者設定為費用代理人，請移至 **費用管理 > 設定 > 一般 > 代理人**。
+2. 在 **代理人** 頁面上，選取 **新增**。
+3. 選取要定義其代理人的員工。 
+4. 輸入代理人使用者的別名，以及委派期間的開始與結束日期。
 
-若要將使用者設定為費用代理人，請移至 **費用管理 > 設定 > 一般 > 代理人** 以開啟 **代理人** 頁面。 選取 **新增** ，然後選取要定義代理人的員工。 輸入代理人使用者的別名，以及委派期間的開始與結束日期。
+## <a name="manage-expense-delegation-for-another-employee"></a>管理其他員工的費用委派
 
-## <a name="managing-expense-delegation-on-behalf-of-another-employee"></a>代表其他員工管理費用的委派
+啟用功能管理金鑰 **啟用費用代理人清單頁面** 時，就會有 **已委派給我的費用** 清單頁面。 移至 **費用管理** > **我的費用** > **已委派給我的費用**。
 
-如果功能管理金鑰 **啟用費用代理人清單頁面** 已啟用，則可瀏覽至 **費用管理 > 我的費用 > 已委派給我的費用** ，即可找到 **已委派給我的費用** 清單頁面 。
+代理人使用者可以快速篩選和搜尋已委派給他們的現有費用報表。 他們也可以選取 **新增費用報表**，為其他使用者建立新的費用報表。
 
-代理人使用者可以快速篩選和搜尋已委派給使用者的現有費用報表。 使用者也可以按一下 **新增費用報表** ，代表其他使用者快速建立新的費用報表。
-
-代理人使用者還可以瀏覽至 **費用管理> 我的費用> 費用報表** 並按一下 **開啟其他使用者的費用** 按鈕，以代表其他員工建立和管理費用報表。
+代理人使用者還可以移至 **費用管理** > **我的費用** > **費用報表** 並選取 **開啟其他使用者的費用**，建立和管理其他員工的費用報表。
