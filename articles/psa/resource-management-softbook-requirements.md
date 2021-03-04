@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e753dd2f5635d1e9d0d6a02ea5d1d537879dd3a5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 09f7acb95be014034cc03d7eed9d37363d430601
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124088"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147373"
 ---
 # <a name="soft-book-requirements"></a>未確認預約需求
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 資源需求可以進行已確認預約。 已確認預約會建立耗用資源產能的提案。 提案接著會傳送回到要求者以取得核准。 未確認預約會暫時將資源新增至專案團隊，並且在排程面板上的狀態有所不同，但不會耗用資源的產能。 若要以未確認預約方式從排程面板預約資源，請將 **預約狀態** 欄位設定為 **未確認**。
 

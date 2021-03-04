@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1ae95430c368370145c7081a5d94d6161a7700b4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: da0ac942579ba8d9b2258a011b8eeef8e64ba9c9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073081"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147283"
 ---
 # <a name="turn-off-a-pricing-dimension"></a>關閉定價維度
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 您可能每隔幾年就需要檢閱並更新您的定價策略。 任何您所進行的更新可能都需要您關閉現有的定價維度，並建立新的定價維度。 例如，您可能先前已依 **角色** 定價，但現在決定依據 **工作經驗** 進行定價。 這可能要求您必須關閉以 **角色** 為定價維度的設定，並將 **工作經驗** 建立為新的定價維度。 
 
@@ -35,7 +37,7 @@ ms.locfileid: "4073081"
 ![關閉定價維度時可能發生商務程序錯誤](media/Business-Process-Error.png)
 
 
-此錯誤訊息表示存在先前為所要關閉維度設定的價格記錄。 必須先刪除參照該維度的所有 **角色價格** 和 **角色價格加成** 記錄，才能將維度的適用性設為 **否** 。 此規則適用於內建定價維度以及任何您可能已建立的自訂定價維度。 這項驗證的原因在於 Project Service 有一個限制，每個 **角色價格** 記錄都必須有一個唯一的維度組合。 例如，在名為 **2018 年美國成本費率** 的價目表中，您有下列 **角色價格** 列。 
+此錯誤訊息表示存在先前為所要關閉維度設定的價格記錄。 必須先刪除參照該維度的所有 **角色價格** 和 **角色價格加成** 記錄，才能將維度的適用性設為 **否**。 此規則適用於內建定價維度以及任何您可能已建立的自訂定價維度。 這項驗證的原因在於 Project Service 有一個限制，每個 **角色價格** 記錄都必須有一個唯一的維度組合。 例如，在名為 **2018 年美國成本費率** 的價目表中，您有下列 **角色價格** 列。 
 
 | 標準職稱         | 組織單位    |單位   |價格  |貨幣  |
 | -----------------------|-------------|-------|-------|----------|

@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ccbfedec82b2d9035b51cf1b283ae5c441f1cbcc
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 7032af78168c742ac64cb2a7174cabcbda579ff8
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122288"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146518"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>從排程面板建立專案預約
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 您可以直接將資源從 **團隊** 索引標籤預約到專案，做法是在專案的專案團隊索引標籤上預約，或是從一般團隊成員指派產生資源需求，然後透過專案團隊成員履行產生的需求。
 

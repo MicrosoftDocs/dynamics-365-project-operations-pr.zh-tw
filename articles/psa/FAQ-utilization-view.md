@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a1d1db532c65b2a13f3cf4e1281a5987490b96df
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4516c562e7eaf35c5fef638183967eef5a033b11
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122153"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146383"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>檢視資源的應收費使用率
+
+[!include [banner](../includes/psa-now-project-operations.md)]
  
 **Project Service 資源使用率** 頁面上的 **使用率檢視表** 會顯示每個可預約資源的應收費使用率。 檢視表是以排程面板為基礎所建立，因此您會發現許多相同的功能。
 
