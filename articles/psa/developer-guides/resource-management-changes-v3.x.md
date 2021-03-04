@@ -16,20 +16,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5176d2c6b7b00d47d4aeb12f54bdb84d4b87304c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 94f9adc67163254486387a1ce59d5d3e8e93c335
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073187"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148633"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>資源管理變更 (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 本主題的各節提供有關已對 Dynamics 365 Project Service Automation 3.x 版資源管理區域所做變更的資訊。
 
 ## <a name="project-estimates"></a>專案估計值
 
-專案估計值所根據的不是 **msdyn\_projecttask** entity ( **Project Task** )，而是 **msdyn\_resourceassignment** entity ( **Resource Assignment** )。 資源指派已成為工作排程和定價的「事實原始資料」。
+專案估計值所根據的不是 **msdyn\_projecttask** entity (**Project Task**)，而是 **msdyn\_resourceassignment** entity (**Resource Assignment**)。 資源指派已成為工作排程和定價的「事實原始資料」。
 
 ## <a name="line-tasks"></a>明細工作
 
@@ -65,7 +67,7 @@ ms.locfileid: "4073187"
 
 ## <a name="scheduling-fields-on-the-project-task-entity"></a>專案工作實體的排程欄位
 
-**msdyn\_projecttask** 實體的欄位已被取代或已移到 **msdyn\_resourceassignment** 實體，或者現在是從 **msdyn\_projectteam** 實體 ( **專案團隊成員** ) 中參照這些實體。
+**msdyn\_projecttask** 實體的欄位已被取代或已移到 **msdyn\_resourceassignment** 實體，或者現在是從 **msdyn\_projectteam** 實體 (**專案團隊成員**) 中參照這些實體。
 
 | msdyn\_projecttask (專案工作) 上已被取代的欄位 | msdyn\_resourceassignment (資源指派) 上的新欄位 | 註解 |
 |---|---|---|
@@ -77,7 +79,7 @@ ms.locfileid: "4073187"
 
 ## <a name="schedule-contour"></a>排程分佈
 
-排程分佈是儲存在每個 **資源指派** 實體 ( **msdyn\_resourceassignment** ) 的 **計劃的工作** 欄位 ( **msdyn\_plannedwork** )。
+排程分佈是儲存在每個 **資源指派** 實體 (**msdyn\_resourceassignment**) 的 **計劃的工作** 欄位 (**msdyn\_plannedwork**)。
 
 ### <a name="structure"></a>結構
 
@@ -139,7 +141,7 @@ ms.locfileid: "4073187"
 
 ## <a name="pricing-dimensions"></a>定價維度
 
-在 PSA 3.x 中，資源特有定價維度欄位 (例如 **角色** 和 **組織單位** ) 已從 **msdyn\_projecttask** 實體中移除。 這些欄位目前可以在產生專案估計值時，從資源指派 ( **msdyn\_resourceassignment** ) 的對應專案團隊成員 ( **msdyn\_projectteam** ) 中擷取。 新的欄位 **msdyn\_organizationalunit** 已新增至 **msdyn\_projectteam** 實體。
+在 PSA 3.x 中，資源特有定價維度欄位 (例如 **角色** 和 **組織單位**) 已從 **msdyn\_projecttask** 實體中移除。 這些欄位目前可以在產生專案估計值時，從資源指派 (**msdyn\_resourceassignment**) 的對應專案團隊成員 (**msdyn\_projectteam**) 中擷取。 新的欄位 **msdyn\_organizationalunit** 已新增至 **msdyn\_projectteam** 實體。
 
 | msdyn\_projecttask (專案工作) 上已被取代的欄位 | 改用的 msdyn\_projectteam (專案團隊成員) 中的欄位。 |
 |---|---|

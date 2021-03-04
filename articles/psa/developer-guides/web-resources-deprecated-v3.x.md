@@ -16,14 +16,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 46aab1bdce15613ce0551de5a8265b9130aa1938
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7c63000cc9d320340dad824256e63dc445b3a921
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073007"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148543"
 ---
 # <a name="deprecated-web-resources-in-project-service-automation-3x"></a>Project Service Automation 3.x 中已被取代的 Web 資源
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 由於 Dynamics 365 Project Service Automation 解決方案推出新的用戶端介面以及已對此解決方案進行其他變更，因此解決方案的部分 Web 資源已無法使用。 因此，這些資源自 3.0 版起已淘汰 (已被取代)。
 

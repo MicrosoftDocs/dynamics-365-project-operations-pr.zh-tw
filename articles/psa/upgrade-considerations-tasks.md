@@ -18,14 +18,17 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0b75fd372732f42a3557aaa5eccec1f24a644941
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: cea8ce7f61fbc0f0c8c8deb522bc332be102238d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121793"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149533"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>分工結構圖升級考量
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 本主題提供有關將 Project Service Automation 2.x 的分工結構圖升級至 3.x 的資訊。 本主題定義 Project Service Automation (PSA) 中專案成功升級所需的健全狀況。 此外，還提供有關導致升級失敗之常見阻礙情況的資訊。 如需有關在專案排程中定義專案工作及其功能的詳細資訊，請參閱[專案排程](project-creating.md)。
 
 ## <a name="key-entities"></a>主要實體

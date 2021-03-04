@@ -16,14 +16,18 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2d93e5eaae7cff302be1cb2e96e3f45c24739b0c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 48062eda1f524dd3ca0d5feccf11fd5577521275
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073191"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148723"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>實體、控制項和使用者介面變更 (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
+
 Microsoft Dynamics Project Service Automation (PSA) 3.x 發行後，實體、控制項、檢視表和使用者介面已發生許多變更。 本主題提供有關這些重要變更的資訊。
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>銷售文件、銷售文件明細、銷售文件明細詳細資料實體的上下層關聯
