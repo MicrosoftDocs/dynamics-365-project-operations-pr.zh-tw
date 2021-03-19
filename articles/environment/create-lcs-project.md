@@ -8,31 +8,34 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 595fda369fe19a69604fc4ab694cb844f45076b5
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 463c1e206090b8c85ff67f4fc38a15932749a834
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175611"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290214"
 ---
-# <a name="start-a-new-lcs-project"></a><span data-ttu-id="bb8e0-103">開始新的 LCS 專案</span><span class="sxs-lookup"><span data-stu-id="bb8e0-103">Start a new LCS project</span></span>
+# <a name="start-a-new-lcs-project"></a><span data-ttu-id="6869b-103">開始新的 LCS 專案</span><span class="sxs-lookup"><span data-stu-id="6869b-103">Start a new LCS project</span></span>
 
-<span data-ttu-id="bb8e0-104">_**適用於：** 資源/非庫存型案例適用的 Project Operations_</span><span class="sxs-lookup"><span data-stu-id="bb8e0-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
+<span data-ttu-id="6869b-104">_**適用於：** 資源/非庫存型案例適用的 Project Operations_</span><span class="sxs-lookup"><span data-stu-id="6869b-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
-<span data-ttu-id="bb8e0-105">使用 Lifecycle Services (LCS) 來管理 Dynamics 365 Project Operations 環境。</span><span class="sxs-lookup"><span data-stu-id="bb8e0-105">Use Lifecycle Services (LCS) to manage you Dynamics 365 Project Operations environments.</span></span> <span data-ttu-id="bb8e0-106">完成下列步驟以建立新的 LCS 專案。</span><span class="sxs-lookup"><span data-stu-id="bb8e0-106">Complete the following steps to create a new LCS project.</span></span>
+<span data-ttu-id="6869b-105">使用 Lifecycle Services (LCS) 來管理 Dynamics 365 Project Operations 環境。</span><span class="sxs-lookup"><span data-stu-id="6869b-105">Use Lifecycle Services (LCS) to manage you Dynamics 365 Project Operations environments.</span></span> <span data-ttu-id="6869b-106">完成下列步驟以建立新的 LCS 專案。</span><span class="sxs-lookup"><span data-stu-id="6869b-106">Complete the following steps to create a new LCS project.</span></span>
 
-1. <span data-ttu-id="bb8e0-107">前往 [LCS](https://lcs.dynamics.com/Logon/Index)，然後使用您用來訂閱的帳戶選取 **登入**。</span><span class="sxs-lookup"><span data-stu-id="bb8e0-107">Go to [LCS](https://lcs.dynamics.com/Logon/Index) and select **Sign in** using the account that you used to subscribe.</span></span>
-2. <span data-ttu-id="bb8e0-108">出現提示時，接受法律及隱私權條款。</span><span class="sxs-lookup"><span data-stu-id="bb8e0-108">If prompted, accept the legal and privacy terms.</span></span>
-3. <span data-ttu-id="bb8e0-109">選取加號 (**+**) 以建立新專案。</span><span class="sxs-lookup"><span data-stu-id="bb8e0-109">Select the plus sign ( **+** ) to create a new project.</span></span>
-4. <span data-ttu-id="bb8e0-110">若要用於預覽體驗，請選取 **移轉、建立解決方案並進行了解** 專案類型。</span><span class="sxs-lookup"><span data-stu-id="bb8e0-110">For preview purposes, select **Migrate, create solutions, and learn** project type.</span></span>
+1. <span data-ttu-id="6869b-107">前往 [LCS](https://lcs.dynamics.com/Logon/Index)，然後使用您用來訂閱的帳戶選取 **登入**。</span><span class="sxs-lookup"><span data-stu-id="6869b-107">Go to [LCS](https://lcs.dynamics.com/Logon/Index) and select **Sign in** using the account that you used to subscribe.</span></span>
+2. <span data-ttu-id="6869b-108">出現提示時，接受法律及隱私權條款。</span><span class="sxs-lookup"><span data-stu-id="6869b-108">If prompted, accept the legal and privacy terms.</span></span>
+3. <span data-ttu-id="6869b-109">選取加號 (**+**) 以建立新專案。</span><span class="sxs-lookup"><span data-stu-id="6869b-109">Select the plus sign ( **+** ) to create a new project.</span></span>
+4. <span data-ttu-id="6869b-110">若要用於預覽體驗，請選取 **移轉、建立解決方案並進行了解** 專案類型。</span><span class="sxs-lookup"><span data-stu-id="6869b-110">For preview purposes, select **Migrate, create solutions, and learn** project type.</span></span>
 
   ![選擇 LCS 專案類型](./media/create-lcs-1.png)
 
-5. <span data-ttu-id="bb8e0-112">命名專案。</span><span class="sxs-lookup"><span data-stu-id="bb8e0-112">Name the project.</span></span> 
-6. <span data-ttu-id="bb8e0-113">選取 **Finance and Operations** 做為產品名稱，然後選取行業和方法。</span><span class="sxs-lookup"><span data-stu-id="bb8e0-113">Select **Finance and Operations** as the product name, and select the industry and methodology.</span></span> 
-7. <span data-ttu-id="bb8e0-114">選取 **建立**。</span><span class="sxs-lookup"><span data-stu-id="bb8e0-114">Select **Create**.</span></span>
+5. <span data-ttu-id="6869b-112">命名專案。</span><span class="sxs-lookup"><span data-stu-id="6869b-112">Name the project.</span></span> 
+6. <span data-ttu-id="6869b-113">選取 **Finance and Operations** 做為產品名稱，然後選取行業和方法。</span><span class="sxs-lookup"><span data-stu-id="6869b-113">Select **Finance and Operations** as the product name, and select the industry and methodology.</span></span> 
+7. <span data-ttu-id="6869b-114">選取 **建立**。</span><span class="sxs-lookup"><span data-stu-id="6869b-114">Select **Create**.</span></span>
 
 ![建立 LCS 專案](./media/create-lcs-2.png)
 
-<span data-ttu-id="bb8e0-116">使用此 LCS 專案來部署 Project Operations 環境。</span><span class="sxs-lookup"><span data-stu-id="bb8e0-116">Use this LCS project to deploy your Project Operations environment.</span></span>
+<span data-ttu-id="6869b-116">使用此 LCS 專案來部署 Project Operations 環境。</span><span class="sxs-lookup"><span data-stu-id="6869b-116">Use this LCS project to deploy your Project Operations environment.</span></span>
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
