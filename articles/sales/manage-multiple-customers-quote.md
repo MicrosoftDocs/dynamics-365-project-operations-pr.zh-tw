@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2b57d052d6b50ee420249cf5441077b092b4e13f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181982"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277868"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>管理專案報價上的多個客戶
 
@@ -23,7 +23,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 專案報價 **客戶** 索引標籤上的所有報價客戶，預設為任何針對報價所建立之 **新** 專案型報價明細上的報價明細客戶。 任何現有的專案報價明細都不會繼承在其後所建立的新報價客戶記錄。
 
-報價客戶與報價明細客戶可以在報價成交之前隨時新增、更新或刪除。 報價上的有效客戶必須已在 **客戶** 頁面上設定為負責公司或法律實體。 法律實體是在 Dynamics 365 Project Operations 的 **專案管理與會計** 模組中進行設定，並且在 Project Operations 的 **專案銷售和交付** 模組中提供做為「公司」。
+報價客戶與報價明細客戶可以在報價成交之前隨時新增、更新或刪除。 報價上的有效客戶必須已在 **客戶** 頁面上設定為負責公司或法律實體。 法律實體是在 Dynamics 365 Project Operations 的 **專案管理與會計** 模組中進行設定，並已提供做為 Project Operations 的 **專案銷售和交貨** 模組中的公司。
 
 ## <a name="concept-of-a-primary-customer"></a>主要客戶的概念
 

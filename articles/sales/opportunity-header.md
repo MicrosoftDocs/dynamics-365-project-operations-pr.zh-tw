@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1344e21d58fbc28198468146f9cea9cf00572d7d
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: c58c3696ae03e8a33a25a9483825a4b7cbf850be
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181217"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277688"
 ---
 # <a name="opportunity-settings"></a>商機設定
 
@@ -22,7 +22,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 商機標題 (或摘要) 會擷取套用至專案型商機中所有明細之專案型交易的整體資訊。
 
-Dynamics 365 Project Operations 中的專案型商機是 Dynamics 365 Sales 中的商機擴充。 這些擴充功能提供專案型商機所特有且必要的其他功能。 這些擴充功能可能會包含可專案型商機中使用的新欄位和功能區動作。 您可能會發現有些在 Sales 中提供的欄位、功能和預設邏輯，無法在 Project Operations 中使用。
+Dynamics 365 Project Operations 中的專案型商機是 Dynamics 365 Sales 中商機的擴充功能。 這些擴充功能提供專案型商機所特有且必要的其他功能。 這些擴充功能可能會包含可專案型商機中使用的新欄位和功能區動作。 您可能會發現有些在 Sales 中提供的欄位、功能和預設邏輯，無法在 Project Operations 中使用。
 
 下表包含專案型商機中的欄位，這些欄位若不是 Project Operations 所特有的欄位，就是有一些在行為上與 Sales 中的商機不同的重要變更。
 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 92b12bd9272805a736286bf7e0ff926cb6361c05
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e14dbe5abb69a547e2d09ef9e6bcba48e1f89455
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4125618"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279218"
 ---
 # <a name="schedule-assistant-overview"></a>排程小幫手概觀
 
@@ -25,7 +25,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 ## <a name="prerequisites"></a>先決條件
 
-排程小幫手是 Universal Resource Scheduling 解決方案的一部分。 此解決方案隨附於 Dynamics 365 Project Operations、Dynamics 365 Field Service 和 Dynamics 365 Customer Service，並且會與這些解決方案一併安裝。
+排程小幫手是 Universal Resource Scheduling 解決方案的一部分。 此解決方案隨附於 Dynamics 365 Project Operations、Dynamics 365 Field Service 和 Dynamics 365 Customer Service，並隨這些應用程式一起安裝。
 
 ## <a name="matching-requirements-and-resources"></a>比對需求與資源
 

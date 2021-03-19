@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 7be5f0824bfc4a58f3caabdde70a0b5b11c6f14c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180227"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277553"
 ---
 # <a name="project-quote-settings"></a>專案報價設定
 
@@ -22,7 +22,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 本文說明套用至專案報價的資訊。 這包括影響所有報價明細的設定，以及有關為了提高專案報價 KPI 而彙總所有明細項目之報價的資訊。
 
-下表列出專案報價上的摘要資訊欄位，這些欄位是 Dynamics 365 Project Operations 所獨有的欄位，或是其中有一些與 Dynamics 365 Sales 報價不同的行為重要變更。
+下表列出專案報價上屬於 Dynamics 365 Project Operations 所獨有的，或在 Dynamics 365 Sales 報價行為上有重要變更的摘要資訊欄位。
 
 | **欄位** | **位置** | **描述** | **下游影響** |
 | --- | --- | --- | --- |

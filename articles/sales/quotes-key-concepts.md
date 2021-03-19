@@ -17,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d113111f5fbf6f5d23ef02cae36d85a27beed93
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 899279b33f4fe8780d110d7c18a097407bd8d839
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121298"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277508"
 ---
 # <a name="quotes---key-concepts"></a>報價 - 重要概念
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
-Dynamics 365 Project Operations 有兩種類型的報價，即專案和銷售。 這兩種類型的報價在以下方面不同：
+在 Dynamics 365 Project Operations 中，有兩種類型的報價，即專案和銷售。 這兩種類型的報價在以下方面不同：
 
 - **明細項目的網格**：在銷售報價中，明細項目只有一個網格。 專案報價有兩個明細項目網格。 一個網格用於專案明細，另一個用於產品明細。
 - **啟用和修訂**：銷售報價支援啟用和修訂。 專案報價不支援這些程序。

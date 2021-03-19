@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2f29e396f8d30a5c5648b5c9937f1f20fbf72e89
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 4c04ff004febf3a07b329bf375e38acb43d19887
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181127"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277598"
 ---
 # <a name="project-contract-settings"></a>專案合約設定
 
@@ -21,7 +21,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 本主題提供有關套用至整個專案合約之欄位 (包括影響所有合約服務內容之設定) 的資訊。 此外，還提供有關概括所有提高專案合約 KPI 之明細項目的合約資訊。
 
-下表列出專案合約的欄位，這些欄位是 Dynamics 365 Project Operations 所獨有的欄位，或是其中有一些在行為上與 Dynamics 365 Sales 中銷售訂單不同的重要變更。
+下表列出專案合約上屬於 Dynamics 365 Project Operations 所獨有的欄位，或在 Dynamics 365 Sales 銷售訂單行為上有重要變更的欄位。
 
 | 欄位 | 地點 | 描述 | 下游影響 |
 | --- | --- | --- | --- |

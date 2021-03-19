@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 8300887e7c5fbd78343d16d191775a67e43138e2
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177591"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277373"
 ---
 # <a name="sales-process-overview"></a>銷售處理概觀
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
-在專案型組織中使用的銷售處理與在產品型組織中使用的銷售處理不同。 這是因為專案型組織的銷售週期較長，且需要自訂估計技術來為每筆交易進行分析並建立報價。 Dynamics 365 Project Operations 使用下列一些在銷售處理中使用的功能：
+在專案型組織中使用的銷售處理與在產品型組織中使用的銷售處理不同。 這是因為專案型組織的銷售週期較長，且需要自訂估計技術來為每筆交易進行分析並建立報價。 Dynamics 365 Project Operations 會使用下列其中一些用於銷售處理的功能：
 
 - 潛在客戶記錄會用來追蹤銷售處理。
 - 授與潛在客戶資格會當做商機來追蹤。

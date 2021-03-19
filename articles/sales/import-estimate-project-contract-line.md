@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6dde924c24dcffe2a8fb690e6eb429e4c3d9fb28
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d51eb890a4744051ddd7268e1f1f11b15a23b609
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126383"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278363"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line"></a>將估計值匯入至專業型合約服務內容
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
-在 Dynamics 365 Project Operations 中，您可以將估計值從專案匯入至專案型合約服務內容。
+在 Dynamics 365 Project Operations 中，您將專案中的估計值匯入至專案型合約服務內容。
 
 1. 確認是否已填入專案型合約服務內容上的 **專案** 欄位。
 2. 在 **合約服務內容詳細資料** 索引標籤的子格上，選取 **從專案估計匯入**。 含摘要選項的對話方塊頁面隨即開啟。 可用的摘要選項包括 **交易分類**、**類別**、**角色** 和 **專案工作**。 根據摘要選取項目，系統會從專案複製對此合約服務內容所包含所有交易分類的估計值。 

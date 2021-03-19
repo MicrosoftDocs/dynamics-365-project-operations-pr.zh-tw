@@ -17,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 4bd4e9cb22bfd6a86fd86e5fc403cb185aab140a
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177186"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277733"
 ---
 # <a name="manage-project-price-lists-on-a-quote"></a>管理報價上的專案價目表
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
-Dynamics 365 Project Operations 會延伸 Dynamics 365 Sales 中的價目表實體。 
+Dynamics 365 Project Operations 可擴充 Dynamics 365 Sales 中的價目表實體。 
 
 ## <a name="key-entities"></a>主要實體
 
