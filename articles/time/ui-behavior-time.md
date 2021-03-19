@@ -3,17 +3,17 @@ title: 時間項目 UI 行為
 description: 本主題提供有關時間項目 UI 行為的資訊。
 author: stsporen
 manager: AnnBe
-ms.date: 10/05/2020
+ms.date: 03/03/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 8719e2f9ee4867f17ed75142eca2115f61e37999
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124493"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499604"
 ---
 # <a name="time-entry-ui-behavior"></a>時間項目 UI 行為
 
@@ -21,6 +21,19 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 
 **每週時間項目** 網格是自訂控制項，其中有 **維度** 和 **期間** 這兩個主要區段。
+
+## <a name="keyboard-shortcuts"></a>鍵盤快速鍵
+| 動作​​        | 捷徑                  |
+|------------   |------------------------   |
+| 新的           | Alt + Shift + n           |
+| 複製列      | Alt + Shift + c           |
+| 編輯項目    | Alt + Shift + e           |
+| 編輯列      | Alt + Shift + Ctrl + e    |
+| 開啟項目    | Alt + Shift + o           |
+| 提交        | Alt + Shift + s           |
+| 回收        | Alt + Shift + r           |
+| Delete        | Alt + Shift + d           |
+| 複製週次     | Alt + Shift + w           |
 
 ## <a name="dimensions"></a>維度
 **維度** 區段會顯示可據以輸入時間的維度。 下列維度是現成支援的可用維度：

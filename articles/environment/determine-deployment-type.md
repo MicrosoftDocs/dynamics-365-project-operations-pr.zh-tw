@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401208"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479554"
 ---
 # <a name="determine-your-deployment-type"></a>判斷您的部署類型
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
 > [!IMPORTANT]
-> 購買授權之後，請從這裡開始使用[引導式安裝流程](https://aka.ms/provisionprojectoperations)來判斷 Dynamics 365 Project Operations 的最佳部署模型。
+> 購買授權之後，從這裡開始使用[引導式安裝流程](https://aka.ms/provisionprojectoperations)來判斷 Dynamics 365 Project Operations 的最佳部署模型。
 > 完成引導式安裝流程之後，系統會將您導向至正確的管理入口網站，以完成您的安裝。 請參閱部署詳細資料，以完成安裝。
 
 
@@ -31,6 +31,9 @@ Project Operations 包含隨附於 Project Service Automation 的功能。 將�
 
 使用 [專案管理與會計] 功能的現有 Finance 客戶仍可繼續依照原本方式使用該功能。 請參閱[庫存/生產訂單案例適用的 Project Operations](#pma)。
 
+
+## <a name="deployment-regions"></a>部署地區
+若要判斷支援 Project Operations 部署的地區，請參閱 [Dynamics 365 和 Power Platform 的地理可用性報告](https://dynamics.microsoft.com/en-us/geographic-availability/)。 選取 **檢視報告**，然後展開 **Dynamics 365 > 營運應用程式 > Dynamics 365 Project Operations** 以檢視支援的地區。
 
 ## <a name="deployment-types"></a>部署類型
 Project Operations 支援多個部署選項，以符合您的需求。 不論您是新的或現有 Dynamics 365 客戶，Project Operations 都能支援您的需求。
