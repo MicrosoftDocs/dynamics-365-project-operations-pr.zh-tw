@@ -16,12 +16,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 13c429763fa805fae5324e4dcf1bf7669e842281
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126293"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291789"
 ---
 # <a name="actuals"></a>實際值 
 
@@ -70,7 +70,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 您可以使用分錄帳目來記錄材料、服務費、時間、費用或稅務交易分類中的成本或營收。 帳目可用於下列用途：
 
 - 記錄專案上的材料及銷售實際成本。
-- 將交易實際值從系統移至 Microsoft Dynamics 365 Project Operations。
+- 將交易實際值從其他系統移到 Microsoft Dynamics 365 Project Operations。
 - 記錄其他系統中發生的成本。 這些成本可以包含採購或轉承包成本。
 
 > [!IMPORTANT]
