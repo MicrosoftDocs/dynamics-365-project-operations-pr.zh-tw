@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fa95406a27e6d32d2be75303904547b59f24c8b2
-ms.sourcegitcommit: 64d0de964a9b66c015ffcf1db62cbb6216cb3187
+ms.openlocfilehash: eb7c15fa937d508fa30ed2c04a6aa9cb117ef011
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4367166"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272063"
 ---
 # <a name="whats-new-november-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>2020 年 11 月 - Project Operations Lite 部署 - 交易至開立預估發票新增功能
 

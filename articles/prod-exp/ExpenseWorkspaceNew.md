@@ -1,6 +1,6 @@
 ---
 title: 重新設計的費用報表
-description: 本主題提供有關 Microsoft Dynamics 365 Finance 中費用報表項目重新設計和顛覆想像體驗的資訊。 新的體驗簡化完成費用報表的程序，並減少所需的時間。
+description: 本主題提供有關費用報表項目重新設計和顛覆想像體驗的資訊。
 author: ryansandness
 manager: AnnBe
 ms.date: 06/14/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: d076c0a596940cb08433f7ee57dea54903f6078f
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 7533f8aca317bd8d72e437592b5251fd3a866ba6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960237"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271973"
 ---
 # <a name="redesigned-expense-reports"></a>重新設計的費用報表
 
@@ -40,12 +40,6 @@ ms.locfileid: "4960237"
 - 新增費用欄位顯示性的新功能表項目。
 - 不會移除費用報表 (現有頁面) 或費用報表欄位的任何現有功能表項目。
 - 工作流程和任何核准仍會帶您進入現有的費用報表頁面。
-
-## <a name="getting-started-video-for-new-users"></a>新使用者適用的開始使用影片
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-[Dynamics 365 for Finance and Operations 中的費用體驗](https://youtu.be/Ocy-MsTvEE0)影片 (如上所示) 已加入 YouTube 上提供的 [Finance and Operations 播放清單](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW)中。
 
 ## <a name="new-features"></a>新功能
 

@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: kfend
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 7fce84c9cc1f9c1beda73f403c052f779d10559f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2b6a34e6c744e4b8ad9400f05844fefa005536a1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120803"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275888"
 ---
 # <a name="dynamics-365-project-operations"></a>Dynamics 365 Project Operations
 
-Microsoft Dynamics 365 Project Operations 將銷售、資源分配、專案管理和財務團隊連結在單一應用程式中，以贏得更多交易、加速專案交付，並將獲利率最大化。
+Microsoft Dynamics 365 Project Operations 在單一應用程式中將銷售、資源分配、專案管理和財務團隊連接在一起，以贏得更多交易、加快專案交付並獲取最高獲利率。
 
 -   **主管獲得商務見解** 以提高所有團隊、資料和程序的可見度，再加上 AI 功能，便可做出更妥善和更快速的商務決策。
 -   **銷售人員有能力** 可以利用快速且準確的報價、靈活的定價以及從估計到貫徹執行的流暢轉換，贏得更多交易並加速銷售週期。

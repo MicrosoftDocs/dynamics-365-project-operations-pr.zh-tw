@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: April 2018 update
-ms.openlocfilehash: 429c289c4ec653b81a1c5302b788db8c8ad26d8c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8241e74e8d9fb5a748bedbd5e913adea0bafa450
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073138"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271118"
 ---
 # <a name="project-timesheets-on-a-mobile-device"></a>行動裝置上的專案時程表
 
@@ -39,15 +39,15 @@ ms.locfileid: "4073138"
 
 2.  在行動裝置的網頁瀏覽器上，存取上一個步驟所記下的 URL。
  
-3.  選取 **專案管理與會計** \> **時程表** \> **我的時程表 (行動最佳化)** 。
+3.  選取 **專案管理與會計** \> **時程表** \> **我的時程表 (行動最佳化)**。
 
-4.  選取 **新增** 。
+4.  選取 **新增**。
 
 5.  選取資源。
 
 6.  隨即顯示本週的行事曆日期。
 
-7.  按一下 **確定** 。
+7.  按一下 **確定**。
 
 8.  按一下 **+** 以加入新的一列。
 

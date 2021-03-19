@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f16634a87780c23d699d9ad535dd5e6d4ecb895d
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 967e2170aac72de629ebb930e485b8cd6560b6ca
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180933"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272423"
 ---
 # <a name="summary-information-on-a-project-quote---lite"></a>專案報價的摘要資訊 - 精簡
 
@@ -21,7 +21,7 @@ _**適用於：** 精簡部署 - 交易至開立預估發票_
 
 本文說明套用至專案報價的資訊。 這包括影響所有報價明細的設定，以及有關為了提高專案報價 KPI 而彙總所有明細項目之報價的資訊。
 
-下表列出專案報價上的摘要資訊欄位，這些欄位是 Dynamics 365 Project Operations 所獨有的欄位，或是其中有一些與 Dynamics 365 Sales 報價不同的行為重要變更。
+下表列出專案報價上屬於 Dynamics 365 Project Operations 所獨有的，或在 Dynamics 365 Sales 報價行為上有重要變更的摘要資訊欄位。
 
 | **欄位** | **位置** | **描述** | **下游影響** |
 | --- | --- | --- | --- |

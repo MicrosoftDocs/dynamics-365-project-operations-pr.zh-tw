@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 04c97429ab8ac769dd22b4127432d80de8fde937
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130928"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275573"
 ---
 # <a name="default-price-lists"></a>預設價目表
 
@@ -21,7 +21,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 ## <a name="sales-price-lists"></a>銷售價目表
 
-Dynamics 365 Project Operations 中的每個專案報價和合約都包含預設銷售價目表。 
+Dynamics 365 Project Operations 中的每個專案報價和合約都會包含預設銷售價目表。 
 
 ### <a name="price-list-default-on-project-quotes"></a>專案報價上的價目表預設值
 系統會完成下列程序，以判斷專案報價預設要使用的價目表：

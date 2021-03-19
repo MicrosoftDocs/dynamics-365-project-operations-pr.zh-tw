@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b518c9eda00bef4d342dd66677344af516012749
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180272"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274898"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>設定費用的成本及銷售費率
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
-您可以在 Dynamics 365 Project Operations 中設定交易類別的成本及銷售價。 由於成本及銷售價是針對費用所設計，因此每個包含這些價格的交易類別，也都必須設定為費用類別。 這項設定可確保下游功能的正確性。 交易類別的成本及銷售價只能以一種貨幣列示，而這必須是價目表標題上的貨幣。
+您可以在 Dynamics 365 Project Operations 中設定交易類別的成本價和銷售價。 由於成本及銷售價是針對費用所設計，因此每個包含這些價格的交易類別，也都必須設定為費用類別。 這項設定可確保下游功能的正確性。 交易類別的成本及銷售價只能以一種貨幣列示，而這必須是價目表標題上的貨幣。
 
 若要設定交易類別的成本及銷售費率，請完成下列步驟。 
 

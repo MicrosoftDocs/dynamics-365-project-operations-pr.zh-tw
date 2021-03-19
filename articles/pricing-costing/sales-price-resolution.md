@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8c18dd734312b2dd147381169f5c3dc38a68a601
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6e89e23189fa65057d7b955897924057c440ccd8
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119543"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274943"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>解析估計值及實際值的銷售價
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
-在 Dynamics 365 Project Operations 中解析估計值和實際值的銷售價時，系統會先使用相關專案報價或合約的日期和貨幣來解析銷售價目表。 解析銷售價目表之後，系統會解析銷售或帳單費率。
+在 Dynamics 365 Project Operations 中解析估計值與實際值的售價時 ，系統會先使用相關專案報價或合約的日期和貨幣來解析銷售價目表。 解析銷售價目表之後，系統會解析銷售或帳單費率。
 
 ## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>解析時間實際及估計明細的銷售費率
 

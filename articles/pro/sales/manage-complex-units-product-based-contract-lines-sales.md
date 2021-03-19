@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a58a13c8186f36e6031fe3c6f3c3a57ea920ac9e
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 029d2aa4fd20fc036a34ae6136fe12454f3b7703
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177366"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273323"
 ---
 # <a name="manage-complex-units-for-product-based-contract-lines---lite"></a>管理產品型合約服務內容的複雜單位 - 精簡
 
 _**適用於：** 精簡部署 - 交易至開立預估發票_
 
-Dynamics 365 Project Operations 使用數量因數來支援以訂閱型產品的銷售。 對於訂閱型產品，合約或專案合約服務內容上的數量會以使用者月數來表示。
+Dynamics 365 Project Operations 使用數量因素來支援訂閱型產品的銷售。 對於訂閱型產品，合約或專案合約服務內容上的數量會以使用者月數來表示。
 
 訂閱軟體的價格在目錄中儲存為每個月每個使用者的價格。 在銷售處理期間，合約服務內容的價格通常是由 IT 銷售專員所議定且給予折扣優惠的每個使用者、每個月的價格。 每筆交易都有不同的使用者數目和不同的訂閱月數。 用來計算合約服務內容金額的數量，是使用者人數與訂閱月數的乘積。
 

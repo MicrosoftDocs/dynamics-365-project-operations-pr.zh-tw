@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 1ea1ca002a8f68f86808831b398e452244471322
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073050"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270983"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>在 iOS 和 Android 上實作 Microsoft Dynamics 365 Project Timesheet 行動應用程式的自訂欄位
 
@@ -97,11 +97,11 @@ ms.locfileid: "4073050"
 
 ### <a name="iseditable-noyes"></a>isEditable (NoYes)
 
-將此屬性設定為 **是** ，以指定時程表項目區段中的欄位應可供使用者編輯。 將屬性設定為 **否** ，使欄位成為唯讀欄位。
+將此屬性設定為 **是**，以指定時程表項目區段中的欄位應可供使用者編輯。 將屬性設定為 **否**，使欄位成為唯讀欄位。
 
 ### <a name="ismandatory-noyes"></a>isMandatory (NoYes)
 
-將此屬性設定為 **是** ，以指定時程表項目區段中的欄位應為必要欄位。
+將此屬性設定為 **是**，以指定時程表項目區段中的欄位應為必要欄位。
 
 ### <a name="label-str"></a>標籤 (str)
 
@@ -179,9 +179,9 @@ ms.locfileid: "4073050"
 
 此程式碼會控制應用程式中欄位的顯示設定。 例如，會控制欄位類型、標籤、欄位是否必填，以及欄位顯示所在的區段。
 
-下列範例在時間項目上顯示字串欄位。 此欄位有兩個選項： **第一個選項** 和 **第二個選項** ，可透過選項按鈕 (圓形按鈕) 來使用。 應用程式中的欄位會與新增至 TSTimesheetLine 資料表的 **TestLineString** 欄位相關聯。
+下列範例在時間項目上顯示字串欄位。 此欄位有兩個選項：**第一個選項** 和 **第二個選項**，可透過選項按鈕 (圓形按鈕) 來使用。 應用程式中的欄位會與新增至 TSTimesheetLine 資料表的 **TestLineString** 欄位相關聯。
 
-請注意，使用 **TSTimesheetCustomField::newFromMetatdata()** 方法來簡化下列自訂欄位屬性的初始化： **fieldBaseType** 、 **tableName** 、 **fieldname** 、 **標籤** 、 **isEditable** 、 **isMandatory** 、 **stringLength** 和 **numberOfDecimals** 。 您也可以依自己喜好手動設定這些參數。
+請注意，使用 **TSTimesheetCustomField::newFromMetatdata()** 方法來簡化下列自訂欄位屬性的初始化：**fieldBaseType**、**tableName**、**fieldname**、**標籤**、**isEditable**、**isMandatory**、**stringLength** 和 **numberOfDecimals**。 您也可以依自己喜好手動設定這些參數。
 
 ```xpp
 ...
@@ -243,7 +243,7 @@ final class TsTimesheetEntry_Extension
 
 若要以一般使用方式將自訂欄位儲存回資料庫，您必須擴充多個方法：
 
-- **TimesheetLineNeedsUpdating** 方法會用來判斷行記錄是否已由應用程式中的使用者所變更，以及是否必須儲存至資料庫。 如果不需顧慮效能，則可以簡化此方法，使其永遠傳回 **是** 。
+- **TimesheetLineNeedsUpdating** 方法會用來判斷行記錄是否已由應用程式中的使用者所變更，以及是否必須儲存至資料庫。 如果不需顧慮效能，則可以簡化此方法，使其永遠傳回 **是**。
 - 您可以擴充 **populateTimesheetLineFromEntryDuringCreate** 和 **populateTimesheetLineFromEntryDuringUpdate** 方法，讓這些方法從提供的 TSTimesheetEntry 資料合約記錄輸入 TSTimesheetLine 資料庫記錄中的值。 在後面的範例中，請注意資料庫欄位與輸入欄位之間的對應是如何透過 X++ 程式碼手動完成。
 - 如果對應至 **TSTimesheetEntry** 物件的自訂欄位必須寫回至 TSTimesheetLineweek 資料庫資料表，您對，如果則為擴充 **populateTimesheetWeekFromEntry** 方法。
 
@@ -408,9 +408,9 @@ final class TSTimesheetDetails_Extension
 
 時程表功能在資料庫層級的現有邏輯仍可依預期正常運作。 若要中斷完成儲存或提交作業並顯示特定錯誤訊息，您可以透過擴充命令鏈結，將 **擲回錯誤 (「傳送訊息給使用者」)** 新增至程式碼。 以下是三個實用擴充方法的範例：
 
-- 如果 TSTimesheetLine 資料表上的 **validateWrite 在** 時程表行的儲存作業期間傳回 **否** ，則行動應用程式中會顯示錯誤訊息。
-- 如果 TSTimesheetTable 資料表上的 **validateSubmit** 在應用程式的時程表行提交期間傳回 **否** ，則會向使用者顯示錯誤訊息。
-- 在對 TSTimesheetLine 資料表執行 **插入** 方法時填入欄位 (例如， **明細屬性** ) 的邏輯，仍將執行。
+- 如果 TSTimesheetLine 資料表上的 **validateWrite 在** 時程表行的儲存作業期間傳回 **否**，則行動應用程式中會顯示錯誤訊息。
+- 如果 TSTimesheetTable 資料表上的 **validateSubmit** 在應用程式的時程表行提交期間傳回 **否**，則會向使用者顯示錯誤訊息。
+- 在對 TSTimesheetLine 資料表執行 **插入** 方法時填入欄位 (例如，**明細屬性**) 的邏輯，仍將執行。
 
 ### <a name="hiding-and-marking-out-of-box-fields-as-read-only-via-configuration"></a>透過設定隱藏內建欄位並將其標記為唯讀
 

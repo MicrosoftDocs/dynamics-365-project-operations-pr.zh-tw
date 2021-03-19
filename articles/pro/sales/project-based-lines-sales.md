@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bba555003b76e3e87412679b274f74f68ac7203b
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: cac6125abc7269ee95667ae589d5a748b3d4190c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180992"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272513"
 ---
 # <a name="project-based-opportunity-lines---lite"></a>專案型商機明細 - 精簡
 
@@ -27,7 +27,7 @@ _**適用於：** 精簡部署 - 交易至開立預估發票_
 
 | **欄位** | **位置** | **描述** | **下游影響** |
 | --- | --- | --- | --- |
-| 產品類型 | [一般] 索引標籤 (隱藏) | 您可以選取下列其中一個選項：</br>- 專案型服務 (只有在 Dynamics 365 Project Operations 已安裝時提供)</br>- 產品 (只有在 Project Operations 和 Dynamics 365 Sales 已安裝時提供) | 從商機的專案型明細網格中建立專案型商機明細時，此欄位的值會設定為 **專案型服務**。 <br> 如果您變更或覆寫此值，就不會在專案型明細項目中啟用專案功能。 |
+| 產品類型 | [一般] 索引標籤 (隱藏) | 您可以選取下列其中一個選項：</br>- 專案型服務 (只有在 Dynamics 365 Project Operations 已安裝時才能使用)</br>- 產品 (只有在 Project Operations 和 Dynamics 365 Sales 已安裝時提供) | 從商機的專案型明細網格中建立專案型商機明細時，此欄位的值會設定為 **專案型服務**。 <br> 如果您變更或覆寫此值，就不會在專案型明細項目中啟用專案功能。 |
 | 商機​​ | [一般] 索引標籤 | 此欄位是唯讀欄位，並參考此明細項目所屬的上層商機記錄。 | 此欄位沒有產生任何下游影響。 |
 | 名字 | [一般] 索引標籤 | 這個可編輯文字欄位可以用來提供明細項目的簡短身分識別。 | 從此商機建立報價時，此值會結轉至報價明細。 |
 | 客戶預算 | [一般] 索引標籤 | 這個可編輯貨幣欄位可以用來追蹤客戶願意花費在此明細項目上的金額。 | 從此商機建立報價時，此值會結轉至報價明細的對應欄位。 |

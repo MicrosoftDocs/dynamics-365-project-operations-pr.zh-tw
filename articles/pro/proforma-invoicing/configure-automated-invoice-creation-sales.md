@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 1d911ab0defaaee40d8752557e1115ea49c8fa93
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176556"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274313"
 ---
 # <a name="configure-automatic-invoice-creation---lite"></a>設定自動發票建立作業 - 精簡
  
 _**適用於：** 精簡部署 - 交易至開立預估發票_
 
-您可以在 Dynamics 365 Project Operations 中設定自動建立發票。 系統會根據每個專案合約和合約服務內容的發票排程，建立草稿預估發票。 發票排程是在合約服務內容層級進行設定。 合約的每個服務內容都可以有不同的發票排程，或者相同的發票排程可以包含在合約的所有服務內容。
+您可以在 Dynamics 365 Project Operations 中設定自動發票建立作業。 系統會根據每個專案合約和合約服務內容的發票排程，建立草稿預估發票。 發票排程是在合約服務內容層級進行設定。 合約的每個服務內容都可以有不同的發票排程，或者相同的發票排程可以包含在合約的所有服務內容。
 
 建立發票時，系統一律每個專案合約至少建立一個發票。 在某些情況下，可能會建立多個發票。
 
