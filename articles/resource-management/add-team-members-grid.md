@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: cacf3913c3893dd09509cd02361c4a21bed59825
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121523"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280073"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>從團隊成員網格新增團隊成員
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
-Dynamics 365 Project Operations 包含 Resource Manager 儀表板，提供整個組織中資源索求及使用率的視覺化概觀。 您可以使用此儀表板上的圖表，以視覺化方式呈現下列資訊：
+Dynamics 365 Project Operations 包含資源管理員儀表板，提供整個組織之資源索求與使用率的視覺化概觀。 您可以使用此儀表板上的圖表，以視覺化方式呈現下列資訊：
 
 - **資源索求**：**使用中資源要求** 圖表顯示已送出的資源索求。 資源是依據角色或專案來彙總。
 - **未送出資源索求**：**未指派的資源索求** 圖表顯示所有尚未送出的資源需求。 此圖表可協助資源管理員檢視未確定但可能會透過資源要求送出的索求。

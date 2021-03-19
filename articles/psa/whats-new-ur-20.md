@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ee3be43da401af405ab329b9b5a724a2e95c0219
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: db416343ac9ac2591007e83be80493a48f9ae904
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147103"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280658"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Project Service Automation 更新版本 20 V3
 
@@ -42,7 +42,7 @@ ms.locfileid: "5147103"
 
 - 使用需要時數的配置方法匯入專案團隊成員會在指定的時數為零時產生不明確的錯誤訊息。
 - 在專案工作的 **描述** 欄位中輸入數目已達上限的字元時，使用者收到不正確的錯誤訊息。
-- 當使用者的語言設定設為日文時，**Microsoft Dynamics 365 Project Service Automation 增益集下載** 頁面重新導向至英文下載頁面。
+- 當使用者的語言設定設為日文時，**Microsoft Dynamics 365 Project Service Automation 增益集下載** 頁面會重新導向至英文下載頁面。
 - 發生伺服器錯誤時，**專案** 表單 **排程** 索引標籤上的同步處理標籤有時會保留。
 - 工作遭修改時，多餘的工作更新將會傳送至伺服器。
 

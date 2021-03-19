@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d8c212ef2c9fd9dcd6be0b8f0a31aa5a948176bc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 25f1af15c03001a92f96689ff36a3159a5352a46
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147643"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283223"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>使用 Project Service Automation 資料模型
 
@@ -87,7 +87,7 @@ PSA 新增至合約的其他實體是 **專案合約服務內容專案價目表*
 
 ## <a name="reporting-on-resources"></a>報告資源
 
-專案資源使用 Universal Resource Scheduling (URS) 中與其他應用程式 (例如 Microsoft Dynamics 365 Field Service) 共用的 **可預約資源** 實體。 以下是您在報告專案資源時可能需要使用的實體清單：
+專案資源會使用 Universal Resource Scheduling (URS) 中與其他應用程式 (例如 Microsoft Dynamics 365 Field Service) 共用的 **可預約資源** 實體。 以下是您在報告專案資源時可能需要使用的實體清單：
 
 - **可預約資源** – 此實體代表專案團隊上所使用的使用者、連絡人、一般資源、客戶、群組或設備。
 - **可預約資源特性** – 此實體包含資源的技能、認證或教育。 特性可以有評等模型所定義的評等值。

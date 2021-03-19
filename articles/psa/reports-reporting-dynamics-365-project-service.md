@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 25486b0c153842cab4331f27eea4872f848bea50
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 78c62f69c6529669789a461f1ded8e3ea5f8219e
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147688"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283268"
 ---
 # <a name="reporting-home-page"></a>報表首頁
 
@@ -31,7 +31,7 @@ ms.locfileid: "5147688"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Microsoft Dynamics 365 Project Service Automation 可讓專案型組織有效管理其業務運作。 在任何專案上，團隊成員都必須管理商機、報價，並規劃工作、為專案提供資源、根據計畫管理工作、處理工作帳務，然後完成專案。 就營運狀態提出報表的能力，對判斷組織的健全狀況並採用任何必要更正動作，至關重要。 PSA 使用 Microsoft Dynamics 365 報告方法與技術來提供其所有報表。 如需報表選項的詳細資訊，請參閱 [Dynamics 365 Customer Engagement (on-premises) 版本 9 的報表撰寫指南](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)。
+Microsoft Dynamics 365 Project Service Automation 可讓專案型組織有效率地管理其業務營運。 在任何專案上，團隊成員都必須管理商機、報價，並規劃工作、為專案提供資源、根據計畫管理工作、處理工作帳務，然後完成專案。 就營運狀態提出報表的能力，對判斷組織的健全狀況並採用任何必要更正動作，至關重要。 PSA 使用 Microsoft Dynamics 365 報告方法與技術來提供其所有報表。 如需報表選項的詳細資訊，請參閱 [Dynamics 365 Customer Engagement (on-premises) 版本 9 的報表撰寫指南](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)。
 
 ## <a name="report-wizard"></a>報表精靈
 
