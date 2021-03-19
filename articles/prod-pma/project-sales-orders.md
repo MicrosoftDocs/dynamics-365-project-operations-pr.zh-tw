@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2019-04-05
 ms.dyn365.ops.version: AX 10.0.2
-ms.openlocfilehash: 3653a6869dab323be88f1fd0f9fd0f2cb35c456f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 74a90ea0bdb8f760273c0f6b1c61bffcb70b6c8d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072981"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289044"
 ---
 # <a name="project-sales-orders-for-time-and-material-projects"></a>時間與材料專案的專案銷售訂單
 
@@ -30,7 +30,7 @@ ms.locfileid: "4072981"
 
 本主題說明如何建立專案的銷售訂單。 您只能為 **時間與材料** 類型的專案建立銷售訂單。
 
-如果時間與材料專案在專案合約上有多個資金來源，您必須在 **專案管理與會計參數** 頁面上啟用 **允許具有多個資金來源的專案銷售訂單** 。 
+如果時間與材料專案在專案合約上有多個資金來源，您必須在 **專案管理與會計參數** 頁面上啟用 **允許具有多個資金來源的專案銷售訂單**。 
 
 > [!NOTE]
 > - 對具有多個資金來源的專案銷售訂單的支援，是從應用程式版本 10.0.2 和更新版本開始提供。
@@ -38,7 +38,7 @@ ms.locfileid: "4072981"
 
 您可以用兩種方式建立專案型銷售訂單：
 
-- 移至專案本身。 在動作窗格中，選取 **管理 > 專案工作 > 銷售訂單** 。 專案資訊會預設為專案中的銷售訂單。 如果專案合約有多個資金來源，您必須選取資金來源，才能設定銷售訂單的客戶。 如果專案只有一個資金來源，就會自動設定客戶。
+- 移至專案本身。 在動作窗格中，選取 **管理 > 專案工作 > 銷售訂單**。 專案資訊會預設為專案中的銷售訂單。 如果專案合約有多個資金來源，您必須選取資金來源，才能設定銷售訂單的客戶。 如果專案只有一個資金來源，就會自動設定客戶。
 - 移至 **所有銷售訂單** 清單頁面，並建立新的銷售訂單。 您需要選取銷售訂單的專案。 選取專案之後，將會從資金來源設定客戶，如果專案合約有多個資金來源，則需要選取資金來源。
 
 

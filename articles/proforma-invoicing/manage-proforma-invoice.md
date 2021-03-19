@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2f3aab57f159dbb522ebe5d24dc3693034f6f81f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 29e301062f8f3ba955a95953bc2e891f3acaf765
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181442"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287678"
 ---
 # <a name="manage-a-proforma-invoice"></a>管理預估發票
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
-在 Dynamics 365 Project Operations 中，預估發票是建立為 Dynamics 365 Sales 中的發票延伸。 但是，在開立發票時，Sales 與 Project Operations 之間的開立發票程序有許多不同的差別。 例如，無法從 Project Operations 的 **發票清單** 頁面建立新的發票，但是可以在 Sales 中進行此作業。 這些差異和擴充功能已到位，可支援與銷售訂單之一般發票不同的專案的開立發票程序。
+在 Dynamics 365 Project Operations 中，預估發票是建立為 Dynamics 365 Sales 中發票的延伸。 但是，在開立發票時，Sales 與 Project Operations 之間的開立發票程序有許多不同的差別。 例如，無法從 Project Operations 的 **發票清單** 頁面建立新的發票，但是可以在 Sales 中進行此作業。 這些差異和擴充功能已到位，可支援與銷售訂單之一般發票不同的專案的開立發票程序。
 
 > [!IMPORTANT]
 > 因為這些差異，請勿在 Sales 與 Project Operations 間交替使用發票。

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0383607a07def6c21562bf4b0893fe3ce3db6a04
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7cc9ee9de576549c132e14c333a1000c22a55236
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072978"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288909"
 ---
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>將專案工作直接從 Project Service Automation 同步處理至 Finance and Operations
 
@@ -45,7 +45,7 @@ Project Service Automation 至 Finance 整合解決方案會使用資料整合�
 
 ## <a name="template-and-task"></a>範本與工作
 
-若要存取範本，請在 Microsoft Power Apps 系統管理中心選取 **專案** ，然後選取右上角的 **新增專案** 以選取公用範本。
+若要存取範本，請在 Microsoft Power Apps 系統管理中心選取 **專案**，然後選取右上角的 **新增專案** 以選取公用範本。
 
 下列範本與基礎工作會用來將專案工作從 Project Service Automation 同步處理至 Finance。
 
@@ -76,7 +76,7 @@ Project Service Automation 至 Finance 整合解決方案會使用資料整合�
 
 如果您必須使用 Power Query，請遵循以下準則：
 
-- 「專案工作 (PSA 至 Fin 和 Ops)」範本具有預設篩選，此篩選將 **IsLineTask** 的篩選設定為 **False** ，從專案工作中排除資源特定記錄 。 如果您自行建立範本，就必須新增此篩選。
+- 「專案工作 (PSA 至 Fin 和 Ops)」範本具有預設篩選，此篩選將 **IsLineTask** 的篩選設定為 **False**，從專案工作中排除資源特定記錄 。 如果您自行建立範本，就必須新增此篩選。
 
 ## <a name="template-mapping-in-data-integration"></a>資料整合中的範本對應
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: ed7ca3c85d3f99b7eefe10f4ddec822b9aeb1684
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 4abb7fe6554825b97df4cc04ee1b02d731cb4af9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073135"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289629"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>同步處理 Finance and Operations 與 Project Service Automation 之間的專案費用類別
 
@@ -54,7 +54,7 @@ Project Service Automation 與 Finance 整合解決方案會使用資料整合�
 >     - **專案類別** 存在。 
 >     - **在費用中使用** 已啟用。
 >     - **在日記帳中啟動** 已啟用。
->     - **交易類型** 設定為 **費用** 。
+>     - **交易類型** 設定為 **費用**。
 
 下圖這些顯示如何在 Project Service Automation 與 Finance 之間同步處理資料。
 
@@ -64,7 +64,7 @@ Project Service Automation 與 Finance 整合解決方案會使用資料整合�
 
 ### <a name="template-and-task"></a>範本與工作
 
-若要存取範本，請在 Microsoft Power Apps 系統管理中心選取 **專案** ，然後選取右上角的 **新增專案** 以選取公用範本。
+若要存取範本，請在 Microsoft Power Apps 系統管理中心選取 **專案**，然後選取右上角的 **新增專案** 以選取公用範本。
 
 下列範本與基礎工作會用來將專案費用類別從 Finance 同步處理至 Project Service Automation：
 
@@ -87,10 +87,10 @@ Project Service Automation 與 Finance 整合解決方案會使用資料整合�
 
 1. 按一下箭頭以開啟「專案費用交易類別 (Fin 和 Ops 至 PSA)」範本中專案費用類別工作的對應。
 2. 按一下 **進階查詢及篩選** 連結，以開啟 Power Query。
-2. 選取 **新增條件欄** 。
-3. 輸入新欄的名稱，例如 **BillingType** 。
-4. 輸入下列條件： **如果 CATEGORYID 不等於 Null 則為 19235001，否則為 Null** 。
-5. 按一下欄中的 **確定** 。
+2. 選取 **新增條件欄**。
+3. 輸入新欄的名稱，例如 **BillingType**。
+4. 輸入下列條件：**如果 CATEGORYID 不等於 Null 則為 19235001，否則為 Null**。
+5. 按一下欄中的 **確定**。
 6. 請務必在對應頁面上對應這個新欄。
 
 下圖顯示資料整合中的範本工作對應範例。 此對應顯示會從 Finance 同步處理至 Project Service Automation 的欄位資訊。

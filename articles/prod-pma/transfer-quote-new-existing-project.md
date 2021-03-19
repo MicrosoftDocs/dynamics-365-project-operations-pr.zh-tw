@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: ec0d53e9d294b12be9af9bb03885a45b68fb3388
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9952336c395d98eb776190f92062fffcfb31556b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072972"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288083"
 ---
 # <a name="transfer-a-quotation-to-a-project"></a>將報價轉移至專案
 
@@ -33,8 +33,8 @@ ms.locfileid: "4072972"
 
 若要使用精靈，請依照下列步驟進行。
 
-1. 移至 **專案管理與會計** > **報價** > **專案報價** 。
-2. 選取要轉移的報價，然後在 **跟進** 索引標籤的 **修改** 群組中，選取 **轉移至專案** 。
+1. 移至 **專案管理與會計** > **報價** > **專案報價**。
+2. 選取要轉移的報價，然後在 **跟進** 索引標籤的 **修改** 群組中，選取 **轉移至專案**。
 3. 跟隨 **轉移報價至專案** 精靈，將報價與專案建立關聯，然後進行轉移。
 
 

@@ -1,6 +1,6 @@
 ---
 title: 將專案估計值直接從 Project Service Automation 同步處理至 Finance and Operations
-description: 本主題說明用於將專案工時估計與專案位於估計直接從 Microsoft Dynamics 365 Project Service Automation 同步處理至 Dynamics 365 Finance 的範本與基礎工作。
+description: 本主題說明用於將專案工時估計與專案費用估計直接從 Microsoft Dynamics 365 Project Service Automation 同步處理至 Dynamics 365 Finance 的範本與基礎工作。
 author: Yowelle
 manager: AnnBe
 ms.date: 07/20/2018
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 336de474c859d30d1ec07ae34bf0c3d578faeef1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58e204b2c1238e00ffb16533cc82dad69fbf77a9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073124"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289449"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>將專案估計值直接從 Project Service Automation 同步處理至 Finance and Operations
 
@@ -46,7 +46,7 @@ Project Service Automation 至 Finance 整合解決方案會使用資料整合�
 
 ### <a name="template-and-tasks"></a>範本與工作
 
-若要存取可用範本，請在 Microsoft Power Apps 系統管理中心選取 **專案** ，然後選取右上角的 **新增專案** 以選取公用範本。
+若要存取可用範本，請在 Microsoft Power Apps 系統管理中心選取 **專案**，然後選取右上角的 **新增專案** 以選取公用範本。
 
 下列範本與基礎工作會用來將專案工時估計從 Project Service Automation 同步處理至 Finance：
 
@@ -82,8 +82,8 @@ Project Service Automation 至 Finance 整合解決方案會使用資料整合�
 
 若要更新範本中的預設預測模型識別碼，請按一下 **對應** 箭頭以開啟對應。 然後選取 **進階查詢及篩選** 連結。
 
-- 如果您使用預設「專案工時估計 (PSA 至 Fin 和 Ops)」範本，請選取 **已套用的步驟** 清單中的 **插入的條件** 。 在 **函數** 項目中，將 **O\_forecast** 取代為應與整合搭配使用的預測模型識別碼。 預設範本具有示範資料中的預測模型識別碼。
-- 如果您要建立新範本，就必須新增此欄。 在 Power Query 中，選取 **新增條件欄** ，並輸入新欄的名稱，例如 **ModelID** 。 輸入該欄的條件，如果專案工作不是 Null，則為 \<enter the forecast model ID\>；否則為 Null。
+- 如果您使用預設「專案工時估計 (PSA 至 Fin 和 Ops)」範本，請選取 **已套用的步驟** 清單中的 **插入的條件**。 在 **函數** 項目中，將 **O\_forecast** 取代為應與整合搭配使用的預測模型識別碼。 預設範本具有示範資料中的預測模型識別碼。
+- 如果您要建立新範本，就必須新增此欄。 在 Power Query 中，選取 **新增條件欄**，並輸入新欄的名稱，例如 **ModelID**。 輸入該欄的條件，如果專案工作不是 Null，則為 \<enter the forecast model ID\>；否則為 Null。
 
 #### <a name="filter-out-resource-specific-records"></a>篩除資源特定記錄
 
@@ -137,18 +137,18 @@ Project Service Automation 至 Finance 整合解決方案會使用資料整合�
 
 #### <a name="filter-to-include-only-expense-estimate-lines"></a>篩選成僅包含費用估計明細
 
-「專案費用估計 (PSA 至 Fin 和 Ops)」範本有一個只會將費用明細包含在整合中預設篩選。 如果您自行建立範本，就必須新增此篩選。 選取 **交易關聯** 工作，然後按一下 **對應** 箭頭以開啟對應。 選取 **進階查詢及篩選** 連結。 篩選 **msdyn\_transactiontype1** 欄，使其僅包含 **msdyn\_estimateline** 。
+「專案費用估計 (PSA 至 Fin 和 Ops)」範本有一個只會將費用明細包含在整合中預設篩選。 如果您自行建立範本，就必須新增此篩選。 選取 **交易關聯** 工作，然後按一下 **對應** 箭頭以開啟對應。 選取 **進階查詢及篩選** 連結。 篩選 **msdyn\_transactiontype1** 欄，使其僅包含 **msdyn\_estimateline**。
 
 #### <a name="set-the-default-forecast-model-id"></a>設定預設預測模型識別碼
 
 若要更新範本中的預設預測模型識別碼，請選取 **費用估計** 工作，然後按一下 **對應** 箭頭以開啟對應。 選取 **進階查詢及篩選** 連結。
 
-- 如果您使用預設「專案費用估計 (PSA 至 Fin 和 Ops)」範本，請在 Power Query 中，從 **已套用的步驟** 區段中選取第一個 **插入的條件** 。 在 **函數** 項目中，將 **O\_forecast** 取代為應與整合搭配使用的預測模型識別碼。 預設範本具有示範資料中的預測模型識別碼。
-- 如果您要建立新範本，就必須新增此欄。 在 Power Query 中，選取 **新增條件欄** ，並輸入新欄的名稱，例如 **ModelID** 。 輸入該欄的條件，如果估計明細識別碼不是 Null，則為 \<enter the forecast model ID\>；否則為 Null。
+- 如果您使用預設「專案費用估計 (PSA 至 Fin 和 Ops)」範本，請在 Power Query 中，從 **已套用的步驟** 區段中選取第一個 **插入的條件**。 在 **函數** 項目中，將 **O\_forecast** 取代為應與整合搭配使用的預測模型識別碼。 預設範本具有示範資料中的預測模型識別碼。
+- 如果您要建立新範本，就必須新增此欄。 在 Power Query 中，選取 **新增條件欄**，並輸入新欄的名稱，例如 **ModelID**。 輸入該欄的條件，如果估計明細識別碼不是 Null，則為 \<enter the forecast model ID\>；否則為 Null。
 
 #### <a name="transform-the-billing-types"></a>轉換帳單類型
 
-「專案費用估計 (PSA 至 Fin 和 Ops)」範本包含一個用來轉換整合期間從 Project Service Automation 所收到帳單類型的條件欄。 如果您自行建立範本，就必須新增此條件欄。 選取 **進階查詢及篩選** 連結，然後選取 **新增條件欄** 。 輸入新欄的名稱，例如 **BillingType** 。 接著輸入下列條件︰
+「專案費用估計 (PSA 至 Fin 和 Ops)」範本包含一個用來轉換整合期間從 Project Service Automation 所收到帳單類型的條件欄。 如果您自行建立範本，就必須新增此條件欄。 選取 **進階查詢及篩選** 連結，然後選取 **新增條件欄**。 輸入新欄的名稱，例如 **BillingType**。 接著輸入下列條件︰
 
 如果 **msdyn\_billingtype** = 192350000，則為 **NonChargeable**  
 否則如果 **msdyn\_billingtype** = 192350001，則為 **Chargeable**  
@@ -157,7 +157,7 @@ Project Service Automation 至 Finance 整合解決方案會使用資料整合�
 
 #### <a name="transform-the-transaction-types"></a>轉換交易類型
 
-「專案費用估計 (PSA 至 Fin 和 Ops)」範本包含一個用來轉換整合期間從 Project Service Automation 所收到交易類型的條件欄。 如果您自行建立範本，就必須新增此條件欄。 選取 **進階查詢及篩選** 連結，然後選取 **新增條件欄** 。 輸入新欄的名稱，例如 **TransactionType** 。 接著輸入下列條件︰
+「專案費用估計 (PSA 至 Fin 和 Ops)」範本包含一個用來轉換整合期間從 Project Service Automation 所收到交易類型的條件欄。 如果您自行建立範本，就必須新增此條件欄。 選取 **進階查詢及篩選** 連結，然後選取 **新增條件欄**。 輸入新欄的名稱，例如 **TransactionType**。 接著輸入下列條件︰
 
 如果 **msdyn\_transactiontypecode** = 192350000，則為 **成本**  
 否則如果 **msdyn\_transactiontypecode** = 192350005，則為 **銷售**  

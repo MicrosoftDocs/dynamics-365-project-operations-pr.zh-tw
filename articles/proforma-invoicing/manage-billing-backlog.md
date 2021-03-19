@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c3752abd26e760d27320d2b86079d84a967d53cf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122333"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287723"
 ---
 # <a name="manage-the-billing-backlog"></a>管理帳務積存
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
-Dynamics 365 Project Operations 有兩個專用檢視表，可協助您使用和管理帳務積存。 這些檢視表是 **固定價格里程碑** 和 **時間和材料帳務積存** 若要選取檢視表，請在 Project Operations 的 **銷售** 區域中，選取左導覽頁面上的 **帳單**。 帳務積存連結會儲存在這裡。
+Dynamics 365 Project Operations 有兩個可協助您處理和管理帳務積存的專用檢視表。 這些檢視表是 **固定價格里程碑** 和 **時間和材料帳務積存** 若要選取檢視表，請在 Project Operations 的 **銷售** 區域中，選取左導覽頁面上的 **帳單**。 帳務積存連結會儲存在這裡。
 
 ## <a name="fixed-price-milestones"></a>固定價格里程碑
 

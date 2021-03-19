@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 23a5a9f25cfdd6df74257b3500c7a035d711b5f6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7eae471cf42f02e64844a4682cc8ed02cbb14c34
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072977"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288864"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>專案時間項目行動工作區
 
@@ -100,19 +100,19 @@ ms.locfileid: "4072977"
 
 ## <a name="enter-time-by-using-the-project-time-entry-mobile-workspace"></a>使用專案時間項目行動工作區來輸入時間
 1.  在行動裝置上，選取 **專案時間項目** 工作區。
-2.  選取 **時間項目** 。 隨即顯示本週的行事曆日期。
-3.  針對所選取的日期，選取 **動作** &gt; **新增輸入** 。
+2.  選取 **時間項目**。 隨即顯示本週的行事曆日期。
+3.  針對所選取的日期，選取 **動作** &gt; **新增輸入**。
 4.  輸入要記錄的小時數。
 5.  選取時間項目的專案。 清單會顯示已載入至您的應用程式中供離線使用的專案。 預設會載入 50 個項目，但是開發人員可以變更此數目。 如需詳細資訊，請參閱[平台行動](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page)。
-6.  如果您的專案不在清單中，請選取 **搜尋** 。 依名稱搜尋，或切換為依專案名稱或客戶進行搜尋。
+6.  如果您的專案不在清單中，請選取 **搜尋**。 依名稱搜尋，或切換為依專案名稱或客戶進行搜尋。
 7.  選取類別。 清單會顯示已載入至您的應用程式中供離線使用的類別。 預設會載入 50 個項目，但是開發人員可以變更此數目。 如需詳細資訊，請參閱[平台行動](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page)。
-8.  如果您的類別不在清單中，請選取 **搜尋** 。 依類別搜尋，或切換為依類別名稱進行搜尋。
+8.  如果您的類別不在清單中，請選取 **搜尋**。 依類別搜尋，或切換為依類別名稱進行搜尋。
 9.  選取活動。 清單會顯示已載入至您的應用程式中供離線使用的活動。 預設會載入 50 個項目，但是開發人員可以變更此數目。 如需詳細資訊，請參閱[平台行動](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page)。
-10. 如果您的活動不在清單中，請選取 **搜尋** 。 依活動編號搜尋，或切換為依目的進行搜尋。
+10. 如果您的活動不在清單中，請選取 **搜尋**。 依活動編號搜尋，或切換為依目的進行搜尋。
 
 11. 選取明細屬性。
 12. 選用：輸入任何外部及內部意見。
-13. 選取 **完成** 。
+13. 選取 **完成**。
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

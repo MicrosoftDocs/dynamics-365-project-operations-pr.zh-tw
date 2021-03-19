@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: cff62e739e88dc45e7c3d1ea044875f0600f2bc1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11ccbd64c37341b2969e10e9a737f1aa4b4a61f9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073128"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289674"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>將專案實際值從 Project Service Automation 直接同步處理至專案整合日記帳，以便在 Finance and Operations 中進行過帳
 
@@ -50,7 +50,7 @@ Project Service Automation 至 Finance 整合解決方案會使用資料整合�
 
 ### <a name="template-and-tasks"></a>範本與工作
 
-若要存取可用範本，請在 Microsoft Power Apps 系統管理中心選取 **專案** ，然後選取右上角的 **新增專案** 以選取公用範本。
+若要存取可用範本，請在 Microsoft Power Apps 系統管理中心選取 **專案**，然後選取右上角的 **新增專案** 以選取公用範本。
 
 下列範本與基礎工作會用來將專案實際值從 Project Service Automation 同步處理至 Finance：
 
@@ -88,8 +88,8 @@ Project Service Automation 至 Finance 整合解決方案會使用資料整合�
 #### <a name="contract-organizational-unit"></a>合約組織單位
 若要更新範本中插入的條件欄，請按一下 **對應** 箭頭以開啟對應。 選取 **進階查詢及篩選** 連結，以開啟 Power Query。
 
-- 如果您使用預設「專案實際值 (PSA 至 Fin 和 Ops)」範本，請在 Power Query 中，從 **已套用的步驟** 區段中選取上次 **插入的條件** 。 在 **函數** 項目中，將 **USSI** 取代為應與整合搭配使用的法律實體名稱。 視需要將其他條件新增至 **函數** 項目，並將 **否則** 條件從 **USMF** 更新為正確的法律實體。
-- 如果要建立新範本，您必須新增該欄才能支援公司間的時間與費用。 選取 **新增條件欄** ，並輸入該欄的名稱，例如 **LegalEntity** 。 輸入該欄的條件，如果 **msdyn\_contractorganizationalunitid.msdyn\_name** 是 \<organizational unit\>，則為 \<enter the legal entity\>；否則為 Null。
+- 如果您使用預設「專案實際值 (PSA 至 Fin 和 Ops)」範本，請在 Power Query 中，從 **已套用的步驟** 區段中選取上次 **插入的條件**。 在 **函數** 項目中，將 **USSI** 取代為應與整合搭配使用的法律實體名稱。 視需要將其他條件新增至 **函數** 項目，並將 **否則** 條件從 **USMF** 更新為正確的法律實體。
+- 如果要建立新範本，您必須新增該欄才能支援公司間的時間與費用。 選取 **新增條件欄**，並輸入該欄的名稱，例如 **LegalEntity**。 輸入該欄的條件，如果 **msdyn\_contractorganizationalunitid.msdyn\_name** 是 \<organizational unit\>，則為 \<enter the legal entity\>；否則為 Null。
 
 ### <a name="template-mapping-in-data-integration"></a>資料整合中的範本對應
 

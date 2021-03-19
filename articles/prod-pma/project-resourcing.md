@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3ecf8ee588de9ec41e0b4f384110f912759ed53f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f2bab78628333f2d8a6996277ca3a9e63052e939
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072982"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289089"
 ---
 # <a name="project-resourcing-home-page"></a>專案資源分配首頁
 
@@ -49,7 +49,7 @@ ms.locfileid: "4072982"
 - [設定專案資源](set-up-project-resources.md)
 - [管理資源專長](manage-resource-competencies.md)
 - [建立新專案](create-new-project.md)
-- [設定角色定價](set-up-role-based-pricing.md)
+- [設定基於角色的定價](set-up-role-based-pricing.md)
 - [建立專案團隊](create-project-team.md)
 - [同步處理資源產能](synchronize-resource-capacity.md)
 - [專案資源排程效能](project-scheduling-performance.md)
