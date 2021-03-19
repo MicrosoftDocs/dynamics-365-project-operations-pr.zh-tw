@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 10872366453985561bda0c07e50cff7f5f6d333e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3f0429366c69346113003355679c055cd2c74ca3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131693"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287048"
 ---
 # <a name="expense-estimates"></a>費用估計值
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
-除了定義資源型評估值之外，Dynamics 365 Project Operations 還可讓專案經理每個專案的專案型費用。 每個費用項目都可與特定專案工作或費用類別建立關聯。 費用類別通常是在組織層級定義。 每個費用類別的定價通常是在下列階層中定義：
+除了定義以資源為基礎的估計值之外，Dynamics 365 Project Operations 還可讓專案經理為每個專案定義以專案為基礎的費用。 每個費用項目都可與特定專案工作或費用類別建立關聯。 費用類別通常是在組織層級定義。 每個費用類別的定價通常是在下列階層中定義：
 
 - 組織
 - 客戶

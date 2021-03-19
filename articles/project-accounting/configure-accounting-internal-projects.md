@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ea04178d4327ccd701ab431f172463a13a55154e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9f1cc75b12fec81d726e46f8d970dcfe030f6b29
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132368"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287588"
 ---
 # <a name="configure-accounting-for-internal-projects"></a>設定內部專案會計
 
@@ -24,7 +24,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 - 開發產品 (例如行動應用程式)，以及追蹤與開發相關聯的成本。
 - 管理售前時間與費用。 如果報價已成交，則可以稍後再將此售前內部專案轉換成計費專案。
 
-任何未與 Dynamics 365 Project Operations 中合約建立關聯的專案，都會視為內部專案。 專案成本與營收設定檔不會用來決定專案的會計規則。 內部專案成本一律使用損益原則進行過帳。 用於過帳的總帳科目是在 **總帳過帳設定** 頁面上定義。
+任何未與 Dynamics 365 Project Operations 中合約建立關聯的專案都會視為內部專案。 專案成本與營收設定檔不會用來決定專案的會計規則。 內部專案成本一律使用損益原則進行過帳。 用於過帳的總帳科目是在 **總帳過帳設定** 頁面上定義。
 
 - 時間交易的過帳方式是，借記 **成本** 科目，並貸記 **薪資分攤** 科目。
 - 費用交易的過帳方式是，借記 **成本** 科目，並貸記 **費用抵銷科目**。

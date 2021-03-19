@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ffe3373184c8cd776bf3705fd674bedf221d9b77
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133296"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287228"
 ---
 # <a name="integration-journal-in-project-operations"></a>Project Operations 中的整合帳目
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
-時間和費用項目會建立 **實際** 交易，表示針對專案完成的工作運作檢視表。 Dynamics 365 Project Operations 為會計師提供審查交易，並視需要調整會計屬性的工具。 在審查和調整完成後，交易會過帳至專案分類帳和總帳。 會計可以使用 **Project Operations 整合** 帳目執行這些活動（**Dynamics 365 Finance** > **專案管理與會計** > **帳目** > **Project Operations 整合** 帳目）。
+時間和費用項目會建立 **實際** 交易，表示針對專案完成的工作運作檢視表。 Dynamics 365 Project Operations 為會計師提供用於審查交易，並視需要調整會計屬性的工具。 在審查和調整完成後，交易會過帳至專案分類帳和總帳。 會計可以使用 **Project Operations 整合** 帳目執行這些活動（**Dynamics 365 Finance** > **專案管理與會計** > **帳目** > **Project Operations 整合** 帳目）。
 
 ![整合帳目流程](./media/IntegrationJournal.png)
 
@@ -28,9 +28,9 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 Project Operations 整合帳目中的記錄是使用週期程序（**從臨時表格匯入**）建立。 您可以前往 **Dynamics 365 Finance** > **專案管理和會計** > **週期** > **Project Operations 整合** > **從臨時表格匯入** 以執行此程序。 您可以視需要以互動方式執行程序，或將程序設定成在背景執行。
 
 當週期程序執行時，會找出尚未新增至 Project Operations 整合帳目的任何實際值。 即會建立每個實際交易的帳目明細。
-系統會根據 **Project Operations 整合帳目上的週期單位** 欄位（**財務** > **專案管理和會計** > **設定** > **專案管理與會計參數**、**Dynamics 365 Customer Engagement 上的 Project Operations** 索引標籤）中所選取的值，將帳目明細分組為不同的帳目。 這個欄位的可能值包括：
+系統會根據 **Project Operations 整合帳目上的週期單位** 欄位 (**財務** > **專案管理和會計** > **設定** > **專案管理與會計參數**、**Dynamics 365 Customer Engagement 上的 Project Operations** 索引標籤) 中所選取的值，將帳目明細分組為不同的帳目。 這個欄位的可能值包括：
 
-  - _*天**：實際值是依交易日期進行分組。 每一天都會建立不同的帳目。
+  - **日**：實際值是依交易日期進行分組。 每一天都會建立不同的帳目。
   - **月**：實際值是依日曆月分組。 每個月都會建立不同的帳目。
   - **年**：實際值是依日曆年分組。 每一年都會建立不同的帳目。
   - **全部**：所有實際交易均包含在相同的整合帳目中。 如果當週期程序執行時無法使用該帳目，例如，帳目是在過帳交易程序中，就會建立新的帳目。

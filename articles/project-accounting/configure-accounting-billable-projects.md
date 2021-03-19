@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 47bb5671c7b80c0e96f3f65e9c4d25f6da8184a5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131963"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287633"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>設定計費專案會計
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
-Dynamics 365 Project Operations 針對包含時間和材料以及固定價格交易的計費專案，支援各種不同的會計選項。
+Dynamics 365 Project Operations 針對包含時間和材料交易以及固定價格交易的計費專案支援各種會計選項。
 
 - **時間和材料交易**：根據專案上時數、費用、項目或服務費的耗用，這些交易會依照工作進度開立發票。 這些交易成本可能會與每筆交易的營收等值，而且也會隨工作進展，開立專案的發票。 專案營收也可以在交易發生之時列入應計項目。 開立發票時，會認列營收並在適用時沖回應計收入。
 - **固定價格交易**：這些交易是根據以專案合約為基準的帳單排程來開立發票。 固定價格交易的營收可以依據 **全部完工** 或 **完工百分比** 方法，在開立發票時認列，或定期計算並過帳。

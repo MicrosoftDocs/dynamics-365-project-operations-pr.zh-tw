@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6bd13c448f4ce16fb93843df54f26cdd9bb884f4
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 18a1176c131e233f62f74dc0dd8a6aa3ee561da5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146473"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286013"
 ---
 # <a name="how-do-i-soft-book-resources-in-the-web-app-project-service-app-v2x"></a>如何在 Web 應用程式 (Project Service 應用程式 2.x 版) 中進行資源的「未確認預約」？
 

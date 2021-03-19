@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0a9d34d69ff59f0cb470bb852d8a80ecaedf6544
-ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
+ms.openlocfilehash: 6d23e45d99be61e93d98a8377ff5fa05b3febb6b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4595437"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287408"
 ---
 # <a name="create-intercompany-transactions"></a>建立公司間交易
 
@@ -69,7 +69,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
     5. 建立新專案，並將它與此合約服務內容建立關聯。
 4. 以資源 **Molly Clark** 登入。 移至 **專案** > **時間項目**，並建立 Adventure Works 專案的時間項目。
 5. 以專案經理人身分登入。 移至 **專案** > **核准**，並核准 Molly Clark 記錄的時間項目交易。
-6. 瀏覽至 Adventure Works 專案，並選取**相關** > **實際值**。 下列是建立的實際值交易。
+6. 瀏覽至 Adventure Works 專案，並選取 **相關** > **實際值**。 下列是建立的實際值交易。
 
 | **交易類型** | **價格** | **交易貨幣** | **金額** |
 | --- | --- | --- | --- |

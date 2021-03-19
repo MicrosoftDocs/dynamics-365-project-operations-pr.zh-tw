@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: 695bbc2ae1ba1e762472b5f5fa853c89017d2f52
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841313"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287003"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>建立分工結構圖 (WBS)
 
@@ -92,6 +92,8 @@ ms.locfileid: "4841313"
 | 開始時間 | 開始日期與時間。 |
 | 名字 | 工作的名稱。 |
 | 識別碼 | 分工結構圖中工作的識別碼。 |
+
+身為管理員，您可以在工作實體上定義自訂欄位。 不過，這些欄位無法顯示在排程網格上。 若要查看您的自訂欄位，請將其新增至 **專案工作** 詳細資料頁面。
 
 ## <a name="staffing-attributes"></a>人員配置屬性
 
