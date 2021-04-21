@@ -3,17 +3,17 @@ title: 判斷您的部署類型
 description: 本主題提供資訊以協助您判斷適合您公司的正確 Project Operations 部署類型。
 author: stsporen
 manager: Annbe
-ms.date: 11/05/2020
+ms.date: 03/15/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
+ms.openlocfilehash: 715b117cae5418fc743ea870772278450fff5ae9
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479554"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663584"
 ---
 # <a name="determine-your-deployment-type"></a>判斷您的部署類型
 
@@ -44,7 +44,7 @@ Project Operations 支援多個部署選項，以符合您的需求。 不論您
 - [資源/非庫存案例適用的 Project Operations](#integrated)
 - [庫存/生產訂單案例適用的 Project Operations](#pma)
 
-Project Operations 透過法律實體層級設定在同一個環境中支援庫存/生產訂單案例以及非庫存/資源型案例。 例如，Contoso 可以利用其美國製造設施 (法律實體 = Contoso Manufacturing United States) 中的庫存/生產訂單功能。 Contoso 可以利用其在英國的 Contoso 機器人手臂維修設施 (法律實體 = Contoso Robotics United Kingdom) 中的非庫存/資源型功能。
+Project Operations 透過法律實體層級設定在同一個環境中支援庫存/生產訂單案例以及非庫存/資源型案例。 例如，Contoso 可以在其美國製造設施 (法律實體 = 美國 Contoso Manufacturing) 中使用庫存/生產訂單功能。 Contoso 可以在其英國 Contoso 機器人手臂服務設施 (法律實體 = 英國 Contoso Robotics) 中使用非庫存/資源型功能。
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>精簡部署 - 交易至開立預估發票
 
@@ -56,7 +56,7 @@ Project Operations 透過法律實體層級設定在同一個環境中支援庫�
 - 統一資源管理
 - 時間追蹤
 - 基本費用
-- 開立預估發票和客戶面向發票 
+- 供專案經理審查和編輯的預估開票 
 
 #### <a name="deployment-steps"></a>部署步驟
 使用[部署問卷](https://aka.ms/provisionprojectoperations)來判斷 Project Operations 的最佳部署模型。
@@ -91,10 +91,10 @@ Project Operations 透過法律實體層級設定在同一個環境中支援庫�
 - 時間追蹤
 - 全額費用
 - 收據 OCR
-- 完整發票
+- 開立全額發票
 - 收入認列
 - 生產訂單
-- 材料支援
+- 庫存的庫存材料支援
 
 #### <a name="deployment-steps"></a>部署步驟
 使用[部署問卷](https://aka.ms/provisionprojectoperations)來判斷 Project Operations 的最佳部署模型。

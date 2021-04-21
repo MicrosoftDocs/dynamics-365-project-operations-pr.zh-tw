@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f3f18644a51d87cf3bb5b4effba2236eaf3d81a9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0aedaa2ec77bb54031fccd0db2872e0aa5fea5e0
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273413"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858238"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line---lite"></a>將專案的估計值匯入至專案型報價明細 - 精簡
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>將專案的估計值匯入至專案型報價明細 
 
-_**適用於：** 精簡部署 - 交易至開立預估發票_
+_**適用於：** 精簡部署 - 交易至開立預估發票、資源/非庫存型案例適用的 Project Operations_
 
 如果已在售前階段期間建立專案，您可以選擇將財務估計值從專案匯入至專案型報價明細。
 
@@ -30,7 +30,7 @@ _**適用於：** 精簡部署 - 交易至開立預估發票_
   - **角色** 
   - **專案工作**
 
-根據您的選取項目，系統會從專案複製對此報價明細所包含所有交易分類的估計值。 若要檢查包含哪些交易分類，請選取專案型報價明細上的 **一般** 索引標籤，然後檢查 **包含時間**、**包含費用** 及 **包含服務費** 的值。  若要檢查包含哪些工作，請選取報價明細上的 **應收費工作** 索引標籤。
+根據您的選取項目，系統會從專案複製對此報價明細所包含所有交易分類的估計值。 若要檢查包含哪些交易分類，請選取專案型報價明細上的 **一般** 索引標籤，並檢查 **包括時間**、**包括費用**、**包括材料** 和 **包括費用** 的值。  若要檢查包含哪些工作，請選取報價明細上的 **應收費工作** 索引標籤。
 
 視工作相關的交易分類和包含的交易分類而定，這些工作與交易分類組合的估計值會匯入至報價明細。
 

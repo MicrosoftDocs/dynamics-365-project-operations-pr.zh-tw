@@ -3,17 +3,17 @@ title: 管理專案合約上的專案價目表
 description: 本主題提供有關管理專案合約上的專案價目表的資訊。
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2cfac6eda64d1d8e578115bba07942a7d786328f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ffc48782394995781535ae56142dc76afeb9a040
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278588"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858553"
 ---
 # <a name="manage-project-price-lists-on-project-contracts"></a>管理專案合約上的專案價目表
 
@@ -21,13 +21,13 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 Dynamics 365 Project Operations 中的專案合約是設計來支援合約上多個在有效期限內的銷售價目表。 在 Project Operations 中，有一個新的名為 **專案價目表** 的相關實體。 此實體與專案合約有一對多關聯。
 
-專案價目表會在專案上用來設定時間和費用交易的價格。 當合約有一個或多個專案價目表時，這些價目表會用來對透過合約服務內容關聯至合約之專案上的時間及費用估計值和實際值進行定價。
+專案價目表可用於訂定專案中時間、材料及費用交易的價格。 當合約有一份或多份專案價目表時，這些價目表會在透過合約服務內容與合約產生關聯的專案上，用於訂定時間、材料、費用估計值及實際值的價格。
 
-當專案合約上沒有專案價目表時，您會看到警告訊息，指出沒有任何專案價目表，無法對您的估計值、實際專案工作和費用進行定價。 銷售值不會有任何價格。
+當專案合約沒有專案價目表時，您會看到警告訊息，指出沒有專案價目表，無法為您的估計值、實際專案工作、材料以及已記錄的費用進行定價。 銷售值不會有任何價格。
 
 ## <a name="associate-or-unassociate-a-project-price-list-on-a-project-contract"></a>在專案合約上建立或解除與專案價目表的關聯
 
-### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-and-expenses"></a>建立特定價目表或與之產生關聯，以對專案型工作和費用進行估計
+### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-material-and-expenses"></a>建立用於估計專案型工作、材料和費用的特定價目表，或與之產生關聯
 
 1. 在專案合約上，選取 **專案價目表** 索引標籤。
 2. 在子格中，選取 **+ 新增專案價目表**。
@@ -52,7 +52,7 @@ Dynamics 365 Project Operations 中的專案合約是設計來支援合約上多
 
 ## <a name="set-up-automatic-defaulting-of-project-price-lists-on-a-contract"></a>在合約上設定專案價目表的自動設定預設
 
-您可以將專案價目表設定為專案合約上的預設價目表。 此設定可協助確保組織中的所有合約永遠都會一開始就使用該價格期間的標準價目表。
+專案價目表可以設定為預設專案價目表。 這項設定可確保您組織中的所有合約一律都是以該價格期間的標準專案價目表為開始。
 
 ### <a name="set-up-the-organizational-default-for-project-price-lists"></a>設定專案價目表的組織預設值
 

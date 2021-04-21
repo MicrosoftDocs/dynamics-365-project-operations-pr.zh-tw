@@ -1,5 +1,5 @@
 ---
-title: 設定專案型合約服務內容的應收費元件 - 精簡
+title: 設定專案型合約服務內容的應收費元件
 description: 本主題提供有關如何在 Project Operations 中新增應收費元件至合約服務內容的資訊。
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf3f2a28fc992d6444b35d6ffa0c3f6cadcf16ea
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ddada2cb412ba7370fb0a750325a84772937d8d0
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273908"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858463"
 ---
-# <a name="configure-chargeable-components-of-a-project-based-contract-line---lite"></a>設定專案型合約服務內容的應收費元件 - 精簡
+# <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>設定專案型合約服務內容的應收費元件
 
-_**適用於：** 精簡部署 - 交易至開立預估發票_
+_**適用於：** 精簡部署 - 交易至開立預估發票、資源/非庫存型案例適用的 Project Operations_
 
 專案型合約服務內容有 *包含* 元件和 *應收費* 元件。
 
@@ -62,23 +62,582 @@ _**適用於：** 精簡部署 - 交易至開立預估發票_
 
 ### <a name="resolve-chargeability"></a>解析可收費率
 
-針對時間所建立的估計值或實際值，只有在 **時間** 已包含在合約服務內容中時，以及在 **工作** 和 **角色** 已在合約服務內容上設定為應收費時，才會視為應收費。
+只有在下列情況下，才能將針對時間建立的估計值或實際值視為應收費：
 
-針對費用所建立的估計值或實際值，只有在 **費用** 已包含在合約服務內容中時，以及在 **工作** 和 **交易** 類別已在合約服務內容上設定為應收費時，才會視為應收費。
+   - **時間** 已包含在合約服務內容中。
+   - **角色** 已在合約服務內容中設定為應收費。
+   - **包含的工作** 已在合約服務內容上設定為 **選取的工作**。
+ 
+ 如果這三種情況成立，工作就會設定為應收費。 
+
+只有在下列情況下，才能將針對費用建立的估計值或實際值視為應收費：
+
+   - **費用** 已包含在合約服務內容中
+   - **交易類別** 已在合約服務內容中設定為應收費
+   - **包含的工作** 已在合約服務內容上設定為 **選取的工作**
+  
+ 如果這三種情況成立，**工作** 就會設定為應收費。 
+
+只有在下列情況下，才能將針對材料建立的估計值或實際值視為應收費：
+
+   - **材料** 已包含在合約服務內容中
+   - **包含的工作** 已在合約服務內容上設定為 **選取的工作**
+
+如果這兩種情況成立，**工作** 就會設定為應收費。 
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>包含時間</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>包含費用</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>包含材料</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+                    <strong>包含的工作</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>角色</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>類別</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>工作​​</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+                    <strong>可收費率影響</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+.是 </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+.是 </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+.是 </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+整個專案 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+應收費 </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+應收費 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+無法設定 </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+時間實際值的帳單：<strong>應收費</strong>
+                </p>
+                <p>
+費用實際值的帳單類型：<strong>應收費</strong>
+                </p>
+                <p>
+材料實際值的帳單類型：<strong>應收費</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+.是 </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+.是 </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+.是 </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+僅限選取的工作 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+應收費 </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+應收費 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+應收費 </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+時間實際值的帳單：<strong>應收費</strong>
+                </p>
+                <p>
+費用實際值的帳單類型：<strong>應收費</strong>
+                </p>
+                <p>
+材料實際值的帳單類型：<strong>應收費</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+.是 </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+.是 </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+.是 </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+僅限選取的工作 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>不應收費</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+應收費 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+應收費 </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+時間實際值的帳單：<strong>不應收費</strong>
+                </p>
+                <p>
+費用實際值的帳單類型：應收費 </p>
+                <p>
+材料實際值的帳單類型：應收費 </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+.是 </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+.是 </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+.是 </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+僅限選取的工作 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+應收費 </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+應收費 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>不應收費</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+時間實際值的帳單：<strong>不應收費</strong>
+                </p>
+                <p>
+費用實際值的帳單類型：<strong>不應收費</strong>
+                </p>
+                <p>
+材料實際值的帳單類型：<strong>不應收費</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+.是 </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+.是 </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+.是 </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+僅限選取的工作 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>不應收費</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+應收費 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>不應收費</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+時間實際值的帳單：<strong>不應收費</strong>
+                </p>
+                <p>
+費用實際值的帳單類型：<strong>不應收費</strong>
+                </p>
+                <p>
+材料實際值的帳單類型：<strong>不應收費</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+.是 </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+.是 </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+.是 </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+僅限選取的工作 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>不應收費</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>不應收費</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+應收費 </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+時間實際值的帳單：<strong>不應收費</strong>
+                </p>
+                <p>
+費用實際值的帳單類型：<strong>不應收費</strong>
+                </p>
+                <p>
+材料實際值的帳單類型：應收費 </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>無</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+.是 </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+.是 </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+整個專案 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+無法設定 </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>應收費</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+無法設定 </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+時間實際值的帳單：<strong>無法使用</strong>
+                </p>
+                <p>
+費用實際值的帳單類型：應收費 </p>
+                <p>
+材料實際值的帳單類型：應收費 </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>無</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+.是 </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+.是 </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+整個專案 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+無法設定 </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>不應收費</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+無法設定 </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+時間實際值的帳單：<strong>無法使用</strong>
+                </p>
+                <p>
+費用實際值的帳單類型：<strong>不應收費</strong>
+                </p>
+                <p>
+材料實際值的帳單類型：應收費 </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+.是 </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>無</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+.是 </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+整個專案 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+應收費 </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+無法設定 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+無法設定 </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+時間實際值的帳單：應收費 </p>
+                <p>
+費用實際值的帳單類型：<strong>無法使用</strong>
+                </p>
+                <p>
+材料實際值的帳單類型：應收費 </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+.是 </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>無</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+.是 </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+整個專案 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>不應收費</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+無法設定 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+無法設定 </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+時間實際值的帳單：<strong>不應收費</strong>
+                </p>
+                <p>
+費用實際值的帳單類型：<strong>無法使用</strong>
+                </p>
+                <p>
+材料實際值的帳單類型：應收費 </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+.是 </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+.是 </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>無</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+整個專案 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+應收費 </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+應收費 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+無法設定 </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+時間實際值的帳單：應收費 </p>
+                <p>
+費用實際值的帳單類型：應收費 </p>
+                <p>
+材料實際值的帳單類型：<strong>無法使用</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+.是 </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+.是 </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>無</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+整個專案 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>不應收費</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>不應收費</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+無法設定 </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+時間實際值的帳單：<strong>不應收費</strong>
+                </p>
+                <p>
+費用實際值的帳單類型：<strong>不應收費</strong>
+                </p>
+                <p>
+材料實際值的帳單類型：<strong>無法使用</strong>
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 
-| 包含時間 | 包含費用 | 包含工作 | 角色           | Category       | 工作​​                                                                                                      |
-|---------------|------------------|----------------|----------------|----------------|-----------------------------------------------------------------------------------------------------------|
-| .是           | .是              | 整個專案 | 應收費     | 應收費     | 時間實際值的帳單：**應收費** </br> 費用實際值的帳單類型：**應收費**           |
-| .是           | .是              | 選取的工作 | 應收費     | 應收費     | 時間實際值的帳單：**應收費** </br> 費用實際值的帳單類型：**應收費**           |
-| .是           | .是              | 選取的工作 | 不應收費 | 應收費     | 時間實際值的帳單：**不應收費** </br> 費用實際值的帳單類型：**應收費**       |
-| .是           | .是              | 選取的工作 | 應收費     | 應收費     | 時間實際值的帳單：**不應收費** </br> 費用實際值的帳單類型：**不應收費** |
-| .是           | .是              | 選取的工作 | 不應收費 | 應收費     | 時間實際值的帳單：**不應收費** </br> 費用實際值的帳單類型：**不應收費** |
-| .是           | .是              | 選取的工作 | 不應收費 | 不應收費 | 時間實際值的帳單：**不應收費** </br> 費用實際值的帳單類型：**不應收費** |
-| 無            | .是              | 整個專案 | 無法設定   | 應收費     | 時間實際值的帳單：**無法使用**</br>費用實際值的帳單類型：**應收費**          |
-| 無            | .是              | 整個專案 | 無法設定   | 不應收費 | 時間實際值的帳單：**無法使用**</br> 費用實際值的帳單類型：**不應收費**     |
-| .是           | 無               | 整個專案 | 應收費     | 無法設定   | 時間實際值的帳單：**應收費** </br> 費用實際值的帳單類型：**無法使用**        |
-| .是           | 無               | 整個專案 | 不應收費 | 無法設定   | 時間實際值的帳單：**不應收費** </br>費用實際值的帳單類型：**無法使用**   |
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

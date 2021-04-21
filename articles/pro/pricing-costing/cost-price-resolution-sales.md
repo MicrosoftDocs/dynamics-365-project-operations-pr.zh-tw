@@ -1,22 +1,22 @@
 ---
-title: 解析估計值及實際值的成本價 - 精簡
-description: 本主題提供有關如何在估計值及實際值上解析成本價的資訊。
+title: 解析專案估計值及實際值的成本價
+description: 本主題提供有關如何在專案估計值和實際值上解析成本價的資訊。
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bbb79fdc5c68d67530b5aa34fe6105211eff1768
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9f20631f41c560f1a4047aaaa624fa4e8651c687
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274539"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877255"
 ---
-# <a name="resolve-cost-prices-on-estimates-and-actuals---lite"></a>解析估計值及實際值的成本價 - 精簡
+# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>解析專案估計值及實際值的成本價 
 
 _**適用於：** 精簡部署 - 交易至開立預估發票_
 
@@ -36,6 +36,12 @@ _**適用於：** 精簡部署 - 交易至開立預估發票_
 費用的估計明細是指專案上費用和費用估計明細的報價及合約服務內容詳細資料。
 
 解析成本價目表之後，系統會使用費用估計明細上的 **類別** 和 **單位** 欄位組合，來與已解析價目表上的 **類別價格** 明細進行比對。 如果系統找到具有 **類別** 與 **單位** 欄位組合成本費率的類別價格明細，則預設使用該成本費率。 如果系統找不到與 **類別** 及 **單位** 值相符的項目，或者找得到相符的類別價格明細，但定價方式不是 **單價** 時，成本費率會預設為零 (0)。
+
+## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>解析材料實際及估計明細上的成本費率
+
+材料的估計明細是指材料的報價與合約服務內容詳細資料以及專案中的材料估計明細。
+
+解析成本價目表之後，系統會使用材料估計值估計明細上的 **產品** 與 **單位** 欄位組合，來比對所解析價目表上的 **價目表項目** 明細。 如果系統找到具有 **產品** 與 **單位** 欄位組合成本費率的產品價格明細，則以該成本費率為預設值。 如果系統找不到符合 **產品** 與 **單位** 值的項目，或是找得到相符的價目表項目明細，但定價方式是根據標準成本或目前成本，而產品中並未定義這任一成本時，單位成本會預設為零。
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

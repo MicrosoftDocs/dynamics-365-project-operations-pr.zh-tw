@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9f1cc75b12fec81d726e46f8d970dcfe030f6b29
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 65d05e3a6321dc32aee55c28b3eaa4bd0bae2f86
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287588"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5857968"
 ---
 # <a name="configure-accounting-for-internal-projects"></a>設定內部專案會計
 
@@ -28,6 +28,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 - 時間交易的過帳方式是，借記 **成本** 科目，並貸記 **薪資分攤** 科目。
 - 費用交易的過帳方式是，借記 **成本** 科目，並貸記 **費用抵銷科目**。
+- 項目交易是透過借記 **成本** 科目和貸記 **成本項目** 科目來過帳。
 
 將交易過帳到專案之後，如果專案與專案合約相關聯，則系統會沖銷所有累計交易，並建立新的計費交易。 計費交易遵循各自定義於專案成本與營收設定檔的會計規則。
 

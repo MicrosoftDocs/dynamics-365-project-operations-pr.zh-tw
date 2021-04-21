@@ -3,17 +3,17 @@ title: 設定費用的成本及銷售費率
 description: 本主題提供有關如何為交易類別和費用類別設定成本及銷售費率的資訊。
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 34e3c24ae1aa999954af9b347633820d265ac0c3
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274898"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877210"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>設定費用的成本及銷售費率
 
@@ -23,9 +23,10 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 若要設定交易類別的成本及銷售費率，請完成下列步驟。 
 
-1. 根據價目表標題建立價目表。 
-2. 在 **類別價格** 的子格功能表上，選取 **+ 新類別價格**。 
-3. 在 **快速建立** 頁面上，輸入需要建立新價格的交易類別和單位。
+1. 移至 **銷售** > **客戶** > **價目表**。
+2. 選取 **新增** 以建立新的價目表。 
+3. 在 **類別價格** 的子格功能表上，選取 **新增類別價格**。 
+4. 在 **快速建立** 頁面上，輸入需要建立新價格的交易類別和單位。
 
 下表列出類別價格明細的 **一般** 索引標籤及 **快速建立** 頁面上的欄位，當您在銷售或成本價目表上建立類別價格時，應留意這些欄位。
 

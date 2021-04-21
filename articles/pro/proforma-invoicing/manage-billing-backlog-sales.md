@@ -1,6 +1,6 @@
 ---
-title: 管理帳務積存 - 精簡
-description: 本主題提供有關各種可供管理帳務積存時使用之檢視表的資訊。
+title: 管理專案帳務積存
+description: 本主題提供有關管理專案帳務積存時可供使用之各種檢視表的資訊。
 author: rumant
 manager: Annbe
 ms.date: 10/26/2020
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 77c4df8c4370017b9199eec3a21cd07dd0343fd9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 25dc9cff6aeb6daed9a27ba843a74b892ca4751c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274088"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866986"
 ---
-# <a name="manage-the-billing-backlog---lite"></a>管理帳務積存 - 精簡
+# <a name="manage-project-billing-backlog"></a>管理專案帳務積存 
 
 _**適用於：** 精簡部署 - 交易至開立預估發票_
 

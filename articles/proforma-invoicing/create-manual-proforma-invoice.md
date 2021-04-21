@@ -1,42 +1,27 @@
 ---
-title: 建立手動預估發票
-description: 本主題提供有關建立預估發票的資訊。
+title: 預估發票
+description: 本主題提供有關在 Project Operations 中預估發票的資訊。
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3289b8bcaddaebe1a3657b5902c1d324f9e0fd53
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: b143ba286f25ecb23fea09a85bca06543f7f55ff
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287768"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866851"
 ---
-# <a name="create-a-manual-proforma-invoice"></a>建立手動預估發票
+# <a name="proforma-invoices"></a>預估發票
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
-開立發票可讓專案經理在為客戶建立發票前有另一層級的核准。 第一層核准是在專案團隊成員送出的時間和費用項目經過核准時完成。
+開立預估發票讓專案經理在為客戶建立發票前有另一層級的核准。 第一層核准是在專案團隊成員送出的時間、費用和材料項目經過核准時完成。 確認的預估發票可在 Project Operations 的專案會計模組中使用。 專案會計師可以執行其他更新，例如銷售稅、會計和發票版面配置。
 
-Dynamics 365 Project Operations 不是為了產生客戶面向發票而設計，原因如下：
-
-- 其中未包含稅務資訊。
-- 無法使用正確設定的匯率，將其他貨幣轉換為發票貨幣。
-- 無法正確格式化發票，以供列印。
-
-但您可以改用財務或會計系統來建立使用發票提案所產生之資訊的客戶面向發票。
 
 ## <a name="creating-project-invoices"></a>建立專案發票
 
@@ -50,7 +35,7 @@ Dynamics 365 Project Operations 不是為了產生客戶面向發票而設計，
 
 - 在 **專案合約** 清單頁面上，開啟專案合約，然後選取 **建立發票**。
 
-    發票會針對狀態為 **已準備好開立發票** 的所選專案合約的所有交易來產生。 這些交易包括時間、費用、里程碑和產品型合約服務內容。
+    發票會針對狀態為 **已準備好開立發票** 的所選專案合約的所有交易來產生。 這些交易包括時間、費用、材料、里程碑以及其他未開單銷售帳目明細。
 
 請依照下列步驟大量建立發票。
 
@@ -60,7 +45,7 @@ Dynamics 365 Project Operations 不是為了產生客戶面向發票而設計，
 
 2. 選取 **確定** 以關閉訊息方塊。
 
-    發票會針對狀態為 **已準備好開立發票** 的合約服務內容的所有交易來產生。 這些交易包括時間、費用、里程碑和產品型合約服務內容。
+    發票會針對狀態為 **已準備好開立發票** 的合約服務內容的所有交易來產生。 這些交易包括時間、費用、材料、里程碑以及其他未開單銷售帳目明細。
 
 3. 若要檢視已產生的發票，請移至 **銷售**\>**帳務**\>**發票**。 您會看到每個專案合約的一份發票。
 
@@ -93,11 +78,10 @@ Dynamics 365 Project Operations 不是為了產生客戶面向發票而設計，
  
 ### <a name="edit-a-draft-invoice"></a>編輯草稿發票
 
-建立草稿專案發票時，所有在時間及費用項目獲核准時建立的未開單銷售交易都會提取到發票上。 發票仍處於草稿階段時，您可以進行下列調整：
+建立草稿專案發票時，所有在時間、費用及材料使用項目獲核准時建立的未開單銷售交易都會提取到發票上。 發票仍處於草稿階段時，您可以進行下列調整：
 
 - 刪除或編輯發票明細詳細資料。
 - 編輯和調整數量與帳單類型。
-- 直接將時間、費用和服務費新增為發票上的交易。 如果發票明細對應至允許這些交易分類的合約服務內容，您可以使用此功能。
 
 選取 **確認** 以確認發票。 確認動作是單向動作。 選取 **確認** 時，系統會設定發票為唯讀，並從每個發票明細的每個發票明細詳細資料建立已開單銷售實際值。 如果發票明細詳細資料參照未開單銷售，則系統還會沖回未開單銷售實際值。 (任何從時間或費用項目建立的發票明細詳細資料都會參照未開單銷售實際值)。總帳整合系統可以使用此沖回來反轉專案進行中工作 (WIP) 以作會計用途。
 

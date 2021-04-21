@@ -3,19 +3,19 @@ title: 預付現金
 description: 本主題提供有關預付現金的資訊。
 author: suvaidya
 manager: AnnBe
-ms.date: 02/01/2021
+ms.date: 03/25/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6da50ac5611fcbd54aef8d8591ee112200468177
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5ac8956720deac9e9c9191cefb870a7fbbeedcca
+ms.sourcegitcommit: 9ebf7dd501898053bfa824f732adabf3f273613b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276698"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5715550"
 ---
 # <a name="cash-advance"></a>預付現金
 
@@ -60,7 +60,22 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 當您為已收到的預付現金建立並送出費用報表時，系統會自動根據該預付金額調整費用。 如果您的預付現金大於支出的金額，您必須使用 **退還現金** 費用類別將餘額歸還給公司。 如果公司支付的預付現金小於您支出的金額，則公司必須將差額付還給您。 
 
-### <a name="example"></a>範例
+### <a name="select-cash-advances-that-apply-to-your-expenses"></a>選取套用至您的費用的預付現金
+送出費用報表之前，您可以選取在報表上與費用交易一致的預付現金。 若要使用此功能，則必須從 **功能管理** 工作區啟用下列兩項功能：
+
+  - 重新設計的費用報表
+  - 將預付現金對應至費用明細的功能
+ 
+ 啟用這些功能時：
+ 
+  - 您可以為每項費用明細新增一筆或多筆預付現金。
+  - 儲存費用報表時，可即時看到預付現金的可用餘額。 這可讓您同時處理費用交易和返還現金交易。
+  - 您可以為一筆費用交易選取多筆預付現金。
+  - 使用查詢可取得預付現金對帳資料。 
+ 
+如果您不使用這些功能，則功能仍將保持不變，而現有預付現金會自動在送出費用後扣減。
+
+### <a name="example"></a>範例 
 您打算從西雅圖出差到紐約市參加會議。 您根據會議門票、航班、飯店、餐點和計程車資的估計成本，建立 3000.00 美元的預付現金要求。 如果您的經理不核准此要求，您將不會獲得支付款。 經理核准之後，要求的 3000.00 美元預付現金會支付到您的銀行帳戶中。 您接著參加會議。 完成差旅後，您發現總支出只有 2790.00 美元。 選取 **付款方式** 欄位中的 **現金**，然後送出金額為 2790.00 美元的費用。 您提交的費用金額會自動對應借給您的 3000.00 美元預付金額進行調整。 現在欠付 210.00 美元 (3000.00 - 2790.00) 的差額，您可使用 **返還現金** 費用類別來歸還給公司。
 
 

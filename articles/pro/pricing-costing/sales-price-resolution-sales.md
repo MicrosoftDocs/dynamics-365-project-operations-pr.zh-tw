@@ -1,21 +1,21 @@
 ---
-title: 解析估計值及實際值的銷售價 - 精簡
-description: 本主題提供有關在估計值及實際值上解析銷售價的資訊。
+title: 解析專案估計值及實際值的銷售價
+description: 本主題提供有關在專案估計值和實際值上解析銷售價的資訊。
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25620704570fa702e1e5e09c83005be50f98f20a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3bf4686b414300370e6b364834b33edad98b7f39
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274493"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877346"
 ---
-# <a name="resolve-sales-prices-for-estimates-and-actuals---lite"></a>解析估計值及實際值的銷售價 - 精簡
+# <a name="resolve-sales-prices-for-project-estimates-and-actuals"></a>解析專案估計值及實際值的銷售價
 
 _**適用於：** 精簡部署 - 交易至開立預估發票_
 
@@ -55,5 +55,14 @@ _**適用於：** 精簡部署 - 交易至開立預估發票_
 
 4. 如果系統無法找到相符的 **類別** 和 **單位** 欄位值，則銷售費率預設為零 (0)。
 
+## <a name="resolving-sales-rates-on-actual-and-estimate-lines-for-material"></a>解析材料實際及估計明細上的銷售費率
+
+在 Project Operations 中，材料的估計明細用於表示材料的報價明細與合約服務內容詳細資料以及專案中的材料估計明細。
+
+解析銷售的價目表之後，系統會完成下列步驟以設定預設單位銷售價。
+
+1. 系統會使用材料估計明細中的 **產品** 與 **單位** 欄位組合，來比對所解析價目表中的價目表項目明細。
+2. 如果系統找到的價目表項目明細有 **產品** 和 **單位** 欄位組合的銷售費率，且定價方式為 **貨幣金額**，就會使用價目表明細所指定的銷售價。
+3. 如果 **產品** 與 **單位** 欄位值不是相符項目，則銷售費率預設為零。
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

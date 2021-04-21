@@ -1,6 +1,6 @@
 ---
-title: 專案型報價明細概觀
-description: 本主題提供有關將專案型報價明細用於專案工作的資訊。
+title: 專案報價明細概觀
+description: 本主題提供有關使用專案報價明細進行專案工作的資訊。
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e61a9fbf357123884397b930662d11f22bfdeaa0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: fa48a90c275eae1b0c0dbce685ae718dd9674c88
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277778"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858013"
 ---
-# <a name="project-based-quote-lines-overview"></a>專案型報價明細概觀
+# <a name="project-quote-lines-overview"></a>專案報價明細概觀
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 

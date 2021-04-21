@@ -1,27 +1,27 @@
 ---
-title: 管理專案報價上的專案價目表 - 精簡
-description: 本主題提供有關在報價上使用專案價目表的資訊。 (Sales)
+title: 管理專案報價上的專案價目表
+description: 本主題提供有關在報價上使用專案價目表的資訊。
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 912d2fad33ac02c3ba980da7eeb88eef5c331230
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273008"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858598"
 ---
-# <a name="manage-project-price-lists-on-project-quotes---lite"></a>管理專案報價上的專案價目表 - 精簡
+# <a name="manage-project-price-lists-on-project-quotes"></a>管理專案報價上的專案價目表 
 
 _**適用於：** 精簡部署 - 交易至開立預估發票_
 
 專案報價是為了支援多個有效日期銷售價目表而設計。 在 Dynamics 365 Project Operations 中，加入了新的名為 **專案價目表** 的相關實體。 此實體與專案報價之間有 1 對多的關聯。
 
-專案價目表會在專案上用來設定時間和費用交易的價格。 當報價有一個或多個專案價目表時，這些價目表會在透過報價明細關聯至報價的專案上用來設定時間和費用估計值及實際值的價格。
+專案價目表可用於訂定專案中時間、材料及費用交易的價格。 當報價有一份或多份專案價目表時，這些價目表會在透過報價明細與報價產生關聯的專案上，用於訂定時間、材料、費用估計值及實際值的價格。
 
 專案報價上沒有專案價目表時，您會收到警告訊息。 訊息表示因為沒有專案價目表，無法設定估計和實際的專案工作與費用的價格。 而是有價格為零 (0) 的銷售值。
 

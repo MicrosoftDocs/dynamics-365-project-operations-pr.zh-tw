@@ -3,7 +3,7 @@ title: 顛覆想像的費用報表
 description: 本主題說明費用報表項目經過重新設計而顛覆想像的體驗。
 author: suvaidya
 manager: AnnBe
-ms.date: 03/01/2021
+ms.date: 03/26/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 79e6a407689813f8c87fdffba0cda84df10d3b83
+ms.sourcegitcommit: 46726e5c8c994735c1e570e08d6ed8f9c9341319
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499706"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5717685"
 ---
 # <a name="expense-reports-reimagined"></a>顛覆想像的費用報表
 
@@ -41,11 +41,7 @@ ms.locfileid: "5499706"
 - 不會移除費用報表 (現有頁面) 或費用報表欄位的任何現有功能表項目。
 - 工作流程和任何核准仍會帶您進入現有的費用報表頁面。
 
-## <a name="getting-started-video-for-new-users"></a>新使用者適用的開始使用影片
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-[Dynamics 365 for Finance and Operations 中的費用體驗](https://youtu.be/Ocy-MsTvEE0)影片 (如上所示) 已加入 YouTube 上提供的 [Finance and Operations 播放清單](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW)中。
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IQFM]
 
 ## <a name="new-features"></a>新功能
 

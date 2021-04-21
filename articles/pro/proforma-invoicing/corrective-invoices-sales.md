@@ -1,21 +1,21 @@
 ---
-title: 更正過的發票 - 精簡
-description: 本主題提供有關 Project Operations 中已更正發票的資訊
+title: 專案更正發票
+description: 本主題提供有關如何在 Project Operations 中建立和確認更正發票的資訊。
 author: rumant
 manager: Annbe
-ms.date: 10/15/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: eb949ff3a53bcba19d44e1c3d6fe08a6b368108d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ae6d881e4e68b9f467478afe9735fc3186e6b0a8
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274223"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866581"
 ---
-# <a name="corrected-invoices---lite"></a>更正過的發票 - 精簡
+# <a name="corrective-project-invoices"></a>專案更正發票
 
 _**適用於：** 精簡部署 - 交易至開立預估發票_
 
@@ -37,9 +37,9 @@ _**適用於：** 精簡部署 - 交易至開立預估發票_
 > [!IMPORTANT]
 > 對其他已開發行票的收費做更正的發票明細詳細資料，其 **更正** 欄位會設定為 **是**。 已更正發票明細詳細資料的發票具有名為 **有更正** 的欄位，此欄位也會設定為 **是**。
 
-## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>在確認更正發票時所建立的實際值：
+## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a>確認更正發票時所建立的實際值
 
-以下是應用程式在確認前根據已對草稿更正發票執行之作業進行更正確認時所建立的實際值。
+下表列出在確認更正發票時所建立的實際值。
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
@@ -214,6 +214,51 @@ _**適用於：** 精簡部署 - 交易至開立預估發票_
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
+開立先前已開發票材料交易的全額貸記發票。
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+材料原始發票明細詳細資料上數量和金額的已開單銷售沖銷。
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+材料原始發票明細詳細資料上數量和金額的新增未開單銷售實際值。
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+開立物料交易的部分貸記發票。
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+材料原始發票明細詳細資料上已開發票數量及金額的已開單銷售沖銷。
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+對已編輯發票明細詳細資料、該項沖銷和等額已開單銷售實際值上數量和金額應收費的新增未開單銷售實際值。
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+應按照扣減發票明細詳細資料上已更正數字後剩餘數量及金額收費的新增未開單銷售實際值。
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
 對先前已開發票的服務費交易開立全額貸記發票。
                 </p>
             </td>
@@ -260,7 +305,7 @@ _**適用於：** 精簡部署 - 交易至開立預估發票_
 原始里程碑發票明細詳細資料上金額的已開單銷售沖銷。
                 </p>
                 <p>
-專案合約服務內容的里程碑發票或帳單狀態已更新為 **已準備好開立發票**。
+里程碑的發票狀態已從<b>客戶發票已過帳</b>更新為<b>已準備好開立發票</b>。
                 </p>
             </td>
         </tr>
