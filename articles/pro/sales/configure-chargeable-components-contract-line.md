@@ -1,5 +1,5 @@
 ---
-title: 設定專案型合約服務內容的應收費元件 - 精簡
+title: 設定專案型合約服務內容的應收費元件
 description: 本主題提供有關如何在 Project Operations 中新增應收費元件至合約服務內容的資訊。
 author: rumant
 manager: Annbe
@@ -8,77 +8,717 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf3f2a28fc992d6444b35d6ffa0c3f6cadcf16ea
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ddada2cb412ba7370fb0a750325a84772937d8d0
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273908"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858463"
 ---
-# <a name="configure-chargeable-components-of-a-project-based-contract-line---lite"></a><span data-ttu-id="dbcbf-103">設定專案型合約服務內容的應收費元件 - 精簡</span><span class="sxs-lookup"><span data-stu-id="dbcbf-103">Configure chargeable components of a project-based contract line - lite</span></span>
+# <a name="configure-chargeable-components-of-a-project-based-contract-line"></a><span data-ttu-id="1ef8f-103">設定專案型合約服務內容的應收費元件</span><span class="sxs-lookup"><span data-stu-id="1ef8f-103">Configure chargeable components of a project-based contract line</span></span>
 
-<span data-ttu-id="dbcbf-104">_**適用於：** 精簡部署 - 交易至開立預估發票_</span><span class="sxs-lookup"><span data-stu-id="dbcbf-104">_**Applies To:** Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="1ef8f-104">_**適用於：** 精簡部署 - 交易至開立預估發票、資源/非庫存型案例適用的 Project Operations_</span><span class="sxs-lookup"><span data-stu-id="1ef8f-104">_**Applies To:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios_</span></span>
 
-<span data-ttu-id="dbcbf-105">專案型合約服務內容有 *包含* 元件和 *應收費* 元件。</span><span class="sxs-lookup"><span data-stu-id="dbcbf-105">A project-based contract line has *included* components and *chargeable* components.</span></span>
+<span data-ttu-id="1ef8f-105">專案型合約服務內容有 *包含* 元件和 *應收費* 元件。</span><span class="sxs-lookup"><span data-stu-id="1ef8f-105">A project-based contract line has *included* components and *chargeable* components.</span></span>
 
-<span data-ttu-id="dbcbf-106">內含元件是受限於下列各項的元件：</span><span class="sxs-lookup"><span data-stu-id="dbcbf-106">Included components are components that are subject to:</span></span>
+<span data-ttu-id="1ef8f-106">內含元件是受限於下列各項的元件：</span><span class="sxs-lookup"><span data-stu-id="1ef8f-106">Included components are components that are subject to:</span></span>
 
-  - <span data-ttu-id="dbcbf-107">帳務方式和客戶分割</span><span class="sxs-lookup"><span data-stu-id="dbcbf-107">Billing method and customer splits</span></span>
-  - <span data-ttu-id="dbcbf-108">不得超過限制</span><span class="sxs-lookup"><span data-stu-id="dbcbf-108">Not-to-exceed limits</span></span> 
-  - <span data-ttu-id="dbcbf-109">專案型合約服務內容上定義的發票週期設定</span><span class="sxs-lookup"><span data-stu-id="dbcbf-109">Invoice frequency settings defined on the project-based contract line</span></span>
+  - <span data-ttu-id="1ef8f-107">帳務方式和客戶分割</span><span class="sxs-lookup"><span data-stu-id="1ef8f-107">Billing method and customer splits</span></span>
+  - <span data-ttu-id="1ef8f-108">不得超過限制</span><span class="sxs-lookup"><span data-stu-id="1ef8f-108">Not-to-exceed limits</span></span> 
+  - <span data-ttu-id="1ef8f-109">專案型合約服務內容上定義的發票週期設定</span><span class="sxs-lookup"><span data-stu-id="1ef8f-109">Invoice frequency settings defined on the project-based contract line</span></span>
 
-<span data-ttu-id="dbcbf-110">您可以使用 **帳單類型** 欄位將一部分內含元件標示為應收費。</span><span class="sxs-lookup"><span data-stu-id="dbcbf-110">A subset of the included components can be marked as chargeable using the **Billing Type** field.</span></span> <span data-ttu-id="dbcbf-111">**帳單類型** 欄位是選項組，允許在合約服務內容的情境下使用下列值：</span><span class="sxs-lookup"><span data-stu-id="dbcbf-111">The **Billing Type** field is an option-set that allows the following values in the context of a contract line:</span></span>
+<span data-ttu-id="1ef8f-110">您可以使用 **帳單類型** 欄位將一部分內含元件標示為應收費。</span><span class="sxs-lookup"><span data-stu-id="1ef8f-110">A subset of the included components can be marked as chargeable using the **Billing Type** field.</span></span> <span data-ttu-id="1ef8f-111">**帳單類型** 欄位是選項組，允許在合約服務內容的情境下使用下列值：</span><span class="sxs-lookup"><span data-stu-id="1ef8f-111">The **Billing Type** field is an option-set that allows the following values in the context of a contract line:</span></span>
 
-  - <span data-ttu-id="dbcbf-112">應收費</span><span class="sxs-lookup"><span data-stu-id="dbcbf-112">Chargeable</span></span>
-  - <span data-ttu-id="dbcbf-113">不應收費</span><span class="sxs-lookup"><span data-stu-id="dbcbf-113">Non-chargeable</span></span>
+  - <span data-ttu-id="1ef8f-112">應收費</span><span class="sxs-lookup"><span data-stu-id="1ef8f-112">Chargeable</span></span>
+  - <span data-ttu-id="1ef8f-113">不應收費</span><span class="sxs-lookup"><span data-stu-id="1ef8f-113">Non-chargeable</span></span>
 
-<span data-ttu-id="dbcbf-114">您可以在工作、角色和交易類別上定義應收費元件。</span><span class="sxs-lookup"><span data-stu-id="dbcbf-114">Chargeable components can be defined on tasks, roles, and transaction categories.</span></span>
+<span data-ttu-id="1ef8f-114">您可以在工作、角色和交易類別上定義應收費元件。</span><span class="sxs-lookup"><span data-stu-id="1ef8f-114">Chargeable components can be defined on tasks, roles, and transaction categories.</span></span>
 
-<span data-ttu-id="dbcbf-115">可收費率是在專案合約服務內容的工作上所定義，並套用至服務內容所包含的所有交易分類。</span><span class="sxs-lookup"><span data-stu-id="dbcbf-115">Chargeability is defined on tasks for a project contract line and applies to all transaction classes included on the line.</span></span> <span data-ttu-id="dbcbf-116">如果合約服務內容上的 **包含工作** 欄位為空白或已設定為 **整個專案**，則沒有提供 **應收費工作** 索引標籤。</span><span class="sxs-lookup"><span data-stu-id="dbcbf-116">If the **Include Tasks** field on a contract line is blank or set to **Entire project**, the **Chargeable tasks** tab will not be available.</span></span>
+<span data-ttu-id="1ef8f-115">可收費率是在專案合約服務內容的工作上所定義，並套用至服務內容所包含的所有交易分類。</span><span class="sxs-lookup"><span data-stu-id="1ef8f-115">Chargeability is defined on tasks for a project contract line and applies to all transaction classes included on the line.</span></span> <span data-ttu-id="1ef8f-116">如果合約服務內容上的 **包含工作** 欄位為空白或已設定為 **整個專案**，則沒有提供 **應收費工作** 索引標籤。</span><span class="sxs-lookup"><span data-stu-id="1ef8f-116">If the **Include Tasks** field on a contract line is blank or set to **Entire project**, the **Chargeable tasks** tab will not be available.</span></span>
 
-<span data-ttu-id="dbcbf-117">專案合約服務內容的角色上所定義的可收費率只能套用至 **時間** 交易分類。</span><span class="sxs-lookup"><span data-stu-id="dbcbf-117">Chargeability defined on roles for a project contract line only applies to the **Time** transaction class.</span></span> <span data-ttu-id="dbcbf-118">如果合約服務內容上的 **包含時間** 欄位為空白或已設定為 **否**，則沒有提供 **應收費角色** 索引標籤。</span><span class="sxs-lookup"><span data-stu-id="dbcbf-118">If the **Include Time** field on a contract line is set to **No**, the **Chargeable roles** tab will not be available.</span></span>
+<span data-ttu-id="1ef8f-117">專案合約服務內容的角色上所定義的可收費率只能套用至 **時間** 交易分類。</span><span class="sxs-lookup"><span data-stu-id="1ef8f-117">Chargeability defined on roles for a project contract line only applies to the **Time** transaction class.</span></span> <span data-ttu-id="1ef8f-118">如果合約服務內容上的 **包含時間** 欄位為空白或已設定為 **否**，則沒有提供 **應收費角色** 索引標籤。</span><span class="sxs-lookup"><span data-stu-id="1ef8f-118">If the **Include Time** field on a contract line is set to **No**, the **Chargeable roles** tab will not be available.</span></span>
 
-<span data-ttu-id="dbcbf-119">專案合約服務內容的交易類別上所定義的可收費率只能套用至 **費用** 交易分類。</span><span class="sxs-lookup"><span data-stu-id="dbcbf-119">Chargeability defined on transaction categories for a project contract line only applies to the **Expense** transaction class.</span></span> <span data-ttu-id="dbcbf-120">如果 **包含費用** 欄位已設定為 **否**，則沒有提供 **應收費類別** 索引標籤。</span><span class="sxs-lookup"><span data-stu-id="dbcbf-120">If the **Include Expenses** field is set to **No**, the **Chargeable Categories** tab will not be available.</span></span>
+<span data-ttu-id="1ef8f-119">專案合約服務內容的交易類別上所定義的可收費率只能套用至 **費用** 交易分類。</span><span class="sxs-lookup"><span data-stu-id="1ef8f-119">Chargeability defined on transaction categories for a project contract line only applies to the **Expense** transaction class.</span></span> <span data-ttu-id="1ef8f-120">如果 **包含費用** 欄位已設定為 **否**，則沒有提供 **應收費類別** 索引標籤。</span><span class="sxs-lookup"><span data-stu-id="1ef8f-120">If the **Include Expenses** field is set to **No**, the **Chargeable Categories** tab will not be available.</span></span>
 
-### <a name="update-a-project-task-as-chargeable-or-non-chargeable"></a><span data-ttu-id="dbcbf-121">將專案工作更新為應收費或不應收費</span><span class="sxs-lookup"><span data-stu-id="dbcbf-121">Update a project task as chargeable or non-chargeable</span></span>
+### <a name="update-a-project-task-as-chargeable-or-non-chargeable"></a><span data-ttu-id="1ef8f-121">將專案工作更新為應收費或不應收費</span><span class="sxs-lookup"><span data-stu-id="1ef8f-121">Update a project task as chargeable or non-chargeable</span></span>
 
-<span data-ttu-id="dbcbf-122">專案工作在能使下列設定變成可行的特定合約服務內容上可以是應收費，也可以是不應收費：</span><span class="sxs-lookup"><span data-stu-id="dbcbf-122">A project task can be chargeable or non-chargeable on a specific contract line which makes the following setup possible:</span></span>
+<span data-ttu-id="1ef8f-122">專案工作在能使下列設定變成可行的特定合約服務內容上可以是應收費，也可以是不應收費：</span><span class="sxs-lookup"><span data-stu-id="1ef8f-122">A project task can be chargeable or non-chargeable on a specific contract line, which makes the following setup possible:</span></span>
 
-<span data-ttu-id="dbcbf-123">如果專案型合約服務內容包含 **時間**，且特定工作 **T1** 與其建立為應收費關聯。</span><span class="sxs-lookup"><span data-stu-id="dbcbf-123">If a project-based contract line includes **Time** and a certain task, **T1** is associated to it as chargeable.</span></span> <span data-ttu-id="dbcbf-124">如果有第二個合約服務內容，其中包含 **費用** 時，您可以將合約服務內容的 T1 工作關聯為不應收費。</span><span class="sxs-lookup"><span data-stu-id="dbcbf-124">If there is a second contract line that includes **Expense**, you can associate the T1 task on the contract line as non-chargeable.</span></span> <span data-ttu-id="dbcbf-125">結果是，工作中所記錄的所有時間都是應收費的，而所有費用都是不應收費的。</span><span class="sxs-lookup"><span data-stu-id="dbcbf-125">The result is that all of the time recorded on the task is chargeable and all expenses are non-chargeable.</span></span>
+<span data-ttu-id="1ef8f-123">如果專案型合約服務內容包含 **時間**，且特定工作 **T1** 與其建立為應收費關聯。</span><span class="sxs-lookup"><span data-stu-id="1ef8f-123">If a project-based contract line includes **Time** and a certain task, **T1** is associated to it as chargeable.</span></span> <span data-ttu-id="1ef8f-124">如果有第二個合約服務內容，其中包含 **費用** 時，您可以將合約服務內容的 T1 工作關聯為不應收費。</span><span class="sxs-lookup"><span data-stu-id="1ef8f-124">If there is a second contract line that includes **Expense**, you can associate the T1 task on the contract line as non-chargeable.</span></span> <span data-ttu-id="1ef8f-125">結果是，工作中所記錄的所有時間都是應收費的，而所有費用都是不應收費的。</span><span class="sxs-lookup"><span data-stu-id="1ef8f-125">The result is that all of the time recorded on the task is chargeable and all expenses are non-chargeable.</span></span>
 
-<span data-ttu-id="dbcbf-126">工作的帳單類型可以在合約服務內容的 **應收費工作** 索引標籤上，透過更新合約服務內容工作子格上的 **帳單類型** 欄位來進行設定。</span><span class="sxs-lookup"><span data-stu-id="dbcbf-126">A task's billing type can be configured on the **Chargeable Tasks** tab of the contract line by updating the **Billing Type** field on the contract line tasks subgrid.</span></span> <span data-ttu-id="dbcbf-127">或者，也可以在顯示與工作相關之合約服務內容的專案工作帳單設定子格中更新 **帳單類型** 欄位。</span><span class="sxs-lookup"><span data-stu-id="dbcbf-127">Alternatively, you can update the **Billing Type** field on the subgrid of the task Billing setup of a project that shows the contract lines associated to a task.</span></span>
+<span data-ttu-id="1ef8f-126">工作的帳單類型可以在合約服務內容的 **應收費工作** 索引標籤上，透過更新合約服務內容工作子格上的 **帳單類型** 欄位來進行設定。</span><span class="sxs-lookup"><span data-stu-id="1ef8f-126">A task's billing type can be configured on the **Chargeable Tasks** tab of the contract line by updating the **Billing Type** field on the contract line tasks subgrid.</span></span> <span data-ttu-id="1ef8f-127">或者，也可以在顯示與工作相關之合約服務內容的專案工作帳單設定子格中更新 **帳單類型** 欄位。</span><span class="sxs-lookup"><span data-stu-id="1ef8f-127">Alternatively, you can update the **Billing Type** field on the subgrid of the task Billing setup of a project that shows the contract lines associated to a task.</span></span>
 
-### <a name="update-a-role-as-chargeable-or-non-chargeable"></a><span data-ttu-id="dbcbf-128">將角色更新為應收費或不應收費</span><span class="sxs-lookup"><span data-stu-id="dbcbf-128">Update a role as chargeable or non-chargeable</span></span>
+### <a name="update-a-role-as-chargeable-or-non-chargeable"></a><span data-ttu-id="1ef8f-128">將角色更新為應收費或不應收費</span><span class="sxs-lookup"><span data-stu-id="1ef8f-128">Update a role as chargeable or non-chargeable</span></span>
 
-<span data-ttu-id="dbcbf-129">角色在特定合約服務內容上，可以是應收費，也可以是不應收費。</span><span class="sxs-lookup"><span data-stu-id="dbcbf-129">A role can be chargeable or non-chargeable on a specific contract line.</span></span>
+<span data-ttu-id="1ef8f-129">角色在特定合約服務內容上，可以是應收費，也可以是不應收費。</span><span class="sxs-lookup"><span data-stu-id="1ef8f-129">A role can be chargeable or non-chargeable on a specific contract line.</span></span>
 
-<span data-ttu-id="dbcbf-130">您可以在合約服務內容的 **應收費角色** 索引標籤上設定角色的帳單類型。</span><span class="sxs-lookup"><span data-stu-id="dbcbf-130">A role's billing type can be configured on the **Chargeable Roles** tab of a contract line.</span></span> <span data-ttu-id="dbcbf-131">若要這樣，請更新 **應收費角色** 子格上的 **帳單類型** 欄位。</span><span class="sxs-lookup"><span data-stu-id="dbcbf-131">To do this, update the **Billing Type** field on the **Chargeable Roles** subgrid.</span></span>
+<span data-ttu-id="1ef8f-130">您可以在合約服務內容的 **應收費角色** 索引標籤上設定角色的帳單類型。</span><span class="sxs-lookup"><span data-stu-id="1ef8f-130">A role's billing type can be configured on the **Chargeable Roles** tab of a contract line.</span></span> <span data-ttu-id="1ef8f-131">若要這樣，請更新 **應收費角色** 子格上的 **帳單類型** 欄位。</span><span class="sxs-lookup"><span data-stu-id="1ef8f-131">To do this, update the **Billing Type** field on the **Chargeable Roles** subgrid.</span></span>
 
-### <a name="update-a-transaction-category-as-chargeable-or-non-chargeable"></a><span data-ttu-id="dbcbf-132">將交易類別更新為應收費或不應收費</span><span class="sxs-lookup"><span data-stu-id="dbcbf-132">Update a transaction category as chargeable or non-chargeable</span></span>
+### <a name="update-a-transaction-category-as-chargeable-or-non-chargeable"></a><span data-ttu-id="1ef8f-132">將交易類別更新為應收費或不應收費</span><span class="sxs-lookup"><span data-stu-id="1ef8f-132">Update a transaction category as chargeable or non-chargeable</span></span>
 
-<span data-ttu-id="dbcbf-133">交易類別在特定合約服務內容上，可以是應收費，也可以是不應收費。</span><span class="sxs-lookup"><span data-stu-id="dbcbf-133">A transaction category can be chargeable or non-chargeable on a specific contract line.</span></span>
+<span data-ttu-id="1ef8f-133">交易類別在特定合約服務內容上，可以是應收費，也可以是不應收費。</span><span class="sxs-lookup"><span data-stu-id="1ef8f-133">A transaction category can be chargeable or non-chargeable on a specific contract line.</span></span>
 
-<span data-ttu-id="dbcbf-134">您可以在專案型合約服務內容的 **應收費類別** 索引標籤上設定交易的帳單類型。</span><span class="sxs-lookup"><span data-stu-id="dbcbf-134">A transaction's billing type can be configured on the **Chargeable Categories** tab of a project-based contract line.</span></span> <span data-ttu-id="dbcbf-135">若要這樣，請更新 **應收費類別** 子格上的 **帳單類型** 欄位。</span><span class="sxs-lookup"><span data-stu-id="dbcbf-135">To do this, update the **Billing Type** field on the **Chargeable Categories** subgrid.</span></span>
+<span data-ttu-id="1ef8f-134">您可以在專案型合約服務內容的 **應收費類別** 索引標籤上設定交易的帳單類型。</span><span class="sxs-lookup"><span data-stu-id="1ef8f-134">A transaction's billing type can be configured on the **Chargeable Categories** tab of a project-based contract line.</span></span> <span data-ttu-id="1ef8f-135">若要這樣，請更新 **應收費類別** 子格上的 **帳單類型** 欄位。</span><span class="sxs-lookup"><span data-stu-id="1ef8f-135">To do this, update the **Billing Type** field on the **Chargeable Categories** subgrid.</span></span>
 
-### <a name="resolve-chargeability"></a><span data-ttu-id="dbcbf-136">解析可收費率</span><span class="sxs-lookup"><span data-stu-id="dbcbf-136">Resolve chargeability</span></span>
+### <a name="resolve-chargeability"></a><span data-ttu-id="1ef8f-136">解析可收費率</span><span class="sxs-lookup"><span data-stu-id="1ef8f-136">Resolve chargeability</span></span>
 
-<span data-ttu-id="dbcbf-137">針對時間所建立的估計值或實際值，只有在 **時間** 已包含在合約服務內容中時，以及在 **工作** 和 **角色** 已在合約服務內容上設定為應收費時，才會視為應收費。</span><span class="sxs-lookup"><span data-stu-id="dbcbf-137">An estimate or actual created for time will only be considered chargeable if **Time** is included on the contract line, and if **Task** and **Role** are configured as chargeable on the contract line.</span></span>
+<span data-ttu-id="1ef8f-137">只有在下列情況下，才能將針對時間建立的估計值或實際值視為應收費：</span><span class="sxs-lookup"><span data-stu-id="1ef8f-137">An estimate or actual created for time is only considered chargeable if:</span></span>
 
-<span data-ttu-id="dbcbf-138">針對費用所建立的估計值或實際值，只有在 **費用** 已包含在合約服務內容中時，以及在 **工作** 和 **交易** 類別已在合約服務內容上設定為應收費時，才會視為應收費。</span><span class="sxs-lookup"><span data-stu-id="dbcbf-138">An estimate or actual created for expense is only considered chargeable if **Expense** is included on the contract line and if the **Task** and **Transaction** categories are configured as chargeable on the contract line.</span></span>
+   - <span data-ttu-id="1ef8f-138">**時間** 已包含在合約服務內容中。</span><span class="sxs-lookup"><span data-stu-id="1ef8f-138">**Time** is included on the contract line.</span></span>
+   - <span data-ttu-id="1ef8f-139">**角色** 已在合約服務內容中設定為應收費。</span><span class="sxs-lookup"><span data-stu-id="1ef8f-139">**Role** is configured as chargeable on the contract line.</span></span>
+   - <span data-ttu-id="1ef8f-140">**包含的工作** 已在合約服務內容上設定為 **選取的工作**。</span><span class="sxs-lookup"><span data-stu-id="1ef8f-140">**Included Tasks** is set to **Selected tasks** on the contract line.</span></span>
+ 
+ <span data-ttu-id="1ef8f-141">如果這三種情況成立，工作就會設定為應收費。</span><span class="sxs-lookup"><span data-stu-id="1ef8f-141">If these three things are true, the task is configured as chargeable.</span></span> 
+
+<span data-ttu-id="1ef8f-142">只有在下列情況下，才能將針對費用建立的估計值或實際值視為應收費：</span><span class="sxs-lookup"><span data-stu-id="1ef8f-142">An estimate or actual created for expense is only considered chargeable if:</span></span>
+
+   - <span data-ttu-id="1ef8f-143">**費用** 已包含在合約服務內容中</span><span class="sxs-lookup"><span data-stu-id="1ef8f-143">**Expense** is included on the contract line</span></span>
+   - <span data-ttu-id="1ef8f-144">**交易類別** 已在合約服務內容中設定為應收費</span><span class="sxs-lookup"><span data-stu-id="1ef8f-144">**Transaction category** is configured as chargeable on the contract line</span></span>
+   - <span data-ttu-id="1ef8f-145">**包含的工作** 已在合約服務內容上設定為 **選取的工作**</span><span class="sxs-lookup"><span data-stu-id="1ef8f-145">**Included Tasks** is set to **Selected task** on the contract line</span></span>
+  
+ <span data-ttu-id="1ef8f-146">如果這三種情況成立，**工作** 就會設定為應收費。</span><span class="sxs-lookup"><span data-stu-id="1ef8f-146">If these three things are true, the **Task** is configured as chargeable.</span></span> 
+
+<span data-ttu-id="1ef8f-147">只有在下列情況下，才能將針對材料建立的估計值或實際值視為應收費：</span><span class="sxs-lookup"><span data-stu-id="1ef8f-147">An estimate or actual created for material is only considered chargeable if:</span></span>
+
+   - <span data-ttu-id="1ef8f-148">**材料** 已包含在合約服務內容中</span><span class="sxs-lookup"><span data-stu-id="1ef8f-148">**Materials** is included on the contract line</span></span>
+   - <span data-ttu-id="1ef8f-149">**包含的工作** 已在合約服務內容上設定為 **選取的工作**</span><span class="sxs-lookup"><span data-stu-id="1ef8f-149">**Included Tasks** is set to **Selected tasks** on the contract line</span></span>
+
+<span data-ttu-id="1ef8f-150">如果這兩種情況成立，**工作** 就會設定為應收費。</span><span class="sxs-lookup"><span data-stu-id="1ef8f-150">If these two things are true, the **Task** is configured as chargeable.</span></span> 
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="70" valign="top">
+                <p><span data-ttu-id="1ef8f-151">
+                    <strong>包含時間</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-151">
+                    <strong>Includes Time</strong>
+                </span></span></p>
+            </td>
+            <td width="78" valign="top">
+                <p><span data-ttu-id="1ef8f-152">
+                    <strong>包含費用</strong>
+                    <strong></strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-152">
+                    <strong>Includes Expense</strong>
+                    <strong></strong>
+                </span></span></p>
+            </td>
+            <td width="63" valign="top">
+                <p><span data-ttu-id="1ef8f-153">
+                    <strong>包含材料</strong>
+                    <strong></strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-153">
+                    <strong>Includes Materials</strong>
+                    <strong></strong>
+                </span></span></p>
+            </td>
+            <td width="75" valign="top">
+                <p><span data-ttu-id="1ef8f-154">
+                    <strong>包含的工作</strong>
+                    <strong></strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-154">
+                    <strong>Included Tasks</strong>
+                    <strong></strong>
+                </span></span></p>
+            </td>
+            <td width="65" valign="top">
+                <p><span data-ttu-id="1ef8f-155">
+                    <strong>角色</strong>
+                    <strong></strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-155">
+                    <strong>Role</strong>
+                    <strong></strong>
+                </span></span></p>
+            </td>
+            <td width="70" valign="top">
+                <p><span data-ttu-id="1ef8f-156">
+                    <strong>類別</strong>
+                    <strong></strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-156">
+                    <strong>Category</strong>
+                    <strong></strong>
+                </span></span></p>
+            </td>
+            <td width="65" valign="top">
+                <p><span data-ttu-id="1ef8f-157">
+                    <strong>工作​​</strong>
+                    <strong></strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-157">
+                    <strong>Task</strong>
+                    <strong></strong>
+                </span></span></p>
+            </td>
+            <td width="350" valign="top">
+                <p><span data-ttu-id="1ef8f-158">
+                    <strong>可收費率影響</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-158">
+                    <strong>Chargeability impact</strong>
+                </span></span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-159">.是</span><span class="sxs-lookup"><span data-stu-id="1ef8f-159">Yes</span></span> </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-160">.是</span><span class="sxs-lookup"><span data-stu-id="1ef8f-160">Yes</span></span> </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-161">.是</span><span class="sxs-lookup"><span data-stu-id="1ef8f-161">Yes</span></span> </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-162">整個專案</span><span class="sxs-lookup"><span data-stu-id="1ef8f-162">Entire Project</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-163">應收費</span><span class="sxs-lookup"><span data-stu-id="1ef8f-163">Chargeable</span></span> </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-164">應收費</span><span class="sxs-lookup"><span data-stu-id="1ef8f-164">Chargeable</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-165">無法設定</span><span class="sxs-lookup"><span data-stu-id="1ef8f-165">Can't be set</span></span> </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-166">時間實際值的帳單：<strong>應收費</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-166">Billing on a time actual: <strong>Chargeable</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="1ef8f-167">費用實際值的帳單類型：<strong>應收費</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-167">Billing type on expense actual: <strong>Chargeable</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="1ef8f-168">材料實際值的帳單類型：<strong>應收費</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-168">Billing type on material actual: <strong>Chargeable</strong>
+                </span></span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-169">.是</span><span class="sxs-lookup"><span data-stu-id="1ef8f-169">Yes</span></span> </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-170">.是</span><span class="sxs-lookup"><span data-stu-id="1ef8f-170">Yes</span></span> </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-171">.是</span><span class="sxs-lookup"><span data-stu-id="1ef8f-171">Yes</span></span> </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-172">僅限選取的工作</span><span class="sxs-lookup"><span data-stu-id="1ef8f-172">Selected tasks only</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-173">應收費</span><span class="sxs-lookup"><span data-stu-id="1ef8f-173">Chargeable</span></span> </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-174">應收費</span><span class="sxs-lookup"><span data-stu-id="1ef8f-174">Chargeable</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-175">應收費</span><span class="sxs-lookup"><span data-stu-id="1ef8f-175">Chargeable</span></span> </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-176">時間實際值的帳單：<strong>應收費</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-176">Billing on a time actual: <strong>Chargeable</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="1ef8f-177">費用實際值的帳單類型：<strong>應收費</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-177">Billing type on expense actual: <strong>Chargeable</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="1ef8f-178">材料實際值的帳單類型：<strong>應收費</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-178">Billing type on material actual: <strong>Chargeable</strong>
+                </span></span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-179">.是</span><span class="sxs-lookup"><span data-stu-id="1ef8f-179">Yes</span></span> </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-180">.是</span><span class="sxs-lookup"><span data-stu-id="1ef8f-180">Yes</span></span> </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-181">.是</span><span class="sxs-lookup"><span data-stu-id="1ef8f-181">Yes</span></span> </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-182">僅限選取的工作</span><span class="sxs-lookup"><span data-stu-id="1ef8f-182">Selected tasks only</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p><span data-ttu-id="1ef8f-183">
+                    <strong>不應收費</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-183">
+                    <strong>Non - Chargeable</strong>
+                </span></span></p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-184">應收費</span><span class="sxs-lookup"><span data-stu-id="1ef8f-184">Chargeable</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-185">應收費</span><span class="sxs-lookup"><span data-stu-id="1ef8f-185">Chargeable</span></span> </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-186">時間實際值的帳單：<strong>不應收費</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-186">Billing on a time actual: <strong>Non-Chargeable</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="1ef8f-187">費用實際值的帳單類型：應收費</span><span class="sxs-lookup"><span data-stu-id="1ef8f-187">Billing type on expense actual: Chargeable</span></span> </p>
+                <p>
+<span data-ttu-id="1ef8f-188">材料實際值的帳單類型：應收費</span><span class="sxs-lookup"><span data-stu-id="1ef8f-188">Billing type on material actual: Chargeable</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-189">.是</span><span class="sxs-lookup"><span data-stu-id="1ef8f-189">Yes</span></span> </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-190">.是</span><span class="sxs-lookup"><span data-stu-id="1ef8f-190">Yes</span></span> </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-191">.是</span><span class="sxs-lookup"><span data-stu-id="1ef8f-191">Yes</span></span> </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-192">僅限選取的工作</span><span class="sxs-lookup"><span data-stu-id="1ef8f-192">Selected tasks only</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-193">應收費</span><span class="sxs-lookup"><span data-stu-id="1ef8f-193">Chargeable</span></span> </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-194">應收費</span><span class="sxs-lookup"><span data-stu-id="1ef8f-194">Chargeable</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p><span data-ttu-id="1ef8f-195">
+                    <strong>不應收費</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-195">
+                    <strong>Non-Chargeable</strong>
+                </span></span></p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-196">時間實際值的帳單：<strong>不應收費</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-196">Billing on a time actual: <strong>Non-Chargeable</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="1ef8f-197">費用實際值的帳單類型：<strong>不應收費</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-197">Billing type on expense actual: <strong>Non-Chargeable</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="1ef8f-198">材料實際值的帳單類型：<strong>不應收費</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-198">Billing type on material actual: <strong>Non-Chargeable</strong>
+                </span></span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-199">.是</span><span class="sxs-lookup"><span data-stu-id="1ef8f-199">Yes</span></span> </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-200">.是</span><span class="sxs-lookup"><span data-stu-id="1ef8f-200">Yes</span></span> </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-201">.是</span><span class="sxs-lookup"><span data-stu-id="1ef8f-201">Yes</span></span> </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-202">僅限選取的工作</span><span class="sxs-lookup"><span data-stu-id="1ef8f-202">Selected tasks only</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p><span data-ttu-id="1ef8f-203">
+                    <strong>不應收費</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-203">
+                    <strong>Non-Chargeable</strong>
+                </span></span></p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-204">應收費</span><span class="sxs-lookup"><span data-stu-id="1ef8f-204">Chargeable</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p><span data-ttu-id="1ef8f-205">
+                    <strong>不應收費</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-205">
+                    <strong>Non- Chargeable</strong>
+                </span></span></p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-206">時間實際值的帳單：<strong>不應收費</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-206">Billing on a time actual: <strong>Non-Chargeable</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="1ef8f-207">費用實際值的帳單類型：<strong>不應收費</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-207">Billing type on expense actual: <strong>Non-Chargeable</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="1ef8f-208">材料實際值的帳單類型：<strong>不應收費</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-208">Billing type on material actual: <strong> Non-Chargeable</strong>
+                </span></span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-209">.是</span><span class="sxs-lookup"><span data-stu-id="1ef8f-209">Yes</span></span> </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-210">.是</span><span class="sxs-lookup"><span data-stu-id="1ef8f-210">Yes</span></span> </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-211">.是</span><span class="sxs-lookup"><span data-stu-id="1ef8f-211">Yes</span></span> </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-212">僅限選取的工作</span><span class="sxs-lookup"><span data-stu-id="1ef8f-212">Selected tasks only</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p><span data-ttu-id="1ef8f-213">
+                    <strong>不應收費</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-213">
+                    <strong>Non-Chargeable</strong>
+                </span></span></p>
+            </td>
+            <td width="70" valign="top">
+                <p><span data-ttu-id="1ef8f-214">
+                    <strong>不應收費</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-214">
+                    <strong>Non-Chargeable</strong>
+                </span></span></p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-215">應收費</span><span class="sxs-lookup"><span data-stu-id="1ef8f-215">Chargeable</span></span> </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-216">時間實際值的帳單：<strong>不應收費</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-216">Billing on a time actual: <strong>Non-Chargeable</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="1ef8f-217">費用實際值的帳單類型：<strong>不應收費</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-217">Billing type on expense actual: <strong> Non-Chargeable</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="1ef8f-218">材料實際值的帳單類型：應收費</span><span class="sxs-lookup"><span data-stu-id="1ef8f-218">Billing type on material actual: Chargeable</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p><span data-ttu-id="1ef8f-219">
+                    <strong>無</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-219">
+                    <strong>No</strong>
+                </span></span></p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-220">.是</span><span class="sxs-lookup"><span data-stu-id="1ef8f-220">Yes</span></span> </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-221">.是</span><span class="sxs-lookup"><span data-stu-id="1ef8f-221">Yes</span></span> </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-222">整個專案</span><span class="sxs-lookup"><span data-stu-id="1ef8f-222">Entire Project</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-223">無法設定</span><span class="sxs-lookup"><span data-stu-id="1ef8f-223">Can't be set</span></span> </p>
+            </td>
+            <td width="70" valign="top">
+                <p><span data-ttu-id="1ef8f-224">
+                    <strong>應收費</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-224">
+                    <strong>Chargeable</strong>
+                </span></span></p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-225">無法設定</span><span class="sxs-lookup"><span data-stu-id="1ef8f-225">Can't be set</span></span> </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-226">時間實際值的帳單：<strong>無法使用</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-226">Billing on a time actual: <strong>Not available</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="1ef8f-227">費用實際值的帳單類型：應收費</span><span class="sxs-lookup"><span data-stu-id="1ef8f-227">Billing type on expense actual: Chargeable</span></span> </p>
+                <p>
+<span data-ttu-id="1ef8f-228">材料實際值的帳單類型：應收費</span><span class="sxs-lookup"><span data-stu-id="1ef8f-228">Billing type on material actual: Chargeable</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p><span data-ttu-id="1ef8f-229">
+                    <strong>無</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-229">
+                    <strong>No</strong>
+                </span></span></p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-230">.是</span><span class="sxs-lookup"><span data-stu-id="1ef8f-230">Yes</span></span> </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-231">.是</span><span class="sxs-lookup"><span data-stu-id="1ef8f-231">Yes</span></span> </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-232">整個專案</span><span class="sxs-lookup"><span data-stu-id="1ef8f-232">Entire Project</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-233">無法設定</span><span class="sxs-lookup"><span data-stu-id="1ef8f-233">Can't be set</span></span> </p>
+            </td>
+            <td width="70" valign="top">
+                <p><span data-ttu-id="1ef8f-234">
+                    <strong>不應收費</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-234">
+                    <strong>Non-Chargeable</strong>
+                </span></span></p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-235">無法設定</span><span class="sxs-lookup"><span data-stu-id="1ef8f-235">Can't be set</span></span> </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-236">時間實際值的帳單：<strong>無法使用</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-236">Billing on a time actual: <strong>Not available</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="1ef8f-237">費用實際值的帳單類型：<strong>不應收費</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-237">Billing type on expense actual: <strong> Non-chargeable</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="1ef8f-238">材料實際值的帳單類型：應收費</span><span class="sxs-lookup"><span data-stu-id="1ef8f-238">Billing type on material actual: Chargeable</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-239">.是</span><span class="sxs-lookup"><span data-stu-id="1ef8f-239">Yes</span></span> </p>
+            </td>
+            <td width="78" valign="top">
+                <p><span data-ttu-id="1ef8f-240">
+                    <strong>無</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-240">
+                    <strong>No</strong>
+                </span></span></p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-241">.是</span><span class="sxs-lookup"><span data-stu-id="1ef8f-241">Yes</span></span> </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-242">整個專案</span><span class="sxs-lookup"><span data-stu-id="1ef8f-242">Entire Project</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-243">應收費</span><span class="sxs-lookup"><span data-stu-id="1ef8f-243">Chargeable</span></span> </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-244">無法設定</span><span class="sxs-lookup"><span data-stu-id="1ef8f-244">Can't be set</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-245">無法設定</span><span class="sxs-lookup"><span data-stu-id="1ef8f-245">Can't be set</span></span> </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-246">時間實際值的帳單：應收費</span><span class="sxs-lookup"><span data-stu-id="1ef8f-246">Billing on a time actual: Chargeable</span></span> </p>
+                <p>
+<span data-ttu-id="1ef8f-247">費用實際值的帳單類型：<strong>無法使用</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-247">Billing type on expense actual:<strong> Not available</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="1ef8f-248">材料實際值的帳單類型：應收費</span><span class="sxs-lookup"><span data-stu-id="1ef8f-248">Billing type on material actual: Chargeable</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-249">.是</span><span class="sxs-lookup"><span data-stu-id="1ef8f-249">Yes</span></span> </p>
+            </td>
+            <td width="78" valign="top">
+                <p><span data-ttu-id="1ef8f-250">
+                    <strong>無</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-250">
+                    <strong>No</strong>
+                </span></span></p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-251">.是</span><span class="sxs-lookup"><span data-stu-id="1ef8f-251">Yes</span></span> </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-252">整個專案</span><span class="sxs-lookup"><span data-stu-id="1ef8f-252">Entire Project</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p><span data-ttu-id="1ef8f-253">
+                    <strong>不應收費</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-253">
+                    <strong>Non-Chargeable</strong>
+                </span></span></p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-254">無法設定</span><span class="sxs-lookup"><span data-stu-id="1ef8f-254">Can't be set</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-255">無法設定</span><span class="sxs-lookup"><span data-stu-id="1ef8f-255">Can't be set</span></span> </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-256">時間實際值的帳單：<strong>不應收費</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-256">Billing on a time actual: <strong>Non-chargeable </strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="1ef8f-257">費用實際值的帳單類型：<strong>無法使用</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-257">Billing type on expense actual:<strong> Not available</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="1ef8f-258">材料實際值的帳單類型：應收費</span><span class="sxs-lookup"><span data-stu-id="1ef8f-258">Billing type on material actual: Chargeable</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-259">.是</span><span class="sxs-lookup"><span data-stu-id="1ef8f-259">Yes</span></span> </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-260">.是</span><span class="sxs-lookup"><span data-stu-id="1ef8f-260">Yes</span></span> </p>
+            </td>
+            <td width="63" valign="top">
+                <p><span data-ttu-id="1ef8f-261">
+                    <strong>無</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-261">
+                    <strong>No</strong>
+                </span></span></p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-262">整個專案</span><span class="sxs-lookup"><span data-stu-id="1ef8f-262">Entire Project</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-263">應收費</span><span class="sxs-lookup"><span data-stu-id="1ef8f-263">Chargeable</span></span> </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-264">應收費</span><span class="sxs-lookup"><span data-stu-id="1ef8f-264">Chargeable</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-265">無法設定</span><span class="sxs-lookup"><span data-stu-id="1ef8f-265">Can't be set</span></span> </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-266">時間實際值的帳單：應收費</span><span class="sxs-lookup"><span data-stu-id="1ef8f-266">Billing on a time actual: Chargeable</span></span> </p>
+                <p>
+<span data-ttu-id="1ef8f-267">費用實際值的帳單類型：應收費</span><span class="sxs-lookup"><span data-stu-id="1ef8f-267">Billing type on expense actual: Chargeable</span></span> </p>
+                <p>
+<span data-ttu-id="1ef8f-268">材料實際值的帳單類型：<strong>無法使用</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-268">Billing type on material actual: <strong> Not available</strong>
+                </span></span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-269">.是</span><span class="sxs-lookup"><span data-stu-id="1ef8f-269">Yes</span></span> </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-270">.是</span><span class="sxs-lookup"><span data-stu-id="1ef8f-270">Yes</span></span> </p>
+            </td>
+            <td width="63" valign="top">
+                <p><span data-ttu-id="1ef8f-271">
+                    <strong>無</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-271">
+                    <strong>No</strong>
+                </span></span></p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-272">整個專案</span><span class="sxs-lookup"><span data-stu-id="1ef8f-272">Entire Project</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p><span data-ttu-id="1ef8f-273">
+                    <strong>不應收費</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-273">
+                    <strong>Non-Chargeable</strong>
+                </span></span></p>
+            </td>
+            <td width="70" valign="top">
+                <p><span data-ttu-id="1ef8f-274">
+                    <strong>不應收費</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-274">
+                    <strong>Non-chargeable</strong>
+                </span></span></p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-275">無法設定</span><span class="sxs-lookup"><span data-stu-id="1ef8f-275">Can't be set</span></span> </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="1ef8f-276">時間實際值的帳單：<strong>不應收費</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-276">Billing on a time actual: <strong>Non-chargeable </strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="1ef8f-277">費用實際值的帳單類型：<strong>不應收費</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-277">Billing type on expense actual:<strong> Non-chargeable </strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="1ef8f-278">材料實際值的帳單類型：<strong>無法使用</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="1ef8f-278">Billing type on material actual:<strong> Not available</strong>
+                </span></span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 
-| <span data-ttu-id="dbcbf-139">包含時間</span><span class="sxs-lookup"><span data-stu-id="dbcbf-139">Includes Time</span></span> | <span data-ttu-id="dbcbf-140">包含費用</span><span class="sxs-lookup"><span data-stu-id="dbcbf-140">Includes Expense</span></span> | <span data-ttu-id="dbcbf-141">包含工作</span><span class="sxs-lookup"><span data-stu-id="dbcbf-141">Includes Tasks</span></span> | <span data-ttu-id="dbcbf-142">角色</span><span class="sxs-lookup"><span data-stu-id="dbcbf-142">Role</span></span>           | <span data-ttu-id="dbcbf-143">Category</span><span class="sxs-lookup"><span data-stu-id="dbcbf-143">Category</span></span>       | <span data-ttu-id="dbcbf-144">工作​​</span><span class="sxs-lookup"><span data-stu-id="dbcbf-144">Task</span></span>                                                                                                      |
-|---------------|------------------|----------------|----------------|----------------|-----------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="dbcbf-145">.是</span><span class="sxs-lookup"><span data-stu-id="dbcbf-145">Yes</span></span>           | <span data-ttu-id="dbcbf-146">.是</span><span class="sxs-lookup"><span data-stu-id="dbcbf-146">Yes</span></span>              | <span data-ttu-id="dbcbf-147">整個專案</span><span class="sxs-lookup"><span data-stu-id="dbcbf-147">Entire project</span></span> | <span data-ttu-id="dbcbf-148">應收費</span><span class="sxs-lookup"><span data-stu-id="dbcbf-148">Chargeable</span></span>     | <span data-ttu-id="dbcbf-149">應收費</span><span class="sxs-lookup"><span data-stu-id="dbcbf-149">Chargeable</span></span>     | <span data-ttu-id="dbcbf-150">時間實際值的帳單：**應收費**</span><span class="sxs-lookup"><span data-stu-id="dbcbf-150">Billing on a Time actual: **Chargeable**</span></span> </br> <span data-ttu-id="dbcbf-151">費用實際值的帳單類型：**應收費**</span><span class="sxs-lookup"><span data-stu-id="dbcbf-151">Billing type on Expense actual: **Chargeable**</span></span>           |
-| <span data-ttu-id="dbcbf-152">.是</span><span class="sxs-lookup"><span data-stu-id="dbcbf-152">Yes</span></span>           | <span data-ttu-id="dbcbf-153">.是</span><span class="sxs-lookup"><span data-stu-id="dbcbf-153">Yes</span></span>              | <span data-ttu-id="dbcbf-154">選取的工作</span><span class="sxs-lookup"><span data-stu-id="dbcbf-154">Selected tasks</span></span> | <span data-ttu-id="dbcbf-155">應收費</span><span class="sxs-lookup"><span data-stu-id="dbcbf-155">Chargeable</span></span>     | <span data-ttu-id="dbcbf-156">應收費</span><span class="sxs-lookup"><span data-stu-id="dbcbf-156">Chargeable</span></span>     | <span data-ttu-id="dbcbf-157">時間實際值的帳單：**應收費**</span><span class="sxs-lookup"><span data-stu-id="dbcbf-157">Billing on a Time actual: **Chargeable**</span></span> </br> <span data-ttu-id="dbcbf-158">費用實際值的帳單類型：**應收費**</span><span class="sxs-lookup"><span data-stu-id="dbcbf-158">Billing type on Expense actual: **Chargeable**</span></span>           |
-| <span data-ttu-id="dbcbf-159">.是</span><span class="sxs-lookup"><span data-stu-id="dbcbf-159">Yes</span></span>           | <span data-ttu-id="dbcbf-160">.是</span><span class="sxs-lookup"><span data-stu-id="dbcbf-160">Yes</span></span>              | <span data-ttu-id="dbcbf-161">選取的工作</span><span class="sxs-lookup"><span data-stu-id="dbcbf-161">Selected tasks</span></span> | <span data-ttu-id="dbcbf-162">不應收費</span><span class="sxs-lookup"><span data-stu-id="dbcbf-162">Non-chargeable</span></span> | <span data-ttu-id="dbcbf-163">應收費</span><span class="sxs-lookup"><span data-stu-id="dbcbf-163">Chargeable</span></span>     | <span data-ttu-id="dbcbf-164">時間實際值的帳單：**不應收費**</span><span class="sxs-lookup"><span data-stu-id="dbcbf-164">Billing on a Time actual: **Non-chargeable**</span></span> </br> <span data-ttu-id="dbcbf-165">費用實際值的帳單類型：**應收費**</span><span class="sxs-lookup"><span data-stu-id="dbcbf-165">Billing type on Expense actual: **Chargeable**</span></span>       |
-| <span data-ttu-id="dbcbf-166">.是</span><span class="sxs-lookup"><span data-stu-id="dbcbf-166">Yes</span></span>           | <span data-ttu-id="dbcbf-167">.是</span><span class="sxs-lookup"><span data-stu-id="dbcbf-167">Yes</span></span>              | <span data-ttu-id="dbcbf-168">選取的工作</span><span class="sxs-lookup"><span data-stu-id="dbcbf-168">Selected tasks</span></span> | <span data-ttu-id="dbcbf-169">應收費</span><span class="sxs-lookup"><span data-stu-id="dbcbf-169">Chargeable</span></span>     | <span data-ttu-id="dbcbf-170">應收費</span><span class="sxs-lookup"><span data-stu-id="dbcbf-170">Chargeable</span></span>     | <span data-ttu-id="dbcbf-171">時間實際值的帳單：**不應收費**</span><span class="sxs-lookup"><span data-stu-id="dbcbf-171">Billing on a Time actual: **Non-chargeable**</span></span> </br> <span data-ttu-id="dbcbf-172">費用實際值的帳單類型：**不應收費**</span><span class="sxs-lookup"><span data-stu-id="dbcbf-172">Billing type on Expense actual:   **Non-chargeable**</span></span> |
-| <span data-ttu-id="dbcbf-173">.是</span><span class="sxs-lookup"><span data-stu-id="dbcbf-173">Yes</span></span>           | <span data-ttu-id="dbcbf-174">.是</span><span class="sxs-lookup"><span data-stu-id="dbcbf-174">Yes</span></span>              | <span data-ttu-id="dbcbf-175">選取的工作</span><span class="sxs-lookup"><span data-stu-id="dbcbf-175">Selected tasks</span></span> | <span data-ttu-id="dbcbf-176">不應收費</span><span class="sxs-lookup"><span data-stu-id="dbcbf-176">Non-chargeable</span></span> | <span data-ttu-id="dbcbf-177">應收費</span><span class="sxs-lookup"><span data-stu-id="dbcbf-177">Chargeable</span></span>     | <span data-ttu-id="dbcbf-178">時間實際值的帳單：**不應收費**</span><span class="sxs-lookup"><span data-stu-id="dbcbf-178">Billing on a Time actual: **Non-chargeable**</span></span> </br> <span data-ttu-id="dbcbf-179">費用實際值的帳單類型：**不應收費**</span><span class="sxs-lookup"><span data-stu-id="dbcbf-179">Billing type on Expense actual:   **Non-chargeable**</span></span> |
-| <span data-ttu-id="dbcbf-180">.是</span><span class="sxs-lookup"><span data-stu-id="dbcbf-180">Yes</span></span>           | <span data-ttu-id="dbcbf-181">.是</span><span class="sxs-lookup"><span data-stu-id="dbcbf-181">Yes</span></span>              | <span data-ttu-id="dbcbf-182">選取的工作</span><span class="sxs-lookup"><span data-stu-id="dbcbf-182">Selected tasks</span></span> | <span data-ttu-id="dbcbf-183">不應收費</span><span class="sxs-lookup"><span data-stu-id="dbcbf-183">Non-chargeable</span></span> | <span data-ttu-id="dbcbf-184">不應收費</span><span class="sxs-lookup"><span data-stu-id="dbcbf-184">Non-chargeable</span></span> | <span data-ttu-id="dbcbf-185">時間實際值的帳單：**不應收費**</span><span class="sxs-lookup"><span data-stu-id="dbcbf-185">Billing on a Time actual: **Non-chargeable**</span></span> </br> <span data-ttu-id="dbcbf-186">費用實際值的帳單類型：**不應收費**</span><span class="sxs-lookup"><span data-stu-id="dbcbf-186">Billing type on Expense actual:   **Non-chargeable**</span></span> |
-| <span data-ttu-id="dbcbf-187">無</span><span class="sxs-lookup"><span data-stu-id="dbcbf-187">No</span></span>            | <span data-ttu-id="dbcbf-188">.是</span><span class="sxs-lookup"><span data-stu-id="dbcbf-188">Yes</span></span>              | <span data-ttu-id="dbcbf-189">整個專案</span><span class="sxs-lookup"><span data-stu-id="dbcbf-189">Entire project</span></span> | <span data-ttu-id="dbcbf-190">無法設定</span><span class="sxs-lookup"><span data-stu-id="dbcbf-190">Can't be set</span></span>   | <span data-ttu-id="dbcbf-191">應收費</span><span class="sxs-lookup"><span data-stu-id="dbcbf-191">Chargeable</span></span>     | <span data-ttu-id="dbcbf-192">時間實際值的帳單：**無法使用**</span><span class="sxs-lookup"><span data-stu-id="dbcbf-192">Billing on a Time actual: **Not available**</span></span></br><span data-ttu-id="dbcbf-193">費用實際值的帳單類型：**應收費**</span><span class="sxs-lookup"><span data-stu-id="dbcbf-193">Billing type on Expense actual: **Chargeable**</span></span>          |
-| <span data-ttu-id="dbcbf-194">無</span><span class="sxs-lookup"><span data-stu-id="dbcbf-194">No</span></span>            | <span data-ttu-id="dbcbf-195">.是</span><span class="sxs-lookup"><span data-stu-id="dbcbf-195">Yes</span></span>              | <span data-ttu-id="dbcbf-196">整個專案</span><span class="sxs-lookup"><span data-stu-id="dbcbf-196">Entire project</span></span> | <span data-ttu-id="dbcbf-197">無法設定</span><span class="sxs-lookup"><span data-stu-id="dbcbf-197">Can't be set</span></span>   | <span data-ttu-id="dbcbf-198">不應收費</span><span class="sxs-lookup"><span data-stu-id="dbcbf-198">Non-chargeable</span></span> | <span data-ttu-id="dbcbf-199">時間實際值的帳單：**無法使用**</span><span class="sxs-lookup"><span data-stu-id="dbcbf-199">Billing on a Time actual: **Not available**</span></span></br> <span data-ttu-id="dbcbf-200">費用實際值的帳單類型：**不應收費**</span><span class="sxs-lookup"><span data-stu-id="dbcbf-200">Billing type on Expense actual: **Non-chargeable**</span></span>     |
-| <span data-ttu-id="dbcbf-201">.是</span><span class="sxs-lookup"><span data-stu-id="dbcbf-201">Yes</span></span>           | <span data-ttu-id="dbcbf-202">無</span><span class="sxs-lookup"><span data-stu-id="dbcbf-202">No</span></span>               | <span data-ttu-id="dbcbf-203">整個專案</span><span class="sxs-lookup"><span data-stu-id="dbcbf-203">Entire project</span></span> | <span data-ttu-id="dbcbf-204">應收費</span><span class="sxs-lookup"><span data-stu-id="dbcbf-204">Chargeable</span></span>     | <span data-ttu-id="dbcbf-205">無法設定</span><span class="sxs-lookup"><span data-stu-id="dbcbf-205">Can't be set</span></span>   | <span data-ttu-id="dbcbf-206">時間實際值的帳單：**應收費**</span><span class="sxs-lookup"><span data-stu-id="dbcbf-206">Billing on a Time actual: **Chargeable**</span></span> </br> <span data-ttu-id="dbcbf-207">費用實際值的帳單類型：**無法使用**</span><span class="sxs-lookup"><span data-stu-id="dbcbf-207">Billing type on Expense actual: **Not available**</span></span>        |
-| <span data-ttu-id="dbcbf-208">.是</span><span class="sxs-lookup"><span data-stu-id="dbcbf-208">Yes</span></span>           | <span data-ttu-id="dbcbf-209">無</span><span class="sxs-lookup"><span data-stu-id="dbcbf-209">No</span></span>               | <span data-ttu-id="dbcbf-210">整個專案</span><span class="sxs-lookup"><span data-stu-id="dbcbf-210">Entire project</span></span> | <span data-ttu-id="dbcbf-211">不應收費</span><span class="sxs-lookup"><span data-stu-id="dbcbf-211">Non-chargeable</span></span> | <span data-ttu-id="dbcbf-212">無法設定</span><span class="sxs-lookup"><span data-stu-id="dbcbf-212">Can't be set</span></span>   | <span data-ttu-id="dbcbf-213">時間實際值的帳單：**不應收費**</span><span class="sxs-lookup"><span data-stu-id="dbcbf-213">Billing on a Time actual: **Non-chargeable**</span></span> </br><span data-ttu-id="dbcbf-214">費用實際值的帳單類型：**無法使用**</span><span class="sxs-lookup"><span data-stu-id="dbcbf-214">Billing type on Expense actual: **Not   available**</span></span>   |
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
