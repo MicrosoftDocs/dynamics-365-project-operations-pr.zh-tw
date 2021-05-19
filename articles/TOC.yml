@@ -34,6 +34,22 @@
               href: environment/security-model.md
             - name: 設定每個法律實體的 Project Operations 整合
               href: environment/resource-configure-integration-per-legal-entity.md
+        - name: 設定雙重寫入整合
+          items:
+            - name: 雙重寫入整合概觀
+              href: environment/resource-dual-write-overview.md
+            - name: Project Operations 雙重寫入對應版本
+              href: environment/resource-dual-write-maps.md
+            - name: Project Operations 設定和設定資料整合
+              href: environment/resource-dual-write-setup-integration.md
+            - name: 專案估計值和實際值整合
+              href: environment/resource-dual-write-estimates-actuals.md
+            - name: 專案發票整合
+              href: environment/resource-dual-write-project-invoice.md
+            - name: 費用管理整合
+              href: environment/resource-dual-write-expense.md
+            - name: 廠商發票整合
+              href: environment/resource-dual-write-vendor-invoice.md
     - name: 新增功能
       items:
         - name: 2021 年 4 月 - 資源/非庫存型案例適用的 Project Operations
@@ -216,6 +232,8 @@
           href: project-management/understand-project-status.md
         - name: 定義專案行事曆
           href: project-management/define-project-calendars.md
+        - name: 排程模式
+          href: project-management/scheduling-modes.md
         - name: 更新專案
           href: project-management/update-project.md
         - name: 複製專案
@@ -404,6 +422,12 @@
           items:
             - name: 建立和確認更正日記帳
               href: actuals/create-confirm-correction-journals.md
+    - name: 採購
+      items:
+        - name: 設定非庫存材料和待處理廠商發票
+          href: procurement/configure-materials-nonstocked.md
+        - name: 使用待處理廠商發票來採購專案的非庫存材料
+          href: procurement/pending-vendor-invoices.md
     - name: 發票請款
       items:
         - name: 發票處理概觀
@@ -428,6 +452,8 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: 設定專案型發票自動化
               href: proforma-invoicing/configure-automated-invoice-creation.md
+        - name: 管理專案發票提案
+          href: invoicing/format-update-project-invoice-proposals.md
     - name: 專案會計
       items:
         - name: 財務維度預設值
@@ -682,6 +708,8 @@
           href: project-management/understand-project-status.md
         - name: 定義專案行事曆
           href: project-management/define-project-calendars.md
+        - name: 排程模式
+          hreF: project-management/scheduling-modes.md
         - name: 更新專案
           href: project-management/update-project.md
         - name: 複製專案
@@ -848,6 +876,8 @@
   items:
     - name: 新增功能
       items:
+        - name: 2021 年 4 月新增功能 - 庫存/生產型案例適用的 Project Operations
+          href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: 2021 年 3 月新增功能 - 庫存/生產型案例適用的 Project Operations
           href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
         - name: 2021 年 1 月新增功能 - 庫存/生產型案例適用的 Project Operations
@@ -871,9 +901,9 @@
     - name: 設定和使用背靠背式供應商付款
       href: prod-pma/setup-manage-vendor-payments.md
     - name: 根據採購收據的專案成本累算方式
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
+      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
     - name: 專案發票請款
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
+      href: /dynamics365/finance/accounts-payable/project-invoicing
     - name: 專案發票提案績效
       href: prod-pma/project-invoice-proposal-performance.md
     - name: 專案合約
@@ -998,6 +1028,8 @@
       items:
         - name: Project Service 3.x 的更新發行排程
           href: psa/version-history-ps.md
+        - name: 更新版本 31 V3 的新功能或變更
+          href: psa/whats-new-ur-31.md
         - name: 更新版本 30 V3 的新功能或變更
           href: psa/whats-new-ur-30.md
         - name: 更新版本 29.5 Hotfix V3 的新功能或變更
@@ -1327,7 +1359,7 @@
             - name: 檢視資源使用率
               href: psa/view-resource-utilization.md
             - name: Universal Resource Scheduling (URS)
-              href: 'https://docs.microsoft.com/dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling'
+              href: /dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling
         - name: 專案經理指南
           items:
             - name: 專案經理指南 (Project Service)
