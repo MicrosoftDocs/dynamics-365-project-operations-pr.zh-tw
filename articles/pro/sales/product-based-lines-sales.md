@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4f8da5258a1dd0aa4229654c0e1e222b8cf3a21a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f7dfabd068e180c7122ede0f79aaebfe220250a1
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272603"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949534"
 ---
 # <a name="product-based-opportunity-lines---lite"></a>產品型商機明細 - 精簡
 
@@ -22,7 +22,7 @@ _**適用於：** 精簡部署 - 交易至開立預估發票_
 
 產品型商機明細是商機上的明細項目。 這些相異明細項目會在提供給客戶的最終發票上。 發票不包含任何其他額外的服務。 不會對任何相關專案的工作追蹤相關花費與耗用。
 
-產品型明細可以是類別目錄項目或目錄外產品。 商機的產品型明細上大部分功能都採用 Dynamics 365 Sales 應用程式所提供的功能。 如需產品型商機明細的詳細資訊，請參閱[將產品新增至商機](https://docs.microsoft.com/dynamics365/sales-enterprise/add-products-opportunity)。
+產品型明細可以是類別目錄項目或目錄外產品。 商機的產品型明細上大部分功能都採用 Dynamics 365 Sales 應用程式所提供的功能。 如需產品型商機明細的詳細資訊，請參閱[將產品新增至商機](/dynamics365/sales-enterprise/add-products-opportunity)。
 
 **客戶預算** 是專案型商機明細特有的概念。 **客戶預算** 欄位會追蹤客戶願意付款取得該項目的金額。
 

@@ -3,7 +3,7 @@ title: 專案發票提案效能
 description: 本主題提供有關專案發票提案效能改善的資訊。
 author: Yowelle
 manager: AnnBe
-ms.date: 03/05/2021
+ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 20121-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 78c924cba8107471a5f8e6d6a38265890d32d72b
-ms.sourcegitcommit: 2350c6f3728067a8298adde640e6fdd5984eb077
+ms.openlocfilehash: 1641d5f731029fdbdc16c4b652cc752a583058c6
+ms.sourcegitcommit: 68d52fc983861114e654ffc8d2472b4db9b48981
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5573549"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920292"
 ---
 # <a name="project-invoice-proposal-performance"></a>專案發票提案效能
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 建立新的發票提案時，您可能會在專案和子專案數目增加時遇到效能問題。 為了改善效能，可以使用縮短為已過帳專案交易建立新發票提案所需時間的功能。
 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ab8016014c0af60d1c0dfd37fdd457f279fb8059
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 7357e9a8c8c6294c0a395a80287bb7eeb5c47d85
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5664079"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948274"
 ---
 # <a name="header-details-for-project-based-opportunities"></a>專案型商機的標題詳細資料
 
@@ -35,7 +35,7 @@ Dynamics 365 Project Operations 中的專案型商機是 Dynamics 365 Sales 中�
 | 客戶經理 | [一般] 索引標籤 | 此專案型商機的客戶經理姓名。 | 客戶經理負責管理與客戶之間的關聯，直到此專案完成。 根據繫結至客戶經理的可預約資源記錄，預設會使用合約單位。 |
 | 合約單位 | [一般] 索引標籤 | 負責交付專案或與此交易相關之專案的組織單位。 | 合約單位是要在完成交易後完成專案的公司部門。 每個合約單位都有貨幣，而此貨幣可用來報告專案期間所產生的估計和實際成本。 |
 
-如需了解商機 **摘要** 索引標籤上的所有其他欄位和區段，請參閱[建立或編輯商機 (Sales 和銷售中心)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-edit-opportunity-sales)。
+如需了解商機 **摘要** 索引標籤上的所有其他欄位和區段，請參閱[建立或編輯商機 (Sales 和銷售中心)](/dynamics365/sales-enterprise/create-edit-opportunity-sales)。
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 526f2ab1fd186877f32a2d11bd92ee8c26a19139
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 31613936d48f785eeba4ec7c066761c8f69924cf
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278048"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947869"
 ---
 # <a name="manage-leads"></a>管理潛在客戶
 
@@ -55,7 +55,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 - 與採用潛在客戶 **名字** 及 **姓氏** 欄位值之客戶相關聯的連絡人記錄。
 - **類型** 欄位已設定為 **工作型** 的專案型商機。
 
-如需有關授與潛在客戶資格的詳細資訊，請參閱[授與客戶資格或轉換潛在客戶](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales)。
+如需有關授與潛在客戶資格的詳細資訊，請參閱[授與客戶資格或轉換潛在客戶](/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales)。
 
 ## <a name="lead-qualification-and-legal-entity-information"></a>潛在客戶資格與法律實體資訊 
 

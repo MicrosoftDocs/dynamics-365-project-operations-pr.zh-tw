@@ -3,17 +3,17 @@ title: 建立公司間交易
 description: 此主題提供如何建立公司間交易的資訊。
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6d23e45d99be61e93d98a8377ff5fa05b3febb6b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b8b35e8875ac4aff1ae9690c4d4afabe25af8dc9
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287408"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880438"
 ---
 # <a name="create-intercompany-transactions"></a>建立公司間交易
 
@@ -62,7 +62,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
     4. 將貨幣設為 **美元**。
     5. 儲存記錄。
 3. 移至 **銷售** > **專案合約**，並為 Adventure Works 建立新的專案合約。
-    1. 將擁有的公司設定為 **USPM**，並將承包單位設定為 **Contoso Robotics US**。
+    1. 將擁有公司設定為 **USPM**，並將合約單位設定為 **Contoso Robotics US**。
     2. 選取 Adventure Works 做為客戶。
     3. 選取產品價目表並儲存記錄。
     4. 在 **合約服務內容** 索引標籤上，建立新的合約服務內容。 設定任何名稱，並選取 **時間和材料** 做為帳單方式。
@@ -94,7 +94,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
     此未開單銷售現在已準備好進行開立發票。 客戶 Adventure Works 的發票可以在需要時進行財務過帳。
 
 10. 以 **GBPM** 會計師登入。 開啟 Project Operations 的 Finance 執行個體，並開啟公司 **GBPM**。 
-11. 移至 **專案管理與會計** > **週期性** > **Customer Engagement 的 Project Operations** > **從臨時匯入**，並執行週期程序以填入 Project Operations 整合帳目。
+11. 移至 **專案管理與會計** > **定期** > **Project Operations 整合** > **從臨時表格匯入**，然後執行定期程序以填入 Project Operations 整合帳目。
 12. 移至 **專案管理與會計** > **日記帳** > **Project Operations 整合帳目** 並查看明細。 系統會建立下列明細。
 
     | **交易類型** | **價格** | **交易貨幣** | **金額** |

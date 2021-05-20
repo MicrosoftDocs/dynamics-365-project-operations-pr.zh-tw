@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287228"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948320"
 ---
 # <a name="integration-journal-in-project-operations"></a>Project Operations 中的整合帳目
 
@@ -38,7 +38,7 @@ Project Operations 整合帳目中的記錄是使用週期程序（**從臨時�
 會根據專案實際值建立帳目明細。 以下清單包括一些較為明顯的預設和轉換規則：
 
   - 每個專案實際交易在 Project Operations 整合帳目中都有一行。 時間和資料帳單類型的成本與未開單銷售交易會顯示在不同的行上。
-  - **日期** 欄位表示交易的日期。 **會計日期** 欄位表示將交易記錄到總帳的日期。 如果會計日期是在 [已關閉的財務期間](https://docs.microsoft.com/dynamics365/finance/general-ledger/close-general-ledger-at-period-end)，且在 **專案管理與會計參數** 頁面的 **財務** 索引標籤上設定了參數 **自動設定會計日期以開放總帳期間**，則系統會將交易的會計日期調整為下一個開放式總帳期間的第一個日期。
+  - **日期** 欄位表示交易的日期。 **會計日期** 欄位表示將交易記錄到總帳的日期。 如果會計日期是在 [已關閉的財務期間](/dynamics365/finance/general-ledger/close-general-ledger-at-period-end)，且在 **專案管理與會計參數** 頁面的 **財務** 索引標籤上設定了參數 **自動設定會計日期以開放總帳期間**，則系統會將交易的會計日期調整為下一個開放式總帳期間的第一個日期。
   - **傳票** 欄位會顯示每個實際交易的傳票號碼。 傳票號碼序列是在 **專案管理與會計參數** 頁面的 **數字序列** 索引標籤上定義。 每個明細都會指派一個新的號碼。 在過帳傳票後，您可以透過在 **傳票交易** 頁面上選取 **相關傳票**，來查看成本與未開單銷售交易的關聯方式。
   - **類別** 欄位代表專案交易，並根據相關專案實際值的交易類別來進行預設值。
     - 如果在專案實際值中設定了 **交易類別**，而在給定的法律實體中有相關 **專案類別**，則類別預設為此專案類別。

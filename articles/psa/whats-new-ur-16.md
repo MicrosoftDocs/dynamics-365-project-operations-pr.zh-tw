@@ -17,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1f3bb4442ce1d06807f264003c930dbbee19a5c7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 33a711816e8cca34c4595aa0929de9a808a48b0f
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5280883"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949362"
 ---
 # <a name="project-service-automation-update-release-16-v3"></a>Project Service Automation 更新版本 16 V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-我們很高興地宣佈 Dynamics 365 的 Project Service Automation 應用程式的最新更新。 此版本包含一些對品質、效能和可用性的重要改進。  此版本與 Dynamics 365 9. x 相容。 若要更新至此版本，請前往 Dynamics 365 online 系統管理中心，移至解決方案頁面以安裝更新。 如需詳細資訊，請參閱[安裝、更新偏好的解決方案](https://docs.microsoft.com/dynamics365/project-service/upgrade-psa-home-page)。
+我們很高興地宣佈 Dynamics 365 的 Project Service Automation 應用程式的最新更新。 此版本包含一些對品質、效能和可用性的重要改進。  此版本與 Dynamics 365 9. x 相容。 若要更新至此版本，請前往 Dynamics 365 online 系統管理中心，移至解決方案頁面以安裝更新。 如需詳細資訊，請參閱[安裝、更新偏好的解決方案](/dynamics365/project-service/upgrade-psa-home-page)。
 本主題列出 PSA V3 更新版本 16 新推出或已變更的功能及修正。 此版本的組建編號為 V3.10.6.34，已於 2020 年 1 月透過自我更新正式推出。
 
 

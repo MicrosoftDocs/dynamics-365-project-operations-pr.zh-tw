@@ -3,18 +3,18 @@ title: 2021 年 4 月新增功能 - 資源/非庫存型案例適用的 Project O
 description: 本主題提供有關 2021 年 4 月所發行資源/非庫存型案例適用 Project Operations 中提供之品質更新的資訊。
 author: sigitac
 manager: tfehr
-ms.date: 04/05/2021
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 359d39898ed60c7253b122cb884465fbd9605e0c
-ms.sourcegitcommit: 8ff9fe396db6dec581c21cd6bb9acc2691c815b0
+ms.openlocfilehash: 339a488908add09c5e4f62568bb83b78450e7082
+ms.sourcegitcommit: 69fadd3ce475d6aed2e1ed81a15becb28f020eb9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867983"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935464"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021 年 4 月新增功能 - 資源/非庫存型案例適用的 Project Operations
 
@@ -33,8 +33,26 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
   - 對專案銷售週期期間的非庫存材料進行估計和定價。 如需詳細資訊，請參閱[設定產品類別目錄產品的成本及銷售費率 - 精簡](../pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md)。
   - 追蹤專案交付期間的非庫存材料使用。 如需詳細資訊，請參閱[記錄專案和專案工作的材料使用方式](../material/material-usage-log.md)。
   - 開立已使用非庫存材料成本的發票。 如需詳細資訊，請參閱[管理帳務積存](../proforma-invoicing/manage-billing-backlog.md)。
+  - 如需有關如何設定此功能的詳細資訊，請參閱[設定非庫存材料和待處理廠商發票](../procurement/configure-materials-nonstocked.md)
 - 工作型帳務：新增將專案工作與專案合約服務內容建立關聯的功能，藉此使他們接受與合約服務內容中所規定相同的帳務方法、發票頻率和客戶。 此關聯可確保根據專案工作上的這項設定準確開立發票、會計、收入估計以及工作認列。
 - Dynamics 365 Dataverse 中的新 API 允許對 **排程實體** 執行建立、更新和刪除作業。 如需詳細資訊，請參閱 [使用排程 API 對排程實體執行作業](../project-management/schedule-api-preview.md)。
+
+## <a name="project-operations-dual-write-maps-updates"></a>Project Operations 雙重寫入對應更新
+
+下表顯示 Project Operations 2021 年 4 月版本中已修改或新增的雙重寫入對應。
+
+| **實體對應** | **更新的版本** | **註解** |
+| --- | --- | --- |
+| Project Operations 整合實際值 (msdyn\_actuals) | 1.0.0.14 | 修改對應以同步處理材料專案實際值。 |
+| 費用估計值的 Project Operations 整合實體 (msdyn\_estimateslines) | 1.0.0.2 | 將專案合約服務內容同步新增至 Finance and Operations 應用程式，以便提供工作型帳務支援。 |
+| 時數估計值的 Project Operations 整合實體 (msdyn\_resourceassignments) | 1.0.0.5 | 將專案合約服務內容同步新增至 Finance and Operations 應用程式，以便提供工作型帳務支援。 |
+| Project Operations 材料估計值整合資料表 (msdyn\_estimatelines) | 1.0.0.0 | 新增資料表對應以將材料估計值從 Dataverse 同步處理至 Finance and Operations 應用程式。 |
+| Project Operations 整合專案廠商發票匯出實體 (msdyn\_projectvendorinvoices) | 1.0.0.0 | 新增資料表對應以將廠商發票標題從 Finance and Operations 應用程式同步處理至 Dataverse。 |
+| Project Operations 整合專案廠商發票明細匯出實體 (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | 新增資料表對應以將廠商發票明細從 Finance and Operations 應用程式同步處理至 Dataverse。 |
+
+更新 Project Operations Dataverse 解決方案和 Finance and Operations 解決方案版本時，一律都要在環境中執行最新版本的對應，並啟用所有相關的資料表對應。 如果未啟用最新版本的對應，特定功能可能無法正確運作。 您可以在 **雙重寫入** 頁面的 **版本** 欄中查看對應的使用中版本。 您可以選取 **資料表對應版本**、選取最新版本，然後儲存選取的版本來啟用新的對應版本。 如果您已對現成可用的資料表對應進行自訂，請重新套用變更。 如需詳細資訊，請參閱[解決方案生命週期管理](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management)。
+
+如果啟動對應時發生問題，請依照[對應上發生的遺失資料表欄問題](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps)雙重寫入疑難排解指南一節中的指示操作。
 
 ## <a name="quality-updates"></a>品質更新
 
@@ -67,7 +85,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 | **功能區域** | **參考編號** | **品質更新** |
 | --- | --- | --- |
-| 專案管理與會計 | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | 沖回估計抵銷項無法在 **週期** 中正常運作。  |
+| 專案管理與會計 | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | 沖回估計值抵銷無法在 **週期** 區段中發生作用。  |
 | 專案管理與會計 | [509773](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509773) | **會計調整** 功能在已選取 **不允許手動輸入** 的總帳科目上產生問題。 |
 | 專案管理與會計 | [510728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=5109728) | 新增商務規則以處理包含保留款金額或已套用保留款金額的更正發票。 |
 | 專案管理與會計 | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364) | 公司間專案發票請款中的 WIP 銷售值過帳選擇了非預期的科目。 |
