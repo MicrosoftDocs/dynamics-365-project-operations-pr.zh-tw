@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 8d1755b308a415deff1fd1a35122197476673988
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4a208ed98a5549030bd663e18b1b490d1a42ee33
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288128"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950209"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>庫存/生產型案例適用的 Project Operations 2020 年 12 月的新功能或變更
 
@@ -141,7 +141,7 @@ _適用於：庫存/生產型案例適用的 Project Operations_
 
 ## <a name="regulatory-updates"></a>法規更新
 
-如需 Dynamics 365 Finance 的法規更新資訊，請參閱[法規更新](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates)。 另一個了解法規更新的方式就是，登入 Lifecycle Services (LCS)，並使用問題搜尋工具來檢視已規劃的法規更新。 問題搜尋可讓您依國家/地區、功能類型和版本進行搜尋。
+如需 Dynamics 365 Finance 的法規更新資訊，請參閱[法規更新](/dynamics365/finance/localizations/regulatory-updates)。 另一個了解法規更新的方式就是，登入 Lifecycle Services (LCS)，並使用問題搜尋工具來檢視已規劃的法規更新。 問題搜尋可讓您依國家/地區、功能類型和版本進行搜尋。
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

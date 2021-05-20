@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2f6ceabe1809cc94357a31f1d57c445593f0f788
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289764"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950434"
 ---
 # <a name="project-management-and-accounting-overview"></a>專案管理與會計概觀
 
@@ -227,7 +227,7 @@ WBS 說明專案將會完成的工作。 WBS 是任務的階層。 代表的不�
 建立專案的客戶發票前，您可以建立預備發票或發票提案。 在發票提案中，您可以選取要納入專案發票的專案交易。 您可以接著檢視發票詳細資料，然後再過帳專案發票並將其傳送給客戶或其他資金來源。 
 
 
-如需有關如何處理專案發票的詳細資訊，請參閱[開立專案發票](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing)。
+如需有關如何處理專案發票的詳細資訊，請參閱[開立專案發票](/dynamics365/finance/accounts-payable/project-invoicing)。
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>計算專案的尚未完工成本

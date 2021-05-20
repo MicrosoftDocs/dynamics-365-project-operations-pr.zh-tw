@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: eec85b83cad4cd8fb6e0ec9c026c6a571bccf7f2
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0a76447bb1a81a7157fccc0cd58eddd1eb5995de
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287363"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950119"
 ---
 # <a name="financial-dimension-defaults"></a>財務維度預設值
 
@@ -21,7 +21,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Project Operations 使用 Dynamics 365 Finance 中的[財務維度](https://docs.microsoft.com/dynamics365/finance/general-ledger/financial-dimensions)架構，提供對專案子分類帳及總帳交易的其他見解。
+Dynamics 365 Project Operations 使用 Dynamics 365 Finance 中的[財務維度](/dynamics365/finance/general-ledger/financial-dimensions)架構，提供對專案子分類帳及總帳交易的其他見解。
 
 您可以在客戶、專案資金來源、里程碑、專案合約服務內容或專案上設定預設財務維度。
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 319000e6a826580049e8575def5790ab595a3165
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 85722f61a672cc55cd2b511dc80ebfbe4807b957
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289584"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950389"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>將專案合約和專案直接從 Project Service Automation 同步處理至 Finance 
 
@@ -109,14 +109,14 @@ Project Service Automation 中發生中繼資料變更，這會影響專案合�
 ## <a name="prerequisites-and-mapping-setup"></a>先決條件與對應設定
 
 - 您必須先同步處理帳戶，才能進行專案合約和專案同步處理。
-- 在您的連接集中，新增 **msdyn\_organizationalunits** 至 **msdyn\_name \[名稱\]** 的整合索引鍵欄位對應。 您可能需要先將專案新增至連接集。 如需詳細資訊，請參閱[將資料整合至應用程式適用的 Common Data Service](https://docs.microsoft.com/powerapps/administrator/data-integrator)。
-- 在您的連接集中，新增 **msdyn\_projects** 至 **msdynce\_projectnumber \[專案編號\]** 的整合索引鍵欄位對應。 您可能需要先將專案新增至連接集。 如需詳細資訊，請參閱[將資料整合至應用程式適用的 Common Data Service](https://docs.microsoft.com/powerapps/administrator/data-integrator)。
+- 在您的連接集中，新增 **msdyn\_organizationalunits** 至 **msdyn\_name \[名稱\]** 的整合索引鍵欄位對應。 您可能需要先將專案新增至連接集。 如需詳細資訊，請參閱[將資料整合至應用程式適用的 Common Data Service](/powerapps/administrator/data-integrator)。
+- 在您的連接集中，新增 **msdyn\_projects** 至 **msdynce\_projectnumber \[專案編號\]** 的整合索引鍵欄位對應。 您可能需要先將專案新增至連接集。 如需詳細資訊，請參閱[將資料整合至應用程式適用的 Common Data Service](/powerapps/administrator/data-integrator)。
 - 專案合約和專案的 **SourceDataID** 可以更新為不同的值，或從對應中移除。 預設範本值是 **Project Service Automation**。
 - **PaymentTerms** 對應必須更新，以便在 Finance 中反映有效的付款條件。 您也可以從專案工作移除對應。 預設值對應具有示範資料的預設值。 下表顯示 Project Service Automation 中的值。
 
     | 值 | 描述   |
     |-------|---------------|
-    | 7     | 30 天內付款        |
+    | 1     | 30 天內付款        |
     | 2     | 10 天內付款折扣 2%，30 天內付款 |
     | 3     | 45 天內付款        |
     | 4     | 60 天內付款        |
@@ -131,7 +131,7 @@ Project Service Automation 中發生中繼資料變更，這會影響專案合�
 如果您必須使用 Power Query，請遵循下列準則：
 
 - 「專案與合約 (PSA 至 Fin 和 Ops)」範本有一個只會包含類型為 **工作項目 (msdyn\_ordertype = 192350001)** 之銷售訂單的預設篩選。 此篩選有助於保證不會為 Finance 中的銷售訂單建立專案合約。 如果您自行建立範本，就必須新增此篩選。
-- 建立只包含合約組織的 Power Query 篩選，這些組織應同步處理至整合關係組的法律實體。 例如，您與合約組織單位 Contoso US 之間的專案合約，必須同步處理至 USSI 法律實體，但是您與合約組織單位 Contoso Global 之後專案合約則應同步處理至 USMF 法律實體。 如果您未將此篩選新增至工作對應，則會將所有專案合約都同步處理至針對連接集所定義的法律實體，而不考慮合約組織單位。
+- 建立只包含合約組織的 Power Query 篩選，這些組織應同步處理至整合關係組的法律實體。 例如，您與 Contoso US 合約組織單位簽訂的專案合約必須同步處理至 USSI 法律實體，但是您與 Contoso Global 之間的專案合約則應同步處理至 USMF 法律實體。 如果您未將此篩選新增至工作對應，則會將所有專案合約都同步處理至針對連接集所定義的法律實體，而不考慮合約組織單位。
 
 ## <a name="template-mapping-in-data-integration"></a>資料整合中的範本對應
 

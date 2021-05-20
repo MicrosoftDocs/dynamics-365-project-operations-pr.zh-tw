@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1df4864ca8dbf6948ca88a7c82a6c0a676e3bd53
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f9ebfadf8a331fd6a8a86a9cc040dc8957db3b82
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275033"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950299"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>管理行事曆中的專案和預約 (Project Service)
 
@@ -52,7 +52,7 @@ ms.locfileid: "5275033"
   
 - 您必須有 [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] 全域管理員或系統管理員認證。  
   
-- 您的系統管理員需要設定電子郵件伺服器設定檔，而且每個使用者都必須設定他們的信箱。 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][透過伺服器端同步處理設定電子郵件處理](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
+- 您的系統管理員需要設定電子郵件伺服器設定檔，而且每個使用者都必須設定他們的信箱。 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][透過伺服器端同步處理設定電子郵件處理](/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
   
 ## <a name="turn-on-synchronization-for-your-organization-admin-task"></a>開啟您的組織的同步處理 (系統管理員工作)  
   

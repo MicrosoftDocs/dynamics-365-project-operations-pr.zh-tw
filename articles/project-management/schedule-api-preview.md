@@ -3,17 +3,17 @@ title: 使用排程 API 對排程實體執行作業
 description: 本主題提供有關使用排程 API 的資訊與範例。
 author: sigitac
 manager: Annbe
-ms.date: 04/07/2021
+ms.date: 04/27/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a50a2c6220bb49de8146d0758019827e120e0526
-ms.sourcegitcommit: 8ff9fe396db6dec581c21cd6bb9acc2691c815b0
+ms.openlocfilehash: e03f4e6c49a835206b23cade3fabe3fd26693441
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5868119"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950794"
 ---
 # <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>使用排程 API 對排程實體執行作業
 
@@ -72,6 +72,190 @@ OperationSet 是工作單位模式，當交易中有數個必須處理的排程�
 
 識別碼屬性可選用。 如果已提供，則系統會嘗試使用，並在無法使用時擲回例外狀況。 如果未提供，則系統會產生此屬性。
 
+## <a name="restricted-fields"></a>受限制的欄位
+
+下表定義受限制無法 **建立** 和 **編輯** 的欄位。
+
+### <a name="project-task"></a>專案工作
+
+| **邏輯名稱**                       | **可以建立** | **可以編輯**     |
+|----------------------------------------|----------------|------------------|
+| msdyn_actualcost                       | 否             | 否               |
+| msdyn_actualcost_base                  | 否             | 否               |
+| msdyn_actualend                        | 否             | 否               |
+| msdyn_actualsales                      | 否             | 否               |
+| msdyn_actualsales_base                 | 否             | 否               |
+| msdyn_actualstart                      | 否             | 否               |
+| msdyn_costatcompleteestimate           | 否             | 否               |
+| msdyn_costatcompleteestimate_base      | 否             | 否               |
+| msdyn_costconsumptionpercentage        | 否             | 否               |
+| msdyn_effortcompleted                  | 否             | 否               |
+| msdyn_effortestimateatcomplete         | 否             | 否               |
+| msdyn_iscritical                       | 否             | 否               |
+| msdyn_iscriticalname                   | 否             | 否               |
+| msdyn_ismanual                         | 否             | 否               |
+| msdyn_ismanualname                     | 否             | 否               |
+| msdyn_ismilestone                      | 否             | 否               |
+| msdyn_ismilestonename                  | 否             | 否               |
+| msdyn_LinkStatus                       | 否             | 否               |
+| msdyn_linkstatusname                   | 否             | 否               |
+| msdyn_msprojectclientid                | 否             | 否               |
+| msdyn_plannedcost                      | 否             | 否               |
+| msdyn_plannedcost_base                 | 否             | 否               |
+| msdyn_plannedsales                     | 否             | 否               |
+| msdyn_plannedsales_base                | 否             | 否               |
+| msdyn_pluginprocessingdata             | 否             | 否               |
+| msdyn_progress                         | 否             | 否 (對 P4W 則是) |
+| msdyn_remainingcost                    | 否             | 否               |
+| msdyn_remainingcost_base               | 否             | 否               |
+| msdyn_remainingsales                   | 否             | 否               |
+| msdyn_remainingsales_base              | 否             | 否               |
+| msdyn_requestedhours                   | 否             | 否               |
+| msdyn_resourcecategory                 | 否             | 否               |
+| msdyn_resourcecategoryname             | 否             | 否               |
+| msdyn_resourceorganizationalunitid     | 否             | 否               |
+| msdyn_resourceorganizationalunitidname | 否             | 否               |
+| msdyn_salesconsumptionpercentage       | 否             | 否               |
+| msdyn_salesestimateatcomplete          | 否             | 否               |
+| msdyn_salesestimateatcomplete_base     | 否             | 否               |
+| msdyn_salesvariance                    | 否             | 否               |
+| msdyn_salesvariance_base               | 否             | 否               |
+| msdyn_scheduleddurationminutes         | 否             | 否               |
+| msdyn_scheduledend                     | 否             | 否               |
+| msdyn_scheduledstart                   | 否             | 否               |
+| msdyn_schedulevariance                 | 否             | 否               |
+| msdyn_skipupdateestimateline           | 否             | 否               |
+| msdyn_skipupdateestimatelinename       | 否             | 否               |
+| msdyn_summary                          | 否             | 否               |
+| msdyn_varianceofcost                   | 否             | 否               |
+| msdyn_varianceofcost_base              | 否             | 否               |
+
+### <a name="project-task-dependency"></a>專案工作相依性
+
+| **邏輯名稱**              | **可以建立** | **可以編輯** |
+|-------------------------------|----------------|--------------|
+| msdyn_linktype                | 否             | 否           |
+| msdyn_linktypename            | 否             | 否           |
+| msdyn_predecessortask         | 是            | 否           |
+| msdyn_predecessortaskname     | 是            | 否           |
+| msdyn_project                 | 是            | 否           |
+| msdyn_projectname             | 是            | 否           |
+| msdyn_projecttaskdependencyid | 是            | 否           |
+| msdyn_successortask           | 是            | 否           |
+| msdyn_successortaskname       | 是            | 否           |
+
+### <a name="resource-assignment"></a>資源指派
+
+| **邏輯名稱**             | **可以建立** | **可以編輯** |
+|------------------------------|----------------|--------------|
+| msdyn_bookableresourceid     | 是            | 否           |
+| msdyn_bookableresourceidname | 是            | 否           |
+| msdyn_bookingstatusid        | 否             | 否           |
+| msdyn_bookingstatusidname    | 否             | 否           |
+| msdyn_committype             | 否             | 否           |
+| msdyn_committypename         | 否             | 否           |
+| msdyn_effort                 | 否             | 否           |
+| msdyn_effortcompleted        | 否             | 否           |
+| msdyn_effortremaining        | 否             | 否           |
+| msdyn_finish                 | 否             | 否           |
+| msdyn_plannedcost            | 否             | 否           |
+| msdyn_plannedcost_base       | 否             | 否           |
+| msdyn_plannedcostcontour     | 否             | 否           |
+| msdyn_plannedsales           | 否             | 否           |
+| msdyn_plannedsales_base      | 否             | 否           |
+| msdyn_plannedsalescontour    | 否             | 否           |
+| msdyn_plannedwork            | 否             | 否           |
+| msdyn_projectid              | 是            | 否           |
+| msdyn_projectidname          | 否             | 否           |
+| msdyn_projectteamid          | 否             | 否           |
+| msdyn_projectteamidname      | 否             | 否           |
+| msdyn_start                  | 否             | 否           |
+| msdyn_taskid                 | 否             | 否           |
+| msdyn_taskidname             | 否             | 否           |
+| msdyn_userresourceid         | 否             | 否           |
+
+### <a name="project-team-member"></a>專案團隊成員
+
+| **邏輯名稱**                                 | **可以建立** | **可以編輯** |
+|--------------------------------------------------|----------------|--------------|
+| msdyn_calendarid                                 | 否             | 否           |
+| msdyn_creategenericteammemberwithrequirementname | 否             | 否           |
+| msdyn_deletestatus                               | 否             | 否           |
+| msdyn_deletestatusname                           | 否             | 否           |
+| msdyn_effort                                     | 否             | 否           |
+| msdyn_effortcompleted                            | 否             | 否           |
+| msdyn_effortremaining                            | 否             | 否           |
+| msdyn_finish                                     | 否             | 否           |
+| msdyn_hardbookedhours                            | 否             | 否           |
+| msdyn_hours                                      | 否             | 否           |
+| msdyn_markedfordeletiontimer                     | 否             | 否           |
+| msdyn_markedfordeletiontimestamp                 | 否             | 否           |
+| msdyn_msprojectclientid                          | 否             | 否           |
+| msdyn_percentage                                 | 否             | 否           |
+| msdyn_requiredhours                              | 否             | 否           |
+| msdyn_softbookedhours                            | 否             | 否           |
+| msdyn_start                                      | 否             | 否           |
+
+### <a name="project"></a>Project
+
+| **邏輯名稱**                       | **可以建立** | **可以編輯** |
+|----------------------------------------|----------------|--------------|
+| msdyn_actualexpensecost                | 否             | 否           |
+| msdyn_actualexpensecost_base           | 否             | 否           |
+| msdyn_actuallaborcost                  | 否             | 否           |
+| msdyn_actuallaborcost_base             | 否             | 否           |
+| msdyn_actualsales                      | 否             | 否           |
+| msdyn_actualsales_base                 | 否             | 否           |
+| msdyn_contractlineproject              | 是            | 否           |
+| msdyn_contractorganizationalunitid     | 是            | 否           |
+| msdyn_contractorganizationalunitidname | 是            | 否           |
+| msdyn_costconsumption                  | 否             | 否           |
+| msdyn_costestimateatcomplete           | 否             | 否           |
+| msdyn_costestimateatcomplete_base      | 否             | 否           |
+| msdyn_costvariance                     | 否             | 否           |
+| msdyn_costvariance_base                | 否             | 否           |
+| msdyn_duration                         | 否             | 否           |
+| msdyn_effort                           | 否             | 否           |
+| msdyn_effortcompleted                  | 否             | 否           |
+| msdyn_effortestimateatcompleteeac      | 否             | 否           |
+| msdyn_effortremaining                  | 否             | 否           |
+| msdyn_finish                           | 是            | 是          |
+| msdyn_globalrevisiontoken              | 否             | 否           |
+| msdyn_islinkedtomsprojectclient        | 否             | 否           |
+| msdyn_islinkedtomsprojectclientname    | 否             | 否           |
+| msdyn_linkeddocumenturl                | 否             | 否           |
+| msdyn_msprojectdocument                | 否             | 否           |
+| msdyn_msprojectdocumentname            | 否             | 否           |
+| msdyn_plannedexpensecost               | 否             | 否           |
+| msdyn_plannedexpensecost_base          | 否             | 否           |
+| msdyn_plannedlaborcost                 | 否             | 否           |
+| msdyn_plannedlaborcost_base            | 否             | 否           |
+| msdyn_plannedsales                     | 否             | 否           |
+| msdyn_plannedsales_base                | 否             | 否           |
+| msdyn_progress                         | 否             | 否           |
+| msdyn_remainingcost                    | 否             | 否           |
+| msdyn_remainingcost_base               | 否             | 否           |
+| msdyn_remainingsales                   | 否             | 否           |
+| msdyn_remainingsales_base              | 否             | 否           |
+| msdyn_replaylogheader                  | 否             | 否           |
+| msdyn_salesconsumption                 | 否             | 否           |
+| msdyn_salesestimateatcompleteeac       | 否             | 否           |
+| msdyn_salesestimateatcompleteeac_base  | 否             | 否           |
+| msdyn_salesvariance                    | 否             | 否           |
+| msdyn_salesvariance_base               | 否             | 否           |
+| msdyn_scheduleperformance              | 否             | 否           |
+| msdyn_scheduleperformancename          | 否             | 否           |
+| msdyn_schedulevariance                 | 否             | 否           |
+| msdyn_taskearlieststart                | 否             | 否           |
+| msdyn_teamsize                         | 否             | 否           |
+| msdyn_teamsize_date                    | 否             | 否           |
+| msdyn_teamsize_state                   | 否             | 否           |
+| msdyn_totalactualcost                  | 否             | 否           |
+| msdyn_totalactualcost_base             | 否             | 否           |
+| msdyn_totalplannedcost                 | 否             | 否           |
+| msdyn_totalplannedcost_base            | 否             | 否           |
+
+
 ## <a name="limitations-and-known-issues"></a>限制和已知問題
 以下是限制和已知問題的清單：
 
@@ -85,12 +269,18 @@ OperationSet 是工作單位模式，當交易中有數個必須處理的排程�
 - Project Operations 目前在專案中最多支援總計 500 個工作。
 - **OperationSet** 失敗狀態和失敗記錄目前未提供。
 - 排程 API 開放公開預覽。 Microsoft 不支援在生產環境中使用這些 API。
+- [專案和工作的限制與界限](/project-for-the-web/project-for-the-web-limits-and-boundaries)
+
+## <a name="error-handling"></a>錯誤處理
+
+   - 若要檢閱由作業集所產生的錯誤，請移至 **設定** \> **排程整合** \> **作業集**。
+   - 若要檢閱專案排程服務所產生的錯誤，請移至 **設定** \> **排程整合** \> **PSS 錯誤記錄**。
 
 ## <a name="sample-scenario"></a>範例案例
 
 在此案例中，您將會建立專案、團隊成員、四個工作和兩個資源指派。 接下來，會更新一項工作、更新專案、刪除一項工作、刪除一個資源指派，以及建立工作相依性。
 
-```C#
+```csharp
 Entity project = CreateProject();
 project.Id = CallCreateProjectAction(project);
 var projectReference = project.ToEntityReference();
@@ -106,18 +296,18 @@ var operationSetId = CallCreateOperationSetAction(project.Id, description);
 var task1 = GetTask("1WW", projectReference);
 var task2 = GetTask("2XX", projectReference, task1.ToEntityReference());
 var task3 = GetTask("3YY", projectReference);
-var task4 = GetTask("4ZZ";, projectReference);
+var task4 = GetTask("4ZZ", projectReference);
 
 var assignment1 = GetResourceAssignment("R1", teamMember, task2, project);
-var assignment2 = GetResourceAssignment"R2", teamMember, task3, project);
+var assignment2 = GetResourceAssignment("R2", teamMember, task3, project);
 
 var task1Response = CallPssCreateAction(task1, operationSetId);
 var task2Response = CallPssCreateAction(task2, operationSetId);
 var task3Response = CallPssCreateAction(task3, operationSetId);
 var task4Response = CallPssCreateAction(task4, operationSetId);
 
-varassignment1Response = CallPssCreateAction(assignment1, operationSetId);
-varassignment2Response = CallPssCreateAction(assignment2, operationSetId);
+var assignment1Response = CallPssCreateAction(assignment1, operationSetId);
+var assignment2Response = CallPssCreateAction(assignment2, operationSetId);
 
 task2["msdyn_subject"] = "Updated Task";
 var task2UpdateResponse = CallPssUpdateAction(task2, operationSetId);
@@ -127,7 +317,7 @@ var projectUpdateResponse = CallPssUpdateAction(project, operationSetId);
 
 var task4DeleteResponse = CallPssDeleteAction(task4.Id.ToString(), task4.LogicalName, operationSetId);
 
-varassignment2DeleteResponse = CallPssDeleteAction(assignment2.Id.ToString(), assignment2.LogicalName, operationSetId);
+var assignment2DeleteResponse = CallPssDeleteAction(assignment2.Id.ToString(), assignment2.LogicalName, operationSetId);
 
 var dependency1 = GetTaskDependency(project, task2, task3);
 var dependency1Response = CallPssCreateAction(dependency1, operationSetId);
@@ -138,16 +328,16 @@ Console.WriteLine("Done....");
 
 ## <a name="additional-samples"></a>其他範例
 
-```C#
-#region Call actions 
+```csharp
+#region Call actions --- Sample code ----
 
-///<summary>
+/// <summary>
 /// Calls the action to create an operationSet
 /// </summary>
-/// <paramname="projectId">project id for the operations to be included in this operationSet>/param>
-/// <paramname="description">description of this operationSet</param>
+/// <param name="projectId">project id for the operations to be included in this operationSet</param>
+/// <param name="description">description of this operationSet</param>
 /// <returns>operationSet id</returns>
-privatestring CallCreateOperationSetAction(Guid projectId, string description)
+private string CallCreateOperationSetAction(Guid projectId, string description)
 {
     OrganizationRequest operationSetRequest = new OrganizationRequest("msdyn_CreateOperationSetV1");
     operationSetRequest["ProjectId"] = projectId.ToString();
@@ -159,9 +349,10 @@ privatestring CallCreateOperationSetAction(Guid projectId, string description)
 /// <summary>
 /// Calls the action to create an entity, only Task and Resource Assignment for now
 /// </summary>
-/// <paramname="entity">Task or Resource Assignment</param>
-/// <paramname="operationSetId">operationSet id</param>
+/// <param name="entity">Task or Resource Assignment</param>
+/// <param name="operationSetId">operationSet id</param>
 /// <returns>OperationSetResponse</returns>
+
 private OperationSetResponse CallPssCreateAction(Entity entity, string operationSetId)
 {
     OrganizationRequest operationSetRequest = new OrganizationRequest("msdyn_PssCreateV1");
@@ -170,11 +361,11 @@ private OperationSetResponse CallPssCreateAction(Entity entity, string operation
     return GetOperationSetResponseFromOrgResponse(organizationService.Execute(operationSetRequest));
 }
 
-/// <summary<
+/// <summary>
 /// Calls the action to update an entity, only Task for now
 /// </summary>
-/// <paramname="entity">Task or Resource Assignment</param>
-/// <paramname="operationSetId">operationSet Id</param>
+/// <param name="entity">Task or Resource Assignment</param>
+/// <param name="operationSetId">operationSet Id</param>
 /// <returns>OperationSetResponse</returns>
 private OperationSetResponse CallPssUpdateAction(Entity entity, string operationSetId)
 {
@@ -186,10 +377,10 @@ private OperationSetResponse CallPssUpdateAction(Entity entity, string operation
 
 /// <summary>
 /// Calls the action to update an entity, only Task and Resource Assignment for now
-/// <summary>
-/// <paramname="recordId">Id of the record to be deleted</param>
-/// <paramname="entityLogicalName">Entity logical name of the record</param>
-/// <paramname="operationSetId">OperationSet Id</param>
+/// </summary>
+/// <param name="recordId">Id of the record to be deleted</param>
+/// <param name="entityLogicalName">Entity logical name of the record</param>
+/// <param name="operationSetId">OperationSet Id</param>
 /// <returns>OperationSetResponse</returns>
 private OperationSetResponse CallPssDeleteAction(string recordId, string entityLogicalName, string operationSetId)
 {
@@ -202,8 +393,8 @@ private OperationSetResponse CallPssDeleteAction(string recordId, string entityL
 
 /// <summary>
 /// Calls the action to execute requests in an operationSet
-/// <summary>
-/// <paramname="operationSetId">operationSet id</param>
+/// </summary>
+/// <param name="operationSetId">operationSet id</param>
 /// <returns>OperationSetResponse</returns>
 private OperationSetResponse CallExecuteOperationSetAction(string operationSetId)
 {
@@ -215,7 +406,7 @@ private OperationSetResponse CallExecuteOperationSetAction(string operationSetId
 /// <summary>
 /// This can be used to abandon an operationSet that is no longer needed
 /// </summary>
-/// <paramname="operationSetId">operationSet id</param>
+/// <param name="operationSetId">operationSet id</param>
 /// <returns>OperationSetResponse</returns>
 protected OperationSetResponse CallAbandonOperationSetAction(Guid operationSetId)
 {
@@ -224,27 +415,27 @@ protected OperationSetResponse CallAbandonOperationSetAction(Guid operationSetId
     return GetOperationSetResponseFromOrgResponse(organizationService.Execute(operationSetRequest));
 }
 
+
 /// <summary>
 /// Calls the action to create a new project
 /// </summary>
-/// <paramname="project">Project</param>
+/// <param name="project">Project</param>
 /// <returns>project Id</returns>
 private Guid CallCreateProjectAction(Entity project)
 {
-    OrganizationRequest createProjectRequest = new OrganizationRequest("msdyn_CreateProjectV1";
+    OrganizationRequest createProjectRequest = new OrganizationRequest("msdyn_CreateProjectV1");
     createProjectRequest["Project"] = project;
     OrganizationResponse response = organizationService.Execute(createProjectRequest);
     var projectId = Guid.Parse((string)response["ProjectId"]);
-
     return projectId;
 }
 
 /// <summary>
 /// Calls the action to create a new project team member
 /// </summary>
-/// <paramname="teamMember">Project team member</param>
+/// <param name="teamMember">Project team member</param>
 /// <returns>project team member Id</returns>
-privatestring CallCreateTeamMemberAction(Entity teamMember)
+private string CallCreateTeamMemberAction(Entity teamMember)
 {
     OrganizationRequest request = new OrganizationRequest("msdyn_CreateTeamMemberV1");
     request["TeamMember"] = teamMember;
@@ -254,13 +445,12 @@ privatestring CallCreateTeamMemberAction(Entity teamMember)
 
 private OperationSetResponse GetOperationSetResponseFromOrgResponse(OrganizationResponse orgResponse)
 {
-    return JsonConvert.DeserializeObject><OperationSetResponse>
-    ((string)orgResponse.Results["OperationSetResponse";]);
+    return JsonConvert.DeserializeObject<OperationSetResponse>((string)orgResponse.Results["OperationSetResponse"]);
 }
 
 private EntityCollection GetDefaultBucket(EntityReference projectReference)
 {
-    var columnsToFetch = new ColumnSet(";msdyn_project", "msdyn_name");
+    var columnsToFetch = new ColumnSet("msdyn_project", "msdyn_name");
     var getDefaultBucket = new QueryExpression("msdyn_projectbucket")
     {
         ColumnSet = columnsToFetch,
@@ -273,6 +463,7 @@ private EntityCollection GetDefaultBucket(EntityReference projectReference)
             }
         }
     };
+
     return organizationService.RetrieveMultiple(getDefaultBucket);
 }
 
@@ -281,7 +472,7 @@ private Entity GetBucket(EntityReference projectReference)
     var bucketCollection = GetDefaultBucket(projectReference);
     if (bucketCollection.Entities.Count > 0)
     {
-    return bucketCollection[0].ToEntity<Entity>();
+        return bucketCollection[0].ToEntity<Entity>();
     }
 
     throw new Exception($"Please open project with id {projectReference.Id} in the Dynamics UI and navigate to the Tasks tab");
@@ -291,15 +482,18 @@ private Entity CreateProject()
 {
     var project = new Entity("msdyn_project", Guid.NewGuid());
     project["msdyn_subject"] = $"Proj {DateTime.Now.ToShortTimeString()}";
+
     return project;
 }
+
+
 
 private Entity GetTask(string name, EntityReference projectReference, EntityReference parentReference = null)
 {
     var task = new Entity("msdyn_projecttask", Guid.NewGuid());
     task["msdyn_project"] = projectReference;
     task["msdyn_subject"] = name;
-    task["msdyn_effort";] = 4d;
+    task["msdyn_effort"] = 4d;
     task["msdyn_scheduledstart"] = DateTime.Today;
     task["msdyn_scheduledend"] = DateTime.Today.AddDays(5);
     task["msdyn_progress"] = 0.34m;
@@ -309,10 +503,10 @@ private Entity GetTask(string name, EntityReference projectReference, EntityRefe
 
     //Custom field handling
     /*
-        task["new_custom1"] = "Just my test";
-        task[";new_age"] = 98;
-        task["new_amount"] = 591.34m;
-        task["new_isready"] = new OptionSetValue(100000000);
+    task["new_custom1"] = "Just my test";
+    task["new_age"] = 98;
+    task["new_amount"] = 591.34m;
+    task["new_isready"] = new OptionSetValue(100000000);
     */
 
     if (parentReference == null)
@@ -323,6 +517,7 @@ private Entity GetTask(string name, EntityReference projectReference, EntityRefe
     {
         task["msdyn_parenttask"] = parentReference;
     }
+
     return task;
 }
 
@@ -335,6 +530,7 @@ private Entity GetResourceAssignment(string name, Entity teamMember, Entity task
     assignment["msdyn_name"] = name;
     assignment["msdyn_start"] = DateTime.Now;
     assignment["msdyn_finish"] = DateTime.Now;
+
     return assignment;
 }
 
@@ -345,30 +541,32 @@ protected Entity GetTaskDependency(Entity project, Entity predecessor, Entity su
     taskDependency["msdyn_predecessortask"] = predecessor.ToEntityReference();
     taskDependency["msdyn_successortask"] = successor.ToEntityReference();
     taskDependency["msdyn_linktype"] = new OptionSetValue(192350000);
+
     return taskDependency;
 }
 
 #endregion
 
+
 #region OperationSetResponse DataContract --- Sample code ----
 
 [DataContract]
-publicclassOperationSetResponse
+public class OperationSetResponse
 {
-    [DataMember(Name = "operationSetId")]
-    public Guid OperationSetId { get; set; }
+[DataMember(Name = "operationSetId")]
+public Guid OperationSetId { get; set; }
 
-    [DataMember(Name = "operationSetDetailId")]
-    public Guid OperationSetDetailId { get; set; }
+[DataMember(Name = "operationSetDetailId")]
+public Guid OperationSetDetailId { get; set; }
 
-    [DataMember(Name = "operationType")]
-    publicstring OperationType { get; set; }
+[DataMember(Name = "operationType")]
+public string OperationType { get; set; }
 
-    [DataMember(Name = "recordId")]
-    publicstring RecordId { get; set; }
+[DataMember(Name = "recordId")]
+public string RecordId { get; set; }
 
-    [DataMember(Name = "correlationId")]
-    publicstring CorrelationId { get; set; }
+[DataMember(Name = "correlationId")]
+public string CorrelationId { get; set; }
 }
 
 #endregion

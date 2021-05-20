@@ -3,17 +3,17 @@ title: 管理專案發票提案
 description: 本主題提供有關使用資源/非庫存型案例適用的 Project Operations 處理客戶面向發票的詳細資料。
 author: sigitac
 manager: Annbe
-ms.date: 01/29/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4e663a9a0ca5b197e556d8c36233ab25affda876
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6b8eacf2b43219a9adad897637b78a9c94351554
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275843"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950704"
 ---
 # <a name="manage-project-invoice-proposals"></a>管理專案發票提案
 
@@ -80,7 +80,8 @@ Dataverse 中的未開單交易貨幣會在 Finance 中用作交易貨幣，並�
     - **客戶** 永遠預設使用客戶的帳單銷售稅金群組。
     - **搜尋** 將會在此清單所有的實體中搜尋，並選取第一個可用的值。 搜尋先從 **專案** 實體開始，接著是 **專案合約** 實體，然後是 **客戶** 實體。
 
-- **固定價格里程碑項目銷售稅金群組** 會用來設定 **項目銷售稅金群組** 欄位的預設值。
+- **固定價格里程碑項目銷售稅金群組** 會做為帳單里程碑的 **項目銷售稅金群組** 欄位預設值。 會計師可以在 **記帳交易** 頁面上審查和修改此值。 建立專案發票提案明細時，系統會使用記帳交易中的值。
+ 
 
 ### <a name="financial-dimensions"></a>財務維度
 
@@ -132,7 +133,7 @@ Dataverse 中的未開單交易貨幣會在 Finance 中用作交易貨幣，並�
 
 列印管理使用不同的報表檔案來列印、指定目的地，以及自訂發票的頁尾文字。 您可以在模組層級設定列印管理，但是可以針對特定客戶、合約或發票提案覆寫這些設定。 若要在 **專案發票提案** 頁面上存取此功能，請選取 **列印** > **列印管理**。
 
-列印管理安裝程式會顯示為樹狀檢視，其中每個節點層級都會顯示要調整的可用文件。 您可以在模組、客戶、合約或發票提案文件層級指派自訂列印成品。 若要修改原始檔案列印成品，請展開所需的節點，然後選取 **原始項目**。 在 **報表格式** 欄位中，選取要用於列印的報表格式。 您可以透過[商務文件管理架構](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management)來使用自訂報表格式。
+列印管理安裝程式會顯示為樹狀檢視，其中每個節點層級都會顯示要調整的可用文件。 您可以在模組、客戶、合約或發票提案文件層級指派自訂列印成品。 若要修改原始檔案列印成品，請展開所需的節點，然後選取 **原始項目**。 在 **報表格式** 欄位中，選取要用於列印的報表格式。 您可以透過[商務文件管理架構](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management)來使用自訂報表格式。
 
 ## <a name="post-invoice-proposals"></a>將發票提案過帳
 

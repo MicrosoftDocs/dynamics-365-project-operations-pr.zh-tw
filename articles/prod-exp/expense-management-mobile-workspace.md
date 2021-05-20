@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 2d257ced3dadb320c501bfd5f64dcd8f21c1a4d3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cc19297131937949fe6f7eed00ee66fb5e3bff13
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272018"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950469"
 ---
 # <a name="expense-management-mobile-workspace"></a>費用管理行動工作區
 
@@ -58,7 +58,7 @@ ms.locfileid: "5272018"
 視組織已部署的版本而定，先決條件會有所不同。
 
 ### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>使用 Dynamics 365 Finance 時的先決條件 
-如果您的組織已部署 Finance，則系統系統管理員必須發佈 **費用管理** 行動工作區。 如需指示，請參閱[發佈行動工作區](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace)。
+如果您的組織已部署 Finance，則系統系統管理員必須發佈 **費用管理** 行動工作區。 如需指示，請參閱[發佈行動工作區](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace)。
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>使用版本 1611 (含平台更新 3) 或更新版本時的先決條件
 如果您的組織已部署版本 1611 (含平台更新 3) 或更新版本，則系統系統管理員必須完成下列先決條件。 
@@ -77,16 +77,16 @@ ms.locfileid: "5272018"
 <td>系統管理員</td>
 <td>KB 4019015 是包含<strong>費用管理</strong>行動工作區的 X++ 更新或中繼資料 Hotfix。 若要實作 KB 4019015，您的系統系統管理員必須依照下列步驟進行。
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#download-the-hotfix-from-lcs">從 Microsoft Dynamics Lifecycle Services (LCS) 下載中繼資料 Hotfix</a>。</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#install-the-metadata-hotfix-package">安裝中繼資料 Hotfix</a>。</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">建立的可部署套件</a> (內含 <strong>ApplicationSuite</strong> 和 <strong>ExpenseMobile</strong> 模型)，然後將可部署套件上傳至 LCS。</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">套用可部署套件</a>。</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#download-the-hotfix-from-lcs">從 Microsoft Dynamics Lifecycle Services (LCS) 下載中繼資料 Hotfix</a>。</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#install-the-metadata-hotfix-package">安裝中繼資料 Hotfix</a>。</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">建立的可部署套件</a> (內含 <strong>ApplicationSuite</strong> 和 <strong>ExpenseMobile</strong> 模型)，然後將可部署套件上傳至 LCS。</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">套用可部署套件</a>。</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>傳回<strong>費用管理</strong>行動工作區。</td>
 <td>系統管理員</td>
-<td>請參閱<a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">發佈行動工作區</a>。</td>
+<td>請參閱<a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">發佈行動工作區</a>。</td>
 </tr>
 </tbody>
 </table>
@@ -128,11 +128,11 @@ ms.locfileid: "5272018"
 ## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>使用費用管理行動工作區快速輸入費用
 1. 在行動裝置上，開啟 **費用管理** 工作區。
 2. 選取 **快速費用輸入**。
-3. 選取費用的類別。 您會看到已載入至應用程式供離線使用的費用類別清單。 預設會載入 50 個項目，但是開發人員可以變更此數目。 如需詳細資訊，開發人員應參閱[平台行動](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page)。 如果您的類別不在清單中，請選取 **搜尋** 進行線上搜尋。 依費用類別搜尋，或切換為依費用類型進行搜尋。
+3. 選取費用的類別。 您會看到已載入至應用程式供離線使用的費用類別清單。 預設會載入 50 個項目，但是開發人員可以變更此數目。 如需詳細資訊，開發人員應參閱[平台行動](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page)。 如果您的類別不在清單中，請選取 **搜尋** 進行線上搜尋。 依費用類別搜尋，或切換為依費用類型進行搜尋。
 4. 輸入費用的交易日期。
 5. 選擇性：輸入費用的商家。
 6. 輸入費用的金額。
-7. 選取費用的貨幣。 您會看到已載入至應用程式供離線使用的貨幣代碼清單。 預設會載入 400 種貨幣，但是開發人員可以變更此數目。 如需詳細資訊，開發人員應參閱[平台行動](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page)。 如果您的貨幣不在清單中，請選取 **搜尋** 進行線上搜尋。 依貨幣搜尋，或切換為依名稱進行搜尋。
+7. 選取費用的貨幣。 您會看到已載入至應用程式供離線使用的貨幣代碼清單。 預設會載入 400 種貨幣，但是開發人員可以變更此數目。 如需詳細資訊，開發人員應參閱[平台行動](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page)。 如果您的貨幣不在清單中，請選取 **搜尋** 進行線上搜尋。 依貨幣搜尋，或切換為依名稱進行搜尋。
 8. 選取 **拍攝相片** 或 **選擇影像**。
 9. 依照下列其中一個驟操作︰
 
@@ -163,11 +163,11 @@ ms.locfileid: "5272018"
 7. 選取清單中的一項或多項費用。
 8. 選取 **完成**。
 9. 若要將新費用新增至費用報表，請選取 **新增費用**。
-10. 選取費用的類別。 您會看到已載入至應用程式供離線使用的費用類別清單。 預設會載入 50 個項目，但是開發人員可以變更此數目。 如需詳細資訊，開發人員應參閱[平台行動](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page)。 如果您的類別不在清單中，請選取 **搜尋** 進行線上搜尋。 依費用類別搜尋，或切換為依費用類型進行搜尋。
+10. 選取費用的類別。 您會看到已載入至應用程式供離線使用的費用類別清單。 預設會載入 50 個項目，但是開發人員可以變更此數目。 如需詳細資訊，開發人員應參閱[平台行動](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page)。 如果您的類別不在清單中，請選取 **搜尋** 進行線上搜尋。 依費用類別搜尋，或切換為依費用類型進行搜尋。
 11. 選擇性：輸入費用的商家。
 12. 輸入費用的交易日期。
 13. 輸入費用的金額。
-14. 選取費用的貨幣。 您會看到已載入至應用程式供離線使用的貨幣代碼清單。 預設會載入 400 種貨幣，但是開發人員可以變更此數目。 如需詳細資訊，開發人員應參閱[平台行動](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page)。 如果您的貨幣不在清單中，請選取 **搜尋** 進行線上搜尋。 依貨幣搜尋，或切換為依名稱進行搜尋。
+14. 選取費用的貨幣。 您會看到已載入至應用程式供離線使用的貨幣代碼清單。 預設會載入 400 種貨幣，但是開發人員可以變更此數目。 如需詳細資訊，開發人員應參閱[平台行動](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page)。 如果您的貨幣不在清單中，請選取 **搜尋** 進行線上搜尋。 依貨幣搜尋，或切換為依名稱進行搜尋。
 15. 選取 **完成**。
 16. 若要將更多詳細資料新增至費用，請選取 **新增更多詳細資料**。 可用的欄位取決於公司的費用管理設定。
 17. 如果公司原則需要費用的收據，請選取 **收據**，然後執行下列步驟：
@@ -213,12 +213,12 @@ ms.locfileid: "5272018"
 
         - 如果選取了 **先前來賓**，請執行下列步驟：
 
-            1. 選取清單中的一個或多個先前來賓。 您會看到已載入至應用程式供離線使用的先前來賓清單 (這些來賓已新增至先前的費用報表)。 預設會載入 50 個項目，但是開發人員可以變更此數目。 如需詳細資訊，開發人員應參閱[平台行動](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page)。 如果您的先前來賓不在清單中，請選取 **搜尋** 進行線上搜尋。 依姓名搜尋，或切換為依組織、國家/地區或職稱進行搜尋。
+            1. 選取清單中的一個或多個先前來賓。 您會看到已載入至應用程式供離線使用的先前來賓清單 (這些來賓已新增至先前的費用報表)。 預設會載入 50 個項目，但是開發人員可以變更此數目。 如需詳細資訊，開發人員應參閱[平台行動](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page)。 如果您的先前來賓不在清單中，請選取 **搜尋** 進行線上搜尋。 依姓名搜尋，或切換為依組織、國家/地區或職稱進行搜尋。
             2. 選取 **完成**。
 
         - 如果選取了 **同事**，請執行下列步驟：
 
-            1. 選取清單中的一個或多個同事。 您會看到已載入至應用程式供離線使用的同事清單。 預設會載入 50 個項目，但是開發人員可以變更此數目。 如需詳細資訊，開發人員應參閱[平台行動](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page)。 如果您的同事不在清單中，請選取 **搜尋** 進行線上搜尋。 依姓名搜尋，或切換為依公司或職稱進行搜尋。
+            1. 選取清單中的一個或多個同事。 您會看到已載入至應用程式供離線使用的同事清單。 預設會載入 50 個項目，但是開發人員可以變更此數目。 如需詳細資訊，開發人員應參閱[平台行動](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page)。 如果您的同事不在清單中，請選取 **搜尋** 進行線上搜尋。 依姓名搜尋，或切換為依公司或職稱進行搜尋。
             2. 選取 **完成**。
 
     3. 選取 **返回** 按鈕回到費用詳細資料。
@@ -227,7 +227,7 @@ ms.locfileid: "5272018"
 
     1. 選取要逐條列舉的第一個日期。
     2. 選取 **新增逐條列舉項目**。
-    3. 選取費用逐條列舉項目的子類別。 您會看到已載入至應用程式供離線使用的費用子類別清單。 預設會載入 50 個項目，但是開發人員可以變更此數目。 如需詳細資訊，開發人員應參閱[平台行動](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page)。 如果您的子類別不在清單中，請選取 **搜尋** 進行線上搜尋。 依費用子類別名稱進行搜尋。
+    3. 選取費用逐條列舉項目的子類別。 您會看到已載入至應用程式供離線使用的費用子類別清單。 預設會載入 50 個項目，但是開發人員可以變更此數目。 如需詳細資訊，開發人員應參閱[平台行動](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page)。 如果您的子類別不在清單中，請選取 **搜尋** 進行線上搜尋。 依費用子類別名稱進行搜尋。
     4. 輸入逐條列舉項目的交易金額。
     5. 若有必要，請編輯交易日期。
     6. 選取 **完成**。

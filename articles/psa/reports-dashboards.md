@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1e66177e92e701c2dc09bed005f748ca19ae980d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ad5c5deca1964d57f22459c129f9936be0c30fde
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283358"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951514"
 ---
 # <a name="dashboards"></a>儀表板
 
@@ -35,7 +35,7 @@ Dynamics 365 Project Service Automation 包含兩個系統儀表板：**實務�
 
 ## <a name="practice-manager"></a>實務經理 
 
-**實務經理** 儀表板提供實務經理用於追蹤成本、銷售及毛利率和使用率的圖形化儀表板體驗。 此儀表板也會讓實務經理依據各種維度 (例如客戶、專案或資源角色) 來分割資訊。 如需有關如何建立自訂儀表板的詳細資訊，請參閱[建立或編輯儀表板](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)。
+**實務經理** 儀表板提供實務經理用於追蹤成本、銷售及毛利率和使用率的圖形化儀表板體驗。 此儀表板也會讓實務經理依據各種維度 (例如客戶、專案或資源角色) 來分割資訊。 如需有關如何建立自訂儀表板的詳細資訊，請參閱[建立或編輯儀表板](/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)。
 
 ## <a name="resource-manager"></a>資源管理員 
 

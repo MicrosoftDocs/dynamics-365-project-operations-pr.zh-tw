@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f0a234f96419bac58cd932a082010da672e7dcb5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 329923e6d47fd36881aea8db8eba41a868829220
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282638"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951424"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>排程專案的資源 (Project Service)
 
@@ -35,7 +35,7 @@ ms.locfileid: "5282638"
   
 排程面板會顯示資源清單及其可用性。 選取檢視模式，依 **小時**、**日**、**週** 或 **月** 顯示可用性。  
   
-在您使用排程面版之前，務必將它設定好。 如需詳細資訊，請參閱[設定排程面板 (Field Service 或 Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board)。
+在您使用排程面版之前，務必將它設定好。 如需詳細資訊，請參閱[設定排程面板 (Field Service 或 Project Service Automation)](/dynamics365/field-service/configure-schedule-board)。
   
 如果您使用的是舊版，請參閱[檢視資源可用性](../psa/view-resource-availability.md)以了解資源可用性。  
 

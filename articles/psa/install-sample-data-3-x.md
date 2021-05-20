@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 377e50fc5772c4dc146ccee098bf2806bbc8c6b7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c521fb4000b4856fc5c2fbf3275bf3b3e0dfa458
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275078"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950569"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Project Service 應用程式的範例資料安裝
 
@@ -149,7 +149,7 @@ Project Service 及 Field Service 的範例資料安裝程式是以自動解壓�
 
 5. 第一個使用者的行事曆 (在 **userstocreateandconfigure** 標籤中) 會在匯入示範資料時，用來填入所有可預約資源的工作時數。 瀏覽至 **設定** > **安全性** > **使用者**、尋找您 "Spencer Low" 使用者，然後開啟 [工作時數] 選項。 編輯現有的工作時數，並選取 **從開始到結束整個週期性每週排程** 選項。 確認 **工作時數設定為星期一至星期五上午 8 時 - 下午 5 時 (9 小時)，以及時區設定為太平洋時間 (美國和加拿大)**。 必須這樣才能確保專案及排程面板如預期般顯示。
 
-**建議：** 考慮立即建立您組織的資料備份，以防範例資料安裝過程中發生錯誤時，您需要回復到起始點。 如需詳細資訊，請參閱[備份與還原執行個體](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances)。
+**建議：** 考慮立即建立您組織的資料備份，以防範例資料安裝過程中發生錯誤時，您需要回復到起始點。 如需詳細資訊，請參閱[備份與還原執行個體](/dynamics365/customer-engagement/admin/backup-restore-instances)。
 
 ## <a name="run-the-package-deployer"></a>執行 Package Deployer
 

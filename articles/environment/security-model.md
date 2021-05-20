@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 3f65d13809fef342be8bec682c11d95c4d9e9b19
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8acaa86dec8ebca8f9850877d345e30be3e3a919
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276788"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951199"
 ---
 # <a name="security-model"></a>安全性模型
 
@@ -58,7 +58,7 @@ Project 網頁版會自動在指派時將使用者新增至群組。
 
 Project Operations 不會透過隱含式動作建立群組，只會透過按下群組的明確動作這樣做。
 
-**群組管理** 對話方塊中的群組成員搜尋，僅限於已設定為環境安全性群組之一部分的人員。 如需詳細資訊，請參閱[控制使用者對環境的存取：安全性群組和授權](https://docs.microsoft.com/power-platform/admin/control-user-access)。
+**群組管理** 對話方塊中的群組成員搜尋，僅限於已設定為環境安全性群組之一部分的人員。 如需詳細資訊，請參閱[控制使用者對環境的存取：安全性群組和授權](/power-platform/admin/control-user-access)。
 
 ![群組模式](./media/groupsmode.png)
 
@@ -70,7 +70,7 @@ Project Operations 不會透過隱含式動作建立群組，只會透過按下�
 ## <a name="deployment-recommendation"></a>部署建議
 隨著 Office 群組共同作業模型的演變，將會不斷新增功能，與時俱進地提供更精細的控制。 現今部署 Project Operations 的使用者，最好還是將重點放在傳統 Microsoft Dynamics 365 安全性模型上。
 
-如需詳細資訊，請參閱 [Common Data Service 中的安全性](https://docs.microsoft.com/power-platform/admin/wp-security)。
+如需詳細資訊，請參閱 [Common Data Service 中的安全性](/power-platform/admin/wp-security)。
 
 ## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Project Operations 和 Microsoft Dynamics 365 Finance 安全性
 Project Operations 包含下列角色：
@@ -78,7 +78,7 @@ Project Operations 包含下列角色：
 - 專案經理
 - 專案會計師
 
-如需有關 Finance 中安全性的詳細資訊，請參閱[角色型安全性](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security)。
+如需有關 Finance 中安全性的詳細資訊，請參閱[角色型安全性](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security)。
 
 
 
