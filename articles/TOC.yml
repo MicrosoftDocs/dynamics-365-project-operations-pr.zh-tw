@@ -52,6 +52,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: 新增功能
       items:
+        - name: 2021 年 5 月 - 資源/非庫存型案例適用的 Project Operations
+          href: whats-new/whats-new-may-2021-resource-based.md
         - name: 2021 年 4 月 - 資源/非庫存型案例適用的 Project Operations
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: 2021 年 3 月 - 資源/非庫存型案例適用的 Project Operations
@@ -374,6 +376,8 @@
               href: expense/set-up-credit-card-integration.md
             - name: 設定費用類別
               href: expense/set-up-expense-categories.md
+            - name: 使用里程費率層級來設定里程
+              href: expense/set-up-mileage.md
         - name: 個人費用
           href: expense/personal-expenses-expense-report.md
         - name: 公司間費用
@@ -508,6 +512,8 @@
           href: environment/security-model.md
     - name: 新增功能
       items:
+        - name: 2021 年 5 月新增功能 - 精簡部署
+          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: 2021 年 4 月新增功能 - 精簡部署
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: 2021 年 3 月新增功能 - 精簡部署
@@ -1028,6 +1034,8 @@
       items:
         - name: Project Service 3.x 的更新發行排程
           href: psa/version-history-ps.md
+        - name: 更新版本 32 V3 的新功能或變更
+          href: psa/whats-new-ur-32.md
         - name: 更新版本 31 V3 的新功能或變更
           href: psa/whats-new-ur-31.md
         - name: 更新版本 30 V3 的新功能或變更
@@ -1266,27 +1274,29 @@
               href: psa/time-entry-calendar.md
             - name: 自訂每週時間項目
               href: psa/time-entry-extensibility-v3.md
+            - name: 核准集
+              href: psa/approval-set.md
     - name: 常見問題與疑難排解 (3.x)
       items:
-        - name: 為什麼費用成本實際值上的價格會預設為零?
+        - name: 為什麼費用成本實際值上的價格會預設為零？
           href: psa/FAQ-zero-price-expense-cost-actuals.md
-        - name: 為什麼費用銷售實際值上的價格會預設為零?
+        - name: 為什麼費用銷售實際值上的價格會預設為零？
           href: psa/FAQ-zero-price-expense-sales-actuals.md
-        - name: 為什麼時間成本實際值上的價格會預設為零?
+        - name: 為什麼時間成本實際值上的價格會預設為零？
           href: psa/FAQ-zero-price-time-cost-actuals.md
-        - name: 為什麼時間銷售實際值上的價格會預設為零?
+        - name: 為什麼時間銷售實際值上的價格會預設為零？
           href: psa/FAQ-zero-price-time-sales-actuals.md
-        - name: 為什麼我無法從實際值實體刪除記錄?
+        - name: 為什麼我無法從實際值實體刪除記錄？
           href: psa/FAQ-deleting-actuals.md
     - name: Project Service Automation 2.x 和 1.x
       items:
         - name: 常見問題與疑難排解
           items:
-            - name: 如何將資源指派給工作 (應用程式 2.x 版)?
+            - name: 如何將資源指派給工作 (應用程式 2.x 版)？
               href: psa/FAQ-assign-resources-to-tasks-in-web-app.md
-            - name: 如何進行資源的「未確認預約」(應用程式 2.x 版)?
+            - name: 如何進行資源的「未確認預約」(應用程式 2.x 版)？
               href: psa/FAQ-soft-book-in-web-app.md
-            - name: 如何自訂專案階段商務程序流程?
+            - name: 如何自訂專案階段商務程序流程？
               href: psa/FAQ-customize-bpf.md
             - name: 分工結構圖升級考量
               href: psa/upgrade-considerations-tasks.md
