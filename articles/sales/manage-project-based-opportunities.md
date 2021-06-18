@@ -2,18 +2,16 @@
 title: 管理專案型商機
 description: 本主題提供有關如何使用與專案相關之商機的資訊。
 author: rumant
-manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5ce9ad1458d338d63469c3d6fddb98b9cbbced31
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: aebff4d3a94735e76bcb9cafd25a058207dae846
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948365"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5996331"
 ---
 # <a name="manage-project-based-opportunities"></a>管理專案型商機
 

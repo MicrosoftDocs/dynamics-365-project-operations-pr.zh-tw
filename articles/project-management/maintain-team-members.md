@@ -2,18 +2,16 @@
 title: 維護團隊成員
 description: 本主題提供有關將具名可預約資源預約給專案團隊以及將這些資源指派至工作的資訊。
 author: ruhercul
-manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 60b6788d881518502d314e9ee5daf6bbc0ae8764
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 00312c5a701768e0042e7e0236477c192690ded3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286823"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998626"
 ---
 # <a name="maintain-team-members"></a>維護團隊成員
 

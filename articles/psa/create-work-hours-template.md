@@ -2,8 +2,6 @@
 title: 建立工作時數範本
 description: 本主題說明如何建立 Project Service 中的工作時數範本。
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 105e3cb2ef7b904e96dc21013906e0b7444e3b88
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981245"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997186"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>建立工作時數範本 (Project Service)
 
@@ -51,7 +49,7 @@ ms.locfileid: "5981245"
 
 1. 移至 **資源** \> **資源**。
 2. 建立要在行事曆範本中參考的新資源，或選取現有的資源。
-3. 選擇 資源的 **工作時數** 索引標籤，並完成[設定資源的工作時數](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource)中的指示以設定行事曆規則。
+3. 選擇 資源的 **工作時數** 索引標籤，並完成[設定資源的工作時數](/dynamics365/field-service/set-work-hours-resource.md)中的指示以設定行事曆規則。
 
 **建立新的行事曆範本**
 
