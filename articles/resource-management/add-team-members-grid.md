@@ -2,18 +2,16 @@
 title: 從團隊成員網格新增團隊成員
 description: 本主題提供有關如何管理團隊成員資源的資訊。
 author: ruhercul
-manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: cacf3913c3893dd09509cd02361c4a21bed59825
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 95f9e1d836e49672cfb51ace59aa77ea9da65b35
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5280073"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998851"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>從團隊成員網格新增團隊成員
 

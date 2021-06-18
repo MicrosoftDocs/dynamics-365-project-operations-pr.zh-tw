@@ -2,8 +2,6 @@
 title: 管理 Office 365 行事曆中的專案和預約
 description: 如何管理 Office 365 行事曆中的專案和預約
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f9ebfadf8a331fd6a8a86a9cc040dc8957db3b82
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 575f3c94f886d12717496445d0e6357fdc01246b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950299"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000381"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>管理行事曆中的專案和預約 (Project Service)
 

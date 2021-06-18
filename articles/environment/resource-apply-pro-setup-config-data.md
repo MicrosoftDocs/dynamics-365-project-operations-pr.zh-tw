@@ -2,18 +2,16 @@
 title: 在 Common Data Service 中設定和套用設定資料
 description: 本主題提供有關在 Project Operations 中設定和套用示範設定的資訊。
 author: sigitac
-manager: Annbe
-ms.date: 11/04/2020
+ms.date: 05/10/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1651d3b3b85d3dc581bf61976fada249bafd6b7b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2ea00df6112fb69b61f1889463424fdfee79aec9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289809"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001281"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>在 Common Data Service 中設定和套用設定資料 
 
@@ -23,7 +21,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 ## <a name="prerequisites"></a>先決條件
 
-在您開始在 Common Data Service (CDS) 中設定資料之前，必須符合下列先決條件：
+開始設定 Common Data Service (CDS) 中的資料之前，必須符合下列先決條件：
 
 1.  為 Project Operations 設定 CDS 環境以及 Dynamics 365 Finance 環境。
 2.  來自 Dynamics 365 Finance 環境的法律實體已與 CDS 環境共用。 這表示 CDS 中的 **公司** 實體有下列公司記錄：
@@ -33,7 +31,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 ## <a name="install-setup-and-configuration-data"></a>安裝設定和設定資料
 
-1. 下載、解除封鎖和解壓縮[設定和設定資料套件](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip)。
+1. 下載、解除封鎖和解壓縮[設定和設定資料套件](https://download.microsoft.com/download/e/2/d/e2da6c98-d5dd-450c-aabe-fd6bf2ba374b/ProjOpsSampleSetupData-%20Integrated%20Latest.zip)。
 2. 瀏覽至解壓縮後的資料夾，並執行可執行檔 *DataMigrationUtility*。
 3. 在 Common Data Service 設定移轉 (CMT) 精靈的第 1 頁中，選取 **匯入資料**，然後選取 **繼續**。
 
@@ -57,13 +55,20 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 ![匯入資料​​](./media/5ImportData.png)
 
 10. 視您的網路速度而定，匯入將會執行約二至十分鐘。 匯入完成後，結束 CMT 精靈。 
-11. 檢查您的組織中是否有下列 19 個實體的資料：
+11. 檢查您的組織中是否有下列 26 個實體的資料：
 
   - 貨幣
+  - 會計科目表
+  - 會計行事曆
+  - 貨幣匯率類型
+  - 付款日
+  - 付款排程
+  - 付款條件
   - 組織單位
   - 連絡人
   - 課稅群組
   - 客戶群組
+  - 廠商群組
   - 單位
   - 單位群組
   - 價目表
