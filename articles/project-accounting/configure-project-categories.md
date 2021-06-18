@@ -2,18 +2,16 @@
 title: 設定專案類別
 description: 本主題提供有關設定專案類別的資訊。
 author: sigitac
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b7adf61a82714a0148d9c8b1d2b2b37fd611c1cf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d82302f12ba75a92f2de0e9746ad7e61ce0cdc6b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287498"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995161"
 ---
 # <a name="configure-project-categories"></a>設定專案類別
 
@@ -29,7 +27,7 @@ Project Operations 提供可在專案中分類營收及費用的強大功能。 
 
 ## <a name="transaction-categories"></a>交易類別
 
-交易類別代表專案交易的基本群組，並非特定公司或交易類型的專屬類別。 例如，Contoso Robotics 會使用設計、差旅、安裝及服務交易類別，將專案交易分為群組。
+交易類別代表專案交易的基本群組，並非特定公司或交易類型的專屬類別。 例如，Contoso Robotics 使用 [設計]、[差旅]、[安裝] 和 [服務] 交易類別，將專案交易分成群組。
 
 交易類別是在 Project Operations 模組中定義。 
 1. 移至 **設定**\>**交易類別** 以開啟表單。 

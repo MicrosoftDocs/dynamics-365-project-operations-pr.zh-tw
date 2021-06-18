@@ -2,11 +2,9 @@
 title: 費用管理概觀
 description: 本主題提供有關費用管理的一般資訊，以及其他資源的連結。 您可以使用費用管理來建立整合式工作流程，讓您可以儲存付款方式資訊、匯入信用卡交易，以及追蹤員工在開支業務費用時所花費的資金。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvExpenseWorkspace
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2db1c2cd34a2b99ac8e0cc88c34bac804bbafdb6
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 0fe9f763e18507fa232cb830f8e0b6852374b65b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949759"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993541"
 ---
 # <a name="expense-management-overview"></a>費用管理概觀
 

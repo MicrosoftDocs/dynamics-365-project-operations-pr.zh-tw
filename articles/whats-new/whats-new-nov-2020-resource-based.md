@@ -2,18 +2,16 @@
 title: 2020 年 11 月 - 資源/非庫存型案例適用的 Project Operations 新增功能
 description: 此主題提供有關資源/非庫存型案例適用的 Project Operations 2020 年 11 月版本所提供的品質更新資訊。
 author: sigitac
-manager: Annbe
 ms.date: 10/30/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fa6530a0eefb1ae6a84a662c6131182d97d49aeb
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: f6b14a1cbe7f3d41c86aedaf863434214f911eaa
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950929"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995611"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>2020 年 11 月 - 資源/非庫存型案例適用的 Project Operations 新增功能
 
