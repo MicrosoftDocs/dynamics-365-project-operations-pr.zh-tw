@@ -2,11 +2,9 @@
 title: 專案階段
 description: 本主題提供有關 Microsoft Dynamics Project Operations 中所提供之專案階段的資訊。
 author: ruhercul
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,51 +15,51 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: a5c695e0cd39f8a222e719cc6c9ffe984fe80b07
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 079c3d2d16cf802d2b9ecc779577e6e390d92ddc
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286778"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5996916"
 ---
-# <a name="project-stages"></a><span data-ttu-id="f9d46-103">專案階段</span><span class="sxs-lookup"><span data-stu-id="f9d46-103">Project stages</span></span>
+# <a name="project-stages"></a><span data-ttu-id="fdb12-103">專案階段</span><span class="sxs-lookup"><span data-stu-id="fdb12-103">Project stages</span></span>
 
-<span data-ttu-id="f9d46-104">_**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_</span><span class="sxs-lookup"><span data-stu-id="f9d46-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="fdb12-104">_**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_</span><span class="sxs-lookup"><span data-stu-id="fdb12-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="f9d46-105">專案階段為了反映專案進展時的狀態而設計。</span><span class="sxs-lookup"><span data-stu-id="f9d46-105">Project stages are designed to reflect the state of the project as it progresses.</span></span> <span data-ttu-id="f9d46-106">自訂可以用來讓系統自動更新階段的商務程序流程、Power Automate 或外掛程式擴充功能。</span><span class="sxs-lookup"><span data-stu-id="f9d46-106">Customizations can be used to automatically update the stages with business process flows, Power Automate, or plug-in extensions.</span></span>
+<span data-ttu-id="fdb12-105">專案階段為了反映專案進展時的狀態而設計。</span><span class="sxs-lookup"><span data-stu-id="fdb12-105">Project stages are designed to reflect the state of the project as it progresses.</span></span> <span data-ttu-id="fdb12-106">自訂可以用來讓系統自動更新階段的商務程序流程、Power Automate 或外掛程式擴充功能。</span><span class="sxs-lookup"><span data-stu-id="fdb12-106">Customizations can be used to automatically update the stages with business process flows, Power Automate, or plug-in extensions.</span></span>
 
-<span data-ttu-id="f9d46-107">預設商務程序流程中已定義下列階段：</span><span class="sxs-lookup"><span data-stu-id="f9d46-107">The following stages are defined in the default business process flow:</span></span>
+<span data-ttu-id="fdb12-107">預設商務程序流程中已定義下列階段：</span><span class="sxs-lookup"><span data-stu-id="fdb12-107">The following stages are defined in the default business process flow:</span></span>
 
-- <span data-ttu-id="f9d46-108">新的 ​​</span><span class="sxs-lookup"><span data-stu-id="f9d46-108">New</span></span>
-- <span data-ttu-id="f9d46-109">報價</span><span class="sxs-lookup"><span data-stu-id="f9d46-109">Quote</span></span>
-- <span data-ttu-id="f9d46-110">計劃</span><span class="sxs-lookup"><span data-stu-id="f9d46-110">Plan</span></span>
-- <span data-ttu-id="f9d46-111">交付</span><span class="sxs-lookup"><span data-stu-id="f9d46-111">Deliver</span></span>
-- <span data-ttu-id="f9d46-112">完成</span><span class="sxs-lookup"><span data-stu-id="f9d46-112">Complete</span></span>
-- <span data-ttu-id="f9d46-113">關閉​​</span><span class="sxs-lookup"><span data-stu-id="f9d46-113">Close</span></span> 
+- <span data-ttu-id="fdb12-108">新的 ​​</span><span class="sxs-lookup"><span data-stu-id="fdb12-108">New</span></span>
+- <span data-ttu-id="fdb12-109">報價</span><span class="sxs-lookup"><span data-stu-id="fdb12-109">Quote</span></span>
+- <span data-ttu-id="fdb12-110">計劃</span><span class="sxs-lookup"><span data-stu-id="fdb12-110">Plan</span></span>
+- <span data-ttu-id="fdb12-111">交付</span><span class="sxs-lookup"><span data-stu-id="fdb12-111">Deliver</span></span>
+- <span data-ttu-id="fdb12-112">完成</span><span class="sxs-lookup"><span data-stu-id="fdb12-112">Complete</span></span>
+- <span data-ttu-id="fdb12-113">關閉​​</span><span class="sxs-lookup"><span data-stu-id="fdb12-113">Close</span></span> 
 
-## <a name="new"></a><span data-ttu-id="f9d46-114">新的 ​​</span><span class="sxs-lookup"><span data-stu-id="f9d46-114">New</span></span>
+## <a name="new"></a><span data-ttu-id="fdb12-114">新的 ​​</span><span class="sxs-lookup"><span data-stu-id="fdb12-114">New</span></span>
 
-<span data-ttu-id="f9d46-115">建立專案時，專案階段會設定為 **新增**。</span><span class="sxs-lookup"><span data-stu-id="f9d46-115">When you create a project, the project stage is set to **New**.</span></span> <span data-ttu-id="f9d46-116">如果專案是從範本建立，則可能會有排程、估計值及團隊資料。</span><span class="sxs-lookup"><span data-stu-id="f9d46-116">If the project was created from a template, it might have schedule, estimate, and team data.</span></span> <span data-ttu-id="f9d46-117">否則，這會是專案的大綱，您必須輸入剩餘的元件。</span><span class="sxs-lookup"><span data-stu-id="f9d46-117">Otherwise, it's an outline of the project, and the remaining components must be entered.</span></span>
+<span data-ttu-id="fdb12-115">建立專案時，專案階段會設定為 **新增**。</span><span class="sxs-lookup"><span data-stu-id="fdb12-115">When you create a project, the project stage is set to **New**.</span></span> <span data-ttu-id="fdb12-116">如果專案是從範本建立，則可能會有排程、估計值及團隊資料。</span><span class="sxs-lookup"><span data-stu-id="fdb12-116">If the project was created from a template, it might have schedule, estimate, and team data.</span></span> <span data-ttu-id="fdb12-117">否則，這會是專案的大綱，您必須輸入剩餘的元件。</span><span class="sxs-lookup"><span data-stu-id="fdb12-117">Otherwise, it's an outline of the project, and the remaining components must be entered.</span></span>
 
-## <a name="quote"></a><span data-ttu-id="f9d46-118">報價</span><span class="sxs-lookup"><span data-stu-id="f9d46-118">Quote</span></span>
+## <a name="quote"></a><span data-ttu-id="fdb12-118">報價</span><span class="sxs-lookup"><span data-stu-id="fdb12-118">Quote</span></span>
 
-<span data-ttu-id="f9d46-119">將專案與報價建立關聯或從報價建立專案時，專案階段會設定為 **報價**，而估計的開始和結束日期也會更新。</span><span class="sxs-lookup"><span data-stu-id="f9d46-119">When you associate a project with a quote, or when you create a project from a quote, the project stage is set to **Quote**, and the estimated start and end dates are updated.</span></span> <span data-ttu-id="f9d46-120">專案處於 **報價** 階段時，**專案實體** 上的 **銷售** 索引標籤會顯示報價的詳細資料。</span><span class="sxs-lookup"><span data-stu-id="f9d46-120">While the project is in the **Quote** stage, the **Sales** tab on the **Project Entity** page shows details of the quote.</span></span>
+<span data-ttu-id="fdb12-119">將專案與報價建立關聯或從報價建立專案時，專案階段會設定為 **報價**，而估計的開始和結束日期也會更新。</span><span class="sxs-lookup"><span data-stu-id="fdb12-119">When you associate a project with a quote, or when you create a project from a quote, the project stage is set to **Quote**, and the estimated start and end dates are updated.</span></span> <span data-ttu-id="fdb12-120">專案處於 **報價** 階段時，**專案實體** 上的 **銷售** 索引標籤會顯示報價的詳細資料。</span><span class="sxs-lookup"><span data-stu-id="fdb12-120">While the project is in the **Quote** stage, the **Sales** tab on the **Project Entity** page shows details of the quote.</span></span>
 
-## <a name="plan"></a><span data-ttu-id="f9d46-121">計劃</span><span class="sxs-lookup"><span data-stu-id="f9d46-121">Plan</span></span>
+## <a name="plan"></a><span data-ttu-id="fdb12-121">計劃</span><span class="sxs-lookup"><span data-stu-id="fdb12-121">Plan</span></span>
 
-<span data-ttu-id="f9d46-122">當您贏得與專案相關聯的報價，且專案已進入 **合約** 階段時，專案階段會更新為 **計劃**。</span><span class="sxs-lookup"><span data-stu-id="f9d46-122">When you win a quote that is associated with a project, and the project is moved to the **Contract** phase, the project stage is updated to **Plan**.</span></span> <span data-ttu-id="f9d46-123">專案處於 **計劃** 階段時，**專案實體** 頁面會顯示合約的詳細資料。</span><span class="sxs-lookup"><span data-stu-id="f9d46-123">While the project is in the **Plan** stage, the **Project Entity** page shows details of the contract.</span></span>
+<span data-ttu-id="fdb12-122">當您贏得與專案相關聯的報價，且專案已進入 **合約** 階段時，專案階段會更新為 **計劃**。</span><span class="sxs-lookup"><span data-stu-id="fdb12-122">When you win a quote that is associated with a project, and the project is moved to the **Contract** phase, the project stage is updated to **Plan**.</span></span> <span data-ttu-id="fdb12-123">專案處於 **計劃** 階段時，**專案實體** 頁面會顯示合約的詳細資料。</span><span class="sxs-lookup"><span data-stu-id="fdb12-123">While the project is in the **Plan** stage, the **Project Entity** page shows details of the contract.</span></span>
 
-## <a name="deliver"></a><span data-ttu-id="f9d46-124">交付</span><span class="sxs-lookup"><span data-stu-id="f9d46-124">Deliver</span></span>
+## <a name="deliver"></a><span data-ttu-id="fdb12-124">交付</span><span class="sxs-lookup"><span data-stu-id="fdb12-124">Deliver</span></span>
 
-<span data-ttu-id="f9d46-125">專案計劃完成，且您已準備好開始專案時，專案經理應將專案階段更新為 **交付**，以顯示專案已開始。</span><span class="sxs-lookup"><span data-stu-id="f9d46-125">When the project plan is completed, and you're ready to start the project, the project manager should update the project stage to **Deliver** to show that the project has started.</span></span>
+<span data-ttu-id="fdb12-125">專案計劃完成，且您已準備好開始專案時，專案經理應將專案階段更新為 **交付**，以顯示專案已開始。</span><span class="sxs-lookup"><span data-stu-id="fdb12-125">When the project plan is completed, and you're ready to start the project, the project manager should update the project stage to **Deliver** to show that the project has started.</span></span>
 
-## <a name="complete"></a><span data-ttu-id="f9d46-126">完成</span><span class="sxs-lookup"><span data-stu-id="f9d46-126">Complete</span></span> 
+## <a name="complete"></a><span data-ttu-id="fdb12-126">完成</span><span class="sxs-lookup"><span data-stu-id="fdb12-126">Complete</span></span> 
 
-<span data-ttu-id="f9d46-127">專案的工作完成後，專案經理就可以將階段更新為 **完成**。</span><span class="sxs-lookup"><span data-stu-id="f9d46-127">When the work for the project is completed, the project manager can update the stage to **Complete**.</span></span> <span data-ttu-id="f9d46-128">專案經理藉由將專案階段更新為 **完成**，指出工作已百分之百完成，但專案仍保持開啟狀態，讓您可以記錄任何擱置的時間或費用項目。</span><span class="sxs-lookup"><span data-stu-id="f9d46-128">By updating the project stage to **Complete**, the project manager indicates that the work is 100-percent completed, but that the project is being kept open so that any pending time or expense entries can be recorded.</span></span>
+<span data-ttu-id="fdb12-127">專案的工作完成後，專案經理就可以將階段更新為 **完成**。</span><span class="sxs-lookup"><span data-stu-id="fdb12-127">When the work for the project is completed, the project manager can update the stage to **Complete**.</span></span> <span data-ttu-id="fdb12-128">專案經理藉由將專案階段更新為 **完成**，指出工作已百分之百完成，但專案仍保持開啟狀態，讓您可以記錄任何擱置的時間或費用項目。</span><span class="sxs-lookup"><span data-stu-id="fdb12-128">By updating the project stage to **Complete**, the project manager indicates that the work is 100-percent completed, but that the project is being kept open so that any pending time or expense entries can be recorded.</span></span>
 
-## <a name="close"></a><span data-ttu-id="f9d46-129">關閉</span><span class="sxs-lookup"><span data-stu-id="f9d46-129">Close</span></span>
+## <a name="close"></a><span data-ttu-id="fdb12-129">關閉</span><span class="sxs-lookup"><span data-stu-id="fdb12-129">Close</span></span>
 
-<span data-ttu-id="f9d46-130">將專案所有的交易都記錄下來後，專案經理就可以將階段更新為 **關閉**。</span><span class="sxs-lookup"><span data-stu-id="f9d46-130">When all transactions are recorded for the project, the project manager can update the stage to **Close**.</span></span> <span data-ttu-id="f9d46-131">此時，無法記錄任何交易，且專案會設定為唯讀。</span><span class="sxs-lookup"><span data-stu-id="f9d46-131">At that point, no transactions can be recorded, and the project is set to read-only.</span></span>
+<span data-ttu-id="fdb12-130">將專案所有的交易都記錄下來後，專案經理就可以將階段更新為 **關閉**。</span><span class="sxs-lookup"><span data-stu-id="fdb12-130">When all transactions are recorded for the project, the project manager can update the stage to **Close**.</span></span> <span data-ttu-id="fdb12-131">此時，無法記錄任何交易，且專案會設定為唯讀。</span><span class="sxs-lookup"><span data-stu-id="fdb12-131">At that point, no transactions can be recorded, and the project is set to read-only.</span></span>
 
 
 

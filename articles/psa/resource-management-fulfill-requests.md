@@ -2,8 +2,6 @@
 title: 履行資源需求
 description: 本主題提供有關如何履行資源需求的資訊。
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,34 +16,34 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5df7431aa0385381a13927db6ae757f87f1832f1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1814d3a48611a76ee957967fc6da0b66e821ce5d
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283088"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997996"
 ---
-# <a name="fulfilling-resource-requests"></a><span data-ttu-id="8be2a-103">履行資源要求</span><span class="sxs-lookup"><span data-stu-id="8be2a-103">Fulfilling resource requests</span></span>
+# <a name="fulfilling-resource-requests"></a><span data-ttu-id="30656-103">履行資源要求</span><span class="sxs-lookup"><span data-stu-id="30656-103">Fulfilling resource requests</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="8be2a-104">資源需求可以做為資源要求傳送給負責滿足這些要求的資源管理員。</span><span class="sxs-lookup"><span data-stu-id="8be2a-104">Resource requirements can be sent as resource requests to the resource manager who is responsible for fulfilling those requests.</span></span>
+<span data-ttu-id="30656-104">資源需求可以做為資源要求傳送給負責滿足這些要求的資源管理員。</span><span class="sxs-lookup"><span data-stu-id="30656-104">Resource requirements can be sent as resource requests to the resource manager who is responsible for fulfilling those requests.</span></span>
 
-<span data-ttu-id="8be2a-105">資源要求會在 **使用中資源要求** 檢視表中顯示為清單。</span><span class="sxs-lookup"><span data-stu-id="8be2a-105">Resource requests are shown as a list in the **Active Resource Requests** view.</span></span>
+<span data-ttu-id="30656-105">資源要求會在 **使用中資源要求** 檢視表中顯示為清單。</span><span class="sxs-lookup"><span data-stu-id="30656-105">Resource requests are shown as a list in the **Active Resource Requests** view.</span></span>
 
 > ![資源要求清單](media/Resource-Management-image59.png)
 
-<span data-ttu-id="8be2a-107">若要履行要求，請在清單中選取要求，然後選取 **尋找資源**。</span><span class="sxs-lookup"><span data-stu-id="8be2a-107">To fulfill a request, select it in the list, and then select **Find Resources**.</span></span> <span data-ttu-id="8be2a-108">或者，按兩下一列以開啟要求。</span><span class="sxs-lookup"><span data-stu-id="8be2a-108">Alternatively, double-click a row to open the request.</span></span> <span data-ttu-id="8be2a-109">您可以接著選取 **資源需求** 索引標籤來檢視該要求的需求。</span><span class="sxs-lookup"><span data-stu-id="8be2a-109">You can then select the **Resource Requirement** tab to view the requirements for that request.</span></span> <span data-ttu-id="8be2a-110">若要開始履行要求，請選取 **尋找資源**。</span><span class="sxs-lookup"><span data-stu-id="8be2a-110">To start to fulfill the request, select **Find Resources**.</span></span>
+<span data-ttu-id="30656-107">若要履行要求，請在清單中選取要求，然後選取 **尋找資源**。</span><span class="sxs-lookup"><span data-stu-id="30656-107">To fulfill a request, select it in the list, and then select **Find Resources**.</span></span> <span data-ttu-id="30656-108">或者，按兩下一列以開啟要求。</span><span class="sxs-lookup"><span data-stu-id="30656-108">Alternatively, double-click a row to open the request.</span></span> <span data-ttu-id="30656-109">您可以接著選取 **資源需求** 索引標籤來檢視該要求的需求。</span><span class="sxs-lookup"><span data-stu-id="30656-109">You can then select the **Resource Requirement** tab to view the requirements for that request.</span></span> <span data-ttu-id="30656-110">若要開始履行要求，請選取 **尋找資源**。</span><span class="sxs-lookup"><span data-stu-id="30656-110">To start to fulfill the request, select **Find Resources**.</span></span>
 
 > ![資源要求詳細資料](media/Resource-Management-image60.png)
 
-<span data-ttu-id="8be2a-112">排程小幫手隨即出現，並根據需求進行篩選。</span><span class="sxs-lookup"><span data-stu-id="8be2a-112">The Schedule Assistant appears and is filtered by the requirements.</span></span> <span data-ttu-id="8be2a-113">選取資源，然後選取 **預約**。</span><span class="sxs-lookup"><span data-stu-id="8be2a-113">Select the resource, and then select **Book**.</span></span>
+<span data-ttu-id="30656-112">排程小幫手隨即出現，並根據需求進行篩選。</span><span class="sxs-lookup"><span data-stu-id="30656-112">The Schedule Assistant appears and is filtered by the requirements.</span></span> <span data-ttu-id="30656-113">選取資源，然後選取 **預約**。</span><span class="sxs-lookup"><span data-stu-id="30656-113">Select the resource, and then select **Book**.</span></span>
 
 > ![已選取的資源](media/Resource-Management-image61.png)
 
-<span data-ttu-id="8be2a-115">一般團隊成員會在專案排程的專案團隊及工作指派中取代為已確認預約的具名資源。</span><span class="sxs-lookup"><span data-stu-id="8be2a-115">The generic team member is replaced with the hard-booked named resource on the project team and task assignments in the project schedule.</span></span>
+<span data-ttu-id="30656-115">一般團隊成員會在專案排程的專案團隊及工作指派中取代為已確認預約的具名資源。</span><span class="sxs-lookup"><span data-stu-id="30656-115">The generic team member is replaced with the hard-booked named resource on the project team and task assignments in the project schedule.</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
