@@ -2,18 +2,16 @@
 title: 使用複製專案來開發專案範本
 description: 本主題提供有關如何使用 [複製專案] 自訂動作建立專案範本的資訊。
 author: stsporen
-manager: Annbe
 ms.date: 01/21/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: cc17df0c73b276048f7c4b04bd9dc6644e828dc0
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 7a1f602e789e07014fd6c742940f52341ce6c672
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949804"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6005646"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>使用複製專案來開發專案範本
 
