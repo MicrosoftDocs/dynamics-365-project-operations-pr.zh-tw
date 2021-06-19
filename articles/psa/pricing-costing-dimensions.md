@@ -2,12 +2,10 @@
 title: 定價和成本維度首頁
 description: 本主題提供定價維度的概觀。
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 137fee27dd2302d47ae12faccde1682cff43db93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9a2e2f7ed394229bbc553af9e616a6f322857195
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284123"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009246"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>定價和成本維度首頁
 
@@ -67,16 +65,16 @@ PSA 隨附一組預設定價維度。 您可以移至 **Project Service** > **�
 
 | 角色        | 組織單位    |單位      |價格      |貨幣  |
 | ------------|-------------|----------|----------:|----------|
-| 開發人員   | Contoso US  |Hour | 200|USD     |
-| 開發人員   | Contoso India |Hour|   112|USD     |
+| 開發人員   | Contoso 美國  |小時 | 200|USD     |
+| 開發人員   | Contoso India |小時|   112|USD     |
 
 
 **範例成本費率**
 
 | 薪資範圍     | 組織單位    |單位      |價格      |貨幣  |
 | ----------------|-------------|----------|----------:|----------|
-| My company_Band1 | Contoso US  |Hour | 145|USD     |
-| My company_Band2 | Contoso India |Hour|   67|USD     |
+| My company_Band1 | Contoso 美國  |小時 | 145|USD     |
+| My company_Band2 | Contoso India |小時|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

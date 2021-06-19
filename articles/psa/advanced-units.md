@@ -2,8 +2,6 @@
 title: 單位群組和單位
 description: 本主題提供有關單位群組和單位的資訊。
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 45e4a95b429cd9d1f174653bd28cf567f690676d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e981f39bbb6ca4277778382a5816952df2a8a1fb
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291609"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009561"
 ---
 # <a name="unit-groups-and-units"></a>單位群組和單位
 
@@ -88,7 +86,7 @@ Dynamics 365 Project Service Automation 使用單位與單位群組來處理費�
 
 | 角色      | 單位群組 | 單位 | 組織單位 | 價格   |
 |-----------|------------|------|---------------------|---------|
-| 開發人員 | Time       | Day  | Contoso UK          | 800 GBP |
+| 開發人員 | 時間       | 天  | Contoso UK          | 800 GBP |
 
 ### <a name="time-entry"></a>時間項目
 

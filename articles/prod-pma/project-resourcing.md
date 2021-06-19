@@ -2,11 +2,9 @@
 title: 專案資源分配首頁
 description: 本主題提供有關專案資源分配的資訊。
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2bab78628333f2d8a6996277ca3a9e63052e939
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 00632be050b2ac98aaa6b98c3b09ff324c606e72
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289089"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009696"
 ---
 # <a name="project-resourcing-home-page"></a>專案資源分配首頁
 

@@ -2,8 +2,6 @@
 title: 透過分工結構圖排程專案
 description: 如何使用 Project Service 中的分工結構圖排程專案 (Project Service Automation)
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a00e39f78890426721a49cd569ba8ce4accb30a9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 027bcbc8995ed39af78c7ff9b1028f401c3b0d4d
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282683"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008571"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>使用分工結構圖排程專案 (Project Service)
 
