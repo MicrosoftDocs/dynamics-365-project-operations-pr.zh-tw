@@ -2,8 +2,6 @@
 title: 實際值概觀
 description: 本主題提供有關專案實際值的資訊。
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
@@ -18,315 +16,315 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c4a3424bed704243dfb5524fa541c3fcc0899e57
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 73f1b14bbb4cc53111a1b3a93756a86db04475ab
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285608"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014646"
 ---
-# <a name="actuals-overview"></a><span data-ttu-id="a1256-103">實際值概觀</span><span class="sxs-lookup"><span data-stu-id="a1256-103">Actuals overview</span></span>
+# <a name="actuals-overview"></a><span data-ttu-id="cc58a-103">實際值概觀</span><span class="sxs-lookup"><span data-stu-id="cc58a-103">Actuals overview</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="a1256-104">實際值是專案中已完成的工作量。</span><span class="sxs-lookup"><span data-stu-id="a1256-104">Actuals are the amount of work that has been completed on a project.</span></span> <span data-ttu-id="a1256-105">專案實際值可以追溯至其原始憑證。</span><span class="sxs-lookup"><span data-stu-id="a1256-105">Project actuals can be traced back to their source documents.</span></span> <span data-ttu-id="a1256-106">這些原始憑證包括時間項目、費用項目與帳目分錄以及發票。</span><span class="sxs-lookup"><span data-stu-id="a1256-106">Those source documents include time, expense, and journal entries, and also invoices.</span></span>
+<span data-ttu-id="cc58a-104">實際值是專案中已完成的工作量。</span><span class="sxs-lookup"><span data-stu-id="cc58a-104">Actuals are the amount of work that has been completed on a project.</span></span> <span data-ttu-id="cc58a-105">專案實際值可以追溯至其原始憑證。</span><span class="sxs-lookup"><span data-stu-id="cc58a-105">Project actuals can be traced back to their source documents.</span></span> <span data-ttu-id="cc58a-106">這些原始憑證包括時間項目、費用項目與帳目分錄以及發票。</span><span class="sxs-lookup"><span data-stu-id="cc58a-106">Those source documents include time, expense, and journal entries, and also invoices.</span></span>
 
 ![如何將專案實際值追蹤至原始憑證](media/basic-guide-18.png)
 
-## <a name="submitting-a-time-entry"></a><span data-ttu-id="a1256-108">送出時間項目</span><span class="sxs-lookup"><span data-stu-id="a1256-108">Submitting a time entry</span></span>
+## <a name="submitting-a-time-entry"></a><span data-ttu-id="cc58a-108">送出時間項目</span><span class="sxs-lookup"><span data-stu-id="cc58a-108">Submitting a time entry</span></span>
 
-<span data-ttu-id="a1256-109">在 PSA 中，將對應至時間及材料合約服務內容之專案的時間項目送出時，會建立兩個帳目明細。</span><span class="sxs-lookup"><span data-stu-id="a1256-109">In PSA, when a time entry is submitted for a project that is mapped to a time-and-materials contract line, two journal lines are created.</span></span> <span data-ttu-id="a1256-110">一項明細用於成本，而另一項用於未開單銷售。</span><span class="sxs-lookup"><span data-stu-id="a1256-110">One line is for cost, and the other line is for unbilled sales.</span></span> <span data-ttu-id="a1256-111">將對應至固定價格合約服務內容之專案的時間項目送出時，只會建立成本的帳目明細。</span><span class="sxs-lookup"><span data-stu-id="a1256-111">When a time entry is submitted for a project that is mapped to a fixed-price contract line, a journal line is created only for cost.</span></span> 
+<span data-ttu-id="cc58a-109">在 PSA 中，將對應至時間及材料合約服務內容之專案的時間項目送出時，會建立兩個帳目明細。</span><span class="sxs-lookup"><span data-stu-id="cc58a-109">In PSA, when a time entry is submitted for a project that is mapped to a time-and-materials contract line, two journal lines are created.</span></span> <span data-ttu-id="cc58a-110">一項明細用於成本，而另一項用於未開單銷售。</span><span class="sxs-lookup"><span data-stu-id="cc58a-110">One line is for cost, and the other line is for unbilled sales.</span></span> <span data-ttu-id="cc58a-111">將對應至固定價格合約服務內容之專案的時間項目送出時，只會建立成本的帳目明細。</span><span class="sxs-lookup"><span data-stu-id="cc58a-111">When a time entry is submitted for a project that is mapped to a fixed-price contract line, a journal line is created only for cost.</span></span> 
 
-<span data-ttu-id="a1256-112">輸入預設價格的邏輯會存在於帳目明細。</span><span class="sxs-lookup"><span data-stu-id="a1256-112">Logic for entering default prices resides on the journal line.</span></span> <span data-ttu-id="a1256-113">時間項目中的所有欄位值都會複製到帳目明細。</span><span class="sxs-lookup"><span data-stu-id="a1256-113">All the field values from a time entry are copied to the journal line.</span></span> <span data-ttu-id="a1256-114">這些欄位包括交易的日期、專案所對應至的合約服務內容，以及適當價目表中的貨幣結果。</span><span class="sxs-lookup"><span data-stu-id="a1256-114">These fields include the date of the transaction, the contract line that the project is mapped to, and the currency result in the appropriate price list.</span></span> 
+<span data-ttu-id="cc58a-112">輸入預設價格的邏輯會存在於帳目明細。</span><span class="sxs-lookup"><span data-stu-id="cc58a-112">Logic for entering default prices resides on the journal line.</span></span> <span data-ttu-id="cc58a-113">時間項目中的所有欄位值都會複製到帳目明細。</span><span class="sxs-lookup"><span data-stu-id="cc58a-113">All the field values from a time entry are copied to the journal line.</span></span> <span data-ttu-id="cc58a-114">這些欄位包括交易的日期、專案所對應至的合約服務內容，以及適當價目表中的貨幣結果。</span><span class="sxs-lookup"><span data-stu-id="cc58a-114">These fields include the date of the transaction, the contract line that the project is mapped to, and the currency result in the appropriate price list.</span></span> 
 
-<span data-ttu-id="a1256-115">影響預設價格的欄位 (例如 **角色** 和 **組織單位**) 會產生要在帳目明細上依預設輸入的適當價格。</span><span class="sxs-lookup"><span data-stu-id="a1256-115">The fields that affect default prices, such as **Role** and **Org Unit**, cause an appropriate price to be entered by default on the journal line.</span></span> <span data-ttu-id="a1256-116">如果在時間項目上新增自訂欄位，而且您想要讓欄位值傳播至實際值，請在實際值實體上建立欄位，並使用欄位對應將欄位從時間項目複製到實際值。</span><span class="sxs-lookup"><span data-stu-id="a1256-116">If you add a custom field on the time entry, and you want the field value to be propagated to actuals, create the field on the Actuals entity, and use field mappings to copy the field from the time entry to the actual.</span></span>
+<span data-ttu-id="cc58a-115">影響預設價格的欄位 (例如 **角色** 和 **組織單位**) 會產生要在帳目明細上依預設輸入的適當價格。</span><span class="sxs-lookup"><span data-stu-id="cc58a-115">The fields that affect default prices, such as **Role** and **Org Unit**, cause an appropriate price to be entered by default on the journal line.</span></span> <span data-ttu-id="cc58a-116">如果在時間項目上新增自訂欄位，而且您想要讓欄位值傳播至實際值，請在實際值實體上建立欄位，並使用欄位對應將欄位從時間項目複製到實際值。</span><span class="sxs-lookup"><span data-stu-id="cc58a-116">If you add a custom field on the time entry, and you want the field value to be propagated to actuals, create the field on the Actuals entity, and use field mappings to copy the field from the time entry to the actual.</span></span>
 
-## <a name="submitting-an-expense-entry"></a><span data-ttu-id="a1256-117">送出費用項目</span><span class="sxs-lookup"><span data-stu-id="a1256-117">Submitting an expense entry</span></span>
+## <a name="submitting-an-expense-entry"></a><span data-ttu-id="cc58a-117">送出費用項目</span><span class="sxs-lookup"><span data-stu-id="cc58a-117">Submitting an expense entry</span></span>
 
-<span data-ttu-id="a1256-118">在 PSA 中，將對應至時間及材料合約服務內容之專案的費用項目送出時，會建立兩個帳目明細。</span><span class="sxs-lookup"><span data-stu-id="a1256-118">In PSA, when an expense entry is submitted for a project that is mapped to a time-and-materials contract line, two journal lines are created.</span></span> <span data-ttu-id="a1256-119">一項明細用於成本，而另一項用於未開單銷售。</span><span class="sxs-lookup"><span data-stu-id="a1256-119">One line is for cost, and the other line is for unbilled sales.</span></span> <span data-ttu-id="a1256-120">將對應至固定價格合約服務內容之專案的費用項目送出時，只會建立成本的帳目明細。</span><span class="sxs-lookup"><span data-stu-id="a1256-120">When an expense entry is submitted for a project that is mapped to a fixed-price contract line, a journal line is created only for cost.</span></span>
+<span data-ttu-id="cc58a-118">在 PSA 中，將對應至時間及材料合約服務內容之專案的費用項目送出時，會建立兩個帳目明細。</span><span class="sxs-lookup"><span data-stu-id="cc58a-118">In PSA, when an expense entry is submitted for a project that is mapped to a time-and-materials contract line, two journal lines are created.</span></span> <span data-ttu-id="cc58a-119">一項明細用於成本，而另一項用於未開單銷售。</span><span class="sxs-lookup"><span data-stu-id="cc58a-119">One line is for cost, and the other line is for unbilled sales.</span></span> <span data-ttu-id="cc58a-120">將對應至固定價格合約服務內容之專案的費用項目送出時，只會建立成本的帳目明細。</span><span class="sxs-lookup"><span data-stu-id="cc58a-120">When an expense entry is submitted for a project that is mapped to a fixed-price contract line, a journal line is created only for cost.</span></span>
 
-<span data-ttu-id="a1256-121">輸入費用預設價格的邏輯是根據您在 **費用項目** 頁面上選取的費用類別。</span><span class="sxs-lookup"><span data-stu-id="a1256-121">Logic for entering default prices for expenses is based on the expense category that is selected on the **Expense entry** page.</span></span> <span data-ttu-id="a1256-122">交易日期、專案所對應至的合約服務內容以及貨幣都會用來決定適當的價目表。</span><span class="sxs-lookup"><span data-stu-id="a1256-122">The transaction date, the contract line that the project is mapped to, and the currency are all used to determine the appropriate price list.</span></span> <span data-ttu-id="a1256-123">不過，就價格本身而言，使用者輸入的金額預設會直接設定在成本和銷售的相關費用帳目明細上。</span><span class="sxs-lookup"><span data-stu-id="a1256-123">However, for the price itself, the amount that the user entered is set directly on the related expense journal lines for cost and sales by default.</span></span>
+<span data-ttu-id="cc58a-121">輸入費用預設價格的邏輯是根據您在 **費用項目** 頁面上選取的費用類別。</span><span class="sxs-lookup"><span data-stu-id="cc58a-121">Logic for entering default prices for expenses is based on the expense category that is selected on the **Expense entry** page.</span></span> <span data-ttu-id="cc58a-122">交易日期、專案所對應至的合約服務內容以及貨幣都會用來決定適當的價目表。</span><span class="sxs-lookup"><span data-stu-id="cc58a-122">The transaction date, the contract line that the project is mapped to, and the currency are all used to determine the appropriate price list.</span></span> <span data-ttu-id="cc58a-123">不過，就價格本身而言，使用者輸入的金額預設會直接設定在成本和銷售的相關費用帳目明細上。</span><span class="sxs-lookup"><span data-stu-id="cc58a-123">However, for the price itself, the amount that the user entered is set directly on the related expense journal lines for cost and sales by default.</span></span>
 
-<span data-ttu-id="a1256-124">在目前的 PSA 版本中，依類別輸入的每單位預設價格無法在費用項目上使用。</span><span class="sxs-lookup"><span data-stu-id="a1256-124">In the current version of PSA, category-based entry of per-unit default prices on expense entries isn't available.</span></span>
+<span data-ttu-id="cc58a-124">在目前的 PSA 版本中，依類別輸入的每單位預設價格無法在費用項目上使用。</span><span class="sxs-lookup"><span data-stu-id="cc58a-124">In the current version of PSA, category-based entry of per-unit default prices on expense entries isn't available.</span></span>
 
-## <a name="using-entry-journals-to-record-costs"></a><span data-ttu-id="a1256-125">使用分錄帳目來記錄成本</span><span class="sxs-lookup"><span data-stu-id="a1256-125">Using Entry journals to record costs</span></span>
+## <a name="using-entry-journals-to-record-costs"></a><span data-ttu-id="cc58a-125">使用分錄帳目來記錄成本</span><span class="sxs-lookup"><span data-stu-id="cc58a-125">Using Entry journals to record costs</span></span>
 
-<span data-ttu-id="a1256-126">在 PSA 中，您可以使用分錄帳目來記錄材料、費用、時間、支出或稅務交易分類中的成本或營收。</span><span class="sxs-lookup"><span data-stu-id="a1256-126">In PSA, Entry journals let you record the cost or revenue in the material, fee, time, expense, or tax transaction classes.</span></span> <span data-ttu-id="a1256-127">帳目有標題、明細和 **確認** 動作。</span><span class="sxs-lookup"><span data-stu-id="a1256-127">A journal has a header, lines, and a **Confirm** action.</span></span> <span data-ttu-id="a1256-128">以下是一些您可能會使用帳目的情況：</span><span class="sxs-lookup"><span data-stu-id="a1256-128">Here are some scenarios where you might use a journal:</span></span>
+<span data-ttu-id="cc58a-126">在 PSA 中，您可以使用分錄帳目來記錄材料、費用、時間、支出或稅務交易分類中的成本或營收。</span><span class="sxs-lookup"><span data-stu-id="cc58a-126">In PSA, Entry journals let you record the cost or revenue in the material, fee, time, expense, or tax transaction classes.</span></span> <span data-ttu-id="cc58a-127">帳目有標題、明細和 **確認** 動作。</span><span class="sxs-lookup"><span data-stu-id="cc58a-127">A journal has a header, lines, and a **Confirm** action.</span></span> <span data-ttu-id="cc58a-128">以下是一些您可能會使用帳目的情況：</span><span class="sxs-lookup"><span data-stu-id="cc58a-128">Here are some scenarios where you might use a journal:</span></span>
 
-- <span data-ttu-id="a1256-129">您必須在專案上記錄材料實際成本和銷售。</span><span class="sxs-lookup"><span data-stu-id="a1256-129">You must record material actual costs and sales on a project.</span></span>
-- <span data-ttu-id="a1256-130">您必須將交易實際值從其他系統移至 PSA。</span><span class="sxs-lookup"><span data-stu-id="a1256-130">You must move transaction actuals from another system to PSA.</span></span>
-- <span data-ttu-id="a1256-131">您必須記錄其他系統中發生的成本 (例如採購或轉承包成本)。</span><span class="sxs-lookup"><span data-stu-id="a1256-131">You must record costs that occurred in another system, such as procurement or subcontracting costs.</span></span>
+- <span data-ttu-id="cc58a-129">您必須在專案上記錄材料實際成本和銷售。</span><span class="sxs-lookup"><span data-stu-id="cc58a-129">You must record material actual costs and sales on a project.</span></span>
+- <span data-ttu-id="cc58a-130">您必須將交易實際值從其他系統移至 PSA。</span><span class="sxs-lookup"><span data-stu-id="cc58a-130">You must move transaction actuals from another system to PSA.</span></span>
+- <span data-ttu-id="cc58a-131">您必須記錄其他系統中發生的成本 (例如採購或轉承包成本)。</span><span class="sxs-lookup"><span data-stu-id="cc58a-131">You must record costs that occurred in another system, such as procurement or subcontracting costs.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="a1256-132">使用分錄帳目建立實際值的工作，只能由完全了解實際值對專案所產生之會計影響的使用者來完成。</span><span class="sxs-lookup"><span data-stu-id="a1256-132">Using Entry journals to create actuals should be done only by a user who is fully aware of the accounting impact the Actuals have on the project.</span></span> <span data-ttu-id="a1256-133">這是因為應用程式不會驗證帳目明細類型，或帳目明細上所輸入的相關價格。</span><span class="sxs-lookup"><span data-stu-id="a1256-133">This is because the application does not validate the journal line type, or the related pricing that is entered on the journal line.</span></span> <span data-ttu-id="a1256-134">由於會有這種帳目類型的影響，請在授與何人建立分錄帳目的存取權限時，特別小心。</span><span class="sxs-lookup"><span data-stu-id="a1256-134">Because of the impact of this journal type, exercise adequate caution in who is given access to create Entry journals.</span></span>     
+> <span data-ttu-id="cc58a-132">使用分錄帳目建立實際值的工作，只能由完全了解實際值對專案所產生之會計影響的使用者來完成。</span><span class="sxs-lookup"><span data-stu-id="cc58a-132">Using Entry journals to create actuals should be done only by a user who is fully aware of the accounting impact the Actuals have on the project.</span></span> <span data-ttu-id="cc58a-133">這是因為應用程式不會驗證帳目明細類型，或帳目明細上所輸入的相關價格。</span><span class="sxs-lookup"><span data-stu-id="cc58a-133">This is because the application does not validate the journal line type, or the related pricing that is entered on the journal line.</span></span> <span data-ttu-id="cc58a-134">由於會有這種帳目類型的影響，請在授與何人建立分錄帳目的存取權限時，特別小心。</span><span class="sxs-lookup"><span data-stu-id="cc58a-134">Because of the impact of this journal type, exercise adequate caution in who is given access to create Entry journals.</span></span>     
 
 
-## <a name="recording-actuals-based-on-project-events"></a><span data-ttu-id="a1256-135">根據專案事件記錄實際值</span><span class="sxs-lookup"><span data-stu-id="a1256-135">Recording actuals based on project events</span></span>
+## <a name="recording-actuals-based-on-project-events"></a><span data-ttu-id="cc58a-135">根據專案事件記錄實際值</span><span class="sxs-lookup"><span data-stu-id="cc58a-135">Recording actuals based on project events</span></span>
 
-<span data-ttu-id="a1256-136">PSA 會記錄專案期間發生的財務交易。</span><span class="sxs-lookup"><span data-stu-id="a1256-136">PSA records the financial transactions that occur during a project.</span></span> <span data-ttu-id="a1256-137">這些交易記錄會以 **實際值** 來記錄。</span><span class="sxs-lookup"><span data-stu-id="a1256-137">These transactions are recorded as **actuals**.</span></span> <span data-ttu-id="a1256-138">下表顯示根據專案是時間及材料專案還是固定價格專案、是否在售前階段，或是否為內部專案，所建立的不同類型實際值。</span><span class="sxs-lookup"><span data-stu-id="a1256-138">The following tables show the different types of actuals that are created, depending on whether the project is a time-and-materials or fixed-price project, is in the presales stage, or is an internal project.</span></span>
+<span data-ttu-id="cc58a-136">PSA 會記錄專案期間發生的財務交易。</span><span class="sxs-lookup"><span data-stu-id="cc58a-136">PSA records the financial transactions that occur during a project.</span></span> <span data-ttu-id="cc58a-137">這些交易記錄會以 **實際值** 來記錄。</span><span class="sxs-lookup"><span data-stu-id="cc58a-137">These transactions are recorded as **actuals**.</span></span> <span data-ttu-id="cc58a-138">下表顯示根據專案是時間及材料專案還是固定價格專案、是否在售前階段，或是否為內部專案，所建立的不同類型實際值。</span><span class="sxs-lookup"><span data-stu-id="cc58a-138">The following tables show the different types of actuals that are created, depending on whether the project is a time-and-materials or fixed-price project, is in the presales stage, or is an internal project.</span></span>
 
-<span data-ttu-id="a1256-139">**資源隸屬於與專案承包單位相同的組織單位**</span><span class="sxs-lookup"><span data-stu-id="a1256-139">**The resource belongs to same organizational unit as the project's contracting unit**</span></span>
+<span data-ttu-id="cc58a-139">**資源隸屬於與專案承包單位相同的組織單位**</span><span class="sxs-lookup"><span data-stu-id="cc58a-139">**The resource belongs to same organizational unit as the project's contracting unit**</span></span>
 
 <table>
 <thead>
 <tr>
-<th rowspan="3"><span data-ttu-id="a1256-140">Event</span><span class="sxs-lookup"><span data-stu-id="a1256-140">Event</span></span></th>
-<th colspan="4"><span data-ttu-id="a1256-141">計費或已售出專案</span><span class="sxs-lookup"><span data-stu-id="a1256-141">Billable or sold project</span></span></th>
-<th rowspan="3"><span data-ttu-id="a1256-142">在售前階段的專案</span><span class="sxs-lookup"><span data-stu-id="a1256-142">Project in the presales stage</span></span></th>
-<th rowspan="3"><span data-ttu-id="a1256-143">內部專案</span><span class="sxs-lookup"><span data-stu-id="a1256-143">Internal project</span></span></th>
+<th rowspan="3"><span data-ttu-id="cc58a-140">Event</span><span class="sxs-lookup"><span data-stu-id="cc58a-140">Event</span></span></th>
+<th colspan="4"><span data-ttu-id="cc58a-141">計費或已售出專案</span><span class="sxs-lookup"><span data-stu-id="cc58a-141">Billable or sold project</span></span></th>
+<th rowspan="3"><span data-ttu-id="cc58a-142">在售前階段的專案</span><span class="sxs-lookup"><span data-stu-id="cc58a-142">Project in the presales stage</span></span></th>
+<th rowspan="3"><span data-ttu-id="cc58a-143">內部專案</span><span class="sxs-lookup"><span data-stu-id="cc58a-143">Internal project</span></span></th>
 </tr>
 <tr>
-<th colspan="2"><span data-ttu-id="a1256-144">時間及材料</span><span class="sxs-lookup"><span data-stu-id="a1256-144">Time and materials</span></span></th>
-<th colspan="2"><span data-ttu-id="a1256-145">固定價格</span><span class="sxs-lookup"><span data-stu-id="a1256-145">Fixed price</span></span></th>
+<th colspan="2"><span data-ttu-id="cc58a-144">時間及材料</span><span class="sxs-lookup"><span data-stu-id="cc58a-144">Time and materials</span></span></th>
+<th colspan="2"><span data-ttu-id="cc58a-145">固定價格</span><span class="sxs-lookup"><span data-stu-id="cc58a-145">Fixed price</span></span></th>
 </tr>
 <tr>
-<th><span data-ttu-id="a1256-146">實際值</span><span class="sxs-lookup"><span data-stu-id="a1256-146">Actuals</span></span></th>
-<th><span data-ttu-id="a1256-147">交易貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-147">Transaction currency</span></span></th>
-<th><span data-ttu-id="a1256-148">固定價格</span><span class="sxs-lookup"><span data-stu-id="a1256-148">Fixed price</span></span></th>
-<th><span data-ttu-id="a1256-149">交易貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-149">Transaction currency</span></span></th>
+<th><span data-ttu-id="cc58a-146">實際值</span><span class="sxs-lookup"><span data-stu-id="cc58a-146">Actuals</span></span></th>
+<th><span data-ttu-id="cc58a-147">交易貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-147">Transaction currency</span></span></th>
+<th><span data-ttu-id="cc58a-148">固定價格</span><span class="sxs-lookup"><span data-stu-id="cc58a-148">Fixed price</span></span></th>
+<th><span data-ttu-id="cc58a-149">交易貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-149">Transaction currency</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="a1256-150">時間項目已建立。</span><span class="sxs-lookup"><span data-stu-id="a1256-150">A time entry is created.</span></span></td>
-<td colspan="6"><span data-ttu-id="a1256-151">實際值實體中沒有活動</span><span class="sxs-lookup"><span data-stu-id="a1256-151">No activity in the Actuals entity</span></span></td>
+<td><span data-ttu-id="cc58a-150">時間項目已建立。</span><span class="sxs-lookup"><span data-stu-id="cc58a-150">A time entry is created.</span></span></td>
+<td colspan="6"><span data-ttu-id="cc58a-151">實際值實體中沒有活動</span><span class="sxs-lookup"><span data-stu-id="cc58a-151">No activity in the Actuals entity</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="a1256-152">時間項目已送出。</span><span class="sxs-lookup"><span data-stu-id="a1256-152">A time entry is submitted.</span></span></td>
-<td colspan="6"><span data-ttu-id="a1256-153">實際值實體中沒有活動</span><span class="sxs-lookup"><span data-stu-id="a1256-153">No activity in the Actuals entity</span></span></td>
+<td><span data-ttu-id="cc58a-152">時間項目已送出。</span><span class="sxs-lookup"><span data-stu-id="cc58a-152">A time entry is submitted.</span></span></td>
+<td colspan="6"><span data-ttu-id="cc58a-153">實際值實體中沒有活動</span><span class="sxs-lookup"><span data-stu-id="cc58a-153">No activity in the Actuals entity</span></span></td>
 </tr>
 <tr>
-<td rowspan="2"><span data-ttu-id="a1256-154">時間已核准，且核准期間發生的計費時數沒有任何變更或增加。</span><span class="sxs-lookup"><span data-stu-id="a1256-154">Time is approved, and no change to or increase in billable hours occurs during approval.</span></span></td>
-<td><span data-ttu-id="a1256-155">成本實際值</span><span class="sxs-lookup"><span data-stu-id="a1256-155">Cost actual</span></span></td>
-<td><span data-ttu-id="a1256-156">承包單位貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-156">Contracting unit currency</span></span></td>
-<td rowspan="2"><span data-ttu-id="a1256-157">成本實際值</span><span class="sxs-lookup"><span data-stu-id="a1256-157">Cost actual</span></span></td>
-<td rowspan="2"><span data-ttu-id="a1256-158">承包單位貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-158">Contracting unit currency</span></span>
-<td rowspan="2"><span data-ttu-id="a1256-159">成本實際值</span><span class="sxs-lookup"><span data-stu-id="a1256-159">Cost actual</span></span></td>
-<td rowspan="2"><span data-ttu-id="a1256-160">成本實際值</span><span class="sxs-lookup"><span data-stu-id="a1256-160">Cost actual</span></span></td>
+<td rowspan="2"><span data-ttu-id="cc58a-154">時間已核准，且核准期間發生的計費時數沒有任何變更或增加。</span><span class="sxs-lookup"><span data-stu-id="cc58a-154">Time is approved, and no change to or increase in billable hours occurs during approval.</span></span></td>
+<td><span data-ttu-id="cc58a-155">成本實際值</span><span class="sxs-lookup"><span data-stu-id="cc58a-155">Cost actual</span></span></td>
+<td><span data-ttu-id="cc58a-156">承包單位貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-156">Contracting unit currency</span></span></td>
+<td rowspan="2"><span data-ttu-id="cc58a-157">成本實際值</span><span class="sxs-lookup"><span data-stu-id="cc58a-157">Cost actual</span></span></td>
+<td rowspan="2"><span data-ttu-id="cc58a-158">承包單位貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-158">Contracting unit currency</span></span>
+<td rowspan="2"><span data-ttu-id="cc58a-159">成本實際值</span><span class="sxs-lookup"><span data-stu-id="cc58a-159">Cost actual</span></span></td>
+<td rowspan="2"><span data-ttu-id="cc58a-160">成本實際值</span><span class="sxs-lookup"><span data-stu-id="cc58a-160">Cost actual</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="a1256-161">未開單銷售實際值 – 應收費</span><span class="sxs-lookup"><span data-stu-id="a1256-161">Unbilled sales actual – Chargeable</span></span></td>
-<td><span data-ttu-id="a1256-162">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-162">Project contract currency</span></span></td>
+<td><span data-ttu-id="cc58a-161">未開單銷售實際值 – 應收費</span><span class="sxs-lookup"><span data-stu-id="cc58a-161">Unbilled sales actual – Chargeable</span></span></td>
+<td><span data-ttu-id="cc58a-162">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-162">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="3"><span data-ttu-id="a1256-163">時間已核准，且核准期間發生的計費時數有減少。</span><span class="sxs-lookup"><span data-stu-id="a1256-163">Time is approved, and a decrease in billable hours occurs during approval.</span></span></td>
-<td><span data-ttu-id="a1256-164">成本實際值</span><span class="sxs-lookup"><span data-stu-id="a1256-164">Cost actual</span></span></td>
-<td><span data-ttu-id="a1256-165">承包單位貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-165">Contracting unit currency</span></span></td>
-<td rowspan="3"><span data-ttu-id="a1256-166">成本實際值</span><span class="sxs-lookup"><span data-stu-id="a1256-166">Cost actual</span></span></td>
-<td rowspan="3"><span data-ttu-id="a1256-167">承包單位貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-167">Contracting unit currency</span></span></td>
-<td rowspan="3"><span data-ttu-id="a1256-168">成本實際值</span><span class="sxs-lookup"><span data-stu-id="a1256-168">Cost actual</span></span></td>
-<td rowspan="3"><span data-ttu-id="a1256-169">成本實際值</span><span class="sxs-lookup"><span data-stu-id="a1256-169">Cost actual</span></span></td>
+<td rowspan="3"><span data-ttu-id="cc58a-163">時間已核准，且核准期間發生的計費時數有減少。</span><span class="sxs-lookup"><span data-stu-id="cc58a-163">Time is approved, and a decrease in billable hours occurs during approval.</span></span></td>
+<td><span data-ttu-id="cc58a-164">成本實際值</span><span class="sxs-lookup"><span data-stu-id="cc58a-164">Cost actual</span></span></td>
+<td><span data-ttu-id="cc58a-165">承包單位貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-165">Contracting unit currency</span></span></td>
+<td rowspan="3"><span data-ttu-id="cc58a-166">成本實際值</span><span class="sxs-lookup"><span data-stu-id="cc58a-166">Cost actual</span></span></td>
+<td rowspan="3"><span data-ttu-id="cc58a-167">承包單位貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-167">Contracting unit currency</span></span></td>
+<td rowspan="3"><span data-ttu-id="cc58a-168">成本實際值</span><span class="sxs-lookup"><span data-stu-id="cc58a-168">Cost actual</span></span></td>
+<td rowspan="3"><span data-ttu-id="cc58a-169">成本實際值</span><span class="sxs-lookup"><span data-stu-id="cc58a-169">Cost actual</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="a1256-170">未開單銷售實際值 – 新數量應收費</span><span class="sxs-lookup"><span data-stu-id="a1256-170">Unbilled sales actual – Chargeable for the new quantity</span></span></td>
-<td><span data-ttu-id="a1256-171">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-171">Project contract currency</span></span></td>
+<td><span data-ttu-id="cc58a-170">未開單銷售實際值 – 新數量應收費</span><span class="sxs-lookup"><span data-stu-id="cc58a-170">Unbilled sales actual – Chargeable for the new quantity</span></span></td>
+<td><span data-ttu-id="cc58a-171">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-171">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="a1256-172">未開單銷售實際值 – 差異不應收費</span><span class="sxs-lookup"><span data-stu-id="a1256-172">Unbilled sales actual – Non-chargeable for the difference</span></span></td>
-<td><span data-ttu-id="a1256-173">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-173">Project contract currency</span></span></td>
+<td><span data-ttu-id="cc58a-172">未開單銷售實際值 – 差異不應收費</span><span class="sxs-lookup"><span data-stu-id="cc58a-172">Unbilled sales actual – Non-chargeable for the difference</span></span></td>
+<td><span data-ttu-id="cc58a-173">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-173">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="2"><span data-ttu-id="a1256-174">發票已確認，且發生的計費時數沒有任何變更或增加。</span><span class="sxs-lookup"><span data-stu-id="a1256-174">An invoice is confirmed, and no change to or increase in billable hours occurs.</span></span></td>
-<td><span data-ttu-id="a1256-175">未開單銷售沖回</span><span class="sxs-lookup"><span data-stu-id="a1256-175">Unbilled sales reversal</span></span></td>
-<td><span data-ttu-id="a1256-176">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-176">Project contract currency</span></span></td>
-<td rowspan="2"><span data-ttu-id="a1256-177">里程碑已開單銷售</span><span class="sxs-lookup"><span data-stu-id="a1256-177">Billed sales for milestone</span></span></td>
-<td rowspan="2"><span data-ttu-id="a1256-178">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-178">Project contract currency</span></span></td>
-<td rowspan="2"><span data-ttu-id="a1256-179">不適用</span><span class="sxs-lookup"><span data-stu-id="a1256-179">Not applicable</span></span></td>
-<td rowspan="2"><span data-ttu-id="a1256-180">不適用</span><span class="sxs-lookup"><span data-stu-id="a1256-180">Not applicable</span></span></td>
+<td rowspan="2"><span data-ttu-id="cc58a-174">發票已確認，且發生的計費時數沒有任何變更或增加。</span><span class="sxs-lookup"><span data-stu-id="cc58a-174">An invoice is confirmed, and no change to or increase in billable hours occurs.</span></span></td>
+<td><span data-ttu-id="cc58a-175">未開單銷售沖回</span><span class="sxs-lookup"><span data-stu-id="cc58a-175">Unbilled sales reversal</span></span></td>
+<td><span data-ttu-id="cc58a-176">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-176">Project contract currency</span></span></td>
+<td rowspan="2"><span data-ttu-id="cc58a-177">里程碑已開單銷售</span><span class="sxs-lookup"><span data-stu-id="cc58a-177">Billed sales for milestone</span></span></td>
+<td rowspan="2"><span data-ttu-id="cc58a-178">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-178">Project contract currency</span></span></td>
+<td rowspan="2"><span data-ttu-id="cc58a-179">不適用</span><span class="sxs-lookup"><span data-stu-id="cc58a-179">Not applicable</span></span></td>
+<td rowspan="2"><span data-ttu-id="cc58a-180">不適用</span><span class="sxs-lookup"><span data-stu-id="cc58a-180">Not applicable</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="a1256-181">已開單銷售</span><span class="sxs-lookup"><span data-stu-id="a1256-181">Billed sales</span></span></td>
-<td><span data-ttu-id="a1256-182">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-182">Project contract currency</span></span></td>
+<td><span data-ttu-id="cc58a-181">已開單銷售</span><span class="sxs-lookup"><span data-stu-id="cc58a-181">Billed sales</span></span></td>
+<td><span data-ttu-id="cc58a-182">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-182">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="3"><span data-ttu-id="a1256-183">發票已確認，且發生的計費時數有減少。</span><span class="sxs-lookup"><span data-stu-id="a1256-183">An invoice is confirmed, and a decrease in billable hours occurs.</span></span></td>
-<td><span data-ttu-id="a1256-184">未開單銷售沖回</span><span class="sxs-lookup"><span data-stu-id="a1256-184">Unbilled sales reversal</span></span></td>
-<td><span data-ttu-id="a1256-185">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-185">Project contract currency</span></span></td>
-<td rowspan="3"><span data-ttu-id="a1256-186">不適用</span><span class="sxs-lookup"><span data-stu-id="a1256-186">Not applicable</span></span></td>
-<td rowspan="3"><span data-ttu-id="a1256-187">不適用</span><span class="sxs-lookup"><span data-stu-id="a1256-187">Not applicable</span></span></td>
-<td rowspan="3"><span data-ttu-id="a1256-188">不適用</span><span class="sxs-lookup"><span data-stu-id="a1256-188">Not applicable</span></span></td>
-<td rowspan="3"><span data-ttu-id="a1256-189">不適用</span><span class="sxs-lookup"><span data-stu-id="a1256-189">Not applicable</span></span></td>
+<td rowspan="3"><span data-ttu-id="cc58a-183">發票已確認，且發生的計費時數有減少。</span><span class="sxs-lookup"><span data-stu-id="cc58a-183">An invoice is confirmed, and a decrease in billable hours occurs.</span></span></td>
+<td><span data-ttu-id="cc58a-184">未開單銷售沖回</span><span class="sxs-lookup"><span data-stu-id="cc58a-184">Unbilled sales reversal</span></span></td>
+<td><span data-ttu-id="cc58a-185">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-185">Project contract currency</span></span></td>
+<td rowspan="3"><span data-ttu-id="cc58a-186">不適用</span><span class="sxs-lookup"><span data-stu-id="cc58a-186">Not applicable</span></span></td>
+<td rowspan="3"><span data-ttu-id="cc58a-187">不適用</span><span class="sxs-lookup"><span data-stu-id="cc58a-187">Not applicable</span></span></td>
+<td rowspan="3"><span data-ttu-id="cc58a-188">不適用</span><span class="sxs-lookup"><span data-stu-id="cc58a-188">Not applicable</span></span></td>
+<td rowspan="3"><span data-ttu-id="cc58a-189">不適用</span><span class="sxs-lookup"><span data-stu-id="cc58a-189">Not applicable</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="a1256-190">已開單銷售 – 新數量應收費</span><span class="sxs-lookup"><span data-stu-id="a1256-190">Billed sales – Chargeable for the new quantity</span></span></td>
-<td><span data-ttu-id="a1256-191">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-191">Project contract currency</span></span></td>
+<td><span data-ttu-id="cc58a-190">已開單銷售 – 新數量應收費</span><span class="sxs-lookup"><span data-stu-id="cc58a-190">Billed sales – Chargeable for the new quantity</span></span></td>
+<td><span data-ttu-id="cc58a-191">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-191">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="a1256-192">已開單銷售 – 差異不應收費</span><span class="sxs-lookup"><span data-stu-id="a1256-192">Billed sales – Non-chargeable for the difference</span></span></td>
-<td><span data-ttu-id="a1256-193">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-193">Project contract currency</span></span></td>
+<td><span data-ttu-id="cc58a-192">已開單銷售 – 差異不應收費</span><span class="sxs-lookup"><span data-stu-id="cc58a-192">Billed sales – Non-chargeable for the difference</span></span></td>
+<td><span data-ttu-id="cc58a-193">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-193">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="2"><span data-ttu-id="a1256-194">已更正發票以增加應收費數量。</span><span class="sxs-lookup"><span data-stu-id="a1256-194">An invoice is corrected to increase the chargeable quantity.</span></span></td>
-<td><span data-ttu-id="a1256-195">已開單銷售 – 沖回</span><span class="sxs-lookup"><span data-stu-id="a1256-195">Billed sales – Reversal</span></span></td>
-<td><span data-ttu-id="a1256-196">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-196">Project contract currency</span></span></td>
+<td rowspan="2"><span data-ttu-id="cc58a-194">已更正發票以增加應收費數量。</span><span class="sxs-lookup"><span data-stu-id="cc58a-194">An invoice is corrected to increase the chargeable quantity.</span></span></td>
+<td><span data-ttu-id="cc58a-195">已開單銷售 – 沖回</span><span class="sxs-lookup"><span data-stu-id="cc58a-195">Billed sales – Reversal</span></span></td>
+<td><span data-ttu-id="cc58a-196">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-196">Project contract currency</span></span></td>
 <td rowspan="5">
 <ul>
-<li><span data-ttu-id="a1256-197">里程碑已開單銷售沖回</span><span class="sxs-lookup"><span data-stu-id="a1256-197">Billed sales reversal for milestone</span></span></li>
-<li><span data-ttu-id="a1256-198">里程碑狀態從<strong>已開立發票</strong>到<strong>已準備好開立發票</strong>的變更</span><span class="sxs-lookup"><span data-stu-id="a1256-198">Change in milestone status from <strong>Invoiced</strong> to <strong>Ready for invoice</strong></span></span></li>
+<li><span data-ttu-id="cc58a-197">里程碑已開單銷售沖回</span><span class="sxs-lookup"><span data-stu-id="cc58a-197">Billed sales reversal for milestone</span></span></li>
+<li><span data-ttu-id="cc58a-198">里程碑狀態從<strong>已開立發票</strong>到<strong>已準備好開立發票</strong>的變更</span><span class="sxs-lookup"><span data-stu-id="cc58a-198">Change in milestone status from <strong>Invoiced</strong> to <strong>Ready for invoice</strong></span></span></li>
 </ul>
 </td>
-<td rowspan="5"><span data-ttu-id="a1256-199">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-199">Project contract currency</span></span></td>
-<td rowspan="5"><span data-ttu-id="a1256-200">不適用</span><span class="sxs-lookup"><span data-stu-id="a1256-200">Not applicable</span></span></td>
-<td rowspan="5"><span data-ttu-id="a1256-201">不適用</span><span class="sxs-lookup"><span data-stu-id="a1256-201">Not applicable</span></span></td>
+<td rowspan="5"><span data-ttu-id="cc58a-199">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-199">Project contract currency</span></span></td>
+<td rowspan="5"><span data-ttu-id="cc58a-200">不適用</span><span class="sxs-lookup"><span data-stu-id="cc58a-200">Not applicable</span></span></td>
+<td rowspan="5"><span data-ttu-id="cc58a-201">不適用</span><span class="sxs-lookup"><span data-stu-id="cc58a-201">Not applicable</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="a1256-202">已開單銷售</span><span class="sxs-lookup"><span data-stu-id="a1256-202">Billed sales</span></span></td>
-<td><span data-ttu-id="a1256-203">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-203">Project contract currency</span></span></td>
+<td><span data-ttu-id="cc58a-202">已開單銷售</span><span class="sxs-lookup"><span data-stu-id="cc58a-202">Billed sales</span></span></td>
+<td><span data-ttu-id="cc58a-203">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-203">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="3"><span data-ttu-id="a1256-204">已更正發票以減少應收費數量。</span><span class="sxs-lookup"><span data-stu-id="a1256-204">An invoice is corrected to decrease the chargeable quantity.</span></span></td>
-<td><span data-ttu-id="a1256-205">已開單銷售 – 沖回</span><span class="sxs-lookup"><span data-stu-id="a1256-205">Billed sales – Reversal</span></span></td>
-<td><span data-ttu-id="a1256-206">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-206">Project contract currency</span></span></td>
+<td rowspan="3"><span data-ttu-id="cc58a-204">已更正發票以減少應收費數量。</span><span class="sxs-lookup"><span data-stu-id="cc58a-204">An invoice is corrected to decrease the chargeable quantity.</span></span></td>
+<td><span data-ttu-id="cc58a-205">已開單銷售 – 沖回</span><span class="sxs-lookup"><span data-stu-id="cc58a-205">Billed sales – Reversal</span></span></td>
+<td><span data-ttu-id="cc58a-206">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-206">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="a1256-207">新數量已開單銷售</span><span class="sxs-lookup"><span data-stu-id="a1256-207">Billed sales for the new quantity</span></span></td>
-<td><span data-ttu-id="a1256-208">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-208">Project contract currency</span></span></td>
+<td><span data-ttu-id="cc58a-207">新數量已開單銷售</span><span class="sxs-lookup"><span data-stu-id="cc58a-207">Billed sales for the new quantity</span></span></td>
+<td><span data-ttu-id="cc58a-208">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-208">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="a1256-209">未開單銷售 – 差異應收費</span><span class="sxs-lookup"><span data-stu-id="a1256-209">Unbilled sales – Chargeable for the difference</span></span></td>
-<td><span data-ttu-id="a1256-210">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-210">Project contract currency</span></span></td>
+<td><span data-ttu-id="cc58a-209">未開單銷售 – 差異應收費</span><span class="sxs-lookup"><span data-stu-id="cc58a-209">Unbilled sales – Chargeable for the difference</span></span></td>
+<td><span data-ttu-id="cc58a-210">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-210">Project contract currency</span></span></td>
 </tr>
 </tbody>
 </table>
 
-<span data-ttu-id="a1256-211">**資源隸屬於與專案承包單位不同的組織單位**</span><span class="sxs-lookup"><span data-stu-id="a1256-211">**The resource belongs to an organizational unit that differs from the project's contracting unit**</span></span>
+<span data-ttu-id="cc58a-211">**資源隸屬於與專案承包單位不同的組織單位**</span><span class="sxs-lookup"><span data-stu-id="cc58a-211">**The resource belongs to an organizational unit that differs from the project's contracting unit**</span></span>
 
 <table>
 <thead>
 <tr>
-<th rowspan="3"><span data-ttu-id="a1256-212">Event</span><span class="sxs-lookup"><span data-stu-id="a1256-212">Event</span></span></th>
-<th colspan="4"><span data-ttu-id="a1256-213">計費或已售出專案</span><span class="sxs-lookup"><span data-stu-id="a1256-213">Billable or sold project</span></span></th>
-<th rowspan="3"><span data-ttu-id="a1256-214">在售前階段的專案</span><span class="sxs-lookup"><span data-stu-id="a1256-214">Project in the presales stage</span></span></th>
-<th rowspan="3"><span data-ttu-id="a1256-215">內部專案</span><span class="sxs-lookup"><span data-stu-id="a1256-215">Internal project</span></span></th>
+<th rowspan="3"><span data-ttu-id="cc58a-212">Event</span><span class="sxs-lookup"><span data-stu-id="cc58a-212">Event</span></span></th>
+<th colspan="4"><span data-ttu-id="cc58a-213">計費或已售出專案</span><span class="sxs-lookup"><span data-stu-id="cc58a-213">Billable or sold project</span></span></th>
+<th rowspan="3"><span data-ttu-id="cc58a-214">在售前階段的專案</span><span class="sxs-lookup"><span data-stu-id="cc58a-214">Project in the presales stage</span></span></th>
+<th rowspan="3"><span data-ttu-id="cc58a-215">內部專案</span><span class="sxs-lookup"><span data-stu-id="cc58a-215">Internal project</span></span></th>
 </tr>
 <tr>
-<th colspan="2"><span data-ttu-id="a1256-216">時間及材料</span><span class="sxs-lookup"><span data-stu-id="a1256-216">Time and materials</span></span></th>
-<th colspan="2"><span data-ttu-id="a1256-217">固定價格</span><span class="sxs-lookup"><span data-stu-id="a1256-217">Fixed price</span></span></th>
+<th colspan="2"><span data-ttu-id="cc58a-216">時間及材料</span><span class="sxs-lookup"><span data-stu-id="cc58a-216">Time and materials</span></span></th>
+<th colspan="2"><span data-ttu-id="cc58a-217">固定價格</span><span class="sxs-lookup"><span data-stu-id="cc58a-217">Fixed price</span></span></th>
 </tr>
 <tr>
-<th><span data-ttu-id="a1256-218">實際值</span><span class="sxs-lookup"><span data-stu-id="a1256-218">Actuals</span></span></th>
-<th><span data-ttu-id="a1256-219">交易貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-219">Transaction currency</span></span></th>
-<th><span data-ttu-id="a1256-220">固定價格</span><span class="sxs-lookup"><span data-stu-id="a1256-220">Fixed price</span></span></th>
-<th><span data-ttu-id="a1256-221">交易貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-221">Transaction currency</span></span></th>
+<th><span data-ttu-id="cc58a-218">實際值</span><span class="sxs-lookup"><span data-stu-id="cc58a-218">Actuals</span></span></th>
+<th><span data-ttu-id="cc58a-219">交易貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-219">Transaction currency</span></span></th>
+<th><span data-ttu-id="cc58a-220">固定價格</span><span class="sxs-lookup"><span data-stu-id="cc58a-220">Fixed price</span></span></th>
+<th><span data-ttu-id="cc58a-221">交易貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-221">Transaction currency</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="a1256-222">時間項目已建立。</span><span class="sxs-lookup"><span data-stu-id="a1256-222">A time entry is created.</span></span></td>
-<td colspan="6"><span data-ttu-id="a1256-223">實際值實體中沒有活動</span><span class="sxs-lookup"><span data-stu-id="a1256-223">No activity in the Actuals entity</span></span></td>
+<td><span data-ttu-id="cc58a-222">時間項目已建立。</span><span class="sxs-lookup"><span data-stu-id="cc58a-222">A time entry is created.</span></span></td>
+<td colspan="6"><span data-ttu-id="cc58a-223">實際值實體中沒有活動</span><span class="sxs-lookup"><span data-stu-id="cc58a-223">No activity in the Actuals entity</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="a1256-224">時間項目已送出。</span><span class="sxs-lookup"><span data-stu-id="a1256-224">A time entry is submitted.</span></span></td>
-<td colspan="6"><span data-ttu-id="a1256-225">實際值實體中沒有活動</span><span class="sxs-lookup"><span data-stu-id="a1256-225">No activity in the Actuals entity</span></span></td>
+<td><span data-ttu-id="cc58a-224">時間項目已送出。</span><span class="sxs-lookup"><span data-stu-id="cc58a-224">A time entry is submitted.</span></span></td>
+<td colspan="6"><span data-ttu-id="cc58a-225">實際值實體中沒有活動</span><span class="sxs-lookup"><span data-stu-id="cc58a-225">No activity in the Actuals entity</span></span></td>
 </tr>
 <tr>
-<td rowspan="4"><span data-ttu-id="a1256-226">時間已核准，且核准期間發生的計費時數沒有任何變更或增加。</span><span class="sxs-lookup"><span data-stu-id="a1256-226">Time is approved, and no change to or increase in billable hours occurs during approval.</span></span></td>
-<td><span data-ttu-id="a1256-227">成本實際值</span><span class="sxs-lookup"><span data-stu-id="a1256-227">Cost actual</span></span></td>
-<td><span data-ttu-id="a1256-228">承包單位貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-228">Contracting unit currency</span></span></td>
-<td rowspan="4"><span data-ttu-id="a1256-229">成本實際值</span><span class="sxs-lookup"><span data-stu-id="a1256-229">Cost actual</span></span></td>
-<td rowspan="4"><span data-ttu-id="a1256-230">承包單位貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-230">Contracting unit currency</span></span></td>
-<td rowspan="4"><span data-ttu-id="a1256-231">成本實際值</span><span class="sxs-lookup"><span data-stu-id="a1256-231">Cost actual</span></span></td>
-<td rowspan="4"><span data-ttu-id="a1256-232">成本實際值</span><span class="sxs-lookup"><span data-stu-id="a1256-232">Cost actual</span></span></td>
+<td rowspan="4"><span data-ttu-id="cc58a-226">時間已核准，且核准期間發生的計費時數沒有任何變更或增加。</span><span class="sxs-lookup"><span data-stu-id="cc58a-226">Time is approved, and no change to or increase in billable hours occurs during approval.</span></span></td>
+<td><span data-ttu-id="cc58a-227">成本實際值</span><span class="sxs-lookup"><span data-stu-id="cc58a-227">Cost actual</span></span></td>
+<td><span data-ttu-id="cc58a-228">承包單位貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-228">Contracting unit currency</span></span></td>
+<td rowspan="4"><span data-ttu-id="cc58a-229">成本實際值</span><span class="sxs-lookup"><span data-stu-id="cc58a-229">Cost actual</span></span></td>
+<td rowspan="4"><span data-ttu-id="cc58a-230">承包單位貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-230">Contracting unit currency</span></span></td>
+<td rowspan="4"><span data-ttu-id="cc58a-231">成本實際值</span><span class="sxs-lookup"><span data-stu-id="cc58a-231">Cost actual</span></span></td>
+<td rowspan="4"><span data-ttu-id="cc58a-232">成本實際值</span><span class="sxs-lookup"><span data-stu-id="cc58a-232">Cost actual</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="a1256-233">未開單銷售實際值 – 應收費</span><span class="sxs-lookup"><span data-stu-id="a1256-233">Unbilled sales actual – Chargeable</span></span></td>
-<td><span data-ttu-id="a1256-234">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-234">Project contract currency</span></span></td>
+<td><span data-ttu-id="cc58a-233">未開單銷售實際值 – 應收費</span><span class="sxs-lookup"><span data-stu-id="cc58a-233">Unbilled sales actual – Chargeable</span></span></td>
+<td><span data-ttu-id="cc58a-234">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-234">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="a1256-235">資源分配單位成本</span><span class="sxs-lookup"><span data-stu-id="a1256-235">Resourcing unit cost</span></span></td>
-<td><span data-ttu-id="a1256-236">資源分配單位貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-236">Resourcing unit currency</span></span></td>
+<td><span data-ttu-id="cc58a-235">資源分配單位成本</span><span class="sxs-lookup"><span data-stu-id="cc58a-235">Resourcing unit cost</span></span></td>
+<td><span data-ttu-id="cc58a-236">資源分配單位貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-236">Resourcing unit currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="a1256-237">跨組織銷售</span><span class="sxs-lookup"><span data-stu-id="a1256-237">Interorganizational sales</span></span></td>
-<td><span data-ttu-id="a1256-238">承包單位貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-238">Contracting unit currency</span></span></td>
+<td><span data-ttu-id="cc58a-237">跨組織銷售</span><span class="sxs-lookup"><span data-stu-id="cc58a-237">Interorganizational sales</span></span></td>
+<td><span data-ttu-id="cc58a-238">承包單位貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-238">Contracting unit currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="5"><span data-ttu-id="a1256-239">時間已核准，且核准期間發生的計費時數有減少。</span><span class="sxs-lookup"><span data-stu-id="a1256-239">Time is approved, and a decrease in billable hours occurs during approval.</span></span></td>
-<td><span data-ttu-id="a1256-240">成本實際值</span><span class="sxs-lookup"><span data-stu-id="a1256-240">Cost actual</span></span></td>
-<td><span data-ttu-id="a1256-241">承包單位貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-241">Contracting unit currency</span></span></td>
-<td rowspan="5"><span data-ttu-id="a1256-242">成本實際值</span><span class="sxs-lookup"><span data-stu-id="a1256-242">Cost actual</span></span></td>
-<td rowspan="5"><span data-ttu-id="a1256-243">承包單位貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-243">Contracting unit currency</span></span></td>
-<td rowspan="5"><span data-ttu-id="a1256-244">成本實際值</span><span class="sxs-lookup"><span data-stu-id="a1256-244">Cost actual</span></span></td>
-<td rowspan="5"><span data-ttu-id="a1256-245">成本實際值</span><span class="sxs-lookup"><span data-stu-id="a1256-245">Cost actual</span></span></td>
+<td rowspan="5"><span data-ttu-id="cc58a-239">時間已核准，且核准期間發生的計費時數有減少。</span><span class="sxs-lookup"><span data-stu-id="cc58a-239">Time is approved, and a decrease in billable hours occurs during approval.</span></span></td>
+<td><span data-ttu-id="cc58a-240">成本實際值</span><span class="sxs-lookup"><span data-stu-id="cc58a-240">Cost actual</span></span></td>
+<td><span data-ttu-id="cc58a-241">承包單位貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-241">Contracting unit currency</span></span></td>
+<td rowspan="5"><span data-ttu-id="cc58a-242">成本實際值</span><span class="sxs-lookup"><span data-stu-id="cc58a-242">Cost actual</span></span></td>
+<td rowspan="5"><span data-ttu-id="cc58a-243">承包單位貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-243">Contracting unit currency</span></span></td>
+<td rowspan="5"><span data-ttu-id="cc58a-244">成本實際值</span><span class="sxs-lookup"><span data-stu-id="cc58a-244">Cost actual</span></span></td>
+<td rowspan="5"><span data-ttu-id="cc58a-245">成本實際值</span><span class="sxs-lookup"><span data-stu-id="cc58a-245">Cost actual</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="a1256-246">資源分配單位成本</span><span class="sxs-lookup"><span data-stu-id="a1256-246">Resourcing unit cost</span></span></td>
-<td><span data-ttu-id="a1256-247">資源分配單位貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-247">Resourcing unit currency</span></span></td>
+<td><span data-ttu-id="cc58a-246">資源分配單位成本</span><span class="sxs-lookup"><span data-stu-id="cc58a-246">Resourcing unit cost</span></span></td>
+<td><span data-ttu-id="cc58a-247">資源分配單位貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-247">Resourcing unit currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="a1256-248">跨組織銷售</span><span class="sxs-lookup"><span data-stu-id="a1256-248">Interorganizational sales</span></span></td>
-<td><span data-ttu-id="a1256-249">承包單位貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-249">Contracting unit currency</span></span></td>
+<td><span data-ttu-id="cc58a-248">跨組織銷售</span><span class="sxs-lookup"><span data-stu-id="cc58a-248">Interorganizational sales</span></span></td>
+<td><span data-ttu-id="cc58a-249">承包單位貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-249">Contracting unit currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="a1256-250">未開單銷售實際值 – 新數量應收費</span><span class="sxs-lookup"><span data-stu-id="a1256-250">Unbilled sales actual – Chargeable for the new quantity</span></span></td>
-<td><span data-ttu-id="a1256-251">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-251">Project contract currency</span></span></td>
+<td><span data-ttu-id="cc58a-250">未開單銷售實際值 – 新數量應收費</span><span class="sxs-lookup"><span data-stu-id="cc58a-250">Unbilled sales actual – Chargeable for the new quantity</span></span></td>
+<td><span data-ttu-id="cc58a-251">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-251">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="a1256-252">未開單銷售實際值 – 差異不應收費</span><span class="sxs-lookup"><span data-stu-id="a1256-252">Unbilled sales actual – Non-chargeable for the difference</span></span></td>
-<td><span data-ttu-id="a1256-253">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-253">Project contract currency</span></span></td>
+<td><span data-ttu-id="cc58a-252">未開單銷售實際值 – 差異不應收費</span><span class="sxs-lookup"><span data-stu-id="cc58a-252">Unbilled sales actual – Non-chargeable for the difference</span></span></td>
+<td><span data-ttu-id="cc58a-253">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-253">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="2"><span data-ttu-id="a1256-254">發票已確認，且發生的計費時數沒有任何變更或增加。</span><span class="sxs-lookup"><span data-stu-id="a1256-254">An invoice is confirmed, and no change to or increase in billable hours occurs.</span></span></td>
-<td><span data-ttu-id="a1256-255">未開單銷售沖回</span><span class="sxs-lookup"><span data-stu-id="a1256-255">Unbilled sales reversal</span></span></td>
-<td><span data-ttu-id="a1256-256">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-256">Project contract currency</span></span></td>
-<td rowspan="2"><span data-ttu-id="a1256-257">里程碑已開單銷售</span><span class="sxs-lookup"><span data-stu-id="a1256-257">Billed sales for milestone</span></span></td>
-<td rowspan="2"><span data-ttu-id="a1256-258">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-258">Project contract currency</span></span></td>
-<td rowspan="2"><span data-ttu-id="a1256-259">不適用</span><span class="sxs-lookup"><span data-stu-id="a1256-259">Not applicable</span></span></td>
-<td rowspan="2"><span data-ttu-id="a1256-260">不適用</span><span class="sxs-lookup"><span data-stu-id="a1256-260">Not applicable</span></span></td>
+<td rowspan="2"><span data-ttu-id="cc58a-254">發票已確認，且發生的計費時數沒有任何變更或增加。</span><span class="sxs-lookup"><span data-stu-id="cc58a-254">An invoice is confirmed, and no change to or increase in billable hours occurs.</span></span></td>
+<td><span data-ttu-id="cc58a-255">未開單銷售沖回</span><span class="sxs-lookup"><span data-stu-id="cc58a-255">Unbilled sales reversal</span></span></td>
+<td><span data-ttu-id="cc58a-256">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-256">Project contract currency</span></span></td>
+<td rowspan="2"><span data-ttu-id="cc58a-257">里程碑已開單銷售</span><span class="sxs-lookup"><span data-stu-id="cc58a-257">Billed sales for milestone</span></span></td>
+<td rowspan="2"><span data-ttu-id="cc58a-258">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-258">Project contract currency</span></span></td>
+<td rowspan="2"><span data-ttu-id="cc58a-259">不適用</span><span class="sxs-lookup"><span data-stu-id="cc58a-259">Not applicable</span></span></td>
+<td rowspan="2"><span data-ttu-id="cc58a-260">不適用</span><span class="sxs-lookup"><span data-stu-id="cc58a-260">Not applicable</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="a1256-261">已開單銷售</span><span class="sxs-lookup"><span data-stu-id="a1256-261">Billed sales</span></span></td>
-<td><span data-ttu-id="a1256-262">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-262">Project contract currency</span></span></td>
+<td><span data-ttu-id="cc58a-261">已開單銷售</span><span class="sxs-lookup"><span data-stu-id="cc58a-261">Billed sales</span></span></td>
+<td><span data-ttu-id="cc58a-262">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-262">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="3"><span data-ttu-id="a1256-263">發票已確認，且發生的計費時數有減少。</span><span class="sxs-lookup"><span data-stu-id="a1256-263">An invoice is confirmed, and a decrease in billable hours occurs.</span></span></td>
-<td><span data-ttu-id="a1256-264">未開單銷售沖回</span><span class="sxs-lookup"><span data-stu-id="a1256-264">Unbilled sales reversal</span></span></td>
-<td><span data-ttu-id="a1256-265">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-265">Project contract currency</span></span></td>
-<td rowspan="3"><span data-ttu-id="a1256-266">不適用</span><span class="sxs-lookup"><span data-stu-id="a1256-266">Not applicable</span></span></td>
-<td rowspan="3"><span data-ttu-id="a1256-267">不適用</span><span class="sxs-lookup"><span data-stu-id="a1256-267">Not applicable</span></span></td>
-<td rowspan="3"><span data-ttu-id="a1256-268">不適用</span><span class="sxs-lookup"><span data-stu-id="a1256-268">Not applicable</span></span></td>
-<td rowspan="3"><span data-ttu-id="a1256-269">不適用</span><span class="sxs-lookup"><span data-stu-id="a1256-269">Not applicable</span></span></td>
+<td rowspan="3"><span data-ttu-id="cc58a-263">發票已確認，且發生的計費時數有減少。</span><span class="sxs-lookup"><span data-stu-id="cc58a-263">An invoice is confirmed, and a decrease in billable hours occurs.</span></span></td>
+<td><span data-ttu-id="cc58a-264">未開單銷售沖回</span><span class="sxs-lookup"><span data-stu-id="cc58a-264">Unbilled sales reversal</span></span></td>
+<td><span data-ttu-id="cc58a-265">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-265">Project contract currency</span></span></td>
+<td rowspan="3"><span data-ttu-id="cc58a-266">不適用</span><span class="sxs-lookup"><span data-stu-id="cc58a-266">Not applicable</span></span></td>
+<td rowspan="3"><span data-ttu-id="cc58a-267">不適用</span><span class="sxs-lookup"><span data-stu-id="cc58a-267">Not applicable</span></span></td>
+<td rowspan="3"><span data-ttu-id="cc58a-268">不適用</span><span class="sxs-lookup"><span data-stu-id="cc58a-268">Not applicable</span></span></td>
+<td rowspan="3"><span data-ttu-id="cc58a-269">不適用</span><span class="sxs-lookup"><span data-stu-id="cc58a-269">Not applicable</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="a1256-270">已開單銷售 – 新數量應收費</span><span class="sxs-lookup"><span data-stu-id="a1256-270">Billed sales – Chargeable for the new quantity</span></span></td>
-<td><span data-ttu-id="a1256-271">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-271">Project contract currency</span></span></td>
+<td><span data-ttu-id="cc58a-270">已開單銷售 – 新數量應收費</span><span class="sxs-lookup"><span data-stu-id="cc58a-270">Billed sales – Chargeable for the new quantity</span></span></td>
+<td><span data-ttu-id="cc58a-271">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-271">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="a1256-272">已開單銷售 – 差異不應收費</span><span class="sxs-lookup"><span data-stu-id="a1256-272">Billed sales – Non-chargeable for the difference</span></span></td>
-<td><span data-ttu-id="a1256-273">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-273">Project contract currency</span></span></td>
+<td><span data-ttu-id="cc58a-272">已開單銷售 – 差異不應收費</span><span class="sxs-lookup"><span data-stu-id="cc58a-272">Billed sales – Non-chargeable for the difference</span></span></td>
+<td><span data-ttu-id="cc58a-273">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-273">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="2"><span data-ttu-id="a1256-274">已更正發票以增加應收費數量。</span><span class="sxs-lookup"><span data-stu-id="a1256-274">An invoice is corrected to increase the chargeable quantity.</span></span></td>
-<td><span data-ttu-id="a1256-275">已開單銷售 – 沖回</span><span class="sxs-lookup"><span data-stu-id="a1256-275">Billed sales – Reversal</span></span></td>
-<td><span data-ttu-id="a1256-276">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-276">Project contract currency</span></span></td>
+<td rowspan="2"><span data-ttu-id="cc58a-274">已更正發票以增加應收費數量。</span><span class="sxs-lookup"><span data-stu-id="cc58a-274">An invoice is corrected to increase the chargeable quantity.</span></span></td>
+<td><span data-ttu-id="cc58a-275">已開單銷售 – 沖回</span><span class="sxs-lookup"><span data-stu-id="cc58a-275">Billed sales – Reversal</span></span></td>
+<td><span data-ttu-id="cc58a-276">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-276">Project contract currency</span></span></td>
 <td rowspan="5">
 <ul>
-<li><span data-ttu-id="a1256-277">里程碑已開單銷售沖回</span><span class="sxs-lookup"><span data-stu-id="a1256-277">Billed sales reversal for milestone</span></span></li>
-<li><span data-ttu-id="a1256-278">里程碑狀態從<strong>已開立發票</strong>到<strong>已準備好開立發票</strong>的變更</span><span class="sxs-lookup"><span data-stu-id="a1256-278">Change in milestone status from <strong>Invoiced</strong> to <strong>Ready for invoice</strong></span></span></li>
+<li><span data-ttu-id="cc58a-277">里程碑已開單銷售沖回</span><span class="sxs-lookup"><span data-stu-id="cc58a-277">Billed sales reversal for milestone</span></span></li>
+<li><span data-ttu-id="cc58a-278">里程碑狀態從<strong>已開立發票</strong>到<strong>已準備好開立發票</strong>的變更</span><span class="sxs-lookup"><span data-stu-id="cc58a-278">Change in milestone status from <strong>Invoiced</strong> to <strong>Ready for invoice</strong></span></span></li>
 </ul>
 </td>
-<td rowspan="5"><span data-ttu-id="a1256-279">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-279">Project contract currency</span></span></td>
-<td rowspan="5"><span data-ttu-id="a1256-280">不適用</span><span class="sxs-lookup"><span data-stu-id="a1256-280">Not applicable</span></span></td>
-<td rowspan="5"><span data-ttu-id="a1256-281">不適用</span><span class="sxs-lookup"><span data-stu-id="a1256-281">Not applicable</span></span></td>
+<td rowspan="5"><span data-ttu-id="cc58a-279">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-279">Project contract currency</span></span></td>
+<td rowspan="5"><span data-ttu-id="cc58a-280">不適用</span><span class="sxs-lookup"><span data-stu-id="cc58a-280">Not applicable</span></span></td>
+<td rowspan="5"><span data-ttu-id="cc58a-281">不適用</span><span class="sxs-lookup"><span data-stu-id="cc58a-281">Not applicable</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="a1256-282">已開單銷售</span><span class="sxs-lookup"><span data-stu-id="a1256-282">Billed sales</span></span></td>
-<td><span data-ttu-id="a1256-283">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-283">Project contract currency</span></span></td>
+<td><span data-ttu-id="cc58a-282">已開單銷售</span><span class="sxs-lookup"><span data-stu-id="cc58a-282">Billed sales</span></span></td>
+<td><span data-ttu-id="cc58a-283">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-283">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="3"><span data-ttu-id="a1256-284">已更正發票以減少應收費數量。</span><span class="sxs-lookup"><span data-stu-id="a1256-284">An invoice is corrected to decrease the chargeable quantity.</span></span></td>
-<td><span data-ttu-id="a1256-285">已開單銷售 – 沖回</span><span class="sxs-lookup"><span data-stu-id="a1256-285">Billed sales – Reversal</span></span></td>
-<td><span data-ttu-id="a1256-286">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-286">Project contract currency</span></span></td>
+<td rowspan="3"><span data-ttu-id="cc58a-284">已更正發票以減少應收費數量。</span><span class="sxs-lookup"><span data-stu-id="cc58a-284">An invoice is corrected to decrease the chargeable quantity.</span></span></td>
+<td><span data-ttu-id="cc58a-285">已開單銷售 – 沖回</span><span class="sxs-lookup"><span data-stu-id="cc58a-285">Billed sales – Reversal</span></span></td>
+<td><span data-ttu-id="cc58a-286">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-286">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="a1256-287">新數量已開單銷售</span><span class="sxs-lookup"><span data-stu-id="a1256-287">Billed sales for the new quantity</span></span></td>
-<td><span data-ttu-id="a1256-288">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-288">Project contract currency</span></span></td>
+<td><span data-ttu-id="cc58a-287">新數量已開單銷售</span><span class="sxs-lookup"><span data-stu-id="cc58a-287">Billed sales for the new quantity</span></span></td>
+<td><span data-ttu-id="cc58a-288">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-288">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="a1256-289">未開單銷售 – 差異應收費</span><span class="sxs-lookup"><span data-stu-id="a1256-289">Unbilled sales – Chargeable for the difference</span></span></td>
-<td><span data-ttu-id="a1256-290">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="a1256-290">Project contract currency</span></span></td>
+<td><span data-ttu-id="cc58a-289">未開單銷售 – 差異應收費</span><span class="sxs-lookup"><span data-stu-id="cc58a-289">Unbilled sales – Chargeable for the difference</span></span></td>
+<td><span data-ttu-id="cc58a-290">專案合約貨幣</span><span class="sxs-lookup"><span data-stu-id="cc58a-290">Project contract currency</span></span></td>
 </tr>
 </tbody>
 </table>
