@@ -2,8 +2,6 @@
 title: 取消先前核准的時間和費用項目
 description: 本主題提供有關如何取消已核准專案時間或費用交易的資訊。
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 40ac37c1070e1c4da01e96bbc4248977b2b6d284
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: bf3d146d2b07723b4d2e6e85eafd6f1b23b8b83f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290844"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014736"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>取消先前核准的時間或費用項目
 
