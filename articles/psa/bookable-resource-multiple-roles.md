@@ -2,12 +2,10 @@
 title: 在可預約資源擔任專案的多個角色時，估計專案銷售和成本
 description: 本主題提供相關資訊，說明如何使用定價維度支援專案中擔任多個角色之資源的定價和成本計算。
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0f779cf7e247157d6cae2ae7c4c5644201cb7714
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5b2b57f5268a92168952b6da5123886df70cd4e2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290979"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013251"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-for-a-project"></a>在可預約資源擔任專案的多個角色時，估計專案銷售和成本 
 
