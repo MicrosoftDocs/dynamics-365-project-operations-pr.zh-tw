@@ -2,30 +2,29 @@
 title: 複製專案
 description: 本主題提供有關在 Dynamics 365 Project Operations 中複製專案的資訊。
 author: ruhercul
-manager: AnnBe
-ms.date: 02/22/2021
+ms.date: 05/21/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: af1942e81691d9e13fdcbbf68599c1a8a4004582
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
+ms.openlocfilehash: c3055ab5b8c07faa2bc9167956d283e2a66029dd
+ms.sourcegitcommit: 173f2b1f4e063c440a5f78d76d456c62aadbd89e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479509"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "6091244"
 ---
 # <a name="copy-a-project"></a>複製專案
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
-在 Dynamics 365 Project Operations 中，您可以選取 **專案** 表單上的 **複製專案**，快速建置新專案。 若要複製專案，請開啟想要複製的專案，然後選取 **複製專案**。 此動作會複製：
+在 Dynamics 365 Project Operations 中，您可以選取 **專案** 表單上的 **複製專案**，快速建置新專案。 若要複製專案，請開啟想要複製的專案，然後選取 **複製專案**。 此動作會複製下列項目：
 
-- 專案屬性 (估計開始日期是從來源專案複製而來)
+- 專案屬性 
 - 分工結構圖
 - 專案團隊成員
 - 專案估計值
 - 專案費用估計
+- 專案材料估計值
 
 ## <a name="project-properties"></a>專案屬性
 
@@ -42,11 +41,15 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 - 整體專案狀態
 - 註解
 - 估計值
-- 估計開始日期
-- 完成日期
+- 估計開始日期：這是從複本所建立專案的日期。
+- 估計完成日期：此日期已根據從複本所建立之新專案的開始日期進行調整。
 - 投入 (小時)
 - 估計人力成本
 - 估計費用成本
+- 估計材料成本
+
+> [!NOTE]
+> 複製專案是長時間執行的作業。 也會複製專案記錄、其相關屬性以及許多相關實體。 由於作業執行時間很長，因此開始複製後，除非複製作業完成，否則會一直鎖定目標專案頁面，無法進行編輯。
 
 ## <a name="work-breakdown-structure"></a>分工結構圖
 
@@ -58,7 +61,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 ## <a name="estimates"></a>估計值
 
-複製專案時，會從來源專案複製資源及費用估計明細。 
+複製專案時，會從來源專案複製資源、費用及材料估計明細。 
 
 如需有關如何以程式設計方式存取 [複製專案] 的詳細資訊，請參閱[使用 [複製專案] 開發專案範本](dev-copy-project.md)。
 

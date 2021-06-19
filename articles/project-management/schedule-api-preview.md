@@ -2,18 +2,16 @@
 title: 使用排程 API 對排程實體執行作業
 description: 本主題提供有關使用排程 API 的資訊與範例。
 author: sigitac
-manager: Annbe
 ms.date: 04/27/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e03f4e6c49a835206b23cade3fabe3fd26693441
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950794"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116787"
 ---
 # <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>使用排程 API 對排程實體執行作業
 
@@ -268,7 +266,6 @@ OperationSet 是工作單位模式，當交易中有數個必須處理的排程�
 - 每個使用者最多只能有 10 個已開啟的 **OperationSet**。
 - Project Operations 目前在專案中最多支援總計 500 個工作。
 - **OperationSet** 失敗狀態和失敗記錄目前未提供。
-- 排程 API 開放公開預覽。 Microsoft 不支援在生產環境中使用這些 API。
 - [專案和工作的限制與界限](/project-for-the-web/project-for-the-web-limits-and-boundaries)
 
 ## <a name="error-handling"></a>錯誤處理

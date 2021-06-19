@@ -2,18 +2,16 @@
 title: 排程模式
 description: 本主題提供有關排程模式的資訊。
 author: ruhercul
-manager: AnnBe
-ms.date: 05/04/2021
+ms.date: 05/28/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: fe54944999617b248ff925148a78601dd4be7aca
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 508ff1df8f7e31066712fab6f8871dfdb107a43b
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981425"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116697"
 ---
 # <a name="scheduling-modes"></a>排程模式
 
@@ -25,12 +23,12 @@ Dynamics 365 Project Operations 可讓組織定義他們如何在分工結構圖
 Project Operations 中有三種可用的排程模式：
 
   - 固定期間 (這是預設模式)
-  - 固定工時
+  - 固定投入量 (*工作*)
   - 固定單位
 
 受特定排程模式定義影響的值是由下列公式所決定：
 
-  投入量 (*工作*) = 期間 x 單位
+  投入量 = 期間 x 單位
 
 當您定義專案的排程模式時，即是在設定這其中一個值，而這些值隨後就無法變更。 將此值保留為常數會將該值置於優先位置，通知系統不要在其他兩個值變更時變更此值。 下表提供有關選取特定模式所造成影響的資訊。
 
