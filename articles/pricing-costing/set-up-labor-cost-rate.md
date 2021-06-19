@@ -2,18 +2,16 @@
 title: 設定人力成本費率
 description: 本主題提供有關如何在 Project Operations 中設定人力成本費率的資訊
 author: rumant
-manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 605bf2a578528117a6ef70614a8e5ff5a3fc300c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 95e96f8d8e33de93862547ad812396008bd62c99
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274763"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004566"
 ---
 # <a name="set-up-labor-cost-rates"></a>設定人力成本費率
 

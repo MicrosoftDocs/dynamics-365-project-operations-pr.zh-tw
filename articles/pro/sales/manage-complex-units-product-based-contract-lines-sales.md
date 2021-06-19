@@ -2,18 +2,16 @@
 title: 管理產品型合約服務內容的複雜單位 - 精簡
 description: 本主題提供有關支援訂閱型產品銷售的資訊。
 author: rumant
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 029d2aa4fd20fc036a34ae6136fe12454f3b7703
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 86da5a96919438e883b56fc8ecfe765f70a789ff
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273323"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003171"
 ---
 # <a name="manage-complex-units-for-product-based-contract-lines---lite"></a>管理產品型合約服務內容的複雜單位 - 精簡
 

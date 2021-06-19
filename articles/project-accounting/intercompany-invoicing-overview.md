@@ -2,18 +2,16 @@
 title: 公司間開立開票概觀
 description: 此主題提供專案的公司間開立發票的資訊與範例。
 author: sigitac
-manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ad75089de1a2f99646f7aba213e199a2bec347d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 42af89105f8325f1c94df6d2133d2c329facf2b3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287318"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002631"
 ---
 # <a name="intercompany-invoicing-overview"></a>公司間開立開票概觀
 
@@ -21,7 +19,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 您的組織可能有多個會在專案中互相轉移產品與服務的部門、子公司及其他法律實體。 提供服務或產品的法律實體稱為 *貸方法律實體*。 接收服務或產品的法律實體稱為 *借方法律實體*。
 
-下圖顯示典型案例，其中的兩個法律實體 Contoso Robotics USA (借方法律實體) 和 Contoso Robotics UK (貸方法律實體) 共享資源，為客戶 Adventure Works 交付專案。 在此案例中，Contoso Robotics USA 已簽約要交付工作給 Adventure Works。
+下列圖顯示 Contoso Robotics USA (借方法律實體) 和 Contoso Robotics UK (貸方法律實體) 這兩個法律實體共用資源以交付專案給客戶 Adventure Works 的一般案例。 在此案例中，Contoso Robotics USA 簽訂合約以交付 Adventure Works 的工作。
 
 ![公司間開立開票](./media/IntercompanyScenario.png) 
 

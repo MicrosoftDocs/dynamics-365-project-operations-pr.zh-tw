@@ -2,11 +2,9 @@
 title: 關閉定價維度
 description: 本主題提供有關如何關閉定價維度的資訊。
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d2e10c9ce782697fa4cbbe6eb63491ebb573a6f6
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7b7c1d1b3363c0d158fcf6fda532822354b852a3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274718"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004521"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>關閉定價維度
 
@@ -40,8 +38,8 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 | 標準職稱         | 組織單位    |單位   |價格  |貨幣  |
 | -----------------------|-------------|-------|-------|----------|
-| 系統工程師|Contoso US|Hour| 100|USD|
-| 資深系統工程師|Contoso US|Hour| 150| USD|
+| 系統工程師|Contoso 美國|小時| 100|USD|
+| 資深系統工程師|Contoso 美國|小時| 150| USD|
 
 
 當您關閉以 **標準職稱** 為定價維度的設定，而定價引擎搜尋價格時，只會使用輸入內容中的 **組織單位** 值。 如果輸入內容的 **組織單位** 是「Contoso US」，則結果並非決定性，因為這兩個列都會相符。 為了避免這種案例，當您建立 **角色價格** 記錄時，系統會驗證維度組合是否為唯一。 如果維度在建立 **角色價格** 記錄後已關閉，則可能會違反此限制。 因此，關閉維度之前，必須先刪除所有已填入該維度值的 **角色價格** 和 **角色價格加成** 列。

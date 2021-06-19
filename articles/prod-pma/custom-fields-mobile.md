@@ -2,11 +2,9 @@
 title: 在 iOS 和 Android 上實作 Microsoft Dynamics 365 Project Timesheet 行動應用程式的自訂欄位
 description: 本主題提供使用擴充功能實作自訂欄位的一般模式。
 author: Yowelle
-manager: AnnBe
 ms.date: 05/29/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 23b002559dcbb9118ccb2b36d70707ccb37b19ad
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270983"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003011"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>在 iOS 和 Android 上實作 Microsoft Dynamics 365 Project Timesheet 行動應用程式的自訂欄位
 
@@ -53,7 +51,7 @@ ms.locfileid: "5270983"
 
 | 類型值 | 類型​​              | 附註​​ |
 |-------------|-------------------|-------|
-| 12           | 字串 (和列舉) | 欄位會顯示為文字欄位。 |
+| 0           | 字串 (和列舉) | 欄位會顯示為文字欄位。 |
 | 7           | Integer           | 值會顯示為沒有小數位數的數字。 |
 | 2           | 實數              | 值會顯示為含有小數位數的數字。<p>若要在應用程式中將實數值顯示為貨幣，請使用 **fieldExtenededType** 屬性。 您可以使用 **numberOfDecimals** 屬性來設定顯示的小數位數。</p> |
 | 3           | 日期              | 日期格式是由使用者的 **日期、時間及數字格式** 設定所決定，此設定是在 **使用者選項** 的 **語言和國家/地區喜好設定** 底下指定。 |
