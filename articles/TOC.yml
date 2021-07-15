@@ -28,6 +28,8 @@
               href: environment/resource-apply-pro-setup-config-data.md
         - name: 部署環境
           items:
+            - name: 手動部署支援雙重寫入的 Project Operations Dataverse 應用程式
+              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: 佈建新的環境
               href: environment/resource-provision-new-environment.md
             - name: 安全性模型
@@ -52,6 +54,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: 新增功能
       items:
+        - name: 2021 年 7 月 - 資源/非庫存型案例適用的 Project Operations
+          href: whats-new/whats-new-july-2021-resource-based.md
+        - name: 2021 年 6 月 - 資源/非庫存型案例適用的 Project Operations
+          href: whats-new/whats-new-june-2021-resource-based.md
         - name: 2021 年 5 月 - 資源/非庫存型案例適用的 Project Operations
           href: whats-new/whats-new-may-2021-resource-based.md
         - name: 2021 年 4 月 - 資源/非庫存型案例適用的 Project Operations
@@ -282,7 +288,7 @@
           items:
             - name: 使用複製專案來開發專案範本
               href: project-management/dev-copy-project.md
-            - name: 使用排程 API (公開預覽版)
+            - name: 使用專案排程 API (公開預覽版)
               href: project-management/schedule-api-preview.md
     - name: 資源管理
       items:
@@ -436,8 +442,6 @@
       items:
         - name: 發票處理概觀
           href: invoicing/post-project-invoices.md
-        - name: 管理專案發票提案
-          href: invoicing/format-update-project-invoice-proposals.md
         - name: 開立預估發票
           items:
             - name: 管理專案型帳務積存
@@ -456,8 +460,22 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: 設定專案型發票自動化
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: 管理專案發票提案
-          href: invoicing/format-update-project-invoice-proposals.md
+        - name: 客戶發票開立
+          items:
+            - name: 管理專案發票提案
+              href: invoicing/format-update-project-invoice-proposals.md
+            - name: 對草稿專案發票提案的正確會計處理
+              href: invoicing/correct-project-invoice-proposals.md
+        - name: 公司間開立開票
+          items:
+            - name: 公司間開立開票概觀
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: 設定公司間開立發票
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: 建立公司間交易
+              href: project-accounting/create-intercompany-transactions.md
+            - name: 建立公司間客戶與廠商發票
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: 專案會計
       items:
         - name: 財務維度預設值
@@ -470,16 +488,6 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Project Operations 中的整合帳目
           href: project-accounting/project-operations-integration-journal.md
-        - name: 公司間開立開票
-          items:
-            - name: 公司間開立開票概觀
-              href: project-accounting/intercompany-invoicing-overview.md
-            - name: 設定公司間開立發票
-              href: project-accounting/configure-intercompany-invoicing.md
-            - name: 建立公司間交易
-              href: project-accounting/create-intercompany-transactions.md
-            - name: 建立公司間客戶與廠商發票
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: 收入認列
       items:
         - name: 收入認列概觀
@@ -512,6 +520,10 @@
           href: environment/security-model.md
     - name: 新增功能
       items:
+        - name: 2021 年 7 月新增功能 - 精簡部署
+          href: pro/whats-new/whats-new-july-2021-lite.md
+        - name: 2021 年 6 月新增功能 - 精簡部署
+          href: pro/whats-new/whats-new-june-2021-lite.md
         - name: 2021 年 5 月新增功能 - 精簡部署
           href: pro/whats-new/whats-new-may-2021-lite.md
         - name: 2021 年 4 月新增功能 - 精簡部署
@@ -762,7 +774,7 @@
           items:
             - name: 使用複製專案來開發專案範本
               href: project-management/dev-copy-project.md
-            - name: 使用排程 API (公開預覽版)
+            - name: 使用專案排程 API (公開預覽版)
               href: project-management/schedule-api-preview.md
     - name: 資源管理
       items:
@@ -882,6 +894,10 @@
   items:
     - name: 新增功能
       items:
+        - name: 2021 年 7 月新增功能 - 庫存/生產型案例適用的 Project Operations
+          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+        - name: 2021 年 5 月新增功能 - 庫存/生產型案例適用的 Project Operations
+          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
         - name: 2021 年 4 月新增功能 - 庫存/生產型案例適用的 Project Operations
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: 2021 年 3 月新增功能 - 庫存/生產型案例適用的 Project Operations
@@ -1034,6 +1050,10 @@
       items:
         - name: Project Service 3.x 的更新發行排程
           href: psa/version-history-ps.md
+        - name: 更新版本 33 V3 的新功能或變更
+          href: psa/whats-new-ur-33.md
+        - name: 更新版本 32.5 V3 的新功能或變更
+          href: psa/whats-new-ur-32-5.md
         - name: 更新版本 32 V3 的新功能或變更
           href: psa/whats-new-ur-32.md
         - name: 更新版本 31 V3 的新功能或變更

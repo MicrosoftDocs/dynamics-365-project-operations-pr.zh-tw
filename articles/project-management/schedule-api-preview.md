@@ -1,19 +1,19 @@
 ---
-title: 使用排程 API 對排程實體執行作業
-description: 本主題提供有關使用排程 API 的資訊與範例。
+title: 使用專案排程 API 以對排程實體執行作業
+description: 本主題提供有關使用專案排程 API 的資訊與範例。
 author: sigitac
-ms.date: 04/27/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
-ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
+ms.openlocfilehash: 4915261c08a3271a919e04084e92a14b297c1b35
+ms.sourcegitcommit: 2f16c2bc7c8350676a6a380c61fffa9958db6a0b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6116787"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6293217"
 ---
-# <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>使用排程 API 對排程實體執行作業
+# <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>使用專案排程 API 以對排程實體執行作業
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
@@ -22,9 +22,9 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 ## <a name="scheduling-entities"></a>排程實體
 
-排程 API 提供對 **排程實體** 執行建立、更新和刪除作業的功能。 這些實體是透過 Project for the Web 中的排程引擎進行管理。 對 **排程實體** 的建立、更新及刪除作業在先前的 Dynamics 365 Project Operations 版本中受到限制。
+專案排程 API 提供對 **排程實體** 執行建立、更新和刪除作業的功能。 這些實體是透過 Project for the Web 中的排程引擎進行管理。 對 **排程實體** 的建立、更新及刪除作業在先前的 Dynamics 365 Project Operations 版本中受到限制。
 
-下表提供 **排程實體** 的完整清單。
+下表提供專案排程實體的完整清單。
 
 | 實體名稱  | 實體邏輯名稱 |
 | --- | --- |
@@ -39,19 +39,19 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 OperationSet 是工作單位模式，當交易中有數個必須處理的排程影響要求時，可以使用此模式。
 
-## <a name="schedule-apis"></a>排程 API
+## <a name="project-schedule-apis"></a>專案排程 API
 
-以下是最新排程 API 的清單。
+以下是目前專案排程 API 的清單。
 
 - **msdyn_CreateProjectV1**：此 API 可以用來建立專案。 專案和預設專案貯體會立即建立。
 - **msdyn_CreateTeamMemberV1**：此 API 可以用來建立專案團隊成員。 團隊成員記錄會立即建立。
 - **msdyn_CreateOperationSetV1**：此 API 可用來排定數個必須在交易中執行的要求。
-- **msdyn_PSSCreateV1**：此 API 可以用來建立實體。 實體可以是任何支援建立作業的排程實體。
-- **msdyn_PSSUpdateV1**：此 API 可以用來更新實體。 實體可以是任何支援更新作業的排程實體。
-- **msdyn_PSSDeleteV1**：此 API 可以用來刪除實體。 實體可以是任何支援刪除作業的排程實體。
+- **msdyn_PSSCreateV1**：此 API 可以用來建立實體。 實體可以是任何支援建立作業的專案排程實體。
+- **msdyn_PSSUpdateV1**：此 API 可以用來更新實體。 實體可以是任何支援更新作業的專案排程實體。
+- **msdyn_PSSDeleteV1**：此 API 可以用來刪除實體。 實體可以是任何支援刪除作業的專案排程實體。
 - **msdyn_ExecuteOperationSetV1**：此 API 是用來執行指定作業集中所有的作業。
 
-## <a name="using-schedule-apis-with-operationset"></a>將排程 API 與 OperationSet 搭配使用
+## <a name="using-project-schedule-apis-with-operationset"></a>與 OperationSet 搭配使用專案排程 API
 
 因為會立即建立同時包含 **CreateProjectV1** 和 **CreateTeamMemberV1** 的記錄，這些 API 無法直接在 **OperationSet** 中使用。 不過，您可以使用 API 建立所需的記錄、建立 **OperationSet**，然後在 **OperationSet** 中使用這些預先建立的記錄。
 
@@ -257,7 +257,7 @@ OperationSet 是工作單位模式，當交易中有數個必須處理的排程�
 ## <a name="limitations-and-known-issues"></a>限制和已知問題
 以下是限制和已知問題的清單：
 
-- 只有 **擁有 Microsoft Project 授權的使用者** 才可以使用排程 API。 無法供下列使用者使用：
+- 只有 **擁有 Microsoft Project 授權的使用者** 才能使用專案排程 API。 無法供下列使用者使用：
     - 應用程式使用者
     - 系統使用者
     - 整合使用者

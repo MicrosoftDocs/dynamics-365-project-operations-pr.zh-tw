@@ -2,7 +2,7 @@
 title: Microsoft Project Client 整合
 description: 規劃和維護專案排程可能會很複雜，因此專案經理必須使用可協助他們管理這項工作的工具。 與 Microsoft Project Client 的整合可提供支援來開啟和管理專案分工結構圖。
 author: Yowelle
-ms.date: 12/11/2017
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 032d726bb6206c563b573f30d13fe2697a13c949
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b312ec5b1f4e6a98a2cbf1667b2f55b758b2d613
+ms.sourcegitcommit: 3a4b181be08ef0428104d72b54a3e61ac2782f14
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999436"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6269825"
 ---
 # <a name="microsoft-project-client-integration"></a>Microsoft Project Client 整合
 
@@ -126,5 +126,12 @@ Predecessors資源名稱
 
 11. 按一下 **確定**。
 
+> [!NOTE]
+> Project 用戶端增益集不支援專案識別碼格式中的下列字元：
+> 
+>   - 底線
+>   - 句號
+>   - 空格
+>   - 斜線
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

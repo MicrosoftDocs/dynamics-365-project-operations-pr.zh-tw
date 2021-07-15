@@ -2,7 +2,7 @@
 title: 專案發票提案效能
 description: 本主題提供有關專案發票提案效能改善的資訊。
 author: Yowelle
-ms.date: 04/20/2021
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 20121-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0e7a9eedc80a88e80b7788be4fe4b2f969be8ba1
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5a14acf51d277b16896d64c4b12ee00bfb326910
+ms.sourcegitcommit: 3a4b181be08ef0428104d72b54a3e61ac2782f14
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999481"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6269780"
 ---
 # <a name="project-invoice-proposal-performance"></a>專案發票提案效能
 
@@ -44,4 +44,6 @@ ms.locfileid: "5999481"
 3.  重新整理您的瀏覽器。
 
 > [!NOTE]
-> 當帳單規則已啟用或批次處理正在執行時，無法套用發票提案效能。
+> 啟用帳單規則時，無法套用發票提案績效。
+> 
+> 進行建立發票提案的批次程序時，不論您輸入了什麼數量，子工作數量都會根據可開票交易記錄的合約數目，將工作分割成最大數量。 例如，如果您輸入 **3** 表示批次建立發票提案時的子工作數量，且只有兩個合約有可開票交易，則只會建立兩個子工作。
