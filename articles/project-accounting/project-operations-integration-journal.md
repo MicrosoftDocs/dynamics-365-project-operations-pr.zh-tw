@@ -26,7 +26,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 Project Operations 整合帳目中的記錄是使用週期程序（**從臨時表格匯入**）建立。 您可以前往 **Dynamics 365 Finance** > **專案管理和會計** > **週期** > **Project Operations 整合** > **從臨時表格匯入** 以執行此程序。 您可以視需要以互動方式執行程序，或將程序設定成在背景執行。
 
 當週期程序執行時，會找出尚未新增至 Project Operations 整合帳目的任何實際值。 即會建立每個實際交易的帳目明細。
-系統會根據 **Project Operations 整合帳目上的週期單位** 欄位 (**財務** > **專案管理和會計** > **設定** > **專案管理與會計參數**、**Dynamics 365 Customer Engagement 上的 Project Operations** 索引標籤) 中所選取的值，將帳目明細分組為不同的帳目。 這個欄位的可能值包括：
+系統會根據 **Project Operations 整合帳目上的週期單位** 欄位 (**Finance** > **專案管理和會計** > **設定** > **專案管理與會計參數**、**Dynamics 365 Customer Engagement 上的 Project Operations** 索引標籤) 中所選取的值，將帳目明細分組為不同的帳目。 這個欄位的可能值包括：
 
   - **日**：實際值是依交易日期進行分組。 每一天都會建立不同的帳目。
   - **月**：實際值是依日曆月分組。 每個月都會建立不同的帳目。
