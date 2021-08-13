@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 148f52f74ee64c2ee218dda3b09e1188e70217b0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009201"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000161"
 ---
 # <a name="product-catalog-pricing"></a>產品類別目錄定價 
 
@@ -44,7 +44,7 @@ ms.locfileid: "6009201"
 
 當價格設定為定價、標準成本或目前成本的函數時，PSA 支援各種不同的舍入選項。 除了利用多個定價方式和舍入選項之外，您還可以將折扣清單與價目表項目建立關聯。 
 
-> ![將類別目錄中的產品新增至不同的價目表](media/basic-guide-16.png)
+> ![將類別目錄中的產品新增至不同的價目表。](media/basic-guide-16.png)
 
 選取 **專案報價** 頁面上的 **建立自訂定價** 以建立報價的新自訂價目表時，PSA 會製作價目表的複本，而新價目表標頭上的 **實體** 欄位會設定為 **銷售實體**。 新價目表的名稱會附加在報價名稱和時間戳記的後面。 您也可以在自訂工作流程中使用新價目表名稱和報價名稱，以觸發對使用自訂定價之報價的其他檢閱和核准。
 

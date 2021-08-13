@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cce3a3fe6aef247380f6284f58d49337f969c38c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008301"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002321"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>將自訂欄位設定為定價維度 
 
@@ -41,11 +41,11 @@ ms.locfileid: "6008301"
 - 建立為 **角色價格** 和 **角色價格加成** 實體中的欄位。 如需執行此動作的詳細資訊，請參[將自訂欄位新增至價格設定與交易實體](field-references.md)。
 - 建立為 **定價維度** 表格中的一列。 例如，新增如下圖形所示的定價維度列。 
 
-![以金額為準的定價維度列](media/Amt-based-PD.png)
+![以金額為準的定價維度列。](media/Amt-based-PD.png)
 
 請注意，資源工作時數 (**msdyn_resourceworkhours**) 已新增為以加成為準的定價維度，並已新增至 **以加成為準的定價維度** 索引標籤上的網格。
 
-![以加成為準的定價維度列](media/Markup-based-PD.png)
+![以加成為準的定價維度列。](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > 任何對此表格中定價維度資料 (現有或新增) 的變更，只有在重新整理快取之後，才會傳播至 Project Service 定價商機規則。 快取重新整理時間可能需要長達 10 分鐘。 請等待這段時間過後，再查看必須從定價維度資料變更產生之價格預設邏輯中的變更。

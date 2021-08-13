@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a46ec93744067205e1aa8c99dba52967a1780957
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014902"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995436"
 ---
 # <a name="quotes-and-quote-lines"></a>報價和報價明細
 
@@ -84,7 +84,7 @@ PSA 支援固定價格報價明細的所有三種類型的發票請款排程。
 
 每個報價明細可與這些交易分類的其中一個或多個分類建立關聯。 報價成交之後，交易分類與報價明細之間的對應會轉移至合約服務內容。
  
-> ![將交易類型對應至報價明細和合約服務內容的螢幕擷取畫面](media/basic-guide-5.png)
+> ![將交易類型對應至報價明細和合約服務內容的螢幕擷取畫面。](media/basic-guide-5.png)
   
 例如，報價可能會包含下列兩個報價明細： 
 - 使用 [時間和材料] 帳務方式的諮詢工作，其中 [時間] 和 [服務費] 交易分類都適用。 例如，**Dynamics AX 實作** 範例專案的所有時間交易與服務費交易都會根據已使用的時間和材料開發票給客戶。 

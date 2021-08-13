@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d1debf8f67b7dbe7752075c6f8e5f2cdd37a3ae
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 7c201ccec2069869707409ff6a9236e81e125f06b391c67202927f5c038787d8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002766"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995796"
 ---
 # <a name="intercompany-invoicing"></a>公司間開立開票
 
@@ -33,7 +33,7 @@ ms.locfileid: "6002766"
 
 下圖顯示一般的案例，其中 SI FR (借用法律實體) 和 SI USA (出借法律實體) 這兩個法律實體會共用資源來交付客戶 A 的專案。在此案例中，SI FR 已承包要將工作交付給客戶 A。 
 
-[![公司間開立開票範例](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
+[![公司間開立開票範例。](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
 
 目標是要讓公司間專案交易的成本控制、營收確認、稅金和轉撥價格變得更加靈活且強大。 此外，還會提供下列功能：
 

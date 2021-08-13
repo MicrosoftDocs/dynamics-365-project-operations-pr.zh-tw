@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bbd6e8c711f6c15221143514efdd43a388ef4e7f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5e4516d13a30ddfb5763fe600b0c1fc675ba6cf980730912e1795cc3d6f4991f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998041"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998226"
 ---
 # <a name="use-the-schedule-board-to-book-project-resources"></a>使用排程面板預約專案資源
 
@@ -34,23 +34,23 @@ ms.locfileid: "5998041"
 1. 如果頁面底部的 **預約需求** 窗格已摺疊，請選取展開器控制項來展開它。
 2. 在 **預約需求** 窗格的 **專案** 索引標籤中，選取要預約的需求。
 
-    ![[專案] 索引標籤上選取的需求](media/Resource-Management-image73.png)
+    ![[專案] 索引標籤上選取的需求。](media/Resource-Management-image73.png)
 
 3. 選取 **尋找可用性** 來篩選可預約資源並檢視可用的資源。 
 4. 從排程面板選取一個或多個資源。 
 5. 在頁面右側的 **建立資源預約** 窗格中，輸入預約資訊，然後選取 **預約並結束**。
 
-    ![所選可預約資源的 [建立資源預約] 窗格](media/Resource-Management-image74.png)
+    ![所選可預約資源的 [建立資源預約] 窗格。](media/Resource-Management-image74.png)
 
 6. 在 **建立資源預約** 窗格中選取需求時，選取資源的一個或多個儲存格以建立預約。
 
-    ![為資源選取的多個儲存格](media/Resource-Management-image75.png)
+    ![為資源選取的多個儲存格。](media/Resource-Management-image75.png)
 
 7. 選取 **預約**。
 
 使用選取的資源來履行需求。 在 **預約需求** 窗格中，請注意需求已更新，且資源在專案中顯示為已預約。
 
-![專案上已預約的資源](media/Resource-Management-image76.png)
+![專案上已預約的資源。](media/Resource-Management-image76.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

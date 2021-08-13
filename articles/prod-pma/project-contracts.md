@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a794ec38ac07c1418f9e95b741941a83492bb3d5
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1b92668c38071e8b1afdee9a79fd4a25190248ada30380bfb79054a6dc587f95
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999751"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001016"
 ---
 # <a name="project-contracts"></a>專案合約
 
@@ -98,7 +98,7 @@ ms.locfileid: "5999751"
 <li>100%</li>
 </ul></td>
 <td><ul>
-<li>7</li>
+<li>1</li>
 <li>2</li>
 <li>3</li>
 </ul></td>
@@ -116,8 +116,8 @@ ms.locfileid: "5999751"
 <li>100%</li>
 </ul></td>
 <td><ul>
-<li>7</li>
-<li>7</li>
+<li>1</li>
+<li>1</li>
 <li>2</li>
 </ul></td>
 </tr>
@@ -136,8 +136,8 @@ ms.locfileid: "5999751"
 <li>50%</li>
 </ul></td>
 <td><ul>
-<li>7</li>
-<li>7</li>
+<li>1</li>
+<li>1</li>
 <li>2</li>
 <li>2</li>
 </ul></td>
@@ -153,7 +153,7 @@ ms.locfileid: "5999751"
 <li>100%</li>
 </ul></td>
 <td><ul>
-<li>7</li>
+<li>1</li>
 <li>2</li>
 </ul></td>
 </tr>

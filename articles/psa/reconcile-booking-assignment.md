@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 73cbc89ae4350cbd568f1bb978825ff53da07afb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 264271a5be63cb2e51f175595a48bef5fbff0a42a37795c85dd5b4725deec35e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008886"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995121"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>協調預約和指派
 
@@ -51,11 +51,11 @@ ms.locfileid: "6008886"
 
 檢視較高時間層級時，**協調** 索引標籤會顯示儲存格指示器，通知您較低時間層級上有差異。 例如，在下圖中，名為「黃文珍」的資源有儲存格指示器出現於 2018 年 10 月的月份儲存格。 因此，您可以看到，即使資源的預約與指派在 **月** 層級進行彙總時相等，但在較低層級上卻不相符。
 
-![在每月層級上不相符的預約與指派](media/reconcile-assignments-01.JPG)
+![在每月層級上不相符的預約與指派。](media/reconcile-assignments-01.JPG)
 
 按兩下儲存格以放大到下一個較低層級，並檢視差異。 例如，如果按兩下黃文珍的 2018 年 10 月差異，就會向下切入到 **週** 層級。 接著可以看到資源的預約時間為 16 小時，但在 10 月前兩週中沒有任何指派，而在 10 月第三週有 16 小時指派但沒有任何預約。
 
-![在每週層級上不相符的預約與指派](media/reconcile-assignments-02.JPG)
+![在每週層級上不相符的預約與指派。](media/reconcile-assignments-02.JPG)
 
 您可以在儲存格上按一下滑鼠右鍵，縮小到下一個較高層級。 您也可以選取 **設定** 按鈕來關閉儲存格指示器。 
 
@@ -68,13 +68,13 @@ ms.locfileid: "6008886"
 
 - 使用者必須設定其裝置的時區，使其符合系統的個人化設定中所定義的時區。
  
-  ![Windows 10 的時區設定](media/reconcile-assignments-03.png)
+  ![Windows 10 的時區設定。](media/reconcile-assignments-03.png)
 
-  ![個人化設定中的時區設定](media/reconcile-assignments-04.png)
+  ![個人化設定中的時區設定。](media/reconcile-assignments-04.png)
  
 - 可預約資源至少必須有一分鐘的工作時間，與用於定義所要求之展延的分佈重疊。 例如，下列範例顯示上班時間落在上午 9:00 到下午 7:00 之間的評論資源。 
 
-  ![資源分佈的比較](media/reconcile-assignments-05.png)
+  ![資源分佈的比較。](media/reconcile-assignments-05.png)
 
 下表顯示：
 
@@ -83,22 +83,22 @@ ms.locfileid: "6008886"
 - 資源 B：此資源與專案位於不同的時區，因此開始時間是從他們時區的上午 7:00 起算。 不過，這些預約會從上午 9:00 開始，因為這是指派分佈的最早開始時間。
 - 資源 C 和 D：這些資源同樣位於不同的時區，不僅彼此互異，也與專案有所不同，他們的預訂開始時間不早於各自的可用開始時間。
 
-|實體  |行事曆  |
+|Entity  |行事曆  |
 |-|-|
-|專案行事曆範本   | ![專案行事曆](media/reconcile-assignments-06.png) |
-|資源 A  | ![資源 A 行事曆](media/reconcile-assignments-06.png) |
-|資源 B  |  ![資源 B 行事曆](media/reconcile-assignments-07.png) |
-|資源 C  |  ![資源 C 行事曆](media/reconcile-assignments-08.png) |
-|資源 D  | ![資源 D 行事曆](media/reconcile-assignments-09.png)  |
+|專案行事曆範本   | ![專案行事曆。](media/reconcile-assignments-06.png) |
+|資源 A  | ![資源 A 行事曆。](media/reconcile-assignments-06.png) |
+|資源 B  |  ![資源 B 行事曆。](media/reconcile-assignments-07.png) |
+|資源 C  |  ![資源 C 行事曆。](media/reconcile-assignments-08.png) |
+|資源 D  | ![資源 D 行事曆。](media/reconcile-assignments-09.png)  |
  
 當您瀏覽至協調檢視表時，將會顯示資源指派和相關的預約不足。
- ![延長前的協調檢視表](media/reconcile-assignments-10.png)
+ ![延長前的協調檢視表。](media/reconcile-assignments-10.png)
 
 對每個資源執行 [延長預約] 功能之後，就會成功延長每個資源的預約。 這是因為每個資源的工作時數都會與短缺分佈重疊。
- ![展長後的協調檢視表](media/reconcile-assignments-11.png) 
+ ![延長後的協調檢視表。](media/reconcile-assignments-11.png) 
 
 不過，如果更仔細查看預約的詳細資料，就會了解預約開始時間中的差異。 這些預約的開始時間不會早於指派分佈的開始時間，也不會早於資源的可用開始時間。
- ![資源在排程面板中的新預約](media/reconcile-assignments-12.png)
+ ![資源在排程面板中的新預約。](media/reconcile-assignments-12.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

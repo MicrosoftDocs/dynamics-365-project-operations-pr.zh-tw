@@ -8,12 +8,12 @@ ms.prod: ''
 ms.reviewer: kfend
 ms.author: rumant
 ms.custom: intro-internal
-ms.openlocfilehash: e8d62dcf9975e5427926210a881dec2c256f1b8b
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368466"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001961"
 ---
 # <a name="pricing-dimensions-overview"></a>定價維度概觀
 
@@ -33,7 +33,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 Dynamics 365 Project Operations 隨附一組預設定價維度。 您可以移至 **Project Operations** > **參數** 來檢視這些定價維度。 在參數記錄的 **以金額為準的定價維度** 索引標籤上，確認角色 **msdyn_resourcecategory** 和資源分配單位 **msdyn_organizationalunit** 的 **適用於銷售** 及 **適用於成本** 欄位已設定為 **是**。 啟用這些欄位後，您就可以設定每個角色與組織單位組合的價格和成本。
 
-![反白顯示「適用於銷售」的 Project Service 參數螢幕擷取畫面](media/PS-OOB-parameters.png)
+![反白顯示「適用於銷售」的 Project Service 參數螢幕擷取畫面。](media/PS-OOB-parameters.png)
 
 如果您需要使用其他屬性來為資源定訂價格或估算成本，則可以建立自訂欄位、實體和維度。 如需詳細資訊，請參閱下列主題。 
   

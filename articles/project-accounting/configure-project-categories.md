@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d82302f12ba75a92f2de0e9746ad7e61ce0cdc6b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: cea43422469adf12f336f7686814a8199717090c18804d3d0a7509452349566e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995161"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997101"
 ---
 # <a name="configure-project-categories"></a>設定專案類別
 
@@ -23,7 +23,7 @@ Project Operations 提供可在專案中分類營收及費用的強大功能。 
 
 交易類別是專案交易的基本群組。 在該群組中，有一組可以在應用程式與模組之間共用的共用類別。 專案類別更進一步深入細節，是最細微的類別等級。 專案類別是特定法律實體、模組和應用程式的專屬類別。
 
-![交易類別、共用類別與專案類別之間的關聯性](media/project-categories.png)
+![交易類別、共用類別與專案類別之間的關聯性。](media/project-categories.png)
 
 ## <a name="transaction-categories"></a>交易類別
 

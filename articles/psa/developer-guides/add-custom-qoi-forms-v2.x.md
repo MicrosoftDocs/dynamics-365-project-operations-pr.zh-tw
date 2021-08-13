@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 400d817ee7cbae6f6da95db4286ad6c4d6ff349a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e59e343887ef59ee28bee13346a0c9bf3ad7df27346e2a4f3f02a1e5c08c060f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007986"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995211"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>新增自訂實體表單 (Project Service Automation 2.x)
 
@@ -57,7 +57,7 @@ Dynamics 365 Project Service Automation 依賴商機、報價、訂單或發票�
     - 將 **我的專案資訊** 表單匯出為未受管理的解決方案組件，然後查詢所匯出解決方案之 customization.xml 檔案中的 **formId** 值。
     - 在表單編輯器中開啟 **我的專案資訊** 表單，然後在 URL 中尋找 **fromId** 參數旁邊的全域唯一識別碼 (GUID)，如下圖所示。
 
-    ![新表單在 URL 中的 formId 值](media/how-to-add-custom-forms-in-v2.0.png)
+    ![新表單在 URL 中的 formId 值。](media/how-to-add-custom-forms-in-v2.0.png)
 
 5. 編輯 msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js Web 資料以建立 **msdyn\_ordertype** mapping for the **formId** 值。 將程式碼從資源移除，然後取代為下列程式碼。
 

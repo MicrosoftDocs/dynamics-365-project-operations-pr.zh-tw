@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 7b7c1d1b3363c0d158fcf6fda532822354b852a3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3d9f0cb2a054941b07809b61ca14a3145c6d6d06acd6ca40255d5ec9de92be22
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6004521"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994491"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>關閉定價維度
 
@@ -32,7 +32,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 不過，這樣做時，您可能會收到錯誤訊息 **如果有相關聯的價格記錄，則無法更新或刪除定價維度。**
 
-![關閉定價維度時可能發生商務程序錯誤](media/Business-Process-Error.png)
+![關閉定價維度時可能發生商務程序錯誤。](media/Business-Process-Error.png)
 
 此錯誤訊息表示存在先前為所要關閉維度設定的價格記錄。 必須先刪除參照該維度的所有 **角色價格** 和 **角色價格加成** 記錄，才能將維度的適用性設為 **否**。 此規則適用於內建定價維度以及任何您可能已建立的自訂定價維度。 這項驗證的原因是，每個 **角色價格** 記錄都必須有一個唯一的維度組合。 例如，在名為 **2018 年美國成本費率** 的價目表中，您有下列 **角色價格** 列。 
 

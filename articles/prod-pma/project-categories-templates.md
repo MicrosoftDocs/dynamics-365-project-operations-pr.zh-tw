@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 2816d363dbfe6ef2d98a584b214f72d9b30c49bb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999841"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001106"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>同步處理 Finance and Operations 與 Project Service Automation 之間的專案費用類別
 
@@ -56,7 +56,7 @@ Project Service Automation 與 Finance 整合解決方案會使用資料整合�
 
 下圖這些顯示如何在 Project Service Automation 與 Finance 之間同步處理資料。
 
-[![Project Service Automation 與 Finance 整合的資料流程](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
+[![Project Service Automation 與 Finance 整合的資料流程。](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
 
 ## <a name="project-expense-category-synchronization-from-finance-to-project-service-automation"></a>從 Finance 至 Project Service Automation 的專案費用類別同步處理
 
@@ -93,7 +93,7 @@ Project Service Automation 與 Finance 整合解決方案會使用資料整合�
 
 下圖顯示資料整合中的範本工作對應範例。 此對應顯示會從 Finance 同步處理至 Project Service Automation 的欄位資訊。
 
-[![專案費用類別至 Project Service Automation 範本對應](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
+[![專案費用類別至 Project Service Automation 範本對應。](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
 
 ## <a name="project-expense-category-synchronization-from-project-service-automation-to-finance"></a>從 Project Service Automation 至 Finance 的專案費用類別同步處理
 
@@ -121,7 +121,7 @@ Project Service Automation 與 Finance 整合解決方案會使用資料整合�
 > [!NOTE]
 > 此對應顯示會從 Project Service Automation 同步處理至 Finance 的欄位資訊。
 
-[![Project Service Automation 至 Finance 範本對應](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+[![Project Service Automation 至 Finance 範本對應。](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

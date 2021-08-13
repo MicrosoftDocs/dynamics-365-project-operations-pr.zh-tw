@@ -2,7 +2,7 @@
 title: 顛覆想像的費用報表
 description: 本主題說明費用報表項目經過重新設計而顛覆想像的體驗。
 author: suvaidya
-ms.date: 06/14/2021
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f8c44f86ff7c00e2d5b927bbe6878be7ab6d7758
-ms.sourcegitcommit: e93f436afbb92a312fc71b6371866f01927e49d5
+ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "6250994"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997821"
 ---
 # <a name="expense-reports-reimagined"></a>顛覆想像的費用報表
 
@@ -57,12 +57,13 @@ ms.locfileid: "6250994"
 | 匯率計算機 | 您可以新增匯率計算機，用來計算現款支付的多重貨幣交易匯率。 |
 | 儲存並新增費用明細 | 輸入新的費用時，可以使用 **儲存** 和 **新增** 按鈕，協助您快速輸入費用明細。 |
 | 更清楚地查看分割和逐條列舉的明細 | 逐條列舉和分割的明細會直接新增至費用清單以增加顯示性，並協助您輕鬆判斷是否有任何錯誤。 |
-| 在分項列出的明細中檢視子類別詳細資料 | 分項列出的上層費用明細在費用報表中顯示子類別標籤，這可協助您快速檢閱細微的詳細資料。|
+| 在分項列出的明細中檢視子類別詳細資料 | 分項列出的上層費用明細在費用報表中顯示子類別標籤。 這種逐條列舉方式可讓您快速檢閱細微的詳細資料。|
 | 進行逐條列舉時顯示收據 | 進行逐條列舉時可以顯示收據。 |
 | 預付現金選取 | 選取一項或多項預付現金以完成單一費用交易。 |
 | 預付現金餘額 | 在您依據已核准和已支付的預付現金建立費用項目時，即時檢閱預付現金餘額。 |
 
 初次發行版本側重於費用項目案例。 任何費用報表審查或核准案例都會繼續使用現有的費用項目頁面。
+
 
 [顛覆想像的費用報表工作區] 不支援下列功能，但已規劃在未來的版本中推出： 
 

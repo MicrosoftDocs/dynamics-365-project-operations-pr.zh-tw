@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49d109be3d55e7f208edb2698e420f40bb7843df
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998401"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995166"
 ---
 # <a name="sales-estimates-and-projects"></a>銷售估計和專案
 
@@ -35,11 +35,11 @@ ms.locfileid: "5998401"
 
 建立專案型報價明細時，您可以建立新專案，或是與 **報價明細** 頁面上的現有專案建立關聯。 
 
-> ![報價明細表單](media/project-8.png)
+> ![報價明細表單。](media/project-8.png)
  
 從報價明細詳細資料建立新專案時，您可以利用專案範本。 專案範本是表示組織中特具代表性之專案計劃與財務估計的模型專案。 這些範本也可能表示過去專案的專案計劃及估計複本。
 
-> ![報價明細詳細資料](media/project-9.png)
+> ![報價明細詳細資料。](media/project-9.png)
   
 從報價建立您的專案時，專案會自動與報價明細建立關聯。
 
