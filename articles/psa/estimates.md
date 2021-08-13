@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fcb3c85af092667cc5a473ab4674c3be47e33327
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007581"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992376"
 ---
 # <a name="estimates"></a>估計值
 
@@ -83,24 +83,24 @@ PSA 不支援變更合約或專案上的訂單。
 1. 開啟 PluginRegistrationTool，並連接至您的線上執行個體。
 2. 選取 **搜尋**，然後搜尋要更新的外掛程式。
 
-    ![搜尋樹狀結構對話方塊](media/basic-guide-19.png)
+    ![搜尋樹狀結構對話方塊。](media/basic-guide-19.png)
 
 3. 選取外掛程式，然後選取主要頁面上的 **選取**。
 4. 選取要更新外掛程式的步驟、按一下滑鼠右鍵，然後選取 **更新**。
 
-    ![選取外掛程式中的步驟](media/basic-guide-20.png)
+    ![選取外掛程式中的步驟。](media/basic-guide-20.png)
 
 5. 在 **更新現有步驟** 對話方塊的 **篩選屬性** 欄位中，選取省略符號按鈕 (**...**)：
  
-    ![[更新現有步驟] 對話方塊](media/basic-guide-21.png)
+    ![[更新現有步驟] 對話方塊。](media/basic-guide-21.png)
 
 6. 在 **選取屬性** 對話方塊中，選取自訂屬性的核取方塊。
 
-    ![[選取屬性] 對話方塊](media/basic-guide-22.png)
+    ![[選取屬性] 對話方塊。](media/basic-guide-22.png)
 
 7. 選取 **確定** 關閉對話方塊，然後選取 **更新步驟**。
  
-    ![[更新步驟] 按鈕](media/basic-guide-23.png)
+    ![[更新步驟] 按鈕。](media/basic-guide-23.png)
 
 8. 對第二個外掛程式重複步驟 1 到 7。
 9. 關閉 PluginRegistrationTool。

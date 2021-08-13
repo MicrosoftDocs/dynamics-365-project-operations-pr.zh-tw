@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 33c27acc6747c94d76892f41031adc46150da0e0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011541"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987516"
 ---
 # <a name="business-transactions"></a>商務交易
 
@@ -88,7 +88,7 @@ PSA 將這五個實體中的記錄視為商務交易。 唯一區別在於，對
 
 下列範例顯示 PSA 專案生命週期中時間項目的一般處理程序。
 
-> ![在 Project Service 生命週期處理時間項目](media/basic-guide-17.png)
+> ![在 Project Service 生命週期處理時間項目。](media/basic-guide-17.png)
  
 1. 送出時間項目會導致建立兩個帳目明細：一個用於成本，一個用於未開單銷售。
 2. 最終核准時間項目會導致建立兩個實際值：一個用於成本，一個用於未開單銷售。

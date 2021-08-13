@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: acdd228a9eb9d6c6c56f126ccca416613332a838
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: da3e2798079816409ffbcfed911c05f3d51307fef22c48d112802927828faeb2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013161"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6984952"
 ---
 # <a name="submitting-a-resource-request"></a>送出資源要求
 
@@ -34,7 +34,7 @@ ms.locfileid: "6013161"
 1. 在 Project Service Automation (PSA) 的 **專案** 頁面上，按一下 **團隊** 索引標籤以檢視可預約資源清單。 
 2. 從清單中選取具有資源需求的一般資源，然後按一下 **送出要求**。
 
-![送出資源要求](media/RM-how-to-18.png)
+![送出資源要求。](media/RM-how-to-18.png)
 
 一般團隊成員的要求狀態會變更為 **已送出**。
 

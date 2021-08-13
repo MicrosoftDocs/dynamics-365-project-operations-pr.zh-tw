@@ -6,12 +6,12 @@ ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6daa86d453ec5022cdd75dff0394c8818292406c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e4502c1dec3bfeed083186b2d053549fefc9339609946c8da919b46e0e56cc79
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000606"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986661"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>將 Azure 訂閱新增至 LCS 專案
 
@@ -23,35 +23,35 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 1. 在 LCS 專案的 **環境** 區段中，選取 **Microsoft Azure 設定**。
 
-![Microsoft Azure 設定](./media/1MicrosoftAzureSettings.png)
+![Microsoft Azure 設定。](./media/1MicrosoftAzureSettings.png)
 
 2. 在 **專案設定** 頁面的 **Azure 連接器** 索引標籤上，選取 **授權**。 這可讓環境部署至此專案。
 
-![Azure 連接器](./media/2AzureConnectors.png)
+![Azure 連接器。](./media/2AzureConnectors.png)
 
 3. 再次選取 **授權** 以提供管理員同意。
 
-![授與管理員同意](./media/3GrantAdminConsent.png)
+![授與管理員同意。](./media/3GrantAdminConsent.png)
 
 4. 接受權限要求。
 
-![接受權限要求](./media/4AcceptPermissionRequest.png)
+![接受權限要求。](./media/4AcceptPermissionRequest.png)
 
 授權現已完成。 
 
-![授權成功](./media/5AuthorizationComplete.png)
+![授權成功。](./media/5AuthorizationComplete.png)
 
 ## <a name="provide-dynamics-deployment-services-access-to-your-azure-subscription"></a><a name="provide"></a>提供 Dynamics 部署服務存取權給您的 Azure 訂閱
 
 1. 前往 [Microsoft Azure 帳單](https://portal.azure.com/#blade/Microsoft\_Azure\_Billing/SubscriptionsBlade)，並選取您的訂閱。 Dynamics 部署服務必須存取此訂閱，才能部署環境。
 
-![Azure 訂閱詳細資料](./media/6AzureSubscription.png)
+![Azure 訂閱詳細資料。](./media/6AzureSubscription.png)
 
 2. 選取導覽窗格中的 **存取控制 (IAM)**，然後選取 **新增角色指派**。
 3. 在右側滑桿中，選取 **參與者角色**，然後在提供的清單中尋找並選取 **Dynamics 部署服務**。 
 4. 選取 **儲存**。
 
-![訂閱存取](./media/7SubscriptionAccess.png)
+![訂閱存取。](./media/7SubscriptionAccess.png)
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>將訂閱連接器新增至 LCS 專案
 

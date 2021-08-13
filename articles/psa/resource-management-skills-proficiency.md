@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 976650cc71b0cdb75d5ce2d7532cd78bd91d3670
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 73509fda4a715a4131781645736e49cfb02115da2c3650c5a966e35360e7703f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008661"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990486"
 ---
 # <a name="skills-and-proficiency-models"></a>技能和熟練度模型
 
@@ -33,7 +33,7 @@ ms.locfileid: "6008661"
 
 若要在 Project Service Automation 中維護技能存放庫，請移至 **資源** \> **資源技能**。 
 
-> ![資源技能](media/Resource-Management-image84.png)
+> ![資源技能。](media/Resource-Management-image84.png)
 
 ## <a name="use-proficiency-models-to-rate-resources"></a>使用熟練度模型來評等資源
 
@@ -43,7 +43,7 @@ ms.locfileid: "6008661"
 2. 在新的評等模型中，指定最小評等值、最大評等值以及要加以評等的實體。
 3. 在 **評等值** 子格中，您可以定義從最小值到最大值的不同評等值。
 
-> ![定義的最小與最大評等](media/Resource-Management-image85.png)
+> ![定義的最小與最大評等。](media/Resource-Management-image85.png)
 
 這些評等值會顯示在 **資源需求**、**排程面板和** 和 **排程小幫手** 篩選上。
 

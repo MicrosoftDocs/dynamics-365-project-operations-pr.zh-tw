@@ -2,17 +2,17 @@
 title: 在工作窗格中工作時的疑難排解
 description: 本主題提供在工作窗格中工作時所需的疑難排解資訊。
 author: ruhercul
-ms.date: 01/19/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.product: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
-ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
+ms.openlocfilehash: 07e7bd42db48842edee17fdfdd22fdcd8207644c1751f453ec29c3194aac625e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6213390"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989091"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>在工作窗格中工作時的疑難排解 
 
@@ -24,7 +24,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 Project Operations 需要啟用第三方 Cookie，以便呈現分工結構圖。 如果未啟用第三方 Cookie，當您在 **專案** 頁面上選取 **工作** 索引標籤時，看到的不是工作，而是空白頁面。
 
-![未啟用第三方 Cookie 時的空白索引標籤](media/blankschedule.png)
+![未啟用第三方 Cookie 時的空白索引標籤。](media/blankschedule.png)
 
 
 ### <a name="workaround"></a>因應措施
@@ -52,11 +52,22 @@ Project Operations 需要啟用第三方 Cookie，以便呈現分工結構圖。
 Project Operations 需要專案參數參照 PEX 端點。 必須有此端點，才能與用於呈現分工結構圖的服務進行通訊。 如果未啟用此參數，您就會收到「專案參數無效」錯誤。 
 
 ### <a name="workaround"></a>因應措施
- ![專案參數上的 PEX 端點欄位](media/projectparameter.png)
 
 1. 將 **PEX 端點** 欄位新增至 **專案參數** 頁面。
-2. 以下列值來更新欄位：`https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
-3. 從 **專案參數** 頁面移除欄位。
+2. 找出您正在使用的產品類型。 設定 PEX 端點時，會使用此值。 擷取時，PEX 端點中已定義產品類型。 保留該值。 
+   
+    ![專案參數上的 PEX 端點欄位。](media/pex-endpoint.png)
+
+3. 以下列值來更新欄位：`https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`。
+
+   
+   | 產品類型                         | 類型參數 |
+   |--------------------------------------|----------------|
+   | 預設組織上的 Project for the Web   | 類型=0         |
+   |  CDS 具名組織上的 Project for the Web | 類型=1         |
+   | Project Operations                   | 類型=2         |
+   
+4. 從 **專案參數** 頁面移除欄位。
 
 ## <a name="privileges-for-project-for-the-web"></a>Project 網頁版的權限
 
@@ -67,7 +78,7 @@ Project Operations 需要依賴外部排程服務。 此服務要求使用者必
 
 1. 移至 **設定 > 安全性 > 使用者 > 應用程式使用者**。  
 
-   ![應用程式記錄](media/applicationuser.jpg)
+   ![應用程式讀取器。](media/applicationuser.jpg)
    
 2. 按兩下應用程式使用者記錄，以驗證：
 
@@ -76,7 +87,7 @@ Project Operations 需要依賴外部排程服務。 此服務要求使用者必
  
 3. 如果此使用者不存在，您可以建立新的使用者記錄。 選取 **新增使用者**。 將輸入表單變更至 **應用程式使用者**，然後新增 **應用程式識別碼**。
 
-   ![應用程式使用者詳細資料](media/applicationuserdetails.jpg)
+   ![應用程式使用者詳細資料。](media/applicationuserdetails.jpg)
 
 4. 確認是否已將正確的授權指派給使用者，以及已在授權的服務方案詳細資料中啟用該服務。
 5. 確認使用者是否可以開啟 project.microsoft.com。

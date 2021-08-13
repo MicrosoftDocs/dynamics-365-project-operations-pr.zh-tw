@@ -6,12 +6,12 @@ ms.date: 11/09/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 86f4cd2c26ebfca621d1b226b571d220d3b2441e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 753f0c4496bafd43d7e4a399cedeb355c2163c7ce56d932b2c786d5f2e672b6b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6010326"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992196"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>建立自訂定價維度解決方案
 
@@ -26,7 +26,7 @@ ms.locfileid: "6010326"
 2.  將解決方案命名為 *<your organization name> 定價維度*。
 3. 輸入其餘必要資訊，然後選取 **儲存**。
 
-  ![建立自訂定價維度解決方案](./media/Creation-of-custom-pricing-dimension-solution.png)
+  ![建立自訂定價維度解決方案。](./media/Creation-of-custom-pricing-dimension-solution.png)
  
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>將所有必要的實體及相關元件新增至定價維度解決方案
 
@@ -49,19 +49,19 @@ ms.locfileid: "6010326"
    - **角色價格**
    - **時間項目**
  
-   ![新增現有實體自訂定價維度解決方案](./media/Existing-entities-to-PD-solution.png)
+   ![新增現有實體自訂定價維度解決方案。](./media/Existing-entities-to-PD-solution.png)
  
  4. 針對每個實體，複查要新增的元件，以及每個實體的最終實體資產清單。 
 
    >[!NOTE]
    > 包含所選每個實體的所有表單和檢視表。
 
-  ![已新增實體](./media/solution-component-selection.png)
+  ![已新增實體。](./media/solution-component-selection.png)
 
 
 5.  當系統提示您包括所選取實體的任何相依實體時，請選取 **不，請勿包括必要元件**。
 
-    ![包括相依實體](./media/Do-not-include-required.png)
+    ![包括相依實體。](./media/Do-not-include-required.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

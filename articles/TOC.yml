@@ -832,6 +832,16 @@
           items:
             - name: 資源使用率概觀
               href: resource-management/resource-utilization-overview.md
+    - name: Project Operations 中的轉包合約管理
+      items:
+        - name: 管理轉包合約概觀
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: 轉承包中的重要概念
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: 管理廠商和專案價目表
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: 做為可預約資源的轉包商
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
     - name: 時間
       items:
         - name: 時間概觀
@@ -1050,6 +1060,8 @@
       items:
         - name: Project Service 3.x 的更新發行排程
           href: psa/version-history-ps.md
+        - name: 更新版本 34 V3 的新功能或變更
+          href: psa/whats-new-ur-34.md
         - name: 更新版本 33 V3 的新功能或變更
           href: psa/whats-new-ur-33.md
         - name: 更新版本 32.5 V3 的新功能或變更

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7fff69f062bf09fe7ceca61d951b535d2e010bfd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 06471532d2e41bb80ebf92f0a8b93c324b3f6d3e845cea8033d85d291ea237eb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999976"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986571"
 ---
 # <a name="expense-management-integration"></a>費用管理整合
 
@@ -28,7 +28,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 2. 在 Finance 中，移至 **費用管理** > **設定** > **共用類別**，然後選取具有 **費用** 交易分類的共用類別。 將 **可在費用中使用** 參數設定為 **True**，並定義要使用的費用類型。
 3. 移至 **費用管理** > **設定** > **費用類別** 並選擇 **新增**，以使用此共用類別記錄建立新的費用類別。 儲存記錄時，雙重寫入會使用資料表對應 **Project Operations 整合專案費用類別匯出實體 (msdyn\_expensecategories)**，將此記錄同步處理至 Dataverse。
 
-  ![費用類別整合](./media/DW6ExpenseCategories.png)
+  ![費用類別整合。](./media/DW6ExpenseCategories.png)
 
 Finance and Operations 應用程式中的費用類別各有不同的適用公司或法律實體。 在 Dataverse 中有個別對應的法律實體特定記錄。 當專案經理估計費用時，他們無法選取針對由與擁有他們所從事專案之公司不同的公司所建立的費用類別。 
 
@@ -40,7 +40,7 @@ Finance and Operations 應用程式中的費用類別各有不同的適用公司
   - 雙重寫入會使用 **Project Operations 整合專案費用報表實體 (msdyn\_expenses)** 資料表對應來同步處理至 Dataverse。
   - 系統會視費用報表過帳時的實際情況來記錄稅金子分類帳、廠商子分類帳及其他財務過帳。
 
-  ![費用報表整合](./media/DW6ExpenseReports.png)
+  ![費用報表整合。](./media/DW6ExpenseReports.png)
 
 在 Dataverse 中將記錄寫入 **費用** 實體時，系統會觸發記錄的自動化核准程序。 如果需要，您可以移至 **進階設定** > **系統** > **系統作業**，在 Dataverse 中檢閱自動化核准程序狀態。 核准完成後，**實際值** 實體中會建立費用交易分類記錄。
 

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d33786a5d0a2485a06d174eb7afcbaaa2f337cf6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 513f7fe75cfb7b1658b4be71ed0a17da7b64a1023992e1dada9adca8f0dbf21e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992956"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987606"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>從排程面板建立專案預約
 
@@ -43,7 +43,7 @@ ms.locfileid: "5992956"
 
 1.  在排程面板中，此資源會出現在 **開啟需求** 索引標籤上。如果您有許多開啟需求，可能就需要使用網格上的欄篩選。 
 
-    ![排程面板上的開啟需求索引標籤](media/FAQ-Project-Booking-Schedule-Board-1.png "預約及指派表格的螢幕擷取畫面")
+    ![排程面板上的開啟需求索引標籤。](media/FAQ-Project-Booking-Schedule-Board-1.png "預約及指派表格的螢幕擷取畫面")
 
 2. 選取需求。 **尋找可用性** 索引標籤會顯示在所選列的上方。
  
@@ -53,7 +53,7 @@ ms.locfileid: "5992956"
 
     選取 **預約** 就會將資源預約到專案團隊。
 
-![建立資源預約面板](media/FAQ-Project-Booking-Schedule-Board-6.png "")
+![建立資源預約面板。](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
 
 ## <a name="book-from-the-primary-requirement"></a>從主要需求預約
@@ -62,7 +62,7 @@ ms.locfileid: "5992956"
 
 1. 若要使用主要需求預約資源，請在排程面板上選取 **專案** 索引標籤。如果您有許多專案，您可能需要使用 **專案** 欄上的欄篩選。
 
-   ![排程面板上的欄篩選](media/FAQ-Project-Booking-Schedule-Board-2.png "預約及指派表格的螢幕擷取畫面")
+   ![排程面板上的欄篩選。](media/FAQ-Project-Booking-Schedule-Board-2.png "預約及指派表格的螢幕擷取畫面")
 
 2. 選取僅以專案名稱做為其名稱且期間為零 (0) 的需求。
 

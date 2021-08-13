@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e981f39bbb6ca4277778382a5816952df2a8a1fb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009561"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987561"
 ---
 # <a name="unit-groups-and-units"></a>單位群組和單位
 
@@ -44,7 +44,7 @@ ms.locfileid: "6009561"
 
 下圖顯示 **天** 單位 (其中 **數量** 欄位顯示一天的小時數) 和 **週** 單位 (其中 **數量** 欄位顯示一週的天數) 的範例設定。
 
-> ![單位群組：資訊頁面](media/advanced-2.png)
+> ![單位群組：資訊頁面。](media/advanced-2.png)
 
 ## <a name="using-units-and-unit-groups"></a>使用單位與單位群組
 

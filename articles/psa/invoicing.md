@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e0dc911bb0ca72af547262a5716ef1091ea81c81
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015051"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985491"
 ---
 # <a name="invoicing-in-project-service-automation"></a>在 Project Service Automation 中開立發票
 
@@ -50,7 +50,7 @@ PSA 不是為了產生客戶面向發票而設計，原因如下：
 
 - 在 **專案合約** 清單頁面上，開啟專案合約，然後選取 **建立發票**。
 
-    ![建立特定專案合約的專案發票](media/CreateProjectInvoicesOneByOne.png)
+    ![建立特定專案合約的專案發票。](media/CreateProjectInvoicesOneByOne.png)
 
     發票會針對狀態為 **已準備好開立發票** 的所選專案合約的所有交易來產生。 這些交易包括時間、費用、里程碑和產品型合約服務內容。
 
@@ -58,7 +58,7 @@ PSA 不是為了產生客戶面向發票而設計，原因如下：
 
 1. 在 **專案合約** 清單頁面上，選取一個或多個您必須為其建立發票的專案合約，然後選取 **建立專案發票**。
 
-    ![大量建立專案發票](media/CreateProjectInvoicesBulk.png)
+    ![大量建立專案發票。](media/CreateProjectInvoicesBulk.png)
 
     出現一則警告訊息通知您，建立發票之前可能會有一段延遲。 也會顯示程序。
 

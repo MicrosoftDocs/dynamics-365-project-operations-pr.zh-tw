@@ -6,12 +6,12 @@ ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f4428bac8e82bdfc848c199b0e294486b9fde82e
-ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
+ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6304246"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987921"
 ---
 # <a name="integration-journal-in-project-operations"></a>Project Operations 中的整合帳目
 
@@ -19,7 +19,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 時間和費用項目會建立 **實際** 交易，表示針對專案完成的工作運作檢視表。 Dynamics 365 Project Operations 為會計師提供用於審查交易，並視需要調整會計屬性的工具。 在審查和調整完成後，交易會過帳至專案分類帳和總帳。 會計可以使用 **Project Operations 整合** 帳目執行這些活動（**Dynamics 365 Finance** > **專案管理與會計** > **帳目** > **Project Operations 整合** 帳目）。
 
-![整合帳目流程](./media/IntegrationJournal.png)
+![整合帳目流程。](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>在 Project Operations 整合帳目中建立記錄
 

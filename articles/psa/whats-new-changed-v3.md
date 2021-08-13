@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 26d79ff79801f8ad0f80020d49fdc80f76dd9aef
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: afce9cd2d4b3920dc5de5d3deab8920a7f51f275a73918a84db300739b1b4feb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6006996"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987066"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Project Service Automation 版本 3 的新功能或變更
 
@@ -36,7 +36,7 @@ ms.locfileid: "6006996"
 ## <a name="project-scheduling"></a>專案排程功能
 「專案排程」在舊版中稱為分工結構圖 (WBS)，現已重新命名為「排程」，您可按一下 **排程** 索引標籤來存取。 
 
-![專案排程](media/psa-schedule-01.png)
+![專案排程。](media/psa-schedule-01.png)
 
 排程現在已有既現代化又易於存取的新互動介面。 不過，基礎 Project Service Automation 排程引擎沒有變更。 排程網格功能區中的控制項按鈕可讓您與類似於舊版 Project Service Automation 的排程進行互動。 排程的其他變更包括：
 
@@ -95,22 +95,22 @@ ms.locfileid: "6006996"
 ## <a name="estimates"></a>估計值
 估計已分為 **資源指派** 和 **估計** 這兩個索引標籤。 **資源指派** 索引標籤包含投入量估計值，並且會在分時期檢視表中顯示工作的資源指派。 您可以根據排程引擎所產生的結果來編輯估計值。
 
-![[資源指派] 索引標籤，顯示工作的投入量估計值和資源指派](media/resource-assignments-tab-02.png)
+![[資源指派] 索引標籤，顯示工作的投入量估計值和資源指派。](media/resource-assignments-tab-02.png)
 
 **估計值** 索引標籤會顯示資源指派的成本與銷售金額。 金額是唯讀的。 成本估算和銷售定價現在是由排程上的團隊成員指派所驅動。 這表示如果您的工作沒有任何指派，則該工作會顯示在未指派貯體底下。 這也表示，如果您的客戶或合約/報價與專案有關聯，則沒有 **角色** (這是預設定價維度)，就無法估計成本或銷售。 
 
-![[估計值] 索引標籤，顯示成本和銷售金額](media/estimates-tab-03.png)
+![[估計值] 索引標籤，顯示成本和銷售金額。](media/estimates-tab-03.png)
   
 排程檢視表中的工作也支援類別。 依類別在估計值分時期檢視表上進行分組將提供更佳的體驗，尤其是當您在專案中也有費用估計時。 費用估計值是使用不同索引標籤上的網格來輸入。 
 
 您可以在 **費用估計值** 索引標籤的網格中輸入費用估計值。 
 
-![[費用估計值] 索引標籤，顯示費用估計值網格](media/expense-estimates-tab-04.png)
+![[費用估計值] 索引標籤，顯示費用估計值網格。](media/expense-estimates-tab-04.png)
 
 ## <a name="resource-management"></a>資源管理
 在 Project Service Automation 版本 3 中，由於採用整合用戶端 UI，以及預約與指派之間關聯有所變更，staffing a project 使用一般或實際資源配置專案人員的方式在版本 2 及版本 1 以後發生了大幅改變。 不過，可預約資源 (**實際** 和 **一般**) 的概念與團隊成員、需求、指派及預約一樣，仍保持不變。   
 
-![使用資源選擇器](media/resource-management-05.png)
+![使用資源選擇器。](media/resource-management-05.png)
 
 ### <a name="assign-a-real-bookable-resource"></a>指派實際可預約資源 
 在 Project Service Automation 版本 3 中，預約和工作指派不像在舊版 Project Service Automation 中那樣緊密交織繫結。 您可以使用團隊網格來預約 **實際** 團隊成員，就像在市場上一樣。
@@ -136,7 +136,7 @@ ms.locfileid: "6006996"
 ### <a name="reconciliation"></a>協調
 **協調** 索引標籤會顯示每個專案團隊成員的預約及所有指派。 檢視表會在儲存格中顯示時數，這可以表示從月數至天數的時間點。 此檢視表可讓專案經理協調團隊成員的預約及其對專案團隊的指派。 這會很有用，因為預約和工作指派未緊密聯繫，可在規劃專案時提供更多的彈性。 
 
-![[協調] 索引標籤，顯示專案團隊成員的預約及指派](media/resource-reconciliation-tab-06.png)
+![[協調] 索引標籤，顯示專案團隊成員的預約及指派。](media/resource-reconciliation-tab-06.png)
 
 對於每個資源，此檢視表都會計算團隊成員預約與其工作指派彙總之間的差異，並顯示下列兩個可能在專案中的預約與指派之間發生的差異： 
 
@@ -151,19 +151,19 @@ ms.locfileid: "6006996"
 ### <a name="landing-page"></a>登陸頁面
 非可擴充自訂時間輸入體驗已在版本 3 中被取代。 現在取而代之的是可擴充且易於存取的原生網格體驗。 您可以使用左側網站地圖來存取時間項目功能。 有了這樣的變更後，您已無法一次輸入一週的時間。 而是必須為網格中的每一天建立時間項目。 建立幾個時間項目之後，使用者就可以使用本主題稍後所述的 **複製** 功能來大量建立時間項目。 
 
-![時間項目登陸頁面](media/time-entry-landing-page-07.png)
+![時間項目登陸頁面。](media/time-entry-landing-page-07.png)
  
 ### <a name="create-new-time-entries"></a>建立新的時間項目 
 按一下功能區中的 **新增** 開啟時間項目的快速建立頁面，您可以在其中輸入以分鐘、小時或天為單位的期間。 若要這樣做，只需開始輸入 h、m 或 d 以及數量即可。  
 
-![時間項目快速建立](media/quick-create-time-entry-08.png)
+![時間項目快速建立。](media/quick-create-time-entry-08.png)
 
 查詢欄位是由系統檢視表支援。 例如，輸入專案資訊後，**專案工作** 欄位預設會設定為 **我的待完成專案工作** 檢視表。 若要建立未指派給使用者之工作的時間項目，請在查詢上選取 **變更檢視表**，然後選取 **所有使用中專案工作**。 時間項目經建立並顯示在網格之後，您可以直接在網格中編輯任何明細值。  
 
 ### <a name="bulk-createcopy"></a>大量建立/複製 
 建立幾個時間項目之後，您可以使用複製功能大量建立其他時間項目。 按一下 **複製** 以開啟 **複製** 對話方塊。 在 **開始期間：開始日期** 中，設定必須從中複製期間時段的日期範圍。 在 **結束期間：開始日期** 中，指定必須建立時間項目的日期。 按一下 **複製**，將時間項目複製到 **結束期間** 中所指示對應星期幾。 例如，將上週星期一的時間項目複製到 **結束期間** 中所示之週的星期一。 
 
-![大量複製時間項目](media/bulk-copy-time-entry-09.png)
+![大量複製時間項目。](media/bulk-copy-time-entry-09.png)
  
 ### <a name="import-data"></a>匯入資料 
 指派和交換也遵循同樣的 UI 模式，這可讓使用者指定需要從何時開始匯入預約的日期範圍。 您接著必須明確選擇應複製成 **草稿** 時間項目的預約。 在版本 3 中，您已無法在網格和行事曆上看到 **建議** 時間項目的模式。  
@@ -179,7 +179,7 @@ ms.locfileid: "6006996"
 
 **擷取時間及費用項目實體的自訂欄位中的資料，並透過支援送出和核准流程的實體進行傳播** - 下圖中顯示時間項目的一般程序。
 
-![時間項目流程處理](media/process-time-entries-10.png)
+![時間項目流程處理。](media/process-time-entries-10.png)
 
 如果業務需求規定時間和費用實體必須擷取自訂定價維度，並透過上圖中所有實體傳播由自訂定價維度中的時間及項目資源所設定的值，請參閱[將自訂欄位設定為定價維度](set-up-pricing-dimensions.md)
 
@@ -236,7 +236,7 @@ Project Service Automation 隨附一組預設定價維度和角色以及資源�
 
 從版本 3 開始，依角色和費用類別設定可收費率的作業會在報價或合約服務內容層級完成。 定價設定與可收費率設定不同。 您不需使用頂端導覽就可以在 **報價明細** 和 **合約服務內容** 頁面上找到做為索引標籤的 **應收費角色** 和 **應收費類別**。
 
-![應收費角色](media/chargeable-12.png)
+![收費角色。](media/chargeable-12.png)
  
 設定 [應收費角色] 和 [應收費類別] 的作業也會利用預設的可編輯網格控制項。 對每個角色和類別來說，報價和簽約階段的帳單類型支援選項仍保持不變，與先前版本中的 **應收費** 及 **不應收費** 一樣。 **附贈** 不是報價或簽約階段支援的類型。 只有在時間或費用核准期間才會支援 **附贈**。  
  
@@ -247,11 +247,11 @@ Project Service Automation 隨附一組預設定價維度和角色以及資源�
   
 下圖是在自訂價目表已建立之前的圖形。
 
-![自訂價目表之前](media/before-custom-price-lists-13.png)
+![自訂價目表之前。](media/before-custom-price-lists-13.png)
 
 下圖顯示建立自訂價目表之後的情況。
 
-![自訂價目表之後](media/after-custom-price-lists-14.png)
+![自訂價目表之後。](media/after-custom-price-lists-14.png)
 
 > [!NOTE]
 > 按一下 **建立自訂定價** 之時，到建立了自訂價目表之間，可能會發生短暫的延遲。 建議您重新整理網格，而不要多次點按。 如果相關價目表名稱中有出現報價名稱或專案合約名稱，即表示已建立自訂價目表。

@@ -6,12 +6,12 @@ ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2b5a65f5e29915c349d40400ebbf3e4923b36a67
-ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
+ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "6334772"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991521"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>註冊預覽版訂閱 - 精簡 
 
@@ -52,16 +52,16 @@ ms.locfileid: "6334772"
 
 1. 依照主題 [Dataverse 部署模型](lite-deployment.md)中的指示，佈建新的 Project Operations Dataverse 部署環境。 選取環境類型時，請務必使用 **試用 (以訂閱為準)**。
 
-  ![新環境](./media/19CreateEnvironment.png)
+  ![新環境。](./media/19CreateEnvironment.png)
 
 2. 選取 **啟用 Dynamics 365 應用程式** 設定，並讓 **自動部署這些應用程式** 保持空白。  
 3. 選取 **儲存** 以建立環境。
 
-  ![新增資料庫](./media/20CreateEnvironment1.png)
+  ![新增資料庫。](./media/20CreateEnvironment1.png)
 
 4. 建立環境之後，安裝 **Microsoft Dynamics 365 Project Operations** 解決方案。 
 
-![安裝解決方案](./media/21InstallSolution.png)
+![安裝解決方案。](./media/21InstallSolution.png)
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>安裝 CDS 設定並設定示範資料
 

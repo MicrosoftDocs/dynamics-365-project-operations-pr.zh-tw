@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f4f93ee0c0bdb9fc6a9a3c6a75f6c3d178766d0b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ac815eb82114c00af712a7ae76e43f28841ac5023be81f97718dc7ce529e1d34
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009066"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987246"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>專案資源中心使用手冊
 
@@ -52,28 +52,28 @@ ms.locfileid: "6009066"
 1.  登入行動應用程式時，您會看到 MyApps 頁面上有您可存取的應用程式清單。 
 2.  選取 **專案資源中心**。
 
-![選擇應用程式](media/chooseApp_1.png "選擇應用程式")
+![選擇應用程式。](media/chooseApp_1.png "選擇應用程式")
 
 **瀏覽列**
 
-使用瀏覽列移至您的工作區域、建立新記錄、搜尋，或執行其他工作。 若要存取更多命令，請點選 ![更多按鈕](media/MoreButton.png "更多按鈕")
+使用瀏覽列移至您的工作區域、建立新記錄、搜尋，或執行其他工作。 若要存取更多命令，請點選 ![更多按鈕。](media/MoreButton.png "更多按鈕")
 
-![導覽列](media/NavBar_2.png "導覽列")
+![瀏覽列。](media/NavBar_2.png "導覽列")
 
 **我的最愛及最近使用的記錄**
 
 [我的最愛] 及 [最近使用的記錄] 區段可讓您快速存取記錄、檢視表和儀表板。 
 
-- 若要存取這些區段，請點選瀏覽列上的 **功能表** ![功能表按鈕](media/MenuButton.png "選單鍵") 按鈕，然後點選 **我的最愛和最近的記錄** ![我的最愛按鈕](media/FavButton.png "Fav 按鈕") 按鈕。
+- 若要存取這些區段，請點選 **功能表** ![功能表按鈕。](media/MenuButton.png "選單鍵") 按鈕，然後點選 **我的最愛和最近的記錄** ![我的最愛按鈕](media/FavButton.png "Fav 按鈕") 按鈕。
 
 - 若要將項目釘選為我的最愛，請在 **最近使用** 項目清單中點選釘選。 這樣會釘選項目並將其移到 [我的最愛]。
 
-  ![我的最愛和最近項目](media/Favs_3.png "我的最愛和最近項目")
+  ![我的最愛和最近項目。](media/Favs_3.png "我的最愛和最近項目")
  
 ## <a name="enter-time"></a>輸入時間
 至少每週輸入您的時數，或依照您的經理要求的頻率輸入，以確保客戶收到發票且您收到正確的付款。
 
-1. 點選功能表 ![功能表按鈕](media/MenuButton.png "選單鍵") 按鈕，然後點選 **時間項目**。 這樣會顯示您的行事曆。
+1. 點選功能表 ![功能表按鈕。](media/MenuButton.png "選單鍵") 按鈕，然後點選 **時間項目**。 這樣會顯示您的行事曆。
 
 2. 若要查看行事曆的上一週或下一週，點選 **上一個** 或 **下一個** 按鈕。 點選 **今天** 返回本週。
 

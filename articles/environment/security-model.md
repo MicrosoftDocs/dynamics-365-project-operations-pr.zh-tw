@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ccca2f387ce3abef3b24cb96fdbcc69f3c0c075b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002226"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991476"
 ---
 # <a name="security-model"></a>安全性模型
 
@@ -58,7 +58,7 @@ Project Operations 不會透過隱含式動作建立群組，只會透過按下�
 
 **群組管理** 對話方塊中的群組成員搜尋，僅限於已設定為環境安全性群組之一部分的人員。 如需詳細資訊，請參閱[控制使用者對環境的存取：安全性群組和授權](/power-platform/admin/control-user-access)。
 
-![群組模式](./media/groupsmode.png)
+![群組模式。](./media/groupsmode.png)
 
 1. 專案已建立並且由建立使用者所擁有。
 2. 專案負責人會更新為團隊。

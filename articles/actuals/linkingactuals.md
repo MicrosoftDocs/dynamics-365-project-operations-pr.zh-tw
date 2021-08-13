@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9fc49211f3c2c79e18f6dd18e9a687091793cad0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b5a70d2c2b3f98028b4e4998ed25ab73a275c66e4b8137eb573b943658a1a41e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5996736"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991746"
 ---
 # <a name="link-actuals-to-original-records"></a>將實際值連結至原始記錄
 
@@ -77,7 +77,7 @@ Project Operations 將這五個實體中的記錄視為商務交易。 唯一區
 
 下列範例顯示 Project Operations 專案生命週期中時間項目的一般處理程序。
 
-> ![在 Project Service 生命週期處理時間項目](media/basic-guide-17.png)
+> ![在 Project Service 生命週期處理時間項目。](media/basic-guide-17.png)
  
 1. 送出時間項目會建立兩個帳目明細：一個明細用於成本，另一個明細用於未開單銷售。
 2. 最終核准時間項目時，會建立兩個實際值：一個實際值用於成本，另一個實際值用於未開單銷售。

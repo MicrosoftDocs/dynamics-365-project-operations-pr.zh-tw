@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 16cd38f2f190414d7be9c93e8ab90d55006f47e1
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 45846d7a6dd7b84fe28f0a78ccc103679236917ea506180c5b383fd2828624eb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009966"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992781"
 ---
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>將專案工作直接從 Project Service Automation 同步處理至 Finance and Operations
 
@@ -39,7 +39,7 @@ Project Service Automation 至 Finance 整合解決方案會使用資料整合�
 
 下圖這些顯示如何在 Project Service Automation 與 Finance 之間同步處理資料。
 
-[![Project Service Automation 與 Finance 整合的資料流程](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
+[![Project Service Automation 與 Finance 整合的資料流程。](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
 
 ## <a name="template-and-task"></a>範本與工作
 
@@ -80,7 +80,7 @@ Project Service Automation 至 Finance 整合解決方案會使用資料整合�
 
 下圖顯示資料整合中的範本工作對應範例。 此對應顯示會從 Project Service Automation 同步處理至 Finance 的欄位資訊。
 
-[![範本對應](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
+[![範本對應。](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

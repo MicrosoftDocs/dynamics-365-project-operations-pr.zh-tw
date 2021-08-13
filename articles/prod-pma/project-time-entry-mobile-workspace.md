@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: f087e15780272fd376a14b42ed9e00420f86a61f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 04024cc005b67b8f4e5821b22be65cfd1822b2414c85e1fbb75c3b2ac4339dc4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009921"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989541"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>專案時間項目行動工作區
 
@@ -94,7 +94,7 @@ ms.locfileid: "6009921"
 3.  第一次登入時，系統會提示您輸入您的使用者名稱和密碼。 輸入您的認證。
 4.  登入後，會顯示您公司可用的工作區。 請注意，如果系統管理員稍後發佈了新的工作區，您就必須重新整理行動工作區的清單。
 
-[![拖動以重新整理](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![拖動以重新整理。](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="enter-time-by-using-the-project-time-entry-mobile-workspace"></a>使用專案時間項目行動工作區來輸入時間
 1.  在行動裝置上，選取 **專案時間項目** 工作區。
