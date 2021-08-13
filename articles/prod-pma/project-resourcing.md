@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 579a07e117cf00727813385da28d47f7e42f0127
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: ea2a34ed9e0bf5b28649a53db88976ec56aaf10d1c80af99cb0856250873a2ab
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369456"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007316"
 ---
 # <a name="project-resourcing-home-page"></a>專案資源分配首頁
 
@@ -38,7 +38,7 @@ ms.locfileid: "6369456"
 - 估計專案整個生命週期所需的資源數目。
 - 使用初始資源指派來草擬分工結構圖 (WBS)。
 
-[![專案生命週期](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
+[![專案生命週期。](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
 
 在專案規劃繼續進行的過程中，可將規劃的資源取代為人員配置資源。 專案經理也可以在任何專案階段返回並更新資源分配保留。
 

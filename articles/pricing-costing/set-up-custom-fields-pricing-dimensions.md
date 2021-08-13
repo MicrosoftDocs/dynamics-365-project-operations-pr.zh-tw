@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d40a80f80bd766bfc19e831ea805a4043baf0030
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6004701"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003581"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>將自訂欄位設定為定價維度
 
@@ -42,11 +42,11 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 - 建立為 **定價維度** 表格中的一列。 例如，新增如下圖形所示的定價維度列。 
 
-![以金額為準的定價維度列](media/Amt-based-PD.png)
+![以金額為準的定價維度列。](media/Amt-based-PD.png)
 
 資源工作時數 (**msdyn_resourceworkhours**) 已新增為以加成為準的定價維度，並已新增至 **以加成為準的定價維度** 索引標籤上的網格。
 
-![以加成為準的定價維度列](media/Markup-based-PD.png)
+![以加成為準的定價維度列。](media/Markup-based-PD.png)
 
 
 > [!IMPORTANT]

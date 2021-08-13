@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bc58c805bfe1a3087600b8d4a6be2d1bcdd18188
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 95f064e0f83d2052ac4ae9673b4fcdcd16a2574246d3320e1ed3798cd6ff062b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997906"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007001"
 ---
 # <a name="soft-book-requirements"></a>未確認預約需求
 
@@ -29,30 +29,30 @@ ms.locfileid: "5997906"
 
 資源需求可以進行已確認預約。 已確認預約會建立耗用資源產能的提案。 提案接著會傳送回到要求者以取得核准。 未確認預約會暫時將資源新增至專案團隊，並且在排程面板上的狀態有所不同，但不會耗用資源的產能。 若要以未確認預約方式從排程面板預約資源，請將 **預約狀態** 欄位設定為 **未確認**。
 
-![預約狀態設定為 [未確認]](media/Resource-Management-image77.png)
+![預約狀態設定為 [未確認]。](media/Resource-Management-image77.png)
 
 當 **團隊** 索引標籤進入 **具名團隊成員** 檢視表時，資源就會顯示在其中。 **未確認預約時數** 欄會報告未確認預約時數。
 
-![[具名團隊成員] 檢視表中的未確認預約時數](media/Resource-Management-image78.png)
+![[具名團隊成員] 檢視表中的未確認預約時數。](media/Resource-Management-image78.png)
 
 無法將未確認預約的團隊成員指派給工作。
 
-![指派給工作的未確認預約團隊成員](media/Resource-Management-image79.png)
+![指派給工作的未確認預約團隊成員。](media/Resource-Management-image79.png)
 
 在 **協調** 索引標籤上，不會顯示未確認預約資源的任何預約，因為 **協調** 索引標籤只會考慮已確認預約。
 
-![未確認預約資源在 [協調] 索引標籤上沒有預約](media/Resource-Management-image80.png)
+![未確認預約資源在 [協調] 索引標籤上沒有預約。](media/Resource-Management-image80.png)
 
 > [!NOTE]
 > 您無法從一般團隊成員所產生的需求對資源進行未確認預約。
 
 在排程面板上，資源的未確認預約會使用不同的色彩來標示。
 
-![排程面板上的未確認預約](media/Resource-Management-image81.png)
+![排程面板上的未確認預約。](media/Resource-Management-image81.png)
 
 若要將未確認預約轉換成已確認預約，請在排程板上以滑鼠右鍵按一下未確認預約，然後選取 **變更狀態** \> **已確認預約** \> **已確認**。
 
-![將預約狀態變更為 [已確認]](media/Resource-Management-image82.png)
+![將預約狀態變更為 [已確認]。](media/Resource-Management-image82.png)
 
 預約已變更，而且排程面板上的狀態也已變更。 預約狀態現在是 **已確認**，因此資源會顯示為已預約，而且其產能和可用性也會進行調整。
 
@@ -60,7 +60,7 @@ ms.locfileid: "5997906"
 
 若要在專案的 **團隊** 索引標籤上將未確認預約資源轉換會已確認預約，請選取該資源，然後選取 **確認**。
 
-![確認命令](media/Resource-Management-image83.png)
+![確認命令。](media/Resource-Management-image83.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

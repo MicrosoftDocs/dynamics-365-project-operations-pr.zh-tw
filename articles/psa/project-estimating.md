@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 48f313b15f788645b88a4d878e3bece419d63126
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009156"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002546"
 ---
 # <a name="project-costs-and-revenue"></a>專案成本和營收
 
@@ -31,7 +31,7 @@ ms.locfileid: "6009156"
 
 專案預估值為專案排程中預估和排程的作業提供財務檢視表。 **專案** 頁面上的 **估計值** 索引標籤會顯示您規劃中作業的成本與營收影響。 其中也提供許多預先定義維度的相關資訊。 
 
-> ![[估計值] 索引標籤](media/project-5.png)
+> ![[估計值] 索引標籤。](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>專案的成本和銷售值
 
@@ -66,13 +66,13 @@ ms.locfileid: "6009156"
 
 **估計值** 索引標籤有一個顯示估計明細的網格檢視表。 網格包含單位、總成本價和總銷售價各欄，如下圖所示。 
 
-> ![[估計值] 索引標籤上的網格檢視表](media/project-6.png)
+> ![[估計值] 索引標籤上的網格檢視表。](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>專案估計值的分時期檢視表
 
 專案估計值的分時期檢視表顯示來自網格檢視表、散佈在所選時幅之時間表上的估計資料。 估計資料預設依據 **角色** 維度進行樞紐分析。
 
-> ![專案估計值的分時期檢視表](media/project-7.png)
+> ![專案估計值的分時期檢視表。](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>根據工作模式配置估計投入量
 

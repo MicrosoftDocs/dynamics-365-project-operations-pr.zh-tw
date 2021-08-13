@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bde3c434680f0651293cbce13ecdce945c3a743
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5f2e9b8e189be0594569e14ebc41c6ed452afd10aba34ea1397b3e3f66cd2e96
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997501"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005606"
 ---
 # <a name="synchronize-resource-capacity"></a>同步處理資源產能
 
@@ -29,7 +29,7 @@ ms.locfileid: "5997501"
 
 資源同步處理的程序有助於保證行事曆及基準行事曆的資訊會逐漸滲入專案資源排程中。 如果行事曆已變更，此程序就會對專案資源排程進行必要的更新。 此程式也有助於改善效能，因為會提前同步處理行事曆的資源資訊。 因此會加快進行對資源排程資訊的更新。 建議您以批次方式排定這些程序，而不是逐次排定。 否則，會有人忘記上次同步處理資訊時包含的日期。 如果沒有使用包含的日期，就會在進行日期同步處理時出現期間缺口。
 
-![行事曆同步處理](./media/projectresourcing04-1024x471.jpg)
+![行事曆同步處理。](./media/projectresourcing04-1024x471.jpg)
 
 ## <a name="synchronize-resource-capacity-roll-ups"></a>同步處理資源產能彙總
 
@@ -46,7 +46,7 @@ ms.locfileid: "5997501"
     | 開始日期  | 輸入資源產能彙總同步處理程序的開始日期。 |
     | 結束日期    | 輸入資源產能彙總同步處理程序的結束日期。 |
 
-[![同步處理程序](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+[![同步處理程序。](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

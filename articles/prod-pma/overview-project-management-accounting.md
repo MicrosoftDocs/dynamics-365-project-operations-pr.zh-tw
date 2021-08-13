@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da7add25634cd1d7ff36c7a9b57b1efa6ad765d7
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369681"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007496"
 ---
 # <a name="project-management-and-accounting-overview"></a>專案管理與會計概觀
 
@@ -34,14 +34,14 @@ ms.locfileid: "6369681"
 ## <a name="projects-across-industries"></a>跨產業的專案
 專案管理與會計功能可用於多個產業，如下圖所示。
 
-[![跨產業的專案](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![跨產業的專案。](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 在話務中心，可以使用票證來描述解決通話所需的一組動作。 諮詢公司 (例如管理或技術諮詢組織或廣告公司) 會將他們的活動稱為專案。 在行銷領域中，行銷活動代表一組必須交付的工作。 在專案型製造業中，生產訂單必須與各種必須執行才能產生一些製成品的工作有關聯。 無論使用什麼名稱，這些專案都包含資源、排程和成本，而專案管理與會計功能可以協助您規劃、執行和分析這些專案。
 
 ## <a name="project-phases"></a>專案階段
 雖然下列程序流程的目標是針對外部專案或是為一個或多個客戶所完成的專案，但是功能也適用於內部僅為限成本的專案。 
 
-![專案的 3 個階段](./media/3-stages-of-a-project.png) 
+![專案的 3 個階段。](./media/3-stages-of-a-project.png) 
 
 如上圖解所示，專案管理與會計可分為三個階段：
 
@@ -50,7 +50,7 @@ ms.locfileid: "6369681"
 3.  分析
 
 ## <a name="initiate-the-project"></a>起始專案
-在專案起始期間，會發生幾個主要程序。 您可以使用專案報價，將估計人力、費用和材料傳達給客戶。 您可以在專案合約中記錄帳務條款、限制和協議。 您可以使用分工結構圖 (WBS) 來規劃和估計工作。 您可以設定預測和預算以引導專案執行。 下圖解顯示專案的結構。[![專案結構](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+在專案起始期間，會發生幾個主要程序。 您可以使用專案報價，將估計人力、費用和材料傳達給客戶。 您可以在專案合約中記錄帳務條款、限制和協議。 您可以使用分工結構圖 (WBS) 來規劃和估計工作。 您可以設定預測和預算以引導專案執行。 下圖解顯示專案的結構。[![專案結構。](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>建立專案報價
 

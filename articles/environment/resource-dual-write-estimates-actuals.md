@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d8aa1541a3560db175acead1d000895312b299db
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c558ab1eb5070f6d1a2db06b630e8807cc67819f9bdd57c15ec346f484e04fe9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000021"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006281"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>專案估計值和實際值整合
 
@@ -30,7 +30,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 人力估計值是由同樣將一般或具名資源指派給專案工作的專案經理或資源管理員所建立。 您可以在 Dataverse 中 **專案詳細資料** 頁面的 **資源指派** 索引標籤上檢閱資源指派記錄。 Dataverse 中的資源指派記錄會使用 **Project Operations 時數估計值整合實體 (msdyn\_resourceassignments)** 在 Finance and Operations 應用程式中建立四個預測記錄。
 
-   ![人力估計值整合](./Media/DW4LaborEstimates.png)
+   ![人力估計值整合。](./Media/DW4LaborEstimates.png)
 
 雙重寫入會將資源指派記錄同步處理至臨時表格 (**ProjCDSEstimateHoursImport**)，然後使用商務規則來建立和更新時數預測記錄 (**ProjForecastEmpl**)。
 
@@ -40,7 +40,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 費用估計值是由專案經理在 Dataverse 中 **專案詳細資料** 頁面的 **費用估計值** 索引標籤上所建立。 費用估計值記錄會儲存在 Dataverse 的 **估計明細** 實體中。 這些估計記錄具有交易分類 **費用**，並且使用 **Project Operations 費用估計值整合實體 (msdyn\_estimatelines)** 同步處理至 Finance and Operations 應用程式中的費用預測記錄。
 
-   ![費用估計值整合](./Media/DW4ExpenseEstimates.png)
+   ![費用估計值整合。](./Media/DW4ExpenseEstimates.png)
 
 雙重寫入會將費用估計記錄同步處理至臨時表格 (**ProjCDSEstimateExpenseImport**)，然後使用商務規則來建立和更新費用預測記錄 (**ProjForecastCost**)。 估計明細會分別儲存銷售估計和成本估計記錄。 Finance and Operations 應用程式中的商務規則會在臨時表格中使用此詳細資源，填入單一費用預測記錄。
 
@@ -50,7 +50,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 費用估計值是由專案經理在 Dataverse 中 **專案詳細資料** 頁面的 **材料估計值** 索引標籤上所建立。 材料估計值記錄會儲存在 Dataverse 的 **估計明細** 實體中。 這些估計記錄具有交易分類 **材料**，並且使用 **Project Operations 材料估計值整合資料表 (msdyn\_estimatelines)** 同步處理至 Finance and Operations 應用程式中的項目預測記錄。
 
-   ![材料估計值整合](./Media/DW4MaterialEstimates.png)
+   ![材料估計值整合。](./Media/DW4MaterialEstimates.png)
 
 雙重寫入會將材料估計記錄同步處理至臨時表格 **ProjForecastSalesImpor**，然後使用商務規則來建立和更新項目預測記錄 (**ForecastSales**)。 估計明細會分別儲存銷售估計和成本估計記錄。 Finance and Operations 應用程式中的商務規則會在臨時表格中使用此詳細資源，填入單一項目預測記錄。
 
@@ -60,7 +60,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 專案實際值是在 Dataverse 中根據時間、費用、材料和帳務活動所建立。 這些交易的所有營運屬性 (包括數量、成本價、銷售價和專案) 都是在此 Dataverse 實體中擷取。 如需詳細資訊，請參[實際值](../actuals/actuals-overview.md)。 實際記錄是使用雙重寫入資料表對應 **Project Operations 整合實際值 (msdyn\_actuals)** 同步處理至 Finance and Operations 應用程式，以用於下游會計。
 
-   ![實際值整合](./Media/DW4Actuals.png)
+   ![實際值整合。](./Media/DW4Actuals.png)
 
 **Project Operations 整合實際值** 資料表對應會在 **略過同步處理 (僅供內部使用)** 屬性設定為 **False** 的情況下，同步處理 Dataverse 中 **實際值** 實體的所有資料。 建立記錄時，Dataverse 會自動設定此屬性值。 此屬性設定為 **True** 的範例如下：
 

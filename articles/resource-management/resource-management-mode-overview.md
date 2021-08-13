@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.custom: intro-internal
-ms.openlocfilehash: 41265534661e51565bf31105ef69cec9b3b181c3
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 5c0f98a6f08129ebef9b6d3fed1cc85969aa347c815a643d3c8dd639b42c0e8c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6367881"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008216"
 ---
 # <a name="resource-management-modes-overview"></a>資源管理模式概觀
 
@@ -24,7 +24,7 @@ Dynamics 365 Project Operations 支援兩種模式，讓您執行整體預約流
 ## <a name="central-mode"></a>集中模式
 對於將資源集中配置給專案的組織，集中模式提供的方式確保專案經理可以在專案層級定義資源需求。 履行資源需求的職責已委派給資源經理。 專案經理可以接受或拒絕資源管理員提議的資源。
 
-![集中模式](./media/resource-management-central.png)
+![集中模式。](./media/resource-management-central.png)
 
 若要使用集中模式管理資源，請參閱：
 
@@ -37,7 +37,7 @@ Dynamics 365 Project Operations 支援兩種模式，讓您執行整體預約流
 ## <a name="hybrid-mode"></a>混合模式
 對於需要彈性配置資源的組織，混合模式使專案經理和資源管理員能夠預約資源。
 
-![混合模式](./media/resource-management-hybrid.png)
+![混合模式。](./media/resource-management-hybrid.png)
 
 除了支援的集中模式程序之外，也請參閱下列主題，以便在混合模式下管理所有其他支援的預約流程：
 

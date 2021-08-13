@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3be18adfa1d346bdabae7e89375ca2c5a2dbda95
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009606"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005066"
 ---
 # <a name="organizational-units"></a>組織單位 
 
@@ -53,7 +53,7 @@ ms.locfileid: "6009606"
 - **承包單位** – 代表公司中主要負責贏得銷售和管理客戶工作與服務交付之群組或部門的組織單位。 承包單位是依據 **商機**、**報價**、**專案合約** 及 **專案** 頁面標頭區段中的 **承包單位** 欄位來識別。
 - **資源分配單位** – 資源所隸屬於或指派至的組織單位。 此組織單位可以為工作說明書 (SOW) 上的一些角色以及承包單位負責的專案提供其資源。
 
-> ![承包單位和資源分配單位](media/advanced-1.png)
+> ![承包單位和資源分配單位。](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>組織單位常見問題集
 

@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 41c57690fecbc3bee2a1eb5d26f8a6aa56d8bea9
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 40a6a4173cb0e4d7ea5bcf24c8954fe9d7e079d1e9ecf4aac252b5133f12d3ff
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000516"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003626"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>將自訂欄位及實體建立為定價維度
 
@@ -44,7 +44,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 3. 選取 **新增** 以建立名為 **標準職稱** 的新實體。 
 4. 輸入其餘必要資訊，然後選取 **儲存**。
 
-> ![標準職稱實體定義](media/Standard-Title-entity-definition.png)
+> ![標準職稱實體定義。](media/Standard-Title-entity-definition.png)
 
 ### <a name="option-set-based-dimensions"></a>以選項組為準的維度 
 您可以建立兩個以選項組為準的維度。 
@@ -54,11 +54,11 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 下圖提供 **資源工作地點** 維度的檢視表。 
 
-> ![以選項組為準的定價維度，名為「資源工作地點」](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![以選項組為準的定價維度，名為「資源工作地點」。](media/Option-set-PD-called-Resource-Work-Location.png)
 
 下圖提供 **資源工作時數** 維度的檢視表。 
 
-> ![以選項組為準的定價維度，名為「資源工作時數」](media/Option-set-PD-called-Resource-Work-Hours.png)
+> ![以選項組為準的定價維度，名為「資源工作時數」。](media/Option-set-PD-called-Resource-Work-Hours.png)
 
 1. 移至 **設定** > **解決方案**，然後按兩下 **\<your organization name> 定價維度**。 
 2. 在方案總管的左導覽窗格中，選取 **選項組**。 
@@ -74,7 +74,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 4. 關閉頁面。 
 5. 重複步驟 1-3，為「資深系統工程師」建立另一個標準職稱。
 
-> ![標準職稱實體的範例資料](media/ST-data.png)
+> ![標準職稱實體的範例資料。](media/ST-data.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

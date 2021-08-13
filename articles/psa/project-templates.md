@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bedcbc76d932a81e0c78bb58ce6a161446a26dde
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 34df8ed9a8baff949097af1b95da56bfe9a4240c213896fafd5c7dcfcf580b6c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998266"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002501"
 ---
 # <a name="project-templates"></a>專案範本 
 
@@ -47,7 +47,7 @@ ms.locfileid: "5998266"
 
 - 從報價建立專案時，您可以選取 **快速建立：專案** 對話方塊中的專案範本。
 
-> ![[快速建立：專案] 對話方塊](media/project-11.png)
+> ![[快速建立：專案] 對話方塊。](media/project-11.png)
 
 - 藉由選取 **新增專案** 建立專案時，**專案** 頁面會在儲存記錄之前出現。 在 **挑選範本** 欄位中，選取組織預先定義的其中一個專案範本。
 - 使用 **範本實體** 頁面上的 **從範本建立專案**。

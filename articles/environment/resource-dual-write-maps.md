@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025764"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003806"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations 雙重寫入對應版本
 
@@ -32,7 +32,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 1. 從對應清單中選取與所有先決條件的總帳 **(msdyn\_ledgers)** 對應，然後選取 **初始同步** 核取方塊。 在 **初始同步主機** 欄位中，為總帳對應以及所有必要的對應選取 **Finance and Operations**。 選取 **執行**。
 
-![總帳對應同步處理](media/DW6.png)
+![總帳對應同步處理。](media/DW6.png)
 
 2. 對上表列出的其餘所有資料表對應，執行相同的步驟。 執行這些對應時，不要選取 **初始同步** 核取方塊。
 
@@ -65,7 +65,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 1. 啟用專案資源角色的 **所有公司 (bookableresourcecategories)** 資料表對應，因為此對應需要初始同步。在 **初始同步主機** 欄位中選取 **Common Data Service**。 
 
- ![資源角色資料表對應同步](media/6ResourceInitialSync.jpg)
+ ![資源角色資料表對應同步。](media/6ResourceInitialSync.jpg)
 
  等到對應的狀態變成 **執行中** 之後，再移至下一個步驟。
 

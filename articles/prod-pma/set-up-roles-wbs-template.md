@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ec952021f9da4d83520d29d68d040675f7933df7
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c84015c46f0a8c9d3d48be1b995d4bdd7fd8ee25b240f455bbe2031f42adc0f5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997591"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008891"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>在分工結構圖範本上設定角色
 
@@ -89,7 +89,7 @@ WBS 新增了其他選項，以便善加運用功能。
 
 4. 設定日期和投入量 (小時)，如下圖所示。
 
-    [![設定日期和投入量](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
+    [![設定日期和投入量。](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 
 5. 選取 **起始** 工作列，然後在 **角色** 欄位中選取 **資深專案經理**。
 6. 選取 **發行**。

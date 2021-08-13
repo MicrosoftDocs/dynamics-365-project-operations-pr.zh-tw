@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c756caec6cd7eda8f891446d3e8309aca3b2482
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 551d511fda83857459a0488cfb48a9c7829171d2e4bd526ab27b4ee74b21910d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369609"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005876"
 ---
 # <a name="project-service-automation-overview"></a>Project Service Automation 概觀
 
@@ -56,7 +56,7 @@ Project Service Automation 至 Finance 整合解決方案會使用資料整合�
 > [!NOTE]
 > 目前並非所有的範本都有提供。 範本完成時，就會發行。
 
-[![Project Service Automation 與 Finance 整合](./media/PSA-integration.png)](./media/PSA-integration.png)
+[![Project Service Automation 與 Finance 整合。](./media/PSA-integration.png)](./media/PSA-integration.png)
 
 ## <a name="system-requirements-for-finance"></a>Finance 系統需求
 

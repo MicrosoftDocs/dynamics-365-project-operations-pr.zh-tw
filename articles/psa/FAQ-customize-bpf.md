@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2e6c60fe67aea908013077bde40c2faeabc2f39e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 15540f524fb8fca8f69a2249f783289ba683cad7dabbf58ecbf620d147e5d491
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993136"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002951"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>如何自訂專案階段商務程序流程？
 
@@ -60,11 +60,11 @@ ms.locfileid: "5993136"
 1. 新增其他階段至預設設定，同時保留 **報價**、**計劃** 和 **關閉** 的英文階段名稱。
 
 
-![將階段新增至預設設定的螢幕擷取畫面](media/FAQ-Customize-BPF-1.png)
+![將階段新增至預設設定的螢幕擷取畫面。](media/FAQ-Customize-BPF-1.png)
  
 2. 建立您自己的商務程序流程，並將其設為專案實體的主要商務程序流程，這樣即可讓您使用任何您想要的階段名稱。 不過，如果您想要使用相同的標準專案階段 **報價**、**計劃** 和 **關閉**，就必須進行一些會移除自訂階段名稱的自訂。 較複雜的邏輯是在專案結尾的部分，您仍然可以只是藉由停用專案記錄來觸發。
 
-![BPF 自訂](media/FAQ-Customize-BPF-2.png)
+![BPF 自訂。](media/FAQ-Customize-BPF-2.png)
 
 ### <a name="additional-considerations-for-project-service-app-version-24430-or-earlier-on-platform-90"></a>對於 9.0 平台的 Project Service 應用程式 2.4.4.30 版或更早版本的其他考量
 
@@ -80,11 +80,11 @@ ms.locfileid: "5993136"
 
 1. 移至 **設定** > **程序中心**。 不要複製專案階段商務程序流程，因為這樣也會複製 Project Service 商務規則。
 
-  ![建立程序](media/FAQ-Customize-BPF-3.png)
+  ![建立程序。](media/FAQ-Customize-BPF-3.png)
 
 2. 使用程序設計師來建立您想要的階段名稱。 如果您想要使用與 **報價**、**計劃** 及 **關閉** 預設階段相同的功能，就必須以您的自訂商務程序流程的階段名稱為基礎建立該功能。
 
-   ![用來自訂 BPF 的程序設計師螢幕擷取畫面](media/FAQ-Customize-BPF-4.png) 
+   ![用來自訂 BPF 的程序設計師螢幕擷取畫面。](media/FAQ-Customize-BPF-4.png) 
 
 3. 在程序設計師中，按一下 **程序流程順序**，向上移動自訂商務程序流程超過專案階段商務程序流程以至清單頂端，藉此將其設為專案實體的主要業務程序流程。
 
@@ -95,15 +95,15 @@ ms.locfileid: "5993136"
 
 4. 將新的自訂欄位新增至專案實體，以擷取自訂商務程序流程中的自訂階段。 當自訂商務程序流程上的階段更新時，您必須新增商務規則 (外掛程式/工作流程)，才能更新此欄位。
 
-   ![自訂專案實體的螢幕擷取畫面](media/FAQ-Customize-BPF-6-720.png)
+   ![自訂專案實體的螢幕擷取畫面。](media/FAQ-Customize-BPF-6-720.png)
 
 5. 將 **依階段的專案** 圖表修改為使用階段的新自訂欄位。
 
-   ![使用 [依階段的專案] 圖表的螢幕擷取畫面](media/FAQ-Customize-BPF-7-720.png)
+   ![使用 [依階段的專案] 圖表的螢幕擷取畫面。](media/FAQ-Customize-BPF-7-720.png)
 
 6. 將專案實體的任何檢視表修改為使用階段的新自訂欄位。
 
-   ![修改專案實體的檢視表的螢幕擷取畫面](media/FAQ-Customize-BPF-8-720.png)
+   ![修改專案實體的檢視表的螢幕擷取畫面。](media/FAQ-Customize-BPF-8-720.png)
 
 
 

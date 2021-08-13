@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: da8615fa147838d9088c639039d5a2534e662e82
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9f690dfdb40e962ef329f323716f3f755493805d764dbfaa2d4f9d042231cee7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014286"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006776"
 ---
 # <a name="turn-off-a-pricing-dimension"></a>關閉定價維度
 
@@ -32,7 +32,7 @@ ms.locfileid: "6014286"
 
 不過，這樣做時，可能會收到下列錯誤訊息。
 
-![關閉定價維度時可能發生商務程序錯誤](media/Business-Process-Error.png)
+![關閉定價維度時可能發生商務程序錯誤。](media/Business-Process-Error.png)
 
 
 此錯誤訊息表示存在先前為所要關閉維度設定的價格記錄。 必須先刪除參照該維度的所有 **角色價格** 和 **角色價格加成** 記錄，才能將維度的適用性設為 **否**。 此規則適用於內建定價維度以及任何您可能已建立的自訂定價維度。 這項驗證的原因在於 Project Service 有一個限制，每個 **角色價格** 記錄都必須有一個唯一的維度組合。 例如，在名為 **2018 年美國成本費率** 的價目表中，您有下列 **角色價格** 列。 
