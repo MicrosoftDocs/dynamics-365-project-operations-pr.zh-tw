@@ -6,12 +6,12 @@ ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 75ee31e67018fe2a7655d8a8f11e40b433a9a5db6f8f2addac27844f18fffe8d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
+ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007856"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7323406"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>註冊資源/非庫存案例適用的 Project Operations 預覽版訂閱
 
@@ -23,7 +23,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 ## <a name="prerequisites"></a>先決條件
 - 部署預覽版的使用者必須具備 Azure 租用戶全域管理員權限。 您可以在第一個供應項目兌換期間建立租用戶。 
-- 部署 Finance 環境需要按環境計費的有效 Azure 訂閱。 您可以使用組織現有的訂閱，或使用 [Azure 試用版](https://azure.microsoft.com/en-us/free/)來開始進行。 CDS 環境會在有限的 30 天期間免費提供。
+- 部署 Finance 環境需要按環境計費的有效 Azure 訂閱。 您可以使用組織現有的訂閱，或使用 [Azure 試用版](https://azure.microsoft.com/free/)來開始進行。 CDS 環境會在有限的 30 天期間免費提供。
 
 > [!IMPORTANT]
 > 組織中只有一個人 (租用戶管理員) 需要執行這項工作。 如果您不是此版本的訂閱者，請等到您的組織已註冊，而您收到您的使用者認證之後再說。
