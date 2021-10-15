@@ -56,6 +56,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: 新增功能
       items:
+        - name: 2021 年 10 月 - 資源/非庫存型案例適用的 Project Operations
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: 2021 年 9 月 - 資源/非庫存型案例適用的 Project Operations
+          href: whats-new/whats-new-sept-2021-resource-based.md
         - name: 2021 年 8 月 - 資源/非庫存型案例適用的 Project Operations
           href: whats-new/whats-new-august-2021-resource-based.md
         - name: 2021 年 7 月 - 資源/非庫存型案例適用的 Project Operations
@@ -292,7 +296,7 @@
           items:
             - name: 使用複製專案來開發專案範本
               href: project-management/dev-copy-project.md
-            - name: 使用專案排程 API (公開預覽版)
+            - name: 使用專案排程 API
               href: project-management/schedule-api-preview.md
     - name: 資源管理
       items:
@@ -444,6 +448,14 @@
           href: procurement/configure-materials-nonstocked.md
         - name: 使用待處理廠商發票來採購專案的非庫存材料
           href: procurement/pending-vendor-invoices.md
+        - name: 使用專案採購單為專案訂購非庫存材料
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: 廠商保留額
+          items:
+            - name: 廠商保留額概觀
+              href: procurement/vendor-retention-overview.md
+            - name: 設定廠商保留額
+              href: procurement/set-up-vendor-retention.md
     - name: 發票請款
       items:
         - name: 發票處理概觀
@@ -528,6 +540,10 @@
       items:
         - name: 2021 年第 2 段發行浪潮搶先體驗新增功能 - 精簡部署
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: 2021 年 10 月新增功能 - 精簡部署
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: 2021 年 9 月新增功能 - 精簡部署
+          href: pro/whats-new/whats-new-sept-2021-lite.md
         - name: 2021 年 8 月新增功能 - 精簡部署
           href: pro/whats-new/whats-new-august-2021-lite.md
         - name: 2021 年 7 月新增功能 - 精簡部署
@@ -784,7 +800,7 @@
           items:
             - name: 使用複製專案來開發專案範本
               href: project-management/dev-copy-project.md
-            - name: 使用專案排程 API (公開預覽版)
+            - name: 使用專案排程 API
               href: project-management/schedule-api-preview.md
     - name: 資源管理
       items:
@@ -858,7 +874,7 @@
           href: pro/subcontracting/subcontract-header-details.md
         - name: 時間轉包合約服務內容
           href: pro/subcontracting/subcontract-line-time.md
-        - name: 費用轉包合約服務內容
+        - name: 費用類別轉包合約服務內容
           href: pro/subcontracting/subcontract-line-expense.md
         - name: 產品轉包合約服務內容
           href: pro/subcontracting/subcontract-line-products.md
@@ -1086,6 +1102,8 @@
       items:
         - name: Project Service 3.x 的更新發行排程
           href: psa/version-history-ps.md
+        - name: 更新版本 36 V3 的新功能或變更
+          href: psa/whats-new-ur-36.md
         - name: 更新版本 35 V3 的新功能或變更
           href: psa/whats-new-ur-35.md
         - name: 更新版本 34 V3 的新功能或變更
