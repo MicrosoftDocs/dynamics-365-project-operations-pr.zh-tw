@@ -2,23 +2,22 @@
 title: 使用專案排程 API 以對排程實體執行作業
 description: 本主題提供有關使用專案排程 API 的資訊與範例。
 author: sigitac
-ms.date: 06/22/2021
+ms.date: 09/09/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 55bd9020275fbb72761b45ba09294f57266b418c0e5b506ba55a2a498aff24e5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6be35b1c52996f4f94dc429974ef47343a027c8c
+ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008756"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7487675"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>使用專案排程 API 以對排程實體執行作業
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
-> [!IMPORTANT] 
-> 本文中提到的部分或所有功能可做為預覽版本的一部分。 內容和功能隨時可能變更。 
+
 
 ## <a name="scheduling-entities"></a>排程實體
 

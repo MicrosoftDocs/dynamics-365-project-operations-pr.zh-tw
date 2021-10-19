@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003806"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547099"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations 雙重寫入對應版本
 
@@ -49,8 +49,8 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 | Project Operations 材料估計值整合資料表 (msdyn\_estimatelines) | 1.0.0.0 | 佈建時不需要。 |
 | 專案發票提案 V2 (發票) | 1.0.0.3 | 佈建時不需要。 |
 | Project Operations 整合實際值 (msdyn_actuals) | 1.0.0.14 | 佈建時不需要。 |
-| Project Operations 整合合約服務內容里程碑 (msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | 佈建時不需要。 |
-| 費用估計值的 Project Operations 整合實體 (msdyn_estimateslines) | 1.0.0.2 | 佈建時不需要。 |
+| Project Operations 整合合約服務內容里程碑 (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | 佈建時不需要。 |
+| 費用估計值的 Project Operations 整合實體 (msdyn_estimatelines) | 1.0.0.2 | 佈建時不需要。 |
 | 時數估計值的 Project Operations 整合實體 (msdyn_resourceassignments) | 1.0.0.5 | 佈建時不需要。 |
 | Project Operations 整合專案費用類別匯出實體 (msdyn_expensecategories) | 1.0.0.1 | 佈建時不需要。 |
 | Project Operations 整合專案費用匯出實體 (msdyn_expenses) | 1.0.0.2 | 佈建時不需要。 |
