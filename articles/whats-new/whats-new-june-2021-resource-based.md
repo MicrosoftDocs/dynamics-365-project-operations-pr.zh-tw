@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 483992768f8b8a02dd0d56b9479c7d591fa676d1eca41161e68b7cf3f97107af
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c6a40335df89cc6b2bb35e54832140aac6eb9ac6
+ms.sourcegitcommit: 03414a74ddf1f2d63043d734ebdee7485f1aadd2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003851"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7679199"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021 年 6 月新增功能 - 資源/非庫存型案例適用的 Project Operations
 
@@ -30,6 +30,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 - 可刪除[調整案例的專案發票提案明細](../invoicing/correct-project-invoice-proposals.md)的功能。
 - 分項列出的費用明細會反映[顛覆想像的費用報表 - 新功能](../expense/expense-reports-reimagined.md#new-features)費用報表中的子類別名稱。
 - 建立新的費用時，新的費用窗格中會有付款方式。
+- 專案排程 API 正式發行。 這項新功能可讓客戶以程式設計方式對專案工作、資源指派、工作相依性及專案團隊成員記錄執行建立、更新和刪除作業。 如需詳細資訊，請參閱[使用專案排程 API 對排程實體執行作業](../project-management/schedule-api-preview.md)。
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Project Operations 雙重寫入對應更新
 

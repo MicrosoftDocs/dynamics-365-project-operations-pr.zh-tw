@@ -2,16 +2,16 @@
 title: 建立分工結構圖
 description: 本主題說明如何在新的排程介面中建立包含基本控制項的分工結構圖 (WBS)。
 author: ruhercul
-ms.date: 01/07/2021
+ms.date: 06/30/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 701c386af8a227308d6868deda27a63e6101e85f667b0392501bb0490329f484
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
+ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998721"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7655407"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>建立分工結構圖 (WBS)
 
@@ -117,5 +117,26 @@ ms.locfileid: "6998721"
 
 **排程** 網格完全可供存取，並且可與朗讀程式、JAWS 或 NVDA 等螢幕助讀程式搭配使用。 您可以使用方向鍵在網格區域中穿行 (如同在 Microsoft Excel 中)、可以使用 Tab 鍵前進通過互動式使用者介面元素，並且可以使用向下鍵、Enter 鍵或空格鍵來選取和開啟下拉式功能表。
 
+## <a name="project-limitations"></a>專案限制 
+如果您在 Project Operations 中使用分工結構圖，應注意下列限制。 這些限制會套用至專案和工作。 如需詳細資訊，請參閱 [Project for the Web 限制和界限](/project-for-the-web/project-for-the-web-limits-and-boundaries)。
+
+| **欄位**                                          |  **限制**           |
+|----------------------------------------------------|----------------------|
+| 專案的工作總數上限                  | 500                  |
+| 專案的總期間上限               | 3650 天 (10 年) |
+| 專案的資源總數上限              | 150                  |
+| 專案的連結總數 (僅限後續任務) 上限 | 600                  |
+| 專案的自訂欄位總數上限          | 10                   |
+
+**工作限制**
+
+| **欄位**                               |   **限制**           |
+|-----------------------------------------|-----------------------|
+| 最大階層層級                 | 10 層             |
+| 連結數上限 (後續任務 + 前置任務) | 20                    |
+| 分葉工作的最大期間           | 1250 天             |
+| 摘要工作的最大期間      | 3650 天 (10 年)  |
+| 指派給工作的資源數上限    | 20 個資源          |
+| 工作的支援日期範圍         | 2000/1/1 - 2149/12/31 |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

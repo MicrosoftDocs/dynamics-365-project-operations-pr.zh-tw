@@ -54,6 +54,8 @@
               href: environment/resource-dual-write-expense.md
             - name: 廠商發票整合
               href: environment/resource-dual-write-vendor-invoice.md
+        - name: 解除安裝 Dynamics 365 Project Operations
+          href: environment/uninstall-project-operations.md
     - name: 新增功能
       items:
         - name: 2021 年 10 月 - 資源/非庫存型案例適用的 Project Operations
@@ -298,6 +300,8 @@
               href: project-management/dev-copy-project.md
             - name: 使用專案排程 API
               href: project-management/schedule-api-preview.md
+            - name: 專案排程 API 效能
+              href: project-management/project-schedule-api-performance.md
     - name: 資源管理
       items:
         - name: 重要概念
@@ -802,6 +806,8 @@
               href: project-management/dev-copy-project.md
             - name: 使用專案排程 API
               href: project-management/schedule-api-preview.md
+            - name: 專案排程 API 效能
+              href: project-management/project-schedule-api-performance.md
     - name: 資源管理
       items:
         - name: 重要概念
@@ -1102,6 +1108,8 @@
       items:
         - name: Project Service 3.x 的更新發行排程
           href: psa/version-history-ps.md
+        - name: 更新版本 37 V3 的新功能或變更
+          href: psa/whats-new-ur-37.md
         - name: 更新版本 36 V3 的新功能或變更
           href: psa/whats-new-ur-36.md
         - name: 更新版本 35 V3 的新功能或變更
