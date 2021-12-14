@@ -2,17 +2,17 @@
 title: Project Operations 更新
 description: 此主題提供 Dynamics 365 Project Operations 發行版本的資訊。
 author: sigitac
-ms.date: 10/04/2021
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 493218d53075f3044adce47bed8ecdc031cca8e7
-ms.sourcegitcommit: b8b7a59eee7d93638446e93726d270316e45ab3d
+ms.openlocfilehash: e4cafde5e866690f31452eceffdd81ffeb14e635
+ms.sourcegitcommit: 97e5887ae5bad6c26aa1179b51c9b71c434ea8fe
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7783413"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892165"
 ---
 # <a name="project-operations-updates"></a>Project Operations 更新
 
@@ -28,17 +28,17 @@ Dynamics 365 Project Operations 由兩個元件組成：
 - Dynamics 365 Finance 環境中的專案管理與會計涵蓋費用管理功能、專案會計和營收確認。 Finance and Operations 應用程式環境用於資源/非庫存型案例適用的 Project Operations 以及庫存/生產型案例適用的 Project Operations。
 
 ## <a name="project-operations-release-notes"></a>Project Operations 版本資訊
-- [資源/非庫存](whats-new-oct-2021-resource-based.md)案例適用的 Project Operations 最新版本資訊。
-- [精簡部署](../pro/whats-new/whats-new-oct-2021-lite.md)案例適用的 Project Operations 最新版本資訊。
-- [庫存/生產](../prod-pma/whats-new/whats-new-jul-2021-stocked.md)案例適用的 Project Operations 最新版本資訊。
+- [資源/非庫存](whats-new-nov-2021-resource-based.md)案例適用的 Project Operations 最新版本資訊。
+- [精簡部署](../pro/whats-new/whats-new-nov-2021-lite.md)案例適用的 Project Operations 最新版本資訊。
+- [庫存/生產](../prod-pma/whats-new/whats-new-oct-2021-stocked.md)案例適用的 Project Operations 最新版本資訊。
 
 ## <a name="project-operations-latest-version"></a>Project Operations 最新版本
 
 | Dataverse 環境上的 Project Operations | Finance and Operations 應用程式環境中的專案管理與會計 | 
 | --- | --- |
-| 4.26.0.145 | 10.0.21 |
+| 4.26.0.150 | 10.0.22 |
 
-對於 Project Operations 資源/非庫存案例，建議使用雙重寫入協調流程 2.2.2.83 版或更新版本。
+對於 Project Operations 資源/非庫存案例，建議使用雙重寫入協調流程 2.3.1.15 版或更新版本。
 
 ## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Dataverse 環境中 Project Operations 的發行排程
 
@@ -47,23 +47,23 @@ Dynamics 365 Project Operations 由兩個元件組成：
 | 站別 | 地區 | 目前版本號碼 | 精簡部署自動更新 | 資源/非庫存部署自動更新 | 下一個版本號碼 | 下一個版本正式發行 |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | 第 1 站 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | 第一個版本         |  4.26.0.145     | 2021 年 11 月 12 日  | 2021 年 11 月 19 日   | 待定                 | 2021 年 12 月 3 日   |
+|   &nbsp;  | 第一個版本         |  4.26.0.150     | 完成           | 完成            | 待定                 | 2021 年 12 月 6 日   |
 | 第 2 站 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | 南美洲         |  4.26.0.145     | 2021 年 11 月 12 日  | 2021 年 11 月 19 日   | 待定                 | 2021 年 12 月 3 日   |
-|   &nbsp;  | 加拿大                |  4.26.0.145     | 2021 年 11 月 12 日  | 2021 年 11 月 19 日   | 待定                 | 2021 年 12 月 3 日   |
-|   &nbsp;  | 印度                 |  4.26.0.145     | 2021 年 11 月 12 日  | 2021 年 11 月 19 日   | 待定                 | 2021 年 12 月 3 日   |
-|   &nbsp;  | 法國                |  4.26.0.145     | 2021 年 11 月 12 日  | 2021 年 11 月 19 日   | 待定                 | 2021 年 12 月 3 日   |
-|   &nbsp;  | 南非          |  4.26.0.145     | 2021 年 11 月 12 日  | 2021 年 11 月 19 日   | 待定                 | 2021 年 12 月 3 日   |
+|   &nbsp;  | 南美洲         |  4.26.0.150     | 完成           | 完成            | 待定                 | 2021 年 12 月 6 日   |
+|   &nbsp;  | 加拿大                |  4.26.0.150     | 完成           | 完成            | 待定                 | 2021 年 12 月 6 日   |
+|   &nbsp;  | 印度                 |  4.26.0.150     | 完成           | 完成            | 待定                 | 2021 年 12 月 6 日   |
+|   &nbsp;  | 法國                |  4.26.0.150     | 完成           | 完成            | 待定                 | 2021 年 12 月 6 日   |
+|   &nbsp;  | 南非          |  4.26.0.150     | 完成           | 完成            | 待定                 | 2021 年 12 月 6 日   |
 | 第 3 站 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | 日本                 |  4.26.0.145     | 2021 年 11 月 12 日  | 2021 年 11 月 19 日   | 待定                 | 2021 年 12 月 10 日   |
-|   &nbsp;  | 亞太地區          |  4.26.0.145     | 2021 年 11 月 12 日  | 2021 年 11 月 19 日   | 待定                 | 2021 年 12 月 10 日   |
-|   &nbsp;  | 英國         |  4.26.0.145     | 2021 年 11 月 12 日  | 2021 年 11 月 19 日   | 待定                 | 2021 年 12 月 10 日   |
-|   &nbsp;  | 大洋洲               |  4.26.0.145     | 2021 年 11 月 12 日  | 2021 年 11 月 19 日   | 待定                 | 2021 年 12 月 10 日   |
-|   &nbsp;  | 阿拉伯聯合大公國  |  4.26.0.145     | 2021 年 11 月 12 日  | 2021 年 11 月 19 日   | 待定                 | 2021 年 12 月 10 日   |
+|   &nbsp;  | 日本                 |  4.26.0.150     | 完成           | 完成            | 待定                 | 2021 年 12 月 10 日   |
+|   &nbsp;  | 亞太地區          |  4.26.0.150     | 完成           | 完成            | 待定                 | 2021 年 12 月 10 日   |
+|   &nbsp;  | 英國         |  4.26.0.150     | 完成           | 完成            | 待定                 | 2021 年 12 月 10 日   |
+|   &nbsp;  | 大洋洲               |  4.26.0.150     | 完成           | 完成            | 待定                 | 2021 年 12 月 10 日   |
+|   &nbsp;  | 阿拉伯聯合大公國  |  4.26.0.150     | 完成           | 完成            | 待定                 | 2021 年 12 月 10 日   |
 | 第 4 站 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | 歐洲                |  4.25.0.91      | 完成           | 完成            | 4.26.0.145          | 2021 年 11 月 12 日   |
+|   &nbsp;  | 歐洲                |  4.26.0.150     | 完成           | 2021 年 12 月 10 日   | 待定                 | 2021 年 12 月 17 日   |
 | 第 5 站 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | 北美洲         |  4.25.0.91      | 完成           | 完成            | 4.26.0.145          | 2021 年 11 月 19 日   |
+|   &nbsp;  | 北美洲         |  4.26.0.150     | 2021 年 12 月 10 日  | 2021 年 12 月 17 日   | 待定                 | 2022 年 1 月 7 日    |
 
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Finance and Operations 應用程式環境中專案管理與會計的發行排程

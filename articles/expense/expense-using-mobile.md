@@ -2,7 +2,7 @@
 title: 行動費用應用程式
 description: 本主題提供有關費用管理行動工作區的資訊。
 author: suvaidya
-ms.date: 09/23/2020
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 88251552a937f0a3a066e08b87dbd5f7b73c46c69776fbc788d37cc21fe73541
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5ab5959fa5c9c5463826a9a792112a93e469de5f
+ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993186"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "7818173"
 ---
 # <a name="mobile-expense-app"></a>行動費用應用程式
 
@@ -47,42 +47,9 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 - 提交費用報表以請求核准和報銷。
 - 核准或拒絕您受指派為核准者的費用報表。
 
-## <a name="prerequisites"></a>先決條件
-視組織已部署的版本而定，先決條件會有所不同。
+## <a name="prerequisites-if-you-use-dynamics-365-finance"></a>使用 Dynamics 365 Finance 時的先決條件
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>使用 Dynamics 365 Finance 時的先決條件 
 如果您的組織已部署 Finance，則系統系統管理員必須發佈 **費用管理** 行動工作區。 
-
-### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>使用版本 1611 (含平台更新 3) 或更新版本時的先決條件
-如果您的組織已部署版本 1611 (含平台更新 3) 或更新版本，則系統系統管理員必須完成下列先決條件。 
-
-<table>
-<thead>
-<tr class="header">
-<th>先決條件</th>
-<th>角色</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>實作 KB 4019015。</td>
-<td>系統管理員</td>
-<td>KB 4019015 是包含<strong>費用管理</strong>行動工作區的 X++ 更新或中繼資料 Hotfix。 若要實作 KB 4019015，您的系統系統管理員必須依照下列步驟進行。
-<ol>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">從 Lifecycle Services 下載更新</a>。</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">安裝中繼資料 Hotfix</a>。</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">建立的可部署套件</a> (內含 <strong>ApplicationSuite</strong> 和 <strong>ExpenseMobile</strong> 模型)，然後將可部署套件上傳至 LCS。</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">套用可部署套件</a>。</li>
-</ol></td>
-</tr>
-<tr class="even">
-<td>傳回<strong>費用管理</strong>行動工作區。</td>
-<td>系統管理員</td>
-<td>請參閱<a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">發佈行動工作區</a>。</td>
-</tr>
-</tbody>
-</table>
 
 ## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a>下載並安裝 Dynamics 365 Unified Ops 行動應用程式
 下載並安裝 Dynamics 365 Unified Ops 行動應用程式：
@@ -103,11 +70,11 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 3. 選取 **拍攝相片** 或 **選擇影像**。
 4. 依照下列其中一個驟操作︰
 
-   - 如果選取了 **拍攝相片**，請執行下列步驟：
+    - 如果選取了 **拍攝相片**，請執行下列步驟：
 
-      1. 您會進入行動裝置上的相機，以便拍攝收據的相片。 
-      2. 完成拍照後，選取 **確定** 以接受相片。
-      3. 選擇性：輸入相片的名稱，然後輸入任何附註。
+        1. 您會進入行動裝置上的相機，以便拍攝收據的相片。 
+        2. 完成拍照後，選取 **確定** 以接受相片。
+        3. 選擇性：輸入相片的名稱，然後輸入任何附註。
 
     - 如果選取了 **選擇影像**，請執行下列步驟：
 
@@ -133,20 +100,20 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 10. 選取 **完成**。
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>使用費用管理行動工作區核准費用報表 (如果您使用 2017 年 7 月更新)
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>使用費用管理行動工作區核准費用報表
 
 1. 在行動裝置上，開啟 **費用管理** 工作區。
 2. **費用核准** 會顯示指派給您進行核准的費用報表數目。 此數目約每隔 30 分鐘更新一次。 選取 **費用核准**。
 
     隨即顯示指派給您進行核准的費用報表清單。
-    
+
 3. 選取費用報表以檢視其費用詳細資料。
 4. 選取費用以檢視其詳細資料。 費用顯示的資訊包括任何收據、來賓和逐條列舉項目詳細資料。
 5. 回到 **費用報表** 頁面，選取以核准或拒絕費用報表。
 6. 輸入任何關於核准動作的意見。
 7. 選取 **完成**。
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>使用費用管理行動工作區 (如果您使用 2017 年 7 月更新)，建立新的費用報表並提交報表請求核准
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>建立新的費用報表，並使用費用管理行動工作區，將其送出以供核准
 
 1. 在行動裝置上，開啟 **費用管理** 工作區。
 2. 選取 **費用輸入**。
@@ -184,12 +151,12 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
                     1. 選取清單中的影像。
                     2. 選擇性：輸入影像的名稱，然後輸入任何附註。
 
-            3.  選取 **完成**。
+            3. 選取 **完成**。
 
         - 如果選取了 **附加收據**，請執行下列步驟：
 
-            1.  選取清單中的一個或多個影像。
-            2.  選取 **完成**。
+            1. 選取清單中的一個或多個影像。
+            2. 選取 **完成**。
 
     3. 選取 **返回** 按鈕回到費用詳細資料。
 
@@ -235,5 +202,30 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 23. 輸入任何關於核准者的意見。
 24. 選取 **完成**。
 
+## <a name="frequently-asked-questions"></a>常見問題
+
+### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>為什麼費用行動應用程式預設不會輸入付款方式？
+
+組織可以在建立每個費用類別時，自訂個別類別的 **預設付款方式** 設定。 此外，在設定付款方式時，您還可以將 **預設付款方式** 欄位設定為 **僅匯入**。
+
+對付款方式啟用 **僅匯入** 時，預設不會輸入付款方式。 這在設定此付款方式的費用類別中將會是空白。 這種行為在網頁體驗和行動體驗中都是一致的。
+    
+付款方式未啟用 **僅匯入** 時，預設會為設定此付款方式的費用類別輸入這個已設定的值。 不過，有一個已知問題，也就是，不會在費用行動應用程式中輸入預設值。 若要解決此問題，請先手動選取付款方式，再儲存費用報表。 
+
+### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>為什麼無法在費用行動應用程式中新增或編輯財務維度？
+
+不支援輸入維度和分佈。 若要解決此限制，您可以設定每個專案或員工的預設財務維度，讓行動應用程式中預設會設定這些欄位。
+
+### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>為什麼有時會看到費用行動應用程式中發生同步處理錯誤？
+
+如果費用明細不符合原則需求，且使用者未解決原則警告就提交費用報表時，行動資料沒有同步至伺服器，而會發生同步處理失敗。 所有在發生同步處理失敗之後提交的費用報表都會保持在失敗狀態，並造成更多同步處理失敗。 修正這種狀況的唯一方法是手動刪除同步處理通知。 此問題已獲解決，方法是在尚未處理原則警告時停止提交費用報表，以避免發生同步處理錯誤。
+
+### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>為什麼費用行動應用程式無法正確反映專案和類別驗證？
+
+目前不支援這項驗證。 不過，未來可能會新增支援。 
+
+### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>費用行動應用程式支援哪些文件類型？
+
+費用行動應用程式僅支援影像。 這目前並不支援 PDF 或其他文件。
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -58,6 +58,8 @@
           href: environment/uninstall-project-operations.md
     - name: 新增功能
       items:
+        - name: 2021 年 11 月 - 資源/非庫存型案例適用的 Project Operations
+          href: whats-new/whats-new-nov-2021-resource-based.md
         - name: 2021 年 10 月 - 資源/非庫存型案例適用的 Project Operations
           href: whats-new/whats-new-oct-2021-resource-based.md
         - name: 2021 年 9 月 - 資源/非庫存型案例適用的 Project Operations
@@ -302,6 +304,8 @@
               href: project-management/schedule-api-preview.md
             - name: 專案排程 API 效能
               href: project-management/project-schedule-api-performance.md
+            - name: 專案排程記錄
+              href: project-management/schedule-api-logs.md
     - name: 資源管理
       items:
         - name: 重要概念
@@ -544,6 +548,8 @@
       items:
         - name: 2021 年第 2 段發行浪潮搶先體驗新增功能 - 精簡部署
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: 2021 年 11 月新增功能 - 精簡部署
+          href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: 2021 年 10 月新增功能 - 精簡部署
           href: pro/whats-new/whats-new-oct-2021-lite.md
         - name: 2021 年 9 月新增功能 - 精簡部署
@@ -952,6 +958,10 @@
   items:
     - name: 新增功能
       items:
+        - name: 2021 年 10 月新增功能 - 庫存/生產型案例適用的 Project Operations
+          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+        - name: 2021 年 9 月新增功能 - 庫存/生產型案例適用的 Project Operations
+          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
         - name: 2021 年 7 月新增功能 - 庫存/生產型案例適用的 Project Operations
           href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
         - name: 2021 年 5 月新增功能 - 庫存/生產型案例適用的 Project Operations
@@ -1108,6 +1118,8 @@
       items:
         - name: Project Service 3.x 的更新發行排程
           href: psa/version-history-ps.md
+        - name: 更新版本 37.5 V3 的新功能或變更
+          href: psa/whats-new-ur-37-5.md
         - name: 更新版本 37 V3 的新功能或變更
           href: psa/whats-new-ur-37.md
         - name: 更新版本 36 V3 的新功能或變更

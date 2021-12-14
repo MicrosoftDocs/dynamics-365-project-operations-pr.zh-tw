@@ -2,7 +2,7 @@
 title: 設定信用卡整合
 description: 本主題說明如何使用與費用相關的信用卡交易。
 author: suvaidya
-ms.date: 04/02/2021
+ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 51c364dff41d856e493581e1b87fd29571f641c70e7233bdebb910efbc64b983
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 49c8f2369a8be41fbc04c74bdb6b565b4f4b7b79
+ms.sourcegitcommit: 9f26cf8bb640af1eb9f7f0872805965d7ffcb9d3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996201"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "7826246"
 ---
 # <a name="set-up-credit-card-integration"></a>設定信用卡整合
 
@@ -50,10 +50,18 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 ## <a name="delete-credit-card-transactions"></a>刪除信用卡交易 
 
-匯入信用卡交易之後，有時可能需要刪除特定交易。 這可能是因為交易重複或因為資料可能不正確。 系統管理員可以使用 **刪除信用卡交易** 功能來選取並刪除 **未附加** 至費用報表的信用卡交易。 
+匯入信用卡交易之後，有時可能需要刪除特定交易。 這可能是因為交易重複，或是因為資料不正確。 系統管理員可以使用 **刪除信用卡交易** 功能來選取並刪除 **未附加** 至費用報表的信用卡交易。 
 
 1. 移至 **定期工作** > **刪除信用卡交易**。
 2. 選取 **篩選** 並提供資訊，以找出要納入的記錄。
 3. 選取 **確定** 以刪除記錄。 
+
+## <a name="storing-credit-card-numbers"></a>儲存信用卡號碼
+
+有三個選項可以用來儲存信用卡號碼。 信用卡號碼會儲存在 **費用管理參數** 頁面上。
+
+- **阻止卡號輸入** – 無法儲存信用卡號碼。
+- **雜湊卡號 (儲存最後四位數字)** – 信用卡號碼最後四位數字會以加密格式儲存。
+- **儲存卡號** – 信用卡號碼以未加密的格式儲存。 此選項不符合支付卡產業 (PCI) 資料安全標準 (DSS)。 因此，為了讓組織符合 PCI DSS 法規，組織管理員應選擇不儲存信用卡號碼，或選擇儲存雜湊卡號。
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
