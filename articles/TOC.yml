@@ -8,6 +8,10 @@
       href: environment/admin-trials.md
     - name: Project Operations 更新
       href: whats-new/project-operations-updates.md
+    - name: 已移除或已取代的功能
+      items:
+        - name: Project Operations 中已移除或已取代的功能
+          href: whats-new/removed-depreciated-features-project.md
 - name: 資源/非庫存型案例適用的 Project Operations
   items:
     - name: 開始使用
@@ -58,6 +62,8 @@
           href: environment/uninstall-project-operations.md
     - name: 新增功能
       items:
+        - name: 2021 年 12 月 - 資源/非庫存型案例適用的 Project Operations
+          href: whats-new/whats-new-dec-2021-resource-based.md
         - name: 2021 年 11 月 - 資源/非庫存型案例適用的 Project Operations
           href: whats-new/whats-new-nov-2021-resource-based.md
         - name: 2021 年 10 月 - 資源/非庫存型案例適用的 Project Operations
@@ -400,6 +406,8 @@
               href: expense/set-up-expense-categories.md
             - name: 使用里程費率層級來設定里程
               href: expense/set-up-mileage.md
+        - name: 費用分項列記
+          href: prod-exp/expense-itemization.md
         - name: 個人費用
           href: expense/personal-expenses-expense-report.md
         - name: 公司間費用
@@ -530,6 +538,12 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: 管理營收預估值
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: 疑難排解
+      items:
+        - name: 專案銷售處理
+          items:
+            - name: 建立專案、合約、報價或可預約資源時，發生貨幣不相符錯誤
+              href: troubleshooting/project-sales-process/currency-mismatch-error.md
 - name: 精簡部署 - 交易至開立預估發票
   items:
     - name: 開始使用
@@ -548,6 +562,8 @@
       items:
         - name: 2021 年第 2 段發行浪潮搶先體驗新增功能 - 精簡部署
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: 2021 年 12 月新增功能 - 精簡部署
+          href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: 2021 年 11 月新增功能 - 精簡部署
           href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: 2021 年 10 月新增功能 - 精簡部署
@@ -894,6 +910,20 @@
           href: pro/subcontracting/subcontract-line-resources.md
         - name: 轉包合約服務內容里程碑
           href: pro/subcontracting/subcontract-line-milestones.md
+        - name: 轉包專案團隊成員
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: 專案團隊成員轉包選項
+          href: pro/subcontracting/subcon-options.md
+        - name: 已轉包資源指派的成本估計
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: 設定排程面板，以顯示合約工作者和已轉包產能
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: 使用合約工作者和已轉包產能為專案配置人員
+          href: pro/subcontracting/staffing-cw.md
+        - name: 記錄已轉包元件的時間、費用及材料使用方式
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: 轉包合約的狀態轉換
+          href: pro/subcontracting/subcon-states.md
     - name: 時間
       items:
         - name: 時間概觀
@@ -1118,6 +1148,8 @@
       items:
         - name: Project Service 3.x 的更新發行排程
           href: psa/version-history-ps.md
+        - name: 更新版本 38 V3 的新功能或變更
+          href: psa/whats-new-ur-38.md
         - name: 更新版本 37.5 V3 的新功能或變更
           href: psa/whats-new-ur-37-5.md
         - name: 更新版本 37 V3 的新功能或變更
@@ -1204,6 +1236,8 @@
           href: psa/implementation-guides/resource-management-guide.md
         - name: 報表指南
           href: psa/implementation-guides/reporting-guide.md
+    - name: 從 Project Service Automation 升級至 Project Operations - 精簡
+      href: psa/upgrade-project-operations-non-stocked.md
     - name: Project Service Automation 升級 (應用程式 3.x 版)
       items:
         - name: Project Service Automation 升級
