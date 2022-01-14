@@ -2,16 +2,16 @@
 title: 建立分工結構圖
 description: 本主題說明如何在新的排程介面中建立包含基本控制項的分工結構圖 (WBS)。
 author: ruhercul
-ms.date: 06/30/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
-ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
+ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7655407"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928605"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>建立分工結構圖 (WBS)
 
@@ -95,7 +95,7 @@ ms.locfileid: "7655407"
 
 ## <a name="staffing-attributes"></a>人員配置屬性
 
-人員配置屬性可以透過排程中的 **資源** 欄位來存取。 您可以搜尋現有的資源，或者選取 **快速建立** 窗格中的 **建立**，將專案團隊成員新增為新資源。
+人員配置屬性可以透過排程中的 **資源** 欄位來存取。 您可以搜尋現有的資源，或者選取 **快速建立** 窗格中的 **建立**，將專案團隊成員新增為新資源。  使用工作網格、面板檢視或甘特圖中的資源選擇器來搜尋資源時，此搜尋會傳回現有專案團隊成員或使用中可預約資源。
 
 **角色**、**資源分配單位** 和 **職位名稱** 欄位可用來描述工作的人員配置需求。 這些人員配置屬性會與工作排程一起用來尋找可執行此工作的適當資源。
 
@@ -127,6 +127,7 @@ ms.locfileid: "7655407"
 | 專案的資源總數上限              | 150                  |
 | 專案的連結總數 (僅限後續任務) 上限 | 600                  |
 | 專案的自訂欄位總數上限          | 10                   |
+| 每個工作的最大檢查清單項目數                   | 20                   |
 
 **工作限制**
 

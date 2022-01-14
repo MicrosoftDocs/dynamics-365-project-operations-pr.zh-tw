@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7f63b144b6fe3eb848d0c303b64237516a97cb56
-ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
+ms.openlocfilehash: a00426678d23000dc19386792d346318eab74ed9
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7501406"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928651"
 ---
 # <a name="provision-a-new-environment"></a>佈建新的環境
 
@@ -159,7 +159,6 @@ Project Operations 需要應用程式版本為 **10.0.13 (10.0.569.20009)** 或�
       - **會計行事曆**
       - **總帳**
       - **公司**
-      - **貨幣匯率類型**
       - **費用**
 
 5. 更新資訊安全角色之後，移至 **設定** > **安全** > **團隊**，並在 **當地業務負責人** 團隊檢視表中選取預設團隊。

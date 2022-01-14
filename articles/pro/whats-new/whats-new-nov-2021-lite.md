@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e8560e7c7d6bae1bb2fda389a63bde1c57654bcb
-ms.sourcegitcommit: 04ebe764afa22742b3fbf8f12af31e8eea93682e
+ms.openlocfilehash: 0fd910fb1b1e4e4576afa386a600e56e6f2dd504
+ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7827271"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7942921"
 ---
 # <a name="whats-new-november-2021---project-operations-lite-deployment"></a>2021 年 11 月新增功能 - Project Operations 精簡部署
 
@@ -20,7 +20,7 @@ _適用於：精簡部署 - 交易至開立預估發票_
 
 本主題適用於 Microsoft Dynamics 365 Project Operations 的下列元件和版本：
 
-- Dataverse 環境版本 4.26.0.145、4.26.0.148 或 4.26.0.150 中的 Project Operations
+- Dataverse 環境 4.26.0.145、4.26.0.148、4.26.0.150、4.26.0.155 版中的 Project Operations
   
 ## <a name="features-included-in-this-release"></a>此版本包含的功能
 
