@@ -2,16 +2,18 @@
 title: 預設價目表
 description: 本主題提供有關 Project Operations 中預設銷售及成本價目表的資訊。
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a5e38e2f0b553b789956c6d73d481ab0ed2ce3a77815e7cf8c058a0b4666c558
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989856"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130928"
 ---
 # <a name="default-price-lists"></a>預設價目表
 
@@ -19,7 +21,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 ## <a name="sales-price-lists"></a>銷售價目表
 
-Dynamics 365 Project Operations 中的每個專案報價和合約都會包含預設銷售價目表。 
+Dynamics 365 Project Operations 中的每個專案報價和合約都包含預設銷售價目表。 
 
 ### <a name="price-list-default-on-project-quotes"></a>專案報價上的價目表預設值
 系統會完成下列程序，以判斷專案報價預設要使用的價目表：
@@ -55,6 +57,3 @@ Project Operations 中的任何實體都不會預設使用成本價目表。 對
 5. 系統接下來查看價目表的日期有效性 (是否符合新加入估計或實際明細的日期)。 
 6. 如果有多個價目表對新加入估計值或實際值的日期生效，則會選取最近建立的價目表。
 7. 如果沒有任何已附加至專案參數的成本價目表符合貨幣及有效日期，則系統會在新加入的估計或實際明細上預設成本費率為零 (0)。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

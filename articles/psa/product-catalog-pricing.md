@@ -2,6 +2,8 @@
 title: 產品類別目錄定價
 description: 此主題提供有關產品類別目錄定價如何在 Dynamics 365 Project Service Automation (PSA) 中運作的資訊。
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3fb9b51d58cbe3b0db6dad902461b90ac04cc42f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000161"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151198"
 ---
 # <a name="product-catalog-pricing"></a>產品類別目錄定價 
 
@@ -44,7 +46,7 @@ ms.locfileid: "7000161"
 
 當價格設定為定價、標準成本或目前成本的函數時，PSA 支援各種不同的舍入選項。 除了利用多個定價方式和舍入選項之外，您還可以將折扣清單與價目表項目建立關聯。 
 
-> ![將類別目錄中的產品新增至不同的價目表。](media/basic-guide-16.png)
+> ![將類別目錄中的產品新增至不同的價目表](media/basic-guide-16.png)
 
 選取 **專案報價** 頁面上的 **建立自訂定價** 以建立報價的新自訂價目表時，PSA 會製作價目表的複本，而新價目表標頭上的 **實體** 欄位會設定為 **銷售實體**。 新價目表的名稱會附加在報價名稱和時間戳記的後面。 您也可以在自訂工作流程中使用新價目表名稱和報價名稱，以觸發對使用自訂定價之報價的其他檢閱和核准。
 
@@ -62,6 +64,3 @@ ms.locfileid: "7000161"
 根據預設，報價明細上的 **產品** 欄位會列出報價的產品價目表中所有的使用中產品。 如果產品已停用，或此產品為草稿產品，則即使位在價目表中，也不會將其列出。 
 
 產品類別目錄明細會新增為專案合約所建立之第一張發票上的發票明細。 在草稿發票上，您可以刪除這些發票明細。 在此情況下，這些明細將會出現在後續發票上，直到已開立發票，或發票已傳送給客戶為止。 在 PSA 中，您無法為產品發票明細的部分數量開立發票。 當專案合約中的產品明細已開票時，就會建立實際值。 但是，這些實際值並不會連結至相關的專案實體。 換言之，產品型專案合約服務內容與任何專案型使用方式無關 PSA 不會追蹤專案的材料耗用量。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: 管理資源要求
 description: 如何管理 Project Service 中的資源要求
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4fa7db6ab96cd4e93ba973b3c9466fe12ed57c7f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985131"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149848"
 ---
 # <a name="manage-resource-requests-project-service"></a>管理資源要求 (Project Service)
 
@@ -43,12 +45,9 @@ ms.locfileid: "6985131"
   
    -   按一下 **篩選** 顯示 **篩選** 窗格，讓您依組織單位、角色、技能或其他屬性篩選結果。  
   
-       ![Project Service 資源要求畫面。](../psa/media/project-service-resource-request-screen.png "Project Service 資源要求畫面")  
+       ![Project Service 資源要求畫面](../psa/media/project-service-resource-request-screen.png "Project Service 資源要求畫面")  
   
 3. 在您要預約的資源的行事曆中，選取預約資源的期間，然後按一下 **預約** 預約資源，或 **提案預約** 提案預約並請要求者核准。 在您預約資源時，可以進行未確認預約或已確認預約。  
   
 ### <a name="see-also"></a>請參閱  
  [資源管理員指南](../psa/resource-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

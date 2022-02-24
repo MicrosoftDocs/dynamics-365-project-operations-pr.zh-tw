@@ -2,17 +2,18 @@
 title: 資源使用率概觀
 description: 本主題提供 Project Operations 中資源使用率的資訊。
 author: ruhercul
+manager: Annbe
 ms.date: 11/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 152f85669b56d128a7bb2317ee2cf0857c90ade1273d47ad1f0f387e00a6bbd8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8b85464dbb68523b122116225a604f67e7236f3e
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002051"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401366"
 ---
 # <a name="resource-utilization-overview"></a>資源使用率概觀
 
@@ -44,6 +45,3 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 在 **Project Service** 索引標籤上，您也可以設定資源的個別目標使用率。 使用率計算接著會使用該目標使用率來評估資源的目標，而不是資源預設角色的目標。
 
 只有當資源在網格所顯示週期內有獲核准的應收費時間時，才會顯示資源的使用率。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

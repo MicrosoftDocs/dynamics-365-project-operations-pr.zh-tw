@@ -2,16 +2,18 @@
 title: 專案型商機明細
 description: 本主題提供有關處理專案型商機明細的資訊。
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 04e091a58f72a99fb17f37b95f9cac2b4476757b79965177854423361f416d51
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0ede474e3d8830b420dc5b183f14327206c10288
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996336"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181937"
 ---
 # <a name="project-based-opportunity-lines"></a>專案型商機明細
 
@@ -31,6 +33,3 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 | 名字 | [一般] 索引標籤 | 這是可編輯的文字欄位，可用來提供此明細項目的簡短身分識別 | 從此商機建立報價時，此值會結轉至報價明細 |
 | 客戶預算 | [一般] 索引標籤 | 這個可編輯貨幣欄位可以用來追蹤客戶願意花費在此明細項目上的金額。 | 從此商機建立報價時，此值會結轉至報價明細的對應欄位 |
 | 計費方式 | [一般] 索引標籤 | 這個可編輯欄位有下列值：</br>- 時間和材料</br>- 固定價格 | 從此商機建立報價時，此值會結轉至報價明細的對應欄位。 建立報價明細之後，欄位會遭鎖定且無法加以變更。 請盡可能準確指派此欄位值。 如果需要在報價明細上變更此欄位的值，請刪除並重新建立報價明細。 |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

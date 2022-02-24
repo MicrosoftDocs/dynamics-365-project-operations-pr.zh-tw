@@ -2,17 +2,18 @@
 title: 資源/非庫存型案例適用的 Project Operations 部署概觀
 description: 此主題提供關於資源/非庫存型案例適用的 Project Operations 部署類型的資訊。
 author: rumant
+manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: a66877471e584bc76ddfe508a5d4cb47e38dd7aeb5f2bebe795b41a1de462ef9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 035ad22d2b51182c11e5c29d35f74f499fc903d5
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009701"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365412"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>資源/非庫存型案例適用的 Project Operations 部署概觀
 
@@ -42,6 +43,3 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 - 需要豐富的企業級銷售稅和匯率引擎，用於為專案產生面向客戶的發票。
 - 符合國際財務報告準則 (IFRS) 的專案會計和營收確認系統。
 - Finance 或 Supply Chain Management 應用程式而且整合專案型交易。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

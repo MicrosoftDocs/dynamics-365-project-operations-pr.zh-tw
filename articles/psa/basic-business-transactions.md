@@ -2,6 +2,8 @@
 title: 商務交易
 description: 本主題提供有關商務交易的資訊。
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3a8506effc453280177d74f94dcf9310e310c098
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987516"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149893"
 ---
 # <a name="business-transactions"></a>商務交易
 
@@ -88,7 +90,7 @@ PSA 將這五個實體中的記錄視為商務交易。 唯一區別在於，對
 
 下列範例顯示 PSA 專案生命週期中時間項目的一般處理程序。
 
-> ![在 Project Service 生命週期處理時間項目。](media/basic-guide-17.png)
+> ![在 Project Service 生命週期處理時間項目](media/basic-guide-17.png)
  
 1. 送出時間項目會導致建立兩個帳目明細：一個用於成本，一個用於未開單銷售。
 2. 最終核准時間項目會導致建立兩個實際值：一個用於成本，一個用於未開單銷售。
@@ -147,6 +149,3 @@ PSA 將這五個實體中的記錄視為商務交易。 唯一區別在於，對
 | 草稿發票更正       | 發票明細交易 GUID | 取代          | msdyn_invoicelinetransaction | 已開單銷售 GUID            | 原始           | msdyn_actual       |
 | 確認發票更正     | 已開單銷售沖回 GUID    | 沖回          | msdyn_actual                 | 已開單銷售 GUID            | 原始           | msdyn_actual       |
 | 新的未開單銷售實際值 GUID | 取代                     | msdyn_actual       | 已開單銷售 GUID            | 原始                     | msdyn_actual       |                    |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

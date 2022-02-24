@@ -2,9 +2,10 @@
 title: 實際值概觀
 description: 本主題提供有關專案實際值的資訊。
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 08/03/2020
 ms.topic: article
 ms.author: rumant
@@ -17,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 15c8d26fcf4eb9fda8a4fe4ce085ea3becdc2c76f11525357b75f59e18fd6017
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 63ad6544f0ec0a893aebd8d81f3ee895e51c294e
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992466"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146113"
 ---
 # <a name="actuals-overview"></a>實際值概觀
 
@@ -32,7 +33,7 @@ ms.locfileid: "6992466"
 
 實際值是專案中已完成的工作量。 專案實際值可以追溯至其原始憑證。 這些原始憑證包括時間項目、費用項目與帳目分錄以及發票。
 
-![如何將專案實際值追蹤至原始憑證。](media/basic-guide-18.png)
+![如何將專案實際值追蹤至原始憑證](media/basic-guide-18.png)
 
 ## <a name="submitting-a-time-entry"></a>送出時間項目
 
@@ -329,6 +330,3 @@ PSA 會記錄專案期間發生的財務交易。 這些交易記錄會以 **實
 </tr>
 </tbody>
 </table>
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

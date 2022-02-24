@@ -2,6 +2,8 @@
 title: 建立時間項目
 description: 此主題提供有關如何建立時間項目的資訊。
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0d0e21d0964788564d3db9173c3a0b3378cd0049b4455a23ccc1bccd1c21d9e7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 520d3a6e6cc3d486d778c66c2ef7fd3ff20cd582
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990396"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149668"
 ---
 # <a name="create-time-entries"></a>建立時間項目
 
@@ -68,6 +70,3 @@ ms.locfileid: "6990396"
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>群組依據、排序、搜尋及篩選功能
 
 您可以依據欄中指定的維度來分組和篩選時間項目。 在 **群組依據** 欄位中，選取要用來篩選時間項目的維度。 您也可以使用欄標題上的排序箭頭，依遞增或遞減順序排序時間項目記錄。 此外，還可以選取欄標題上的 **篩選** 按鈕來顯示或隱藏項目，然後在 **搜尋** 方塊中輸入要依據專案名稱、專案工作、時間項目或資源用來搜尋時間項目的文字。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

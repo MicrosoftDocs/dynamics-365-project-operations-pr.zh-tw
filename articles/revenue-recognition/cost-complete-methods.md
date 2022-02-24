@@ -2,16 +2,18 @@
 title: 完工成本法
 description: 此主題提供有關用來計算完成專案成本之方法的資訊。
 author: sigitac
+manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fe42ea0e1a5c562ec648fbf2a2924648af80381b9db8ffe0c209cb5247bb2ba2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 790b5c98182acdc0a37e3741a40baf7152f0bf66
+ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997956"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4531376"
 ---
 # <a name="cost-to-complete-methods"></a>完工成本法
 
@@ -28,6 +30,3 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 | 做為先前估計值         | 這裡使用與上一期間相同的估計方法。 如果先前期間需要預測模型，此方法就需要預測模型。                                                                                                                                                                                                                                                                                                                           |
 | 將尚未完工成本設定為零 | 通常在消除估計值專案之前使用，此方法會將總估計值與已過帳的實際交易進行比對，並清除 **完工成本** 欄。 完成時，結果一律為 100%。 針對您建立的每個成本線，會清除 **預測** 核取方塊，並從先前的成本估計值複製總估計值。 估計期間的實際耗用會從專案的未完工成本扣減。              |
 | 從成本範本           | 在與所選估計值專案相關聯的成本範本中設定的完工成本法。                                                                                                                                                                                                                                                                                                                                                                          |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,17 +2,18 @@
 title: 收入認列概觀
 description: 本主題提供 Project Operations 中收入認列的資訊。
 author: sigitac
+manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: 3d2fcf434a5086595e40f50afc2366eb806168085ae9212b5d25e3e9bd02e2c6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6844f4c5d4cda8a6a901b0302448f70f4c597f5d
+ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988641"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4531374"
 ---
 # <a name="revenue-recognition-overview"></a>收入認列概觀
 
@@ -59,6 +60,3 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 [管理營收預估值](rev-rec-completed-contract-method.md)
 
 [完工成本法](cost-complete-methods.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

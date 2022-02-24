@@ -2,6 +2,8 @@
 title: 專案設定
 description: 本主題提供有關專案管理設定的資訊。
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ca5fc63d56ddd84871949e38f421bcdfe38d478e
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996921"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148138"
 ---
 # <a name="project-settings"></a>專案設定
 
@@ -47,7 +49,7 @@ ms.locfileid: "6996921"
   - 一日工作行事曆
   - 休假
 
-> ![設定選項。](media/project-13.png)
+> ![設定選項](media/project-13.png)
 
 4. 選取 **新增每週排程**，然後設定此資源排程的選項。 您可以設定週期性每週排程、每天時數參數、公休日等等。
 5. 設定日期範圍、選取 **儲存**，然後按一下 **關閉**。 
@@ -66,6 +68,3 @@ ms.locfileid: "6996921"
 ## <a name="price-lists"></a>價目表
 
 價目表可讓您針對組織中的資源角色、費用類別、產品及其他元素設定成本和售價。 設定必須為專案交付之工作的財務估計值之前，您應該建立支援成本和銷售價目表。 在參數區段中，您也應該設定套用至所有於組織建立之專案的預設成本和銷售價目表。 在 **使用中專案參數** 頁面上，確定您已設定預設成本和銷售價目表。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

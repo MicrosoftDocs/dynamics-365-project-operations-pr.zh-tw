@@ -2,23 +2,24 @@
 title: 銷售處理概觀
 description: 本主題提供有關基本銷售處理的資訊。
 author: rumant
+manager: Annbe
 ms.date: 10/29/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 3bda8a11d0cb6fe97a3daa640bf95717ef9913000e6b1a28a0a27a35527dbf6f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991836"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177591"
 ---
 # <a name="sales-process-overview"></a>銷售處理概觀
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
-在專案型組織中使用的銷售處理與在產品型組織中使用的銷售處理不同。 這是因為專案型組織的銷售週期較長，且需要自訂估計技術來為每筆交易進行分析並建立報價。 Dynamics 365 Project Operations 會使用下列其中一些用於銷售處理的功能：
+在專案型組織中使用的銷售處理與在產品型組織中使用的銷售處理不同。 這是因為專案型組織的銷售週期較長，且需要自訂估計技術來為每筆交易進行分析並建立報價。 Dynamics 365 Project Operations 使用下列一些在銷售處理中使用的功能：
 
 - 潛在客戶記錄會用來追蹤銷售處理。
 - 授與潛在客戶資格會當做商機來追蹤。
@@ -62,6 +63,3 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>追蹤報價與專案合約的註解和核准
 您可以使用記錄留言板和文章來管理報價與專案合約的審查與核准。 您的組織可以建立自訂工作流程和外掛程式，以指派、重新導向、上呈和管理工作項目審查及核准的通知。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

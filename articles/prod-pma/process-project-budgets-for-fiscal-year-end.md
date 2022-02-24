@@ -2,9 +2,11 @@
 title: 在會計年度結束時轉移專案預算
 description: 本主題提供有關如何將剩餘預算金額轉移到未來年度並建立預算登記詳細資料的資訊。
 author: Yowelle
+manager: AnnBe
 ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 74b2831a19688636f5c4863036adf7043c80d49829737b56c131abb6998d6cb3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 26e013ab99e9a0aeafe25916715ce0ee024df3f7
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007361"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073129"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>在會計年度結束時轉移專案預算
 
@@ -96,6 +98,3 @@ ms.locfileid: "7007361"
 5. 對於每個您要處理的專案，選取位於專案該行開頭的選項。 
 6. 選取 **程序**，將所選專案的剩餘預算金額轉移至選取的會計年度。
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

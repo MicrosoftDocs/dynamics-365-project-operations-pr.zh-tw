@@ -2,9 +2,11 @@
 title: 定義費用原則
 description: 您可以定義您的工作者在輸入和提交費用報表和差旅申請時必須遵循的費用原則。
 author: suvaidya
+manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d29b1a9c1a935b933f403f78279b74577d11089007ce1d1090c361075822263a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c55cec132649daf9ee08ea4d8db3668860247934
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986346"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128408"
 ---
 # <a name="define-expense-policies"></a>定義費用原則
 
@@ -51,6 +53,3 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 ## <a name="when-to-evaluate-policies"></a>評估原則的時機
 
 在費用管理參數中，您可以選擇在儲存明細時或在提交費用報表時評估費用管理原則。 如果您選擇在儲存明細時進行評估，則使用者可以較早了解一次全部完成其費用報表所需執行的工作。 否則您可以在提交至工作流程的過程中，將原則評估延遲，並透過在結束時驗證的方式節省時間。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

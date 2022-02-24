@@ -2,16 +2,18 @@
 title: 專案型報價明細的發票排程
 description: 本主題提供有關為報價明細建立發票排程和里程碑的資訊。
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0d07596b299d71b229487faf80a09e368059575ea37095d2c82d35561d009c96
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2b69742915fe79ee59e7fdcf317000cea79c5929
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988596"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180812"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>專案型報價明細的發票排程
 
@@ -66,6 +68,3 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 | 發票狀態 | 快速建立 | 建立里程碑時，此狀態一律設定為 **尚未準備好開立發票**。 | 這會傳播至專案合約服務內容里程碑和發票。 |
 | 明細金額 | 快速建立 | 向客戶開立發票的里程碑金額或值。 | 這會傳播至專案合約服務內容里程碑和發票。 |
 | 稅額 | 快速建立 | 將套用至里程碑的稅額。 | 這會傳播至專案合約服務內容里程碑和發票。 |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

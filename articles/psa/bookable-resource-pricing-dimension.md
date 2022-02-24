@@ -2,10 +2,12 @@
 title: 使用可預約資源做為定價維度
 description: 本主題提供有關使用可預約資源做為定價維度的資訊。
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c551673708ae2d965979136e92326be98252304a601964c1fbc52a329c592712
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988956"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144988"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>使用可預約資源做為定價維度
 
@@ -62,18 +64,15 @@ ms.locfileid: "6988956"
 1. 若要這樣做，請按兩下 **定價維度** 網格中的列，以開啟 **msdyn_bookableresource** 的維度頁面。
 2. 在維度頁面的 **相關** 索引標籤上，按一下 **定價維度欄位名稱**。
 
- ![[定價維度欄位名稱] 索引標籤。](media/PD-fieldname.png)
+ ![[定價維度欄位名稱] 索引標籤](media/PD-fieldname.png)
 
 4. 在開啟的相關檢視表上，按一下 **新增定價維度欄位名稱**。
 
- ![新增定價維度欄位名稱。](media/Add-NewPD-fieldname.png)
+ ![新增定價維度欄位名稱](media/Add-NewPD-fieldname.png)
 
 
 這會開啟 **msdyn_bookableresource** 的 **新增定價維度欄位名稱** 頁面。 
 
 5. 將 **msdyn_projectteam** 新增至 **實體邏輯名稱** 欄位，並將 **msdyn_bookableresourceid** 新增至 **欄位名稱** 欄位。 儲存記錄。
 
- ![新增定價維度欄位名稱表單。](media/PD-fieldname-Added.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+ ![新增定價維度欄位名稱表單](media/PD-fieldname-Added.png)

@@ -2,6 +2,8 @@
 title: 銷售處理
 description: 本主題提供有關基本銷售處理的資訊。
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 58d5aa68dd5af7fc2b39caac429948e55bbc94c39dfb7fc9ae15a37cc3c92ce6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2561a54af6bdb9764a318f012fdc53f7b3298893
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000521"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145168"
 ---
 # <a name="sales-processes"></a>銷售處理
 
@@ -39,7 +41,7 @@ ms.locfileid: "7000521"
 
 下圖顯示專案型組織中的一般銷售處理。
 
-> ![專案型組織中的銷售處理。](media/basic-guide-1.png)
+> ![專案型組織中的銷售處理](media/basic-guide-1.png)
 
 ## <a name="estimating-a-sale"></a>估計銷售
 銷售值可以根據先前所交付的專案和專案的複雜度進行估計。 對於涉及先前專案之擴充功能的專案，或在廠商專業知識水準高且已採用熟知工作範本的專案中，您可以使用較簡單的估計程序。 專案越複雜，採購過程通常越漫長。 因此，銷售估計程序中的階段也越多。 在程序初期，銷售團隊會採用客戶經理和主題專家 (SME) 的意見，開始為報價所針對工作的各個不同組成部分建立較概略的估計。 這些工作元件是依報價明細表示。 
@@ -50,7 +52,7 @@ ms.locfileid: "7000521"
 
 您也可以在一個商機實體類型下建立替代報價，或設定系統，讓報價完成時，建立專案合約。 在此情況下，您可以將代表 SOW 的 Word 檔案附加至專案合約記錄。
 
-![關閉報價以建立專案合約。](media/basic-guide-2.png)
+![關閉報價以建立專案合約](media/basic-guide-2.png)
 
 ## <a name="configuring-the-sales-process"></a>設定銷售處理
 您可以使用 Microsoft Dynamics 365 中的商務程序流程 (BPF) 來設定銷售處理。 BPF 為您的銷售人員提供引導式視覺化介面，他們可以用來將交易向前推展，完成公司獨特的各階段程序。
@@ -66,7 +68,7 @@ ms.locfileid: "7000521"
 
 這六個階段由\>形箭號表示，您可選取以在您建立的每個商機實體類型中展開。
 
-![Dynamics 365 中的商務程序設定。](media/basic-guide-3.png)
+![Dynamics 365 中的商務程序設定](media/basic-guide-3.png)
  
 隨著交易進展，您的組織可能會使用不同的實體來表示這同一筆交易。 在銷售處理初期，交易是由商機實體表示。 隨著時間推移以及更多詳節顯現，您可能會使用概略估計來建立一個或多個報價。 如果這其中一個報價是由內部及客戶利害關係人審查，則由報價實體表示此交易。 客戶接受報價之後，由專案合約或 SOW 表示交易。 為了支援此行為，BPF 會進行結構化，讓程序中每個階段連結至不同的資料庫表格。
 
@@ -77,7 +79,7 @@ ms.locfileid: "7000521"
 > [!NOTE]
 > PSA 會提供商機、報價、訂單及發票實體的特定頁面。 您必須使用這些實體的專案資訊頁面來建立 Project Service 商機、報價、訂單及發票。 如果您使用其他頁面來建立記錄，就無法從 **專案資訊** 頁面開啟該記錄。 如果您想要從 **專案資訊** 頁面中開啟記錄，則必須先刪除該記錄，再使用 **專案資訊** 頁面重新建立該記錄。 在 **專案資訊** 頁面上，這其中每一個實體類型的商務規則都可確保正確設定記錄的 **類型** 欄位，以及正確初始化所有必要概念。
 
-> ![新訂單的專案資訊。](media/basic-guide-4.png)
+> ![新訂單的專案資訊](media/basic-guide-4.png)
  
 ## <a name="differences-between-project-service-automation-and-sales"></a>Project Service Automation 與 Sales 之間的區別
 雖然 PSA 中的銷售處理使用 Sales 銷售處理的基本功能，但由於專案型組織的商業實務有所不同，因此出現一些重要差異。 以下列出一些範例：
@@ -91,6 +93,3 @@ ms.locfileid: "7000521"
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>追蹤報價與專案合約的註解和核准
 您可以使用記錄留言板和文章來管理報價與專案合約的審查與核准。 您的組織可以建立自訂工作流程和外掛程式，以指派、重新導向、上呈和管理審查及核准工作項目的通知。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

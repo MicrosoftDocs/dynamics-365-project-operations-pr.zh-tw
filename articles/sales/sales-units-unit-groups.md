@@ -2,9 +2,11 @@
 title: 單位和單位群組
 description: 此主題提供有關如何在 Dynamics 365 Project Operations 中建立單位和單位群組的資訊。
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6a0aec1cc32ebdea9d2dbc7cc891f82da07e044f5c5655e008068f72dd198587
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3f588e41d001befeac87bb6a4e28a83cf5cfa865
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999531"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131018"
 ---
 # <a name="units-and-unit-groups"></a>單位和單位群組
 
@@ -44,6 +46,3 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 3. 在 **數量** 欄位中，輸入單位包含的數量。 例如，如果一盒含有兩件，請輸入「2」。 
 4. 在 **基礎單位** 欄位中，選取基礎單位以建立單位的最小度量單位。 例如，您可能會選取 [件]。
 5. 選取 **儲存**：
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

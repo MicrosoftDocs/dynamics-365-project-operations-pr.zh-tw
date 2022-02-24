@@ -2,16 +2,18 @@
 title: 從商機建立專案報價
 description: 本主題提供有關從商機建立專案報價的資訊。
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: acc7c6d0d3162163f071a9ab56950e4876aa711c94d36b3c9149cd46d76c57bd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4d2cc35e3205332d2941bf17fb8c7d8c9d9f310c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999621"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118103"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>從商機建立專案報價
 
@@ -54,6 +56,3 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
    將商機移至此階段時，您可以從與此商機相關聯的報價清單中選取此報價。 選取此報價即表示您要隨之向前進展。
 
    在其中一項報價成交之前，所有與商機相關聯的其他報價仍然可用且有效。 您可以將銷售處理移回先前的階段 **授與資格**，並選擇另一個要隨之向前進展的報價。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

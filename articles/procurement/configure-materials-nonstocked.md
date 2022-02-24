@@ -2,17 +2,17 @@
 title: 設定非庫存材料和待處理廠商發票
 description: 本主題說明如何啟用非庫存材料和待處理廠商發票。
 author: sigitac
-ms.date: 06/22/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9b55d959228062fc3577cf7f12d8926f51e9791f98c73fdc4b78251312a8a77a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003221"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993901"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>設定非庫存材料和待處理廠商發票
 
@@ -59,11 +59,11 @@ Dynamics 365 Finance：
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>啟用工作流程以根據廠商實體建立科目
 
-雙重寫入協調流程解決方案提供[廠商主機整合](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping)。 做為此功能的先決條件，廠商資料必須是在 **客戶** 實體中建立。 啟用範本工作流程程序，以便在 **客戶** 資料表中建立廠商，如[在廠商設計之間切換](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch)中所述。
+雙重寫入協調流程解決方案提供[廠商主機整合](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md)。 做為此功能的先決條件，廠商資料必須是在 **客戶** 實體中建立。 啟用範本工作流程程序，以便在 **客戶** 資料表中建立廠商，如[在廠商設計之間切換](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type)中所述。
 
 ### <a name="set-products-to-be-created-as-active"></a>將所要建立的產品設定為使用中
 
-非庫存材料必須在 Finance 中設定為 **已發行的產品**。 雙重寫入協調流程解決方案提供現成可用的 [Dataverse 產品類別目錄的已發行產品整合](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping)。 預設會以草稿狀態將產品從 Finance 同步處理至 Dataverse。 若要將產品同步處理為使用中狀態，以便直接使用於材料使用單據或待處理廠商發票，請移至 **系統** > **管理** > **系統管理** > **系統設定**，並在 **銷售** 索引標籤上，將 **以使用中狀態建立產品** 設定為 **是**。
+非庫存材料必須在 Finance 中設定為 **已發行的產品**。 雙重寫入協調流程解決方案提供現成可用的 [Dataverse 產品類別目錄的已發行產品整合](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md)。 預設會以草稿狀態將產品從 Finance 同步處理至 Dataverse。 若要將產品同步處理為使用中狀態，以便直接使用於材料使用單據或待處理廠商發票，請移至 **系統** > **管理** > **系統管理** > **系統設定**，並在 **銷售** 索引標籤上，將 **以使用中狀態建立產品** 設定為 **是**。
 
 ## <a name="configure-prerequisites-in-finance"></a>設定 Finance 中的先決條件
 
@@ -88,7 +88,7 @@ Dynamics 365 Finance：
 2. 在 **產品類型** 欄位中，選取 **項目**，並在 **產品子類型** 欄位中選取 **產品**。
 3. 輸入產品編號 (WRITEIN) 和產品名稱 (目錄外產品)。
 4. 選取項目模型群組。 產品您所選項目模型群組的 **庫存原則庫存產品** 欄位已設定為 **False**。
-5. 選取 **項目群組**、**儲存體維度群組** 和 **追蹤維度群組** 欄位中的值。 僅使用 **網站** 的 **儲存體維度**，並在 **追蹤維度** 欄位中選取 **無**。
+5. 選取 **項目群組**、**儲存體維度群組** 和 **追蹤維度群組** 欄位中的值。 僅使用 **地點** 的 **儲存體維度**，且不要設定任何追蹤維度。
 6. 選取 **庫存單位**、**採購單位** 和 **銷售單位** 欄位中的值，然後儲存您的變更。
 7. 在 **計劃** 索引標籤中，設定預設訂單設定，並在 **庫存** 索引標籤上設定預設地點和倉庫。
 8. 移至 **專案管理與會計** > **設定** > **專案管理與會計參數**，並開啟 **Dynamics 365 Dataverse 上的 Project Operations**。 

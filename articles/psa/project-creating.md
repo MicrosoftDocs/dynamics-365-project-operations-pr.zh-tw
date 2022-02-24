@@ -2,6 +2,8 @@
 title: 專案排程
 description: 本主題提供有關如何建立排程的資訊。
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 192fbe7f26a2bd060ffe9bc0b1eea50b9431bca4696e3da1d94bf53158e026a6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2877f12a9ea3d288c4cf41f406cd8ca3e6cee821
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998406"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148408"
 ---
 # <a name="project-schedules"></a>專案排程 
 
@@ -94,7 +96,7 @@ ms.locfileid: "6998406"
 
 工作的名稱描述必須完成的作業。 在 PSA 中，與工作相關聯的屬性會描述工作的排程及其人員配置需求。
 
-> ![工作屬性。](media/project-2.png)
+> ![工作屬性](media/project-2.png)
  
 ### <a name="schedule-attributes"></a>排程屬性
 
@@ -147,6 +149,3 @@ ms.locfileid: "6998406"
 ### <a name="manual-scheduling"></a>手動排程
 
 如果自動排程的規則不符合您的需求，您可以將工作的工作模式設定為 **手動排程**。 此設定會停止排程引擎計算其他排程屬性的值。 不論工作模式如何，如果將前置任務設定在工作上，永遠都會影響相依工作的開始日期。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

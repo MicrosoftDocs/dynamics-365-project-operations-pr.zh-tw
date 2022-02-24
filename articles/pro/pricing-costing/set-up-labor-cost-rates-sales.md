@@ -2,16 +2,18 @@
 title: 設定人力成本費率 - 精簡
 description: 本主題提供有關如何在 Project Operations 中設定人力成本費率的資訊。
 author: rumant
+manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c7b00d018f20dd79d5a6f8444a25ed4768cc6b220023fd08967eb917e2f4f2b6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2e79dde867833fb952349c073ce8975381029dcf
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006101"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180694"
 ---
 # <a name="set-up-labor-cost-rates---lite"></a>設定人力成本費率 - 精簡
 
@@ -80,6 +82,3 @@ Fabrikam India-Robotics 的開發人員，出借給 Fabrikam US-Robotics 時的�
 | Developer | Fabrikam UK | 115 英鎊 |
 
 成本價目表可以用多種貨幣提供人力費率。 產生對專案的成本估計值時，Project Operations 會將成本費率轉換成專案貨幣，並將其顯示給使用者。 當時間項目獲核准且成本實際值已建立時，此成本實際值是以該相應角色價格在成本價目表上的貨幣來計價。 單一專案的時間成本實際值可以用多種貨幣來記錄。 不過，在專案層級上彙總或總結實際人力成本時，Project Operations 會將所有人力成本金額轉換為使用者可以檢視的專案貨幣。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: 管理資源
 description: 本主題提供有關如何管理資源的資訊。
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/13/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 548ee7db1c8ca14f1b88d76a534d2922549eba138659e67a84cd89e6f7ee2170
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 37377367751592fc533447748b80b124cb6548ad
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998496"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151333"
 ---
 # <a name="manage-resources"></a>管理資源
 
@@ -58,34 +60,34 @@ Dynamics 365 Project Service Automation 包含資源管理員儀表板，提供�
 
 1. 在 **專案** 頁面的 **團隊** 索引標籤中，選取 **新增** 以預約一般資源。
 
-    ![團隊中已預約的一般資源。](media/Resource-Management-image9.png)
+    ![團隊中已預約的一般資源](media/Resource-Management-image9.png)
 
 2. 在 **所有團隊成員** 檢視表的 **資源需求** 欄中，選取可新增一般資源所需技能的連結。
 
-    ![需求連結。](media/Resource-Management-image10.png)
+    ![需求連結](media/Resource-Management-image10.png)
 
 3. 在出現的 **資源需求** 頁面上，選取 **技能** 網格中的省略符號 (**...**)，然後選取 **新增需求特性** 以新增開發人員所需的技能。
 
-    ![新增需求特性命令。](media/Resource-Management-image11.png)
+    ![新增需求特性命令](media/Resource-Management-image11.png)
 
 4. 在出現的 **快速建立：需求特性** 對話方塊上，於 **特性** 欄位中選取所需的技能。 然後在 **評等級值** 欄位中，選取該技能的熟練程度。 最後在 **資源需求** 欄位中，將需求設定為組織單位中的來源資源或甚至設為具名資源。 完成之後，選取 **儲存**。
 
-    ![[快速建立：需求特性] 對話方塊。](media/Resource-Management-image12.png)
+    ![[快速建立：需求特性] 對話方塊](media/Resource-Management-image12.png)
 
 5. 在 **資源需求** 頁面上，選取 **預約** 以履行資源需求。
 
-    ![[資源需求] 頁面上的 [預約] 按鈕。](media/Resource-Management-image13.png)
+    ![[資源需求] 頁面上的 [預約] 按鈕](media/Resource-Management-image13.png)
 
     您也可以選取 **所有團隊成員** 網格中的一般資源，然後選取 **預約**。
 
-    ![[所有團隊成員] 網格上方的 [預約] 按鈕。](media/Resource-Management-image14.png)
+    ![[所有團隊成員] 網格上方的 [預約] 按鈕](media/Resource-Management-image14.png)
 
     > [!NOTE]
     > 在此範例中，需要的時間是 40 小時，但沒有任何實際預約時數，因為一般資源沒有預約。 此外，也沒有指派的時數，因為一般資源已直接新增至團隊。 這不是使用工作指派所新增的。
 
     在 **排程小幫手** 頁面上，您可以依據資源需求所指定的需求來篩選可用資源。 資源是根據在排程面板所指定的排序參數來排序。
 
-    ![排程小幫手頁面。](media/Resource-Management-image15.png)
+    ![排程小幫手頁面](media/Resource-Management-image15.png)
 
     以下是一些經常使用的篩選：
 
@@ -95,23 +97,23 @@ Dynamics 365 Project Service Automation 包含資源管理員儀表板，提供�
 
 6. 如果您不滿意初始需求搜尋的結果，可以變更篩選準則。 展開左側的 **篩選檢視表** 窗格，然後選取 **搜尋** 來尋找其他資源。
 
-    ![[篩選檢視表] 窗格。](media/Resource-Management-image16.png)
+    ![[篩選檢視表] 窗格](media/Resource-Management-image16.png)
 
 7. 若要變更結果的排序方式，請選取 **排序**。
 
-    ![排序命令。](media/Resource-Management-image17.png)
+    ![排序命令](media/Resource-Management-image17.png)
 
 8. 根據需求上指定的索求 (如網格頂端所示) 選取資源。 您可以清除網格中的儲存格選取，並讓資源產能保持開啟。 一次只能將一項資源選取為已預約。
 
 9. 選取 **預約** 以預約所選取資源，同時讓排程面板保持開啟，以便您再選取其他資源。 或者，選取 **預約並結束** 以預約所選資源並關閉排程面板。
 
-    ![要預約的資源。](media/Resource-Management-image19.png)
+    ![要預約的資源](media/Resource-Management-image19.png)
 
     您會收到有關已預約時數的通知。 索求指示器顯示已滿足多少預約需求以及還剩多少未滿足。 您還可以查看已耗用多少所選資源的產能。 選取 **展開** 以查看資源預約的詳細資訊。
 
 9. 返回 **所有團隊成員** 檢視表。 請注意，在網格中，一般資源已由具名資源取代，並且列出已預約該資源 40 小時。
 
-    ![已更新的 [所有團隊成員] 網格。](media/Resource-Management-image20.png)
+    ![已更新的 [所有團隊成員] 網格](media/Resource-Management-image20.png)
 
     > [!NOTE]
     > 沒有顯示指派的時數，因為是直接在團隊中預約的。 這些資源並非使用工作指派所預約。
@@ -122,72 +124,72 @@ Dynamics 365 Project Service Automation 包含資源管理員儀表板，提供�
 
 1. 在 **專案** 頁面的 **排程** 索引標籤上，選取 **新增** 以建立工作。
 
-    ![新工作已建立。](media/Resource-Management-image21.png)
+    ![新工作已建立](media/Resource-Management-image21.png)
 
 2. 在 **資源** 欄位中，選取 **資源選擇器** 符號。 資源選擇器隨即出現，並顯示專案的現有團隊成員。
 
-    ![資源選擇器。](media/Resource-Management-image22.png)
+    ![資源選擇器](media/Resource-Management-image22.png)
 
 3. 輸入新的一般資源的名稱，然後選取 **建立**。
 
-    ![輸入的新一般資源名稱。](media/Resource-Management-image23.png)
+    ![輸入的新一般資源名稱](media/Resource-Management-image23.png)
 
 4. 在出現的 **快速建立：專案團隊成員** 對話方塊上，於 **角色** 欄位中選取一般資源的角色。 在 **資源分配單位** 欄位中，選取一般資源的組織單位。 然後選取 **儲存**。
 
-    ![[快速建立：專案團隊成員] 對話方塊。](media/Resource-Management-image24.png)
+    ![[快速建立：專案團隊成員] 對話方塊](media/Resource-Management-image24.png)
 
     一般團隊成員現在已指派給工作。
 
-    ![已指派給工作的一般團隊成員。](media/Resource-Management-image25.png)
+    ![已指派給工作的一般團隊成員](media/Resource-Management-image25.png)
 
     在 **團隊** 索引標籤上，您會看到新的一般團隊成員。 請注意，其中只有指派的時數。 這些時數是所有指派至一般團隊成員之工作的總和。 一般團隊成員還沒有所需時數或資源需求。
 
-    ![[團隊] 索引標籤上的一般團隊成員。](media/Resource-Management-image26.png)
+    ![[團隊] 索引標籤上的一般團隊成員](media/Resource-Management-image26.png)
 
 5. 您現在可以使用資源選擇器，將一般團隊成員指派給其他工作。
 
-    ![資源選擇器中的一般團隊成員。](media/Resource-Management-image27.png)
+    ![資源選擇器中的一般團隊成員](media/Resource-Management-image27.png)
 
     完成指派一般資源給工作的動作後，您可以為一般資源產生資源需求。
 
 5. 在 **團隊** 索引標籤上，選取一般資源，然後選取 **產生需求**。
 
-    ![產生需求命令。](media/Resource-Management-image28.png)
+    ![產生需求命令](media/Resource-Management-image28.png)
 
     產生需要後，一般團隊成員就會有資源需求的所需時數和連結。
 
-    ![資源需求連結。](media/Resource-Management-image29.png)
+    ![資源需求連結](media/Resource-Management-image29.png)
 
     預約具名資源之後，便會從團隊移除一般資源，並以具名資源取代該資源。
 
-    ![已由具名資源取代的一般資源。](media/Resource-Management-image30.png)
+    ![已由具名資源取代的一般資源](media/Resource-Management-image30.png)
 
     在 **排程** 索引標籤上，一般資源指派已移除，並且已由具名資源取代。
 
-    ![[排程] 索引標籤上已由具名資源取代的一般資源指派。](media/Resource-Management-image31.png)
+    ![[排程] 索引標籤上已由具名資源取代的一般資源指派](media/Resource-Management-image31.png)
 
     > [!NOTE]
     > 只有在針對一般資源需求完整預約具名資源時，才會發生此行為。 具名資源部分取代一般資源需求，或是多個具名資源取代一般資源需求時，一般資源仍會保留已指派至工作的狀態。
 
     在下圖中，一項 80 小時工作已規畫給一段五天期間 (五天內每日 16 小時)，並且已指派給名為 **職能** 的一般資源。
 
-    ![五天內八十小時的工作已指派至「職能」一般資源。](media/Resource-Management-image32.png)
+    ![五天內八十小時的工作已指派至「職能」一般資源](media/Resource-Management-image32.png)
 
     當您產生需求時，所需的即是五天內的 80 小時。
 
-    ![五天內 80 小時的需求已產生。](media/Resource-Management-image33.png)
+    ![五天內 80 小時的需求已產生](media/Resource-Management-image33.png)
 
     由於可用資源每天只工作八小時，因此需要兩項資源來履行此一需求。
 
-    ![第二項資源。](media/Resource-Management-image35.png)
+    ![第二項資源](media/Resource-Management-image35.png)
 
     在 **團隊** 索引標籤上，現在可以看到一般資源沒有需要的時數，但是指派的時數仍然與兩個共同履行需求的具名資源一起顯示。
 
-    ![[團隊] 索引標籤上的兩個具名資源。](media/Resource-Management-image36.png)
+    ![[團隊] 索引標籤上的兩個具名資源](media/Resource-Management-image36.png)
 
     在 **排程** 索引標籤上，一般資源仍保留已指派至工作的狀態。
 
-    ![[排程] 索引標籤上的一般資源。](media/Resource-Management-image37.png)
+    ![[排程] 索引標籤上的一般資源](media/Resource-Management-image37.png)
 
 PSA 不會將這兩種資源指派給工作，因為這種行為產生的排程較難以預測。 在此簡單範例中，可以很輕鬆地在兩個資源之間均等劃分時數。 不過，在涉及多個工作和多項資源的複雜案例中，PSA 必須對如何在多個工作之間配置所獲多項資源的預約進行假設。
 
@@ -219,13 +221,13 @@ PSA 不會將這兩種資源指派給工作，因為這種行為產生的排程�
 
 1. 在 **專案** 頁面的 **團隊** 索引標籤上，選取團隊成員，然後選取 **維護預約**。
 
-    ![針對所選團隊成員開啟的排程面板。](media/Resource-Management-image40.png)
+    ![針對所選團隊成員開啟的排程面板](media/Resource-Management-image40.png)
 
     排程面板隨即出現，並顯示專案團隊成員的預約。 展開團隊成員的記錄，以檢視對此專案所預約的時數，以及其他耗用團隊成員產能的專案。
 
 2. 選取預約並拖曳以延長或縮短。 **建立資源預約** 對話方塊隨即顯示，讓您調整預約。
 
-    ![[建立資源預約] 對話方塊。](media/Resource-Management-image41.png)
+    ![[建立資源預約] 對話方塊](media/Resource-Management-image41.png)
 
 3. 以滑鼠右鍵按一下預約。 您可以使用捷徑功能表來完成下列動作：
 
@@ -237,7 +239,7 @@ PSA 不會將這兩種資源指派給工作，因為這種行為產生的排程�
 
 您可以變更任何預設或自訂預約狀態。
 
-![變更狀態命令。](media/Resource-Management-image42.png)
+![變更狀態命令](media/Resource-Management-image42.png)
 
 下列狀態已納入 PSA：
 
@@ -257,25 +259,25 @@ PSA 不會將這兩種資源指派給工作，因為這種行為產生的排程�
 
 產生資源需求後，專案經理可以選取資源，然後選取 **送出要求**，送出對一般資料的資源要求。
 
-![[送出要求] 按鈕。](media/Resource-Management-image45.png)
+![[送出要求] 按鈕](media/Resource-Management-image45.png)
 
 您可以將資源的相關註解提供給正在履行要求的資源管理員。 送出要求後，團隊成員的 **狀態** 欄位會變更為 **已送出**。
 
-![輸入選擇性註解。](media/Resource-Management-image46.png)
+![輸入選擇性註解](media/Resource-Management-image46.png)
 
 資源管理員履行要求時，一般團隊成員會以 **所有團隊成員** 網格中的具名資源來取代。
 
-![[所有團隊成員] 網格中由具名資源所取代的一般團隊成員。](media/Resource-Management-image47.png)
+![[所有團隊成員] 網格中由具名資源所取代的一般團隊成員](media/Resource-Management-image47.png)
 
 #### <a name="use-a-resource-proposal-for-resource-requests"></a>針對資源要求使用資源提案
 
 與直接根據資源要求預約資源相反，資源管理員可以提案將資源建議給專案經理。 當無法做到完全符合需求時，資源管理員可能會使用此選項。 當資源管理員提案建議資源時，專案經理會看到一般團隊成員的 **狀態** 欄位已變更為 **需要檢閱**。
 
-![一般團隊成員的狀態已變更為 [需要檢閱]。](media/Resource-Management-image48.png)
+![一般團隊成員的狀態已變更為 [需要檢閱]](media/Resource-Management-image48.png)
 
 若要檢視提議的資源以及提案預約所產生影響的視覺效果，請按兩下狀態為 **需要檢閱** 的團隊成員。 然後選取 **提案的資源** 索引標籤。
 
-![[提案的資源] 索引標籤。](media/Resource-Management-image49.png)
+![[提案的資源] 索引標籤](media/Resource-Management-image49.png)
 
 選取 **接受所有提案** 以接受所有提議的資源，或選取 **拒絕所有提案** 加以拒絕。 如果您接受提議的資源，則這些資源已確定在專案上預約為團隊成員，並取代一般資源。
 
@@ -289,30 +291,30 @@ PSA 不會將這兩種資源指派給工作，因為這種行為產生的排程�
 1. 在 **專案** 頁面的 **團隊** 索引標籤上，選取需要替代資源的資源，然後選取 **維護預約**。
 2. 展開資源以檢視其所指派至的專案。
 
-    ![資源已展開來顯示指派的專案。](media/Resource-Management-image50.png)
+    ![資源已展開來顯示指派的專案](media/Resource-Management-image50.png)
 
 3. 以滑鼠右鍵按一下專案，然後選取 **替代資源**。
 4. 如果您知道要替代目前資源的資源，請選取或輸入名稱，然後選取 **重新指派**。
 
-    ![指定替代資源。](media/Resource-Management-image51.png)
+    ![指定替代資源](media/Resource-Management-image51.png)
 
     或者，依照下列步驟搜尋資源：
 
     1. 選取 **尋找替代資源**。
 
-        ![搜尋替代資源。](media/Resource-Management-image52.png)
+        ![搜尋替代資源](media/Resource-Management-image52.png)
 
         排程小幫手會傳回可用的替代資源清單。 在排程小幫手中，您可以進一步篩選可用的資源，以尋找適當的替代資源。
 
-        ![可用替代資源的清單。](media/Resource-Management-image53.png)
+        ![可用替代資源的清單](media/Resource-Management-image53.png)
 
     2. 若要替代資源，請選取您想要的資源，然後選取 **替代**。
 
-        ![已選取的替代資源。](media/Resource-Management-image54.png)
+        ![已選取的替代資源](media/Resource-Management-image54.png)
 
     預約和指派會以新資源來替代。
 
-    ![以新資源替代的預約和指派。](media/Resource-Management-image55.png)
+    ![以新資源替代的預約和指派](media/Resource-Management-image55.png)
 
 ## <a name="reconcile-team-member-bookings-and-assignments"></a>協調團隊成員預約與指派
 
@@ -320,7 +322,7 @@ PSA 不會將這兩種資源指派給工作，因為這種行為產生的排程�
 
 PSA 有一個 **協調** 索引標籤，可讓專案經理協調團隊成員的預約及其對專案團隊的指派。
 
-![[協調] 索引標籤。](media/Resource-Management-image56.png)
+![[協調] 索引標籤](media/Resource-Management-image56.png)
 
 **協調** 索引標籤會顯示下至每個團隊成員個別工作指派層級的預約及指派。 它會在儲存格中顯示表示從月數下至天數時段期間的時數。
 
@@ -335,13 +337,10 @@ PSA 有一個 **協調** 索引標籤，可讓專案經理協調團隊成員的�
 
 以較高層級檢視時間時，**調解** 索引標籤中的儲存格會有指示器，通知您較低層級上有差異。 在儲存格中按兩下，可以放大來檢視差異。 您可以接著按一下滑鼠右鍵來縮小。您可以選取資源，然後使用網格工具列的 **下一個差異** 控制項，移至該資源的預約與指派之間的下一個差異。 然後可以使用 **上一個差異** 控制項返回。 您也可以在 **設定** 底下關閉差異指示器和導覽行為。
 
-![差異指示器。](media/Resource-Management-image57.png)
+![差異指示器](media/Resource-Management-image57.png)
 
 如果您資源有工作指派但沒有預約，請在 **專案** 頁面的 **協調** 索引標籤上，選取 [預訂不足]，然後選取 **延長預約**。 **延長預約** 對話方塊隨即出現，並顯示解決資源不足狀況所需的預約。 其中也會顯示資源在所有專案或其他可排程實體中的現有預約。 如果您選取 **確定** 建立資源的預約，不論該資源的可用性如何，都可能會造成過量預約。
 
-![[延長預約] 對話方塊。](media/Resource-Management-image58.png)
+![[延長預約] 對話方塊](media/Resource-Management-image58.png)
 
 專案經理或資源管理員可以接著使用排程面板，管理任何過量預約資源超過其產能的狀況。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

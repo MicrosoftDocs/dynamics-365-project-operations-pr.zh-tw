@@ -2,16 +2,18 @@
 title: 管理專案合約
 description: 本主題提供檢視專案型合約的相關資訊。
 author: rumant
+manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 448c5a7c4144387440b26c526f66acbbbe475ad533da9e00db0eb5d5e86be9e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 441fbc378a423334f45bc65658811ef238515393
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001826"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177321"
 ---
 # <a name="manage-project-contracts"></a>管理專案合約
 
@@ -31,6 +33,3 @@ Dynamics 365 Project Operations 中的專案合約，會擷取和管理專案的
 2. 選取 **檢視表切換器**（檢視表名稱旁邊的下拉式箭頭）以選取其他篩選過的檢視。 您可以使用自訂篩選準則來建立您自己的檢視。
 
 您可以從此清單頁面或詳細資料頁面建立或刪除合約。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

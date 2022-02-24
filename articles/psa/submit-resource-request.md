@@ -1,6 +1,8 @@
 ---
 title: 送出資源要求
 description: 本主題提供有關送出專案資源要求的資訊。
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: da3e2798079816409ffbcfed911c05f3d51307fef22c48d112802927828faeb2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 173572be43149aea253bf7beddb993f8c50ab337
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6984952"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149713"
 ---
 # <a name="submitting-a-resource-request"></a>送出資源要求
 
@@ -34,11 +36,8 @@ ms.locfileid: "6984952"
 1. 在 Project Service Automation (PSA) 的 **專案** 頁面上，按一下 **團隊** 索引標籤以檢視可預約資源清單。 
 2. 從清單中選取具有資源需求的一般資源，然後按一下 **送出要求**。
 
-![送出資源要求。](media/RM-how-to-18.png)
+![送出資源要求](media/RM-how-to-18.png)
 
 一般團隊成員的要求狀態會變更為 **已送出**。
 
 資源管理員履行要求之後，如果資源管理員是使用具名資源的預約來履行要求，則會以具名資源取代一般資源。 否則，一般資源仍保留在團隊中，如果資源管理員已提案建議具名資源，則要求狀態將會變更為 **需要檢閱**。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

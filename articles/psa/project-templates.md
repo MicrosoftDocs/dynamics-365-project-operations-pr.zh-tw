@@ -2,6 +2,8 @@
 title: 專案範本
 description: 此主題提供有關如何使用專案範本進行快速專案設定的資訊。
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 34df8ed9a8baff949097af1b95da56bfe9a4240c213896fafd5c7dcfcf580b6c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db42c9ea7280274cdc9cc90f1487f27e08f892e5
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002501"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148048"
 ---
 # <a name="project-templates"></a>專案範本 
 
@@ -47,7 +49,7 @@ ms.locfileid: "7002501"
 
 - 從報價建立專案時，您可以選取 **快速建立：專案** 對話方塊中的專案範本。
 
-> ![[快速建立：專案] 對話方塊。](media/project-11.png)
+> ![[快速建立：專案] 對話方塊](media/project-11.png)
 
 - 藉由選取 **新增專案** 建立專案時，**專案** 頁面會在儲存記錄之前出現。 在 **挑選範本** 欄位中，選取組織預先定義的其中一個專案範本。
 - 使用 **範本實體** 頁面上的 **從範本建立專案**。
@@ -67,6 +69,3 @@ ms.locfileid: "7002501"
 ### <a name="copying-a-project-team"></a>複製專案團隊
 
 將專案團隊從專案範本複製到專案時，也會一併複製一般資源以及範本中定義的技能和熟練度。 一般資源指派也會維持與原先在專案範本中的一樣。 專案範本不支援具名資源。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

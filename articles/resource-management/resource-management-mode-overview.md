@@ -2,17 +2,18 @@
 title: 資源管理模式概觀
 description: 本主題提供有關 Dynamics 365 Project Operations 中資源管理功能的資訊。
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 5c0f98a6f08129ebef9b6d3fed1cc85969aa347c815a643d3c8dd639b42c0e8c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 73ba6190e2e366f22372102d14d26f6d71ba0bc1
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008216"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118508"
 ---
 # <a name="resource-management-modes-overview"></a>資源管理模式概觀
 
@@ -24,29 +25,26 @@ Dynamics 365 Project Operations 支援兩種模式，讓您執行整體預約流
 ## <a name="central-mode"></a>集中模式
 對於將資源集中配置給專案的組織，集中模式提供的方式確保專案經理可以在專案層級定義資源需求。 履行資源需求的職責已委派給資源經理。 專案經理可以接受或拒絕資源管理員提議的資源。
 
-![集中模式。](./media/resource-management-central.png)
+![集中模式](./media/resource-management-central.png)
 
 若要使用集中模式管理資源，請參閱：
 
-- [指派一般可預約資源至工作，並產生資源需求](/dynamics365/project-service/assign-generic-bookable-resource)
-- [透過資源需求預約具名資源](/dynamics365/project-service/book-named-resource)
-- [送出資源要求](/dynamics365/project-service/submit-resource-request)
-- [履行資源要求](/dynamics365/project-service/resource-management-fulfill-requests)
-- [接受或拒絕資源要求提案的專案資源](/dynamics365/project-service/accept-reject-proposed-resource)
+- [指派一般可預約資源至工作，並產生資源需求](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
+- [透過資源需求預約具名資源](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+- [送出資源要求](https://docs.microsoft.com/dynamics365/project-service/submit-resource-request)
+- [履行資源要求](https://docs.microsoft.com/dynamics365/project-service/resource-management-fulfill-requests)
+- [接受或拒絕資源要求提案的專案資源](https://docs.microsoft.com/dynamics365/project-service/accept-reject-proposed-resource)
 
 ## <a name="hybrid-mode"></a>混合模式
 對於需要彈性配置資源的組織，混合模式使專案經理和資源管理員能夠預約資源。
 
-![混合模式。](./media/resource-management-hybrid.png)
+![混合模式](./media/resource-management-hybrid.png)
 
 除了支援的集中模式程序之外，也請參閱下列主題，以便在混合模式下管理所有其他支援的預約流程：
 
 將資源直接預約給專案：
-- [將具名可預約資源預約給專案團隊並指派工作](/dynamics365/project-service/assign-named-bookable-resource)
+- [將具名可預約資源預約給專案團隊並指派工作](https://docs.microsoft.com/dynamics365/project-service/assign-named-bookable-resource)
 
 透過資源需求預約資源：
-- [指派一般可預約資源至工作，並產生資源需求](/dynamics365/project-service/assign-generic-bookable-resource)
-- [透過資源需求預約具名資源](/dynamics365/project-service/book-named-resource)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+- [指派一般可預約資源至工作，並產生資源需求](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
+- [透過資源需求預約具名資源](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)

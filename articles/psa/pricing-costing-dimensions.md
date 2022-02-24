@@ -2,11 +2,12 @@
 title: 定價和成本維度首頁
 description: 本主題提供定價維度的概觀。
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998451"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151288"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>定價和成本維度首頁
 
@@ -41,7 +42,7 @@ ms.locfileid: "6998451"
 
 PSA 隨附一組預設定價維度。 您可以移至 **Project Service** > **參數** 來檢視這些維度。 在參數記錄的 **以金額為準的定價維度** 索引標籤上，確認角色 **msdyn_resourcecategory** 和資源分配單位 **msdyn_organizationalunit** 的 **適用於銷售** 及 **適用於成本** 欄位已設定為 **是**。 這可讓您設定每個角色與組織單位組合的價格和成本。
 
-![反白顯示「適用於銷售」的 Project Service 參數螢幕擷取畫面。](media/PS-OOB-parameters.png)
+![反白顯示「適用於銷售」的 Project Service 參數螢幕擷取畫面](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > 如果您在 PSA 版本 3 之前一直都使用角色和組織單位的預設欄位做為定價維度，就不會有任何看得出的變更。 您可以繼續照常使用 Project Service。 
@@ -66,16 +67,13 @@ PSA 隨附一組預設定價維度。 您可以移至 **Project Service** > **�
 
 | 角色        | 組織單位    |單位      |價格      |貨幣  |
 | ------------|-------------|----------|----------:|----------|
-| 開發人員   | Contoso 美國  |小時 | 200|USD     |
-| 開發人員   | Contoso India |小時|   112|USD     |
+| 開發人員   | Contoso US  |Hour | 200|USD     |
+| 開發人員   | Contoso India |Hour|   112|USD     |
 
 
 **範例成本費率**
 
 | 薪資範圍     | 組織單位    |單位      |價格      |貨幣  |
 | ----------------|-------------|----------|----------:|----------|
-| My company_Band1 | Contoso 美國  |小時 | 145|USD     |
-| My company_Band2 | Contoso India |小時|   67|USD     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| My company_Band1 | Contoso US  |Hour | 145|USD     |
+| My company_Band2 | Contoso India |Hour|   67|USD     |

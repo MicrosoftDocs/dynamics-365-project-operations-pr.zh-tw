@@ -2,9 +2,11 @@
 title: 管理資源專長
 description: 本主題提供有關設定專案資源專長的資訊。
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f93fbda0ad6435c627eb7e580f92fd90481034cae2236b9a636195883470ca5c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db96ffc5fdd6bc759cd35fff0a39a64d9854a4f0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007406"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270623"
 ---
 # <a name="manage-resource-competencies"></a>管理資源專長
 
@@ -29,7 +31,7 @@ ms.locfileid: "7007406"
 
 資源專長是資源管理不可缺少的一部分。 專長可做為基準，用以判定其技能、教育、認證和專案經驗達到適當平衡的資源。 您應該為每個資源設定此資訊，並定期更新。 如此一來，您就可以在專案資源指派期間找到適配的特定資源專長時，使其能力發揮最大效益。
 
-[![技能、認證、教育和專案經驗的範例。](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
+[![技能、認證、教育和專案經驗的範例](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
 
 下列程序說明如何設定資源的一些專長。
 

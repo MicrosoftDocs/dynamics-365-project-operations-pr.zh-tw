@@ -2,9 +2,11 @@
 title: 建立新專案
 description: 本主題提供有關如何建立新專案的資訊。
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5aa5e00252697f91a585eaaa83a0c8a39b315cc1b25fcbf6343fdf2ce31a824e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9b29340dc88aea888ea2f5ea975eaea59d014279
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985941"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270713"
 ---
 # <a name="create-a-new-project"></a>建立新專案
 
@@ -51,9 +53,9 @@ ms.locfileid: "6985941"
 
 專案經理可以使用專案資源分配功能來建立專案所需的角色。 如果已確認的資源在保留資源時仍然未知，則可以使用角色。 角色可以暫時保留為規劃的資源，讓您可以繼續專案規劃階段。
 
-[![角色的範例。](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
+[![角色的範例](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
-**案例：** 已雇用 Contoso 來完成專案章程已獲核准的時間和材料專案。 專案襄理仍在完成專案的範圍。 資源管理員目前正在識別要保留來處理新專案的特定資源。 由於專案的性質至關重要，專案贊助者要求資深專案經理成為其中一個角色。 專案襄理在專案規劃期間說不定需要資源資訊，資源管理員必須取得新資源，並定義系統中的角色。
+**案例：** 吳先生受聘來完成專案章程已獲核准的時間與材料專案。 專案襄理仍在完成專案的範圍。 資源管理員目前正在識別要保留來處理新專案的特定資源。 由於專案的性質至關重要，專案贊助者要求資深專案經理成為其中一個角色。 專案襄理在專案規劃期間說不定需要資源資訊，資源管理員必須取得新資源，並定義系統中的角色。
 
 下列步驟顯示資源管理員如何設定資深專案經理角色，並建立資源特性與該角色的關聯。 此角色隨後即可用於搜尋符合所需資源專長的可用資源。
 

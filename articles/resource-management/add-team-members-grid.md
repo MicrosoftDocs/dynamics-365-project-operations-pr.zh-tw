@@ -2,22 +2,24 @@
 title: 從團隊成員網格新增團隊成員
 description: 本主題提供有關如何管理團隊成員資源的資訊。
 author: ruhercul
+manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c4ff7792a9a99cbbe791a10dbc5157ffd51de285c02f23471532a09e7a55b031
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008396"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121523"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>從團隊成員網格新增團隊成員
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
-Dynamics 365 Project Operations 包含資源管理員儀表板，提供整個組織之資源索求與使用率的視覺化概觀。 您可以使用此儀表板上的圖表，以視覺化方式呈現下列資訊：
+Dynamics 365 Project Operations 包含 Resource Manager 儀表板，提供整個組織中資源索求及使用率的視覺化概觀。 您可以使用此儀表板上的圖表，以視覺化方式呈現下列資訊：
 
 - **資源索求**：**使用中資源要求** 圖表顯示已送出的資源索求。 資源是依據角色或專案來彙總。
 - **未送出資源索求**：**未指派的資源索求** 圖表顯示所有尚未送出的資源需求。 此圖表可協助資源管理員檢視未確定但可能會透過資源要求送出的索求。
@@ -198,6 +200,3 @@ Project Operations 有一個 **協調** 索引標籤，可讓專案經理協調�
 如果您資源有工作指派但沒有預約，請在 **專案** 表單的 **協調** 索引標籤上，選取 [預訂不足]，然後選取 **延長預約**。 **延長預約** 對話方塊隨即出現，並顯示解決資源不足狀況所需的預約。 對話方塊也會顯示資源在所有專案或其他可排程實體中的現有預約。 如果您選取 **確定** 建立資源的預約，不論該資源的可用性如何，都可能會造成過量預約。
 
 專案經理或資源管理員可以接著使用排程面板，管理任何過量預約資源超過其產能的狀況。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

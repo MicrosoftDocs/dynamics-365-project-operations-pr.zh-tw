@@ -2,10 +2,12 @@
 title: 在 Project Service Automation 中開立發票
 description: 本主題提供有關開立發票的資訊。
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0855e85c1f09d29d3ecb49ba517fd3043ae11140
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985491"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151378"
 ---
 # <a name="invoicing-in-project-service-automation"></a>在 Project Service Automation 中開立發票
 
@@ -50,7 +52,7 @@ PSA 不是為了產生客戶面向發票而設計，原因如下：
 
 - 在 **專案合約** 清單頁面上，開啟專案合約，然後選取 **建立發票**。
 
-    ![建立特定專案合約的專案發票。](media/CreateProjectInvoicesOneByOne.png)
+    ![建立特定專案合約的專案發票](media/CreateProjectInvoicesOneByOne.png)
 
     發票會針對狀態為 **已準備好開立發票** 的所選專案合約的所有交易來產生。 這些交易包括時間、費用、里程碑和產品型合約服務內容。
 
@@ -58,7 +60,7 @@ PSA 不是為了產生客戶面向發票而設計，原因如下：
 
 1. 在 **專案合約** 清單頁面上，選取一個或多個您必須為其建立發票的專案合約，然後選取 **建立專案發票**。
 
-    ![大量建立專案發票。](media/CreateProjectInvoicesBulk.png)
+    ![大量建立專案發票](media/CreateProjectInvoicesBulk.png)
 
     出現一則警告訊息通知您，建立發票之前可能會有一段延遲。 也會顯示程序。
 
@@ -115,6 +117,3 @@ PSA 不是為了產生客戶面向發票而設計，原因如下：
 
 - 六小時的已開單銷售實際。
 - 剩餘兩個小時的未開單銷售實際值。 依據與客戶的協商，此交易可以稍後再開帳單，或標示為不應收費。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

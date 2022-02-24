@@ -2,16 +2,18 @@
 title: 開立定額保留後隨用即扣型付款或預付金的發票
 description: 本主題提供有關如何在 Project Operations 中開立定額保留後隨用即扣型付款 (保留款) 或預付金發票的資訊。
 author: rumant
+manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25c0c979056d89d44a1bd67dbfdcb180d897de65eaf3374cec0a2dc73c4e3568
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997461"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596182"
 ---
 # <a name="invoice-a-retainer-or-an-advance"></a>開立定額保留後隨用即扣型付款 (或預付金) 的發票
 
@@ -49,6 +51,3 @@ Dynamics 365 Project Operations 支援保留款型合約和一次性預付金。
 | 已用金額 | **專案發票** 頁面上的 **已套用的預付金和保留款** 網格  | 此唯讀欄位提供總結已使用多少保留款或預付金的計算值。 | 此欄位可以在列印的發票上顯示給客戶，以指示已從此保留款或預付金支用的金額。 |
 | 應收金額 | **專案發票** 頁面上的 **已套用的預付金和保留款** 網格  | 此可編輯欄位提供此專案發票中所用保留款或預付金的金額。 這筆金額不可大於預付金的可用金額。 系統會自動將此金額計算為網格中 **金額** 與 **已使用金額** 欄位之間的差異。 您可以減少此金額來使用少於可用值的金額，但是無法增加金額來使用大於可用值的金額。 | 此欄位可以在列印的發票上顯示給客戶，以指示發票從此保留款或預付金中支用的金額。 |
 | 保留款餘額。 | **專案發票** 頁面上的 **已套用的預付金和保留款** 網格  | 此唯讀欄位提供保留款或預付金在確認發票後所剩金額的值。 | 此欄位可以在列印的發票上顯示給客戶，以指示此保留款或預付金在發票經確認並付款後將會剩餘的金額。 |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

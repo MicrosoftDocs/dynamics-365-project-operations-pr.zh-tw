@@ -2,16 +2,18 @@
 title: 專案的資源時間財務估計值
 description: 本主題提供有關如何計算時間財務估計值的資訊。
 author: rumant
+manager: Annbe
 ms.date: 03/19/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e4be4c8087005ae66a54d40ac88017df591c56eca64f04b00cf34b0e5a8a09ce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 91156c5cf79af8c66c12b84a6d2b17aa7fe09ed1
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998676"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701816"
 ---
 # <a name="financial-estimates-for-resource-time-on-projects"></a>專案的資源時間財務估計值
 
@@ -37,7 +39,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 摘要或上層工作的時間財務估計值則是其所有下層工作的財務估計值加總。 這是專案的估計人力成本。 
 
-![資源估計值。](./media/navigation12.png)
+![資源估計值](./media/navigation12.png)
 
 ## <a name="default-cost-price-and-cost-currency"></a>預設成本價與成本貨幣
 

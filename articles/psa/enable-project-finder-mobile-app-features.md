@@ -2,7 +2,9 @@
 title: 啟用 Project Finder Mobile 應用程式功能
 description: 如何啟用 Project Service 的 Project Finder Mobile 應用程式功能
 author: JohnPBurrows
+manager: kfend
 ms.prod: ''
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -17,12 +19,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8651ba591853faf648587dcbd4c50625ba94360958d7b418e89aa0bf09464a89
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1b70182125d607aa17528ef3dc4ea2345b76acd1
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004886"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144538"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>啟用 Project Finder Mobile 應用程式功能 (Project Service)
 
@@ -47,11 +49,11 @@ ms.locfileid: "7004886"
   
 4. 將 **允許資源更新技能** 設定為 **是**。  
   
-   ![ProjectService_ProjectFinderEnable。](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
+   ![ProjectService_ProjectFinderEnable](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
   
    這是全域設定。 專案經理可以設定個別專案是否可在該專案的 **專案團隊** 頁面上看見。  
   
-   ![ProjectService_ProjectTeamVisible。](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
+   ![ProjectService_ProjectTeamVisible](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
   
 ## <a name="email-notifications"></a>電子郵件通知  
  [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]會傳送關於資源要求的電子郵件給下列收件者，於下列時機：  
@@ -66,6 +68,3 @@ ms.locfileid: "7004886"
   
 ### <a name="see-also"></a>請參閱  
  [設定資源](../psa/set-up-resources.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

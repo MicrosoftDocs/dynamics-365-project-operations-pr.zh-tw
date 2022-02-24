@@ -2,6 +2,8 @@
 title: 資源管理常見問題集
 description: 本主題提供關於資源管理的常見問題解答。
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f80e65e7ff423c362fd1a86676a84ab67afabc88115c99b582c5eefa6c725a46
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d335a12a9b478bff63b6c93809c89dac9718a4be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002366"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144358"
 ---
 # <a name="resource-management-faq"></a>資源管理常見問題集
 
@@ -52,6 +54,3 @@ ms.locfileid: "7002366"
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>指派與預約之間有何區別？
 
 指派是在專案排程中對專案工作的資源指派。 資源可以是實際或一般資源。 預約是為專案進行的已確認或未確認資源配置。 已確認預約會耗用資源的產能。 對於實際資源，預約與指派最好要一致，因為兩者並無差別。 但是，PSA 不會強制這樣的一致性。 協調檢視表會向專案經理顯示資源預約與指派不一致的地方。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

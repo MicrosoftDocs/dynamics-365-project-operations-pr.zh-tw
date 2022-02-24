@@ -2,6 +2,8 @@
 title: 產品型報價明細
 description: 此主題提供有關產品型報價明細的資訊。
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3cc2e8788ea699b57ef75903ec3771f2e66fe867a9b8b6328a55b484eb13ede4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a5b52e74994a40b20353d85d1d9bcd59d435cd0b
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008576"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151243"
 ---
 # <a name="product-based-quote-lines"></a>產品型報價明細
 
@@ -58,7 +60,7 @@ Dynamics 365 產品類別目錄中的產品有預設單位與單位群組。 如
 
 安裝 PSA 之後，會在報價的產品型明細上輸入預設銷售價格。 **定價** 欄位會接著設定為 **自訂定價**，因此您可以編輯報價明細上的預設價格。
 
-> ![設定自訂定價。](media/basic-guide-10.png)
+> ![設定自訂定價](media/basic-guide-10.png)
  
 ## <a name="quantity-factors-for-products"></a>產品的數量因數
 
@@ -78,8 +80,5 @@ PSA 會驗證只有含有數值資料類型的數值屬性或產品屬性，才�
 
 您可以編輯產品明細的屬性，將 **使用者數** 和 **月數** 屬性標示為數量因數。 
 
-> ![將 [使用者數] 和 [月數] 標示為品質因數。](media/basic-guide-11.png)
+> ![將 [使用者數] 和 [月數] 標示為品質因數](media/basic-guide-11.png)
  
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

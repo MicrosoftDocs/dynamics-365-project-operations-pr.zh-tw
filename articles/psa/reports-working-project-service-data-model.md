@@ -2,6 +2,8 @@
 title: 使用 Project Service Automation 資料模型
 description: 此主題提供有關如何使用資料模型的資訊。
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 375850b893b7afead8371824606b422d3f36c36de4da908fdf76666bd1b415ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d8c212ef2c9fd9dcd6be0b8f0a31aa5a948176bc
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002411"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147643"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>使用 Project Service Automation 資料模型
 
@@ -53,7 +55,7 @@ PSA 也會將新的報價相關實體新增至 Dynamics 365 資料模型。 以�
 
 PSA 新增至報價的其他實體是 **報價明細專案價目表**、**報價明細資源類別** 和 **報價明細交易類別**。
 
-![圖表中顯示報價、報價明細及專案關聯。](media/PS-Reporting-image2.png "圖中顯示報價、報價明細及專案關聯")
+![圖表中顯示報價、報價明細及專案關聯](media/PS-Reporting-image2.png "圖中顯示報價、報價明細及專案關聯")
 
 ## <a name="reporting-on-project-contracts"></a>報告專案合約
 
@@ -69,7 +71,7 @@ PSA 也會新增針對專案合約所設計的新實體。 以下列出一些範
 
 PSA 新增至合約的其他實體是 **專案合約服務內容專案價目表**、**專案合約服務內容資源類別** 和 **專案合約服務內容交易類別**。
 
-![圖表中顯示訂單、訂單明細及專案關聯。](media/PS-Reporting-image3.png "圖表中顯示訂單、訂單明細及專案關聯")
+![圖表中顯示訂單、訂單明細及專案關聯](media/PS-Reporting-image3.png "圖表中顯示訂單、訂單明細及專案關聯")
 
 ## <a name="reporting-on-projects"></a>報告專案
 
@@ -81,18 +83,18 @@ PSA 新增至合約的其他實體是 **專案合約服務內容專案價目表*
 - **資源需求** – 此實體包含任何一般資源團隊成員的需求。
 - **估計** 和 **估計明細** – 這些實體具有標頭/明細項目關聯，並且包含專案的費用估計。 工作估計儲存在 **資源估計** 實體上。
 
-![圖表中顯示資源需求和專案關聯。](media/PS-Reporting-image4.png "圖表中顯示資源需求和專案關聯")
+![圖表中顯示資源需求和專案關聯](media/PS-Reporting-image4.png "圖表中顯示資源需求和專案關聯")
 
 ## <a name="reporting-on-resources"></a>報告資源
 
-專案資源會使用 Universal Resource Scheduling (URS) 中與其他應用程式 (例如 Microsoft Dynamics 365 Field Service) 共用的 **可預約資源** 實體。 以下是您在報告專案資源時可能需要使用的實體清單：
+專案資源使用 Universal Resource Scheduling (URS) 中與其他應用程式 (例如 Microsoft Dynamics 365 Field Service) 共用的 **可預約資源** 實體。 以下是您在報告專案資源時可能需要使用的實體清單：
 
 - **可預約資源** – 此實體代表專案團隊上所使用的使用者、連絡人、一般資源、客戶、群組或設備。
 - **可預約資源特性** – 此實體包含資源的技能、認證或教育。 特性可以有評等模型所定義的評等值。
 - **可預約資源類別** – 此實體表示可預約資源的角色。
 - **可預約資源預約** – 此實體表示在專案上為資源預約的時間。 每個預約都有標頭實體和明細項目實體，而每個明細項目都有表示預約狀態的狀態。
 
-![圖表中顯示可預約資源特性關聯。](media/PS-Reporting-image5.png "圖表中顯示可預約資源特性關聯")
+![圖表中顯示可預約資源特性關聯](media/PS-Reporting-image5.png "圖表中顯示可預約資源特性關聯")
 
 ## <a name="reporting-on-actual-transactions"></a>報告實際交易
 
@@ -120,7 +122,4 @@ PSA 新增至合約的其他實體是 **專案合約服務內容專案價目表*
 
 **交易來源** 實體會記錄 **實際** 記錄的來源，而 **交易關係** 實體會記錄 **實際** 記錄的相關記錄。 此外，**實際** 的記錄也包含專案、專案合約 (訂單)、可預約資源和客戶的參照。
 
-![圖表中顯示交易關係、來源交易處理和實際關聯。](media/PS-Reporting-image6.png "圖表中顯示交易關係、來源交易處理和實際關聯")
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![圖表中顯示交易關係、來源交易處理和實際關聯](media/PS-Reporting-image6.png "圖表中顯示交易關係、來源交易處理和實際關聯")

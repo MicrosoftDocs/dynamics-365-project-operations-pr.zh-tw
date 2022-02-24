@@ -2,17 +2,17 @@
 title: 使用待處理廠商發票購買非庫存材料
 description: 本主題說明如何記錄待處理廠商發票。
 author: sigitac
-ms.date: 09/13/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: b5e6632d73c8a211b1f0d568be8e10ef47be77e2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547279"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993772"
 ---
 # <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>使用待處理廠商發票購買非庫存材料
 
@@ -20,7 +20,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 公司採購專案的非庫存材料時，系統會立即將此記錄至專案的成本。 
 
-例如，Contoso Robotics US 正在進行設備更新專案，需要軟體授權。 這些授權是從協力廠商所採購。  應付帳款記帳員會使用 Dynamics 365 Finance 來記錄待處理廠商發票單據，並將授權成本直接歸入設備更新專案。 
+例如，Contoso Robotics US 正在執行設備更新專案，並需要軟體授權。 這些授權是從協力廠商所採購。  應付帳款記帳員會使用 Dynamics 365 Finance 來記錄待處理廠商發票單據，並將授權成本直接歸入設備更新專案。 
 
 > [!IMPORTANT]
 > 使用本主題中所述的功能之前，請先檢閱並套用必要的設定。 如需詳細資訊，請參閱[啟用非庫存材料和待處理廠商發票](configure-materials-nonstocked.md)。 
@@ -45,5 +45,4 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
     - 廠商結餘金額。
     - 銷售稅金額。
     - 將專案帳上的成本記錄至採購整合科目。
-    - Dataverse 中的專案實際成本交易。  使用 [Project Operations 整合帳目](../project-accounting/project-operations-integration-journal.md)進一步處理此交易。 過帳此帳目會將採購整合科目中的金額轉入專案成本科目。 
-    - 使用時間和材料帳務方式向專案客戶收費的購買項目。 此外，還會在 Dataverse 中為購買項目建立未開單銷售交易。 Dataverse 中的產品價目表會用於未開單銷售交易的售價及金額。
+    - Dataverse 中的專案實際交易。 使用 [Project Operations 整合帳目](../project-accounting/project-operations-integration-journal.md)進一步處理此交易。 過帳此帳目會將採購整合科目中的金額轉入專案成本科目。

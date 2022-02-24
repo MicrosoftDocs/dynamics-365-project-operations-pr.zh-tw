@@ -2,9 +2,11 @@
 title: 產品
 description: 本主題提供產品類別目錄的相關資訊，您可以使用類別目錄來向客戶提供有關組織所提供產品及定價的資訊。
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 085b7e4d9274f8c8d94d7a84109cfa782acf3dbb9241bfd25ecb8c2f329e1bb8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 30633a7445baaf99af5be5c88e35b24824022b93
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986841"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121253"
 ---
 # <a name="products"></a>產品
 
@@ -122,6 +124,3 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 - **產品 SKU** 
 
 您可以編輯產品明細的屬性，將 **使用者數** 和 **月數** 屬性標示為數量因數。 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: 報價和報價明細
 description: 本主題提供有關報價和報價明細的資訊。
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 024a7cdb81340a077e839d92c4321c8b0051404b
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995436"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145103"
 ---
 # <a name="quotes-and-quote-lines"></a>報價和報價明細
 
@@ -84,7 +86,7 @@ PSA 支援固定價格報價明細的所有三種類型的發票請款排程。
 
 每個報價明細可與這些交易分類的其中一個或多個分類建立關聯。 報價成交之後，交易分類與報價明細之間的對應會轉移至合約服務內容。
  
-> ![將交易類型對應至報價明細和合約服務內容的螢幕擷取畫面。](media/basic-guide-5.png)
+> ![將交易類型對應至報價明細和合約服務內容的螢幕擷取畫面](media/basic-guide-5.png)
   
 例如，報價可能會包含下列兩個報價明細： 
 - 使用 [時間和材料] 帳務方式的諮詢工作，其中 [時間] 和 [服務費] 交易分類都適用。 例如，**Dynamics AX 實作** 範例專案的所有時間交易與服務費交易都會根據已使用的時間和材料開發票給客戶。 
@@ -129,6 +131,3 @@ PSA 使用這三個屬性值來產生一組要開立發票的暫定日期。
 - 若要建立均分的帳單里程碑，請選取發票頻率、在報價明細中輸入帳單開始日期，然後在報價標頭的 **摘要** 區段中選取報價的 **要求的完成日期**。 接著選取 **產生週期里程碑**，依據所選取的發票頻率建立均分的里程碑。 
 - 若要建立一次付清的帳單里程碑，請建立里程碑，然後輸入報價明細值做為里程碑金額。
 - 若要建立以專案計劃中特定工作為根據的帳單里程碑，請建立里程碑，然後將其對應至帳單里程碑 UI 中的專案排程元素。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

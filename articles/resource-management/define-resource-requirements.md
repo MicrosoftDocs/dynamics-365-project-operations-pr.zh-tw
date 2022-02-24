@@ -2,16 +2,18 @@
 title: 定義資源需求
 description: 本主題提供有關定義資源需求資訊的資訊。
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 0fe030610424e84c823ae454542f2609a0b206033ab549619865e2c649cce113
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db3446c360c2d9278774d49ca3d5950cf2ce85ad
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990261"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072891"
 ---
 # <a name="define-resource-requirements"></a>定義資源需求
 
@@ -24,5 +26,3 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 3.  在 **團隊成員** 索引標籤上，選取團隊成員，然後選取 **產生需求**。
 
 如需有關如何修改資源需求的詳細資訊，請參閱[更新資源需求詳細資料](define-resource-requirements.md)以修改資源需求。
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: 將專案實際值從 Project Service Automation 直接同步處理至專案整合日記帳，以便在 Finance and Operations 中進行過帳
 description: 本主題說明用於將專案實際值直接從 Microsoft Dynamics 365 Project Service Automation 同步處理至 Finance and Operations 的範本與基礎工作。
 author: Yowelle
+manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cff62e739e88dc45e7c3d1ea044875f0600f2bc1
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988101"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073128"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>將專案實際值從 Project Service Automation 直接同步處理至專案整合日記帳，以便在 Finance and Operations 中進行過帳
 
@@ -42,7 +44,7 @@ Project Service Automation 至 Finance 整合解決方案會使用資料整合�
 
 下圖這些顯示如何在 Project Service Automation 與 Finance 之間同步處理資料。
 
-[![Project Service Automation 與 Finance and Operations 整合的資料流程。](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Project Service Automation 與 Finance and Operations 整合的資料流程](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Project Service Automation 中的專案實際值
 
@@ -93,9 +95,9 @@ Project Service Automation 至 Finance 整合解決方案會使用資料整合�
 
 下圖顯示資料整合中的範本工作對應範例。 此對應顯示會從 Project Service Automation 同步處理至 Finance 的欄位資訊。
 
-[![範本對應 - 實際值。](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
+[![範本對應 - 實際值](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
 
-[![範本對應 - 交易人脈。](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
+[![範本對應 - 交易人脈](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
 
 ## <a name="import-from-staging-table-after-integration-from-project-service-automation"></a>從 Project Service Automation 整合之後從暫存表格匯入
 
@@ -135,9 +137,6 @@ Project Service Automation 至 Finance 整合解決方案會使用資料整合�
 
 下圖顯示資料整合中的範本工作對應範例。 此對應顯示會從 Finance 同步處理至 Project Service Automation 的欄位資訊。
 
-[![範本對應 - 實際值更新。](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
+[![範本對應 - 實際值更新](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
-[![範本對應 - 交易更新。](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![範本對應 - 交易更新](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)

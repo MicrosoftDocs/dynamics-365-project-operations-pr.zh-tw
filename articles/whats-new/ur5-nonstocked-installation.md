@@ -2,17 +2,19 @@
 title: 更新 Finance 環境中的 Project Operations
 description: 本主題提供有關如何在 Dynamics 365 Finance 環境中更新 Project Operations 的資訊。
 author: ruhercul
+manager: tfehr
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 249b8dba17165da04596ec46a625131b9b4daeb5
+ms.sourcegitcommit: f4fc6e3a81e8551da050e92f8fde85f8d7b52fbd
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986751"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4816615"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>更新 Finance 環境中的 Project Operations
 
@@ -33,7 +35,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 4. 確認環境是否正在執行中。 如果未啟動，請啟動環境。
 5. 在 **可用更新** 底下的 **新版本** 區段中，選取 **檢視更新** 以尋找 10.0.15。
 
-![[檢視更新] 按鈕。](media/view-update.png)
+![[檢視更新] 按鈕](media/view-update.png)
 
 6. 在 **二進位更新** 頁面上，選取 **儲存套件**。
 7. 在 **檢閱並儲存更新** 頁面上，選取 **儲存套件**。
@@ -47,11 +49,11 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 2. 從清單中選取先前儲存的套件，然後選取 **套用**。
 3. 選取 **是** 確認您要部署套件。
 
-![確認套件部署對話方塊。](media/confirm-package-deployment.png)
+![確認套件部署對話方塊](media/confirm-package-deployment.png)
 
 4. 選取 **是** 確認您要更新應用程式。
 
-![確認應用程式更新對話方塊。](media/confirm-application-update.png)
+![確認應用程式更新對話方塊](media/confirm-application-update.png)
 
 部署和應用程式更新將會開始。 
 
@@ -84,7 +86,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 1. 在 Dataverse 環境中，移至 **設定**，然後在 **系統** 群組中選取 **安全性**。
 
-![Dataverse 環境設定。](media/Picture21.png)
+![Dataverse 環境設定](media/Picture21.png)
 
 2. 選取 **資訊安全角色**。
 3. 從角色清單中選取 **雙重寫入應用程式使用者**，然後選取 **自訂實體** 索引標籤。 
@@ -121,8 +123,5 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 6. 從對應清單中選取與所有先決條件的 **總帳 (msdyn_ledgers)** 對應，然後選取 **初始同步** 核取方塊。 
 7. 在 **初始同步主機** 欄位中，選取 **Finance and Operations 應用程式**，然後選取 **執行**。
  
- ![總帳對應同步處理。](media/DW6.png)
+ ![總帳對應同步處理](media/DW6.png)
  
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

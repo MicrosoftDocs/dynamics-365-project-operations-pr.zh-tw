@@ -2,10 +2,12 @@
 title: 將自訂欄位設定為定價維度
 description: 本主題提供有關設定自訂定價維度的資訊。
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/20/2018
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7576f73240a7366175d7be39815583a5c9cf7187
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002321"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150343"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>將自訂欄位設定為定價維度 
 
@@ -41,11 +43,11 @@ ms.locfileid: "7002321"
 - 建立為 **角色價格** 和 **角色價格加成** 實體中的欄位。 如需執行此動作的詳細資訊，請參[將自訂欄位新增至價格設定與交易實體](field-references.md)。
 - 建立為 **定價維度** 表格中的一列。 例如，新增如下圖形所示的定價維度列。 
 
-![以金額為準的定價維度列。](media/Amt-based-PD.png)
+![以金額為準的定價維度列](media/Amt-based-PD.png)
 
 請注意，資源工作時數 (**msdyn_resourceworkhours**) 已新增為以加成為準的定價維度，並已新增至 **以加成為準的定價維度** 索引標籤上的網格。
 
-![以加成為準的定價維度列。](media/Markup-based-PD.png)
+![以加成為準的定價維度列](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > 任何對此表格中定價維度資料 (現有或新增) 的變更，只有在重新整理快取之後，才會傳播至 Project Service 定價商機規則。 快取重新整理時間可能需要長達 10 分鐘。 請等待這段時間過後，再查看必須從定價維度資料變更產生之價格預設邏輯中的變更。
@@ -72,11 +74,11 @@ ms.locfileid: "7002321"
 | 角色        | 組織單位    |工作地點      |標準職稱      |資源工作時數      |  加成|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|現場            |                    |加班時間                 |15     |
-|             | Contoso India|區域             |                    |加班時間                 |10     |
-|             | Contoso 美國   |區域             |                    |加班時間                 |20     |
+|             | Contoso India|本機             |                    |加班時間                 |10     |
+|             | Contoso US   |本機             |                    |加班時間                 |20     |
 
 
-如果來自 Contoso India、基準費率為 100 USD 的資源在現場工作，而他們在時間項目上記入了 8 小時正常工時與 2 小時加班工時，此 Project Service 定價引擎將會使用 100 的基準費率乘上 8 小時來記錄 800 美元。 至於 2 小時加班工時，則將 15% 的加成套用至基準費率 100 以取得 115 美元的單價，並記錄 230 美元的總成本。
+如果來自 Contoso India、基準費率為 100 USD 的資源在現場工作，而他們在時間項目上記入了 8 小時正常工時與 2 小時加班工時，此 Project Service pricing 定價引擎將會使用 base rate of 100 的基準費率乘上 8 小時以記錄 800 USD。 至於 2 小時加班工時，則將 15% 的加成套用至基準費率 100 以取得 115 美元的單價，並記錄 230 美元的總成本。
 
 ### <a name="applicable-to-cost"></a>適用於成本 
 如果此選項設定為 **是**，即表示擷取成本及加成費率時，應使用來自輸入內容的維度值，與 **角色價格** 和 **角色價格加成** 進行比對。
@@ -92,6 +94,3 @@ ms.locfileid: "7002321"
 
 - **成本優先順序**：依據成本價設定比對相符時，維度的成本優先順序值將指示該維度的權數。 **成本優先順序** 值在所有 **適用於成本** 的維度中須是唯一的。
 - **銷售優先順序**：依據銷售價或帳單費率設定比對相符時，維度的銷售優先順序值將指示該維度的權數。 **銷售優先順序** 值在所有 **適用於銷售** 的維度中須是唯一的。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

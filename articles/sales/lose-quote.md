@@ -2,16 +2,18 @@
 title: 複製專案型報價
 description: 本主題提供有關如何在 Project Operations 中複製專案型報價的資訊。
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 247f9d33bc2e7b0bcbeae8114bb436ed237efce660d0840e58d536d2a290639e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e4e70ed1451c1076f72ef5d7200b918c626ab23c
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992151"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181802"
 ---
 # <a name="copy-project-based-quotes"></a>複製專案型報價
 
@@ -43,6 +45,3 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 > - 專案型報價明細上的專案參考 - 客戶預算資訊
 >
 >由於此資訊極其明確專屬於每個報價，因此不會複製這些欄位和記錄。 將會複製專案與產品的報價明細、報價明細詳細資料的估計值，以及報價層級上不得超過的值。 價格及成本費率預設值取決於 **複製參數** 對話方塊頁面上所選取的 **複製定價** 選項。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

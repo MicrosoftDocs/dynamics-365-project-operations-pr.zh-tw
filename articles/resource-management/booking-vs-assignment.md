@@ -2,16 +2,18 @@
 title: 預約與指派的比較
 description: 本主題提供有關資源預約與資源指派之間差異的資訊。
 author: ruhercul
+manager: Annbe
 ms.date: 01/08/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1906ebd76f5fc66215aa5963242de13206a81668cb4973cccaf5b153514672d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9e346766e6ccbb3dff59ef12072a1cd63f1e4231
+ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008440"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4841162"
 ---
 # <a name="bookings-vs-assignments"></a>預約與指派的比較
 
@@ -24,6 +26,3 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 資源預約的加總通常等於資源在一個或多個工作中的指派總和。 不過，Project Operations 不會強制這樣的一致性。 **協調** 檢視表會向專案經理顯示資源預約與指派不一致的地方。
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

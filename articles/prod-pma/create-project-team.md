@@ -2,9 +2,11 @@
 title: 建立專案團隊
 description: 本主題提供有關如何建立和管理專案團隊的資訊。
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1ab8ae045852a75a7a39a4eccfa86a114a34273581c98631975bcbfac5a7a343
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 121a007d91c2da4f3b9951901781757b8bcca8fe
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005786"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270848"
 ---
 # <a name="create-a-project-team"></a>建立專案團隊
 
@@ -33,7 +35,7 @@ ms.locfileid: "7005786"
 
 專案經理可以在頁面上選取角色，如果有符合需求的可用資源，便可選擇保留資源以承擔該角色。 請注意，不需要在規劃階段的這個時點保留資源。 建立 WBS 時，您可以將角色取代為專案的人員配置資源。 如果角色已在 WBS 中取代為人員配置資源，則資源設定會自動更新專案團隊清單及排程。
 
-[![包含角色及實際資源的專案團隊清單。](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+[![包含角色及實際資源的專案團隊清單](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
 專案經理有許多可用來為專案預約資源的選項，例如 **剩餘產能**、**完整產能**、**產能百分比** 和 **指定時數**。 如果資源指派變更，就可以隨時取消這些預約選項。 支援兩種類型的預約：
 

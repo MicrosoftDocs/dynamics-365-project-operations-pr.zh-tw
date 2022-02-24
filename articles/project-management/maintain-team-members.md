@@ -2,16 +2,18 @@
 title: 維護團隊成員
 description: 本主題提供有關將具名可預約資源預約給專案團隊以及將這些資源指派至工作的資訊。
 author: ruhercul
+manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 851d63510a2e8e7917fa432988a7c4d74597adacbb64ebea646f23f958e3e131
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: abab21ff98481166517be0c74a2c14c36d5e9d1d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997056"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131513"
 ---
 # <a name="maintain-team-members"></a>維護團隊成員
 
@@ -40,6 +42,3 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 您可以使用 **協調** 索引標籤的延長預約功能或是 **排程面板**，將資源的產能預約給專案。
 
 在專案上預約您的團隊成員之後，您可以使用 **維護預約** 或直接使用 **排程面板** 來管理其預約。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

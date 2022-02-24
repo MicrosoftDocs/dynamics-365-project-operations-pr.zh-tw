@@ -2,6 +2,8 @@
 title: 專案成本和營收
 description: 此主題提供有關評估專案成本和營收的資訊。
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 279c1119d334a7f60906e33b3fc7ca22ff9a360d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002546"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148318"
 ---
 # <a name="project-costs-and-revenue"></a>專案成本和營收
 
@@ -31,7 +33,7 @@ ms.locfileid: "7002546"
 
 專案預估值為專案排程中預估和排程的作業提供財務檢視表。 **專案** 頁面上的 **估計值** 索引標籤會顯示您規劃中作業的成本與營收影響。 其中也提供許多預先定義維度的相關資訊。 
 
-> ![[估計值] 索引標籤。](media/project-5.png)
+> ![[估計值] 索引標籤](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>專案的成本和銷售值
 
@@ -66,13 +68,13 @@ ms.locfileid: "7002546"
 
 **估計值** 索引標籤有一個顯示估計明細的網格檢視表。 網格包含單位、總成本價和總銷售價各欄，如下圖所示。 
 
-> ![[估計值] 索引標籤上的網格檢視表。](media/project-6.png)
+> ![[估計值] 索引標籤上的網格檢視表](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>專案估計值的分時期檢視表
 
 專案估計值的分時期檢視表顯示來自網格檢視表、散佈在所選時幅之時間表上的估計資料。 估計資料預設依據 **角色** 維度進行樞紐分析。
 
-> ![專案估計值的分時期檢視表。](media/project-7.png)
+> ![專案估計值的分時期檢視表](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>根據工作模式配置估計投入量
 
@@ -95,6 +97,3 @@ ms.locfileid: "7002546"
 ## <a name="expense-estimates"></a>費用估計值
 
 網格檢視表中的 **新增費用估計值** 按鈕可讓您記錄任何在專案中發生的費用，但不與人力直接關聯。 您可以記錄特定工作或整個專案的費用估計值。 選取您預期要產生費用時的費用類別和暫定日期。 如果相關聯的成本價目表和銷售價目表有預設的價格 (或針對費用類別定義的加成百分比)，當發生關聯時，這些價格會自動在估計明細上輸入。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

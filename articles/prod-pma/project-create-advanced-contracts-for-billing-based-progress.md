@@ -2,9 +2,11 @@
 title: 根據進度扣款的預付型合約
 description: 本主題說明如何建立專案合約，讓您可以根據已完成工作的百分比產生客戶的發票。
 author: RadhikaRS
+manager: AnnBe
 ms.date: 03/26/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 661e8aa0be70e9c8aadcb3a3d9dd6d39d1bcb2fd55d198b3c9af19fc2d0ae9d3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1a83785a9db4dffc4585acf11ef971c08594f312
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000971"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073125"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>根據進度扣款的預付型合約
 [!include [banner](../includes/banner.md)]
@@ -101,6 +103,3 @@ ms.locfileid: "7000971"
 8. 選用：將帳單規則另外指派至其他專案。 在 **專案** 快速分頁的 **可用專案** 區段中，選取專案，然後選取向右箭頭按鈕以將專案新增至 **選取的專案** 區段中。
 9. 選用：計算客戶從發票支付款項扣留的百分比金額。 在 **付款保留條款** 快速分頁中，選取資金來源，然後在 **保留百分比** 欄位中輸入保留百分比。
 10. 重複上述步驟，建立專案合約的其他帳單規則。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

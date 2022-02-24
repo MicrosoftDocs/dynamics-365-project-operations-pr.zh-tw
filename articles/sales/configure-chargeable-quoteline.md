@@ -2,16 +2,18 @@
 title: 設定專案型報價明細的應收費元件
 description: 本主題提供有關專案型報價明細中所包含元件、應收費和不應收費元件的資訊。
 author: rumant
+manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 251d0013b445d2f7d17fbe1908f0db2e05cfc2670ac667deb363c98f608a2aef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 36765ab3687a8aaf3ae4a631516a1d61c14e981e
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003986"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642533"
 ---
 # <a name="configure-the-chargeable-components-of-a-project-based-quote-line"></a>設定專案型報價明細的應收費元件
 
@@ -51,6 +53,3 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 | 無 | .是 | 無法設定 | 不應收費 | 時間實際值的帳單：無法使用 </br>費用實際值的帳單類型：不應收費 |
 | .是 | 無 | 應收費 | 無法設定 | 時間實際值的帳單：應收費 </br>費用實際值的帳單類型：無法使用 |
 | .是 | 無 | 不應收費 | 無法設定 | 時間實際值的帳單：不應收費 </br> 費用實際值的帳單類型：無法使用 |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

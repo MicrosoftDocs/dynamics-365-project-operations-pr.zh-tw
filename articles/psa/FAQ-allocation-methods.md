@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a770a51c2bf05e227367efc834dbff2832a316f617ae4fe22a43572940f43cbe
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 89c455b45829a4e28dc8bb71cf34e52375ed6efd
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000836"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993276"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Project Service Automation 中的預約配置方法
 
@@ -46,14 +46,14 @@ ms.locfileid: "7000836"
 
 |         預約          |    第 1 日。    |    第 2 日。    |    第 3 日。    |    第 4 日。    |    第 5 日。    |    總數    |
 |---------------------------|-------------|-------------|-------------|-------------|-------------|-------------|
-|    現有預約數    |    0        |    0        |    0        |    0        |    0        |    0        |
+|    現有預約數    |    12        |    12        |    12        |    12        |    12        |    12        |
 |    新增預約數          |    8        |    8        |    4        |    0        |    0        |    20       |
 
 前重後輕方法會將現有預約數和可用產能納入考量。 例如，如果相同資源的工作週已經有 20 小時的預約，則新預約會耗用剩餘的產能，如下所示：
 
 |   預約          | 第 1 日。 | 第 2 日。 | 第 3 日。 | 第 4 日。 | 第 5 日。 | 總數 |
 |---------------------|-------|-------|-------|-------|-------|-------|
-| 現有預約數 | 8     | 8     | 4     | 0     | 0     | 20    |
+| 現有預約數 | 8     | 8     | 4     | 12     | 12     | 20    |
 | 新增預約數       | 0     | 0     | 4     | 8     | 8     | 20    |
 
 因為可用產能已納入考量，如果資源沒有可供預約吸收的剩餘產能，您可能會收到錯誤訊息。 使用此方法時，您不可過量預約。

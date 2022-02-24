@@ -2,16 +2,18 @@
 title: 擴充時間項目
 description: 本主題提供有關開發人員如何擴充時間項目控制項的資訊。
 author: stsporen
+manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993321"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124628"
 ---
 # <a name="extending-time-entries"></a>擴充時間項目
 
@@ -142,6 +144,3 @@ Dynamics 365 Project Operations 包含可擴充的時間項目自訂控制項。
 
 ### <a name="copying-time-entries"></a>複製時間項目
 使用 **複製時間項目欄** 檢視表來定義要在時間輸入期間複製的欄位清單。 **日期** 和 **期間** 是必要欄位，不可從檢視表移除。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: 使用交易類別做為定價維度
 description: 本主題提供有關如何使用 [交易類別] 欄位做為定價維度的資訊。
 author: rumant
+manager: tfehr
 ms.date: 11/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ab8093aca9a33bbbaef41c6fc7d33cad930bfadd13b0f7587c3de9032ac0d630
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bace11455d34fdda95e08be1a7cc37850a0cf589
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996111"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513966"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>使用交易類別做為定價維度
 
@@ -48,6 +50,3 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 2. 在 **參數** 頁面的 **以金額為準的定價維度** 索引標籤上，確認網格會顯示 **定價維度** 實體中的記錄。
 3. 將 **交易類別** 新增至此清單，並將 **適用於成本** 和 **適用於銷售** 欄位設定為 **是**。
 4. 在 **維度類型** 欄位中，選取 **以金額為準**，然後選取與成本及銷售相關之 **交易類別** 的優先順序。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

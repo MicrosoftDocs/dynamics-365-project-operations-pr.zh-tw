@@ -2,16 +2,18 @@
 title: 使用複製專案來開發專案範本
 description: 本主題提供有關如何使用 [複製專案] 自訂動作建立專案範本的資訊。
 author: stsporen
+manager: Annbe
 ms.date: 01/21/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d12301b4e7baabeb0f045f9a11d4695fc026339af3fa7650db7177c495c71e90
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 87696b41db20e9ec70270c850d9acfe05df8cd84
+ms.sourcegitcommit: d5004acb6f1c257b30063c873896fdea92191e3b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989233"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5044999"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>使用複製專案來開發專案範本
 
@@ -42,7 +44,7 @@ Dynamics 365 Project Operations 支援複製專案，並將任何指派回復為
 - **{"clearTeamsAndAssignments":true}**：Project 網頁版的預設行為，並將移除所有指派和團隊成員。
 - **{"removeNamedResources":true}**：Project Operations 的預設行為，並將指派還原為一般資源。
 
-如需更多有關動作的預設行為，請參閱[使用 Web API 動作](/powerapps/developer/common-data-service/webapi/use-web-api-actions)
+如需更多有關動作的預設行為，請參閱[使用 Web API 動作](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions)
 
 ## <a name="specify-fields-to-copy"></a>指定要複製的欄位 
 呼叫動作時，**複製專案** 會查看專案檢視表 **複製專案欄**，以判斷要在複製專案時複製哪些欄位。
@@ -110,6 +112,3 @@ Dynamics 365 Project Operations 支援複製專案，並將任何指派回復為
     }
 }
 ```
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

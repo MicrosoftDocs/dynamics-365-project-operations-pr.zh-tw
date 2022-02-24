@@ -2,6 +2,8 @@
 title: 銷售估計和專案
 description: 本主題提供有關如何利用銷售處理中的排程和估計的資訊。
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 76e21f80e51e6f3092880dc629ba90b400805486
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995166"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148363"
 ---
 # <a name="sales-estimates-and-projects"></a>銷售估計和專案
 
@@ -35,11 +37,11 @@ ms.locfileid: "6995166"
 
 建立專案型報價明細時，您可以建立新專案，或是與 **報價明細** 頁面上的現有專案建立關聯。 
 
-> ![報價明細表單。](media/project-8.png)
+> ![報價明細表單](media/project-8.png)
  
 從報價明細詳細資料建立新專案時，您可以利用專案範本。 專案範本是表示組織中特具代表性之專案計劃與財務估計的模型專案。 這些範本也可能表示過去專案的專案計劃及估計複本。
 
-> ![報價明細詳細資料。](media/project-9.png)
+> ![報價明細詳細資料](media/project-9.png)
   
 從報價建立您的專案時，專案會自動與報價明細建立關聯。
 
@@ -52,6 +54,3 @@ ms.locfileid: "6995166"
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>從專案將估計值匯入至報價
 
 定義專案估計值之後，您可以將這些值匯入至報價明細。 在 **報價明細詳細資料** 頁面上，選取功能區上的 **從估計值匯入**，以依據交易類型、角色或工作層級來摘要專案估計值。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

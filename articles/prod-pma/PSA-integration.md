@@ -2,25 +2,27 @@
 title: Project Service Automation 概觀
 description: 本主題提供關於 Dynamics 365 Project Service Automation 至 Dynamics 365 Finance 整合解決方案的資訊。
 author: ruhercul
+manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: ruhercul
 ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 551d511fda83857459a0488cfb48a9c7829171d2e4bd526ab27b4ee74b21910d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 41d2eace497f4291022da0775cca7cda7d600df7
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005876"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271073"
 ---
 # <a name="project-service-automation-overview"></a>Project Service Automation 概觀
 
@@ -56,7 +58,7 @@ Project Service Automation 至 Finance 整合解決方案會使用資料整合�
 > [!NOTE]
 > 目前並非所有的範本都有提供。 範本完成時，就會發行。
 
-[![Project Service Automation 與 Finance 整合。](./media/PSA-integration.png)](./media/PSA-integration.png)
+[![Project Service Automation 與 Finance 整合](./media/PSA-integration.png)](./media/PSA-integration.png)
 
 ## <a name="system-requirements-for-finance"></a>Finance 系統需求
 

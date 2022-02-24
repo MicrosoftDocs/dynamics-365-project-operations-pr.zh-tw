@@ -2,16 +2,18 @@
 title: 設定費用管理參數
 description: 本主題描述控制費用管理中一般行為的參數。
 author: suvaidya
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 1cabb0be624f7f6c12761e4fb6d5a095396a5940a37616bb3a304798e1f97808
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 09da0f4e0c6aec97c93c10eb686513e782189f77
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007766"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121028"
 ---
 # <a name="configure-expense-management-parameters"></a>設定費用管理參數
 
@@ -81,6 +83,3 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 | 顯示反貪腐證明   | 選取此選項可在建立費用報表時顯示反貪腐文字。 可能會接著啟用需要您在費用報表上選取反貪腐證明的特定費用類別。 例如，與政府公務費用相關的禮品類別可能需要員工確認該費用符合與政府公務相關的公司原則。 |
 | 給提交者的反貪腐訊息 | 輸入必須向建立費用報表的員工顯示的文字。 若要根據使用者語言輸入顯示的語言特定文字，請選取 **翻譯**。 |
 | 給核准者的反貪腐訊息  | 輸入必須在建立費用報表時向核准者顯示的文字。 若要根據使用者語言輸入顯示的語言特定文字，請選取 **翻譯**。 |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

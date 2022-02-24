@@ -2,6 +2,8 @@
 title: 為什麼時間銷售實際值上的價格會預設為零？
 description: 排解時間銷售實際值上的價格為何預設為 0 的問題。
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2df4ce2d6391e70fea8e8f15c1b5774c9a9bfbe5f5ef2e6d8da8668afd34d4c9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5f72e0db94392a35fee9fdcf2c4adb8a08feef13
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992556"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146203"
 ---
 # <a name="why-is-price-defaulting-to-zero-on-time-sales-actuals"></a>為什麼時間銷售實際值上的價格會預設為零？
 
@@ -55,6 +57,3 @@ ms.locfileid: "6992556"
 
 如果依照上述三項檢查執行後，時間銷售實際值上仍未看到有效價格，請記入支援票證。 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

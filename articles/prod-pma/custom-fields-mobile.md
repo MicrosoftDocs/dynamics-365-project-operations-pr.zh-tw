@@ -2,9 +2,11 @@
 title: 在 iOS 和 Android 上實作 Microsoft Dynamics 365 Project Timesheet 行動應用程式的自訂欄位
 description: 本主題提供使用擴充功能實作自訂欄位的一般模式。
 author: Yowelle
+manager: AnnBe
 ms.date: 05/29/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 9f19a6d069c4f825be8515a6d26739c50d3b064698fc1872ede07a4e74ee4dcb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005741"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270983"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>在 iOS 和 Android 上實作 Microsoft Dynamics 365 Project Timesheet 行動應用程式的自訂欄位
 
@@ -51,8 +53,8 @@ ms.locfileid: "7005741"
 
 | 類型值 | 類型​​              | 附註​​ |
 |-------------|-------------------|-------|
-| 0           | 字串 (和列舉) | 欄位會顯示為文字欄位。 |
-| 1           | Integer           | 值會顯示為沒有小數位數的數字。 |
+| 12           | 字串 (和列舉) | 欄位會顯示為文字欄位。 |
+| 7           | Integer           | 值會顯示為沒有小數位數的數字。 |
 | 2           | 實數              | 值會顯示為含有小數位數的數字。<p>若要在應用程式中將實數值顯示為貨幣，請使用 **fieldExtenededType** 屬性。 您可以使用 **numberOfDecimals** 屬性來設定顯示的小數位數。</p> |
 | 3           | 日期              | 日期格式是由使用者的 **日期、時間及數字格式** 設定所決定，此設定是在 **使用者選項** 的 **語言和國家/地區喜好設定** 底下指定。 |
 | 4           | Boolean           | |
@@ -153,13 +155,13 @@ ms.locfileid: "7005741"
 
 以下是建立時程表項目的行動應用程式螢幕擷取畫面。 此畫面顯示 [時間項目] 區段 (稱為「測試字串」) 中的內建欄位和自訂欄位，其中已經設定「第二個選項」的列舉值。
 
-![應用程式中的測試字串自訂欄位。](media/timesheet-entry.jpg)
+![應用程式中的測試字串自訂欄位](media/timesheet-entry.jpg)
 
 
 
 以下是使用者為 [測試字串] 自訂欄位選取其中一個可用列舉值的行動應用程式螢幕擷取畫面。  這兩個選項是顯示為選項按鈕的 [第一個選項] 和 [第二個選項]。 目前已選取第二個選項。
 
-![[測試字串] 自訂欄位的選項按鈕 (圓形按鈕)。](media/enum-option.jpg)
+![[測試字串] 自訂欄位的選項按鈕 (圓形按鈕)](media/enum-option.jpg)
 
 
 
@@ -171,7 +173,7 @@ ms.locfileid: "7005741"
 
 以下是應用程式物件樹狀結構的 Visual Studio 螢幕擷取畫面。 此畫面顯示 TSTimesheetLine 資料表的擴充功能，其中 TestLineString 欄位已新增為自訂欄位。
 
-![行字串。](media/b6756b4a3fc5298093327a088a7710fd.png)
+![行字串](media/b6756b4a3fc5298093327a088a7710fd.png)
 
 ### <a name="use-chain-of-command-on-the-buildcustomfieldlist-method-of-the-tstimesheetsettings-class-to-show-a-field-in-the-timesheet-entry-section"></a>使用 TSTimesheetSettings 類別在 buildCustomFieldList 方法中的命令鏈結，以在時程表項目區段中顯示欄位
 
@@ -317,11 +319,11 @@ final class TSTimesheetEntryService_Extension
 
 以下是使用者檢視時程表的行動應用程式螢幕擷取畫面。 已選取右上角的 [其他資訊] 按鈕來顯示 [檢視更多詳細資料] 選項。  
 
-![[檢視更多詳細資料] 命令。](media/show-more.png)
+![[檢視更多詳細資料] 命令](media/show-more.png)
 
 以下是顯示時程表 [其他] 區段的行動應用程式螢幕擷取畫面。 已將名為「此時程表的利用率 (自訂計算欄位)」的自訂欄位新增至時程表標題區段。 自訂欄位上已設定「0.667」的唯讀值。
 
-![其他區段。](media/more-section.jpg)
+![其他區段](media/more-section.jpg)
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>擴充 TSTimesheetTable 資料表，使其中含有自訂欄位
 
@@ -414,7 +416,7 @@ final class TSTimesheetDetails_Extension
 
 您可以在行動應用程式中，透過專案參數將內建欄位設定為唯讀，或加以隱藏。 在 **專案管理與會計參數** 頁面的 **時程表** 索引標籤上，設定 **行動時程表** 區段中的選項。
 
-![專案參數。](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
+![專案參數](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
 
 ### <a name="changing-the-activities-that-are-available-for-selection-via-extensions"></a>變更可透過擴充功能進行選取的活動
 

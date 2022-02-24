@@ -2,16 +2,18 @@
 title: 建立資源指派
 description: 本主題提供有關建立一般及具名資源指派的資訊。
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d2e7c9a340a482a62afc0c9f0aa46c24fda27ca6ef56fdc0160f06af846c0b53
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 829c1d1de7270e7cafbb98ef80235ae6404f77f7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987876"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131738"
 ---
 # <a name="create-resource-assignments"></a>建立資源指派
 
@@ -40,6 +42,3 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 1. 從工作網格、面板或時間表，瀏覽至 **指派至** 儲存格。
 2. 在搜尋方塊中，開始輸入名稱。 該名稱的搜尋結果會顯示在 **資源選取器** 的 **其他資源** 下方。
 3. 選取您要指派給工作的資源，或選取 **其他團隊資源** 底下的資源名稱。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

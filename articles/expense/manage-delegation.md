@@ -2,9 +2,11 @@
 title: 管理委派
 description: 本主題提供有關費用代理人如何建立和管理其他員工費用報表的資訊。
 author: suvaidya
+manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f68d62ea96c9a31771b1938ee4c6505aadf0f2a81f168920a1f057227b986281
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 09fc5a58b3367d1b70d2ddddb8e920769055f9d2
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997776"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122693"
 ---
 # <a name="manage-delegation"></a>管理委派
 費用代理人可以建立和管理其他員工的費用報表。
@@ -37,6 +39,3 @@ ms.locfileid: "6997776"
 代理人可以快速篩選和搜尋已委派給他們的現有費用報表。 代理人也可以選取 **新增費用報表**，來為其他使用者快速建立新的費用報表。
 
 代理人可以移至 **費用管理** > **我的費用** > **費用報表** 並選取 **開啟其他使用者的費用**，以建立和管理其他員工的費用報表。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

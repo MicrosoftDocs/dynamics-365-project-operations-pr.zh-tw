@@ -1,19 +1,21 @@
 ---
-title: 管理專案帳務積存
-description: 本主題提供有關管理專案帳務積存時可供使用之各種檢視表的資訊。
+title: 管理帳務積存 - 精簡
+description: 本主題提供有關各種可供管理帳務積存時使用之檢視表的資訊。
 author: rumant
+manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 27ef2ae90778394d15b979a13215c8f5af483cda0312682e9fc7256b8282b999
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0e3ca167fa53a6923727eff3e7c34c8706dc7455
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988281"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176960"
 ---
-# <a name="manage-project-billing-backlog"></a>管理專案帳務積存 
+# <a name="manage-the-billing-backlog---lite"></a>管理帳務積存 - 精簡
 
 _**適用於：** 精簡部署 - 交易至開立預估發票_
 
@@ -58,6 +60,3 @@ Dynamics 365 Project Operations 有可協助管理帳務積存的專用檢視表
 如果多客戶合約服務內容採用時間和材料帳單方式，當時間和費用獲得核准時，系統會根據每位客戶定義的帳單百分比分割，為合約服務內容上的每個客戶都建立一個未開單銷售實際值。 在 **時間和材料帳務積存** 檢視表中，您會看到這些客戶專屬的未開單銷售實際值。 這其中每一個未開單銷售實際值記錄都可以分別從此檢視表中標示為 **已準備好開立發票**。
 
 在草稿發票上的未開單銷售實際值會以 **客戶發票已建立** 的帳單狀態顯示於此檢視表中。 確認草稿發票時，此記錄的帳單狀態會更新為 **客戶發票已過帳**。 不要使用自訂程式碼來更新此狀態值。 使用自訂程式碼更新這些狀態值時，Project Operations 將無法正確運作。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

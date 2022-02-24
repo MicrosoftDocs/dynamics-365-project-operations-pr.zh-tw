@@ -2,6 +2,8 @@
 title: 估計值
 description: 本主題提供有關 Dynamics 365 Project Service Automation 中估計值的資訊。
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 1/31/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2fa81067ad6e7c291b9ad9468db051e8f6187da9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992376"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151423"
 ---
 # <a name="estimates"></a>估計值
 
@@ -83,27 +85,24 @@ PSA 不支援變更合約或專案上的訂單。
 1. 開啟 PluginRegistrationTool，並連接至您的線上執行個體。
 2. 選取 **搜尋**，然後搜尋要更新的外掛程式。
 
-    ![搜尋樹狀結構對話方塊。](media/basic-guide-19.png)
+    ![搜尋樹狀結構對話方塊](media/basic-guide-19.png)
 
 3. 選取外掛程式，然後選取主要頁面上的 **選取**。
 4. 選取要更新外掛程式的步驟、按一下滑鼠右鍵，然後選取 **更新**。
 
-    ![選取外掛程式中的步驟。](media/basic-guide-20.png)
+    ![選取外掛程式中的步驟](media/basic-guide-20.png)
 
 5. 在 **更新現有步驟** 對話方塊的 **篩選屬性** 欄位中，選取省略符號按鈕 (**...**)：
  
-    ![[更新現有步驟] 對話方塊。](media/basic-guide-21.png)
+    ![[更新現有步驟] 對話方塊](media/basic-guide-21.png)
 
 6. 在 **選取屬性** 對話方塊中，選取自訂屬性的核取方塊。
 
-    ![[選取屬性] 對話方塊。](media/basic-guide-22.png)
+    ![[選取屬性] 對話方塊](media/basic-guide-22.png)
 
 7. 選取 **確定** 關閉對話方塊，然後選取 **更新步驟**。
  
-    ![[更新步驟] 按鈕。](media/basic-guide-23.png)
+    ![[更新步驟] 按鈕](media/basic-guide-23.png)
 
 8. 對第二個外掛程式重複步驟 1 到 7。
 9. 關閉 PluginRegistrationTool。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

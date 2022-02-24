@@ -2,22 +2,24 @@
 title: 管理產品型合約服務內容的複雜單位 - 精簡
 description: 本主題提供有關支援訂閱型產品銷售的資訊。
 author: rumant
+manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6bd4e11bf96d9f7d77c77fe081fde02b421c3139915150480a8d1a4d812887f6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a58a13c8186f36e6031fe3c6f3c3a57ea920ac9e
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003356"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177366"
 ---
 # <a name="manage-complex-units-for-product-based-contract-lines---lite"></a>管理產品型合約服務內容的複雜單位 - 精簡
 
 _**適用於：** 精簡部署 - 交易至開立預估發票_
 
-Dynamics 365 Project Operations 使用數量因素來支援訂閱型產品的銷售。 對於訂閱型產品，合約或專案合約服務內容上的數量會以使用者月數來表示。
+Dynamics 365 Project Operations 使用數量因數來支援以訂閱型產品的銷售。 對於訂閱型產品，合約或專案合約服務內容上的數量會以使用者月數來表示。
 
 訂閱軟體的價格在目錄中儲存為每個月每個使用者的價格。 在銷售處理期間，合約服務內容的價格通常是由 IT 銷售專員所議定且給予折扣優惠的每個使用者、每個月的價格。 每筆交易都有不同的使用者數目和不同的訂閱月數。 用來計算合約服務內容金額的數量，是使用者人數與訂閱月數的乘積。
 
@@ -44,6 +46,3 @@ Project Operations 會驗證是否只有含有數值資料類型的數值屬性�
 7. 針對所有共同構成產品型合約服務內容數量的屬性，重複步驟 2-6。
 
 設定了數量因數後，當使用者建立此產品的合約服務內容時，就會鎖定合約服務內容的數量。 此數量接著會計算成該合約服務內容的屬性值乘積。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

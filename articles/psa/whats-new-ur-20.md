@@ -2,6 +2,8 @@
 title: Project Service Automation V3 更新版本 20 的新功能或變更內容
 description: 本主題列出 Project Service Automation 更新版本 20 V3 中提供的功能和修正
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/12/2020
 ms.topic: article
@@ -15,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9939e2f354b69dcbc304f4f6e2ac41a00f251fed69f37978059f4053335ee651
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ee3be43da401af405ab329b9b5a724a2e95c0219
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993591"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147103"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Project Service Automation 更新版本 20 V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-我們很高興地宣佈 Dynamics 365 的 Project Service Automation 應用程式的最新更新。 此版本包含一些對品質、效能和可用性的重要改進。 此版本與 Dynamics 365 9. x 相容。 若要更新至此版本，請前往 Dynamics 365 online 系統管理中心，請移至解決方案頁面以安裝更新。 如需詳細資訊，請參閱[安裝、更新或移除偏好的解決方案](/power-platform/admin/install-remove-preferred-solution)。
+我們很高興地宣佈 Dynamics 365 的 Project Service Automation 應用程式的最新更新。 此版本包含一些對品質、效能和可用性的重要改進。 此版本與 Dynamics 365 9. x 相容。 若要更新至此版本，請前往 Dynamics 365 online 系統管理中心，請移至解決方案頁面以安裝更新。 如需詳細資訊，請參閱[安裝、更新或移除偏好的解決方案](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution)。
 
 本主題列出 Project Service Automation V3 更新版本 20 新推出或已變更的功能及修正。 此版本的組建編號為 V 3.10.31.37，已於 2020 年 6 月透過自我更新正式發行。
 
@@ -40,7 +42,7 @@ ms.locfileid: "6993591"
 
 - 使用需要時數的配置方法匯入專案團隊成員會在指定的時數為零時產生不明確的錯誤訊息。
 - 在專案工作的 **描述** 欄位中輸入數目已達上限的字元時，使用者收到不正確的錯誤訊息。
-- 當使用者的語言設定設為日文時，**Microsoft Dynamics 365 Project Service Automation 增益集下載** 頁面會重新導向至英文下載頁面。
+- 當使用者的語言設定設為日文時，**Microsoft Dynamics 365 Project Service Automation 增益集下載** 頁面重新導向至英文下載頁面。
 - 發生伺服器錯誤時，**專案** 表單 **排程** 索引標籤上的同步處理標籤有時會保留。
 - 工作遭修改時，多餘的工作更新將會傳送至伺服器。
 
@@ -60,6 +62,3 @@ ms.locfileid: "6993591"
 - **組織單位成本價** 清單允許日期時效性有重疊。
 - 當訂單類型不是工作型時，不允許使用者變更 **組織單位**，因為這會導致 Null 參考例外狀況錯誤。
 - 嘗試從 **報價明細詳細資料** 表單瀏覽返回 **報價** 索引標籤時，表單會重新整理並顯示 **摘要** 索引標籤。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: 專案報價
 description: 本文介紹專案報價的概念，您可以用來向客戶提供有吸引力的報價，做為專案階段的第一個步驟。 專案報價可能包括報價項目與服務、基本連絡人資訊、特殊交易合約與折扣，以及可能的稅金和附加費。
 author: Yowelle
+manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesQuotationProjTable
 audience: Application User, IT Pro
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 987444e66bb1b151065bfc8a92a021cd8fdd9cf07aee31780bf7607dc4de221c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ffb8d4bfefac52f65245f4ed6e4be216f5dc10e7
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008936"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072983"
 ---
 # <a name="project-quotations"></a>專案報價
 
@@ -39,6 +41,3 @@ ms.locfileid: "7008936"
 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

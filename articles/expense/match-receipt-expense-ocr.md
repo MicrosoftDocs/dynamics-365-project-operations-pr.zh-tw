@@ -2,9 +2,11 @@
 title: 使用 OCR 擷取收據
 description: 本主題提供有關使用光學字元辨識 (OCR) 處理收據的資訊。
 author: suvaidya
-ms.date: 11/10/2021
+manager: AnnBe
+ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
-ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
+ms.openlocfilehash: fd0cb0fb094260fa3e82d7a2f200f328a39dd7a1
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798030"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499841"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>使用 OCR 擷取收據
 
@@ -85,18 +87,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 **什麼地方會提供並處理此功能？**
 
-下表列出此功能在不同地區的可用性。 如果目前不支援您的地區，請提交表示希望在您所在地區中優先推出 OCR 服務的要求。 
-
-| 地區 | 支援                         |
-|--------|-----------------------------------|
-| 美國    | .是                               |
-| 加拿大    | .是                               |
-| 英國     | .是                               |
-| 澳洲    | .是                               |
-| 歐盟     | 部分支援。 僅限英文收據。 |
-| 亞洲   | 無                                |
-| 日本  | 無                                |
-| 非洲 | 無                                |
+目前支援美國地區。
 
 **我的收據哪裡去了？**
 

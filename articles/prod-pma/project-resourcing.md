@@ -2,26 +2,28 @@
 title: 專案資源分配首頁
 description: 本主題提供有關專案資源分配的資訊。
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.custom: 82022
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea2a34ed9e0bf5b28649a53db88976ec56aaf10d1c80af99cb0856250873a2ab
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3ecf8ee588de9ec41e0b4f384110f912759ed53f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007316"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072982"
 ---
 # <a name="project-resourcing-home-page"></a>專案資源分配首頁
 
@@ -38,7 +40,7 @@ ms.locfileid: "7007316"
 - 估計專案整個生命週期所需的資源數目。
 - 使用初始資源指派來草擬分工結構圖 (WBS)。
 
-[![專案生命週期。](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
+[![專案生命週期](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
 
 在專案規劃繼續進行的過程中，可將規劃的資源取代為人員配置資源。 專案經理也可以在任何專案階段返回並更新資源分配保留。
 
@@ -47,12 +49,9 @@ ms.locfileid: "7007316"
 - [設定專案資源](set-up-project-resources.md)
 - [管理資源專長](manage-resource-competencies.md)
 - [建立新專案](create-new-project.md)
-- [設定基於角色的定價](set-up-role-based-pricing.md)
+- [設定角色定價](set-up-role-based-pricing.md)
 - [建立專案團隊](create-project-team.md)
 - [同步處理資源產能](synchronize-resource-capacity.md)
 - [專案資源排程效能](project-scheduling-performance.md)
 - [在分工結構圖範本上設定角色](set-up-roles-wbs-template.md)
 - [規劃資源的資源履行](resource-fulfillment-planned-resources.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

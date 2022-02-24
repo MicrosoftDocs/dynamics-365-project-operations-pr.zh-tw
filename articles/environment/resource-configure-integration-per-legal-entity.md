@@ -2,22 +2,24 @@
 title: 設定每個法律實體的 Project Operations 整合
 description: 本主題提供有關在 Project Operations 中依法律實體設定整合的資訊。
 author: sigitac
+manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fc3f5be1318d482ece9a6e9e4fadc3cf628ff79577776e679f32cef7c0b2fc8f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999396"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122873"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>設定每個法律實體的 Project Operations 整合 
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
-本主題為您逐步解說設定每個法律實體的 Dynamics 365 Project Operations 所需的步驟。
+本主題為您逐步解說依法律實體設定 Dynamics 365 Project Operations 所需的步驟。
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>在 Dynamics 365 Finance 中啟用功能金鑰
 
@@ -49,6 +51,3 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
   - **帳單類型預設值**：Project Operations 使用固定一組必須對應至 Finance 明細屬性的帳單類型預設值。 建立下列每個帳單類型的記錄：**未指定**、**應收費**、**不應收費**、**附贈** 和 **無法使用**。
   - **專案類別預設值**：選取每個交易類型要使用的預設專案類別。 這些預設值將用於 **Project Operations 整合帳目** 以及未指定專案實際值交易類別的估計值。
   - **預測**：選取時間和費用估計值要使用的預測模型。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
