@@ -2,11 +2,9 @@
 title: 專案採購單
 description: 本文說明各種可用來建立專案採購單的方法。 您使用的方法取決於採購單的用途，以及專案的採購項目何時取用和收費。
 author: Yowelle
-manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bd891aec5bcab66c5801a5d9ca8abbbf632d662d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5de28f3844b802a980c811411cae75549c697538f89e8c3d2495ea171a188524
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072984"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008981"
 ---
 # <a name="purchase-orders-for-a-project"></a>專案採購單
 
@@ -76,3 +74,6 @@ ms.locfileid: "4072984"
 
 如需詳細資訊，請參閱[從項目需求擷取採購單上的項目](tasks/receive-items-purchase-order-item-requirement.md)。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7576f73240a7366175d7be39815583a5c9cf7187
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 81f926e0aa209dd83f9b850c2342bd35a4f236c3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150343"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5282458"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>將自訂欄位設定為定價維度 
 
@@ -94,3 +94,6 @@ ms.locfileid: "5150343"
 
 - **成本優先順序**：依據成本價設定比對相符時，維度的成本優先順序值將指示該維度的權數。 **成本優先順序** 值在所有 **適用於成本** 的維度中須是唯一的。
 - **銷售優先順序**：依據銷售價或帳單費率設定比對相符時，維度的銷售優先順序值將指示該維度的權數。 **銷售優先順序** 值在所有 **適用於銷售** 的維度中須是唯一的。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: 管理產品型報價明細的複雜單位，例如按使用者、按月為單位 - 精簡
 description: 本主題提供有關管理產品型報價明細複雜單位的資訊。
 author: rumant
-manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b4a075ae5a7329f241cc31afceab0e085c771f72
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d53dde1d3b2705c5b0283f989d0e2eebfdcb5a0eb5f91cf4bf48e9c07aba79d1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272873"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989766"
 ---
 # <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines---lite"></a>管理產品型報價明細的複雜單位，例如按使用者、按月為單位 - 精簡
 

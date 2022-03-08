@@ -2,8 +2,6 @@
 title: 多貨幣案例 (版本 3.x)
 description: 本主題提供多貨幣案例的相關資訊。
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bdb9ccad84e0f510118502d4253f5c83a760f8bb
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 89a91cf3dbbcf81dbb089ee88c8c177c73afb694914ca7d95eae96776d38abed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145663"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005111"
 ---
 # <a name="multiple-currency-scenarios"></a>多貨幣案例
 
@@ -105,3 +103,6 @@ Dynamics 365 會自動處理不同貨幣計價金額的匯總。 以下是範例
 | 費用           | 未開單銷售   | 6 月 17 日 | 允章  | 租車           | 1 件     | 150 EUR      | 150 EUR     | 0.94          | 159.57 USD     |
 
 若要計算專案的未開單銷售總值，您可以為所有相關未開單銷售實際值上的 **金額** 欄位建立彙總欄位。 彙總欄位是 Dynamics 365 的建構，可用來為相關記錄提供快速公式。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

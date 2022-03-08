@@ -2,18 +2,16 @@
 title: 技能和認證
 description: 本主題提供有關將技能和認證特性新增至資源的資訊。
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1d04148f2e0953744da5ca32aa9062e3ae9530e7
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: bf892d791b192005cc72d7fed08f2f22a12c002eb270a0faef6ae476fafafc20
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128858"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990171"
 ---
 # <a name="skills-and-certifications"></a>技能和認證
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
@@ -43,3 +41,5 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 3. 在 **技能** 子格中，選取 **+ 新增需求特性**。
 4. 在快速建立窗格中，尋找並選取所需的特徵，並新增 **評等值**。
 5. 選取 **儲存後關閉**。
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

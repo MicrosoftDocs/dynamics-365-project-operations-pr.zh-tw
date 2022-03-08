@@ -2,11 +2,9 @@
 title: 聯邦獎勵支出時間表查詢
 description: 這份主題提供「聯邦獎勵支出時間表」查詢的相關資訊。
 author: velofog
-manager: Ann Beebe
 ms.date: 04/2/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PSNProjSEFAinquiry
 audience: Application User
@@ -20,12 +18,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: eaf523ab147cbe974fed6e7eab21967404583fe6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d0cc3db3fd05fa809f707b15a50380753ac8f9f779f45c13f707321d2b0e0841
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072980"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007226"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>聯邦獎勵支出時間表查詢
 
@@ -62,7 +60,7 @@ ms.locfileid: "4072980"
 ## <a name="set-up-grants-to-report-for-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>設定要申報「聯邦獎勵支出時間表」查詢的補助款
 
 1. 移至 **專案管理與會計 \> 設定 \> 補助款**，然後選取現有的補助款。
-2. 在 **設定** 快速分頁的 **聯邦國內補助目錄** 欄位中，指派 CFDA 編號。 補助款的 CFDA 編號決定要進行申報的 CFDA 叢集。
+2. 在 **設定** 快速分頁的 **聯邦國內補助目錄** 欄位中，指派 CFDA 編號。 補助款的 CFDA 編號決定要進行申報的 CFDA 叢集。
 3. 在 **連絡人資訊** 快速分頁中，依照下列步驟輸入贈款者資訊：
 
     1. 在 **受補助客戶** 欄位中，輸入負責撥款的客戶。 如果是目前既有的補助款，可能已經輸入此資訊。
@@ -79,8 +77,8 @@ ms.locfileid: "4072980"
 
 ## <a name="exclude-grants-from-sefa-reporting-based-on-the-grant-type"></a>根據補助款類型排除 SEFA 報表中的補助款
 
-1. 移至 **專案管理與會計 \> 設定 \> 補助款 \> 補助款類型**。
-2. 在 **預設資訊** 快速分頁上，選取 **從聯邦獎勵支出時間表中排除** 核取方塊。
+1. 移至 **專案管理與會計 \> 設定 \> 補助款 \> 補助款類型**。
+2. 在 **預設資訊** 快速分頁上，選取 **從聯邦獎勵支出時間表中排除** 核取方塊。
 3. 選取 **儲存** 以儲存變更。
 
 ## <a name="run-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>執行「聯邦獎勵支出時間表」查詢
@@ -104,3 +102,6 @@ ms.locfileid: "4072980"
 - 聯邦國內補助目錄
 - 收據
 - 支出
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

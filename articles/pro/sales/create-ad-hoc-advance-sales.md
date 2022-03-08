@@ -1,5 +1,5 @@
 ---
-title: 在合約上建立專項預付金
+title: 在合約上建立專項預付金 - 精簡
 description: 本主題提供有關視需要在合約上建立預付金的資訊。
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
-ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
+ms.openlocfilehash: a6bf02c2e2ab2f3c696b1eab1b92a20272187bf5
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "4595934"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181352"
 ---
-# <a name="creating-an-ad-hoc-advance-on-a-contract"></a>在合約上建立專項預付金
+# <a name="creating-an-ad-hoc-advance-on-a-contract---lite"></a>在合約上建立專項預付金 - 精簡
 
-_**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
+_**適用於：** 精簡部署 - 交易至開立預估發票_
 
 Microsoft Dynamics 365 Project Operations 支援涉及預先付費和預付金的開立發票案例。 **Project Operations** 中使用 **預付金** 的程序類似於 **保留款** 合約。 
 

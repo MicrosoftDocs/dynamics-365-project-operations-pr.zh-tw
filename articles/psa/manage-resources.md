@@ -2,8 +2,6 @@
 title: 管理資源
 description: 本主題提供有關如何管理資源的資訊。
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/13/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 37377367751592fc533447748b80b124cb6548ad
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: b067f900fa49bba04536b49600dbe80a2167f707
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151333"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997816"
 ---
 # <a name="manage-resources"></a>管理資源
 
@@ -344,3 +342,6 @@ PSA 有一個 **協調** 索引標籤，可讓專案經理協調團隊成員的�
 ![[延長預約] 對話方塊](media/Resource-Management-image58.png)
 
 專案經理或資源管理員可以接著使用排程面板，管理任何過量預約資源超過其產能的狀況。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

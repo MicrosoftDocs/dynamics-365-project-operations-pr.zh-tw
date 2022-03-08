@@ -2,11 +2,9 @@
 title: 將自訂欄位及實體建立為定價維度
 description: 本主題提供有關如何建立自訂選項組或實體的資訊。
 author: rumant
-manager: AnnBe
 ms.date: 11/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fc5917856b8f28d36dc55593a68eba7823a00b36
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 41c57690fecbc3bee2a1eb5d26f8a6aa56d8bea9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642803"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000516"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>將自訂欄位及實體建立為定價維度
 
@@ -77,3 +75,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 5. 重複步驟 1-3，為「資深系統工程師」建立另一個標準職稱。
 
 > ![標準職稱實體的範例資料](media/ST-data.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 14d880eccd5547c122ebe37b63022e64fa2fb6fe
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2b856e280ac56c1cedd7d4966aca7e7f234bc520
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181700"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278093"
 ---
 # <a name="work-with-projectbased-contract-lines"></a>使用專案型合約服務內容
 
@@ -57,3 +57,6 @@ Dynamics 365 Project Operations 中的專案型合約服務內容，旨在保留
 | C1       | CL2           | P1      | 無           | .是             | 無          | 有效           | CL1 中包括專案 P1 的時間和服務費。 CL2 中包括專案 P1 的費用。 </br>   每個合約服務內容中所包含的內容不會重疊，因此是有效的。  |
 | C1       | CL1           | P1      | .是          | .是             | .是         | 無效       | 違反規則。 在兩個合約的明細中，會包括專案 P1 的時間、費用和服務費。                                                                                               |
 | CL2      | CL2           | P1      | .是          | .是             | .是         | 無效       | 違反規則。 在兩個合約的明細中，會包括專案 P1 的時間、費用和服務費。                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

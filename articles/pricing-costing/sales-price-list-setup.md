@@ -2,11 +2,9 @@
 title: 設定銷售價目表
 description: 本主題提供有關專案定價銷售價目表的資訊。
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: eb8dfa61a2d17ba644daf1552889cbcde0f1e47a
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 952d518fb58b5be46c4b1cf4ed57b2494fdfdad85e7fe6fb0d622367bc071b5f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176241"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997596"
 ---
 # <a name="set-up-a-sales-price-list"></a>設定銷售價目表
 
@@ -59,3 +57,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 預設會輸入專案價目表時，系統會驗證貨幣是否與客戶貨幣相符，以及所輸入預設價目表的內容是否與 **銷售** 有關。
 
 您可以將或多個專案價目表與客戶、商機、報價及專案合約銷售實體建立關聯。 此功能支援長期專案合約的日期特定預設價格，您可能需要多個價目表來處理因通貨膨脹而進行的價格更新。 不過，如果與客戶、商機、報價或專案合約實體建立關聯的價目表有重疊的有效日期範圍，則預設價格可能不正確。 因此，您必須確保有效日期範圍重疊的專案價目表未與這些實體相關聯。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

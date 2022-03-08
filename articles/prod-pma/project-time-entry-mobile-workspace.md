@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 23a5a9f25cfdd6df74257b3500c7a035d711b5f6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 78bb696a39a6ec126d7de01f170edbd07677a314
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072977"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950164"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>專案時間項目行動工作區
 
@@ -48,7 +48,7 @@ ms.locfileid: "4072977"
 視組織已部署的 Microsoft Dynamics 365 版本而定，先決條件會有所不同。
 
 ### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>使用 Dynamics 365 Finance 時的先決條件
-如果您的組織已部署 Finance，則系統系統管理員必須發佈 **專案時間項目** 行動工作區。 如需指示，請參閱[發佈行動工作區](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace)。
+如果您的組織已部署 Finance，則系統系統管理員必須發佈 **專案時間項目** 行動工作區。 如需指示，請參閱[發佈行動工作區](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace)。
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>使用版本 1611 (含平台更新 3) 或更新版本時的先決條件
 如果您的組織已部署版本 1611 (含平台更新 3) 或更新版本，則系統系統管理員必須完成下列先決條件。 
@@ -68,17 +68,17 @@ ms.locfileid: "4072977"
 <td>系統管理員</td>
 <td>KB 4018050 是包含<strong>專案時間項目</strong>行動工作區的 X++ 更新或中繼資料 Hotfix。 若要實作 KB 4018050，您的系統系統管理員必須依照下列步驟進行。
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">從 Microsoft Dynamics Lifecycle Services (LCS) 下載中繼資料 Hotfix</a>。</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">安裝中繼資料 Hotfix</a>。</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">建立的可部署套件</a> (內含<strong>ApplicationSuite</strong> 和 <strong>ProjectMobile</strong> 模型)，然後將可部署套件上傳至 LCS。</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">套用可部署套件</a>。</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">從 Microsoft Dynamics Lifecycle Services (LCS) 下載中繼資料 Hotfix</a>。</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">安裝中繼資料 Hotfix</a>。</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">建立的可部署套件</a> (內含<strong>ApplicationSuite</strong> 和 <strong>ProjectMobile</strong> 模型)，然後將可部署套件上傳至 LCS。</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">套用可部署套件</a>。</li>
 
 </ol></td>
 </tr>
 <tr class="even">
 <td>發佈<strong>專案時間項目</strong>行動工作區。</td>
 <td>系統管理員</td>
-<td>請參閱<a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">發佈行動工作區</a>。</td>
+<td>請參閱<a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">發佈行動工作區</a>。</td>
 </tr>
 </tbody>
 </table>
@@ -103,13 +103,16 @@ ms.locfileid: "4072977"
 2.  選取 **時間項目**。 隨即顯示本週的行事曆日期。
 3.  針對所選取的日期，選取 **動作** &gt; **新增輸入**。
 4.  輸入要記錄的小時數。
-5.  選取時間項目的專案。 清單會顯示已載入至您的應用程式中供離線使用的專案。 預設會載入 50 個項目，但是開發人員可以變更此數目。 如需詳細資訊，請參閱[平台行動](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page)。
+5.  選取時間項目的專案。 清單會顯示已載入至您的應用程式中供離線使用的專案。 預設會載入 50 個項目，但是開發人員可以變更此數目。 如需詳細資訊，請參閱[平台行動](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page)。
 6.  如果您的專案不在清單中，請選取 **搜尋**。 依名稱搜尋，或切換為依專案名稱或客戶進行搜尋。
-7.  選取類別。 清單會顯示已載入至您的應用程式中供離線使用的類別。 預設會載入 50 個項目，但是開發人員可以變更此數目。 如需詳細資訊，請參閱[平台行動](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page)。
+7.  選取類別。 清單會顯示已載入至您的應用程式中供離線使用的類別。 預設會載入 50 個項目，但是開發人員可以變更此數目。 如需詳細資訊，請參閱[平台行動](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page)。
 8.  如果您的類別不在清單中，請選取 **搜尋**。 依類別搜尋，或切換為依類別名稱進行搜尋。
-9.  選取活動。 清單會顯示已載入至您的應用程式中供離線使用的活動。 預設會載入 50 個項目，但是開發人員可以變更此數目。 如需詳細資訊，請參閱[平台行動](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page)。
+9.  選取活動。 清單會顯示已載入至您的應用程式中供離線使用的活動。 預設會載入 50 個項目，但是開發人員可以變更此數目。 如需詳細資訊，請參閱[平台行動](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page)。
 10. 如果您的活動不在清單中，請選取 **搜尋**。 依活動編號搜尋，或切換為依目的進行搜尋。
 
 11. 選取明細屬性。
 12. 選用：輸入任何外部及內部意見。
 13. 選取 **完成**。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

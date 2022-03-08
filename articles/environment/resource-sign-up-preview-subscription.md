@@ -5,21 +5,19 @@ author: sigitac
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 917ead8ff6d9d3ef8374f8ccde608b6cebd50c8c
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 7a03f021b1ae0a87dfc947976b8a16c8246e1684
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948454"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072882"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>註冊資源/非庫存案例適用的 Project Operations 預覽版訂閱
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations_
-
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 本主題說明如何訂閱預覽/合作夥伴供應項目，以及部署資源/非庫存型案例適用的 Project Operations 環境。
 
@@ -44,7 +42,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 開始之前，請確定您已使用您要預覽 Project Operations 所在租用戶中的使用者公司帳戶來登入瀏覽器。
 
-1. 將第一個優惠馬貼到瀏覽器 URL 中來兌換 **Dynamics 365 Project Operations (CRM) - 預覽版試用**。
+1. 在瀏覽器 URL 中貼上第一個供應項目代碼 **Dynamics 365 Project Operations (CRM) - 預覽版試用** 以進行兌換。
 
 ![兌換供應項目](./media/16RedeemFirstOfferNew.png)
 
@@ -77,7 +75,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 ![指派授權](./media/15AssignLicenses.png)
 
-3. 確認 **Dynamics 365 Project Operations (CRM) 預覽** 和 **Office 365 Project Operations - 預覽** 授權已選取，然後選取 **儲存變更**。
+3. 確認是否已選取 **Dynamics 365 Project Operations (CRM) 預覽** 及 **Office 365 Project Operations - 預覽** 授權，然後選取 **儲存變更**。
 
 > [!NOTE]
 > Finance 試用版供應項目不需要指派給使用者。
@@ -92,12 +90,9 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>使用資源/非庫存案例適用的 Project Operations 部署 Finance 示範環境
 
-依照主題[佈建新環境](resource-provision-new-environment.md)中的指引完成部署。 使用[示範環境](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment)部署類型以進行預覽。 
+依照主題[佈建新環境](resource-provision-new-environment.md)中的指引完成部署。 使用[示範環境](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment)部署類型以進行預覽。 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>安裝 CDS 設定和設定資料
 
 安裝 CDS 設定和設定資料，如主題[設定和套用 Common Data Service 中的設定資料](resource-apply-pro-setup-config-data.md)中所述。
 只有在部署了 Finance 示範環境，且 FO 中的示範資料準備就緒之後，才能完成此步驟。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

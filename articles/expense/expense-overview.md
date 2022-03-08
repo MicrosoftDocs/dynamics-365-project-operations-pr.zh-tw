@@ -2,19 +2,18 @@
 title: 費用概觀
 description: 本主題提供有關 Project Operations 中費用功能的資訊。
 author: stsporen
-manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d946a8dcbf3b2369631d83e80788eed4904be95d
-ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
+ms.custom: intro-internal
+ms.openlocfilehash: 921df6fa8f1eb33bd01792c0b7c787fc74604adf
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4764899"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368556"
 ---
 # <a name="expense-home-page"></a>費用首頁
 
@@ -44,3 +43,6 @@ Dynamics 365 Project Operations 支援處理費用的功能。 使用原則、�
 
 ## <a name="determine-your-expense-deployment"></a>判斷您的費用部署
 若要判斷您是否正在執行基本費用管理部署，請確認位址 URL 是否以 **.crm.dynamics.com** 結尾。 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

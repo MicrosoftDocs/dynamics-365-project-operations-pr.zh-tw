@@ -2,6 +2,8 @@
 title: Project Service Automation 中的預約配置方法
 description: 本主題提供有關您可以預約配置的不同方式的資訊。
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -16,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89c455b45829a4e28dc8bb71cf34e52375ed6efd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3dc87a66a4b881a06f2b888c26d9dfaefb419f16
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993276"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131336"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Project Service Automation 中的預約配置方法
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 不論您是直接將團隊成員新增至 **團隊** 索引標籤上的專案，還是透過排程面板將資源預約到專案或需求，您都有一些可以用來預約配置的不同方法。 本主題說明每個方法的運作方式，以及哪些方法可能導致過量預約資源。
 
@@ -69,6 +69,3 @@ ms.locfileid: "5993276"
 - 平均分配時數
 
 使用這三種的其中一個配置方法時，您不會收到資源已過量預約的通知。 若要修正過量預約，您必須使用排程面板。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

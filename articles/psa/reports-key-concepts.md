@@ -2,8 +2,6 @@
 title: 重要概念
 description: 本主題提供有關 Project Service Automation 中資源管理重要概念的資訊。
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 75b2d2c520cc48eb59c266289ca2bdc1288f2920
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 8e56523a9a2fbe8bc07e6d46062f4e1c20e6d2fa2244b32ff53e96d898b0086c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147733"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995076"
 ---
 # <a name="key-concepts"></a>重要概念
 
@@ -48,3 +46,6 @@ ms.locfileid: "5147733"
 | 分佈                    | 工作、需求或指派時數在細分成每日分佈時的說法。 例如，一項為期五天的 40 小時工作，可在五天期間內分佈為每天 8 小時的工作。 |
 | 協調檢視表        | 顯示每個專案團隊成員預約與指派的檢視表。 此檢視表可讓專案經理尋找預約與指派之間是否有任何不相符，如果出現任何不相符，即採取更正動作。 |
 | 工作時數                 | 用來識別資源產能以及工作時間和非工作時間的實體。 此實體也稱為資源行事曆。 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

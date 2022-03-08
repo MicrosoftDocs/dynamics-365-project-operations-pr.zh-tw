@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1ea1ca002a8f68f86808831b398e452244471322
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270983"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073050"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>在 iOS 和 Android 上實作 Microsoft Dynamics 365 Project Timesheet 行動應用程式的自訂欄位
 
@@ -429,6 +429,3 @@ final class TSTimesheetDetails_Extension
 1. 應用程式嘗試將預設類別從專案資源中放入。 此預設類別是在 **TSTimesheetSettingsService** 類別的 **getCurrentUserResource** 及 **getDelegatedResourcesForCurrentUser** 方法中所設定。
 2. 如果未在專案資源層級提供預設類別，應用程式會嘗試從專案活動中提取此類別。 此預設類別是在 **TSTimesheetProjectService** 類別的 **getActivitiesForProject** 方法中所設定。
 3. 如果未在專案活動層級提供預設類別，則會從專案參數中接受預設類別。 此預設類別是在 **TSTimesheetProjectService** 類別的 **getProjectDetailsbyRule** 方法中所設定。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

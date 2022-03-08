@@ -2,18 +2,16 @@
 title: 差旅申請
 description: 本主題提供有關差旅申請的資訊。
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 46a678ac4486c99f11d74dbac07dedd08364cb2f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e05f54349eaa09dd22331ff07950542dd326e711
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123728"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001731"
 ---
 # <a name="travel-requisitions"></a>差旅申請
 
@@ -56,3 +54,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 > [!NOTE]
 > 將費用報表對應至核准的差旅申請時，交易金額不能大於授權金額。 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,12 +2,10 @@
 title: 建立自訂欄位和實體
 description: 本主題說明如何在 Power Apps 平台建立自己解決方案中的選項組與實體。
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: f501bcc106a296f35bba996b6ab3a8b758cefb1926033faf04ee23c42bc94d39
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144853"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992421"
 ---
 # <a name="create-custom-fields-and-entities"></a>建立自訂欄位和實體 
 
@@ -45,7 +43,7 @@ ms.locfileid: "5144853"
 2. 在方案總管的左導覽窗格中，選取 **實體**。
 3. 按一下 **新增** 建立名為 **標準職稱** 的新實體。 輸入其餘必要資訊，然後按一下 **儲存**。
 
-> ![標準職稱實體定義](media/Standard-Title-entity-definition.png)
+> ![標準職稱實體定義。](media/Standard-Title-entity-definition.png)
 
 
 ### <a name="option-set-based-dimensions"></a>以選項組為準的維度 
@@ -56,9 +54,9 @@ ms.locfileid: "5144853"
 2. 在方案總管的左導覽窗格中，選取 **選項組**。 
 3. 按一下 **新增** 建立新的選項組、輸入其餘必要資訊，然後按一下 **儲存**。
 
-> ![以選項組為準的定價維度，名為「資源工作地點」 ](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![以選項組為準的定價維度，名為「資源工作地點」。](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![以選項組為準的定價維度，名為「資源工作時數」 ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![以選項組為準的定價維度，名為「資源工作時數」。](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>建立以實體為準維度的資料
@@ -70,6 +68,9 @@ ms.locfileid: "5144853"
 3. 關閉表單。 
 4. 重複步驟 1-3，為「資深系統工程師」建立另一個標準職稱。
 
-> ![標準職稱實體的範例資料 ](media/ST-data.png)
+> ![標準職稱實體的範例資料。](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

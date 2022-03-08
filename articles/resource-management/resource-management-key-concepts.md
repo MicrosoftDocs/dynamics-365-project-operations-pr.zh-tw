@@ -2,18 +2,16 @@
 title: 資源管理重要概念
 description: 本主題提供有關 Microsoft Dynamics Project Operations 中資源管理功能的資訊。
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a14f0ec328049d1b199201955c384df9fac61e39
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c76fb297fc1832284d488f28e552ded2c1c27cf88d3a9352f2a31e667aac746e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123863"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994806"
 ---
 # <a name="resource-management-key-concepts"></a>資源管理重要概念
 
@@ -35,3 +33,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 
 您可以在 Project Operations 中使用一般或具名資源的團隊來為專案配置人員。 您可以使用各種方法來新增和指派團隊成員，以及管理其預約和指派。 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

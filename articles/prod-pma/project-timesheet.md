@@ -2,11 +2,9 @@
 title: 專案時程表行動應用程式
 description: 本主題提供有關 Microsoft Dynamics 365 Project Timesheet 行動應用程式的資訊。 專案時程表行動應用程式可讓使用者在其行動裝置上提交和核准專案的時程表。
 author: abruer
-manager: AnnBe
 ms.date: 04/08/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: df6d286b6d5716fb0ea908ed71c2257b4db21ecfd35148fea65dfd96e058ac9a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073169"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997191"
 ---
 # <a name="project-timesheet-mobile-application"></a>專案時程表行動應用程式
 
@@ -96,3 +94,6 @@ Microsoft Dynamics 365 Project Timesheet 行動應用程式 (iPhone 或 Android)
 ## <a name="review-timesheets"></a>審查時程表
 
 您可以在功能表中找到需要審查的時程表清單。 此選項只有在將您指定為工作流程核准者時，才會提供。 支援標題和明細核准。 明細等級核准提供標示一行或多行明細以供核准的功能。 審查時程表資訊之後，按一下 **核准**、**委派** 或 **退回** 以繼續工作流程。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,19 +2,17 @@
 title: 在工作窗格中工作時的疑難排解
 description: 本主題提供在工作窗格中工作時所需的疑難排解資訊。
 author: ruhercul
-manager: tfehr
 ms.date: 01/19/2021
 ms.topic: article
 ms.product: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 89bbad62c2a0a5693a57cf5c9a812ab644486469
-ms.sourcegitcommit: c9edb4fc3042d97cb1245be627841e0a984dbdea
+ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
+ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5031527"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6213390"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>在工作窗格中工作時的疑難排解 
 
@@ -57,7 +55,7 @@ Project Operations 需要專案參數參照 PEX 端點。 必須有此端點，�
  ![專案參數上的 PEX 端點欄位](media/projectparameter.png)
 
 1. 將 **PEX 端點** 欄位新增至 **專案參數** 頁面。
-2. 以下列值來更新欄位：`https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=\<id>&type=2`
+2. 以下列值來更新欄位：`https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
 3. 從 **專案參數** 頁面移除欄位。
 
 ## <a name="privileges-for-project-for-the-web"></a>Project 網頁版的權限
@@ -106,3 +104,6 @@ Project Operations 需要依賴外部排程服務。 此服務要求使用者必
   - Project Operations 系統
   - Project 系統
   - Project Operations 雙重寫入系統 (如果您要部署資源/非庫存型案例適用的 Project Operations，就必須有此角色)。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: 在分工結構圖範本上設定角色
 description: 本主題提供有關在分工結構圖範本上設定角色資訊的資訊。
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143f1094c653fb7ac0e026b7875aa162a3eb83f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ec952021f9da4d83520d29d68d040675f7933df7
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072976"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997591"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>在分工結構圖範本上設定角色
 
@@ -107,3 +105,6 @@ WBS 新增了其他選項，以便善加運用功能。
     > 您不會收到指出指定的資源目前為 2 的警告，因為資源數目仍保持為 1。
 
 14. 在 **分工結構圖** 頁面上，驗證 WBS 中的資源指派，然後選取 **儲存**。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

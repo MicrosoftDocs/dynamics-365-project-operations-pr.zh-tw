@@ -2,12 +2,10 @@
 title: 在可預約資源擔任專案的多個角色時，估計專案銷售和成本
 description: 本主題提供相關資訊，說明如何使用定價維度支援專案中擔任多個角色之資源的定價和成本計算。
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 67e24156e960b9b09cf92f7f0cd77f6c74a982b8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5b2b57f5268a92168952b6da5123886df70cd4e2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145033"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013251"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-for-a-project"></a>在可預約資源擔任專案的多個角色時，估計專案銷售和成本 
 
@@ -74,3 +72,6 @@ ms.locfileid: "5145033"
 瀏覽至 **估計值** 網格時，您會發現同一個資源的這兩個指派各以不同的方式進行定價。
 工作 A 的資源指派是使用 **諮詢主管** 的 **角色** 屬性值來定價。 同一個資源在工作 B 上的指派是使用 **網路技術人員** 的 **角色** 屬性值來定價。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

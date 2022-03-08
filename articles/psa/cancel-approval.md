@@ -2,8 +2,6 @@
 title: 取消先前核准的時間和費用項目
 description: 本主題提供有關如何取消已核准專案時間或費用交易的資訊。
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ea42c6755b4b48d986e385879607d659c57f483d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 09b85ea302ac46171afbd531a551aa5fbf5492a3644cba3448be03009840228c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150568"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987426"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>取消先前核准的時間或費用項目
 
@@ -62,3 +60,6 @@ ms.locfileid: "5150568"
 接下來，在 [實際值] 表格中建立沖回分錄。 為了建立沖回分錄，系統複製原始實際值中的欄位值。 唯一未複製的值是數量值。 這些值反而是進行沖回。 **成本** 與 **未開單銷售** 實際值都會建立已沖回的實際值。 已沖回實際值的 **調整狀態** 欄位會設定為 **不可調整**，且帳單狀態欄位會設定為 **已取消**。
 
 進行這些變更之後，專案上記錄為支出的金額以及專案的營收待辦項目將不會再有這些實際值所占的金額。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

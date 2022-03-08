@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 80fe1d4171d80ca39e8b7ebb1eefaa524a4f2b07
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.openlocfilehash: 7cf4d7853f7fedaeeeba99bc589f39989b924423
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531378"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278903"
 ---
 # <a name="fixed-price-revenue-estimate-projects"></a>固定價格營收估計值專案 
 
@@ -35,3 +35,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
   專案成本、營收設定檔、成本範本以及期間代碼可以手動設定。 如果不是手動設定，則這些值將預設為使用為專案成本和營收設定檔所設定規則在專案的第一次估計值計算。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

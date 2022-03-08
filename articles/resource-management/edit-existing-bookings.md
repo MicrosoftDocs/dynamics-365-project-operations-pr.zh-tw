@@ -2,18 +2,16 @@
 title: 編輯預約
 description: 本主題提供有關如何對預約進行更新和變更的資訊。
 author: ruhercul
-manager: Annbe
 ms.date: 11/12/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3980df0608c387d47ad68bbf2e816d408f1c2cf0
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: 89e6b6ea258dff4ae2e592c58d6e0a61bf7d8e35
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841312"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002364"
 ---
 # <a name="edit-bookings"></a>編輯預約
 
@@ -33,3 +31,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 ## <a name="schedule-board"></a>排程面板
 
 **排程面板** 為資源管理員提供整個組織中所有預約的組合檢視表。 資源管理員可以透過此檢視表，延長、縮短或移動現有的預約，就像使用 **維護預約** 中所提供的功能一般。 資源管理員也可以用滑鼠右鍵按一下預約並選取 **替代資源**，替代配置給特定預約的現有資源。 資源經理還可以用滑鼠右鍵按一下預約並選取 **編輯**，編輯現有預約的分佈。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

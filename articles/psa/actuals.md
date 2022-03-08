@@ -3,7 +3,7 @@ title: 實際值概觀
 description: 本主題提供有關專案實際值的資訊。
 author: rumant
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 63ad6544f0ec0a893aebd8d81f3ee895e51c294e
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 9559cb2dcc38cb8058c5a9a3b97a35019fea486f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146113"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073194"
 ---
 # <a name="actuals-overview"></a>實際值概觀
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 

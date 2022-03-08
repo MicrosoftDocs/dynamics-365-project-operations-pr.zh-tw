@@ -2,11 +2,9 @@
 title: 管理報價上的專案價目表
 description: 本主題提供有關專案價目表實體的資訊。
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 8cfabf98f1a38823c777b6e388fbbb65d02877e3cd433069dd3845c292f2b277
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177186"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003896"
 ---
 # <a name="manage-project-price-lists-on-a-quote"></a>管理報價上的專案價目表
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
-Dynamics 365 Project Operations 會延伸 Dynamics 365 Sales 中的價目表實體。 
+Dynamics 365 Project Operations 可擴充 Dynamics 365 Sales 中的價目表實體。 
 
 ## <a name="key-entities"></a>主要實體
 
@@ -120,3 +118,6 @@ Project Operations 會追蹤專案的人力資源時間使用成本。 還會追
     1. 附加至組織單位的成本價目表。
     2. 附加至 Project Operations 參數 的成本價目表。 因為可以將使用許多不同貨幣的成本價目表附加至參數，貨幣比較是在專案、合約或報價承包組織單位貨幣與成本價目表貨幣之間完成。
     3. 如果是費用，則依照成本和成本加成定價方式不適用於成本價目表。 即使這些定價方式是在成本價目表明細上用來設定交易類別成本，系統還是會予以忽略，而不會輸入預設成本價。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

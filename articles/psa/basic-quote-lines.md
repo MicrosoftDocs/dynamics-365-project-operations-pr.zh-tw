@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 024a7cdb81340a077e839d92c4321c8b0051404b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: e5b0dfb3db2ddc6d43545a0f1f9429e343e830b5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145103"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291114"
 ---
 # <a name="quotes-and-quote-lines"></a>報價和報價明細
 
@@ -131,3 +131,6 @@ PSA 使用這三個屬性值來產生一組要開立發票的暫定日期。
 - 若要建立均分的帳單里程碑，請選取發票頻率、在報價明細中輸入帳單開始日期，然後在報價標頭的 **摘要** 區段中選取報價的 **要求的完成日期**。 接著選取 **產生週期里程碑**，依據所選取的發票頻率建立均分的里程碑。 
 - 若要建立一次付清的帳單里程碑，請建立里程碑，然後輸入報價明細值做為里程碑金額。
 - 若要建立以專案計劃中特定工作為根據的帳單里程碑，請建立里程碑，然後將其對應至帳單里程碑 UI 中的專案排程元素。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

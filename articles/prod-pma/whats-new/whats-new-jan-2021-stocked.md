@@ -2,19 +2,17 @@
 title: 庫存/生產型案例適用的 Project Operations 2021 年 1 月的新功能或變更
 description: 本主題提供有關庫存/生產型案例適用的 Project Operations 2021 年 1 月版本所提供的品質更新資訊。
 author: andchoi
-manager: tfehr
 ms.date: 1/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: ce1c83e1e238d7919c38d2babea622ca59de86d3
-ms.sourcegitcommit: ef7d498bf80b0bcc1245dc42f30c410c31f891bb
+ms.openlocfilehash: f7ad339872f18bf5aaae6f472436fc318d4cd919fcae58cc1b6e4d5ab19bd68c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "4958638"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992736"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>庫存/生產型案例適用的 Project Operations 2021 年 1 月的新功能或變更
 
@@ -144,4 +142,7 @@ _**適用於：** 庫存/生產型案例適用的 Project Operations_
 | 差旅和費用                  | [525106](https://fix.lcs.dynamics.com/Issue/Details/?bugId=525106) | 在 Project Operations 中，無法建立或核准 Dataverse 中包含公司間工作的時間項目。                                                                                                                                                                                             |
 
 ### <a name="regulatory-updates"></a>法規更新
-如需 Finance and Operations 應用程式的法規更新資訊，請參閱[法規更新](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates)。 您也可以使用問題搜尋工具登入 LCS 並查看計畫的法規更新。 問題搜尋可讓您依國家/地區、功能類型和版本進行搜尋。
+如需 Finance and Operations 應用程式的法規更新資訊，請參閱[法規更新](/dynamics365/finance/localizations/regulatory-updates)。 您也可以使用問題搜尋工具登入 LCS 並查看計畫的法規更新。 問題搜尋可讓您依國家/地區、功能類型和版本進行搜尋。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

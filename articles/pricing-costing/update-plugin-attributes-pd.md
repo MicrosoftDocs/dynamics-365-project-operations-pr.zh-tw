@@ -2,18 +2,16 @@
 title: 使用新的定價維度來更新外掛程式屬性
 description: 此主題提供有關如何更新定價維度的外掛程式屬性的資訊。
 author: rumant
-manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9b0cf48318d0b9e94c4be0d3775b54e83832c1b7
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 54b87a993929edbf89ef48741ba0a06c6c42ec4e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4643208"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004611"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>使用新的定價維度來更新外掛程式屬性
 
@@ -52,3 +50,6 @@ ms.locfileid: "4643208"
 7. 選取 **確定** 關閉頁面，然後選取 **更新步驟**。
 8. 對第二個外掛程式 **PreOperationQuoteLineDetail** 重複步驟 2 到 7。 對第二個外掛程式，您需更新 **msdyn_quotelinetransaction 的更新** 步驟。
 9. 關閉 **PluginRegistrationTool**。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

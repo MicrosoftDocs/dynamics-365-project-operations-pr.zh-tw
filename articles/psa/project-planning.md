@@ -2,10 +2,9 @@
 title: 專案規劃首頁
 description: 本主題提供有關專案規劃的資訊。
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 03/01/2019
 ms.topic: article
 ms.author: rumant
@@ -18,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1439cc1543adbd304d984cdc268d3e5623adc309
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 17745ffacbfdcf50b44b0c3f04ecacab8905d15be9ef675a72ae47a858cb9abe
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148228"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990576"
 ---
 # <a name="project-planning-home-page"></a>專案規劃首頁
 
@@ -52,3 +51,6 @@ PSA 中的專案管理工具可協助您輕鬆執行專案。 內建範本和排
 - [專案範本](project-templates.md)
 - [專案階段](project-stages.md)
 - [專案設定](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

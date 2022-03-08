@@ -1,26 +1,24 @@
 ---
-title: 確認預估發票 - 精簡
-description: 本主題提供有關在 Project Operations 中確認預估發票的資訊。
+title: 確認專案預估發票
+description: 本主題提供有關在 Project Operations 中確認專案預估發票的資訊。
 author: rumant
-manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 02b671e4ad327b2448529d7119211613f3a9cb27
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 37efb4923cbf9696ff85dfcd6dee9aac6badd68ed74a515e5ea5598aacfa3a83
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176511"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992961"
 ---
-# <a name="confirm-a-proforma-invoice---lite"></a>確認預估發票 - 精簡
+# <a name="confirm-a-proforma-project-invoice"></a>確認專案預估發票 
 
 _**適用於：** 精簡部署 - 交易至開立預估發票_
 
 
-確認預估發票之後，專案發票的狀態會更新為 **已確認**。 確認發票時，它會變成唯讀。 從現在開始，發票僅於有任何客戶提議更正或賒帳，或是將發票標示為已付款時，才能進行更正。
+確認預估發票之後，專案發票的狀態會更新為 **已確認**。 確認發票時，它會變成唯讀。 接下來，只有在任何客戶主動提出更正或貸記時，才能修正此發票。
 
 下表列出系統所建立的實際值。 這些實際值是在確認草稿專案發票前對其執行特定作業時所建立。
 
@@ -231,6 +229,70 @@ _**適用於：** 精簡部署 - 交易至開立預估發票_
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
+在未對草稿發票進行任何編輯的情況下，開立材料交易的發票。
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+原始材料使用核准上數量和金額的未開單銷售沖銷。
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+原始材料使用核准上數量和金額的已開單銷售實際值。
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+開立為減少數量所編輯之材料交易的發票。
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+原始時間核准上數量和金額的未開單銷售沖銷。
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+應按照編輯後發票明細詳細資料上數量及金額收費的新增未開單銷售實際值、未開單銷售實際值的沖銷，以及等值已開單銷售實際值。
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+不應對已編輯發票明細詳細資料在扣除更正過數字後剩餘數量及金額收費的新增未開單銷售實際值、未開單銷售實際值的沖銷，以及等值已開單銷售實際值。
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+開立為增加數量所編輯之材料交易的發票。
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+原始材料使用核准上數量和金額的未開單銷售沖銷。
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+應按照編輯後發票明細詳細資料上數量及金額收費的新增未開單銷售實際值、未開單銷售實際值的沖銷，以及等值已開單銷售實際值。
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
 開立服務費發票。
                 </p>
             </td>
@@ -273,3 +335,6 @@ _**適用於：** 精簡部署 - 交易至開立預估發票_
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: 資源協調概觀
 description: 本主題提供的資訊，可協助您確保專案的資源預約與指派是一致的。
 author: ruhercul
-manager: AnnBe
 ms.date: 01/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8723cfad1e7cd07774e37023c5427b0a5833a554
-ms.sourcegitcommit: cffc84187007b34211c90babef8af5152d4d92ea
+ms.openlocfilehash: be171063c21318f517a37f3088e3f577fd4b6715
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "4849614"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000831"
 ---
 # <a name="resource-reconciliation-overview"></a>資源協調概觀
 
@@ -48,3 +46,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 透過 **延長預約** 動作所建立的預約會與主要專案需求建立關聯。 一開始延長時，無法判斷必須擴充的特定需求，因為資源可能會與專案的多個需求有關聯。
 
 專案經理或資源管理員此時可以使用排程面板，來管理任何過量預約資源超過其產能的狀況。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

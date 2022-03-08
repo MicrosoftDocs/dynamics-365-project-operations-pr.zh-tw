@@ -2,18 +2,16 @@
 title: 管理專案合約上的多個客戶
 description: 本主題提供有關如何管理專案合約上的多個客戶的資訊。
 author: rumant
-manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5554cb062710c3587d81b1a29771a7af84d2d05f
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 1adb786c36d43a148e8c5a8b25ded5a997557119f7e6e9e2248935ad4ed211d5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4643150"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992061"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>管理專案合約上的多個客戶
 
@@ -47,3 +45,6 @@ ms.locfileid: "4643150"
 您可以透過在網格中編輯來編輯帳單分割百分比。 當帳單分割百分比總計不是 100% 時，會發生錯誤。 編輯帳單分割百分比之後，請重新整理 **專案合約** 頁面以移除錯誤。
 
 您也可以在專案合約客戶子格上選取 **平均分配**。 帳單分割會平均分配給專案合約上的所有客戶。 如果有任何捨入係數，就會將係數新增至捨入客戶。 其中一個合約客戶一律將 **捨入** 旗標設定為 **是**。 該客戶為捨入客戶。 通常，捨入客戶也是合約的主要客戶，但是這並不是必要的。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

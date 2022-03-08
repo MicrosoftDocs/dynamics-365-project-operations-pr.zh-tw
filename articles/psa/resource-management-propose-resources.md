@@ -2,8 +2,6 @@
 title: 提案建議專案資源
 description: 本主題提供有關如何提案建議專案資源的資訊。
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0a3eaa9929770c91523831d92744d5084aa28cb8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 9fe63f424735f22dc6b525631287e7ff36db17f37aad8e14e926f5cc9be39136
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147508"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995031"
 ---
 # <a name="propose-project-resources"></a>提案建議專案資源
 
@@ -34,13 +32,13 @@ ms.locfileid: "5147508"
 1. 從要求網格或要求本身中選取 **尋找資源**。
 2. 在 **排程小幫手** 頁面上，選取資源，然後在 **建立資源預約** 窗格的 **預約狀態** 欄位中選取 **預約**。
 
-    ![提案的資源已選取](media/Resource-Management-image62.png)
+    ![提案的資源已選取。](media/Resource-Management-image62.png)
 
 發生下列狀態更新：
 
 - 在 **排程小幫手** 頁面上，狀態指示器會更新，以指定該預約是提案所建議，而不是已確認預約。
 
-    ![排程小幫手頁面上提案的預約的狀態指示器](media/Resource-Management-image63.png)
+    ![排程小幫手頁面上提案的預約的狀態指示器。](media/Resource-Management-image63.png)
 
 - 在資源要求上，狀態已變更為 **需要檢閱**。
 
@@ -72,7 +70,7 @@ ms.locfileid: "5147508"
 
 您可以在 **資源** 窗格中找到 **資源使用率** 檢視表。
 
-![資源使用率檢視表](media/Resource-Management-image65.png)
+![資源使用率檢視表。](media/Resource-Management-image65.png)
 
 網格中的每個儲存格表示一個週期 (例如日、週或月) 中資源的計費使用率百分比。 下列公式用於設定儲存格的色彩：
 
@@ -86,7 +84,7 @@ ms.locfileid: "5147508"
 
 此外，還必須將預設角色指派給每個可預約資源。 移至 **資源** \> **資源**。 在 **Project Service** 索引標籤上，確認已定義資源角色，且該角色的 **是預設值** 欄位已設定為 **是**。 您可以新增其他角色，其中 **是預設值 = 否**。 **是預設值 = 是** 的角色會用來對照該角色的目標來評估資源的使用率。
 
-![預設角色已設定](media/Resource-Management-image67.png)
+![預設角色已設定。](media/Resource-Management-image67.png)
 
 在 **Project Service** 索引標籤上，您也可以設定資源的個別目標使用率。 使用率計算接著會使用該目標使用率來評估資源的目標，而不是資源預設角色的目標。
 
@@ -98,18 +96,21 @@ ms.locfileid: "5147508"
 
 資源工作時數會用來做為計算資源可用性的基準。 資源預約會耗用資源的產能。
 
-![排程面板](media/Resource-Management-image68.png)
+![排程面板。](media/Resource-Management-image68.png)
 
 排程面板使用色彩與陰影來顯示預約、可用性和過量預約，以及預約的狀態。 排程面板中的設定可讓您顯示圖例。
 
 如果排程面板上的個別可預約資源旁邊出現向右箭頭，則可以展開資源來顯示該資源所預約之工作的詳細資料。
 
-![排程面板上已展開的可預約資源](media/Resource-Management-image69.png)
+![排程面板上已展開的可預約資源。](media/Resource-Management-image69.png)
 
 因為 Dynamics 365 Project Service Automation 使用 Universal Resource Scheduling 引擎，如果您也已安裝 Dynamics 365 Field Service，則可以檢視專案、工單以及任何其他您已給予排程之實體的資源預約詳細資料。
 
-![專案和工單的資源預約詳細資料](media/Resource-Management-image70.png)
+![專案和工單的資源預約詳細資料。](media/Resource-Management-image70.png)
 
 若要檢視更多關於個別資源的詳細資料，請在其上按滑鼠右鍵以開啟資源卡片。
 
-![資源卡片](media/Resource-Management-image71.png)
+![資源卡片。](media/Resource-Management-image71.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

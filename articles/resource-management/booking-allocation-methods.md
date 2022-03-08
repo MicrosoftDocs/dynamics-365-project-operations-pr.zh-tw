@@ -2,11 +2,9 @@
 title: 預約配置方法
 description: 本主題提供有關如何在 Project Operations 中使用預約配置方法的資訊。
 author: ruhercul
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: cc539a376088627aa8d3e9678b2aec4bd5d0edc3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 294cc39624723f9eb069aa36067a015c0b708f83a9e0183416655f9bd874fa9a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121478"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004121"
 ---
 # <a name="booking-allocation-methods"></a>預約配置方法
 
@@ -81,3 +79,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 - 平均分配時數
 
 使用這三種的其中一個配置方法時，您不會收到資源已過量預約的通知。 若要修正過量預約，您必須使用排程面板。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

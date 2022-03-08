@@ -1,6 +1,8 @@
 ---
 title: 如何自訂專案階段商務程序流程？
 description: 有關如何自訂專案階段商務程序流程的概觀。
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/11/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2e6c60fe67aea908013077bde40c2faeabc2f39e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1d0168f187e6b0880713aac04bd87dbc2209197d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993136"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148993"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>如何自訂專案階段商務程序流程？
 
@@ -105,6 +107,3 @@ ms.locfileid: "5993136"
 
    ![修改專案實體的檢視表的螢幕擷取畫面](media/FAQ-Customize-BPF-8-720.png)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

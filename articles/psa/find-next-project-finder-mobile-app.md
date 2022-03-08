@@ -2,8 +2,6 @@
 title: 使用 Project Finder Mobile 應用程式尋找您的下一個專案
 description: 如何使用 Project Service 的 Project Finder Mobile 應用程式尋找您的下一個專案
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 58e6970dbe902deeef144e563bcfcd09046c70ce
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: b5b6c4d608ae083d01be24258af35ed8f64e67a897690f1a2678f76b8befdcb1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149263"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990756"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>使用 Project Finder Mobile 應用程式尋找您的下一個專案 (Project Service)
 
@@ -40,12 +38,15 @@ ms.locfileid: "5149263"
   
  點選您有興趣的專案右邊的箭頭，即可查看更多詳細資料並註冊。  
   
- ![Project Finder 行動應用程式中符合技能的專案清單](../psa/media/project-service-project-finder-list.png "Project Finder 行動應用程式中符合技能的專案清單")  
+ ![Project Finder Mobile 應用程式中符合技能的專案清單。](../psa/media/project-service-project-finder-list.png "Project Finder 行動應用程式中符合技能的專案清單")  
   
 ## <a name="update-your-skills"></a>更新您的技能  
  點選畫面右下角的設定檔按鈕，更新您的技能和熟練度。  
   
- ![Project Finder 行動應用程式中的設定檔按鈕](../psa/media/project-service-project-finder-profile.png "Project Finder 行動應用程式中的設定檔按鈕")  
+ ![Project Finder Mobile 應用程式中的設定檔按鈕。](../psa/media/project-service-project-finder-profile.png "Project Finder 行動應用程式中的設定檔按鈕")  
   
 ### <a name="see-also"></a>請參閱  
  [時間、費用及共同作業指南](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

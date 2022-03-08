@@ -2,8 +2,6 @@
 title: 檢視資源使用率
 description: 如何檢視 Project Service 中的資源使用率
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ffd41aba98156d990956908d0a04b8d598c92ade
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 06d6807d63207a0dedbc98b6bd7a874a684bd5ac
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150703"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002541"
 ---
 # <a name="view-resource-utilization-project-service"></a>檢視資源使用率 (Project Service)
 
@@ -43,3 +41,6 @@ ms.locfileid: "5150703"
   
 ### <a name="see-also"></a>請參閱  
  [資源管理員指南](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

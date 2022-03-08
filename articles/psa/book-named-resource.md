@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c7a6370bde434b74d05e342240abd9bba84d34d8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 50858d4fc55285b2e91117c6cbfb2419931b4197
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145079"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291024"
 ---
 # <a name="book-named-resources-from-resource-requirements"></a>透過資源需求預約具名資源
 
@@ -68,3 +68,6 @@ ms.locfileid: "5145079"
 這種案例的主要區別在於，一般資源仍保留在指派給工作的團隊中，而預約的具名資源團隊成員並未指派為職位的一部分。 專案經理可以視需要指派工作至具名資源。 **協調** 檢視表可協助專案經理將跨多個資源的預約細分為工作指派。 系統不自動這樣做，因為在任何較上述簡單範例的複雜的案例中，例如您有大量產生需求的工作時，專案經理要如何指派的意向，必須由系統進行假設。 因為系統無法了解意向，假設可能與預期有所不同，並且會發生不正確或不可預測的結果。 可預知的結果是，在專案經理透過 **協調** 檢視表的協助審慎建立指派之前，一般資源仍保留已指派的狀態。
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

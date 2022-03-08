@@ -2,11 +2,9 @@
 title: 專案階段
 description: 本主題提供有關 Microsoft Dynamics Project Operations 中所提供之專案階段的資訊。
 author: ruhercul
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: aa3d692a46165b01eafbd7619578cead8dd912d6
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 079c3d2d16cf802d2b9ecc779577e6e390d92ddc
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127463"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5996916"
 ---
 # <a name="project-stages"></a>專案階段
 
@@ -63,3 +61,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 將專案所有的交易都記錄下來後，專案經理就可以將階段更新為 **關閉**。 此時，無法記錄任何交易，且專案會設定為唯讀。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

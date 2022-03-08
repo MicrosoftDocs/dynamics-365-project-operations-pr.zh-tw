@@ -2,18 +2,16 @@
 title: 估計專案型報價明細
 description: 本主題提供有關如何在專案型報價明細上建立估計值的資訊。
 author: rumant
-manager: Annbe
 ms.date: 04/01/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ef30df2921df7464aa2173161898121dc8e4f440
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: a8e2b56b4a97ce184fc36145fffe63db8772bdef8bb89f9b60ddaf43db0c1ba4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858193"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997281"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>估計專案型報價明細
 

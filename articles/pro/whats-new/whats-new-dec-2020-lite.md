@@ -2,17 +2,19 @@
 title: 2020 年 12 月 - Project Operations Lite 部署 - 交易至開立預估發票新增功能
 description: 此主題提供關於 Project Operations Lite 部署 - 交易至開立預估發票 2020 年 12 月版本中所提供之品質更新的資訊。
 author: sigitac
+manager: Annbe
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 8b813d0fc99b8bce9000c983f51f919adbe1aaac
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: bfa13ab74031eb52c128fed16a31e3a8167e8bde
+ms.sourcegitcommit: ec8ab099a03725de9f61edfdeb90fbefae54cd4e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5994036"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "4707663"
 ---
 # <a name="whats-new-december-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>2020 年 12 月 - Project Operations Lite 部署 - 交易至開立預估發票新增功能
 
@@ -55,6 +57,3 @@ _**適用於：** 精簡部署 - 交易至開立預估發票_
 | 時間和費用 | 2034882 | 安裝 Dynamics 365 Field Service 時，**新增** 按鈕會在命令列中為時間項目顯示兩次。 |
 | 時間和費用 | 2056028 | 更新 **時間編輯** 頁面以包括時間表。 |
 | 時間和費用 | 1983747 | 時間項目圖表顯示額外的資料。 |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

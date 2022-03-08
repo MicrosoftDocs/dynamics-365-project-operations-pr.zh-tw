@@ -2,18 +2,16 @@
 title: 建立分工結構圖
 description: 本主題說明如何在新的排程介面中建立包含基本控制項的分工結構圖 (WBS)。
 author: ruhercul
-manager: tfehr
-ms.date: 01/07/2021
+ms.date: 06/30/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
+ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841313"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7655407"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>建立分工結構圖 (WBS)
 
@@ -93,6 +91,8 @@ ms.locfileid: "4841313"
 | 名字 | 工作的名稱。 |
 | 識別碼 | 分工結構圖中工作的識別碼。 |
 
+身為管理員，您可以在工作實體上定義自訂欄位。 不過，這些欄位無法顯示在排程網格上。 若要查看您的自訂欄位，請將其新增至 **專案工作** 詳細資料頁面。
+
 ## <a name="staffing-attributes"></a>人員配置屬性
 
 人員配置屬性可以透過排程中的 **資源** 欄位來存取。 您可以搜尋現有的資源，或者選取 **快速建立** 窗格中的 **建立**，將專案團隊成員新增為新資源。
@@ -116,3 +116,27 @@ ms.locfileid: "4841313"
 ## <a name="accessibility-and-keyboard-shortcuts"></a>協助工具和鍵盤快速鍵
 
 **排程** 網格完全可供存取，並且可與朗讀程式、JAWS 或 NVDA 等螢幕助讀程式搭配使用。 您可以使用方向鍵在網格區域中穿行 (如同在 Microsoft Excel 中)、可以使用 Tab 鍵前進通過互動式使用者介面元素，並且可以使用向下鍵、Enter 鍵或空格鍵來選取和開啟下拉式功能表。
+
+## <a name="project-limitations"></a>專案限制 
+如果您在 Project Operations 中使用分工結構圖，應注意下列限制。 這些限制會套用至專案和工作。 如需詳細資訊，請參閱 [Project for the Web 限制和界限](/project-for-the-web/project-for-the-web-limits-and-boundaries)。
+
+| **欄位**                                          |  **限制**           |
+|----------------------------------------------------|----------------------|
+| 專案的工作總數上限                  | 500                  |
+| 專案的總期間上限               | 3650 天 (10 年) |
+| 專案的資源總數上限              | 150                  |
+| 專案的連結總數 (僅限後續任務) 上限 | 600                  |
+| 專案的自訂欄位總數上限          | 10                   |
+
+**工作限制**
+
+| **欄位**                               |   **限制**           |
+|-----------------------------------------|-----------------------|
+| 最大階層層級                 | 10 層             |
+| 連結數上限 (後續任務 + 前置任務) | 20                    |
+| 分葉工作的最大期間           | 1250 天             |
+| 摘要工作的最大期間      | 3650 天 (10 年)  |
+| 指派給工作的資源數上限    | 20 個資源          |
+| 工作的支援日期範圍         | 2000/1/1 - 2149/12/31 |
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

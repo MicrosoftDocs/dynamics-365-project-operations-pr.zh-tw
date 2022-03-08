@@ -2,18 +2,17 @@
 title: 專案團隊成員
 description: 本主題提供有關如何使用專案團隊成員資訊、屬性和排程的資訊。
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3985febf62a520619e05bbb9a307195009e4b100
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.custom: intro-internal
+ms.openlocfilehash: f46b71ece5f2573108def22224801dd960df00ae
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127418"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369231"
 ---
 # <a name="project-team-members"></a>專案團隊成員
 
@@ -60,3 +59,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 - **新增**：除了直接從排程新增資源之外，專案經理還可以從團隊成員網格新增具名或一般團隊成員。
 - **刪除**：專案經理可以選取一個或多個團隊成員來刪除不再參與專案的資源。 刪除團隊成員也會刪除所有相關聯的資源指派，並取消所有現有的預約。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

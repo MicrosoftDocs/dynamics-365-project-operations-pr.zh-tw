@@ -2,24 +2,22 @@
 title: 關閉報價
 description: 本主題提供有關在 Project Operations 中關閉報價的資訊。
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 47804db0144c2b0f9dee2c60518e8aba6fb27473
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2314444dfdbd4d1a2f38c7de55e2070011e51a86f1e074dd6667d54393c641fe
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124673"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993411"
 ---
 # <a name="close-a-quote"></a>關閉報價
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
-專案報價可以當做 [成交] 或 [未成交] 來關閉。 Microsoft Dynamics 365 Project Operations 中的報價不支援啟用和修訂功能，因此您可以關閉草稿報價。
+專案報價可以當做 [成交] 或 [未成交] 來關閉。 因為 Microsoft Dynamics 365 Project Operations 中的報價不支援 [啟用] 和 [修訂] 功能，您可以關閉草稿報價。
 
 ## <a name="close-a-quote-as-won"></a>以成交關閉報價
 
@@ -43,3 +41,6 @@ Project Operations 的 [專案管理與會計] 模組也已提供根據專案合
 
 > [!NOTE]
 > 在 Project Operations 中，以 [成交] 或 [未成] 交關閉報價並不會影響商機的狀態，商機仍將保持開啟，直到手動將其關閉為止。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

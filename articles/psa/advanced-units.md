@@ -2,8 +2,6 @@
 title: 單位群組和單位
 description: 本主題提供有關單位群組和單位的資訊。
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6620c99563394d1f3881d6bfdb72d01c1c4e8d6f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145573"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987561"
 ---
 # <a name="unit-groups-and-units"></a>單位群組和單位
 
@@ -46,7 +44,7 @@ ms.locfileid: "5145573"
 
 下圖顯示 **天** 單位 (其中 **數量** 欄位顯示一天的小時數) 和 **週** 單位 (其中 **數量** 欄位顯示一週的天數) 的範例設定。
 
-> ![單位群組：資訊頁面](media/advanced-2.png)
+> ![單位群組：資訊頁面。](media/advanced-2.png)
 
 ## <a name="using-units-and-unit-groups"></a>使用單位與單位群組
 
@@ -88,7 +86,7 @@ Dynamics 365 Project Service Automation 使用單位與單位群組來處理費�
 
 | 角色      | 單位群組 | 單位 | 組織單位 | 價格   |
 |-----------|------------|------|---------------------|---------|
-| 開發人員 | Time       | Day  | Contoso UK          | 800 GBP |
+| 開發人員 | 時間       | 天  | Contoso UK          | 800 GBP |
 
 ### <a name="time-entry"></a>時間項目
 
@@ -112,3 +110,6 @@ Dynamics 365 Project Service Automation 使用單位與單位群組來處理費�
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>是否可以編輯、刪除和新增單位與單位群組？
 是的。 除了 **時間** 單位群組和 **小時** 單位之外，所有單位都可刪除或編輯，而且新單位也可以新增。 在 PSA 中，無法刪除 **時間** 單位群組和 **小時** 單位。 不過，您可以使用 **名稱** 欄位的翻譯文字來更新它們。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

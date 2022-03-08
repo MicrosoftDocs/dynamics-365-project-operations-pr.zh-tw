@@ -2,18 +2,16 @@
 title: 管理營收估計值
 description: 此主題提供有關如何使用專案的營收估計值的資訊。
 author: sigitac
-manager: Annbe
 ms.date: 11/04/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 98df0301eaa8e9f8e9cd51fc5714254ae3bbc83d
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.openlocfilehash: e3cbaff18d8bd4d6f6a7577bba25b3e843b1757e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531375"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013837"
 ---
 # <a name="manage-revenue-estimates"></a>管理營收估計值
 
@@ -90,3 +88,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 您可以使用此頁面，將指定估計日期和消除狀態為 **已消除** 的所有消除項目進行沖銷。 當您選取適當的欄位後，交易記錄狀態會變更。
 
 這也會在專案階段設定為已完成時，自動將專案狀態變更為 **處理中**。 專案期間的估計狀態會變更回 **已過帳**。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

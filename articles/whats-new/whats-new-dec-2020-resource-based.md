@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3889402ab991e307bc3fe5463098dfab383a53b4
-ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
+ms.openlocfilehash: e7c252ba01a4665bd09423e9b2b250622a149beb
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "4727870"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951019"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>2020 年 12 月 - 資源/非庫存型案例適用的 Project Operations 新增功能
 
@@ -108,4 +108,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 | 差旅和費用                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | 已完成費用報表自動過帳工作流程，但是發票未過帳                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>法規更新
-如需 Finance and Operations 應用程式的法規更新資訊，請參閱[法規更新](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates)。 您也可以使用問題搜尋工具登入 LCS 並查看計畫的法規更新。 問題搜尋可讓您依國家/地區、功能類型和版本進行搜尋。
+如需 Finance and Operations 應用程式的法規更新資訊，請參閱[法規更新](/dynamics365/finance/localizations/regulatory-updates)。 您也可以使用問題搜尋工具登入 LCS 並查看計畫的法規更新。 問題搜尋可讓您依國家/地區、功能類型和版本進行搜尋。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

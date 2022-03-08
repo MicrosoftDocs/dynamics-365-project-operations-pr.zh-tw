@@ -1,23 +1,23 @@
 ---
-title: 更新專案
+title: 建立和更新專案
 description: 本主題提供有關更新 Project Operations 中專案的資訊。
 author: ruhercul
-ms.date: 10/01/2020
+ms.date: 10/20/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c07542444b970430d8143a60aad6970305769b22
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d0847b5343cf3e353b91eae04c94509f14213ba5
+ms.sourcegitcommit: 51224cb3bf7cdeae6614d39fc8d899c83dbad5f2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993361"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7678339"
 ---
-# <a name="update-a-project"></a>更新專案
+# <a name="create-and-update-a-project"></a>建立和更新專案
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
-以下是建立專案後可在其中更新的欄位摘要，以及這些更新作業的任何適用含意。
+以下是建立專案後，專案中可更新之欄位的摘要。 這也會將任何根據這些更新推斷出的適當含義列入內容中。
 
 ## <a name="project-detail-fields"></a>專案詳細資料欄位
 
@@ -25,8 +25,8 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 - **描述**：專案的概觀。
 - **客戶**：專案將交付到的公司。
 - **行事曆範本**：專案的工作時數。 當欄位變更時，會重新計算整個排程。
-- **貨幣**：專案的貨幣。 此欄位是根據在合約單位中定義的貨幣來設定預設值。 更新合約單位時，也會更新此欄位。
-- **合約單位**：代表公司中主要負責贏得銷售和管理客戶工作與服務交付之群組或部門的組織單位。 
+- **貨幣**：專案的貨幣。 此欄位的預設值是根據合約單位中定義的貨幣而定。 更新合約單位時，也會更新此欄位。
+- **合約單位**：代表公司中主要負責贏得銷售和管理客戶工作與服務交付之群組或部門的組織單位。  專案經理的組織單位未定義時，此欄位預設為專案參數中所定義的值。
 - **專案經理**：有權責可以審查和核准時間項目及費用的專案團隊成員。
 
 ## <a name="estimate-fields"></a>評估值欄位

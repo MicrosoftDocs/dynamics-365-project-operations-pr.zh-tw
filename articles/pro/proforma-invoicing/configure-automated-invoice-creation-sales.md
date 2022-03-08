@@ -1,29 +1,25 @@
 ---
-title: 設定自動發票建立作業 - 精簡
-description: 本主題提供有關設定預估發票自動建立作業的資訊。
+title: 設定自動發票建立作業
+description: 本主題提供有關設定和配置預估發票自動建立作業的資訊。
 author: rumant
-manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 2d212f2279b28d900e75d45386e343f95b8e825e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176556"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004161"
 ---
-# <a name="configure-automatic-invoice-creation---lite"></a>設定自動發票建立作業 - 精簡
+# <a name="set-up-automatic-invoice-creation"></a>設定自動發票建立作業 
  
-_**適用於：** 精簡部署 - 交易至開立預估發票_
+_**適用於：** 精簡部署 - 交易至開立預估發票、資源/非庫存型案例適用的 Project Operations_
 
-您可以在 Dynamics 365 Project Operations 中設定自動建立發票。 系統會根據每個專案合約和合約服務內容的發票排程，建立草稿預估發票。 發票排程是在合約服務內容層級進行設定。 合約的每個服務內容都可以有不同的發票排程，或者相同的發票排程可以包含在合約的所有服務內容。
+您可以在 Dynamics 365 Project Operations 中設定自動發票建立作業。 系統會根據每個專案合約和合約服務內容的發票排程，建立草稿預估發票。 發票排程是在合約服務內容層級進行設定。 合約的每個服務內容都可以有不同的發票排程，或者相同的發票排程可以包含在合約的所有服務內容。
 
-建立發票時，系統一律每個專案合約至少建立一個發票。 在某些情況下，可能會建立多個發票。
-
-例如，如果合約有多個客戶，則會建立與在該專案合約上有計費交易要開發票之客戶同樣數目的發票。
+建立發票時，系統一律每個專案合約至少建立一個發票。 在某些情況下，可能會建立多個發票。 例如，如果合約有多個客戶，則會建立與在該專案合約上有計費交易要開發票之客戶同樣數目的發票。
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>了解如何將交易包含在發票上 
 
@@ -91,3 +87,6 @@ _**適用於：** 精簡部署 - 交易至開立預估發票_
 
 > [!NOTE]
 > 在 Project Operations 中批次開立發票，只會對發票排程所設定的專案合約服務內容來執行。 使用固定價格計費方式的合約服務內容必須已設定里程碑。 使用時間和材料計費方式的專案合約服務內容必須設定以日期為依據的發票排程。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: 複製價目表
 description: 本主題提供有關如何在 Project Operations 中複製價目表的資訊。
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: ad09bdce563a48843b3ed96e7aaabd9c0d5960336b9e1c74fddb9b61f760f4cd
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181487"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003716"
 ---
 # <a name="copy-price-lists"></a>複製價目表
 
@@ -43,3 +41,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 1. 在價目表的 **角色**、**類別** 和 **價目表項目** 索引標籤上，您可以選取 **更新價格**，為子格中的所有價格套用加成。 
 2. 在開啟的對話方塊頁面上，輸入加成。 您也可以輸入負數加成百分比，將價格減少特定百分比。 
 3. 選取對話方塊頁面上的 **確定**，然後確認子格中的價格是否反映您所做的變更。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

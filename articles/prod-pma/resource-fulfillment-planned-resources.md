@@ -2,11 +2,9 @@
 title: 規劃資源的資源履行
 description: 本主題提供有關專案規劃資源的資訊。
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d849e7bdd020b0a2f5f35a627e28434ea77e5fb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: eaeae9b0a4563805af61d20d6cc6709f7d697f582d4b1af2b883b292ac482af5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073167"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989496"
 ---
 # <a name="resource-fulfillment-for-planned-resources"></a>規劃資源的資源履行
 
@@ -40,3 +38,6 @@ ms.locfileid: "4073167"
 7. 選取工作者，然後選取 **指派**。
 8. 確認是否已移除 **XYZ 升級專案階段 2** 專案的 **軟體開發人員 1** 這一列。
 9. 在 **專案團隊與排程** 索引標籤上，針對 **XYZ 升級階段 2** 專案，確認您在先前步驟所選取的工作者是否已新增為 **軟體開發人員**。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: 更新外掛程式屬性以包含新的定價維度
 description: 此主題提供有關更新定價維度外掛程式屬性的資訊。
 author: Rumant
-manager: kfend
 ms.custom: ''
 ms.date: 11/19/2018
 ms.topic: article
-ms.service: project-operations
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 603b0e9a10dc2fe23c9fa0fa7065bc3f500dc540
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d04561fb6bcbc64f6ad3ea922bff1912824be64c6bb2b18cddd95e9b1b5c7850
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147058"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988776"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>更新外掛程式屬性以包含新的定價維度
 
@@ -44,27 +42,30 @@ ms.locfileid: "5147058"
 1. 開啟 **PluginRegistrationTool** 並連接至您的線上執行個體。
 2. 按一下 **搜尋**，然後搜尋要更新的外掛程式。
 
- ![搜尋樹狀結構的螢幕擷取畫面](media/PRT-1.png)
+ ![搜尋樹狀結構的螢幕擷取畫面。](media/PRT-1.png)
 
 3. 找到外掛程式後，選取該外掛程式，然後按一下 **在主要表單上選取**。
 
 4. 選取要更新外掛程式的步驟，按一下滑鼠右鍵，然後選取 **更新**。
 
- ![要更新的外掛程式螢幕擷取畫面](media/PRT-2.png)
+ ![要更新的外掛程式螢幕擷取畫面。](media/PRT-2.png)
  
 5. 在更新視窗中，按一下篩選屬性中的省略符號 (**...**)。
 
- ![更新現有步驟設定資訊的螢幕擷取畫面](media/PRT-3.png)
+ ![更新現有步驟設定資訊的螢幕擷取畫面。](media/PRT-3.png)
  
 6. 選取定價屬性核取方塊。
 
- ![螢幕擷取畫面顯示定價屬性的核取方塊選擇](media/PRT-4.png)
+ ![螢幕擷取畫面顯示定價屬性的核取方塊選擇。](media/PRT-4.png)
 
 7. 按一下 **確定** 關閉頁面，然後選取 **更新步驟**。
 
- ![螢幕擷取畫面顯示 [更新步驟] 按鈕](media/PRT-5.png)
+ ![螢幕擷取畫面顯示 [更新步驟] 按鈕。](media/PRT-5.png)
  
 8. 對第二個外掛程式 **PreOperationQuoteLineDetail - msdyn_quotelinetransaction 的更新** 重複此程序。
 
 9. 關閉外掛程式註冊工具
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

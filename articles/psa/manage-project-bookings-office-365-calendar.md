@@ -2,8 +2,6 @@
 title: 管理 Office 365 行事曆中的專案和預約
 description: 如何管理 Office 365 行事曆中的專案和預約
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c575bd3deba5bcde2526ccfc598327917bf91642
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: b38affbfc8d339ac1a2093391286ea4c095207be8de2e8eeca558e6fcc5bcc07
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144448"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985311"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>管理行事曆中的專案和預約 (Project Service)
 
@@ -52,7 +50,7 @@ ms.locfileid: "5144448"
   
 - 您必須有 [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] 全域管理員或系統管理員認證。  
   
-- 您的系統管理員需要設定電子郵件伺服器設定檔，而且每個使用者都必須設定他們的信箱。 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][透過伺服器端同步處理設定電子郵件處理](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
+- 您的系統管理員需要設定電子郵件伺服器設定檔，而且每個使用者都必須設定他們的信箱。 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][透過伺服器端同步處理設定電子郵件處理](/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
   
 ## <a name="turn-on-synchronization-for-your-organization-admin-task"></a>開啟您的組織的同步處理 (系統管理員工作)  
   
@@ -91,3 +89,6 @@ ms.locfileid: "5144448"
   
 ### <a name="see-also"></a>請參閱  
  [時間、費用及共同作業指南](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

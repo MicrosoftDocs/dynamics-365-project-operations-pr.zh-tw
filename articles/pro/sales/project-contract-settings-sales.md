@@ -2,18 +2,16 @@
 title: 專案合約設定 - 精簡
 description: 本主題提供有關影響合約服務內容之欄位的資訊，以及有關概括所有明細項目之合約的資訊。
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1eedd912bedc43b1d5e847c574b5f1d5233cd038
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 7ade6c122827274f926803140f5db32442114c7aefd18d410da65270f345fde4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663899"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995931"
 ---
 # <a name="header-details-for-project-contracts"></a>專案合約的標題詳細資料
 

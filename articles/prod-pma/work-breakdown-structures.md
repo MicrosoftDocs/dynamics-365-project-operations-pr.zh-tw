@@ -2,11 +2,9 @@
 title: 分工結構圖階層概觀
 description: 分工結構圖 (WBS) 說明專案將會完成的工作。 這是工作的階層，表示專案團隊對工作構成部分以及每個元件或工作大小、成本和期間的認識。
 author: Yowelle
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d0cfcc27c69695fc6fe897e798b2831528833e6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 713e38f4218b980c4256e433e90c12adccd70e11
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072971"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012216"
 ---
 # <a name="work-breakdown-structures-overview"></a>分工結構圖階層概觀
 
@@ -316,3 +314,6 @@ WBS 範本沒有設定工作時數和非工作日數。
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

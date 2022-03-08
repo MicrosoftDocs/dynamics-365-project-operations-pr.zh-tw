@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c97488f8be003099210ed58dd5b609c8416474cd
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: e86f1a5a7b2859df5bf9569ee9ca306c6dcc6293
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663944"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177996"
 ---
-# <a name="concepts-unique-to-project-quotes"></a>專案報價獨有的概念
+# <a name="quotes---key-concepts---lite"></a>報價 - 重要概念 - 精簡
 
 _**適用於：** 精簡部署 - 交易至開立預估發票_
 
 
-以下是在 Dynamics 365 Project Operations 中開始使用專案報價之前，需注意的重要概念：
+開始使用 Dynamics 365 Project Operations 中的專案報價之前，請了解下列重要概念：
 
 ## <a name="contracting-unit"></a>合約單位
 
@@ -89,6 +89,3 @@ Project Operations 報價是建立在 Dynamics 365 Sales 報價的基礎上。 �
 - Project Operations 報價有其本身的表單以及 UI 元素、商務規則、外掛程式中的商務規則，以及使其與 Sales 報價有所不同的用戶端指令碼。
 
 因此，不建議互換使用 Sales 報價與 Project Operations 報價。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

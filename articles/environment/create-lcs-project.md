@@ -1,21 +1,21 @@
 ---
-title: 開始新的 LCS 專案
+title: 在 LCS 中開始新專案
 description: 本主題提供有關在 Project Operations 環境的 LCS 中建立新專案的資訊。
 author: stsporen
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 595fda369fe19a69604fc4ab694cb844f45076b5
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: c0b756068f7eec5e3abd326957ee07cb0d00331f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175611"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072853"
 ---
-# <a name="start-a-new-lcs-project"></a>開始新的 LCS 專案
+# <a name="start-a-new-project-in-lcs"></a>在 LCS 中開始新專案
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 

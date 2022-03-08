@@ -2,19 +2,17 @@
 title: 更新 Finance 環境中的 Project Operations
 description: 本主題提供有關如何在 Dynamics 365 Finance 環境中更新 Project Operations 的資訊。
 author: ruhercul
-manager: tfehr
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 249b8dba17165da04596ec46a625131b9b4daeb5
-ms.sourcegitcommit: f4fc6e3a81e8551da050e92f8fde85f8d7b52fbd
+ms.openlocfilehash: d85a180aa094a048b4422605b25151d10785f67d
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "4816615"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011046"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>更新 Finance 環境中的 Project Operations
 
@@ -125,3 +123,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
  
  ![總帳對應同步處理](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

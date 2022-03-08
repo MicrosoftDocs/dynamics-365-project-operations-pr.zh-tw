@@ -2,18 +2,16 @@
 title: 編輯資源需求
 description: 本主題提供有關更新資源需求資訊的資訊。
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 988d3338f19443f1d8bcb7cf77e69aa3c1cff155
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 8c80c7148df972e542ea1952ef333b3c7c2709b4409ffaf0508f8f617d5f9894
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128768"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999756"
 ---
 # <a name="edit-a-resource-requirement"></a>編輯資源需求
 
@@ -37,3 +35,5 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 ## <a name="edit-resource-assignment-contours"></a>編輯資源指派分佈
 
 除了編輯資源需求的詳細資料之外，專案經理還可以使用 **指定模式** 功能來更新資源需求的個別分佈。 選取 **指定模式** 時，頁面會開啟，您可以在日、週或月的時幅來檢視分佈。 每個分佈都可以對開始時間、結束時間以及指定期間的總投入量進行調整。
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

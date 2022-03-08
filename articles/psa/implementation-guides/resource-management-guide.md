@@ -2,8 +2,6 @@
 title: 資源管理員指南
 description: 本主題提供有關 Project Service Automation 中資源管理的資訊連結。
 author: kfend
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a0a12840f7f53cab0e81a5d3764d5c1a9d4df6a3
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: f4c320e666696d3ff065a4431790d39c4f4e549b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149038"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007311"
 ---
 # <a name="resource-management-guide"></a>資源管理員指南
 
@@ -44,3 +42,6 @@ ms.locfileid: "5149038"
 
 > [!NOTE]
 > 本主題將會在日後的文件更新中移除。 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

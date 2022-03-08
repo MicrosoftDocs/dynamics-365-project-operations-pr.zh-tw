@@ -2,18 +2,16 @@
 title: 管理專案型報價明細上的多個客戶
 description: 本主題提供有關如何管理專案型報價明細上的多個客戶的資訊。
 author: rumant
-manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 48336af0ad522e9d6aa68fa82ffa7921f09662d4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: bf3d10cc4a742f7247586d09f5b209cbfdbbd790bdf97e09da06d9db583e61a5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118553"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992016"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>管理專案型報價明細上的多個客戶
 
@@ -44,3 +42,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 您可以直接編輯帳單分割百分比。 帳單分割百分比的總計不是 100% 時，會發生錯誤。 編輯帳單分割百分比之後，重新整理報價明細整理頁面以移除錯誤。
 
 使用報價明細客戶子格上的平均分配動作，將帳單分割配置到所有報價明細客戶。 如果有捨入因素，就會新增至捨入客戶。 永遠都會有其中一個報價明細客戶標記為捨入客戶，這表示會將報價明細客戶記錄的捨入旗標設定為 **是**。 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

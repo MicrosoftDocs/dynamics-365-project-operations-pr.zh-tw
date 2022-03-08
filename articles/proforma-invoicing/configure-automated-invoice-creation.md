@@ -2,18 +2,16 @@
 title: 設定自動發票建立作業
 description: 本主題提供有關如何將系統設定成自動產生發票的資訊。
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 295c3b099c9670c930fb2ba2fd208be63a77217f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 894e8f6e4ffbb5f003cdd1f69594e2a1e043b514923de5673d7ba9afaa6894e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122423"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992646"
 ---
 # <a name="configure-automatic-invoice-creation"></a>設定自動發票建立作業
 
@@ -45,3 +43,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 > [!NOTE]
 > 批次開立發票只會對發票排程所設定的專案合約服務內容來執行。 使用固定價格計費方式的合約服務內容必須已設定里程碑。 使用時間和材料計費方式的專案合約服務內容必須設定以日期為依據的發票排程。 這同樣適用於專案型合約服務內容。     
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

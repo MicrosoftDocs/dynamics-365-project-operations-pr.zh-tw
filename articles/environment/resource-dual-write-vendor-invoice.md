@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 538a2694591f1d0d368ee0ffeed9bdf12cb47420c3d0571f75185fe433f23436
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d4f1b0ad94b71dc4adc5b2b3423340c5fdb171eb
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986481"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002245"
 ---
 # <a name="vendor-invoice-integration"></a>廠商發票整合
 
@@ -36,7 +36,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 系統會在過帳廠商發票時，視實際情況在 Dynamics 365 Finance 中記錄稅金子分類帳、廠商子分類帳及其他財務過帳。
 
-![廠商發票整合。](media/DW7VendorInvoice.png)
+![廠商發票整合](media/DW7VendorInvoice.png)
 
 將記錄寫入 Dataverse 中的 **廠商發票** 實體時，記錄的自動化核准程序會開始。 如果需要，您可以移至 **進階設定** > **系統** > **系統作業**，在 Dataverse 中檢閱自動化核准程序狀態。 核准完成後，系統會在 **實際值** 實體中建立材料交易分類記錄。
 

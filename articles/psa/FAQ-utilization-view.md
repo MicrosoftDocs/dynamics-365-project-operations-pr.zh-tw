@@ -2,6 +2,8 @@
 title: 檢視資源的應收費使用率
 description: 本主題提供有關資源使用率檢視表的資訊。
 author: ruhercul
+manager: kfend
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -16,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e1c123854209b3cb5c310e3bbcb242c9219279a8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 6daa6cfa1c6a237d8a1685123f7c1a6926418bfe
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992824"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073018"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>檢視資源的應收費使用率
-
-[!include [banner](../includes/psa-now-project-operations.md)]
  
 **Project Service 資源使用率** 頁面上的 **使用率檢視表** 會顯示每個可預約資源的應收費使用率。 檢視表是以排程面板為基礎所建立，因此您會發現許多相同的功能。
 
@@ -99,6 +99,3 @@ ms.locfileid: "5992824"
   - 支援專案的專案合約服務內容上的角色已設定為不應收費。
   - 專案沒有相關聯的合約服務內容。
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

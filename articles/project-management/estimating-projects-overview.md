@@ -2,18 +2,17 @@
 title: 財務估計概念
 description: 本主題提供有關 Project Operations 中專案財務估計的資訊。
 author: rumant
-manager: AnnBe
 ms.date: 03/22/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a251be995abddba04cee689714d0a8f4e9d9e7d7
-ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
+ms.custom: intro-internal
+ms.openlocfilehash: 6ba006511c3dd5b3d0484cb5e964ef252fe41c93
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "5701726"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369321"
 ---
 # <a name="financial-estimation-concepts"></a>財務估計概念
 

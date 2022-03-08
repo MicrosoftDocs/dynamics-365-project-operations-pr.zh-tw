@@ -2,18 +2,16 @@
 title: 費用項目 (精簡)
 description: 本主題提供有關如何在精簡部署中處理費用項目的資訊。
 author: stsporen
-manager: AnnBe
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d87094882751f0751a8d9d539fa4cdcfc6b7b0d7
-ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
+ms.openlocfilehash: e75a61c25be06a9db121e8165e8ccd25d4719d08
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4590936"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002181"
 ---
 # <a name="expense-entry-lite"></a>費用項目 (精簡)
 
@@ -55,3 +53,6 @@ _**適用於：** 精簡部署 - 交易至開立預估發票_
 ## <a name="see-also"></a>請參閱
 
 - [核准概觀](../approvals/approvals-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

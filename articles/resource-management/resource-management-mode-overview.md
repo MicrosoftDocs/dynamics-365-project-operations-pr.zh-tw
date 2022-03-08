@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 73ba6190e2e366f22372102d14d26f6d71ba0bc1
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4d132bcbef5421202d2f4899091f0dc75166dd66
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118508"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949939"
 ---
 # <a name="resource-management-modes-overview"></a>資源管理模式概觀
 
@@ -29,11 +29,11 @@ Dynamics 365 Project Operations 支援兩種模式，讓您執行整體預約流
 
 若要使用集中模式管理資源，請參閱：
 
-- [指派一般可預約資源至工作，並產生資源需求](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [透過資源需求預約具名資源](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
-- [送出資源要求](https://docs.microsoft.com/dynamics365/project-service/submit-resource-request)
-- [履行資源要求](https://docs.microsoft.com/dynamics365/project-service/resource-management-fulfill-requests)
-- [接受或拒絕資源要求提案的專案資源](https://docs.microsoft.com/dynamics365/project-service/accept-reject-proposed-resource)
+- [指派一般可預約資源至工作，並產生資源需求](/dynamics365/project-service/assign-generic-bookable-resource)
+- [透過資源需求預約具名資源](/dynamics365/project-service/book-named-resource)
+- [送出資源要求](/dynamics365/project-service/submit-resource-request)
+- [履行資源要求](/dynamics365/project-service/resource-management-fulfill-requests)
+- [接受或拒絕資源要求提案的專案資源](/dynamics365/project-service/accept-reject-proposed-resource)
 
 ## <a name="hybrid-mode"></a>混合模式
 對於需要彈性配置資源的組織，混合模式使專案經理和資源管理員能夠預約資源。
@@ -43,8 +43,11 @@ Dynamics 365 Project Operations 支援兩種模式，讓您執行整體預約流
 除了支援的集中模式程序之外，也請參閱下列主題，以便在混合模式下管理所有其他支援的預約流程：
 
 將資源直接預約給專案：
-- [將具名可預約資源預約給專案團隊並指派工作](https://docs.microsoft.com/dynamics365/project-service/assign-named-bookable-resource)
+- [將具名可預約資源預約給專案團隊並指派工作](/dynamics365/project-service/assign-named-bookable-resource)
 
 透過資源需求預約資源：
-- [指派一般可預約資源至工作，並產生資源需求](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [透過資源需求預約具名資源](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+- [指派一般可預約資源至工作，並產生資源需求](/dynamics365/project-service/assign-generic-bookable-resource)
+- [透過資源需求預約具名資源](/dynamics365/project-service/book-named-resource)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

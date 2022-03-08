@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 68dc91db331c5214b5d0ad1109fa4e9bd9d0918e
-ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
+ms.openlocfilehash: d2d558ad4f1a35f83af93d37e377db66d7f70e4f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "4727931"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5276203"
 ---
 # <a name="work-with-personal-expenses-on-an-expense-report"></a>處理費用報表上的個人費用
 
@@ -28,3 +28,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
   - **由公司支付**：您的組織支付公司信用卡的全額帳單，然後借記工作者的個人費用會計科目。
 
 您可以在 **費用管理參數** 頁面上選取您的組織所使用的方法。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

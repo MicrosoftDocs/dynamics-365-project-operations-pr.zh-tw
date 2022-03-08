@@ -2,11 +2,9 @@
 title: 建立和確認更正帳目
 description: 本主題提供有關如何建立和確認更正帳目的資訊。
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6cc22168cdfefc4ae7b833bea75f68ba37c1ee67
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9d242741b2070f086bf8d3f1d40a5380c2a0f518
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127734"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5996646"
 ---
 # <a name="create-and-confirm-correction-journals"></a>建立和確認更正帳目
 
@@ -89,3 +87,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 8. 在專案頁面的 **實際值** 索引標籤上，檢閱 **實際值相關檢視表**。 原始分錄和更正分錄會列出。 下圖顯示原始費用分錄金額以及對應的已更正費用分錄金額。 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

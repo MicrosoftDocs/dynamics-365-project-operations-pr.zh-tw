@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: April 2018 update
-ms.openlocfilehash: 8241e74e8d9fb5a748bedbd5e913adea0bafa450
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 429c289c4ec653b81a1c5302b788db8c8ad26d8c
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271118"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4073138"
 ---
 # <a name="project-timesheets-on-a-mobile-device"></a>行動裝置上的專案時程表
 
@@ -62,6 +62,3 @@ ms.locfileid: "5271118"
 13. 選用：輸入其他時程表列。
 
 14. 完成時程表列的輸入後，選取 **工作流程** \> **提交** 動作，將您的時程表提交至工作流程審查查程序。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

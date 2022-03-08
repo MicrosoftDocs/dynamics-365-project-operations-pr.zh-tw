@@ -2,8 +2,6 @@
 title: 建立專案範本
 description: 如何建立 Project Service 中的專案範本
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: efc404131208e1c971cb091cf174c1f4707552f0
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 1423dfedccfdc471662581707b4441c9ed477f7c0811ccf3905af8c59f774f77
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149353"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990846"
 ---
 # <a name="create-a-project-template-project-service"></a>建立專案範本 (Project Service)
 
@@ -62,3 +60,6 @@ ms.locfileid: "5149353"
   
 ### <a name="see-also"></a>請參閱  
  [專案經理指南](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

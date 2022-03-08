@@ -2,19 +2,17 @@
 title: 覆寫專案銷售價目表
 description: 此主題提供建立自訂銷售價目表的相關資訊。
 author: rumant
-manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
-ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
+ms.openlocfilehash: b26947822eb8e87b3b36fcde9c99c6ee69375aa942a5641112b9b1109dcaa26c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4672221"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009566"
 ---
 # <a name="override-project-sales-price-lists"></a>覆寫專案銷售價目表
 
@@ -52,3 +50,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 在專案合約中，專案定價始終預設為自訂價目表，其中附有合約名稱和附加到名稱的建立日期時間戳記。 無論合約是在贏得報價時建立的，還是從零開始建立合約，都是如此。 如果需要，您可以移除與自訂價目表的此關聯，並將標準價目表關聯至專案合約。
 
 當您將標準價目表與報價或合約上的專案價目表關聯時，對價目表中的價格所做的任何變更都將影響使用價目表的所有報價和合約。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: 複製專案合約 - 精簡
 description: 本主題提供有關在 Project Operations 中複製專案合約的資訊。
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4137fc400c7fdd8fecd9d8349bf7f57f3470b51f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: d5c45c6f1631d9e20bd0416410c7fe24a11623da425c8e2a633b085fbfabdd79
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181397"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006011"
 ---
 # <a name="copy-project-contracts---lite"></a>複製專案合約 - 精簡
 
@@ -45,3 +43,6 @@ _**適用於：** 精簡部署 - 交易至開立預估發票_
   - 客戶預算資訊
 
 由於此資訊明確專屬於每個特定合約，因此不會複製這些欄位和記錄。 將會複製專案與產品的合約服務內容、合約服務內容詳細資料的估計值，以及合約層級上不得超過的值。 價格及成本費率預設值取決於 **複製參數** 對話方塊頁面上所選取的 **複製定價** 欄位。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: 設定和使用背靠背式供應商付款
 description: 本主題說明如何建立背靠背 (Pay-When-Paid，PWP) 條款，讓您可以根據客戶付款，發放部分支付供應商的款項。
 author: RadhikaRS
-manager: AnnBe
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9976dadf57f1c84bf3f295ff3c8359c16e4849a3bf887f8bd33e46a04e2a5952
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072975"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008846"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>設定和使用背靠背式供應商付款
 
@@ -80,3 +78,6 @@ ms.locfileid: "4072975"
 2. 在 **背靠背式供應商發票** 頁面的搜尋欄位中，輸入值以尋找您要審查的供應商發票，然後選取 **搜尋**。
 3. 在 **供應商發票明細** 快速分頁上，選取您要變更的明細。
 4. 如果符合發票明細的 **背靠背** 條件，請選取 **發放支付供應商的款項**。 **背靠背** 選項已清除，且 **付款準備就緒** 欄位的值已變更為 **是**。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

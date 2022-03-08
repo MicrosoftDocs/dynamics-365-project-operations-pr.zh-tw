@@ -1,8 +1,6 @@
 ---
 title: 分工結構圖升級考量
 description: 本主題提供有關將 Project Service Automation 2.x 的分工結構圖升級至 3.x 的資訊。
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cea8ce7f61fbc0f0c8c8deb522bc332be102238d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5258813410c3cea015775898cc72ba1574549edd8ee0c8b7aad8c94943eb5a60
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149533"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992331"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>分工結構圖升級考量
 
@@ -34,20 +32,20 @@ ms.locfileid: "5149533"
 ## <a name="key-entities"></a>主要實體
 已載入資源的正確分工結構圖需要下列實體：
 
-- [計畫](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
-- [專案團隊](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
-- [專案工作](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
-- [資源指派](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
-- [專案工作相依性](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
-- [可預約資源](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
+- [計畫](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
+- [專案團隊](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
+- [專案工作](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
+- [資源指派](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
+- [專案工作相依性](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
+- [可預約資源](/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
 
 若要定義資源已載入的分工結構圖，您必須完成下列步驟：
 
-1. 建立新專案： 如需有關如何建立新專案的詳細資訊，請參閱 [msdyn_project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)。
-2. 建立一個或多個工作。 如需有關如何建立工作的詳細資訊，請參閱 [msdyn_projecttask](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)。
-3. 定義工作相依性。 如需詳細資訊，請參閱[專案工作相依性](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)。
-4. 將專案團隊成員指派給專案。 如需詳細資訊，請參閱 [msdyn_projectteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)。
-5. 將專案團隊成員指派給工作。 如需詳細資訊，請參閱 [msdyn_resourceassignment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)。
+1. 建立新專案： 如需有關如何建立新專案的詳細資訊，請參閱 [msdyn_project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)。
+2. 建立一個或多個工作。 如需有關如何建立工作的詳細資訊，請參閱 [msdyn_projecttask](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)。
+3. 定義工作相依性。 如需詳細資訊，請參閱[專案工作相依性](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)。
+4. 將專案團隊成員指派給專案。 如需詳細資訊，請參閱 [msdyn_projectteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)。
+5. 將專案團隊成員指派給工作。 如需詳細資訊，請參閱 [msdyn_resourceassignment](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)。
 
 ## <a name="project-team-relationships"></a>專案團隊關聯
 
@@ -96,3 +94,6 @@ ms.locfileid: "5149533"
 
 - 所有專案工作相依性都必須與相同的專案相關聯。
 - 工作不能有參照多次的相同相依性。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

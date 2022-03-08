@@ -2,11 +2,9 @@
 title: 費用管理工作流程
 description: 本主題說明如何使用 Microsoft Dynamics 365 Finance 中的工作流程系統，以設定費用管理中的費用報表審查程序。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 09/13/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WorkflowtableListPageRnr
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fde336f53d72e9ddf38c5123d9e774a4c3a22a28
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7c2a2cae435342139f32d1bb5d38d68acd920453f5e6f6551e1f6d57967d8053
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271658"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001286"
 ---
 # <a name="expense-management-workflow"></a>費用管理工作流程
 

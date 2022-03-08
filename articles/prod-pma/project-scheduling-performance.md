@@ -2,11 +2,9 @@
 title: 專案資源排程效能
 description: 本主題提供有關如何改善大量專案資源排程效能的資訊。
 author: Yowelle
-manager: AnnBe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.14
 ms.search.validFrom: 2020-09-01
-ms.openlocfilehash: c3f219ce0635545976a6a4639233f166e18468af
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9dc638a7b2d8e0db45b5acfa5cc9512f356f8b2635028748a1e2c3230605c154
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072979"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007271"
 ---
 # <a name="project-resource-scheduling-performance"></a>專案資源排程效能
 
@@ -69,3 +67,6 @@ ms.locfileid: "4072979"
 
 > [!NOTE]
 > 這會將一般資料發佈至您環境中所有公司之間的 **ResRollup** 資料表，因此批次處理工作只需在一個法律實體中執行。 所有 **資源可用性** 檢視表都需要這個批次工作。 如果此批次作業未執行，則會即時產生 **ResRollup** 資料，而這可能需要一些時間。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

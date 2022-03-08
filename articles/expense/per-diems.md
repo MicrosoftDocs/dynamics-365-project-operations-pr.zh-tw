@@ -2,18 +2,16 @@
 title: 每日津貼
 description: 本主題提供有關費用管理中所用每日津貼規則的資訊。
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 8d723b49e9556401c364b323cf58eaaf44906275
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 192164094231fa2da47806cd9c2ccaba8321c83a1464fc8724fa0d0a7618660f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128498"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986391"
 ---
 # <a name="per-diems"></a>每日津貼
 
@@ -31,3 +29,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
     
 ## <a name="submit-expenses-using-per-diem"></a>提交使用每日津貼的費用
 若要提交使用每日津貼的費用，請在建立費用報表時使用 **每日津貼** 費用類別。 輸入 **每個津貼開始日期**、**到目前為止的每日津貼** 和 **每日津貼地點**。 金額會根據所選地點的每日津貼費率進行計算，而餐費扣減則是根據每日津貼費率分級所計算。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

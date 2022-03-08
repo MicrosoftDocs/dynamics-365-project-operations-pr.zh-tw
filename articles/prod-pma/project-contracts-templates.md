@@ -1,9 +1,9 @@
 ---
-title: 將專案合約和專案直接從 Project Service Automation 同步處理至 Finance
+title: 將專案合約和專案直接從 Project Service Automation 同步處理至 Finance and Operations
 description: 本主題說明用於將專案合約和專案直接從 Microsoft Dynamics 365 Project Service Automation 同步處理至 Dynamics 365 Finance 的範本與基礎工作。
 author: Yowelle
 manager: AnnBe
-ms.date: 12/17/2020
+ms.date: 09/09/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 1a470fd86ceccd7b6058da6972399a6d6be2a991
-ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
+ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4764809"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642623"
 ---
-# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>將專案合約和專案直接從 Project Service Automation 同步處理至 Finance 
+# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>將專案合約和專案直接從 Project Service Automation 同步處理至 Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
@@ -53,24 +53,24 @@ Project Service Automation 至 Finance 整合解決方案會使用資料整合�
 下列範本與基礎工作會用來將專案合約和專案從 Project Service Automation 同步處理至 Finance：
 
 ### <a name="integrating-with-dynamics-365-project-service-automation-v2x"></a>與 Dynamics 365 Project Service Automation v2.x 整合
-- **資料整合中的範本名稱：** 專案和合約 (Project Service Automation 至 Finance)
+- **資料整合中範本的名稱：** 專案與合約 (PSA 至 Fin 和 Ops)
 - **專案中工作的名稱：**
 
-    - 專案合約 Project Service Automation 至 Finance
-    - 專案 Project Service Automation 至 Finance
-    - 專案合約服務內容 Project Service Automation 至 Finance
-    - 專案合約服務內容里程碑 Project Service Automation 至 Finance
+    - 專案合約 PSA 至 Fin 和 Ops
+    - 專案 PSA 到 Fin 和 Ops
+    - 專案合約服務內容 PSA 至 Fin 和 Ops
+    - 專案合約服務內容里程碑 PSA 至 Fin 和 Ops
   
 ### <a name="integrating-with-dynamics-365-project-service-automation-v3x"></a>與 Dynamics 365 Project Service Automation v3.x 整合
 Project Service Automation 中發生中繼資料變更，這會影響專案合約服務內容里程碑範本，並需要使用 v2 版本的範本，才能將 Project Service Automation v3.x 與 Dynamics 365 整合。
 
-- **資料整合中的範本名稱：** 專案和合約 (Project Service Automation 3.x 至 Finance) - v2
+- **資料整合中範本的名稱：** 專案與合約 (PSA 3.x 至 Fin 和 Ops) - v2
 - **專案中工作的名稱：**
 
-    - 專案合約 Project Service Automation 至 Finance
-    - 專案 Project Service Automation 至 Finance
-    - 專案合約服務內容 Project Service Automation 至 Finance
-    - 專案合約服務內容里程碑 Project Service Automation 至 Finance
+    - 專案合約 PSA 至 Fin 和 Ops
+    - 專案 PSA 到 Fin 和 Ops
+    - 專案合約服務內容 PSA 至 Fin 和 Ops
+    - 專案合約服務內容里程碑 PSA 至 Fin 和 Ops
 
 您必須先同步處理帳戶，才能進行專案合約和專案同步處理。
 
@@ -87,8 +87,7 @@ Project Service Automation 中發生中繼資料變更，這會影響專案合�
 
 專案合約是在 Project Service Automation 中進行管理，並同步處理至 Finance 做為專案合約。 在整合範本中，您可以為專案合約設定 Finance 中的整合來源。
 
-時間和材料專案以及固定價格專案是在 Project Service Automation 中進行管理，並當做物件同步處理至 Finance。 在範本整合過程中，您可以在 Finance 中設定專案的整合來源。 目前僅支援時間和材料專案以及固定價格專案。
-
+時間與材料專案和固定價格專案是在 Project Service Automation 中進行管理，並同步處理至 Finance 做為專案。 在範本整合中，您可以為專案設定 Finance 中的整合來源。
 
 專案合約服務內容是在 Project Service Automation 中進行管理，並同步處理至 Finance 做為專案合約帳單規則。 如果帳務方式與預設專案類型不同，則同步處理會更新合約服務內容專案與專案群組的專案類型。
 
@@ -123,7 +122,7 @@ Project Service Automation 中發生中繼資料變更，這會影響專案合�
 
 ## <a name="power-query"></a>Power Query
 
-如果符合下列條件，請使用 Microsoft Power Query for Excel 來篩選資料：
+如果符合下列條件，您必須使用 Microsoft Power Query for Excel 來篩選資料：
 
 - 您在 Dynamics 365 Sales 中有銷售訂單。
 - 您在 Project Service Automation 中有多個組織單位，而且這些組織單位將會對應至 Finance 中的多個法律實體。
@@ -131,7 +130,7 @@ Project Service Automation 中發生中繼資料變更，這會影響專案合�
 如果您必須使用 Power Query，請遵循下列準則：
 
 - 「專案與合約 (PSA 至 Fin 和 Ops)」範本有一個只會包含類型為 **工作項目 (msdyn\_ordertype = 192350001)** 之銷售訂單的預設篩選。 此篩選有助於保證不會為 Finance 中的銷售訂單建立專案合約。 如果您自行建立範本，就必須新增此篩選。
-- 建立只包含合約組織的 Power Query 篩選，這些組織應同步處理至整合關係組的法律實體。 例如，您與合約組織單位 Contoso US 之間的專案合約，必須同步處理至 USSI 法律實體，但是您與合約組織單位 Contoso Global 之後專案合約則應同步處理至 USMF 法律實體。 如果您未將此篩選新增至工作對應，則會將所有專案合約都同步處理至針對連接集所定義的法律實體，而不考慮合約組織單位。
+- 您必須建立只會包含合約組織的 Power Query 篩選，而這些合約組織必須同步處理至整合連接集的法律實體。 例如，您與合約組織單位 Contoso US 之間的專案合約，必須同步處理至 USSI 法律實體，但是您與合約組織單位 Contoso Global 之後專案合約則應同步處理至 USMF 法律實體。 如果您未將此篩選新增至工作對應，則會將所有專案合約都同步處理至針對連接集所定義的法律實體，而不考慮合約組織單位。
 
 ## <a name="template-mapping-in-data-integration"></a>資料整合中的範本對應
 

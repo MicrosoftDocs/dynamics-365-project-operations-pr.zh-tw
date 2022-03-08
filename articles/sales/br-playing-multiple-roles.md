@@ -2,18 +2,16 @@
 title: 可預約資源在專案中擔任多個角色時估計專案銷售和成本
 description: 本主題說明如何使用定價維度來支援在專案中擔任多個角色的資源定價和成本估計值。
 author: rumant
-manager: tfehr
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: da17f0f58623128d51fda0f5529182cd37ea41b9
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.openlocfilehash: 28a67e79b03dfbc38e9786350c931838ef27891a3d26787fc0334e0572528228
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531379"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990126"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-on-a-project"></a>可預約資源在專案中擔任多個角色時估計專案銷售和成本 
 
@@ -106,3 +104,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 ### <a name="estimates-grid"></a>估計值網格 
 
 在 **估計值** 網格上，相同資源的這兩個指派的定價方式不同。 **工作 A** 的資源指派是使用 **諮詢主管** 的 **角色** 屬性值來定價。 同一個資源在 **工作 B** 上的指派是使用 **網路技術人員** 的 **角色** 屬性值來定價。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

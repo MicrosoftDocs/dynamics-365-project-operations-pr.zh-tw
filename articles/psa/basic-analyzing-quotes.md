@@ -2,8 +2,6 @@
 title: 專案報價分析
 description: 此主題提供專案報價分析的相關資訊。
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 361a940261811467c46222c3d58c9504434ec882
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: b50f419d2c13cff4914f4b589c8d7ad9099c8734834d75f8d17104d2db40049b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145213"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002816"
 ---
 # <a name="analysis-of-project-quotes"></a>專案報價分析
 
@@ -60,3 +58,6 @@ Project Service Automation 使用毛利率和調整後毛利率來分析獲利�
 分析客戶對排程的期望的作法是，在報價的所有報價明細中，將報價明細詳細資料的最後結束日期與要求的交貨日期進行比較。
 
 分析客戶對排程的預算的作法是，在所有報價明細中，將客戶預算總計的總和與報價金額進行比較
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

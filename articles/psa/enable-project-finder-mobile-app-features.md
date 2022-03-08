@@ -2,9 +2,7 @@
 title: 啟用 Project Finder Mobile 應用程式功能
 description: 如何啟用 Project Service 的 Project Finder Mobile 應用程式功能
 author: JohnPBurrows
-manager: kfend
 ms.prod: ''
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -19,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1b70182125d607aa17528ef3dc4ea2345b76acd1
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: f068c32ac957dc5921ccabc989b3b7a347585c19
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144538"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007716"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>啟用 Project Finder Mobile 應用程式功能 (Project Service)
 
@@ -68,3 +66,6 @@ ms.locfileid: "5144538"
   
 ### <a name="see-also"></a>請參閱  
  [設定資源](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

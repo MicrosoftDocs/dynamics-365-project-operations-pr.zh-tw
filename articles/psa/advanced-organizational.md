@@ -2,8 +2,6 @@
 title: 組織單位
 description: 本主題提供有關 Dynamics 365 Project Service Automation 中組織單位的資訊。
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c1c86ce98213fba54fd2b477d4df6f8dc5409d55
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145619"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005066"
 ---
 # <a name="organizational-units"></a>組織單位 
 
@@ -55,7 +53,7 @@ ms.locfileid: "5145619"
 - **承包單位** – 代表公司中主要負責贏得銷售和管理客戶工作與服務交付之群組或部門的組織單位。 承包單位是依據 **商機**、**報價**、**專案合約** 及 **專案** 頁面標頭區段中的 **承包單位** 欄位來識別。
 - **資源分配單位** – 資源所隸屬於或指派至的組織單位。 此組織單位可以為工作說明書 (SOW) 上的一些角色以及承包單位負責的專案提供其資源。
 
-> ![承包單位和資源分配單位](media/advanced-1.png)
+> ![承包單位和資源分配單位。](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>組織單位常見問題集
 
@@ -98,7 +96,7 @@ Contoso, Ltd. 有業績興旺的 Microsoft 技術業務營運。 允章和美玲
 
 Contoso, Ltd. 有兩個開發中心：Contoso US 和 Contoso India。 這兩個開發中心之間的資源成本大幅不同。
 
-Contoso 在許多國際市場上銷售其 IT 服務，例如拉丁美洲、北美洲、亞太地區、西歐和中東。 相同專案角色的帳單費率在這些不同市場上可能會有很大變化。
+Contoso 在許多國際市場 (例如拉丁美洲、北美洲、亞太地區、西歐和中東) 上銷售其 IT 服務。 相同專案角色的帳單費率在這些不同市場上可能會有很大變化。
 
 您應將 Contoso US 和 Contoso India 設定為組織單位，而且每個組織單位都必須有其本身的成本價目表。 亞太地區、拉丁美洲、北美洲、西歐和中東地區應設定為銷售領域，而且每個銷售領域都必須有其本身的銷售價目表。
 
@@ -124,39 +122,39 @@ Contoso 在許多國際市場上銷售其 IT 服務，例如拉丁美洲、北�
 當您有階層複雜的成本中心、部門、帳務辦公室及其他時，請將該階層的分葉節點設定為不同的組織單位。
 下列範例顯示一般的階層：
 
-**Contoso India**
+**Contoso印度**
 
   - SAP 業務營運 
 
     - 技術顧問 
-    - 職能顧問 
+    - 功能顧問 
     
   - Microsoft 技術業務營運 
 
     - 技術顧問
-    - 職能顧問 
+    - 功能顧問 
     
 **Contoso US**
 
  - SAP 業務營運 
 
     - 技術顧問 
-    - 職能顧問 
+    - 功能顧問 
     
  - Microsoft 技術業務營運 
 
     - 技術顧問 
-    - 職能顧問 
+    - 功能顧問 
  
 如果您的階層也類似，您必須將其設定為一般清單，如下所示：
 - Contoso India - SAP 業務營運 - 技術顧問 
-- Contoso India - SAP 業務營運 - 職能顧問       
-- Contoso India - Microsoft 技術業務營運 - 職能顧問 
-- Contoso India - Microsoft 技術業務營運 - 職能顧問 
+- Contoso India - SAP 業務營運 - 功能顧問       
+- Contoso India - Microsoft 技術業務營運 - 功能顧問 
+- Contoso India - Microsoft 技術業務營運 - 功能顧問 
 - Contoso US - SAP 業務營運 - 技術顧問  
-- Contoso US - SAP 業務營運 - 職能顧問  
+- Contoso US - SAP 業務營運 - 功能顧問  
 - Contoso US - Microsoft 技術業務營運 - 技術顧問 
-- Contoso US - Microsoft 技術業務營運 - 職能顧問
+- Contoso US - Microsoft 技術業務營運 - 功能顧問
 
 ### <a name="were-a-small-professional-services-company-that-operates-as-only-one-division-how-can-we-best-use-the-organizational-unit-concept-in-the-current-version-of-psa"></a>我們是一家只以一個部門來營運的小型專業服務公司。 如何妥善運用最新 PSA 版本中的組織單位概念？
 
@@ -167,3 +165,6 @@ Contoso 在許多國際市場上銷售其 IT 服務，例如拉丁美洲、北�
 自行建立專案時，專案的預設承包單位是以建立該專案的使用者為準。 該使用者也是預設專案經理。 如果專案已對應至銷售實體 (例如報價或專案合約)，則專案的承包單位改以銷售實體為準。 在此案例中，可能會重新計算專案估計值，因為如果承包單位已變更，則會使用成本價目表來計算成本估計變更。 銷售價目表會用來計算為了與報價相關專案價目表同步而變更的銷售估計。
 
 專案的 **承包單位** 和 **貨幣** 欄位已鎖定，無法編輯，因為這些欄位必須與專案所對應至銷售實體 (報價或專案合約) 的值同步。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

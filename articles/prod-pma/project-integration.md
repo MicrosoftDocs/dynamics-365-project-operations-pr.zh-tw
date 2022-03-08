@@ -2,11 +2,9 @@
 title: Microsoft Project Client 整合
 description: 規劃和維護專案排程可能會很複雜，因此專案經理必須使用可協助他們管理這項工作的工具。 與 Microsoft Project Client 的整合可提供支援來開啟和管理專案分工結構圖。
 author: Yowelle
-manager: AnnBe
-ms.date: 12/11/2017
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073057"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988011"
 ---
 # <a name="microsoft-project-client-integration"></a>Microsoft Project Client 整合
 
@@ -127,3 +125,13 @@ Predecessors資源名稱
 8.  選取要用於資源分配的 **行事曆**。
 
 11. 按一下 **確定**。
+
+> [!NOTE]
+> Project 用戶端增益集不支援專案識別碼格式中的下列字元：
+> 
+>   - 底線
+>   - 句號
+>   - 空格
+>   - 斜線
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
