@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5c8c28839f5e7b3259afbea4ab400d0c4fca95fd
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368871"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998451"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>定價和成本維度首頁
 
@@ -41,7 +41,7 @@ ms.locfileid: "6368871"
 
 PSA 隨附一組預設定價維度。 您可以移至 **Project Service** > **參數** 來檢視這些維度。 在參數記錄的 **以金額為準的定價維度** 索引標籤上，確認角色 **msdyn_resourcecategory** 和資源分配單位 **msdyn_organizationalunit** 的 **適用於銷售** 及 **適用於成本** 欄位已設定為 **是**。 這可讓您設定每個角色與組織單位組合的價格和成本。
 
-![反白顯示「適用於銷售」的 Project Service 參數螢幕擷取畫面](media/PS-OOB-parameters.png)
+![反白顯示「適用於銷售」的 Project Service 參數螢幕擷取畫面。](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > 如果您在 PSA 版本 3 之前一直都使用角色和組織單位的預設欄位做為定價維度，就不會有任何看得出的變更。 您可以繼續照常使用 Project Service。 

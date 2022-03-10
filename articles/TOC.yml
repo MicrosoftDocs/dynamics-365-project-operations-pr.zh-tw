@@ -4,8 +4,14 @@
   items:
     - name: 判斷您的部署類型
       href: environment/determine-deployment-type.md
+    - name: 註冊 Project Operations 試用版
+      href: environment/admin-trials.md
     - name: Project Operations 更新
       href: whats-new/project-operations-updates.md
+    - name: 已移除或已取代的功能
+      items:
+        - name: Project Operations 中已移除或已取代的功能
+          href: whats-new/removed-depreciated-features-project.md
 - name: 資源/非庫存型案例適用的 Project Operations
   items:
     - name: 開始使用
@@ -28,6 +34,8 @@
               href: environment/resource-apply-pro-setup-config-data.md
         - name: 部署環境
           items:
+            - name: 手動部署支援雙重寫入的 Project Operations Dataverse 應用程式
+              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: 佈建新的環境
               href: environment/resource-provision-new-environment.md
             - name: 安全性模型
@@ -50,8 +58,26 @@
               href: environment/resource-dual-write-expense.md
             - name: 廠商發票整合
               href: environment/resource-dual-write-vendor-invoice.md
+        - name: 解除安裝 Dynamics 365 Project Operations
+          href: environment/uninstall-project-operations.md
     - name: 新增功能
       items:
+        - name: 2021 年 12 月 - 資源/非庫存型案例適用的 Project Operations
+          href: whats-new/whats-new-dec-2021-resource-based.md
+        - name: 2021 年 11 月 - 資源/非庫存型案例適用的 Project Operations
+          href: whats-new/whats-new-nov-2021-resource-based.md
+        - name: 2021 年 10 月 - 資源/非庫存型案例適用的 Project Operations
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: 2021 年 9 月 - 資源/非庫存型案例適用的 Project Operations
+          href: whats-new/whats-new-sept-2021-resource-based.md
+        - name: 2021 年 8 月 - 資源/非庫存型案例適用的 Project Operations
+          href: whats-new/whats-new-august-2021-resource-based.md
+        - name: 2021 年 7 月 - 資源/非庫存型案例適用的 Project Operations
+          href: whats-new/whats-new-july-2021-resource-based.md
+        - name: 2021 年 6 月 - 資源/非庫存型案例適用的 Project Operations
+          href: whats-new/whats-new-june-2021-resource-based.md
+        - name: 2021 年 5 月 - 資源/非庫存型案例適用的 Project Operations
+          href: whats-new/whats-new-may-2021-resource-based.md
         - name: 2021 年 4 月 - 資源/非庫存型案例適用的 Project Operations
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: 2021 年 3 月 - 資源/非庫存型案例適用的 Project Operations
@@ -280,8 +306,12 @@
           items:
             - name: 使用複製專案來開發專案範本
               href: project-management/dev-copy-project.md
-            - name: 使用排程 API (公開預覽版)
+            - name: 使用專案排程 API
               href: project-management/schedule-api-preview.md
+            - name: 專案排程 API 效能
+              href: project-management/project-schedule-api-performance.md
+            - name: 專案排程記錄
+              href: project-management/schedule-api-logs.md
     - name: 資源管理
       items:
         - name: 重要概念
@@ -374,6 +404,10 @@
               href: expense/set-up-credit-card-integration.md
             - name: 設定費用類別
               href: expense/set-up-expense-categories.md
+            - name: 使用里程費率層級來設定里程
+              href: expense/set-up-mileage.md
+        - name: 費用分項列記
+          href: prod-exp/expense-itemization.md
         - name: 個人費用
           href: expense/personal-expenses-expense-report.md
         - name: 公司間費用
@@ -404,13 +438,15 @@
       items:
         - name: 記錄專案和專案工作的材料使用方式
           href: material/material-usage-log.md
-    - name: 核准
+    - name: Approvals
       items:
-        - name: 核准概觀
+        - name: Approvals 概觀
           href: approvals/approvals-overview.md
+        - name: 核准集
+          href: approvals/approval-sets.md
         - name: 開發人員附註
           items:
-            - name: 有關核准的開發人員附註
+            - name: Approvals 的開發人員附註
               href: approvals/dev-notes-approvals.md
     - name: 實際值
       items:
@@ -428,12 +464,18 @@
           href: procurement/configure-materials-nonstocked.md
         - name: 使用待處理廠商發票來採購專案的非庫存材料
           href: procurement/pending-vendor-invoices.md
+        - name: 使用專案採購單為專案訂購非庫存材料
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: 廠商保留額
+          items:
+            - name: 廠商保留額概觀
+              href: procurement/vendor-retention-overview.md
+            - name: 設定廠商保留額
+              href: procurement/set-up-vendor-retention.md
     - name: 發票請款
       items:
         - name: 發票處理概觀
           href: invoicing/post-project-invoices.md
-        - name: 管理專案發票提案
-          href: invoicing/format-update-project-invoice-proposals.md
         - name: 開立預估發票
           items:
             - name: 管理專案型帳務積存
@@ -452,8 +494,22 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: 設定專案型發票自動化
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: 管理專案發票提案
-          href: invoicing/format-update-project-invoice-proposals.md
+        - name: 客戶發票開立
+          items:
+            - name: 管理專案發票提案
+              href: invoicing/format-update-project-invoice-proposals.md
+            - name: 對草稿專案發票提案的正確會計處理
+              href: invoicing/correct-project-invoice-proposals.md
+        - name: 公司間開立開票
+          items:
+            - name: 公司間開立開票概觀
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: 設定公司間開立發票
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: 建立公司間交易
+              href: project-accounting/create-intercompany-transactions.md
+            - name: 建立公司間客戶與廠商發票
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: 專案會計
       items:
         - name: 財務維度預設值
@@ -466,16 +522,6 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Project Operations 中的整合帳目
           href: project-accounting/project-operations-integration-journal.md
-        - name: 公司間開立開票
-          items:
-            - name: 公司間開立開票概觀
-              href: project-accounting/intercompany-invoicing-overview.md
-            - name: 設定公司間開立發票
-              href: project-accounting/configure-intercompany-invoicing.md
-            - name: 建立公司間交易
-              href: project-accounting/create-intercompany-transactions.md
-            - name: 建立公司間客戶與廠商發票
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: 收入認列
       items:
         - name: 收入認列概觀
@@ -492,6 +538,12 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: 管理營收預估值
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: 疑難排解
+      items:
+        - name: 專案銷售處理
+          items:
+            - name: 建立專案、合約、報價或可預約資源時，發生貨幣不相符錯誤
+              href: troubleshooting/project-sales-process/currency-mismatch-error.md
 - name: 精簡部署 - 交易至開立預估發票
   items:
     - name: 開始使用
@@ -508,6 +560,24 @@
           href: environment/security-model.md
     - name: 新增功能
       items:
+        - name: 2021 年第 2 段發行浪潮搶先體驗新增功能 - 精簡部署
+          href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: 2021 年 12 月新增功能 - 精簡部署
+          href: pro/whats-new/whats-new-dec-2021-lite.md
+        - name: 2021 年 11 月新增功能 - 精簡部署
+          href: pro/whats-new/whats-new-nov-2021-lite.md
+        - name: 2021 年 10 月新增功能 - 精簡部署
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: 2021 年 9 月新增功能 - 精簡部署
+          href: pro/whats-new/whats-new-sept-2021-lite.md
+        - name: 2021 年 8 月新增功能 - 精簡部署
+          href: pro/whats-new/whats-new-august-2021-lite.md
+        - name: 2021 年 7 月新增功能 - 精簡部署
+          href: pro/whats-new/whats-new-july-2021-lite.md
+        - name: 2021 年 6 月新增功能 - 精簡部署
+          href: pro/whats-new/whats-new-june-2021-lite.md
+        - name: 2021 年 5 月新增功能 - 精簡部署
+          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: 2021 年 4 月新增功能 - 精簡部署
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: 2021 年 3 月新增功能 - 精簡部署
@@ -756,8 +826,10 @@
           items:
             - name: 使用複製專案來開發專案範本
               href: project-management/dev-copy-project.md
-            - name: 使用排程 API (公開預覽版)
+            - name: 使用專案排程 API
               href: project-management/schedule-api-preview.md
+            - name: 專案排程 API 效能
+              href: project-management/project-schedule-api-performance.md
     - name: 資源管理
       items:
         - name: 重要概念
@@ -814,6 +886,44 @@
           items:
             - name: 資源使用率概觀
               href: resource-management/resource-utilization-overview.md
+    - name: Project Operations 中的轉包合約管理
+      items:
+        - name: Project Operations 中的轉包合約管理
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: 2021 年 10 月搶先體驗中的轉承包
+          href: pro/subcontracting/Subcontracting_EA_scope.md
+        - name: 轉承包中的重要概念
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: 管理廠商和專案價目表
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: 做為可預約資源的轉包商
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: 轉包合約的標題詳細資料
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: 時間轉包合約服務內容
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: 費用類別轉包合約服務內容
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: 產品轉包合約服務內容
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: 轉包合約服務內容資源
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: 轉包合約服務內容里程碑
+          href: pro/subcontracting/subcontract-line-milestones.md
+        - name: 轉包專案團隊成員
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: 專案團隊成員轉包選項
+          href: pro/subcontracting/subcon-options.md
+        - name: 已轉包資源指派的成本估計
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: 設定排程面板，以顯示合約工作者和已轉包產能
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: 使用合約工作者和已轉包產能為專案配置人員
+          href: pro/subcontracting/staffing-cw.md
+        - name: 記錄已轉包元件的時間、費用及材料使用方式
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: 轉包合約的狀態轉換
+          href: pro/subcontracting/subcon-states.md
     - name: 時間
       items:
         - name: 時間概觀
@@ -836,13 +946,15 @@
       items:
         - name: 記錄專案和專案工作的材料使用方式
           href: material/material-usage-log.md
-    - name: 核准
+    - name: Approvals
       items:
-        - name: 核准概觀
+        - name: Approvals 概觀
           href: approvals/approvals-overview.md
+        - name: 核准集
+          href: approvals/approval-sets.md
         - name: 開發人員附註
           items:
-            - name: 有關核准的開發人員附註
+            - name: Approvals 的開發人員附註
               href: approvals/dev-notes-approvals.md
     - name: 實際值
       items:
@@ -876,6 +988,14 @@
   items:
     - name: 新增功能
       items:
+        - name: 2021 年 10 月新增功能 - 庫存/生產型案例適用的 Project Operations
+          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+        - name: 2021 年 9 月新增功能 - 庫存/生產型案例適用的 Project Operations
+          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
+        - name: 2021 年 7 月新增功能 - 庫存/生產型案例適用的 Project Operations
+          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+        - name: 2021 年 5 月新增功能 - 庫存/生產型案例適用的 Project Operations
+          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
         - name: 2021 年 4 月新增功能 - 庫存/生產型案例適用的 Project Operations
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: 2021 年 3 月新增功能 - 庫存/生產型案例適用的 Project Operations
@@ -1028,6 +1148,24 @@
       items:
         - name: Project Service 3.x 的更新發行排程
           href: psa/version-history-ps.md
+        - name: 更新版本 38 V3 的新功能或變更
+          href: psa/whats-new-ur-38.md
+        - name: 更新版本 37.5 V3 的新功能或變更
+          href: psa/whats-new-ur-37-5.md
+        - name: 更新版本 37 V3 的新功能或變更
+          href: psa/whats-new-ur-37.md
+        - name: 更新版本 36 V3 的新功能或變更
+          href: psa/whats-new-ur-36.md
+        - name: 更新版本 35 V3 的新功能或變更
+          href: psa/whats-new-ur-35.md
+        - name: 更新版本 34 V3 的新功能或變更
+          href: psa/whats-new-ur-34.md
+        - name: 更新版本 33 V3 的新功能或變更
+          href: psa/whats-new-ur-33.md
+        - name: 更新版本 32.5 V3 的新功能或變更
+          href: psa/whats-new-ur-32-5.md
+        - name: 更新版本 32 V3 的新功能或變更
+          href: psa/whats-new-ur-32.md
         - name: 更新版本 31 V3 的新功能或變更
           href: psa/whats-new-ur-31.md
         - name: 更新版本 30 V3 的新功能或變更
@@ -1098,6 +1236,8 @@
           href: psa/implementation-guides/resource-management-guide.md
         - name: 報表指南
           href: psa/implementation-guides/reporting-guide.md
+    - name: 從 Project Service Automation 升級至 Project Operations - 精簡
+      href: psa/upgrade-project-operations-non-stocked.md
     - name: Project Service Automation 升級 (應用程式 3.x 版)
       items:
         - name: Project Service Automation 升級
@@ -1266,27 +1406,29 @@
               href: psa/time-entry-calendar.md
             - name: 自訂每週時間項目
               href: psa/time-entry-extensibility-v3.md
+            - name: Project Service Automation 中的核准集
+              href: psa/approval-set.md
     - name: 常見問題與疑難排解 (3.x)
       items:
-        - name: 為什麼費用成本實際值上的價格會預設為零?
+        - name: 為什麼費用成本實際值上的價格會預設為零？
           href: psa/FAQ-zero-price-expense-cost-actuals.md
-        - name: 為什麼費用銷售實際值上的價格會預設為零?
+        - name: 為什麼費用銷售實際值上的價格會預設為零？
           href: psa/FAQ-zero-price-expense-sales-actuals.md
-        - name: 為什麼時間成本實際值上的價格會預設為零?
+        - name: 為什麼時間成本實際值上的價格會預設為零？
           href: psa/FAQ-zero-price-time-cost-actuals.md
-        - name: 為什麼時間銷售實際值上的價格會預設為零?
+        - name: 為什麼時間銷售實際值上的價格會預設為零？
           href: psa/FAQ-zero-price-time-sales-actuals.md
-        - name: 為什麼我無法從實際值實體刪除記錄?
+        - name: 為什麼我無法從實際值實體刪除記錄？
           href: psa/FAQ-deleting-actuals.md
     - name: Project Service Automation 2.x 和 1.x
       items:
         - name: 常見問題與疑難排解
           items:
-            - name: 如何將資源指派給工作 (應用程式 2.x 版)?
+            - name: 如何將資源指派給工作 (應用程式 2.x 版)？
               href: psa/FAQ-assign-resources-to-tasks-in-web-app.md
-            - name: 如何進行資源的「未確認預約」(應用程式 2.x 版)?
+            - name: 如何進行資源的「未確認預約」(應用程式 2.x 版)？
               href: psa/FAQ-soft-book-in-web-app.md
-            - name: 如何自訂專案階段商務程序流程?
+            - name: 如何自訂專案階段商務程序流程？
               href: psa/FAQ-customize-bpf.md
             - name: 分工結構圖升級考量
               href: psa/upgrade-considerations-tasks.md

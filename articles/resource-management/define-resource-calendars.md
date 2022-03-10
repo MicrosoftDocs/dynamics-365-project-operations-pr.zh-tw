@@ -2,18 +2,16 @@
 title: 定義資源行事曆
 description: 本主題提有關供如何在 Project Operations 中定義資源工作時數行事曆的資訊。
 author: ruhercul
-manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: daa49cf8ba9ba005a16777f590c4c06d024de529
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: ff10da57fd0767b00282537b241d5d16d95feca8741a620a277306bd8aa53ce5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123908"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990306"
 ---
 # <a name="define-resource-calendars"></a>定義資源行事曆
 
@@ -43,3 +41,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 2. 從網格檢視中，選取最多 25 個要更新的 **可預約資源**。
 3. 選取 **設定行事曆**，然後對話方塊就會向您提示可用工作時數範本的清單。
 4. 選取您要使用的範本，然後選取 **套用**。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

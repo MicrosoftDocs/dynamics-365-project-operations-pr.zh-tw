@@ -2,24 +2,24 @@
 title: 財務維度預設值
 description: 本主題提供有關如何設定財務維度預設值的資訊。
 author: sigitac
-manager: Annbe
-ms.date: 10/26/2020
+ms.date: 12/14/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: aa6771ba5346fd4133b82c3e670badfa7655299f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
+ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131873"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922928"
 ---
 # <a name="financial-dimension-defaults"></a>財務維度預設值
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
-Dynamics 365 Project Operations 使用 Dynamics 365 Finance 中的[財務維度](https://docs.microsoft.com/dynamics365/finance/general-ledger/financial-dimensions)架構，提供對專案子分類帳及總帳交易的其他見解。
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Dynamics 365 Project Operations 使用 Dynamics 365 Finance 中的[財務維度](/dynamics365/finance/general-ledger/financial-dimensions)架構，提供對專案子分類帳及總帳交易的其他見解。
 
 您可以在客戶、專案資金來源、里程碑、專案合約服務內容或專案上設定預設財務維度。
 
@@ -60,3 +60,15 @@ Dynamics 365 Project Operations 使用 Dynamics 365 Finance 中的[財務維度]
 4. 設定財務維度預設值。 請注意，預設會使用客戶帳戶中的財務維度。 如果專案與包含多個專案合約客戶的合約服務內容相關聯，則會使用主要客戶來設定預設財務維度。
 
 專案預設財務維度會在 **Project Operations 整合帳目** 和相關專案發票明細上用來設定時間、費用及服務費交易的帳目明細預設值。
+
+## <a name="apply-financial-dimensions-for-project-time-entries"></a>套用專案時間項目的財務維度
+若要套用專案時間項目的財務維度，請注意預設維度值是根據下列順序進行套用。
+
+1. 資源
+2. Project
+3. 資金來源
+
+例如，如果已在資源上指定預設維度，則會套用該維度來覆寫專案上指定的預設值。 同樣地，也會套用預設專案維度以覆寫資金來源中指定的預設值。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

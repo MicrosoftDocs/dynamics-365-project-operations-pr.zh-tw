@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6992498df5beb97d4e7197e301f093320dc28a23
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
+ms.openlocfilehash: 8cff4c37e1c2df29041ef86cdcf05afa6093f890565a855024202e87fd533ea5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433643"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009206"
 ---
 # <a name="whats-new-july-2021---project-operations-lite-deployment"></a>2021 年 7 月新增功能 - Project Operations 精簡部署
 
@@ -20,7 +20,7 @@ _適用於：精簡部署 - 交易至開立預估發票_
 
 此主題適用於下列 Dynamics 365 Project Operations 元件和版本：
 
-  - Dataverse 環境 4.12.0.148 版上的 Project Operations。
+  - Dataverse 環境版本 4.12.0.148 或 4.12.0.152 上的 Project Operations。
 
 ## <a name="quality-updates"></a>品質更新
 | **功能區域**              | **參考編號** | **品質更新**                                                                                                                                                                                             |
@@ -59,3 +59,4 @@ _適用於：精簡部署 - 交易至開立預估發票_
 | 一般                       | 2296857              | 長時間執行作業的進度追蹤。                                                                                                                                                                        |
 | 一般                       | 2253682              | 在沒有雙重寫入協調流程解決方案的環境中安裝雙重寫入核心時，不應安裝 Project Operations 雙重寫入解決方案。                                                |
 | 一般                       | 2316420              | 如果應用程式使用者的業務單位發生變更，則 Project Service 核心佈建會失敗。                                                                                                                     |
+| 一般                       | 2376405              | 固定發行者導向更新問題 (品質更新可在版本 4.12.0.152 中取得)                                                                                                                     |

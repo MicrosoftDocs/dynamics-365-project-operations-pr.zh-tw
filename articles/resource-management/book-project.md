@@ -2,18 +2,16 @@
 title: 預約給專案
 description: 本主題提供有關預約資源給專案的資訊。
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c87b0c32ef081f601ed79c11687f008bb454dd45
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 719892a37f381fc0ad6c3ccaca5c4d87c9947a4d7a39dca96aef464d04a71af0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131063"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994896"
 ---
 # <a name="book-to-a-project"></a>預約給專案
 
@@ -66,3 +64,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 > [!NOTE]
 > 此方法不會為資源建立任何預約。 反而是將資源新增至團隊。 將團隊成員新增至專案之後，專案經理就可以使用維護預約或延長預約，將必要的預約新增至資源。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

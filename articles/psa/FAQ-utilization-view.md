@@ -2,8 +2,6 @@
 title: 檢視資源的應收費使用率
 description: 本主題提供有關資源使用率檢視表的資訊。
 author: ruhercul
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,18 +16,20 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6daa6cfa1c6a237d8a1685123f7c1a6926418bfe
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 32dba5acd95c1d192556153240ebd51343112be53aa3db93e5e6f127c2d960e9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073018"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007136"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>檢視資源的應收費使用率
+
+[!include [banner](../includes/psa-now-project-operations.md)]
  
 **Project Service 資源使用率** 頁面上的 **使用率檢視表** 會顯示每個可預約資源的應收費使用率。 檢視表是以排程面板為基礎所建立，因此您會發現許多相同的功能。
 
-> ![使用率檢視表的螢幕擷取畫面](media/FAQ-utilization-1.png)
+> ![使用率檢視表的螢幕擷取畫面。](media/FAQ-utilization-1.png)
  
 
 應收費使用率計算依下列方式運作：
@@ -48,7 +48,7 @@ ms.locfileid: "4073018"
 2. 選取要開啟記錄的資源。 
 3. 在 **Project Service** 索引標籤上，您可以設定資源的目標使用率。
 
-> ![使用 [Project Service] 索引標籤設定目標使用率的螢幕擷取畫面](media/FAQ-utilization-2.png)
+> ![使用 [Project Service] 索引標籤設定目標使用率的螢幕擷取畫面。](media/FAQ-utilization-2.png)
  
 ## <a name="set-target-utilization-on-a-role"></a>設定角色的目標使用率
 
@@ -56,7 +56,7 @@ ms.locfileid: "4073018"
 2. 選取角色並開啟記錄。 
 3. 設定角色的目標使用率。
 
-> ![使用 [資源角色] 設定目標使用率的螢幕擷取畫面](media/FAQ-utilization-3.png)
+> ![使用 [資源角色] 設定目標使用率的螢幕擷取畫面。](media/FAQ-utilization-3.png)
  
 ## <a name="calculate-chargeable-utilization-for-a-resource"></a>計算資源的應收費使用率
 
@@ -99,3 +99,6 @@ ms.locfileid: "4073018"
   - 支援專案的專案合約服務內容上的角色已設定為不應收費。
   - 專案沒有相關聯的合約服務內容。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

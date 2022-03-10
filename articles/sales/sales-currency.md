@@ -2,11 +2,9 @@
 title: 貨幣
 description: 本主題提供有關如何在 Project Operations 中新增和移除貨幣類型的資訊。
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,16 +15,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d4e1d73dc183ed572fb5099d055d2fbe0c08746
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 0a5ae29f1a11f62c6edfca64c4751338f42a26f24c4f8230018b0b45a4ee2ddb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121208"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999576"
 ---
 # <a name="currency"></a>貨幣
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 貨幣會決定 [產品類別目錄] 中的產品價格，以及交易的成本 (例如銷售訂單)。 如果您的客戶分散橫跨不同地理位置，請新增他們的貨幣以管理您的交易。 新增最適合您目前和未來業務需求的貨幣。  
 
@@ -69,3 +69,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 > [!IMPORTANT]
 >  其他記錄正在使用的貨幣無法刪除；您只能將其停用。 停用貨幣記錄並不會移除現有記錄中儲存的貨幣資訊 (例如商機或訂單)。 不過，您無法為新交易選取已停用的貨幣。  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

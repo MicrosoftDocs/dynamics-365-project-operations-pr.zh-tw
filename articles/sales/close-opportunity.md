@@ -2,18 +2,16 @@
 title: 關閉商機
 description: 本主題提供關於關閉專案商機的資訊。
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 01c2452003d9ac5fbf85704ead67f7ee8011ed1c
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: da388c19fb32a1dc62a0273a4de1203a45345dfb0c0a56e76b73cccc751e9545
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949894"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006371"
 ---
 # <a name="close-an-opportunity"></a>關閉商機
 

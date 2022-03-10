@@ -2,22 +2,20 @@
 title: 將專案和工作對應至專案型合約服務內容 - 精簡
 description: 此主題提供在合約服務內容中新增和移除專案及工作的資訊。
 author: rumant
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 30a74f683a032d5bd6caed347f4d0a948376d267
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 6ce99e6f770c5eb39e5f2740a861721cf3d210ac9743bbd9d2a1e1a7236f368c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177636"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989721"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line---lite"></a>將專案和工作對應至專案型合約服務內容 - 精簡
+# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>將專案和工作對應至專案型合約服務內容 
 
-_**適用於：** 精簡部署 - 交易至開立預估發票_
+_**適用於：** 精簡部署 - 交易至開立預估發票、資源/非庫存型案例適用的 Project Operations_
 
 在專案型合約服務內容上，您可以將專案中的特定工作對應至合約服務內容。
 
@@ -82,3 +80,6 @@ _**適用於：** 精簡部署 - 交易至開立預估發票_
 4. 在開啟的對話方塊頁面中，從下拉式清單中選取合約服務內容。
 5. 選取核取方塊，以指出是否也應從所選工作的下層工作移除關聯。 勾選方塊也會從合約服務內容解除關聯所選工作的下層工作。
 6. 選取 **確定**。 出現一則警告訊息，表示移除此關聯可能會導致逆轉先前已在工作中記錄的任何實際值。 在警告對話方塊上選取 **確定**，移除工作與專案型合約服務內容之間的關聯。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

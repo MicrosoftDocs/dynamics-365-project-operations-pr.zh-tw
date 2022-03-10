@@ -2,8 +2,6 @@
 title: 報價、定價和帳務的基本指南
 description: 本主題提供有關 Project Service Automation 中基本報價、帳務和定價的資訊連結。
 author: kfend
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 2/14/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: eb90c1ac2880dc07414276618a8259d17932b4a0
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 69d80a4dc6377f7da1d0ad273dd9be3c8265214b152e7976c7d0c73e46a7dbd1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132548"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985581"
 ---
 # <a name="basic-guide-to-quoting-pricing-and-billing"></a>報價、定價和帳務的基本指南
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -50,3 +50,6 @@ ms.locfileid: "4132548"
 
 > [!NOTE]
 > 本主題將會在日後的文件更新中移除。 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

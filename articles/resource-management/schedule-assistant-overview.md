@@ -2,18 +2,17 @@
 title: 排程小幫手概觀
 description: 本主題提供有關使用排程小幫手來預約資源的資訊。
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 92b12bd9272805a736286bf7e0ff926cb6361c05
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.custom: intro-internal
+ms.openlocfilehash: 309cb94ea30c525daccf032c625004c42fb408dada4b337b65d8f36d76219669
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4125618"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990216"
 ---
 # <a name="schedule-assistant-overview"></a>排程小幫手概觀
 
@@ -25,7 +24,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 ## <a name="prerequisites"></a>先決條件
 
-排程小幫手是 Universal Resource Scheduling 解決方案的一部分。 此解決方案隨附於 Dynamics 365 Project Operations、Dynamics 365 Field Service 和 Dynamics 365 Customer Service，並且會與這些解決方案一併安裝。
+排程小幫手是 Universal Resource Scheduling 解決方案的一部分。 此解決方案隨附於 Dynamics 365 Project Operations、Dynamics 365 Field Service 和 Dynamics 365 Customer Service，並隨這些應用程式一起安裝。
 
 ## <a name="matching-requirements-and-resources"></a>比對需求與資源
 
@@ -57,3 +56,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 -   資源供應公司
 -   資源類型
 -   偏好的資源
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

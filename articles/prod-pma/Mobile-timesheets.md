@@ -2,11 +2,9 @@
 title: 行動裝置上的專案時程表
 description: '[我的時程表 (行動最佳化)] 可讓員工建立和提交專案時程表，以便在行動裝置上記錄他們用於特定專案的時數。'
 author: abruer
-manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: April 2018 update
-ms.openlocfilehash: 429c289c4ec653b81a1c5302b788db8c8ad26d8c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6b602bf60a451bcb3c489e371f698611678477245581f58f76145a4b846c7b8a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073138"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989586"
 ---
 # <a name="project-timesheets-on-a-mobile-device"></a>行動裝置上的專案時程表
 
@@ -62,3 +60,6 @@ ms.locfileid: "4073138"
 13. 選用：輸入其他時程表列。
 
 14. 完成時程表列的輸入後，選取 **工作流程** \> **提交** 動作，將您的時程表提交至工作流程審查查程序。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

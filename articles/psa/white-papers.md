@@ -2,8 +2,6 @@
 title: Project Service Automation 白皮書
 description: Project Service 白皮書集合
 author: kfend
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b61e355f2caf2ce977e35e3ed3cdba0e855227cc
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b8940313d122ac8c47488b08a28b38b6744bf33cdfaf1b904ba184bd9956c369
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5280118"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004166"
 ---
 # <a name="white-papers-for-project-service"></a>Project Service 白皮書
 

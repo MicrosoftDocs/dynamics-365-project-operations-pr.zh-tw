@@ -2,18 +2,16 @@
 title: 管理潛在客戶 - 精簡
 description: 本主題提供有關管理專案型潛在客戶的資訊 (專案版)。
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5e789295d4b1f5a53fcf179a2998f60d35f48f99
-ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
+ms.openlocfilehash: 218461e6b2013b014d59e2846fe19681d785771aa82284db33ff18c8b6b83946
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4513779"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991386"
 ---
 # <a name="manage-leads---lite"></a>管理潛在客戶 - 精簡
 
@@ -55,7 +53,7 @@ _**適用於：** 精簡部署 - 交易至開立預估發票_
 - 與採用潛在客戶 **名字** 及 **姓氏** 欄位值之客戶相關聯的連絡人記錄。
 - **類型** 欄位已設定為 **工作型** 的專案型商機。
 
-如需有關授與潛在客戶資格的詳細資訊，請參閱[授與客戶資格或轉換潛在客戶](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales)。
+如需有關授與潛在客戶資格的詳細資訊，請參閱[授與客戶資格或轉換潛在客戶](/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales)。
 
 ## <a name="business-process-flow-for-project-based-deals"></a>專案型交易的商務程序流程
 
@@ -72,3 +70,6 @@ Project Operations 中的專案型交易支援下列商務程序流程：
 | 開發 | 商機​​ | 開發商機以新增有關所涉及工作、主要利害關係人和競爭者的詳細資訊。 |
 | 提案 | 商機​​ | 開發提案，並取得內部審查團隊的核准。 |
 | 關閉​​ | 商機​​ | 贏得商機以完成交易。 |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

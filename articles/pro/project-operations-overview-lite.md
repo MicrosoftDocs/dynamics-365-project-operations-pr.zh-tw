@@ -2,24 +2,23 @@
 title: 精簡部署概觀
 description: 此主題提供 Dynamics 365 Project Operations 精簡部署的資訊。
 author: rumant
-manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b66b3656d1ef5266ede1f62657dbe9b8a63c863a
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.custom: intro-internal
+ms.openlocfilehash: bc6385ea53091ac396daee37d8b5174092406cfc42d34c356a112f665cd63456
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365418"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997371"
 ---
 # <a name="lite-deployment-overview"></a>精簡部署概觀
 
 _**適用於：** 精簡部署 - 交易至開立預估發票_
 
-Dynamics 365 Project Operations 的精簡部署類型具有下列適用於專案型公司的功能：
+精簡部署類型的 Dynamics 365 Project Operations 具有下列適用於專案型公司的功能：
 
 - 使用 Microsoft Project 網頁版進行專案規劃
 - 人力資源的多維定價和成本計算
@@ -37,3 +36,6 @@ Dynamics 365 Project Operations 的精簡部署類型具有下列適用於專案
 - 一種整合系統，用於為排程和財務管理內部和計費專案，從從專案銷售到開立發票。
 - 協力廠商企業資源規劃 (ERP/財務會計系統，與 Project Operations 整合。
 - 使用營業稅、匯率、費用報銷和非專案費用的協力廠商系統。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

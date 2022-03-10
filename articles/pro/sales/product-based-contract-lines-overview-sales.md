@@ -1,21 +1,20 @@
 ---
-title: 產品型合約服務內容概觀
+title: 產品型合約服務內容概觀 - 精簡
 description: 此主題提供有關產品型合約服務內容的資訊。
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 794a80b0dd6b8717b43e712b96b9ac077517c226
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.custom: intro-internal
+ms.openlocfilehash: 79b4f6355afb7472f843eda06bf33a3fe732274d6f2566bd23000aa11cbfdce1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072923"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007541"
 ---
-# <a name="product-based-contract-lines-overview"></a>產品型合約服務內容概觀
+# <a name="product-based-contract-lines-overview---lite"></a>產品型合約服務內容概觀 - 精簡
 
 _**適用於：** 精簡部署 - 交易至開立預估發票_
 
@@ -46,3 +45,6 @@ _**適用於：** 精簡部署 - 交易至開立預估發票_
 如果將 **定價** 欄位設定為 **自訂價格**，就不會設定預設價格。 輸入合約服務內容上的產品價格。 如果將此欄位設定為 **使用預設值**，則會使用預設銷售價，而且無法編輯欄位。
 
 安裝 Project Operations 之後，合約的產品型明細上會輸入預設銷售價格。 **定價** 欄位會設定為 **自訂價格**，因此您可以編輯合約服務內容上的預設價格。 這是 Project Operations 覆寫 Dynamics 365 Sales 中產品型明細的特有行為。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

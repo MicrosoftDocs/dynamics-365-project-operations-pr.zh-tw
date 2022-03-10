@@ -1,5 +1,5 @@
 ---
-title: 核准集
+title: Project Service Automation 中的核准集
 description: 本主題提供有關核准集、要求以及這些作業子集的資訊。
 author: stsporen
 manager: tfehr
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ac73313420029ece740d0bdb9c21c7abaa9defc6
-ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
+ms.openlocfilehash: 9a7a9efbd8615f4923c6795a16c9cf98a40362b6
+ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6116861"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7323541"
 ---
-# <a name="approval-sets"></a>核准集
+# <a name="approval-sets-in-project-service-automation"></a>Project Service Automation 中的核准集
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 

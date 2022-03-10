@@ -2,8 +2,6 @@
 title: 時間項目行事曆
 description: 此主題提供有關如何使用時間項目行事曆的資訊。
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 413aba735a5011a9b40c1d5b0bf43c6771db0f7b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 699cfd1d89d90ace092ffe44abb242ab91464d5d8a813ee7964e923abe245d21
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131158"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996741"
 ---
 # <a name="time-entry-calendar"></a>時間項目行事曆
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -40,3 +40,6 @@ Dynamics 365 Project Service Automation 提供新的和可擴充的時間輸入�
 ## <a name="extensibility"></a>擴充性
 
 在有時間輸入網格的 **時間項目** 頁面上，您可以新增自訂欄位、設定查詢欄位，以及建立自訂檢視表。 您也可以根據自訂欄位中所選取或輸入的值，來設定自訂商務規則。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

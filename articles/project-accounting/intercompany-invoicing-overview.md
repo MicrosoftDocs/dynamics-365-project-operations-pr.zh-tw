@@ -6,12 +6,13 @@ ms.date: 11/19/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 42af89105f8325f1c94df6d2133d2c329facf2b3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002631"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005381"
 ---
 # <a name="intercompany-invoicing-overview"></a>公司間開立開票概觀
 
@@ -21,7 +22,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 下列圖顯示 Contoso Robotics USA (借方法律實體) 和 Contoso Robotics UK (貸方法律實體) 這兩個法律實體共用資源以交付專案給客戶 Adventure Works 的一般案例。 在此案例中，Contoso Robotics USA 簽訂合約以交付 Adventure Works 的工作。
 
-![公司間開立開票](./media/IntercompanyScenario.png) 
+![公司間開立開票。](./media/IntercompanyScenario.png) 
 
 Dynamics 365 Project Operations 使用以下流程來處理公司間交易：
 
@@ -34,7 +35,7 @@ Dynamics 365 Project Operations 使用以下流程來處理公司間交易：
 
 下圖顯示公司間開立發票，因其與會計事件相關且預期過帳到總帳。
 
-![公司間流程](./media/IntercompanyFlow.png)
+![公司間流程。](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>其他資源
 

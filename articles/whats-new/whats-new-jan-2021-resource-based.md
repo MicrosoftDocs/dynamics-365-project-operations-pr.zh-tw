@@ -2,19 +2,17 @@
 title: 2021 年 1 月 - 資源/非庫存型案例適用的 Project Operations 新增功能
 description: 本主題提供有關資源/非庫存型案例適用的 Project Operations 2021 年 1 月版本所提供的品質更新資訊。
 author: sigitac
-manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5e5bfd3c790dac51895cde04e08d1fa62f4457e8
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9d54d5fed6e8ec1535ad798073ac8a1eec36e87d1dbba4cc4acd94d8bbdc5157
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5292059"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008081"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021 年 1 月 - 資源/非庫存型案例適用的 Project Operations 新增功能
 
@@ -88,7 +86,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 ## <a name="regulatory-updates"></a>法規更新
 
-如需 Finance and Operations 應用程式的法規更新資訊，請參閱[法規更新](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates)。 您也可以使用問題搜尋工具登入 LCS 並查看計畫的法規更新。 問題搜尋可讓您依國家/地區、功能類型和版本進行搜尋。
+如需 Finance and Operations 應用程式的法規更新資訊，請參閱[法規更新](/dynamics365/finance/localizations/regulatory-updates)。 您也可以使用問題搜尋工具登入 LCS 並查看計畫的法規更新。 問題搜尋可讓您依國家/地區、功能類型和版本進行搜尋。
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

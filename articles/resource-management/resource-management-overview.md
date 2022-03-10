@@ -2,26 +2,27 @@
 title: 資源管理概觀
 description: 本主題提供有關 Dynamics 365 Project Operations 中資源管理功能的資訊。
 author: ruhercul
-manager: AnnBe
 ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 73ba4e2b79b41a94bfea225240555319531ac896
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6de50faa1041b76ea64414d505594e22f05f56e47b73289e1239f9de3f180ec5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119768"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006461"
 ---
 # <a name="resource-management-overview"></a>資源管理概觀
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,8 +1,6 @@
 ---
 title: Project Service Automation 3.x 版 2020 年第 1 段發行浪潮中新推出或已變更的功能
 description: 本主題提供 Project Service Automation 版本 3 2020 年第 1 段發行浪潮中新推出或已變更功能的相關資訊。
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -18,14 +16,17 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2308f83e09c25059b6a36599b04b5b00f66c704f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a88b777c54ce54935d5483f616f3a24724ee192d40fbfd5d514f990e958dd5ea
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126473"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002096"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3-wave-1-2020"></a>Project Service Automation 版本 3 2020 年第 1 段發行浪潮中新推出或已變更的功能
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 本主題著重說明移轉至最新發行的 Project Service Automation (PSA) 3.x 版 2020 年第 1 段發行浪潮時的重要升級考量。
 
 ## <a name="time-entry"></a>時間項目
@@ -40,3 +41,6 @@ ms.locfileid: "4126473"
 
 ### <a name="currently-extended-time-entry-changes"></a>目前已擴充的時間項目變更
 為了盡可能降低對目前時間項目使用者的影響，這個角色變更是繼續使用時間項目所需的唯一核心需求。 如果您已建立自訂檢視表或不同的時間項目體驗，就必須將 **時間項目設定** 欄位設定為正確的 PSA 值。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

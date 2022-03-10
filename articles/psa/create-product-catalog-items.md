@@ -2,8 +2,6 @@
 title: 建立產品類別目錄項目
 description: 如何建立 Project Service 中的產品類別目錄項目
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6343ff4dcfeae5d53eaf8eaa860afaf42559857a
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 727f7139ec590ff2994d1ae7e7c5dddbd50a7733b0e5935f3fd6bdefde713713
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950344"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995346"
 ---
 # <a name="create-product-catalog-items-project-service"></a>建立產品類別目錄項目 (Project Service)
 

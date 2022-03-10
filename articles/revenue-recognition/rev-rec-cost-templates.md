@@ -2,18 +2,16 @@
 title: 設定成本範本
 description: 此主題提供如何在 Project Operations 中建立和使用成本範本的資訊。
 author: sigitac
-manager: tfehr
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 786b2b9b140f82d406044c2ed05761d7f46ee9e0
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: b3a9f1e4f5ea0abe34dc860db87ef349daa46c487b03d271bfe207868c521f39
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642713"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993546"
 ---
 # <a name="set-up-cost-templates"></a>設定成本範本
 
@@ -79,3 +77,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 7. 在 **類別** 索引標籤中，選取要加入成本範本行的專案類別。
 8. 在 **一般** 索引標籤中，選取是否要將此行包括在完成百分比的計算中。
 9. 選取計算完成百分比時所要使用的完工成本法。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

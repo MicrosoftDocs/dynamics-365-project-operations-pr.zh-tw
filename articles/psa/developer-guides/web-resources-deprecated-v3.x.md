@@ -2,12 +2,10 @@
 title: Project Service Automation 3.x 中已被取代的 Web 資源
 description: 本主題說明在 Dynamics 365 Project Service Automation 3.0 中不再使用的 Web 資源。
 author: makk
-manager: rchawla
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/14/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -16,14 +14,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 46aab1bdce15613ce0551de5a8265b9130aa1938
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e0ec1e01094ad4ec9deebc9bf0e9d3e197c16e2b03e6393f9dda7df97e7f1921
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073007"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988911"
 ---
 # <a name="deprecated-web-resources-in-project-service-automation-3x"></a>Project Service Automation 3.x 中已被取代的 Web 資源
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 由於 Dynamics 365 Project Service Automation 解決方案推出新的用戶端介面以及已對此解決方案進行其他變更，因此解決方案的部分 Web 資源已無法使用。 因此，這些資源自 3.0 版起已淘汰 (已被取代)。
 
@@ -536,3 +536,6 @@ ms.locfileid: "4073007"
 - msdyn\_\\Time\\App\\Scripts\\Views\\SubmitDialog.js
 - msdyn\_\\Time\\App\\Scripts\\Views\\TimeEntryView.js
 - msdyn\_\\Time\\Moca\\Scripts\\TimeEntryRibbon.js
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

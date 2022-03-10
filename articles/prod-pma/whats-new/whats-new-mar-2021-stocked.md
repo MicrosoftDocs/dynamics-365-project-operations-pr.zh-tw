@@ -2,19 +2,17 @@
 title: 庫存/生產型案例適用 Project Operations 2021 年 3 月的新功能或變更
 description: 本主題提供有關 2021 年 3 月所發行庫存/生產型案例適用 Project Operations 中提供之品質更新的資訊。
 author: andchoi
-manager: tfehr
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 804b5d1cc3392349fb6bcc81a91d69d0d9dc51da
-ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
+ms.openlocfilehash: 2569133200b531197a46da095547fcc3f444cc98bfcc139b77a7db58e1439ca9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "5701915"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991161"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>庫存/生產型案例適用 Project Operations 2021 年 3 月的新功能或變更
 
@@ -123,7 +121,7 @@ _**適用於：** 庫存/生產型案例適用的 Project Operations_
 | 專案管理與會計 | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | 舊版分工結構圖 (WBS) 類別方法  **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder** 已被取代。                                                                                                   |
 
 ### <a name="regulatory-updates"></a>法規更新
-如需 Finance and Operations 應用程式的法規更新資訊，請參閱[法規更新](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates)。 您也可以使用問題搜尋工具登入 LCS 並查看計畫的法規更新。 問題搜尋可讓您依國家/地區、功能類型和版本進行搜尋。
+如需 Finance and Operations 應用程式的法規更新資訊，請參閱[法規更新](/dynamics365/finance/localizations/regulatory-updates.md)。 您也可以使用問題搜尋工具登入 LCS 並查看計畫的法規更新。 問題搜尋可讓您依國家/地區、功能類型和版本進行搜尋。
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

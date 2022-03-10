@@ -2,32 +2,30 @@
 title: 設定人力帳單費率
 description: 本主題提供有關如何在 Project Operations 中設定人力帳單費率的資訊。
 author: rumant
-manager: Annbe
-ms.date: 10/16/2020
+ms.date: 04/07/2021
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2c7d63d0cfd5c9b6dbfb65fa8c8227c7f6eeac48
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0fee2c98713f4d1f8da85a0b60fb3fc2a873e5f82a64cf350ebeb68fe65fab35
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4073020"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003536"
 ---
-# <a name="set-up-bill-rates-for-labor-rate-billing"></a>設定人力費率帳單的帳單費率 
+# <a name="set-up-labor-bill-rates"></a>設定人力帳單費率
 
 **適用於：** 資源/非庫存型案例適用的 Project Operations
 
-每個價目表都有一組在價目表標題所含內容及有效日期範圍中生效的角色價格 (或人力費率)。 Dynamics 365 Project Operations 中的時間帳單費率只能設定一種貨幣，這是價目表標題上的貨幣。
+每個價目表都有一組在價目表標題所含內容及有效日期範圍中生效的角色價格 (或人力費率)。 只能以一種貨幣設定 Dynamics 365 Project Operations 中的時間帳單費率，而這是價目表標題上的貨幣。
 
-1. 若要設定銷售價目表的人力帳單費率，請根據價目表標題建立價目表。 
-2. 在 **角色價格** 索引標籤的子格中，選取 **+ 新增角色價格**。 
+1. 若要設定銷售價目表的人力帳單費率，請移至 **銷售** > **客戶** > **價目表**，然後選取 **新增** 以建立新的價目表。 
+2. 在 **角色價格** 索引標籤的子格中，選取 **新增角色價格**。 
 3. 在 **快速建立** 窗格中，輸入需要設定帳單費率的角色與組織單位組合。
 
    下表包含角色價格明細的 **一般** 索引標籤及 **快速建立** 窗格上的欄位，當您在銷售或成本價目表上建立角色價格時，應留意這些欄位：
 
-    | 欄位 | 地點 | 關聯性、目的和指引 | 下游影響 |
+    | 欄位 | 地點 | 描述 | 下游影響 |
     | --- | --- | --- | --- |
     | 角色 | **一般** 索引標籤和 **快速建立** 窗格 | 選取需要設定帳單費率的角色。 | 新加入估計值或實際值的角色將會根據此明細進行比對，以設定角色的帳單費率預設值。 |
     | 資源供應公司 | **一般** 索引標籤和 **快速建立** 窗格 | 選取將角色所屬的公司或法律實體。 例如，Fabrikam India 的開發人員或 Fabrikam USA 的開發人員。 | 新加入估計值或實際值的資源供應公司將會根據此明細進行比對，以設定角色的帳單費率預設值。 |
@@ -55,3 +53,6 @@ ms.locfileid: "4073020"
     | Developer | Fabrikam US | Fabrikam US - Robotics | $150 |
 
 3. 將銷售價目表 **Fabrikam US 帳單費率** 附加至專案合約的專案價目表，或附加至特定帳戶。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

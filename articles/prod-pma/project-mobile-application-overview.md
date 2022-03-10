@@ -2,28 +2,26 @@
 title: Project 行動應用程式概觀
 description: 本主題提供有關行動裝置上可用 Microsoft Dynamics 365 Project Timesheet、[專案時間輸入] 及 [我的時程表/時程表] 的專案時間相關應用程式的一般資訊。
 author: Yowelle
-manager: AnnBe
 ms.date: 05/28/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 69f44aa73b33bf55df324a71b67e0a743208b4e4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 742bfc7bbf90feea638d5b5759f5aa7541d14c87ed96c3ad6f074684696e0c73
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072985"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005651"
 ---
 # <a name="project-mobile-applications-overview"></a>Project 行動應用程式概觀
 
@@ -49,3 +47,6 @@ Dynamics 365 專案時程表行動應用程式可讓使用者在其行動裝置�
 - [專案時間輸入]( project-time-entry-mobile-workspace.md)
 - [行動裝置上的專案時程表](Mobile-timesheets.md)
 - [在 iOS 和 Android 上實作 Microsoft Dynamics 365 Project Timesheet 行動應用程式的自訂欄位](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

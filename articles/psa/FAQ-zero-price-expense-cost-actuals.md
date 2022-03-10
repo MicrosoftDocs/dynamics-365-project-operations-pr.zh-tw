@@ -2,8 +2,6 @@
 title: 為什麼費用成本實際值上的價格會預設為零？
 description: 排解費用成本實際值上的價格為何預設為 0 的問題。
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/22/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 742b0b9c495b4b3ecb4705be3ece5656f0322ca9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a6e971ff0477d5a9cb8652541095538b9f9039c0870362077218df609871ed4f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285833"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990936"
 ---
 # <a name="why-is-the-price-defaulting-to-zero-on-expense-cost-actuals"></a>為什麼費用成本實際值上的價格會預設為零
 

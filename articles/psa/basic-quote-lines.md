@@ -2,8 +2,6 @@
 title: 報價和報價明細
 description: 本主題提供有關報價和報價明細的資訊。
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e5b0dfb3db2ddc6d43545a0f1f9429e343e830b5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291114"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995436"
 ---
 # <a name="quotes-and-quote-lines"></a>報價和報價明細
 
@@ -86,7 +84,7 @@ PSA 支援固定價格報價明細的所有三種類型的發票請款排程。
 
 每個報價明細可與這些交易分類的其中一個或多個分類建立關聯。 報價成交之後，交易分類與報價明細之間的對應會轉移至合約服務內容。
  
-> ![將交易類型對應至報價明細和合約服務內容的螢幕擷取畫面](media/basic-guide-5.png)
+> ![將交易類型對應至報價明細和合約服務內容的螢幕擷取畫面。](media/basic-guide-5.png)
   
 例如，報價可能會包含下列兩個報價明細： 
 - 使用 [時間和材料] 帳務方式的諮詢工作，其中 [時間] 和 [服務費] 交易分類都適用。 例如，**Dynamics AX 實作** 範例專案的所有時間交易與服務費交易都會根據已使用的時間和材料開發票給客戶。 

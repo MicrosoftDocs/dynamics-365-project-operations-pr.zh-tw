@@ -2,18 +2,16 @@
 title: 管理專案報價上的多個客戶
 description: 本主題提供有關處理涉及多個提供專案資金之客戶的報價的資訊。
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2b57d052d6b50ee420249cf5441077b092b4e13f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: eef3e8754cdfdb810ffd5283976445edbb126b51e20d5b51d603d2ba9e2c02c9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277868"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991971"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>管理專案報價上的多個客戶
 

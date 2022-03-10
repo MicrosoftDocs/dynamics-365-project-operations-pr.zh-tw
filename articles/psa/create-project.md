@@ -2,8 +2,6 @@
 title: 建立專案
 description: 如何建立 Project Service 中的專案
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/13/2020
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: de26bb4c3fa0ee8abf6edf5494968d1d0403266a
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: f98e24d9d7abcd3dc8ef8071974d5fa8f53255a5df6704c2e166b0831a5935f1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133088"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002636"
 ---
 # <a name="create-a-project-project-service"></a>建立專案 (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -46,3 +46,6 @@ ms.locfileid: "4133088"
   
 ### <a name="see-also"></a>請參閱  
  [專案經理指南](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

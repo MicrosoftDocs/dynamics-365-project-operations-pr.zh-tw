@@ -2,27 +2,24 @@
 title: Dynamics 365 Project Operations
 description: 本主題提供有關 Dynamics 365 Project Operations 的資訊。
 author: stsporen
-manager: AnnBe
 ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: ''
 ms.search.industry: ''
 ms.author: kfend
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 108fc9b25b112e7af69147a151929fb2c2d887a6
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 6646379fb421796a083bc321542daef4f58dcddfc67915d68403c2a370ba90c4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950660"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988371"
 ---
 # <a name="dynamics-365-project-operations"></a>Dynamics 365 Project Operations
 

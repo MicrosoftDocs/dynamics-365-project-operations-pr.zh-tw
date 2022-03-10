@@ -2,18 +2,16 @@
 title: 安全性模型
 description: 此主題提供有關 Dynamics 365 Project Operations 中安全性模型的資訊。
 author: stsporen
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: b01f3d88dd021895933bc863b762f019ae50eed6
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642893"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991476"
 ---
 # <a name="security-model"></a>安全性模型
 
@@ -58,9 +56,9 @@ Project 網頁版會自動在指派時將使用者新增至群組。
 
 Project Operations 不會透過隱含式動作建立群組，只會透過按下群組的明確動作這樣做。
 
-**群組管理** 對話方塊中的群組成員搜尋，僅限於已設定為環境安全性群組之一部分的人員。 如需詳細資訊，請參閱[控制使用者對環境的存取：安全性群組和授權](https://docs.microsoft.com/power-platform/admin/control-user-access)。
+**群組管理** 對話方塊中的群組成員搜尋，僅限於已設定為環境安全性群組之一部分的人員。 如需詳細資訊，請參閱[控制使用者對環境的存取：安全性群組和授權](/power-platform/admin/control-user-access)。
 
-![群組模式](./media/groupsmode.png)
+![群組模式。](./media/groupsmode.png)
 
 1. 專案已建立並且由建立使用者所擁有。
 2. 專案負責人會更新為團隊。
@@ -70,7 +68,7 @@ Project Operations 不會透過隱含式動作建立群組，只會透過按下�
 ## <a name="deployment-recommendation"></a>部署建議
 隨著 Office 群組共同作業模型的演變，將會不斷新增功能，與時俱進地提供更精細的控制。 現今部署 Project Operations 的使用者，最好還是將重點放在傳統 Microsoft Dynamics 365 安全性模型上。
 
-如需詳細資訊，請參閱 [Common Data Service 中的安全性](https://docs.microsoft.com/power-platform/admin/wp-security)。
+如需詳細資訊，請參閱 [Common Data Service 中的安全性](/power-platform/admin/wp-security)。
 
 ## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Project Operations 和 Microsoft Dynamics 365 Finance 安全性
 Project Operations 包含下列角色：
@@ -78,6 +76,9 @@ Project Operations 包含下列角色：
 - 專案經理
 - 專案會計師
 
-如需有關 Finance 中安全性的詳細資訊，請參閱[角色型安全性](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security)。
+如需有關 Finance 中安全性的詳細資訊，請參閱[角色型安全性](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security)。
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

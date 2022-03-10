@@ -1,23 +1,21 @@
 ---
-title: 在合約上建立專項預付金 - 精簡
+title: 在合約上建立專項預付金
 description: 本主題提供有關視需要在合約上建立預付金的資訊。
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a6bf02c2e2ab2f3c696b1eab1b92a20272187bf5
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: bceed1372dbaf523426a4c34da7152d77fe108240c8c3e4e1390c43b1cf536a4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181352"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999126"
 ---
-# <a name="creating-an-ad-hoc-advance-on-a-contract---lite"></a>在合約上建立專項預付金 - 精簡
+# <a name="creating-an-ad-hoc-advance-on-a-contract"></a>在合約上建立專項預付金
 
-_**適用於：** 精簡部署 - 交易至開立預估發票_
+_**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
 Microsoft Dynamics 365 Project Operations 支援涉及預先付費和預付金的開立發票案例。 **Project Operations** 中使用 **預付金** 的程序類似於 **保留款** 合約。 
 
@@ -39,3 +37,6 @@ Microsoft Dynamics 365 Project Operations 支援涉及預先付費和預付金�
     | **發票狀態** | 這是指示這筆預付金是否已新增至此客戶之草稿發票的選項設定。 可能的值是：</br>- **尚未準備好開立發票**</br>- **已準備好開立發票** | 當預付金或預先付費標示為 **已準備好開立發票** 時，系統會將這筆款項新增為草稿發票上的明細時間。 只有已全額開立發票的預付金才能用來對下一個發票期間的專案成本進行差異協調。 |
 
 4. 選取快速建立對話方塊上的 **儲存後關閉**，以記錄預付金或預先付費。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
