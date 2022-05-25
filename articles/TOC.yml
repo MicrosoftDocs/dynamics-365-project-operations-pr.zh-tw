@@ -62,6 +62,14 @@
           href: environment/uninstall-project-operations.md
     - name: 新增功能
       items:
+        - name: 2022 年 5 月 - 資源/非庫存型案例適用的 Project Operations
+          href: whats-new/whats-new-may-2022-resource-based.md
+        - name: 2022 年 4 月 - 資源/非庫存型案例適用的 Project Operations
+          href: whats-new/whats-new-apr-2022-resource-based.md
+        - name: 2022 年 3 月 - 資源/非庫存型案例適用的 Project Operations
+          href: whats-new/whats-new-mar-2022-resource-based.md
+        - name: 2022 年 2 月 - 資源/非庫存型案例適用的 Project Operations
+          href: whats-new/whats-new-feb-2022-resource-based.md
         - name: 2021 年 12 月 - 資源/非庫存型案例適用的 Project Operations
           href: whats-new/whats-new-dec-2021-resource-based.md
         - name: 2021 年 11 月 - 資源/非庫存型案例適用的 Project Operations
@@ -102,6 +110,8 @@
               href: sales/sales-units-unit-groups.md
             - name: 貨幣
               href: sales/sales-currency.md
+            - name: 組織單位
+              href: sales/OrgUnits.md
         - name: 管理專案潛在客戶
           href: sales/manage-leads.md
         - name: 管理專案商機
@@ -288,8 +298,6 @@
               href: project-management/project-cost-tracking.md
             - name: 專案的人力營收追蹤
               href: project-management/project-sales-tracking.md
-            - name: 更新完工估計值
-              href: project-management/update-completed-estimate.md
         - name: 專案團隊成員
           items:
             - name: 專案團隊成員概觀
@@ -308,6 +316,8 @@
               href: project-management/dev-copy-project.md
             - name: 使用專案排程 API
               href: project-management/schedule-api-preview.md
+            - name: 將專案排程 API 與 Power Automate 搭配使用
+              href: project-management/scheduling-apis-powerautomate.md
             - name: 專案排程 API 效能
               href: project-management/project-schedule-api-performance.md
             - name: 專案排程記錄
@@ -386,7 +396,7 @@
           href: expense/expense-overview.md
         - name: 新的費用體驗
           items:
-            - name: 顛覆想像的費用報表
+            - name: 重新定義的費用報表
               href: expense/expense-reports-reimagined.md
             - name: 使用 OCR 擷取收據
               href: expense/match-receipt-expense-ocr.md
@@ -426,8 +436,8 @@
           href: expense/travel-requisition.md
         - name: 預付現金
           href: expense/cash-advance.md
-        - name: 每日津貼
-          href: expense/per-diems.md
+        - name: 每日津貼費用
+          href: expense/per-diem-expenses.md
         - name: 行動費用應用程式
           href: expense/expense-using-mobile.md
         - name: 財務管理
@@ -438,33 +448,45 @@
       items:
         - name: 記錄專案和專案工作的材料使用方式
           href: material/material-usage-log.md
-    - name: Approvals
+    - name: 核准
       items:
-        - name: Approvals 概觀
+        - name: 核准概觀
           href: approvals/approvals-overview.md
         - name: 核准集
           href: approvals/approval-sets.md
+        - name: 取消核准先前已核准的項目
+          href: approvals/cancelapproval.md
+        - name: 回收先前已核准的項目
+          href: approvals/recall-cancel.md
         - name: 開發人員附註
           items:
-            - name: Approvals 的開發人員附註
+            - name: 對於核准的開發人員附註
               href: approvals/dev-notes-approvals.md
     - name: 實際值
       items:
+        - name: Project Operations 中的商務交易
+          href: actuals/businesstransactions.md
         - name: 實際值概觀
           href: actuals/actuals-overview.md
-        - name: 將實際值連結至原始記錄
+        - name: 交易來源 - 將實際值連結至來源
           href: actuals/linkingactuals.md
-        - name: 更正日記帳
+        - name: 交易連接 - 連結不同交易類型的實際值
+          href: actuals/connectingactuals.md
+        - name: 日記帳
           items:
+            - name: 建立和確認分錄日記帳
+              href: actuals/create-confirm-entry-journals.md
             - name: 建立和確認更正日記帳
               href: actuals/create-confirm-correction-journals.md
     - name: 採購
       items:
         - name: 設定非庫存材料和待處理廠商發票
           href: procurement/configure-materials-nonstocked.md
-        - name: 使用待處理廠商發票來採購專案的非庫存材料
+        - name: 設定專案的採購類別
+          href: procurement/configure-procurement-categories.md
+        - name: 使用待處理廠商發票來為專案採購商品和服務
           href: procurement/pending-vendor-invoices.md
-        - name: 使用專案採購單為專案訂購非庫存材料
+        - name: 使用專案採購單為專案訂購商品和服務
           href: procurement/non-stocked-materials-project-purchase-orders.md
         - name: 廠商保留額
           items:
@@ -538,6 +560,18 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: 管理營收預估值
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: 進階設定
+      items:
+        - name: 在專案驗收期間，遷移已開立全額發票的帳單里程碑
+          href: advanced-configuration/migrating-invoiced-milestones.md
+    - name: 升級
+      items:
+        - name: 新式核准的升級考量
+          href: upgrade/upgrade-considerations-modern-approvals.md
+    - name: Project Operations 應用程式
+      items:
+        - name: Project Operations 團隊成員應用程式
+          href: team-member/project-operations-team-member.md
     - name: 疑難排解
       items:
         - name: 專案銷售處理
@@ -562,6 +596,14 @@
       items:
         - name: 2021 年第 2 段發行浪潮搶先體驗新增功能 - 精簡部署
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: 2022 年 5 月新增功能 - 精簡部署
+          href: pro/whats-new/whats-new-may-2022-lite.md
+        - name: 2022 年 4 月新增功能 - 精簡部署
+          href: pro/whats-new/whats-new-apr-2022-lite.md
+        - name: 2022 年 3 月新增功能 - 精簡部署
+          href: pro/whats-new/whats-new-mar-2022-lite.md
+        - name: 2022 年 2 月新增功能 - 精簡部署
+          href: pro/whats-new/whats-new-feb-2022-lite.md
         - name: 2021 年 12 月新增功能 - 精簡部署
           href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: 2021 年 11 月新增功能 - 精簡部署
@@ -602,6 +644,8 @@
               href: sales/sales-units-unit-groups.md
             - name: 貨幣
               href: sales/sales-currency.md
+            - name: 組織單位
+              href: sales/OrgUnits.md
         - name: 管理專案潛在客戶
           href: pro/sales/managing-leads-sales.md
         - name: 管理專案商機
@@ -808,8 +852,6 @@
               href: project-management/project-cost-tracking.md
             - name: 專案的人力營收追蹤
               href: project-management/project-sales-tracking.md
-            - name: 更新完工估計值
-              href: project-management/update-completed-estimate.md
         - name: 專案團隊成員
           items:
             - name: 專案團隊成員概觀
@@ -828,6 +870,8 @@
               href: project-management/dev-copy-project.md
             - name: 使用專案排程 API
               href: project-management/schedule-api-preview.md
+            - name: 將專案排程 API 與 Power Automate 搭配使用
+              href: project-management/scheduling-apis-powerautomate.md
             - name: 專案排程 API 效能
               href: project-management/project-schedule-api-performance.md
     - name: 資源管理
@@ -886,12 +930,10 @@
           items:
             - name: 資源使用率概觀
               href: resource-management/resource-utilization-overview.md
-    - name: Project Operations 中的轉包合約管理
+    - name: 轉包合約管理
       items:
         - name: Project Operations 中的轉包合約管理
           href: pro/subcontracting/managing-subcontracts-overview.md
-        - name: 2021 年 10 月搶先體驗中的轉承包
-          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: 轉承包中的重要概念
           href: pro/subcontracting/key-concepts-subcontracting.md
         - name: 管理廠商和專案價目表
@@ -924,6 +966,28 @@
           href: pro/subcontracting/recording-subcon-actuals.md
         - name: 轉包合約的狀態轉換
           href: pro/subcontracting/subcon-states.md
+    - name: 專案廠商發票
+      items:
+        - name: 開立廠商發票 - 概念和建立
+          href: pro/subcontracting/vendor-invoice-overview.md
+        - name: 廠商發票的標題詳細資料
+          href: pro/subcontracting/vendor-invoice-header.md
+        - name: 時間的廠商發票明細
+          href: pro/subcontracting/vendor-invoice-line-time.md
+        - name: 產品的廠商發票明細
+          href: pro/subcontracting/vi-line-material.md
+        - name: 里程碑的廠商發票明細
+          href: pro/subcontracting/vi-line-milestone.md
+        - name: 費用類別的廠商發票明細
+          href: pro/subcontracting/vi-line-expense.md
+        - name: 使用已核准實際值的廠商發票驗證
+          href: pro/subcontracting/VI-Verification.md
+        - name: 取消專案廠商發票
+          href: pro/subcontracting/cancel-vi.md
+        - name: 確認專案廠商發票
+          href: pro/subcontracting/confirm-vi.md
+        - name: 廠商發票的狀態轉換
+          href: pro/subcontracting/vi-state-model.md
     - name: 時間
       items:
         - name: 時間概觀
@@ -946,24 +1010,34 @@
       items:
         - name: 記錄專案和專案工作的材料使用方式
           href: material/material-usage-log.md
-    - name: Approvals
+    - name: 核准
       items:
-        - name: Approvals 概觀
+        - name: 核准概觀
           href: approvals/approvals-overview.md
         - name: 核准集
           href: approvals/approval-sets.md
+        - name: 取消核准先前已核准的項目
+          href: approvals/cancelapproval.md
+        - name: 回收先前已核准的項目
+          href: approvals/recall-cancel.md
         - name: 開發人員附註
           items:
-            - name: Approvals 的開發人員附註
+            - name: 對於核准的開發人員附註
               href: approvals/dev-notes-approvals.md
     - name: 實際值
       items:
+        - name: Project Operations 中的商務交易
+          href: actuals/businesstransactions.md
         - name: 實際值概觀
           href: actuals/actuals-overview.md
-        - name: 將實際值連結至原始記錄
+        - name: 交易來源 - 將實際值連結至來源
           href: actuals/linkingactuals.md
-        - name: 更正日記帳
+        - name: 交易連接 - 連結不同交易類型的實際值
+          href: actuals/connectingactuals.md
+        - name: 日記帳
           items:
+            - name: 建立和確認分錄日記帳
+              href: actuals/create-confirm-entry-journals.md
             - name: 建立和確認更正日記帳
               href: actuals/create-confirm-correction-journals.md
     - name: 開立預估發票
@@ -984,6 +1058,14 @@
           href: pro/proforma-invoicing/corrective-invoices-sales.md
         - name: 設定專案發票自動化
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
+    - name: 升級
+      items:
+        - name: 新式核准的升級考量
+          href: upgrade/upgrade-considerations-modern-approvals.md
+    - name: Project Operations 應用程式
+      items:
+        - name: Project Operations 團隊成員應用程式
+          href: team-member/project-operations-team-member.md
 - name: 庫存/生產型案例適用的 Project Operations
   items:
     - name: 新增功能
@@ -1010,43 +1092,39 @@
       href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: 專案管理與會計概觀
       href: prod-pma/overview-project-management-accounting.md
-    - name: 公司間開立開票
-      href: prod-pma/intercompany-invoicing.md
-    - name: 設定公司間的專案發票開立
-      href: prod-pma/tasks/configure-intercompany-project-invoicing.md
-    - name: 設定人力和費用的標準成本
-      href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
-    - name: 建立和套用供應商付款保留條款
-      href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
-    - name: 設定和使用背靠背式供應商付款
-      href: prod-pma/setup-manage-vendor-payments.md
-    - name: 根據採購收據的專案成本累算方式
-      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
-    - name: 專案發票請款
-      href: /dynamics365/finance/accounts-payable/project-invoicing
-    - name: 專案發票提案績效
-      href: prod-pma/project-invoice-proposal-performance.md
-    - name: 專案合約
-      href: prod-pma/project-contracts.md
-    - name: 根據進度扣款的預付型合約
-      href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
-    - name: 專案預測和預算
-      href: prod-pma/project-forecasts-budgets.md
-    - name: 建立專案預算的預測模型
-      href: prod-pma/create-forecast-models-project-budgets.md
-    - name: 在會計年度結束時轉移專案預算
-      href: prod-pma/process-project-budgets-for-fiscal-year-end.md
-    - name: 專案銷售訂單
-      href: prod-pma/project-sales-orders.md
-    - name: 專案採購單
-      href: prod-pma/project-purchase-orders.md
-    - name: 專案報價
-      href: prod-pma/project-quotations.md
-    - name: 確認、更新和傳送專案報價
-      href: prod-pma/confirm-update-send-project-quotation.md
-    - name: 將報價轉移至專案
-      href: prod-pma/transfer-quote-new-existing-project.md
-    - name: 專案資源分配
+    - name: 專案銷售處理
+      items:
+        - name: 專案報價
+          href: prod-pma/project-quotations.md
+        - name: 確認、更新和傳送專案報價
+          href: prod-pma/confirm-update-send-project-quotation.md
+        - name: 將報價轉移至專案
+          href: prod-pma/transfer-quote-new-existing-project.md
+        - name: 專案合約
+          href: prod-pma/project-contracts.md
+        - name: 專案資助
+          href: prod-pma/project-grants.md
+    - name: 定價和成本計算
+      items:
+        - name: 設定人力和費用的標準成本
+          href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
+    - name: 專案管理
+      items:
+        - name: 分工結構圖概觀
+          href: prod-pma/work-breakdown-structures.md
+        - name: Microsoft Project Client 整合
+          href: prod-pma/project-integration.md
+        - name: Project 行動應用程式概觀
+          href: prod-pma/project-mobile-application-overview.md
+        - name: 專案時間項目行動工作區
+          href: prod-pma/project-time-entry-mobile-workspace.md
+        - name: Project Timesheet 行動應用程式
+          href: prod-pma/project-timesheet.md
+        - name: 行動裝置上的 Project Timesheet
+          href: prod-pma/mobile-timesheets.md
+        - name: 實作 Project Timesheet 行動應用程式的自訂欄位
+          href: prod-pma/custom-fields-mobile.md
+    - name: 資源管理
       items:
         - name: 專案資源分配概觀
           href: prod-pma/project-resourcing.md
@@ -1068,35 +1146,113 @@
           href: prod-pma/set-up-roles-wbs-template.md
         - name: 計劃資源的資源履行
           href: prod-pma/resource-fulfillment-planned-resources.md
-    - name: 從項目需求接收採購單上的項目
-      href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
-    - name: 分工結構圖
+    - name: 專案預算和預測
       items:
-        - name: 分工結構圖概觀
-          href: prod-pma/work-breakdown-structures.md
-        - name: Microsoft Project Client 整合
-          href: prod-pma/project-integration.md
-        - name: Project 行動應用程式概觀
-          href: prod-pma/project-mobile-application-overview.md
-        - name: 專案時間項目行動工作區
-          href: prod-pma/project-time-entry-mobile-workspace.md
-        - name: 專案時程表行動應用程式
-          href: prod-pma/project-timesheet.md
-        - name: 行動裝置上的專案時程表
-          href: prod-pma/mobile-timesheets.md
-        - name: 實作專案時程表行動應用程式的自訂欄位
-          href: prod-pma/custom-fields-mobile.md
-    - name: 專案資助
-      href: prod-pma/project-grants.md
-    - name: 消除專案估計值
-      href: prod-pma/eliminate-project-estimate.md
+        - name: 專案預測和預算
+          href: prod-pma/project-forecasts-budgets.md
+        - name: 建立專案預算的預測模型
+          href: prod-pma/create-forecast-models-project-budgets.md
+        - name: 在會計年度結束時轉移專案預算
+          href: prod-pma/process-project-budgets-for-fiscal-year-end.md
+    - name: 時間
+      items:
+        - name: 設定專案時間項目的預設財務維度
+          href: prod-pma/time-entry-dimension-defaults.md
+    - name: 費用
+      items:
+        - name: 費用概觀
+          href: expense/expense-overview.md
+        - name: 新的費用體驗
+          items:
+            - name: 重新定義的費用報表
+              href: expense/expense-reports-reimagined.md
+            - name: 使用 OCR 擷取收據
+              href: expense/match-receipt-expense-ocr.md
+        - name: 組態和設定
+          items:
+            - name: 設定原則
+              href: expense/set-up-policies.md
+            - name: 設定工作流程
+              href: expense/set-up-workflows.md
+            - name: 管理委派
+              href: expense/manage-delegation.md
+            - name: 設定費用管理參數
+              href: expense/configure-expense-management-parameters.md
+            - name: 設定信用卡整合
+              href: expense/set-up-credit-card-integration.md
+            - name: 設定費用類別
+              href: expense/set-up-expense-categories.md
+            - name: 使用里程費率層級來設定里程
+              href: expense/set-up-mileage.md
+        - name: 費用分項列記
+          href: prod-exp/expense-itemization.md
+        - name: 個人費用
+          href: expense/personal-expenses-expense-report.md
+        - name: 公司間費用
+          href: prod-exp/intercompany-expense.md
+        - name: 建立費用報表
+          items:
+            - name: 費用報表的分佈
+              href: expense/distributions-expense-report.md
+        - name: 核准費用報表
+          items:
+            - name: 費用報表和多個核准者
+              href: expense/expense-reports-multiple-approvers.md
+        - name: 將費用報表過帳
+          href: expense/posting-expense-reports.md
+        - name: 差旅申請
+          href: expense/travel-requisition.md
+        - name: 預付現金
+          href: expense/cash-advance.md
+        - name: 每日津貼費用
+          href: expense/per-diem-expenses.md
+        - name: 行動費用應用程式
+          href: expense/expense-using-mobile.md
+        - name: 財務管理
+          items:
+            - name: 加值稅退還
+              href: expense/vat-recovery.md
+    - name: 採購
+      items:
+        - name: 專案採購單
+          href: prod-pma/project-purchase-orders.md
+        - name: 根據採購收據的專案成本累算方式
+          href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
+        - name: 從項目需求接收採購單上的項目
+          href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
+        - name: 設定和使用背靠背式供應商付款
+          href: prod-pma/setup-manage-vendor-payments.md
+        - name: 建立和套用供應商付款保留條款
+          href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
+    - name: 專案發票請款
+      items:
+        - name: 專案發票請款
+          href: /dynamics365/finance/accounts-payable/project-invoicing
+        - name: 專案發票提案績效
+          href: prod-pma/project-invoice-proposal-performance.md
+        - name: 根據進度扣款的預付型合約
+          href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
+        - name: 專案銷售訂單
+          href: prod-pma/project-sales-orders.md
+        - name: 包含多個資金來源的專案合約的項目需求
+          href: prod-pma/multiple-funding-sources-item-req.md
+    - name: 公司間開立開票
+      items:
+        - name: 公司間開立開票
+          href: prod-pma/intercompany-invoicing.md
+        - name: 設定公司間的專案發票開立
+          href: prod-pma/tasks/configure-intercompany-project-invoicing.md
+    - name: 收入認列
+      items:
+        - name: 消除專案估計值
+          href: prod-pma/eliminate-project-estimate.md
 - name: 費用管理
   items:
     - name: 費用管理概觀
       href: prod-exp/expense-management.md
     - name: 新的費用體驗
       items:
-        - name: 顛覆想像的費用報表
+        - name: 重新定義的費用報表
           href: expense/expense-reports-reimagined.md
         - name: 使用 OCR 擷取收據
           href: expense/match-receipt-expense-ocr.md
@@ -1148,6 +1304,16 @@
       items:
         - name: Project Service 3.x 的更新發行排程
           href: psa/version-history-ps.md
+        - name: 更新版本 43 V3 的新功能或變更
+          href: psa/whats-new-ur43.md
+        - name: 更新版本 42 V3 的新功能或變更
+          href: psa/whats-new-ur-42.md
+        - name: 更新版本 41 V3 的新功能或變更
+          href: psa/whats-new-ur-41.md
+        - name: 更新版本 40 V3 的新功能或變更
+          href: psa/whats-new-ur-40.md
+        - name: 更新版本 39 V3 的新功能或變更
+          href: psa/whats-new-ur-39.md
         - name: 更新版本 38 V3 的新功能或變更
           href: psa/whats-new-ur-38.md
         - name: 更新版本 37.5 V3 的新功能或變更
@@ -1238,6 +1404,8 @@
           href: psa/implementation-guides/reporting-guide.md
     - name: 從 Project Service Automation 升級至 Project Operations - 精簡
       href: psa/upgrade-project-operations-non-stocked.md
+    - name: 從 Project Service Automation 到 Project Operations 的功能變更
+      href: psa/psa-project-operations-changes.md
     - name: Project Service Automation 升級 (應用程式 3.x 版)
       items:
         - name: Project Service Automation 升級
