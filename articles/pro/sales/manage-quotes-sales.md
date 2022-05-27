@@ -4,14 +4,14 @@ description: 本主題提供有關專案報價的資訊。
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0ccf669fb47585e13e24921f2aeee383b33dd9c5f882e82220a906f9b73bfcc4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: eab780241953bbabab199e146c94a15e272e35c9
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001511"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579572"
 ---
 # <a name="manage-project-quotes"></a>管理專案報價
 
@@ -31,6 +31,9 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 2. 使用 **檢視表切換器** 選取報價的其他篩選過的檢視。 您可以使用自訂篩選準則來設定自己的檢視和導覽選項。
 
 您可以從此清單頁面或詳細資料頁面建立或刪除報價。
+
+ > [!NOTE]
+ > 無法刪除含有專案、工作、估計值、帳目和/或相關聯實際值的報價。 此外，當報價以成交或未成交關閉時，也無法再加以刪除或修改。 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

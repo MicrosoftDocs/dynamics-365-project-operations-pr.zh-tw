@@ -3,16 +3,15 @@ title: 資源/非庫存型案例適用的 Project Operations 部署概觀
 description: 此主題提供關於資源/非庫存型案例適用的 Project Operations 部署類型的資訊。
 author: rumant
 ms.date: 11/02/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: a66877471e584bc76ddfe508a5d4cb47e38dd7aeb5f2bebe795b41a1de462ef9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d751ec9c75e72a6804f073f181591755afc6e261
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009701"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575111"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>資源/非庫存型案例適用的 Project Operations 部署概觀
 
@@ -32,7 +31,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 - 專案營收確認
 - 透過 Power Platform 的擴充性
 
-這種部署類型提供 Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 應用程式所提供之功能的擴充功能。
+此部署類型可讓 Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 應用程式所提供的功能獲得擴充。
 
 如果對 Project Operations 的期望是使用完整專案生命週期（包括下列需求），應該選擇此部署類型：
 

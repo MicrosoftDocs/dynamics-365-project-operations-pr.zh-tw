@@ -4,14 +4,14 @@ description: 本主題提供有關如何解除安裝 Dynamics 365 Project Operat
 author: stsporen
 ms.date: 11/09/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b87c9324b1c95c10ef1e18b0fbf4572bdbe76827
-ms.sourcegitcommit: b8b7a59eee7d93638446e93726d270316e45ab3d
+ms.openlocfilehash: e2600c770477ad32cebb66f33a8ca31502a6da3d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7783633"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575846"
 ---
 # <a name="uninstall-dynamics-365-project-operations"></a>取消安裝 [Dynamics 365 Project Operations] 
 
@@ -27,7 +27,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
     | 步驟 | 解決方案名稱                                    | 附註                                                                                         |
     |------|----------------------------------------------------|----------------------------------------------------------------------------------------------|
-    | 7 | msdyn_ProjectServiceUpgrade_managed.cab            | 如果找不到，請略過此解決方案。                                                            |
+    | 1 | msdyn_ProjectServiceUpgrade_managed.cab            | 如果找不到，請略過此解決方案。                                                            |
     | 2 | ProjectOperations_Anchor                           | 如果找不到，請略過此解決方案。                                                            |
     | 3 | Dynamics365ProjectOperationsDualWriteEntityMaps    | 如果找不到，請略過此解決方案。                                                            |
     | 4 | Dynamics365ProjectOperationsDualWrite              | 如果找不到，請略過此解決方案。                                                            |
@@ -35,8 +35,8 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
     | 6 | ProjectServiceCore_Patch                           | 沒有其他附註。                                                                         |
     | 7 | ProjectServiceCore                                 | 沒有其他附註。                                                                         |
     | 8 | ProjectServiceDeprecatedComponents                 | 如果找不到，請略過此解決方案。                                                            |
-    | 9 | FieldServiceCommon                                 | 使用 Dynamics 365 Finance 或 Dynamics 365 Supply Chain Management 進行雙寫時需要。   |
-    | 10 | msdyn_AssetCommon                                  | 使用 Dynamics 365 Finance 或 Dynamics 365 Supply Chain Management 進行雙寫時需要。   |
+    | 9 | FieldServiceCommon                                 | 使用 Dynamics 365 Finance 或 Dynamics 365 Supply Chain Management 進行雙動寫入時需要。   |
+    | 10 | msdyn_AssetCommon                                  | 使用 Dynamics 365 Finance 或 Dynamics 365 Supply Chain Management 進行雙動寫入時需要。   |
     | 11 | msdyn_TESA_Anchor                                  | Dynamics 365 Field Service 需要。                                                     |
     | 12 | msdyn_TESA_Patch                                   | Dynamics 365 Field Service 需要。                                                     |
     | 13 | msdyn_TESA                                         | Dynamics 365 Field Service 需要。                                                     |

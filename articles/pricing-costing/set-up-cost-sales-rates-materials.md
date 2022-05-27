@@ -2,16 +2,16 @@
 title: 設定材料的成本及銷售費率
 description: 本主題提供有關如何設定專案中所用材料之成本及銷售費率的資訊。
 author: rumant
-ms.date: 04/07/2021
+ms.date: 03/21/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c80317ac56c4e1ed465273ea6d0a7c65f1f5830c349a9b8d5b6f7f8d92424c7b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1b1b679f15662d922804deefb6372adcdf4d4839
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999171"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576858"
 ---
 # <a name="set-up-cost-and-sales-rates-for-materials"></a>設定材料的成本及銷售費率
 
@@ -25,6 +25,9 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 2. 在 **價目表項目** 的子格功能表中，選取 **新增價目表項目**。 
 3. 在 **快速建立** 頁面上，輸入您要為其建立新價格的產品和單位。
 
-如需有關如何定義目錄項目價格的詳細資訊，請參閱[設定產品定價](/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md)和[貨幣和定價中的小數有效位數](/dynamics365/sales-enterprise/decimal-precision-currency-pricing.md)。
+如需有關如何定義目錄項目價格的詳細資訊，請參閱[使用價目表和價目表項目來定義產品定價](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products)和[貨幣與價格的小數點有效位數](/dynamics365/sales/decimal-precision-currency-pricing)。
+> [!NOTE]
+> Dynamics 365 Project Operations 不支援 Dynamics 365 Sales 等產品所有的定價方式。 專案要使用的唯一受支援產品定價方式是 *貨幣金額*。
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

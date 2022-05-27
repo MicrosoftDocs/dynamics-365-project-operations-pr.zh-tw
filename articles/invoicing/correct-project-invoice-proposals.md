@@ -2,16 +2,16 @@
 title: 更正草稿專案發票提案的會計處理
 description: 本主題說明如何調整草稿發票提案中的會計相關資訊。
 author: sigitac
-ms.date: 06/07/2021
+ms.date: 01/05/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 153a239d4b88906909ee0bfae8a18cabebc3766399290d83bb79f5d6375a942c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999306"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575064"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>更正草稿專案發票提案的會計處理
 
@@ -27,12 +27,21 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 ## <a name="adjust-financial-dimensions"></a>調整財務維度
 
+### <a name="header-dimensions"></a>標題維度
+
+發票財務維度預設衍生自要開立發票的未開單專案交易。 不過，系統設定允許您在專案發票提案的標題上使用財務維度來過帳客戶餘額。 若要啟用此功能，請在 **專案管理與會計參數** 頁面的 **財務** 索引標籤上選取 **允許更新應收帳款的財務維度**。
+
+可以先編輯發票標題上的財務維度，再將發票過帳。 在 **專案發票提案** 頁面上，切換至 **標題** 檢視，然後編輯 **財務維度** 索引標籤中的值。
+
+只有在系統管理員啟用 **功能管理** 工作區中的 **將專案發票提案及發票帳目表單與標題和明細檢視表搭配使用** 功能之後，才能使用 **標題** 檢視表。 這項功能需要 Finance 更新 10.0.25 或更新版本。
+
+### <a name="line-dimensions"></a>明細維度
+
 在專案發票提案明細上，無法直接編輯財務維度。 相反地，請依照下列步驟，調整專案發票提案上的財務維度。
 
 1. 在專案發票提案中，選取 **全部刪除** 以移除專案發票提案明細。
 
-    > [!NOTE]
-    > 只有在系統管理員啟用 **功能管理** 工作區中的 **使用資源型/非庫存案例適用的 Project Operations 時刪除發票提案明細** 之後，才可使用 **全部刪除** 按鈕 。
+    只有在系統管理員啟用 **功能管理** 工作區中的 **使用資源型/非庫存案例適用的 Project Operations 時刪除發票提案明細** 之後，才可使用 **全部刪除** 按鈕 。
 
 2. 調整財務維度：
 

@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dd4047c2f1ed89d668882e4a1e162f3df8e452cf1ed6b85e34e6290b33e53814
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 766e2815d2a07708ace91a0ff5308e0195ff0edc
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6984861"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579848"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>2020 年 12 月 - 資源/非庫存型案例適用的 Project Operations 新增功能
 
@@ -21,7 +21,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 此主題適用於下列 Dynamics 365 Project Operations 元件和版本：
 
 - Dataverse 環境的 Project Operations 版本 4.5.0.134
-- Dynamics 365 Finance 環境 10.0.15 版本的專案管理與會計
+- Dynamics 365 Finance 環境 10.0.15 版中的專案管理與會計
 
 如需有關如何更新至此版本的詳細資訊，請參閱[更新 Finance 環境中的 Project Operations](ur5-nonstocked-installation.md)。
 
@@ -61,7 +61,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 | 專案規劃和追蹤 | 2057197          | 不支援使用工作參照的估計明細複製                                                                                                     |
 | 專案規劃和追蹤 | 2060687          | 時區警告現在在特定期間後消失                                                                                                      |
 | 資源管理           | 1832887          | 預設資源類別識別碼必須是靜態的，才能確保 Dataverse 和 Finance 環境的可重複資料載入                                                 |
-| 時間和費用              | 2081793          | **費用類別名稱** 必須對應至 Finance and Operations 應用程式中的 **費用類別描述** 欄位                                                  |
+| 時間和費用              | 2081793          | **費用類別名稱** 必須對應至財務和營運應用程式中的 **費用類別描述** 欄位                                                  |
 | 時間和費用              | 2034882          | 安裝 Dynamics 365 Field Service 時，**新增** 按鈕會在命令列中為時間項目顯示兩次                                          |
 | 時間和費用              | 2056028          | 更新 **時間編輯** 頁面以包括時間表                                                                                                              |
 | 時間和費用              | 1983747          | 時間項目圖表顯示額外的資料                                                                                                                   |
@@ -106,7 +106,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 | 差旅和費用                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | 已完成費用報表自動過帳工作流程，但是發票未過帳                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>法規更新
-如需 Finance and Operations 應用程式的法規更新資訊，請參閱[法規更新](/dynamics365/finance/localizations/regulatory-updates)。 您也可以使用問題搜尋工具登入 LCS 並查看計畫的法規更新。 問題搜尋可讓您依國家/地區、功能類型和版本進行搜尋。
+如需有關 財務和營運應用程式的法規更新資訊，請參閱[法規更新](/dynamics365/finance/localizations/regulatory-updates)。 您也可以使用問題搜尋工具登入 LCS 並查看計畫的法規更新。 問題搜尋可讓您依國家/地區、功能類型和版本進行搜尋。
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

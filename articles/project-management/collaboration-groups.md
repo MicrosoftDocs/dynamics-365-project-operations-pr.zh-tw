@@ -4,20 +4,20 @@ description: Office 群組可讓您在 Common Data Service 中，與其他團隊
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 2ad284bb3eb461e254292fcf78ea135c9b978deeded30927c3c442afc2ec0b7e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 76a5b94780c4467c5e423bb6048e91d9efcde6d6
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003131"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8574466"
 ---
 # <a name="collaboration-with-office-groups"></a>與 Office 群組的共同作業
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Office 群組可讓您與 Common Data Service 中的其他團隊成員共用專案。 將使用者新增至群組時，專案擁有權會轉移至群組。 所有使用者都會擁有對專案的編輯權限。 如果權限已由系統管理員授與，則使用者也可以查看該專案。 這些使用者不會顯示在群組中。
 

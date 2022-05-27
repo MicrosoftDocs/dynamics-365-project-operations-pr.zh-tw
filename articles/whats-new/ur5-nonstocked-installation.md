@@ -5,14 +5,14 @@ author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986751"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579914"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>更新 Finance 環境中的 Project Operations
 
@@ -119,7 +119,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 4. 在 **資料表對應版本** 頁面上，將新的對應版本套用至三個實體中的每一個。
 5. 在 **雙重寫入** 頁面上，選取 [執行] 以重新啟動對應。
 6. 從對應清單中選取與所有先決條件的 **總帳 (msdyn_ledgers)** 對應，然後選取 **初始同步** 核取方塊。 
-7. 在 **初始同步主機** 欄位中，選取 **Finance and Operations 應用程式**，然後選取 **執行**。
+7. 在 **初始同步主控端** 欄位中，選取 **財務和營運應用程式**，然後選取 **執行**。
  
  ![總帳對應同步處理。](media/DW6.png)
  
