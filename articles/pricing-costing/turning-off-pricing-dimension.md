@@ -6,7 +6,7 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3d9f0cb2a054941b07809b61ca14a3145c6d6d06acd6ca40255d5ec9de92be22
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cba1f9915087f7910a9aa93378cb861983ca36ab
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994491"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600318"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>關閉定價維度
 
@@ -38,8 +38,8 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 | 標準職稱         | 組織單位    |單位   |價格  |貨幣  |
 | -----------------------|-------------|-------|-------|----------|
-| 系統工程師|Contoso 美國|小時| 100|USD|
-| 資深系統工程師|Contoso 美國|小時| 150| USD|
+| 系統工程師|Contoso US|Hour| 100|USD|
+| 資深系統工程師|Contoso US|Hour| 150| USD|
 
 
 當您關閉以 **標準職稱** 為定價維度的設定，而定價引擎搜尋價格時，只會使用輸入內容中的 **組織單位** 值。 如果輸入內容的 **組織單位** 是「Contoso US」，則結果並非決定性，因為這兩個列都會相符。 為了避免這種案例，當您建立 **角色價格** 記錄時，系統會驗證維度組合是否為唯一。 如果維度在建立 **角色價格** 記錄後已關閉，則可能會違反此限制。 因此，關閉維度之前，必須先刪除所有已填入該維度值的 **角色價格** 和 **角色價格加成** 列。

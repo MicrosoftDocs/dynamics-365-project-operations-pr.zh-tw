@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9d54d5fed6e8ec1535ad798073ac8a1eec36e87d1dbba4cc4acd94d8bbdc5157
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 50874d771afe03b08bd95b670f7095bc2d61509d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008081"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599536"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021 年 1 月 - 資源/非庫存型案例適用的 Project Operations 新增功能
 
@@ -22,7 +22,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 此主題適用於下列 Dynamics 365 Project Operations 元件和版本：
 
   - Dataverse 環境的 Project Operations 版本 4.6.0.154
-  - Dynamics 365 Finance 環境 10.0.16 版本的專案管理與會計
+  - Dynamics 365 Finance 環境 10.0.16 版中的專案管理與會計
 
 ## <a name="quality-updates"></a>品質更新
 
@@ -86,7 +86,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 ## <a name="regulatory-updates"></a>法規更新
 
-如需 Finance and Operations 應用程式的法規更新資訊，請參閱[法規更新](/dynamics365/finance/localizations/regulatory-updates)。 您也可以使用問題搜尋工具登入 LCS 並查看計畫的法規更新。 問題搜尋可讓您依國家/地區、功能類型和版本進行搜尋。
+如需有關 財務和營運應用程式的法規更新資訊，請參閱[法規更新](/dynamics365/finance/localizations/regulatory-updates)。 您也可以使用問題搜尋工具登入 LCS 並查看計畫的法規更新。 問題搜尋可讓您依國家/地區、功能類型和版本進行搜尋。
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

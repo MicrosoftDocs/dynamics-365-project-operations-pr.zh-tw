@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
-ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
+ms.openlocfilehash: 1d4c2cce88514e7822515fc407fc7cf31cb34924
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798030"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596270"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>使用 OCR 擷取收據
 
@@ -52,7 +52,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 ## <a name="installation"></a>安裝
 
-若要使用這些進階費用功能，請安裝 Microsoft Dynamics 365 Finance 的費用管理服務增益集，並在您的執行個體中開啟這些功能。 您可以從 Microsoft Dynamics Lifecycle Services (LCS) 的專案中存取增益集。
+若要使用這些進階費用功能，請安裝 Microsoft Dynamics 365 Finance 的費用管理服務增益集，並在執行個體中開啟這些功能。 您可以從 Microsoft Dynamics Lifecycle Services (LCS) 的專案中存取增益集。
 
 1. 登入 LCS，並開啟所需的環境。
 2. 移至 **完整詳細資料**。

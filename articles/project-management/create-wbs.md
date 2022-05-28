@@ -4,14 +4,14 @@ description: 本主題說明如何在新的排程介面中建立包含基本控�
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: cdc1ffdd1f53f65627b511582e52ca27fa53c127
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928605"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597788"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>建立分工結構圖 (WBS)
 
@@ -124,7 +124,7 @@ ms.locfileid: "7928605"
 |----------------------------------------------------|----------------------|
 | 專案的工作總數上限                  | 500                  |
 | 專案的總期間上限               | 3650 天 (10 年) |
-| 專案的資源總數上限              | 150                  |
+| 專案的資源總數上限              | 300                  |
 | 專案的連結總數 (僅限後續任務) 上限 | 600                  |
 | 專案的自訂欄位總數上限          | 10                   |
 | 每個工作的最大檢查清單項目數                   | 20                   |

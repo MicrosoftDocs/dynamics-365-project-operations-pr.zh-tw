@@ -4,14 +4,14 @@ description: 此主題提供如何建立公司間交易的資訊。
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4ce3a45e5a09b7ac5b5663cf9983e3bed7bf7e0d3fedede2e4524c51069a800b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 88e5658c9087fdb19adce1c23bc5cad0ad0fa434
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005471"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599951"
 ---
 # <a name="create-intercompany-transactions"></a>建立公司間交易
 
@@ -30,14 +30,14 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 成本、資源分配單位成本和組織單位間銷售交易定價和貨幣是由 **組織單位** 所驅動。 在決定如何組織實作中的公司和組織單位時，務必要記住這一點。
 
-當您建立商機、報價、專案合約及專案記錄時，系統會驗證該合約單位的貨幣是否符合承包商公司的會計貨幣。 當它們不相同時，就無法建立這些記錄。 您可以移至 **Dataverse** > **設定** > **組織單位**，在 Dynamics 365 Project Operations 中定義組織單位貨幣。 您可以移至 **總帳** > **分類帳設定** > **分類帳**，在 Dynamics 365 Finance 中定義公司的會計貨幣。 使用分類帳雙重寫入對應將貨幣同步處理至您的 Dataverse 環境。
+當您建立商機、報價、專案合約及專案記錄時，系統會驗證該合約單位的貨幣是否符合承包商公司的會計貨幣。 當它們不相同時，就無法建立這些記錄。 您可以移至 **Dataverse** > **設定** > **組織單位**，在 Dynamics 365 Project Operations 中定義組織單位貨幣。 在 Dynamics 365 Finance 中，移至 **總帳** > **分類帳設定** > **分類帳設定**，以定義公司的會計貨幣。 使用分類帳雙重寫入對應將貨幣同步處理至您的 Dataverse 環境。
 
 在下列情形中，系統會建立資源分配單位成本和組織單位間銷售實際值。
 
   - 當資源分配單位與承包單位不同時
   - 當資源供應公司與承包商公司不同時
 
-不過，只有擁有的資源供應公司不同於承包商公司的交易，才會轉移至 Dynamics 365 Finance 環境以進行額外的會計。
+不過，只有資源供應公司與承包公司不同的交易才會轉移至 Dynamics 365 Finance 環境，以進行其他會計處理。
 
 已在財務的 Project Operations 整合帳目中記錄專案實際值的會計。 系統會建立下列帳目明細。
 
@@ -60,7 +60,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
     4. 將貨幣設為 **美元**。
     5. 儲存記錄。
 3. 移至 **銷售** > **專案合約**，並為 Adventure Works 建立新的專案合約。
-    1. 將擁有公司設定為 **USPM**，並將合約單位設定為 **Contoso Robotics US**。
+    1. 將擁有的公司設定為 **USPM**，並將承包單位設定為 **Contoso Robotics US**。
     2. 選取 Adventure Works 做為客戶。
     3. 選取產品價目表並儲存記錄。
     4. 在 **合約服務內容** 索引標籤上，建立新的合約服務內容。 設定任何名稱，並選取 **時間和材料** 做為帳單方式。

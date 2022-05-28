@@ -5,14 +5,14 @@ author: Yowelle
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 14c31f27c0d8871063b3c6689a70f32201958002b50ac4c721c4e26c3359b631
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9550cf8fd594585b70d373ecf9eea1b32285e47f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008801"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594936"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>庫存/生產型案例適用的 Project Operations 2020 年 12 月的新功能或變更
 
@@ -20,7 +20,7 @@ _適用於：庫存/生產型案例適用的 Project Operations_
 
 此主題適用於下列 Dynamics 365 Project Operations 元件和版本：
 
-  - Dynamics 365 Finance 環境 10.0.15 版本的專案管理與會計
+  - Dynamics 365 Finance 環境 10.0.15 版中的專案管理與會計
 
 ## <a name="quality-updates"></a>品質更新
 
@@ -139,7 +139,7 @@ _適用於：庫存/生產型案例適用的 Project Operations_
 
 ## <a name="regulatory-updates"></a>法規更新
 
-如需 Dynamics 365 Finance 的法規更新資訊，請參閱[法規更新](/dynamics365/finance/localizations/regulatory-updates)。 另一個了解法規更新的方式就是，登入 Lifecycle Services (LCS)，並使用問題搜尋工具來檢視已規劃的法規更新。 問題搜尋可讓您依國家/地區、功能類型和版本進行搜尋。
+如需有關 Dynamics 365 Finance 的法規更新資訊，請參閱[法規更新](/dynamics365/finance/localizations/regulatory-updates)。 另一個了解法規更新的方式就是，登入 Lifecycle Services (LCS)，並使用問題搜尋工具來檢視已規劃的法規更新。 問題搜尋可讓您依國家/地區、功能類型和版本進行搜尋。
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

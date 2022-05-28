@@ -4,14 +4,14 @@ description: 本主題提供有關將技能和認證特性新增至資源的資�
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: bf892d791b192005cc72d7fed08f2f22a12c002eb270a0faef6ae476fafafc20
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 836784bf45ba45da35d685e9372b29bb843a7268
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990171"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594246"
 ---
 # <a name="skills-and-certifications"></a>技能和認證
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_

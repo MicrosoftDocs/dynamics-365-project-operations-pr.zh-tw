@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: dadcf3e9fa8432fb66f76b7c2f0fdb98bc00511d93984ea98fa30b4fc03fa426
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db5bb27650d65bb68f45f95cb2562f4b773ddcea
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992691"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597052"
 ---
 # <a name="whats-new-or-changed-in-project-operations-july-2021-for-stockedproduction-based-scenarios"></a>庫存/生產型案例適用的 Project Operations 2021 年 7 月新功能或變更
 
@@ -20,7 +20,7 @@ _**適用於：** 庫存/生產型案例適用的 Project Operations_
 
 此主題適用於下列 Dynamics 365 Project Operations 元件和版本：
 
-- Dynamics 365 Finance 環境 10.0.20 版本的專案管理與會計
+- Dynamics 365 Finance 環境 10.0.20 版中的專案管理與會計
  
 ### <a name="quality-updates"></a>品質更新
                                                                                                                                                                                   
@@ -64,7 +64,7 @@ _**適用於：** 庫存/生產型案例適用的 Project Operations_
 | 差旅和費用                  | [523557](https://fix.lcs.dynamics.com/Issue/Details/?bugId=523557) | 如果找不到工作流程，則 **重設費用單據狀態** 工具應該會將費用報表狀態重設為 **草稿**。 
 
 ### <a name="regulatory-updates"></a>法規更新
-如需 Finance and Operations 應用程式的法規更新資訊，請參閱[法規更新](/dynamics365/finance/localizations/regulatory-updates)。 您也可以使用問題搜尋工具登入 Lifecycle Services (LCS)，並檢視規劃的法規更新。 問題搜尋可讓您依國家/地區、功能類型和版本進行搜尋。
+如需有關 財務和營運應用程式的法規更新資訊，請參閱[法規更新](/dynamics365/finance/localizations/regulatory-updates)。 您也可以使用問題搜尋工具登入 Lifecycle Services (LCS)，並檢視規劃的法規更新。 問題搜尋可讓您依國家/地區、功能類型和版本進行搜尋。
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

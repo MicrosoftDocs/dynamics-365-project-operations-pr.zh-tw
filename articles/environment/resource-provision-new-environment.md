@@ -5,20 +5,20 @@ author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a00426678d23000dc19386792d346318eab74ed9
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928651"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594798"
 ---
 # <a name="provision-a-new-environment"></a>佈建新的環境
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 此主題提供關於如何佈建新的資源/非庫存型案例適用的 Dynamics 365 Project Operations 環境的資訊。
 
@@ -117,7 +117,7 @@ Project Operations 需要應用程式版本為 **10.0.13 (10.0.569.20009)** 或�
 
     ![套用解決方案。](./media/13ApplySolutions.png)
 
-5. 選取兩個解決方案 **Dynamics 365 Finance and Operations 雙重寫入實體對應** 和 **Dynamics 365 Project Operations 雙重寫入實體對應**，然後選取 **套用**。
+5. 選取 **Dynamics 365 Finance and Operations 雙重寫入實體對應** 和 **Dynamics 365 Project Operations 雙重寫入實體對應** 這兩個解決方案，然後選取 **套用**。
 
     ![確認解決方案。](./media/14ConfirmSolutions.png)
 

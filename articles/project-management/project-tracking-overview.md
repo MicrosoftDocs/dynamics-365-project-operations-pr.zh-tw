@@ -2,17 +2,16 @@
 title: 專案投入量追蹤
 description: 本主題提供有關如何追蹤專案投入量和工作進度的資訊。
 author: ruhercul
-ms.date: 03/22/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.date: 02/15/2022
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 0df357eaf662816107fbc1777ebae030c93bd199756e78a1c3d59155dc64d38f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993951"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593786"
 ---
 # <a name="project-effort-tracking"></a>專案投入量追蹤
 
@@ -46,7 +45,8 @@ Project Operations 會顯示對工作的投入量差異預測。 如果 EAC 大�
 - 對下至分葉節點工作的每一項個別工作計算新的 EAC。 
 - 根據 EAC 值，對下至分葉節點的下層受影響工作重新計算其剩餘投入量和進度百分比。 這會產生對工作投入量差異的新預測。 
 - 重新計算從摘要工作一直到根節點的 EAC。
-
+- 摘要工作中已核准的投入量，即為所有下層工作中已核准投入量的總和，加上該摘要工作中的已核准投入量。
+- 摘要工作中剩餘的投入量，即為所有下層工作中剩餘投入量的總和，減去該摘要工作中的已核准投入量。
 
 ## <a name="project-status-summary"></a>專案狀態摘要
 

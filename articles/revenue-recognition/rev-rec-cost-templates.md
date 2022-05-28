@@ -4,14 +4,14 @@ description: 此主題提供如何在 Project Operations 中建立和使用成�
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b3a9f1e4f5ea0abe34dc860db87ef349daa46c487b03d271bfe207868c521f39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9e163dc3180d2b35ddf9b15aa0577bf51e3b72ce
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993546"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594200"
 ---
 # <a name="set-up-cost-templates"></a>設定成本範本
 
@@ -56,7 +56,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 ## <a name="create-cost-templates"></a>建立成本範本
 若要建立成本範本，請執行下列步驟：
 
-1. 若要存取成本範本，請在 Dynamics 365 Finance 環境中移至 **專案管理和會計** > **設定** > **估計值** > **成本範本**。
+1. 若要存取成本範本，請在 Dynamics 365 Finance 環境中，移至 **專案管理與會計** > **設定** > **估計值** > **成本範本**。
 2. 選取 **新增** 以建立新的成本範本。 輸入名稱和描述。
 3. 提供每個交易類型的成本線識別碼。
 4. 選取預設完成方法：

@@ -5,14 +5,14 @@ author: rumant
 ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2050a313fe530065341410d60801b13eb958cb32ae24eb4a0a71ab7ea5061881
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e20ea17691c592493a790fb38451b35db03416be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995616"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600042"
 ---
 # <a name="proforma-invoices"></a>預估發票
 
@@ -82,6 +82,9 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 - 編輯和調整數量與帳單類型。
 
 選取 **確認** 以確認發票。 確認動作是單向動作。 選取 **確認** 時，系統會設定發票為唯讀，並從每個發票明細的每個發票明細詳細資料建立已開單銷售實際值。 如果發票明細詳細資料參照未開單銷售，則系統還會沖回未開單銷售實際值。 (任何從時間或費用項目建立的發票明細詳細資料都會參照未開單銷售實際值)。總帳整合系統可以使用此沖回來反轉專案進行中工作 (WIP) 以作會計用途。
+
+> [!NOTE]
+> 無法編輯或刪除已確認的預估發票及相關記錄 (例如發票明細和發票明細詳細資料)。 
 
 ### <a name="correct-a-confirmed-invoice"></a>更正已確認的發票
 

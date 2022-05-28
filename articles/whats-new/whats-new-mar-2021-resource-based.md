@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b11a57ae152be154fd6a7d330c8520f3b295ce3ef5cc7051ac9b343e3bcdbe12
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a59aa5591dd5f5ed129ce710196eea572e66ea0b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006326"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599444"
 ---
 # <a name="whats-new-march-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021 年 3 月 - 資源/非庫存型案例適用的 Project Operations 新增功能
 
@@ -48,7 +48,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 ## <a name="regulatory-updates"></a>法規更新
 
-如需 Finance and Operations 應用程式的法規更新資訊，請參閱[法規更新](/dynamics365/finance/localizations/regulatory-updates)。 另一個了解法規更新的方式就是，登入 LCS，並使用問題搜尋工具來檢視已規劃的法規更新。 問題搜尋可讓您依國家/地區、功能類型和版本進行搜尋。
+如需有關 財務和營運應用程式的法規更新資訊，請參閱[法規更新](/dynamics365/finance/localizations/regulatory-updates)。 另一個了解法規更新的方式就是，登入 LCS，並使用問題搜尋工具來檢視已規劃的法規更新。 問題搜尋可讓您依國家/地區、功能類型和版本進行搜尋。
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
