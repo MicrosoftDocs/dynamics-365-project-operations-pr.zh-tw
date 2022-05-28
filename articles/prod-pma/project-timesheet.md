@@ -7,8 +7,7 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: df6d286b6d5716fb0ea908ed71c2257b4db21ecfd35148fea65dfd96e058ac9a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cd5ea257472ef8dfa0d7181223a518c677c6d77b
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997191"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683117"
 ---
 # <a name="project-timesheet-mobile-application"></a>專案時程表行動應用程式
 
@@ -29,7 +28,7 @@ ms.locfileid: "6997191"
 
 ## <a name="overview"></a>概觀
 
-Microsoft Dynamics 365 Project Timesheet 行動應用程式 (iPhone 或 Android) 可讓使用者在其行動裝置上提交和核准專案的時程表。 此行動應用程式會顯露位於 Dynamics 365 Finance [專案管理與會計] 區域中的程表功能，並提高使用者生產力與效率，以及適時啟用專案時程表的輸入與核准。
+Microsoft Dynamics 365 Project Timesheet 行動應用程式 (iPhone 或 Android) 可讓使用者在其行動裝置上提交和核准專案的時程表。 此行動應用程式會顯示位於 Dynamics 365 Finance 的 [專案管理與會計] 區域中的時間表功能，並改善使用者生產力和效率，以及讓專案時間表可以適時輸入並獲核准。
 
 ## <a name="download-and-install-the-mobile-app"></a>下載並安裝行動應用程式
 

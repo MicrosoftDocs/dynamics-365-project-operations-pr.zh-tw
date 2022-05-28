@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 23561
 ms.assetid: bfd18d9b-d9a6-4e21-bc95-bf4af45f617f
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b92668c38071e8b1afdee9a79fd4a25190248ada30380bfb79054a6dc587f95
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8cfc5183ce28574d865389eba72cafd3528741cc
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001016"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683482"
 ---
 # <a name="project-contracts"></a>專案合約
 
@@ -45,7 +44,7 @@ ms.locfileid: "7001016"
 -   道路專案由兩個城市共同出資。
 -   橋樑專案由政府補助款與私營公司來資助。
 
-在 Dynamics 365 Finance 中，您可以在多個客戶、補助計劃或組織間，分攤單一交易或整個專案的帳單。 
+在 Dynamics 365 Finance 中，您可以在多個客戶、資助或組織之間分割單一交易或整個專案的帳單。 
 
 在有多個出資者的專案中，所有參與事前籌資專案的出資當事人都會稱為資金來源。 將客戶、組織或補助計劃定義為資金來源後，即可將其指派至一個或多個資金規則。 資金規則包含的準則決定如何將費用配置到專案的各個不同資金來源。 
 

@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: intro-internal
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea2a34ed9e0bf5b28649a53db88976ec56aaf10d1c80af99cb0856250873a2ab
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 38793c4b9fc6cd2c1999661cb2acc587086b0143
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007316"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684862"
 ---
 # <a name="project-resourcing-home-page"></a>專案資源分配首頁
 
@@ -29,7 +28,7 @@ ms.locfileid: "7007316"
 
 本主題提供有關專案資源分配的資訊。
 
-專案規劃階段對專案經理和資源管理員的一項挑戰是資源配置，他們必須在其中判斷和保留要在專案上使用的正確資源。 在 Dynamics 365 Finance 中 ，專案的資源分配功能可讓您定義視為暫時資源 (可保留用作特定業務開發或業務開發的一部分) 的角色。 此類型的資源分配可讓專案經理和資源管理員完成下列工作：
+專案規劃階段對專案經理和資源管理員的一項挑戰是資源配置，他們必須在其中判斷和保留要在專案上使用的正確資源。 在 Dynamics 365 Finance 中，專案的資源分配功能可讓您定義視為暫時資源的角色，這些資料可保留用於特定業務開發或部分業務開發。 此類型的資源分配可讓專案經理和資源管理員完成下列工作：
 
 - 定義具備所需專長的角色，這樣就可以輕鬆地找到適配的資源。
 - 使用角色來定義以保留的資源為基礎的初始業務開發排程。

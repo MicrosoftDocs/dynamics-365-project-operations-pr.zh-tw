@@ -5,8 +5,7 @@ author: rumant
 ms.date: 04/02/2020
 ms.topic: article
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +15,12 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 88706946e5c5c59be996640f4c7b37e958c1cf1d9fd14c72c0c6dc854a77dab4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 107ba01f2fd5717e1717824631aeee099d8a8205
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995391"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683351"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>大量更正由核准時間和費用分錄所建立的實際值
 
@@ -60,10 +59,7 @@ ms.locfileid: "6995391"
 
 10. 在 **實際值相關檢視表** 清單中，您可以看到仍然列出已沖回的原始時間分錄，就像是對應的已更正時間分錄一樣。 
 
-例如，下圖有兩個數量為 8.00 的明細項目，在 [金額] 欄中列出借記。 此外，還有兩項數量為 -8.00 的明細項目，在 [金額] 欄中顯示貸記金額。 這些更正會將數量顯示為零。
 
-![實際值相關檢視表清單。](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/bulk-corrections-actuals-created-by-approved-time-expense-entries.md/time-actuals.png)
- 
 ## <a name="correct-approved-expense-entries"></a>更正核准的費用分錄
 
 完成下列步驟，以更正一個或多個費用分錄。 
@@ -86,8 +82,6 @@ ms.locfileid: "6995391"
 7. 確認更正帳目之後，瀏覽回到您所更新的專案，以檢視您的變更。  
 
 8. 在專案頁面的 **實際值** 索引標籤上，檢閱 **實際值相關檢視表**。 原始分錄和更正分錄會列出。 下圖顯示原始費用分錄金額以及對應的已更正費用分錄金額。 
-
-![費用實際值。](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

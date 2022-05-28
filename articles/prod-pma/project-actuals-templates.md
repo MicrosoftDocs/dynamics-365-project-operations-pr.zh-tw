@@ -1,32 +1,31 @@
 ---
-title: 將專案實際值從 Project Service Automation 直接同步處理至專案整合日記帳，以便在 Finance and Operations 中進行過帳
-description: 本主題說明用於將專案實際值直接從 Microsoft Dynamics 365 Project Service Automation 同步處理至 Finance and Operations 的範本與基礎工作。
+title: 將專案實際值從 Project Service Automation 直接同步處理至要在 Finance and Operations 中進行過帳的專案整合帳目
+description: 本主題說明用來將 Microsoft Dynamics 365 Project Service Automation 中的專案實際值直接同步處理至 Finance and Operations 的範本及基礎工作。
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 12929c324bb3a7c344edc9be2e3a8f4941ff9ea4
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988101"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683528"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>將專案實際值從 Project Service Automation 直接同步處理至專案整合日記帳，以便在 Finance and Operations 中進行過帳
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>將專案實際值從 Project Service Automation 直接同步處理至要在 Finance and Operations 中進行過帳的專案整合帳目
 
 [!include[banner](../includes/banner.md)]
 
-本主題說明用於將專案實際值直接從 Dynamics 365 Project Service Automation 同步處理至 Dynamics 365 Finance 的範本與基礎工作。
+本主題說明用來將 Dynamics 365 Project Service Automation 中的專案實際值直接同步處理至 Dynamics 365 Finance 的範本及基礎工作。
 
 範本會將交易從 Project Service Automation 同步處理至 Finance 中的暫存表格。 完成同步處理後，您 **必須** 將資料從暫存表格匯入至整合日記帳中。
 
@@ -84,9 +83,9 @@ Project Service Automation 至 Finance 整合解決方案會使用資料整合�
 - 如果公司間時間或公司間費用實際值不會同步處理至 Finance，就必須從範本中移除上次插入的條件欄。 否則，可能會發生整合錯誤，或者可能會將不正確的實際值交易匯入至 Finance 中。
 
 #### <a name="contract-organizational-unit"></a>合約組織單位
-若要更新範本中插入的條件欄，請按一下 **對應** 箭頭以開啟對應。 選取 **進階查詢及篩選** 連結，以開啟 Power Query。
+若要更新範本中插入的條件欄，請按一下 **對應** 箭頭以開啟對應。 選取 **進階查詢和篩選** 連結以開啟 Power Query。
 
-- 如果您使用預設「專案實際值 (PSA 至 Fin 和 Ops)」範本，請在 Power Query 中，從 **已套用的步驟** 區段中選取上次 **插入的條件**。 在 **函數** 項目中，將 **USSI** 取代為應與整合搭配使用的法律實體名稱。 視需要將其他條件新增至 **函數** 項目，並將 **否則** 條件從 **USMF** 更新為正確的法律實體。
+- 如果您使用的是預設專案實際值 (PSA 至 Fin and Ops) 範本，請在 Power Query 的 **已套用的步驟** 區段中選取最後一個 **插入的條件**。 在 **函數** 項目中，將 **USSI** 取代為應與整合搭配使用的法律實體名稱。 視需要將其他條件新增至 **函數** 項目，並將 **否則** 條件從 **USMF** 更新為正確的法律實體。
 - 如果要建立新範本，您必須新增該欄才能支援公司間的時間與費用。 選取 **新增條件欄**，並輸入該欄的名稱，例如 **LegalEntity**。 輸入該欄的條件，如果 **msdyn\_contractorganizationalunitid.msdyn\_name** 是 \<organizational unit\>，則為 \<enter the legal entity\>；否則為 Null。
 
 ### <a name="template-mapping-in-data-integration"></a>資料整合中的範本對應

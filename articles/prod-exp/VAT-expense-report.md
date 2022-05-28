@@ -8,18 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: TrvPerDiems
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76706fd8ced58063b05bc8ebe4b25c1dddbf0890e72e9c7194d17ff2937dc8ca
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7ab390e399e0c709cd72219f0a1d85116b33b84e
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986031"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8682976"
 ---
 # <a name="vat-recovery"></a>加值稅退還 
 
@@ -39,25 +38,25 @@ ms.locfileid: "6986031"
 4. 將加值稅退還資料傳送至協力廠商以申請國際退稅返還。
 5. 處理適用於國內加值稅退還的費用。
 
-下列各節提供範例，示範 Contoso 員工完成每個步驟的方式。
+以下各節提供範例，說明 Contoso 員工如何完成每一個步驟。
 
 ## <a name="on-an-expense-report-enter-tax-information-about-credit-card-transactions-to-identify-eligible-vat-refunds"></a>在費用報表上，輸入信用卡交易的稅務資訊，以找出符合條件的加值稅退款
 
-Contoso 駐美國的銷售代表 Nancy 最近從出差到英國的銷售行程歸來。 出差期間，她產生了一些支付餐飲的個人信用卡費用。 林文現在必須建立費用報表來核銷其費用。
+Contoso 的駐美國銷售代表林文，最近從出差到英國銷售的旅程返回。 出差期間，她產生了一些支付餐飲的個人信用卡費用。 林文現在必須建立費用報表來核銷其費用。
 
 林文在其費用報表上輸入資訊時，她會在 **編輯費用報表** 頁面的 **國家/地區** 欄位中選取 **英國**。 然後篩選出銷售課稅群組的清單，讓報表只會顯示套用至英國的群組。 林文選取 **英國 001** 銷售課稅群組，然後選取 **餐費** 項目銷售課稅群組。 她接著新增其住宿的新交易。 因為只有一個銷售課稅群組和一個項目銷售課稅群組適用於英國的住宿費，此資訊會自動填入林文的費用報表。
 
-根據 Contoso 原則，所有費用都必須有相對應的收據。 因此，林文儲存其費用報表時，她會收到訊息，指出她必須為其列於費用報表的每一筆交易附上收據。 林文確定她是否已將每張交易收據的數位影像附加至其費用報表，然後提交報表以供核准。 她接著將紙本收據送交後台處理團隊。 此團隊會將加值稅退還資料傳送給為 Contoso 申報國際加值稅退稅的第三方廠商。
+根據 Contoso 原則，所有費用都必須有相應的收據。 因此，林文儲存其費用報表時，她會收到訊息，指出她必須為其列於費用報表的每一筆交易附上收據。 林文確定她是否已將每張交易收據的數位影像附加至其費用報表，然後提交報表以供核准。 她接著將紙本收據送交後台處理團隊。 此團隊會將加值稅退還資料傳送給協力廠商，以申請 Contoso 的國際加值稅返還。
 
 ## <a name="make-sure-that-all-tax-information-is-complete-and-then-post-the-expense-report"></a>確定所有稅務資訊都已齊全，然後將費用報表過帳
 
-四月份，Contoso 的應付帳款專員必須先輸入費用報表中遺漏的任何稅務資訊，才能將此報表過帳。 她開啟 **費用報表詳細資料** 頁面，並查看林文獲核准的費用報表。 到了 4 月後，再開啟費用報表來檢視交易的詳細資料。 她看到林文的其中一筆交易沒有輸入項目銷售課稅群組。 因為未提供此資訊，4 月無法過帳費用報表。 因此，April l查看 [費用管理] 中的 **稅務設定** 頁面，並尋找國家/地區和交易類型適合的項目銷售課稅群組。 4 月現在可以將費用報表過帳至總帳。
+April (Contoso 的應付帳款會計專員) 必須先輸入費用報表中遺漏的任何稅務資訊，才能將費用報表過帳。 她開啟 **費用報表詳細資料** 頁面，並查看林文獲核准的費用報表。 到了 4 月後，再開啟費用報表來檢視交易的詳細資料。 她看到林文的其中一筆交易沒有輸入項目銷售課稅群組。 因為未提供此資訊，4 月無法過帳費用報表。 因此，April l查看 [費用管理] 中的 **稅務設定** 頁面，並尋找國家/地區和交易類型適合的項目銷售課稅群組。 4 月現在可以將費用報表過帳至總帳。
 
 4 月過帳費用報表時，會建立加值稅退還工作項目。 此工作項目會指派給後台處理團隊的成員。 4 月收到確認過帳成功的訊息。 此訊息也列出已識別可獲得退稅的加值稅交易筆數。
 
 ## <a name="process-expenses-that-are-eligible-for-international-vat-recovery"></a>處理符合國際加值稅退還條件的費用
 
-Contoso 後台系統處理團隊的成員 Arnie 負責確認加值稅退還所需的所有資訊都已包含在費用報表中。 他開啟 **費用稅金退還** 頁面，並選取林文已提交的費用報表。 Arnie 確認是否已附上所有必要的收據，以及是否已輸入正確的銷售課稅群組和項目銷售稅碼。
+Arnie 是 Contoso 的後台處理團隊成員，負責確認所有加值稅退還所需的資訊都已包含在費用報表中。 他開啟 **費用稅金退還** 頁面，並選取林文已提交的費用報表。 Arnie 確認是否已附上所有必要的收據，以及是否已輸入正確的銷售課稅群組和項目銷售稅碼。
 
 Arnie 收到林文的紙本收據時，他會對照數位收據驗證這些紙本收據，然後將費用報表的狀態變更為 **退稅準備就緒**。
 

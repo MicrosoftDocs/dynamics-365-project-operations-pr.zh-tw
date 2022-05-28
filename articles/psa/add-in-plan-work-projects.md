@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c9628fcaf40f33d75f70ae15e37f422e65337d2c51d0d803178f8bcdfe10c7bd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 1b1c9861f2a3fbb62b29ccad272dab28dc766439
+ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993861"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727994"
 ---
 # <a name="plan-your-work-in-microsoft-project-with-the-project-service-add-in"></a>使用 Project Service 增益集在 Microsoft Project 中規劃您的工作
 
@@ -40,7 +41,7 @@ ms.locfileid: "6993861"
 ## <a name="download-and-install-the-add-in"></a>下載並安裝增益集  
  準備好 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 登入資訊。 您需要這項資訊從 [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] 連線至 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]。  
 
-1.  您可以從「下載中心」下載支援的 Project Service 版本 [V2.X](https://go.microsoft.com/fwlink/?linkid=828268) 或 [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956) 的增益集。  
+1.  您可以從「下載中心」下載支援的 Project Service 版本 [V2.X](/dynamics365/project-operations/psa/overview#guidance-for-earlier-versions-app-version-2x-or-1x) 或 [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956) 的增益集。  
 
 2.  選取下載連結。  
 

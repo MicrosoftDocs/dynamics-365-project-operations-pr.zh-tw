@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c6a40335df89cc6b2bb35e54832140aac6eb9ac6
-ms.sourcegitcommit: 03414a74ddf1f2d63043d734ebdee7485f1aadd2
+ms.openlocfilehash: 21a446fdb9526c1a2b110c5368516dafb64b5e01
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7679199"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600778"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021 年 6 月新增功能 - 資源/非庫存型案例適用的 Project Operations
 
@@ -21,7 +21,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 此主題適用於下列 Dynamics 365 Project Operations 元件和版本：
 
 - Dynamics 365 Dataverse 環境版本 4.11.0.156 或 4.11.0.164 上的 Project Operations。
-- Finance and Operations 應用程式環境 10.0.19 版中的專案管理與會計。
+- 財務和營運應用程式環境 10.0.19 版中的專案管理與會計。
 
 ## <a name="features-included-in-this-release"></a>此版本包含的功能
 
@@ -38,7 +38,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 如需 Project Operations 雙重寫入對應的最新清單和版本，請參閱 [Project Operations 雙重寫入對應版本](../environment/resource-dual-write-maps.md)。
 
-更新 Project Operations Dataverse 解決方案和 Finance and Operations 應用程式解決方案版本時，請務必在環境中執行最新版本的對應，並啟用所有相關的資料表對應。 如果未啟用最新版本的對應，特定功能可能無法正確運作。 您可以在 **雙重寫入** 頁面的 **版本** 欄中查看對應的使用中版本。 選取 **資料表對應版本**、選取最新版本，然後儲存選取的版本，以啟用對應的新版本。 如果您已對現成可用的資料表對應進行自訂，請重新套用變更。 如需詳細資訊，請參閱[解決方案生命週期管理](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management)。
+更新 Project Operations Dataverse 解決方案以及財務和營運應用程式解決方案版本時，請務必在您的環境中執行最新版本的對應，並啟用所有相關的資料表對應。 如果未啟用最新版本的對應，特定功能可能無法正確運作。 您可以在 **雙重寫入** 頁面的 **版本** 欄中查看對應的使用中版本。 選取 **資料表對應版本**、選取最新版本，然後儲存選取的版本，以啟用對應的新版本。 如果您已對現成可用的資料表對應進行自訂，請重新套用變更。 如需詳細資訊，請參閱[解決方案生命週期管理](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management)。
 
 如果開始對應時發生問題，請依照《雙重寫入疑難排解指南》的[對應缺少表格欄的問題](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps)一節中指示操作。
 

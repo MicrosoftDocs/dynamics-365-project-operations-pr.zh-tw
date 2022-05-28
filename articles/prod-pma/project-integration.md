@@ -8,26 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d2994195ba916ac7a128e8bdd53bea6acb7bd0ba
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988011"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684954"
 ---
 # <a name="microsoft-project-client-integration"></a>Microsoft Project Client 整合
 
 [!include [banner](../includes/banner.md)]
 
-規劃和維護專案排程可能會很複雜，因此專案經理必須使用可協助他們管理這項工作的工具。 與 Microsoft Project Client 的整合可提供支援來開啟和管理專案分工結構圖。 專案經理可以將任何變更發佈回 Dynamics 365 Finance 專案分工結構圖。
+規劃和維護專案排程可能會很複雜，因此專案經理必須使用可協助他們管理這項工作的工具。 與 Microsoft Project Client 的整合可提供支援來開啟和管理專案分工結構圖。 專案經理可以將任何變更發放回到 Dynamics 365 Finance 專案分工結構圖。
 
 > [!NOTE]
 > 如果您使用的是 7 月更新 (10.0.4 版)，則必須安裝 KB 4054797 和 4055884。
@@ -40,7 +39,7 @@ ms.locfileid: "6988011"
 •   按一下 **開啟**，然後在出現提示時按一下 **執行**。
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>在 Microsoft Project Client 中開啟並編輯現有的草稿分工結構圖
-如果 Dynamics 365 Finance 中的專案已建立分工結構圖，且分工結構圖為草稿狀態，則可以在 Microsoft Project Client 應用程式中開啟該分工結構圖。 若要從 **專案** 頁面中開啟，請按一下 **計劃** 索引標籤中的 **在 Microsoft Project 中開啟** 連結。您也可以按一下 **Microsoft Dynamics 365** 索引標籤中的 **開啟**，從 Microsoft Project Client 應用程式中開啟此頁面。從清單選取 **實體** 和 **專案**。
+如果 Dynamics 365 Finance 中的專案已經建立分工結構圖，要是工分工結構圖處於草稿狀態，則可以在 Microsoft Project Client 應用程式中開啟分工結構圖。 若要從 **專案** 頁面中開啟，請按一下 **計劃** 索引標籤中的 **在 Microsoft Project 中開啟** 連結。您也可以按一下 **Microsoft Dynamics 365** 索引標籤中的 **開啟**，從 Microsoft Project Client 應用程式中開啟此頁面。從清單選取 **實體** 和 **專案**。
 
 > [!NOTE]
 > 如果您使用的瀏覽器是 Internet Explorer，則需要按一下 **儲存**，以手動方式從下載檔案的位置開啟。 或者，按一下 **儲存後開啟**，以在 Microsoft Project Client 中開啟檔案。 不要在儲存時將將檔案名稱重新命名。

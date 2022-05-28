@@ -3,7 +3,7 @@ title: 從 Project Service Automation 升級至 Project Operations
 description: 本主題概述從 Microsoft Dynamics 365 Project Service Automation 升級至 Dynamics 365 Project Operations 的程序。
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 01/05/2022
+ms.date: 01/13/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -15,12 +15,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9363fd5a06b6b1ba023961b03228e13a53a82002
-ms.sourcegitcommit: 5789766efae1e0cb513ea533e4f9ac1e553158a5
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 3f31173197a3055cdc51567261dd91925fc9f430
+ms.sourcegitcommit: bec7382d1319d59645e8e79fdb20df58617c97c6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952833"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8626708"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>從 Project Service Automation 升級至 Project Operations
 
@@ -28,7 +29,7 @@ ms.locfileid: "7952833"
 
 升級傳遞計劃分成三個階段。
 
-| 升級傳遞 | 階段 1 (2022 年 1 月) | 階段 2 (2022 年 4 月浪潮) | 階段 3 (2022 年 4 月浪潮) |
+| 升級傳遞 | 階段 1 (2022 年 1 月) | 階段 2 (2022 年 4 月浪潮) | 階段 3  |
 |------------------|------------------------|---------------------------|---------------------------|
 | 對專案的分工結構圖 (WBS) 沒有相依性 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | 在 Project Operations 目前支援的限制中的 WBS | | :heavy_check_mark: | :heavy_check_mark: |
@@ -38,11 +39,11 @@ ms.locfileid: "7952833"
 
 在升級程序中，已將升級記錄新增至網站地圖，讓系統管理員可以更輕鬆地診斷失敗。 除了新的介面之外，還會加入新的驗證規則，以確保升級後的資料完整性。 下列驗證將會新增至升級程序。
 
-| 驗證 | 階段 1 (2022 年 1 月) | 階段 2 (2022 年 4 月浪潮) | 階段 3 (2022 年 4 月浪潮) |
+| 驗證 | 階段 1 (2022 年 1 月) | 階段 2 (2022 年 4 月浪潮) | 階段 3  |
 |-------------|------------------------|---------------------------|---------------------------|
 | 將會對 WBS 進行一般資料完整性違規方面 (例如，資源指派與相同的上層工作相關聯，卻有不同的上層專案) 的驗證。 | | :heavy_check_mark: | :heavy_check_mark: |
 | 將會對 WBS 進行 [Project for the Web 已知限制](/project-for-the-web/project-for-the-web-limits-and-boundaries)方面的驗證。 | | :heavy_check_mark: | :heavy_check_mark: |
-| 將會對 WBS 進行 Project Desktop Client 已知限制方面的驗證。 | | :heavy_check_mark: | :heavy_check_mark: |
+| 將會對 WBS 進行 Project Desktop Client 已知限制方面的驗證。 | |  | :heavy_check_mark: |
 | 將會對可預約資源和專案行事曆進行一般不相容行事曆規則例外方面的評估。 | | :heavy_check_mark: | :heavy_check_mark: |
 
 在階段 2 中，升級至 Project Operations 的客戶會將其現有專案升級為專案規劃的唯讀體驗。 在此唯讀體驗中，追蹤網格將可顯示完整的 WBS。 若要編輯 WBS，專案經理可以在主要的 **專案** 頁面中選取 **轉換**。 背景程序接著會更新專案，以便支援 Project for the Web 的全新專案排程體驗。 此階段適用於專案在 [Project for the Web 已知限制](/project-for-the-web/project-for-the-web-limits-and-boundaries)範圍內的客戶。
@@ -56,7 +57,7 @@ ms.locfileid: "7952833"
 - 目標環境不得包含 **msdyn_projecttask** 實體中的任何記錄。
 - 必須將有效的 Project Operations 授權指派給所有客戶的使用中使用者。 
 - 客戶必須在至少一個有與生產資料協調一致之代表性資料集的非生產環境中驗證升級程序。
-- 目標環境必須已更新至 Project Service Automation 更新版本 38 或更新的版本。
+- 目標環境必須已更新至 Project Service Automation 更新版本 41 (3.10.62.162) 或更新的版本。
 
 階段 2 和階段 3 的先決條件將會在正式發行日期臨近時進行更新。
 
@@ -72,14 +73,14 @@ ms.locfileid: "7952833"
 
 - 匯入可能會因為遺失相依性而失敗。 換句話說，自訂參考了 Project Operations 中已移除的欄位或其他元件。 在這種情況下，請從開發環境中移除這些相依性。
 - 如果未受管理和受管理的解決方案包含未自訂的元件，請從解決方案移除這些元件。 例如，當您自訂 **專案** 實體時，只將實體標頭新增至解決方案。 請勿新增所有的欄位。 如果您先前已新增所有子元件，則可能必須手動建立新的解決方案，然後在其中新增相關元件。
-- 表單和檢視表可能不會看起來像意想不到的那樣。 在某些情況下，如果您已自訂任何現成可用的表單或檢視表，這些自訂可能會讓 Project Operations 中新的更新無法生效。 若要找出這些問題，建議您對 Project Operations 的全新安裝以及包含自訂的 Project Operations 安裝進行並排檢閱。 比較業務中最常用的表單，以確認您這一版的表單是否仍可發揮作用，以及全新版本的表單中是否遺失了什麼。 對任何您已自訂的檢視表，進行同樣類型的並排檢閱。
+- 表單和檢視表可能無法如預期般顯示。 在某些情況下，如果您已自訂任何現成可用的表單或檢視表，這些自訂可能會讓 Project Operations 中新的更新無法生效。 若要找出這些問題，建議您對 Project Operations 的全新安裝以及包含自訂的 Project Operations 安裝進行並排檢閱。 比較業務中最常用的表單，以確認您這一版的表單是否仍可發揮作用，以及全新版本的表單中是否遺失了什麼。 對任何您已自訂的檢視表，進行同樣類型的並排檢閱。
 - 商務規則可能會在執行階段失敗。 由於匯入時不會對外掛程式中的欄位參考進行驗證，商務規則可能會因為欄位參考已不存在而發生失敗，而您可能會收到類似下列範例的錯誤訊息：「[專案] 實體未包含 Name = 'msdyn_plannedhours' 和 NameMapping = 'Logical' 的屬性」。在這種情況下，請修改您的自訂，讓這些自訂使用新的欄位。 如果您在外掛程式邏輯中使用自動產生的 Proxy 類別和強型別參考，請考慮從全新安裝中重新產生這些 Proxy。 如此一來，您就可以輕鬆找出外掛程式相依於已被取代欄位的所有位置。
 
 將自訂更新為完全匯入 Project Operations 之後，請到下一個步驟繼續執行。
 
-## <a name="end-to-end-testing-in-lower-environments"></a>在較低階環境中進行端對端測試
+## <a name="end-to-end-testing-in-development-environments"></a>在開發環境中進行端對端測試
 
-### <a name="run-the-upgrade-in-production"></a>在生產環境中執行升級
+### <a name="initiate-upgrade"></a>開始進行升級 
 
 1. 在 Power Platform 系統管理中心，尋找並選取您的環境。 然後在應用程式中尋找並選取 **Dynamics 365 Project Operations**。
 2. 選取 **安裝** 以開始升級。 Power Platform 系統管理中心會將此安裝顯示為全新安裝。 不過，將會偵測到舊版 Project Service Automation 的存在，而且會升級現有的安裝。
@@ -93,6 +94,10 @@ ms.locfileid: "7952833"
 4. 移至 **設定** \> **解決方案**，並選擇解除安裝 **Project Operations 已取代元件** 解決方案。
 
     此解決方案是保存升級過程中存在之資料模型和元件的暫時解決方案。 移除此解決方案，就會移除所有不再使用的欄位和元件。 如此一來，就有助於簡化介面，使整合和擴充變得更輕鬆。
+    
+### <a name="validate-common-scenarios"></a>驗證常見案例
+
+驗證您的特定自訂時，建議您還要審查各應用程式支援的商務程序。 這些商務程序包括 (但不限於) 建立銷售實體 (例如報價和合約)，以及建立包含 WBS 和實際值核准的專案。
 
 ## <a name="major-changes-between-project-service-automation-and-project-operations"></a>Project Service Automation 與 Project Operations 之間的主要變更
 

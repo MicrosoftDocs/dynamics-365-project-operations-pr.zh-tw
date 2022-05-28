@@ -7,18 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Operations, Core
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: fa111917ffd3107413846dae67c56fd2495cfc1e1bc7362152138efd7bf3b869
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cad971f3b45faf13dab4cd71ff7439c44b2e7b61
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986076"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685644"
 ---
 # <a name="redesigned-expense-reports"></a>重新設計的費用報表
 
@@ -54,7 +53,7 @@ ms.locfileid: "6986076"
 | 在建立費用過程中新增現有的費用和收據 | 建立費用報表時，您可以新增所有或所選的費用和收據。 |
 | 匯率計算機 | 您可以新增匯率計算機，用來計算現款支付的多重貨幣交易匯率。 |
 | 儲存並新增費用明細 | 輸入新的費用時，可以使用 **儲存** 和 **新增** 按鈕，協助您快速輸入費用明細。 |
-| 更清楚地查看分割和逐條列舉的明細 | 逐條列舉和分割的明細會直接新增至費用清單以增加顯示性，並協助您輕鬆判斷是否發生原則錯誤或其他錯誤。 |
+| 更清楚地查看分割和分項列舉的明細 | 逐條列舉和分割的明細會直接新增至費用清單以增加顯示性，並協助您輕鬆判斷是否發生原則錯誤或其他錯誤。 |
 | 進行逐條列舉時顯示收據 | 進行逐條列舉時可以顯示收據。 |
 
 初次發行版本側重於費用項目案例。 任何費用報表審查或核准案例都會繼續使用現有的費用項目頁面。

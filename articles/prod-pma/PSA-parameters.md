@@ -1,32 +1,31 @@
 ---
 title: Project Service Automation 整合參數
-description: 本主題說明設定如何在整合 Microsoft Dynamics 365 for Project Service Automation 與 Microsoft Dynamics 365 Finance 時輸入預設資料的方法。
+description: 本主題說明如何設定當的 Microsoft Dynamics 365 for Project Service Automation 與 Microsoft Dynamics 365 Finance 進行整合時輸入預設資料的方法。
 author: ruhercul
 ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: b58f34cb74be531a98518100158f39d74f136afc34444468d666cd4e9394af6f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 70dcf44c0948bfb8f17c51e052b6c76e029d35fd
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005831"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683666"
 ---
 # <a name="project-service-automation-integration-parameters"></a>Project Service Automation 整合參數
 
 [!include[banner](../includes/banner.md)]
 
-在 **Project Service Automation 整合參數** 頁面上，您可以設定如何在整合 Dynamics 365 Project Service Automation 與 Dynamics 365 Finance 時輸入預設資料。 若要讓專案成功地從 Project Service Automation 同步處理至 Finance，您必須設定下列欄位。
+在 **Project Service Automation 整合參數** 頁面上，您可以設定如何在 Dynamics 365 Project Service Automation 與 Dynamics 365 Finance 進行整合時，輸入預設資料。 若要讓專案成功地從 Project Service Automation 同步處理至 Finance，您必須設定下列欄位。
 
 若要開啟 **Project Service Automation 整合參數** 頁面，請移至 **專案管理與會計** \> **設定** \> **Dynamics 365 for Project Service Automation 整合參數**。 
 

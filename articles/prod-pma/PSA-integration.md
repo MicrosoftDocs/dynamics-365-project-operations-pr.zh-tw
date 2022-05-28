@@ -1,33 +1,31 @@
 ---
 title: Project Service Automation 概觀
-description: 本主題提供關於 Dynamics 365 Project Service Automation 至 Dynamics 365 Finance 整合解決方案的資訊。
+description: 此主題提供有關 Dynamics 365 Project Service Automation 至 Dynamics 365 Finance 整合解決方案的 資訊。
 author: ruhercul
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: ruhercul
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 551d511fda83857459a0488cfb48a9c7829171d2e4bd526ab27b4ee74b21910d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1b8588e664f140ca1b0dd740d27fe6a5137da595
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005876"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685506"
 ---
 # <a name="project-service-automation-overview"></a>Project Service Automation 概觀
 
 [!include[banner](../includes/banner.md)]
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Project Service Automation 至 Finance 整合解決方案會使用資料整合功能，透過 Common Data Service 跨 Dynamics 365 Finance 與 Dynamics 365 Project Service Automation 的執行個體來同步處理資料。 可與資料整合功能搭配使用的整合範本會啟用從 Project Service Automation 到 Finance 的專案、專案合約、專案合約服務內容、專案合約服務內容里程碑、專案工作、費用交易類別、工時估計及費用估計流程。
+
+Project Service Automation 至 Finance 整合解決方案使用資料整合功能，透過 Common Data Service 在 Dynamics 365 Finance 和 Dynamics 365 Project Service Automation 的執行個體之間同步處理資料。 可與資料整合功能搭配使用的整合範本會啟用從 Project Service Automation 到 Finance 的專案、專案合約、專案合約服務內容、專案合約服務內容里程碑、專案工作、費用交易類別、工時估計及費用估計流程。
 
 > [!NOTE]
 > - 如果您使用的是 7.3.0 版，則必須安裝 KB 4074835。 您可以接著整合固定價格專案。

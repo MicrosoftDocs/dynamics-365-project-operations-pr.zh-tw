@@ -1,34 +1,33 @@
 ---
 title: 將專案合約和專案直接從 Project Service Automation 同步處理至 Finance
-description: 本主題說明用於將專案合約和專案直接從 Microsoft Dynamics 365 Project Service Automation 同步處理至 Dynamics 365 Finance 的範本與基礎工作。
+description: 本主題說明用來將 Microsoft Dynamics 365 Project Service Automation 中的專案合約和專案直接同步處理至 Dynamics 365 Finance 的範本及基礎工作。
 author: Yowelle
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 92ebdd864c59168d6f4a4540c6915d6b0dc8a1fb
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001061"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684632"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>將專案合約和專案直接從 Project Service Automation 同步處理至 Finance 
 
 [!include[banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-本主題說明用於將專案合約和專案直接從 Dynamics 365 Project Service Automation 同步處理至 Dynamics 365 Finance 的範本與基礎工作。
+
+本主題說明用來將 Dynamics 365 Project Service Automation 中的專案合約和專案直接同步處理至 Dynamics 365 Finance 的範本及基礎工作。
 
 > [!NOTE] 
 > 如果您使用的是 Enterprise Edition 7.3.0，則必須安裝 KB 4074835。
@@ -112,9 +111,9 @@ Project Service Automation 中發生中繼資料變更，這會影響專案合�
 - 專案合約和專案的 **SourceDataID** 可以更新為不同的值，或從對應中移除。 預設範本值是 **Project Service Automation**。
 - **PaymentTerms** 對應必須更新，以便在 Finance 中反映有效的付款條件。 您也可以從專案工作移除對應。 預設值對應具有示範資料的預設值。 下表顯示 Project Service Automation 中的值。
 
-    | 值 | 描述   |
+    | 數值 | 名稱   |
     |-------|---------------|
-    | 1     | 30 天內付款        |
+    | 7     | 30 天內付款        |
     | 2     | 10 天內付款折扣 2%，30 天內付款 |
     | 3     | 45 天內付款        |
     | 4     | 60 天內付款        |
@@ -129,7 +128,7 @@ Project Service Automation 中發生中繼資料變更，這會影響專案合�
 如果您必須使用 Power Query，請遵循下列準則：
 
 - 「專案與合約 (PSA 至 Fin 和 Ops)」範本有一個只會包含類型為 **工作項目 (msdyn\_ordertype = 192350001)** 之銷售訂單的預設篩選。 此篩選有助於保證不會為 Finance 中的銷售訂單建立專案合約。 如果您自行建立範本，就必須新增此篩選。
-- 建立只包含合約組織的 Power Query 篩選，這些組織應同步處理至整合關係組的法律實體。 例如，您與 Contoso US 合約組織單位簽訂的專案合約必須同步處理至 USSI 法律實體，但是您與 Contoso Global 之間的專案合約則應同步處理至 USMF 法律實體。 如果您未將此篩選新增至工作對應，則會將所有專案合約都同步處理至針對連接集所定義的法律實體，而不考慮合約組織單位。
+- 建立只包含合約組織的 Power Query 篩選，此合約組織應同步處理至整合連接集的法律實體。 例如，您與合約組織單位 Contoso US 之間的專案合約，必須同步處理至 USSI 法律實體，但是您與合約組織單位 Contoso Global 之後專案合約則應同步處理至 USMF 法律實體。 如果您未將此篩選新增至工作對應，則會將所有專案合約都同步處理至針對連接集所定義的法律實體，而不考慮合約組織單位。
 
 ## <a name="template-mapping-in-data-integration"></a>資料整合中的範本對應
 

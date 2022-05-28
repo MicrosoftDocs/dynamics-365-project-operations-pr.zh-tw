@@ -7,8 +7,7 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 4ff725512aa0bcc87ff4670d6bb072f3bf780786c1f71b332914887f4d4ccf13
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3961d18fcd53381ad43a1d3e598ac61652ba9843
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991206"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685092"
 ---
 # <a name="create-and-apply-vendor-payment-retention-terms"></a>建立和套用供應商付款保留條款
 
@@ -54,9 +53,9 @@ ms.locfileid: "6991206"
 2. 在 **供應商合約** 快速分頁中，選取 **新增明細**。
 3. 在 **客戶代碼** 欄位中，選取下列其中一個選項： 
 
-   - **表格**：供應商付款保留條款適用於單一供應商。
-   - **群組**：供應商付款保留條款適用於供應商群組中的所有供應商。
-   - **全部**：供應商付款保留條款適用於所有供應商。
+   - **表格**：廠商付款留成條款適用於單一廠商。
+   - **群組**：廠商付款留成條款適用於廠商群組中的所有廠商。
+   - **全部**：廠商付款留成條款適用於所有廠商。
 
 4. 在 **供應商/供應商群組** 欄位中，選取套用供應商付款保留條款的供應商或供應商群組。 如果在上一個步驟中選取 **全部**，則此欄位無法使用。
 5. 在 **供應商付款保留條款** 欄位中，選取您在上一個步驟中建立的保留條款。

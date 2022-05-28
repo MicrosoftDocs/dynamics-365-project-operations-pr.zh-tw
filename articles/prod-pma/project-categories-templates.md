@@ -1,32 +1,31 @@
 ---
-title: 同步處理 Finance and Operations 與 Project Service Automation 之間的專案費用類別
-description: 本主題說明用於同步處理 Microsoft Dynamics 365 Finance 與 Dynamics 365 Project Service Automation 之間的專案費用類別的範本和基礎工作。
+title: 在 Finance and Operations 與 Project Service Automation 之間同步處理專案費用類別
+description: 本主題說明用來在 Microsoft Dynamics 365 Finance 與 Dynamics 365 Project Service Automation 之間專同步處理案費用類別的範本及基礎工作。
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c5513285c8beb96e2aa8b9c67ebde38b3c938edd
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001106"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685460"
 ---
-# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>同步處理 Finance and Operations 與 Project Service Automation 之間的專案費用類別
+# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>在 Finance and Operations 與 Project Service Automation 之間同步處理專案費用類別
 
 [!include[banner](../includes/banner.md)]
 
-本主題說明用於同步處理 Dynamics 365 Finance 與 Dynamics 365 Project Service Automation 之間的專案費用類別的範本和基礎工作。
+本主題說明用來在 Dynamics 365 Finance 與 Dynamics 365 Project Service Automation 之間專同步處理案費用類別的範本及基礎工作。
 
 > [!NOTE]
 > - 專案工作整合、費用交易類別、工時估計、費用估計和功能鎖定可在 8.0 版中使用。
@@ -81,10 +80,10 @@ Project Service Automation 與 Finance 整合解決方案會使用資料整合�
 
 ### <a name="power-query"></a>Power Query
 
-同步處理至 Project Service Automation 時，您必須使用 Microsoft Power Query for Excel 來設定交易類別的帳單類型。 「專案費用交易類別 (Fin 和 Ops 至 PSA)」範本會提供預設欄和對應。 如果您自行建立範本，就必須在 Power Query 中新增條件欄。 依照下列步驟執行。
+同步處理至 Project Service Automation 時，您必須使用 Microsoft Power Query for Excel 來設定交易類別中的帳單類型。 「專案費用交易類別 (Fin 和 Ops 至 PSA)」範本會提供預設欄和對應。 如果建立您自己的範本，則必須在 Power Query 中新增條件欄。 依照下列步驟執行。
 
 1. 按一下箭頭以開啟「專案費用交易類別 (Fin 和 Ops 至 PSA)」範本中專案費用類別工作的對應。
-2. 按一下 **進階查詢及篩選** 連結，以開啟 Power Query。
+2. 按一下 **進階查詢和篩選** 連結以開啟 Power Query。
 2. 選取 **新增條件欄**。
 3. 輸入新欄的名稱，例如 **BillingType**。
 4. 輸入下列條件：**如果 CATEGORYID 不等於 Null 則為 19235001，否則為 Null**。

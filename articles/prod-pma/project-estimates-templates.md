@@ -1,32 +1,31 @@
 ---
-title: 將專案估計值直接從 Project Service Automation 同步處理至 Finance and Operations
-description: 本主題說明用於將專案工時估計與專案費用估計直接從 Microsoft Dynamics 365 Project Service Automation 同步處理至 Dynamics 365 Finance 的範本與基礎工作。
+title: 將 Project Service Automation 中的專案估計值直接同步處理至 Finance and Operations
+description: 本主題說明用來將 Microsoft Dynamics 365 Project Service Automation 中的專案工時估計值和專案費用估計值直接同步處理至 Dynamics 365 Finance 的範本及基礎工作。
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 6696449d80e0915a0c878dbe75cfdf6e268b98ad9f6453bcfc4b424db68021e4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 47de3556034227e072d14dc93908edec42cec93c
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988191"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684586"
 ---
-# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>將專案估計值直接從 Project Service Automation 同步處理至 Finance and Operations
+# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>將 Project Service Automation 中的專案估計值直接同步處理至 Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-本主題說明用於將專案工時估計與專案費用估計直接從 Dynamics 365 Project Service Automation 同步處理至 Dynamics 365 Finance 的範本與基礎工作。
+本主題說明用來將 Dynamics 365 Project Service Automation 中的專案工時估計值和專案費用估計值直接同步處理至 Dynamics 365 Finance 的範本及基礎工作。
 
 > [!NOTE]
 > - 專案工作整合、費用交易類別、工時估計、費用估計和功能鎖定可在 8.0 版中使用。
@@ -70,7 +69,7 @@ Project Service Automation 至 Finance 整合解決方案會使用資料整合�
 
 ### <a name="power-query"></a>Power Query
 
-在專案工時估計範本中，您必須使用 Microsoft Power Query for Excel 來完成這些工作：
+在專案工時估計值範本中，您必須使用 Microsoft Power Query for Excel 來完成這些工作：
 
 - 設定整合建立新工時預測時，將使用的預設預測模型識別碼。
 - 在會讓工時預測中整合失敗的工作中，篩除任何資源特定記錄。
@@ -126,7 +125,7 @@ Project Service Automation 至 Finance 整合解決方案會使用資料整合�
 
 ### <a name="power-query"></a>Power Query
 
-在專案費用估計範本中，您必須使用 Power Query 來完成下列工作：
+在專案費用估計值範本中，您必須使用 Power Query 來完成下列工作：
 
 - 篩選成僅包含費用估計明細記錄。
 - 設定整合建立新工時預測時，將使用的預設預測模型識別碼。
@@ -141,7 +140,7 @@ Project Service Automation 至 Finance 整合解決方案會使用資料整合�
 
 若要更新範本中的預設預測模型識別碼，請選取 **費用估計** 工作，然後按一下 **對應** 箭頭以開啟對應。 選取 **進階查詢及篩選** 連結。
 
-- 如果您使用預設「專案費用估計 (PSA 至 Fin 和 Ops)」範本，請在 Power Query 中，從 **已套用的步驟** 區段中選取第一個 **插入的條件**。 在 **函數** 項目中，將 **O\_forecast** 取代為應與整合搭配使用的預測模型識別碼。 預設範本具有示範資料中的預測模型識別碼。
+- 如果您使用的是預設專案費用估計值 (PSA 至 Fin and Ops) 範本，請在 Power Query 的 **已套用的步驟** 區段中選取第一個 **插入的條件**。 在 **函數** 項目中，將 **O\_forecast** 取代為應與整合搭配使用的預測模型識別碼。 預設範本具有示範資料中的預測模型識別碼。
 - 如果您要建立新範本，就必須新增此欄。 在 Power Query 中，選取 **新增條件欄**，並輸入新欄的名稱，例如 **ModelID**。 輸入該欄的條件，如果估計明細識別碼不是 Null，則為 \<enter the forecast model ID\>；否則為 Null。
 
 #### <a name="transform-the-billing-types"></a>轉換帳單類型

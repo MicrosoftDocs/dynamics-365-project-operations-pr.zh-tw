@@ -5,20 +5,20 @@ author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6e0307ad6474feef96fc8080877eccbbbc7259db
-ms.sourcegitcommit: 2d96345fb3afc3b174530285f95271b5ccbdea03
+ms.openlocfilehash: 2aa8fb94e2f9cbf91182f3f169339284d3eb9f44
+ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7563012"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "8612693"
 ---
-# <a name="order-non-stocked-materials-for-a-project-using-project-purchase-orders"></a>使用專案採購單為專案訂購非庫存材料
+# <a name="order-procurement-categories-or-non-stocked-materials-for-a-project-using-project-purchase-orders"></a>使用專案採購單為專案訂購採購類別或非庫存材料
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
-您組織中的採購部門可能會使用[採購單](/dynamics365/supply-chain/procurement/purchase-order-overview)來追蹤商品及服務訂單。 非庫存材料的採購單可劃歸於專案。 開立這些採購單的發票會將成本記錄作專案的帳項。
+您組織中的採購部門可能會使用[採購單](/dynamics365/supply-chain/procurement/purchase-order-overview)來追蹤商品及服務訂單。 採購類別或非庫存材料的採購單可劃歸於專案。 開立這些採購單的發票會將成本記錄作專案的帳項。
 
 ## <a name="prerequisites"></a>先決條件
 完成下列步驟，以啟用專案採購單功能。
@@ -27,6 +27,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 2. 在功能清單中，尋找並選取 **在資源型/非庫存案例適用的 Project Operations 中啟用專案採購單** 功能。
 3. 選取 **啟用**。
 4. 設定非庫存材料和待處理廠商發票，如[設定非庫存材料和待處理廠商發票](configure-materials-nonstocked.md)中所述。
+5. 設定採購類別，如[將採購類別與專案採購單及待處理廠商發票搭配使用](configure-procurement-categories.md)中所述。
 
 ## <a name="create-a-project-purchase-order-from-the-project-purchase-order-list"></a>從專案採購單清單建立專案採購單
 
@@ -34,12 +35,12 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 2. 在動作窗格 **管理** 索引標籤的 **新增** 群組中，選取 **項目工作** > **採購單**。
 3. 在 **建立採購單** 頁面上，選取您要向其下單採購的廠商、輸入適當的資訊，然後選取 **確定**。
 4. 在 **採購單** 頁面的 **採購單明細** 網格中，選取 **新增明細**。
-5. 視情況而定，輸入項目編號、數量、單位、單價及其他資訊。
+5. 視情況而定，輸入項目編號或採購類別、數量、單位、單價以及其他資訊。
 
     > [!NOTE]
-    > 只有非庫存項目和服務才能與專案採購單搭配使用。 不支援庫存項目和採購類別。
+    > 只有採購類別、非庫存項目和服務才能與專案採購單搭配使用。 不支援庫存項目。
 
-6. 視需要繼續新增項目，並確認採購單。
+6. 視需要繼續新增項目或採購類別，並確認採購單。
 
     您可以建立產品收據並將其過帳，以記錄商品及服務收款。
 

@@ -1,24 +1,23 @@
 ---
 title: 費用收據處理
-description: 本主題提供有關使用光學字元辨識 (OCR) 處理收據的資訊。 此功能是專為改善使用者在 Microsoft Dynamics 365 Finance 中建立費用報表時的體驗而設計。
+description: 本主題提供有關使用光學字元辨識 (OCR) 處理收據的資訊。 此功能的設計目的是要改善在 Microsoft Dynamics 365 Finance 中建立費用報表時的使用者體驗。
 author: stsporen
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Operations, Core
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0d43c44bf4f2a58e3249d6cc1028353555cfd836580a802ad6e1878dc9b2e263
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 067432106742447d2b8fa215ec05bf05f4b41e70
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001376"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684310"
 ---
 # <a name="expense-receipt-processing"></a>費用收據處理
 
@@ -51,7 +50,7 @@ ms.locfileid: "7001376"
 
 此功能可與 **顛覆想像的費用報表** 功能搭配用來協助簡化費用體驗。 此功能僅適用於本身是沙箱與生產環境的第 2 層以上環境。
 
-若要使用這些進階費用功能，請安裝 Microsoft Dynamics 365 Finance 的費用管理服務增益集，並在您的執行個體中開啟這些功能。 您可以從 Microsoft Dynamics Lifecycle Services (LCS) 的專案中存取增益集。
+若要使用這些進階費用功能，請安裝 Microsoft Dynamics 365 Finance 的費用管理服務增益集，並在執行個體中開啟這些功能。 您可以從 Microsoft Dynamics Lifecycle Services (LCS) 的專案中存取增益集。
 
 1. 登入 LCS，並開啟所需的環境。
 2. 移至 **完整詳細資料**。

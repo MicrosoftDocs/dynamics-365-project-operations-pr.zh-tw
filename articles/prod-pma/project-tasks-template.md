@@ -1,32 +1,31 @@
 ---
-title: 將專案工作直接從 Project Service Automation 同步處理至 Finance and Operations
-description: 本主題說明用於將專案工作直接從 Microsoft Dynamics 365 Project Service Automation 同步處理至 Dynamics 365 Finance 的範本與基礎工作。
+title: 將 Project Service Automation 中的專案工作直接同步處理至 Finance and Operations
+description: 本主題說明用來將 Microsoft Dynamics 365 Project Service Automation 中的專案工作直接同步處理至 Dynamics 365 Finance 的範本及基礎工作。
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 45846d7a6dd7b84fe28f0a78ccc103679236917ea506180c5b383fd2828624eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 666e0d757969b32f16e08128d9f78a2ffe1e8357
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992781"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683140"
 ---
-# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>將專案工作直接從 Project Service Automation 同步處理至 Finance and Operations
+# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>將 Project Service Automation 中的專案工作直接同步處理至 Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-本主題說明用於將專案工作直接從 Dynamics 365 Project Service Automation 同步處理至 Dynamics 365 Finance 的範本與基礎工作。
+本主題說明用來將 Dynamics 365 Project Service Automation 中的專案工作直接同步處理至 Dynamics 365 Finance 的範本及基礎工作。
 
 > [!NOTE]
 > - 專案工作整合、費用交易類別、工時估計、費用估計和功能鎖定可在 8.0 版中使用。
@@ -68,11 +67,11 @@ Project Service Automation 至 Finance 整合解決方案會使用資料整合�
 
 ## <a name="power-query"></a>Power Query
 
-如果符合此條件，您必須使用 Microsoft Power Query for Excel 來篩選資料：
+如果符合此條件，則必須使用 Microsoft Power Query for Excel 來篩選資料：
 
 - 您在專案工作中具有資源特定記錄。
 
-如果您必須使用 Power Query，請遵循以下準則：
+如果您必須使用 Power Query，請遵循此準則：
 
 - 「專案工作 (PSA 至 Fin 和 Ops)」範本具有預設篩選，此篩選將 **IsLineTask** 的篩選設定為 **False**，從專案工作中排除資源特定記錄 。 如果您自行建立範本，就必須新增此篩選。
 

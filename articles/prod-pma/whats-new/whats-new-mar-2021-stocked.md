@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 2569133200b531197a46da095547fcc3f444cc98bfcc139b77a7db58e1439ca9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0f8d57db75f426d87bcdcdde8fb9dfbe1ccc479f
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991161"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723712"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>庫存/生產型案例適用 Project Operations 2021 年 3 月的新功能或變更
 
@@ -20,7 +20,7 @@ _**適用於：** 庫存/生產型案例適用的 Project Operations_
 
 此主題適用於下列 Dynamics 365 Project Operations 元件和版本：
 
-- Dynamics 365 Finance 環境 10.0.17 版本的專案管理與會計
+- Dynamics 365 Finance 環境 10.0.17 版中的專案管理與會計
 
 ## <a name="features-included-in-this-release"></a>此版本包含的功能
 此版本包含下列功能：
@@ -121,7 +121,7 @@ _**適用於：** 庫存/生產型案例適用的 Project Operations_
 | 專案管理與會計 | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | 舊版分工結構圖 (WBS) 類別方法  **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder** 已被取代。                                                                                                   |
 
 ### <a name="regulatory-updates"></a>法規更新
-如需 Finance and Operations 應用程式的法規更新資訊，請參閱[法規更新](/dynamics365/finance/localizations/regulatory-updates.md)。 您也可以使用問題搜尋工具登入 LCS 並查看計畫的法規更新。 問題搜尋可讓您依國家/地區、功能類型和版本進行搜尋。
+如需有關 財務和營運應用程式的法規更新資訊，請參閱[法規更新](/dynamics365/finance/localizations/regulatory-updates)。 您也可以使用問題搜尋工具登入 LCS 並查看計畫的法規更新。 問題搜尋可讓您依國家/地區、功能類型和版本進行搜尋。
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

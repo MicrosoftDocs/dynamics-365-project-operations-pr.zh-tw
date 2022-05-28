@@ -4,14 +4,14 @@ description: 此主題提供有關資源/非庫存型案例適用的 Project Ope
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b76ebbff1cc2720e699334601d425879f2d20770
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007946"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600364"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>2020 年 11 月 - 資源/非庫存型案例適用的 Project Operations 新增功能
 
@@ -20,7 +20,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 此主題適用於下列 Dynamics 365 Project Operations 元件和版本：
 
 - CDS 環境的 Project Operations 版本 4.4.0.70
-- Dynamics 365 Finance 環境 10.0.14 版本的專案管理與會計
+- Dynamics 365 Finance 環境 10.0.14 版中的專案管理與會計
 
 ## <a name="updates-to-project-operations-for-resource-non-stocked-based-scenarios"></a>更新至資源/非庫存型案例適用的 Project Operations
 
@@ -65,7 +65,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 | 專案會計  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | 啟用功能後，不進行 CDS 整合就無法有多個合約服務內容。                                                                                   |
 
 ### <a name="regulatory-updates"></a>法規更新
-如需 Finance and Operations 應用程式的法規更新資訊，請參閱[法規更新](/dynamics365/finance/localizations/regulatory-updates)。 您也可以使用問題搜尋工具登入 LCS 並查看計畫的法規更新。 問題搜尋可讓您依國家/地區、功能類型和版本進行搜尋。
+如需有關 財務和營運應用程式的法規更新資訊，請參閱[法規更新](/dynamics365/finance/localizations/regulatory-updates)。 您也可以使用問題搜尋工具登入 LCS 並查看計畫的法規更新。 問題搜尋可讓您依國家/地區、功能類型和版本進行搜尋。
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

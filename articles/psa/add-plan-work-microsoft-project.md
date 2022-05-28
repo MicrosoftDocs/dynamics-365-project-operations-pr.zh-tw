@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ccebf1439f49092b23da5b4fc2ebb4fc484de4dd17c870eea9fe37b00fbb3689
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 460b5bb7baabcb804b9745f5fddae9bcc3fc7541
+ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005291"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727948"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>使用 Project Service Automation 增益集在 Microsoft Project 中規劃您的工作
 
@@ -40,7 +41,7 @@ ms.locfileid: "7005291"
 ## <a name="download-and-install-the-add-in"></a>下載並安裝增益集  
  準備好 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 登入資訊。 您需要這項資訊從 [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] 連線至 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]。  
 
-1.  您可以從「下載中心」下載支援的 Project Service 版本 [V2.X](https://go.microsoft.com/fwlink/?linkid=828268) 或 [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956) 的增益集。  
+1.  您可以從「下載中心」下載支援的 Project Service 版本 [V2.X](/dynamics365/project-operations/psa/overview#guidance-for-earlier-versions-app-version-2x-or-1x) 或 [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956) 的增益集。  
 
 2.  按一下下載連結。  
 
@@ -87,9 +88,8 @@ ms.locfileid: "7005291"
 
 專案將匯入到 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]。 定價和團隊產生程序會套用。 在 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 中開啟專案，會看見團隊、專案估計值及分工結構圖已產生。 下表顯示何處可找到結果：
 
-
-|                                                                                          |                                                                                                                                   |
-|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| 專案 | Details |
+| ---- | --- |
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **甘特圖**   | 匯入至 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **分工結構圖** 畫面。 |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **資源工作表** |   匯入至 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **團隊成員** 畫面。   |
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **使用方式**    |    匯入至 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **專案估計值** 畫面。     |

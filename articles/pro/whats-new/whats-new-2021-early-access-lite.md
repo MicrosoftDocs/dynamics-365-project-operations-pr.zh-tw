@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a201e3e4333b8892eea72387222d64e18b74d71b
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323901"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723666"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>2021 年第 2 段浪潮搶先體驗的新增功能 - Project Operations 精簡部署
 
@@ -26,7 +26,7 @@ _適用於：精簡部署 - 交易至開立預估發票_
 
 ## <a name="features-included-in-this-release"></a>此版本包含的功能
 
-[轉包合約管理](../subcontracting/subcontracting_EA_scope.md) - 此功能可讓您進一步了解並控制專案工作的所有層面。 轉包合約管理預覽版包含下列功能：
+[轉包合約管理](/dynamics365/project-operations/pro/subcontracting/managing-subcontracts-overview) - 此功能可讓您進一步了解並控制專案工作的所有層面。 轉包合約管理預覽版包含下列功能：
 
   - 專案經理可以建立廠商的轉包合約。 根據預設，轉包合約使用附加至廠商記錄的價目表。 廠商帳戶的關聯類型為 **廠商** 或 **供應商**。
   - 專案經理可以將所有的購買項目逐條列舉為轉包合約上的服務內容項目。 轉包合約服務內容可以是時間、費用或產品的承攬項目。 轉包合約服務內容的交易分類決定該服務內容的承攬項目。

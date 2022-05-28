@@ -3,25 +3,23 @@ title: 費用管理概觀
 description: 本主題提供有關費用管理的一般資訊，以及其他資源的連結。 您可以使用費用管理來建立整合式工作流程，讓您可以儲存付款方式資訊、匯入信用卡交易，以及追蹤員工在開支業務費用時所花費的資金。
 author: ShylaThompson
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: TrvExpenseWorkspace
 audience: Application User, IT Pro
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: 2d97d69b-9c08-4f0d-9637-68759fd34d34
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b069b5101c0b093bea5ddb7c02d4e0f5fedd09b7ae051dca96f620b164c17fd3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 93a8581db26dfecb9f847740c979e096dc3e227d
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001421"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684816"
 ---
 # <a name="expense-management-overview"></a>費用管理概觀
 
@@ -45,7 +43,7 @@ ms.locfileid: "7001421"
 
 ### <a name="blogs"></a>部落格
 
-您可以在 [Microsoft Dynamics 365 部落格](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)和 [Microsoft Dynamics 365 Finance and Operations - Financials 部落格](https://community.dynamics.com/365/financeandoperations/b/financials)上找到選項、新聞及其他資訊。
+您可以在 [Microsoft Dynamics 365 部落格](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)和 [Microsoft Dynamics 365 Finance and Operations - 財務部落格](https://community.dynamics.com/365/financeandoperations/b/financials)中找到意見、新聞及其他資訊。
 
 [Microsoft Dynamics Operations 合作夥伴社群部落格](https://community.dynamics.com/partner/b/operationspartnercommunityblog)為 Microsoft Dynamics 合作夥伴提供單一資源，他們可以利用此資源來了解 MBS Operations 的最新動態與趨勢。
 

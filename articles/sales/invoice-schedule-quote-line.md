@@ -4,14 +4,14 @@ description: 本主題提供有關為報價明細建立發票排程和里程碑�
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0d07596b299d71b229487faf80a09e368059575ea37095d2c82d35561d009c96
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6b443a353c98fe5c7475d8a95c99abe01cd00987
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988596"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601054"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>專案型報價明細的發票排程
 
