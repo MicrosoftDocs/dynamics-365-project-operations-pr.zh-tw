@@ -15,12 +15,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 91ec6d502a44771e7e03b67cc2be40c527fff355
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002321"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591900"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>將自訂欄位設定為定價維度 
 
@@ -72,11 +73,11 @@ ms.locfileid: "7002321"
 | 角色        | 組織單位    |工作地點      |標準職稱      |資源工作時數      |  加成|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|現場            |                    |加班時間                 |15     |
-|             | Contoso India|區域             |                    |加班時間                 |10     |
-|             | Contoso 美國   |區域             |                    |加班時間                 |20     |
+|             | Contoso India|本機             |                    |加班時間                 |10     |
+|             | Contoso US   |本機             |                    |加班時間                 |20     |
 
 
-如果來自 Contoso India、基準費率為 100 USD 的資源在現場工作，而他們在時間項目上記入了 8 小時正常工時與 2 小時加班工時，此 Project Service 定價引擎將會使用 100 的基準費率乘上 8 小時來記錄 800 美元。 至於 2 小時加班工時，則將 15% 的加成套用至基準費率 100 以取得 115 美元的單價，並記錄 230 美元的總成本。
+如果來自 Contoso India、基準費率為 100 USD 的資源在現場工作，而他們在時間項目上記入了 8 小時正常工時與 2 小時加班工時，此 Project Service pricing 定價引擎將會使用 base rate of 100 的基準費率乘上 8 小時以記錄 800 USD。 至於 2 小時加班工時，則將 15% 的加成套用至基準費率 100 以取得 115 美元的單價，並記錄 230 美元的總成本。
 
 ### <a name="applicable-to-cost"></a>適用於成本 
 如果此選項設定為 **是**，即表示擷取成本及加成費率時，應使用來自輸入內容的維度值，與 **角色價格** 和 **角色價格加成** 進行比對。

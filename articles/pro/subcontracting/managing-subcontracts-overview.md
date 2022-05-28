@@ -3,15 +3,15 @@ title: Project Operations 中的轉包合約管理
 description: 本主題提供專案型組織中端對端轉包合約管理程序的一般概觀。
 author: rumant
 ms.date: 08/02/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 993edfd064279a970d7c42d5fcefd794e949a931
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323586"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593004"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Project Operations 中的轉包合約管理
 
@@ -46,7 +46,7 @@ _**適用於：** 精簡部署 - 交易至開立預估發票_
 
 轉包合約服務內容為 **數量型** 時，時間、費用或材料轉包合約服務內容上要採購的數量可以用於任何專案。
 
-轉包合約服務內容為 **工作型** 時，轉包合約服務內容會對應至專案計劃中節點所代表的工作主體。 轉包合約服務內容的值是交付該工作主體所需一切元件的加總。 這些元件是仿照轉包合約服務內容詳細資料所建立，可以是時間、費用或材料的集合。 對工作型轉包合約服務內容來說，轉包合約服務內容也專供單一專案使用。
+轉包合約服務內容為 **工作型** 時，轉包合約服務內容會對應至專案計劃中節點所代表的工作主體。 轉包合約服務內容的值是交付該工作主體所需一切元件的加總。 這些元件是仿照轉包合約服務內容詳細資料所建立，可以是時間、費用或材料的集合。 對工作型轉包合約服務內容來說，轉包合約服務內容也專供單一專案使用。 Project Operations 目前不支援這些類型的轉包合約。
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

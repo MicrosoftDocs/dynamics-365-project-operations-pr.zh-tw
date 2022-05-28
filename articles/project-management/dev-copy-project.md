@@ -2,76 +2,80 @@
 title: 使用複製專案來開發專案範本
 description: 本主題提供有關如何使用 [複製專案] 自訂動作建立專案範本的資訊。
 author: stsporen
-ms.date: 01/21/2021
+ms.date: 03/10/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: d12301b4e7baabeb0f045f9a11d4695fc026339af3fa7650db7177c495c71e90
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 72aa2db7c717eeab85ada448c673bf702087baeb
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989233"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590888"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>使用複製專案來開發專案範本
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
 Dynamics 365 Project Operations 支援複製專案，並將任何指派回復為代表角色之一般資源的能力。 客戶可以使用此功能來建立基本專案範本。
 
 選取 **複製專案** 時，目標專案的狀態會更新。 使用 **狀態原因** 來判斷複製動作何時完成。 選取 **複製專案** 時，如果在目標專案實體中偵測不到目標日期，也會將專案的開始日期更新為目前的開始日期。
 
-## <a name="copy-project-custom-action"></a>複製專案自訂動作 
+## <a name="copy-project-custom-action"></a>複製專案自訂動作
 
-### <a name="name"></a>名稱 
+### <a name="name"></a>姓名 
 
-**msdyn_CopyProjectV2**
+msdyn\_CopyProjectV3
 
 ### <a name="input-parameters"></a>輸入參數
+
 有三個輸入參數：
 
-| 參數          | 鍵入   | 值                                                   | 
-|--------------------|--------|----------------------------------------------------------|
-| ProjectCopyOption  | String | **{"removeNamedResources":true}** 或 **{"clearTeamsAndAssignments":true}** |
-| SourceProject      | 實體參考 | 來源專案 |
-| 目標             | 實體參考 | 目標專案 |
+- **ReplaceNamedResources** 或 **ClearTeamsAndAssignments** – 僅設定其中一個選項。 不要同時設定兩者。
 
+    - **\{"ReplaceNamedResources":true\}** – Project Operations 的預設行為。 任何具名資源都會取代為一般資源。
+    - **\{"ClearTeamsAndAssignments":true\}** – Project for the Web 的預設行為。 所有指派和團隊成員都會遭移除。
 
-- **{"clearTeamsAndAssignments":true}**：Project 網頁版的預設行為，並將移除所有指派和團隊成員。
-- **{"removeNamedResources":true}**：Project Operations 的預設行為，並將指派還原為一般資源。
+- **SourceProject** – 要從中複製的來源專案的實體參考。 此參數不可為 Null。
+- **Target** – 要複製到的目標專案的實體參考。 此參數不可為 Null。
 
-如需更多有關動作的預設行為，請參閱[使用 Web API 動作](/powerapps/developer/common-data-service/webapi/use-web-api-actions)
+下表提供這三個參數的摘要。
 
-## <a name="specify-fields-to-copy"></a>指定要複製的欄位 
+| 參數                | 類型​             | 數值                 |
+|--------------------------|------------------|-----------------------|
+| ReplaceNamedResources    | 布林值          | **True** 或 **False** |
+| ClearTeamsAndAssignments | 布林值          | **True** 或 **False** |
+| SourceProject            | 實體參考 | 來源專案    |
+| Target                   | 實體參考 | 目標專案    |
+
+如需更多有關動作的預設行為，請參閱[使用 Web API 動作](/powerapps/developer/common-data-service/webapi/use-web-api-actions)。
+
+### <a name="validations"></a>驗證
+
+下列驗證已完成。
+
+1. Null 會檢查並擷取來源和目標專案，以確認這兩個專案都存在於組織中。
+2. 系統會確認下列條件，以驗證目標專案是否適用於進行複製：
+
+    - 先前沒有使用對專案進行的活動 (包括選取 **工作** 索引標籤)，而且專案是新建立的。
+    - 先前沒有任何對此專案要求的複製或匯入，而且專案的狀態並非 **失敗**。
+
+3. 作業不是使用 HTTP 進行呼叫。
+
+## <a name="specify-fields-to-copy"></a>指定要複製的欄位
+
 呼叫動作時，**複製專案** 會查看專案檢視表 **複製專案欄**，以判斷要在複製專案時複製哪些欄位。
 
-
 ### <a name="example"></a>範例
-下列範例顯示如何使用已設定的 **removeNamedResources** 參數來呼叫 **CopyProject** 自訂動作。
+
+下列範例顯示如何設定 **removeNamedResources** 參數以呼叫 **CopyProjectV3** 自訂動作。
+
 ```C#
 {
     using System;
     using System.Runtime.Serialization;
     using Microsoft.Xrm.Sdk;
     using Newtonsoft.Json;
-
-    [DataContract]
-    public class ProjectCopyOption
-    {
-        /// <summary>
-        /// Clear teams and assignments.
-        /// </summary>
-        [DataMember(Name = "clearTeamsAndAssignments")]
-        public bool ClearTeamsAndAssignments { get; set; }
-
-        /// <summary>
-        /// Replace named resource with generic resource.
-        /// </summary>
-        [DataMember(Name = "removeNamedResources")]
-        public bool ReplaceNamedResources { get; set; }
-    }
 
     public class CopyProjectSample
     {
@@ -89,27 +93,32 @@ Dynamics 365 Project Operations 支援複製專案，並將任何指派回復為
             var sourceProject = new Entity("msdyn_project", sourceProjectId);
 
             Entity targetProject = new Entity("msdyn_project");
-            targetProject["msdyn_subject"] = "Example Project";
+            targetProject["msdyn_subject"] = "Example Project - Copy";
             targetProject.Id = organizationService.Create(targetProject);
 
-            ProjectCopyOption copyOption = new ProjectCopyOption();
-            copyOption.ReplaceNamedResources = true;
-
-            CallCopyProjectAPI(sourceProject.ToEntityReference(), targetProject.ToEntityReference(), copyOption);
+            CallCopyProjectAPI(sourceProject.ToEntityReference(), targetProject.ToEntityReference(), copyOption, true, false);
             Console.WriteLine("Done ...");
         }
 
-        private void CallCopyProjectAPI(EntityReference sourceProject, EntityReference TargetProject, ProjectCopyOption projectCopyOption)
+        private void CallCopyProjectAPI(EntityReference sourceProject, EntityReference TargetProject, bool replaceNamedResources = true, bool clearTeamsAndAssignments = false)
         {
-            OrganizationRequest req = new OrganizationRequest("msdyn_CopyProjectV2");
+            OrganizationRequest req = new OrganizationRequest("msdyn_CopyProjectV3");
             req["SourceProject"] = sourceProject;
             req["Target"] = TargetProject;
-            req["ProjectCopyOption"] = JsonConvert.SerializeObject(projectCopyOption);
+
+            if (replaceNamedResources)
+            {
+                req["ReplaceNamedResources"] = true;
+            }
+            else
+            {
+                req["ClearTeamsAndAssignments"] = true;
+            }
+
             OrganizationResponse response = organizationService.Execute(req);
         }
     }
 }
 ```
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

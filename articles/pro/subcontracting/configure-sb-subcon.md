@@ -4,14 +4,14 @@ description: 本主題說明如何在 Microsoft Dynamics 365 Project Operations 
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article
-ms.reviewer: tonyafehr
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d645dee741a45dcb0219e4e4f58a329b7b873e10
-ms.sourcegitcommit: 04dc8d952e6da3ab3eb2a20131c6f7cee6040876
+ms.openlocfilehash: 6e382b33fafe91c8b96a91d033fe12b998114bdc
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903352"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587807"
 ---
 # <a name="configure-schedule-board-to-show-contract-workers-and-subcontracted-capacity"></a>設定排程面板，以顯示合約工作者和已轉包產能 
 

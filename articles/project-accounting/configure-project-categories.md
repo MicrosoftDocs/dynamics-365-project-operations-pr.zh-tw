@@ -4,14 +4,14 @@ description: 本主題提供有關設定專案類別的資訊。
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: cea43422469adf12f336f7686814a8199717090c18804d3d0a7509452349566e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 94b66feef4164f3cd52d5fe917071647f731b047
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997101"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591532"
 ---
 # <a name="configure-project-categories"></a>設定專案類別
 
@@ -27,7 +27,7 @@ Project Operations 提供可在專案中分類營收及費用的強大功能。 
 
 ## <a name="transaction-categories"></a>交易類別
 
-交易類別代表專案交易的基本群組，並非特定公司或交易類型的專屬類別。 例如，Contoso Robotics 使用 [設計]、[差旅]、[安裝] 和 [服務] 交易類別，將專案交易分成群組。
+交易類別代表專案交易的基本群組，並非特定公司或交易類型的專屬類別。 例如，Contoso Robotics 會使用設計、差旅、安裝及服務交易類別，將專案交易分為群組。
 
 交易類別是在 Project Operations 模組中定義。 
 1. 移至 **設定**\>**交易類別** 以開啟表單。 
@@ -35,7 +35,7 @@ Project Operations 提供可在專案中分類營收及費用的強大功能。 
 
 ## <a name="shared-categories"></a>共用類別
 
-Dynamics 365 使用共用類別概念，以不同的應用程式 (例如 Dynamics 365 Finance、Dynamics 365 Supply Chain 和 Dynamics 365 Project Operations) 將費用分類。 對於建立的每個交易類別，Project Operations 都會自動建立四個相關的共用類別：時數、費用、服務費和項目。 您可以移至 **專案管理與會計**\>**設定**\>**類別**\>**共用類別**，檢閱並協調共用類別。
+Dynamics 365 使用共用類別概念來分類不同應用程式 (例如 Dynamics 365 Finance、Dynamics 365 Supply Chain 和 Dynamics 365 Project Operations) 中的費用。 對於建立的每個交易類別，Project Operations 都會自動建立四個相關的共用類別：時數、費用、服務費和項目。 您可以移至 **專案管理與會計**\>**設定**\>**類別**\>**共用類別**，檢閱並協調共用類別。
 
 ## <a name="project-categories"></a>專案類別
 

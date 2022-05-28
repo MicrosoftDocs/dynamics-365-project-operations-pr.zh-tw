@@ -4,14 +4,14 @@ description: 此主題提供設定專案的公司間開立發票的資訊與範�
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 09bbd1bf640cc86b16afb8c2b824329b92f833df836e9313491d57a2f1646440
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ad6022670048e5aa3635998852b78c49af461d4e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994041"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591578"
 ---
 # <a name="configure-intercompany-invoicing"></a>設定公司間開立發票
 
@@ -21,7 +21,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 ## <a name="example-configure-intercompany-invoicing"></a>範例：設定公司間開立發票
 
-在下列範例中，Contoso Robotics USA (USPM) 是借方法律實體，而 Contoso Robotics UK (GBPM) 是貸方法律實體。 
+在下列範例中，Contoso Robotics USA (USPM) 是借方法律實體，Contoso Robotics UK (GBPM) 是貸方法律實體。 
 
 1. **設定法律實體之間的公司間會計**。 必須在總帳[公司間會計](/dynamics365/finance/general-ledger/intercompany-accounting-setup)頁面中設定每一對借方和貸方法律實體。
     
@@ -80,14 +80,14 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 5. **設定人力的轉移定價**。 在 Dataverse 的 Project Operations 中設定公司間轉移定價。 設定公司間開立發票的[人力成本費率](../pricing-costing/set-up-labor-cost-rate.md#transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity)和[人力帳單費率](../pricing-costing/set-up-labor-bill-rate.md#transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions)。 公司間費用交易不支援轉移定價。 組織間的單位銷售價格永遠會設定成與資源分配單位成本價相同的值。
 
-      Contoso Robotics UK 中的開發人員資源成本為每小時 88 英鎊。 Contoso Robotics UK 將會向 Contoso Robotics USA 收取此資源在美國專案上工作的費用，每小時 120 美元。 Contoso Robotics USA 會向客戶 Adventure Works 收取 Contoso Robotics UK 開發人員資源所完成工作的費用 200 美元。
+      Contoso Robotics UK 中的開發人員資源成本為每小時 88 GBP。 Contoso Robotics UK 將為此資源在美國專案上的工作向 Contoso Robotics USA 收取每小時 120 美元。 Contoso Robotics USA 將針對 Contoso Robotics UK 開發人員資源完成的工作，向客戶 Adventure Works 收取 200 美元。
 
-      1. 在 Dataverse 上的 Project Operations 中，移至 **銷售** > **價目表**。 建立新的成本價目表，稱為 **Contoso  Robotics UK 成本費率**。 
+      1. 在 Dataverse 上的 Project Operations 中，移至 **銷售** > **價目表**。 建立稱為 **Contoso Robotics UK 成本費率** 的新成本價目表。 
       2. 在成本價目表中，使用下列資訊建立記錄：
          - **角色** = **開發人員**
          - **成本** = **88 英鎊**
       3. 移至 **設定** > **組織單位**，並將此成本價目表附加至 **Contoso Robotics UK** 組織單位。
-      4. 移至 **銷售** > **價目表**。 建立成本價目表，稱為 **Contoso  Robotics USA 成本費率**。 
+      4. 移至 **銷售** > **價目表**。 建立稱為 **Contoso Robotics USA 成本費率** 的成本價目表。 
       5. 在成本價目表中，使用下列資訊建立記錄：
           - **角色** = **開發人員**
           - **資源供應公司** = **Contoso Robotics UK**

@@ -4,14 +4,14 @@ description: 本主題說明如何手動部署 Project Operations Dataverse 應�
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 06325a9a9f9084d1f506f2493c32565fe7b7c52ae6fe22c81339b9c1d632e688
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986436"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591210"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>手動部署支援雙重寫入的 Project Operations Dataverse 應用程式
 
@@ -37,7 +37,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 3. 選取環境類型。 如果您已註冊試用版方案，請選取 **試用 (以訂閱為準)**。
 4. 確認部署區域。
 5. 啟用 **建立此環境的資料庫** 選項。 
-6. 確認語言，然後確認貨幣符合 Finance and Operations 應用程式的貨幣。
+6. 確認語言，然後確認貨幣與財務和營運應用程式的貨幣相符。
 7. 啟用 **Dynamics 365 應用程式** 選項，並確認 **自動部署這些應用程式** 欄位已設定為 **無**。
 8. 如果需要安全性群組，請新增安全性群組。
 9. 選取 **儲存** 以建立環境。
@@ -62,4 +62,4 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 ## <a name="link-your-environments"></a><a name="link"></a>連結您的環境
 
-部署 Dataverse 環境後，您可以在 Finance and Operations 應用程式中設定連結。 請依照[使用雙重寫入精靈來連結您的環境](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment)中的步驟操作。
+部署 Dataverse 環境之後，您可以在財務和營運應用程式中設定連結。 請依照[使用雙重寫入精靈來連結您的環境](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment)中的步驟操作。

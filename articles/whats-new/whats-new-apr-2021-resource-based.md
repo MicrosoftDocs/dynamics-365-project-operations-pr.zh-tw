@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dbce86e88f8315ac4a4957c1128b5619d5328bdbbe27793e161f8f2691899481
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 07622ed798fd8d70e0ce5cc42297bd5056402474
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008126"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589094"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021 年 4 月新增功能 - 資源/非庫存型案例適用的 Project Operations
 
@@ -21,7 +21,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 此主題適用於下列 Dynamics 365 Project Operations 元件和版本：
 
 - Dataverse 環境的 Project Operations 版本 4.9.0.221
-- Dynamics 365 Finance 環境 10.0.17 版本的專案管理與會計
+- Dynamics 365 Finance 環境 10.0.17 版中的專案管理與會計
 
 ## <a name="features-included-in-this-release"></a>此版本包含的功能
 
@@ -42,13 +42,13 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 | **實體對應** | **更新的版本** | **註解** |
 | --- | --- | --- |
 | Project Operations 整合實際值 (msdyn\_actuals) | 1.0.0.14 | 修改對應以同步處理材料專案實際值。 |
-| 費用估計值的 Project Operations 整合實體 (msdyn\_estimateslines) | 1.0.0.2 | 將專案合約服務內容同步新增至 Finance and Operations 應用程式，以便提供工作型帳務支援。 |
-| 時數估計值的 Project Operations 整合實體 (msdyn\_resourceassignments) | 1.0.0.5 | 將專案合約服務內容同步新增至 Finance and Operations 應用程式，以便提供工作型帳務支援。 |
-| Project Operations 材料估計值整合資料表 (msdyn\_estimatelines) | 1.0.0.0 | 新增資料表對應以將材料估計值從 Dataverse 同步處理至 Finance and Operations 應用程式。 |
-| Project Operations 整合專案廠商發票匯出實體 (msdyn\_projectvendorinvoices) | 1.0.0.0 | 新增資料表對應以將廠商發票標題從 Finance and Operations 應用程式同步處理至 Dataverse。 |
-| Project Operations 整合專案廠商發票明細匯出實體 (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | 新增資料表對應以將廠商發票明細從 Finance and Operations 應用程式同步處理至 Dataverse。 |
+| 費用估計值的 Project Operations 整合實體 (msdyn\_estimateslines) | 1.0.0.2 | 新增專案合約服務內容同步至財務和營運應用程式，以提供工作型帳單支援。 |
+| 時數估計值的 Project Operations 整合實體 (msdyn\_resourceassignments) | 1.0.0.5 | 新增專案合約服務內容同步至財務和營運應用程式，以提供工作型帳單支援。 |
+| Project Operations 材料估計值整合資料表 (msdyn\_estimatelines) | 1.0.0.0 | 新增資料表對應，以便將 Dataverse 中的材料估計值同步處理至財務和營運應用程式。 |
+| Project Operations 整合專案廠商發票匯出實體 (msdyn\_projectvendorinvoices) | 1.0.0.0 | 新增資料表對應，以便將財務和營運應用程式中的廠商發票標題同步處理至 Dataverse。 |
+| Project Operations 整合專案廠商發票明細匯出實體 (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | 新增資料表對應，以便將財務和營運應用程式中的廠商發票明細同步處理至 Dataverse。 |
 
-更新 Project Operations Dataverse 解決方案和 Finance and Operations 解決方案版本時，一律都要在環境中執行最新版本的對應，並啟用所有相關的資料表對應。 如果未啟用最新版本的對應，特定功能可能無法正確運作。 您可以在 **雙重寫入** 頁面的 **版本** 欄中查看對應的使用中版本。 您可以選取 **資料表對應版本**、選取最新版本，然後儲存選取的版本來啟用新的對應版本。 如果您已對現成可用的資料表對應進行自訂，請重新套用變更。 如需詳細資訊，請參閱[解決方案生命週期管理](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management)。
+更新 Project Operations Dataverse 解決方案以及 Finance and Operations 解決方案版本時，請務必在您的環境中執行最新版本的對應，並啟用所有相關的資料表對應。 如果未啟用最新版本的對應，特定功能可能無法正確運作。 您可以在 **雙重寫入** 頁面的 **版本** 欄中查看對應的使用中版本。 您可以選取 **資料表對應版本**、選取最新版本，然後儲存選取的版本來啟用新的對應版本。 如果您已對現成可用的資料表對應進行自訂，請重新套用變更。 如需詳細資訊，請參閱[解決方案生命週期管理](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management)。
 
 如果啟動對應時發生問題，請依照[對應上發生的遺失資料表欄問題](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps)雙重寫入疑難排解指南一節中的指示操作。
 

@@ -4,14 +4,14 @@ description: 本主題提供有關如何使用 [交易類別] 欄位做為定價
 author: rumant
 ms.date: 11/05/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ab8093aca9a33bbbaef41c6fc7d33cad930bfadd13b0f7587c3de9032ac0d630
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a7fe9bfc87db992252f8ef3f0f688e7426cafebb
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996111"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591118"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>使用交易類別做為定價維度
 

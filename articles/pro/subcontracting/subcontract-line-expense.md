@@ -4,14 +4,14 @@ description: 本主題說明如何記錄費用轉包合約服務內容，並使�
 author: rumant
 ms.date: 08/06/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0c32bf2ac54de98a921d338e436ecd089e68a759
-ms.sourcegitcommit: cd4e81f129681a12f2efe63ec2bb14e611cf88ba
+ms.openlocfilehash: 9eba8b70aeb98389515ee679e4bfb1426736ee2c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "7506089"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591670"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>費用類別的轉包合約服務內容
 
@@ -31,7 +31,7 @@ Dynamics 365 Project Operations 中的轉包合約可以有費用類別的服務
 
 | **欄位** | **描述** | **功能影響** |
 | --- | --- | --- |
-| 名稱 | 可協助進行識別的轉包合約服務內容名稱。 | 這會在所有根據轉包合約服務內容進行的查詢中顯示為第一欄。 |
+| 名字 | 可協助進行識別的轉包合約服務內容名稱。 | 這會在所有根據轉包合約服務內容進行的查詢中顯示為第一欄。 |
 | 描述 | 要依據轉包合約服務內容採購之費用類別的簡要描述。 | 無​​ |
 |行類型 | 此欄位的預設值為 **數量型**。 |無​​ |
 | 計費方式 | 這是表示兩種由 Project Operations 所支援之主要合約模型的選項組：**固定價格** 以及 **時間和材料**。 | 如果選取固定價格計費方式，則為轉包合約服務內容提供里程碑型發票排程。 |

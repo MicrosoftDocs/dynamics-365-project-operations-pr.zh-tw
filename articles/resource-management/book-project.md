@@ -2,16 +2,16 @@
 title: 預約給專案
 description: 本主題提供有關預約資源給專案的資訊。
 author: ruhercul
-ms.date: 10/01/2020
+ms.date: 01/24/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 719892a37f381fc0ad6c3ccaca5c4d87c9947a4d7a39dca96aef464d04a71af0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b47ae8cb38be6d29804aec8b069e6a8aec0ffb70
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994896"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591350"
 ---
 # <a name="book-to-a-project"></a>預約給專案
 
@@ -52,7 +52,10 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
     - 完成日期
     - 預約狀態
     - 預約方式
-    - 持續時間
+    - Duration
+   
+   > [!NOTE]
+   > Dynamics 365 Project Operations 目前不支援排程面板。   
 
 ## <a name="book-from-the-project-form"></a>從專案表單中預約
 

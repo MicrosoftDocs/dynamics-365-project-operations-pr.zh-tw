@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 896f19746bde1ba6cf2acd6d558137f4271a5cd99424043053eefe128d3b4250
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 24e13642ac1fb9e90daab6d8aa9b16ed9c2defbf
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996786"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587346"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>使用分工結構圖排程專案 (Project Service)
 
@@ -63,7 +64,7 @@ ms.locfileid: "6996786"
 ## <a name="task-types"></a>工作類型  
 在建立分工結構圖時，您將使用下列類型的工作：  
 
-| | | 
+| 工作 | 名稱 | 
 |---------------------------------------|-----------------------------------------------------------------| 
 | **專案根節點** | 專案的最上層摘要工作。 所有其他專案工作都會在它底下建立。 根工作的名稱是專案名稱。 根節點的投入程度、日期和期間是根據其底下階層的值而定。 您無法編輯根節點屬性或刪除根節點。 | 
 | **摘要或容器工作** | 摘要工作是底下擁有子工作的工作。 摘要工作沒有自己的工作量或成本。 其工作量與成本是其子工作的彙總。 您可以變更摘要工作的名稱，但是無法變更投入程度、日期或期間，因為這些是自動計算出。 刪除摘要工作也會刪除工作和所有其子工作。|  

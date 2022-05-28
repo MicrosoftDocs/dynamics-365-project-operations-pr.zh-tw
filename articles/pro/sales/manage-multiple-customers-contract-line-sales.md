@@ -4,14 +4,14 @@ description: 本主題提供有關管理專案型合約服務內容上的多個�
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a7e29b1a92a5fefcf4812931383d03e5f81a27001f0e6525bb4eeb8dc93b18b9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 565ae4d2c639b3933c0a05c04f27367ef16fece7
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001781"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593096"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines---lite"></a>管理專案型合約服務內容上的多個客戶 - 精簡
 

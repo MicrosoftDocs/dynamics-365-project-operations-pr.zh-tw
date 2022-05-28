@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 538a2694591f1d0d368ee0ffeed9bdf12cb47420c3d0571f75185fe433f23436
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986481"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591165"
 ---
 # <a name="vendor-invoice-integration"></a>廠商發票整合
 
@@ -34,7 +34,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
      > [!NOTE]
      > Dataverse 中的廠商發票詳細資料不可編輯。
 
-系統會在過帳廠商發票時，視實際情況在 Dynamics 365 Finance 中記錄稅金子分類帳、廠商子分類帳及其他財務過帳。
+過帳廠商發票時，視實際情況在 Dynamics 365 Finance 中記錄稅務明細分類帳、廠商明細分類帳以及其他財務過帳。
 
 ![廠商發票整合。](media/DW7VendorInvoice.png)
 

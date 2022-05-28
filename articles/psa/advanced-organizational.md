@@ -1,5 +1,5 @@
 ---
-title: 組織單位
+title: 進階組織單位
 description: 本主題提供有關 Dynamics 365 Project Service Automation 中組織單位的資訊。
 author: rumant
 ms.custom:
@@ -16,14 +16,15 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 80208be7be56d0b09354c45cd2afd96958daf985
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005066"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589416"
 ---
-# <a name="organizational-units"></a>組織單位 
+# <a name="about-organizational-units"></a>關於組織單位 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
@@ -96,7 +97,7 @@ Contoso, Ltd. 有業績興旺的 Microsoft 技術業務營運。 允章和美玲
 
 Contoso, Ltd. 有兩個開發中心：Contoso US 和 Contoso India。 這兩個開發中心之間的資源成本大幅不同。
 
-Contoso 在許多國際市場 (例如拉丁美洲、北美洲、亞太地區、西歐和中東) 上銷售其 IT 服務。 相同專案角色的帳單費率在這些不同市場上可能會有很大變化。
+Contoso 在許多國際市場上銷售其 IT 服務，例如拉丁美洲、北美洲、亞太地區、西歐和中東。 相同專案角色的帳單費率在這些不同市場上可能會有很大變化。
 
 您應將 Contoso US 和 Contoso India 設定為組織單位，而且每個組織單位都必須有其本身的成本價目表。 亞太地區、拉丁美洲、北美洲、西歐和中東地區應設定為銷售領域，而且每個銷售領域都必須有其本身的銷售價目表。
 
@@ -122,24 +123,24 @@ Contoso 在許多國際市場 (例如拉丁美洲、北美洲、亞太地區、�
 當您有階層複雜的成本中心、部門、帳務辦公室及其他時，請將該階層的分葉節點設定為不同的組織單位。
 下列範例顯示一般的階層：
 
-**Contoso印度**
+**Contoso India**
 
   - SAP 業務營運 
 
     - 技術顧問 
-    - 功能顧問 
+    - 職能顧問 
     
   - Microsoft 技術業務營運 
 
     - 技術顧問
-    - 功能顧問 
+    - 職能顧問 
     
 **Contoso US**
 
  - SAP 業務營運 
 
     - 技術顧問 
-    - 功能顧問 
+    - 職能顧問 
     
  - Microsoft 技術業務營運 
 
@@ -148,13 +149,13 @@ Contoso 在許多國際市場 (例如拉丁美洲、北美洲、亞太地區、�
  
 如果您的階層也類似，您必須將其設定為一般清單，如下所示：
 - Contoso India - SAP 業務營運 - 技術顧問 
-- Contoso India - SAP 業務營運 - 功能顧問       
-- Contoso India - Microsoft 技術業務營運 - 功能顧問 
-- Contoso India - Microsoft 技術業務營運 - 功能顧問 
+- Contoso India - SAP 業務營運 - 職能顧問       
+- Contoso India - Microsoft 技術業務營運 - 職能顧問 
+- Contoso India - Microsoft 技術業務營運 - 職能顧問 
 - Contoso US - SAP 業務營運 - 技術顧問  
-- Contoso US - SAP 業務營運 - 功能顧問  
+- Contoso US - SAP 業務營運 - 職能顧問  
 - Contoso US - Microsoft 技術業務營運 - 技術顧問 
-- Contoso US - Microsoft 技術業務營運 - 功能顧問
+- Contoso US - Microsoft 技術業務營運 - 職能顧問
 
 ### <a name="were-a-small-professional-services-company-that-operates-as-only-one-division-how-can-we-best-use-the-organizational-unit-concept-in-the-current-version-of-psa"></a>我們是一家只以一個部門來營運的小型專業服務公司。 如何妥善運用最新 PSA 版本中的組織單位概念？
 
