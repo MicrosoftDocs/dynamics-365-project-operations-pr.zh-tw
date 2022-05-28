@@ -3,16 +3,15 @@ title: 發票開立程序概觀
 description: 本主題提供在資源/非庫存型案例適用的 Project Operations 中開立發票的程序概觀。
 author: sigitac
 ms.date: 01/29/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: 804d42f7e8bfd103b9143dc0f5c7ddecdee9e66e6072c3e7bf76b2a8c549cf55
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0328d5321909bcc17754da4e19d7652b77a665d5
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003761"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582700"
 ---
 # <a name="invoicing-process-overview"></a>發票開立程序概觀
 
@@ -22,7 +21,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 ![發票開立流程圖。](./media/invoicing-flow.png)
 
-專案合約服務內容會定義相關聯專案交易的帳務方式。 當專案經理核准時間和費用交易時，系統會在 **專案實際值** 實體中記錄這些交易，並將資訊傳送至 Dynamics 365 Finance 中的 **專案管理與會計** 模組。 專案會計師接著使用 [Project Operations 整合帳目](../project-accounting/project-operations-integration-journal.md)對這些記錄進行審查和過帳。 此帳目包含專案實際值的重要會計詳細資料，例如帳單、銷售稅群組、帳單項目銷售稅群組和財務維度。
+專案合約服務內容會定義相關聯專案交易的帳務方式。 當專案經理核准時間與費用交易時，系統會在 **專案實際值** 實體中記錄交易，並將資訊傳送至 Dynamics 365 Finance 中的 **專案管理與會計** 模組。 專案會計師接著使用 [Project Operations 整合帳目](../project-accounting/project-operations-integration-journal.md)對這些記錄進行審查和過帳。 此帳目包含專案實際值的重要會計詳細資料，例如帳單、銷售稅群組、帳單項目銷售稅群組和財務維度。
 
 專案經理可以在[時間和材料帳務積存](../proforma-invoicing/manage-billing-backlog.md#time-and-material-billing-backlog)中使用時間和材料帳務方式，以及在[固定價格里程碑](../proforma-invoicing/manage-billing-backlog.md#fixed-price-milestones)中使用固定價格帳務方式，來審查未開單銷售交易。 這些檢視表可讓您篩選並選取需要包含在下一個帳單週期中的交易，然後將訊息交易標示為 **已準備好開立發票**。
 

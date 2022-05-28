@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: afce9cd2d4b3920dc5de5d3deab8920a7f51f275a73918a84db300739b1b4feb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 15925cb88cc413f9a23a25e89ddd29668e9171de
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987066"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8581642"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Project Service Automation 版本 3 的新功能或變更
 
@@ -29,7 +30,7 @@ ms.locfileid: "6987066"
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 本主題提供有關 Project Service Automation 在版本 2 或版本 1 與版本 3 之間對使用者介面 (UI)、功能和詞彙所做變更的資訊。
 

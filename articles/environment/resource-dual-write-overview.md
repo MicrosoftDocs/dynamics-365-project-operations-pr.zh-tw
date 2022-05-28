@@ -3,23 +3,22 @@ title: Project Operations 雙重寫入整合
 description: 本主題提供 Project Operations 雙重寫入整合的概觀。
 author: sigitac
 ms.date: 04/28/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: b65c40e8aaa9524c1c634738dadd23f21e86e2ec095c47bc849467c8806addbc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9b57b8bab9a6821e71a16b191804af21ae5d0b5a
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007901"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582746"
 ---
 # <a name="project-operations-dual-write-integration-overview"></a>Project Operations 雙重寫入整合概觀
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
-Project Operations 使用[雙重寫入功能](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page)，在 Microsoft Dataverse 與 Dynamics 365 Finance 之間同步處理資料。
+Project Operations 使用[雙重寫入功能](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page)，在 Microsoft Dataverse 和 Dynamics 365 Finance 之間同步處理資料。
 
 下圖顯示資料如何在 Dataverse 與 Finance 之間整合的過程中進行同步處理。
 

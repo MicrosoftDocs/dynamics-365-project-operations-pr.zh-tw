@@ -4,14 +4,14 @@ description: 本主題提供有關在 Project Operations 環境的 LCS 中建立
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 425cd38c204a67cda9ce03bdc96b728e03499c87aeddd6f62924b57e16b21167
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 842ccaeed53f8829b7520a420972c2e31ebf4821
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989946"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584172"
 ---
 # <a name="start-a-new-lcs-project"></a>開始新的 LCS 專案
 
@@ -27,7 +27,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
   ![選擇 LCS 專案類型。](./media/create-lcs-1.png)
 
 5. 命名專案。 
-6. 選取 **Finance and Operations** 做為產品名稱，然後選取行業和方法。 
+6. 選取 **Finance and Operations** 做為產品名稱，並選取產業和方法。 
 7. 選取 **建立**。
 
 ![建立 LCS 專案。](./media/create-lcs-2.png)

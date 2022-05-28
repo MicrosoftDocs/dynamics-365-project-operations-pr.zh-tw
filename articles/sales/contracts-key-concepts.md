@@ -4,26 +4,26 @@ description: 本主題提供有關 Project Operations 中專案合約重要概�
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ce84984f873e6336a6d065f0aa7a72f1474404a84d3dbb614c09d58bff66d83d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986931"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582930"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>專案型合約獨有的概念
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 此主題提供在 Dynamics 365 Project Operations 中開始使用專案合約之前，需注意的重要概念：
 
 ## <a name="owning-company"></a>負責公司
 
-負責公司是 Dynamics 365 Finance 所提供之 Project Operations **專案管理與會計** 模組中的法律實體。 負責公司代表對交易所產生之成本與營收負有責任的法律實體。
+負責公司是 Project management and accounting module forfrom Dynamics 365 Finance 中 Project Operations **專案管理與會計** 模組的法律實體。 負責公司代表對交易所產生之成本與營收負有責任的法律實體。
 
 ## <a name="contracting-unit"></a>合約單位
 

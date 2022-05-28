@@ -4,14 +4,14 @@ description: 本主題提供資訊以協助您判斷適合您公司的正確 Pro
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 4be8e69c5b6ff1ed65e9484a9b427bb428f7ff3e6dc597c615d5586da52867ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 280578b2710a0bccd1973b51b062fef7a2997780
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994626"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584126"
 ---
 # <a name="determine-your-deployment-type"></a>判斷您的部署類型
 
@@ -42,7 +42,7 @@ Project Operations 支援多個部署選項，以符合您的需求。 不論您
 - [資源/非庫存案例適用的 Project Operations](#integrated)
 - [庫存/生產訂單案例適用的 Project Operations](#pma)
 
-Project Operations 透過法律實體層級設定在同一個環境中支援庫存/生產訂單案例以及非庫存/資源型案例。 例如，Contoso 可以在其美國製造設施 (法律實體 = 美國 Contoso Manufacturing) 中使用庫存/生產訂單功能。 Contoso 可以在其英國 Contoso 機器人手臂服務設施 (法律實體 = 英國 Contoso Robotics) 中使用非庫存/資源型功能。
+Project Operations 透過法律實體層級設定在同一個環境中支援庫存/生產訂單案例以及非庫存/資源型案例。 例如，Contoso 可以利用其美國製造設施 (法律實體 = Contoso Manufacturing United States) 中的庫存/生產訂單功能。 Contoso 可以利用其在英國的 Contoso 機器人手臂維修設施 (法律實體 = Contoso Robotics United Kingdom) 中的非庫存/資源型功能。
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>精簡部署 - 交易至開立預估發票
 

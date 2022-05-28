@@ -2,22 +2,22 @@
 title: 註冊 Project Operations 試用版
 description: 此主題提供有關如何部署 Dynamics 365 Project Operations 試用版的資訊。
 author: ruhercul
-ms.date: 12/08/2021
+ms.date: 01/10/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
-ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
+ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901607"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584264"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>註冊 Project Operations 試用版 
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票、庫存/生產型案例適用的 Project Operations_ 
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 本主題說明如何訂閱預覽版合作夥伴供應項目，以及部署 Dynamics 365 Project Operations 環境。
 
@@ -36,7 +36,6 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 | 供應項目使用                    | 每個租用戶一次                          |
 | 供應項目期間               | 30 個日曆天                             |
 | 每個租用戶的兌換次數       | 7                                            |
-| 使用者數目              | 25                                           |
 | 擴充                    | 1 次延長 30 個日曆天               |
 | 試用環境的數目 | 3                                            |
 
@@ -87,7 +86,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
  
   佈建完成時，環境的狀態會是 **就緒**。 環境的佈建包括部署示範資料。
  
-4.  選取各自的 Microsoft Dataverse URL 和 Finance and Operations 應用程式 URL 來驗證部署。
+4.  選取各自的 Microsoft Dataverse URL 以及財務和營運應用程式 URL 來驗證部署。
 
 ## <a name="configuring-dual-write"></a>設定雙重寫入
 - 若要設定雙重寫入的資訊安全角色，請參閱[在 Dataverse 中更新 Project Operations 上的安全性設定](resource-provision-new-environment.md)。
@@ -97,7 +96,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 您需要組織的 Microsoft 365 入口網站系統管理存取權，才能完成下列步驟。
 
-1. 前往 [Microsoft 365 系統管理中心](https://portal.office.com/)，將授權指派給您的使用者。
+1. 前往 [Microsoft 365 系統管理中心](https://portal.office.com/)，將授權指派給使用者。
 
    ![系統管理中心首頁](./media/14AdminPortal.png)
 
@@ -117,7 +116,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 ## <a name="frequently-asked-questions"></a>常見問題
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>如果我的 Finance and Operations 應用程式需要 ALM 或 ELM，該怎麼辦？
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>如果我需要財務和營運應用程式環境的 ALM 或 ELM，該怎麼做？
 
 - 需要完整環境生命週期管理功能的合作夥伴，請參閱[合作夥伴沙箱授權申請](https://experience.dynamics.com/requestlicense)以檢閱新的合作夥伴供應項目。 
 - 尋求內部使用權相關詳細資訊的合作夥伴，請參閱[內部使用權雲端及軟體權益](https://partner.microsoft.com/membership/internal-use-software)。
@@ -125,7 +124,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 ### <a name="can-i-extend-my-trial-beyond-30-days"></a>可以試用期延長超過 30 天嗎？
 若要延長試用期，請完成下列步驟。
 
-1. 在 **Microsoft 365 系統管理中心**，移至 **帳單** > **您的產品**。
+1. 在 **Microsoft 365 系統管理中心**，移至 **帳務** > **您的產品**。
 2. 選取 **Dynamics 365 Project Operations (CE) - 預覽版試用**。
 3. 在 **到期日** 底下，選取 **延長日期**。
 

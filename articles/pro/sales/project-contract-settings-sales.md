@@ -2,16 +2,16 @@
 title: 專案合約設定 - 精簡
 description: 本主題提供有關影響合約服務內容之欄位的資訊，以及有關概括所有明細項目之合約的資訊。
 author: rumant
-ms.date: 10/20/2020
+ms.date: 03/08/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7ade6c122827274f926803140f5db32442114c7aefd18d410da65270f345fde4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995931"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586380"
 ---
 # <a name="header-details-for-project-contracts"></a>專案合約的標題詳細資料
 
@@ -32,12 +32,15 @@ _**適用於：** 精簡部署 - 交易至開立預估發票_
 | 不得超過限制 | **摘要** 索引標籤 | 此欄位表示客戶已對此交易同意的最終價值的議定上限。 | 此上限是在執行期間進行評估，適用於所有與此交易相關的明細項目及專案。 |
 | 要求的交貨日期 | **摘要** 索引標籤 | 根據專案報價建立合約時，此欄位是從專案報價的對應欄位複製而來。 | 此日期會做為結束日期用來產生發票排程。 |
 
-專案合約的 **合約績效** 索引標籤中提供下列 KPI。
+專案合約的 **合約績效** 索引標籤中提供下列 KPI。 
 
-| 欄位 | 地點 | 描述 |
+>[!NOTE]
+>**合約績效** 索引標籤上的所有金額都是以環境中的預設貨幣來表示。
+
+| 欄位 | 位置 | 名稱 |
 | --- | --- | --- |
-| 合約值 | 整體合約 | 專案合約的總值。 |
-| 帳單金額 | 整體合約 | 所有據此合約開立之發票的金額加總。 |
+| 合約值 | 整體合約 | 專案合約的總價值。|
+| 帳單金額 | 整體合約 | 所有據此合約開立之發票的金額加總。|
 | 已發生成本 | 整體合約 | 所有已對應至合約之專案上所記錄的所有成本實際值加總。 |
 | 毛利率 | 整體合約 | 帳單金額 - 到今天為止已發生的成本 / 帳單金額 |
 | 預期的收益 | 整體合約 | (合約值 - 估計成本) / 合約值 估計成本 = 所有已對應至合約之專案上的所有預估成本加總。|

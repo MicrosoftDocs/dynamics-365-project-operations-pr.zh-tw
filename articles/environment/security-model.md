@@ -4,20 +4,20 @@ description: 此主題提供有關 Dynamics 365 Project Operations 中安全性�
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8ba220097589655381ac1da5d4d926605c3ae672
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991476"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585736"
 ---
 # <a name="security-model"></a>安全性模型
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Microsoft Dynamics 365 Project Operations 包含獨特的安全性模型，允許與 Microsoft Office 群組協同合作的角色型業務安全性模型。 
 

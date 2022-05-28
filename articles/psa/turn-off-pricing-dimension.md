@@ -15,12 +15,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9f690dfdb40e962ef329f323716f3f755493805d764dbfaa2d4f9d042231cee7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: f308104246efe671d2001e660aa8c0ab9ef44c7a
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006776"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8581688"
 ---
 # <a name="turn-off-a-pricing-dimension"></a>關閉定價維度
 
@@ -39,8 +40,8 @@ ms.locfileid: "7006776"
 
 | 標準職稱         | 組織單位    |單位   |價格  |貨幣  |
 | -----------------------|-------------|-------|-------|----------|
-| 系統工程師|Contoso 美國|小時| 100|USD|
-| 資深系統工程師|Contoso 美國|小時| 150| USD|
+| 系統工程師|Contoso US|Hour| 100|USD|
+| 資深系統工程師|Contoso US|Hour| 150| USD|
 
 
 當您關閉以 **標準職稱** 為定價維度的設定，而 Project Service 定價引擎搜尋價格時，它只會使用輸入內容中的 **組織單位** 值。 如果輸入內容的 **組織單位** 是「Contoso US」，則結果並非決定性，因為這兩個列都會相符。 為了避免這種案例，當您建立 **角色價格** 記錄時，Project Service 會驗證維度組合是否為唯一。 如果維度在建立 **角色價格** 記錄後已關閉，則可能會違反此限制。 因此，關閉維度之前，必須先刪除所有已填入該維度值的 **角色價格** 和 **角色價格加成** 列。
