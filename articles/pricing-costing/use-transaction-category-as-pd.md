@@ -1,17 +1,17 @@
 ---
 title: 使用交易類別做為定價維度
-description: 本主題提供有關如何使用 [交易類別] 欄位做為定價維度的資訊。
+description: 本文提供有關如何使用 [交易類別] 欄位做為定價維度的資訊。
 author: rumant
 ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a7fe9bfc87db992252f8ef3f0f688e7426cafebb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 648933299616a683b19bbe2f1231caac779bd1f8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591118"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911684"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>使用交易類別做為定價維度
 
@@ -19,10 +19,10 @@ ms.locfileid: "8591118"
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
 
-本主題說明如何使用 **交易類別** 欄位做為定價維度。 
+本文說明如何使用 **交易類別** 欄位做為定價維度。 
 
 ## <a name="prerequisites"></a>先決條件
-在您完成本主題中的步驟之前，您必須有一個新的定價維度解決方案供您的組織使用。 如果尚未建立一個，請參閱[將自訂欄位及實體建立為定價維度](create-custom-fields-entities-pricing-dimensions.md)。
+完成本文中的步驟之前，您必須為您的組織提供新的定價維度解決方案。 如果尚未建立一個，請參閱[將自訂欄位及實體建立為定價維度](create-custom-fields-entities-pricing-dimensions.md)。
 
 ## <a name="add-the-transaction-category-field-to-forms-and-views"></a>將交易類別欄位新增至表單和檢視表
 若要讓 **交易類別** 欄位顯示在定價維度解決方案中，您必須將欄位做為實體新增至所有表單和檢視表。

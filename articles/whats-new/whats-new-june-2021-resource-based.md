@@ -1,24 +1,24 @@
 ---
 title: 2021 年 6 月新增功能 - 資源/非庫存型案例適用的 Project Operations
-description: 本主題提供有關資源/非庫存型案例適用之 Project Operations 2021 年 6 月發行版本所提供品質更新的資訊。
+description: 本文提供有關資源/非庫存型案例適用 Project Operations 2021 年 6 月發行版本中所提供之品質更新的資訊。
 author: sigitac
 ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 21a446fdb9526c1a2b110c5368516dafb64b5e01
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5bc8475554c4348fa1e88b9090450bd3bfaa924e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600778"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910574"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021 年 6 月新增功能 - 資源/非庫存型案例適用的 Project Operations
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
-此主題適用於下列 Dynamics 365 Project Operations 元件和版本：
+這篇文章適用於下列 Dynamics 365 Project Operations 元件和版本：
 
 - Dynamics 365 Dataverse 環境版本 4.11.0.156 或 4.11.0.164 上的 Project Operations。
 - 財務和營運應用程式環境 10.0.19 版中的專案管理與會計。
@@ -28,7 +28,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 此版本包含下列功能：
 
 - 可刪除[調整案例的專案發票提案明細](../invoicing/correct-project-invoice-proposals.md)的功能。
-- 分項列出的費用明細會反映[顛覆想像的費用報表 - 新功能](../expense/expense-reports-reimagined.md#new-features)費用報表中的子類別名稱。
+- 分項列出的費用明細會反映[重新定義的費用報表 - 新功能](../expense/expense-reports-reimagined.md#new-features)費用報表中的子類別名稱。
 - 建立新的費用時，新的費用窗格中會有付款方式。
 - 專案排程 API 正式發行。 這項新功能可讓客戶以程式設計方式對專案工作、資源指派、工作相依性及專案團隊成員記錄執行建立、更新和刪除作業。 如需詳細資訊，請參閱[使用專案排程 API 對排程實體執行作業](../project-management/schedule-api-preview.md)。
 

@@ -1,17 +1,17 @@
 ---
 title: 使用核准的實際值驗證廠商發票
-description: 本主題說明 Microsoft Dynamics 365 Project Operations 如何讓專案經理透過已在轉包商執行工作並記錄時間時核准的實際值，以及專案團隊成員所使用的費用和材料來驗證廠商發票。
+description: 本文說明 Microsoft Dynamics 365 Project Operations 如何讓專案經理透過已在轉包商執行工作並記錄時間時核准的實際值，以及專案團隊成員所使用的費用和材料來驗證廠商發票。
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 3350a51bde2872036b79a789fae23ea6790fb21a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 43f47a44260d1a47437846f2764b56f680d4b682
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585460"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914208"
 ---
 # <a name="verification-of-vendor-invoices-with-approved-actuals"></a>使用核准的實際值驗證廠商發票
 

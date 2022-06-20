@@ -1,17 +1,17 @@
 ---
 title: Project Operations 中的轉包合約管理
-description: 本主題提供專案型組織中端對端轉包合約管理程序的一般概觀。
+description: 本文概述通常在專案型組織中的端對端轉包合約管理程序。
 author: rumant
 ms.date: 08/02/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f5e025b5f741935494349fb1bdfd3a19bacb5e1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593004"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911494"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Project Operations 中的轉包合約管理
 
@@ -19,7 +19,7 @@ ms.locfileid: "8593004"
 
 _**適用於：** 精簡部署 - 交易至開立預估發票_
 
-本主題提供專案型組織中端對端轉包合約管理程序的概觀。 服務轉承包通常遵循下圖所示的商務程序流程。
+本文提供專案型組織中端對端轉包合約管理程序的概觀。 服務轉承包通常遵循下圖所示的商務程序流程。
 
 ![轉包程序流程](../media/SubcontractingProcessFlow.png)
 

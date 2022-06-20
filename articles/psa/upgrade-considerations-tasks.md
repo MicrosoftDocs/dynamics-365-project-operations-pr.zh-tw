@@ -1,6 +1,6 @@
 ---
 title: 分工結構圖升級考量
-description: 本主題提供有關將 Project Service Automation 2.x 的分工結構圖升級至 3.x 的資訊。
+description: 本文提供有關將 Project Service Automation 2.x 的分工結構圖升級至 3.x 的資訊。
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 13ad93d5be3c0ab07c81db28d3e13561e9d40017
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 42bf03b5e3be4b7bdce87148254ce69e381ffdf1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599720"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913104"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>分工結構圖升級考量
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-本主題提供有關將 Project Service Automation 2.x 的分工結構圖升級至 3.x 的資訊。 本主題定義 Project Service Automation (PSA) 中專案成功升級所需的健全狀況。 此外，還提供有關導致升級失敗之常見阻礙情況的資訊。 如需有關在專案排程中定義專案工作及其功能的詳細資訊，請參閱[專案排程](project-creating.md)。
+本文提供有關將 Project Service Automation 2.x 的分工結構圖升級至 3.x 的資訊。 本文定義 Project Service Automation (PSA) 中專案成功升級所需的健全狀況。 此外，還提供有關導致升級失敗之常見阻礙情況的資訊。 如需有關在專案排程中定義專案工作及其功能的詳細資訊，請參閱[專案排程](project-creating.md)。
 
 ## <a name="key-entities"></a>主要實體
 已載入資源的正確分工結構圖需要下列實體：

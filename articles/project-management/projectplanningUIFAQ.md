@@ -1,25 +1,25 @@
 ---
-title: 在工作窗格中工作時的疑難排解
-description: 本主題提供在工作窗格中工作時所需的疑難排解資訊。
+title: 在工作網格中工作時的疑難排解
+description: 本文提供在工作網格中工作時所需的疑難排解資訊。
 author: ruhercul
 ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596408"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911034"
 ---
-# <a name="troubleshoot-working-in-the-task-grid"></a>在工作窗格中工作時的疑難排解 
+# <a name="troubleshoot-working-in-the-task-grid"></a>在工作網格中工作時的疑難排解 
 
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations 精簡部署 - 交易至開立預估發票、Project for the Web_
 
-Dynamics 365 Project Operations 所運用的工作網格是 Microsoft Dataverse 中託管的 iFrame。 由於這種運用，因此必須符合特定需求，才能確保驗證和授權正確發揮作用。 本主題概述常見的問題，這些問題可能會影響在分工結構圖 (WBS) 中呈現網格或管理工作的能力。
+Dynamics 365 Project Operations 所運用的工作網格是 Microsoft Dataverse 中託管的 iFrame。 由於這種運用，因此必須符合特定需求，才能確保驗證和授權正確發揮作用。 本文概述常見的問題，這些問題可能會影響在分工結構圖 (WBS) 中呈現網格或管理工作的能力。
 
 常見問題包括：
 

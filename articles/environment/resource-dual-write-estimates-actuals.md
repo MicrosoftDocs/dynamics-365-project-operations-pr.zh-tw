@@ -1,24 +1,24 @@
 ---
 title: 專案估計值和實際值整合
-description: 本主題提供有關 Project Operations 雙重寫入專案估計值與實際值整合的資訊。
+description: 本文提供有關用於專案估計值及實際值之 Project Operations 雙重寫入整合的資訊。
 author: sigitac
 ms.date: 4/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5aaa59020427438fa6ebab3789fbb70c5b86e272
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 43c868b051bf141cfc3211669c0a44333b4b2c65
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577180"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914576"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>專案估計值和實際值整合
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
-本主題提供有關 Project Operations 雙重寫入專案估計值與實際值整合的資訊。
+本文提供有關用於專案估計值及實際值之 Project Operations 雙重寫入整合的資訊。
 
 ## <a name="project-estimates"></a>專案估計值
 

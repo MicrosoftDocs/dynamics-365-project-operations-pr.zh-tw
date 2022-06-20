@@ -1,6 +1,6 @@
 ---
 title: 費用收據處理
-description: 本主題提供有關使用光學字元辨識 (OCR) 處理收據的資訊。 此功能的設計目的是要改善在 Microsoft Dynamics 365 Finance 中建立費用報表時的使用者體驗。
+description: 本文提供有關對收據進行光學字元辨識 (OCR) 處理的資訊。 此功能的設計目的是要改善在 Microsoft Dynamics 365 Finance 中建立費用報表時的使用者體驗。
 author: stsporen
 ms.date: 05/14/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 067432106742447d2b8fa215ec05bf05f4b41e70
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 5a72802e3c52b6a9e55ac779aa36c32072dc8b8b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684310"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911402"
 ---
 # <a name="expense-receipt-processing"></a>費用收據處理
 
@@ -48,7 +48,7 @@ ms.locfileid: "8684310"
 
 ## <a name="installation"></a>安裝
 
-此功能可與 **顛覆想像的費用報表** 功能搭配用來協助簡化費用體驗。 此功能僅適用於本身是沙箱與生產環境的第 2 層以上環境。
+此功能可與 **重新定義的費用報表** 功能搭配用來協助簡化費用體驗。 此功能僅適用於本身是沙箱與生產環境的第 2 層以上環境。
 
 若要使用這些進階費用功能，請安裝 Microsoft Dynamics 365 Finance 的費用管理服務增益集，並在執行個體中開啟這些功能。 您可以從 Microsoft Dynamics Lifecycle Services (LCS) 的專案中存取增益集。
 
@@ -75,7 +75,7 @@ ms.locfileid: "8684310"
 - 已新增選項，這個選項可讓您建立包含比對相符之未附加收據的費用報表。
 - 新增至費用報表的選項會讓您從收據建立費用明細，或是會嘗試將現有收據與現有費用明細進行比對。
 
-如需有關顛覆想像的費用報表功能的詳細資訊，請參閱[顛覆想像的費用報表](ExpenseWorkspaceNew.md)。
+如需有關重新定義的費用報表功能的詳細資訊，請參閱[重新定義的費用報表](ExpenseWorkspaceNew.md)。
 
 ## <a name="frequently-asked-questions"></a>常見問題集
 

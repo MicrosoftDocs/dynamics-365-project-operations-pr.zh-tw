@@ -1,24 +1,24 @@
 ---
 title: 編輯預約
-description: 本主題提供有關如何對預約進行更新和變更的資訊。
+description: 本文提供有關如何更新和變更預約的資訊。
 author: ruhercul
 ms.date: 11/12/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 94ff047e868b29eb75acce43b6e6594533a33bf0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4834d42d3b5d285a5c1b386ddd4ede1e09cf0067
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594338"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915220"
 ---
 # <a name="edit-bookings"></a>編輯預約
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
 
-當需要更新現有預約的專案發生變更時，有數種方法可以用來進行變更。 本主題概述如何對預約進行更新和變更。
+當需要更新現有預約的專案發生變更時，有數種方法可以用來進行變更。 本文概述如何更新和變更預約。
 
 ## <a name="resource-reconciliation"></a>資源協調
 

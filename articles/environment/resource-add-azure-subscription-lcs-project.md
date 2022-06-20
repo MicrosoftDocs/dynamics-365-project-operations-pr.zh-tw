@@ -1,23 +1,23 @@
 ---
 title: 將 Azure 訂閱新增至 LCS 專案
-description: 本主題提供有關如何將您的 Azure 訂閱連接至 LCS 專案的資訊。
+description: 本文提供有關如何將 Azure 訂閱連接至 LCS 專案的資訊。
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 839c510838b0bccb718b8ca8a4f71a1c46e7ea3f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 64ee8cfa7394a08c3d588c0e8f4a73185d9496cf
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595902"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912138"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>將 Azure 訂閱新增至 LCS 專案
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
-雲端託管的環境必須使用現有的 Azure 訂閱來進行部署。 本主題說明如何將現有的 Azure 訂閱連接至 LCS 專案。 
+雲端託管的環境必須使用現有的 Azure 訂閱來進行部署。 本文說明如何將現有 Azure 訂閱連接至 LCS 專案。 
 
 ## <a name="grant-admin-consent"></a>授與管理員同意
 
@@ -59,7 +59,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 2. 輸入您的 Azure 訂閱識別碼。 您可以前往 [Azure 入口網站](https://ms.portal.azure.com/)，在畫面左下角的 **設定** 下方找到您的 Azure 訂閱識別碼。
 3. 在 **設定使用 Azure Resource Manager** 欄位中，選取 **是**。
 4. 請確定 Azure 訂閱 AAD 租用戶網域與您使用中網域擁有的 Azure 訂閱相符，然後選取 **下一步**。
-5. 在 **Microsoft Azure 設定** 畫面上，選取 **下一步** 以確認。 如果在此畫面中收到錯誤，請返回本主題的[提供 Dynamics 部署服務存取權給您的 Azure 訂閱](#provide)一節，並確定您已完成所有的步驟。
+5. 在 **Microsoft Azure 設定** 畫面上，選取 **下一步** 以確認。 如果在此畫面上收到錯誤，請返回本文中的[提供對 Azure 訂閱的動態部署服務存取權限](#provide)一節，並確定您已完成所有的步驟。
 6. 將 Azure 管理憑證下載至您電腦的本機資料夾。 選取訂閱並移至 **設定** > **管理憑證**，以要求 Azure 訂用帳戶管理員將憑證上傳至 Azure 管理入口網站。 此憑證可讓 LCS 代表您與 Azure 進行通訊。 如果使用者有權存取訂閱，您可以略過此步驟。
 7. 選取 **下一步**。
 8. 選取要在其中進行部署的 Azure 區域，並選取接近您打算使用此系統所在位置的資料中心。

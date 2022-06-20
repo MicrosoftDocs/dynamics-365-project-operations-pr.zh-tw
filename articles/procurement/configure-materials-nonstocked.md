@@ -1,18 +1,18 @@
 ---
 title: 設定非庫存材料和待處理廠商發票
-description: 本主題說明如何啟用非庫存材料和待處理廠商發票。
+description: 本文說明如何啟用非庫存材料和待處理廠商發票。
 author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1b14ab17a317e7082bc9c24709590745a5c48ea8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6473ef3510f0d3641a2d61b6a1b1f28980993277
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592958"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913748"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>設定非庫存材料和待處理廠商發票
 
@@ -32,7 +32,7 @@ Dynamics 365 Finance：
 
 ## <a name="run-dual-write-maps-for-non-stocked-materials-and-vendor-invoice-integration"></a>對非庫存材料與待處理廠商發票整合執行雙重寫入對應
 
-本節提供有關非庫存材料和待處理廠商發票所需之特定對應的資訊。 確認[佈建新環境](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps)主題中列出的先決條件對應是否正在您的環境中執行。
+本節提供有關非庫存材料和待處理廠商發票所需之特定對應的資訊。 確認[佈建新環境](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps)一文中列出的先決條件對應正在您的環境中執行。
 
 1. 前往 Lifecycle Services (LCS)、瀏覽至您的 LCS 專案，然後移至 **環境詳細資料** 頁面。
 2. 在 **Common Data Service 環境資訊** 區段中，選取 **連結至 CDS for Apps**。 選取連結之後，您會重新導向至對應中實體的清單。

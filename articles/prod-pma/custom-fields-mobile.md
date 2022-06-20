@@ -1,6 +1,6 @@
 ---
 title: 在 iOS 和 Android 上實作 Microsoft Dynamics 365 Project Timesheet 行動應用程式的自訂欄位
-description: 本主題提供使用擴充功能實作自訂欄位的一般模式。
+description: 本文提供使用擴充功能實作自訂欄位的常見模式。
 author: Yowelle
 ms.date: 05/29/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 79ef62d6911b393248536e4cc73475f6c35a22e2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 03b79d58d1f91e07034b8c9efb408e6d7a9c29a8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682743"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913702"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>在 iOS 和 Android 上實作 Microsoft Dynamics 365 Project Timesheet 行動應用程式的自訂欄位
 
 [!include [banner](../includes/banner.md)]
 
-本主題提供使用擴充功能實作自訂欄位的一般模式。 下列主題內容涵蓋：
+本文提供使用擴充功能實作自訂欄位的常見模式。 涵蓋下列文章：
 
 - 自訂欄位架構支援的各種資料類型
 - 如何在時程表項目上顯示唯讀或可編輯欄位，以及將使用者提供的值儲存回資料庫
@@ -35,7 +35,7 @@ ms.locfileid: "8682743"
 
 ## <a name="audience"></a>對象
 
-本主題適合要將自訂欄位整合至 Apple iOS 和 Google Android 適用版 Microsoft Dynamics 365 Project Timesheet 行動應用程式中的開發人員。 假設讀者熟悉 X++ 開發工作和專案時程表功能。
+本文主要適用於將自訂欄位整合至 Apple iOS 和 Google Android 適用版 Microsoft Dynamics 365 Project Timesheet 行動應用程式的開發人員。 假設讀者熟悉 X++ 開發工作和專案時程表功能。
 
 ## <a name="data-contract--tstimesheetcustomfield-x-class"></a>資料合約 – TSTimesheetCustomField X++ 類別
 
@@ -64,7 +64,7 @@ ms.locfileid: "8682743"
 
 - 如果 **TSTimesheetCustomField** 物件已提供 **stringOptions** 屬性，則這些清單元素是使用者只能使用選項按鈕 (圓形按鈕) 選擇的值。
 
-    在這種情況下，字串欄位可以做為供使用者輸入之用的列舉值。 若要將值做為列舉儲存至資料庫，請先手動將字串值對應回列舉值，再使用命令鏈結儲存至資料庫 (如需範例請參閱本主題稍後的「使用 TSTimesheetEntryService 類別中的命令鏈結，將時程表項目從應用程式儲存回資料庫」一節)。
+    在這種情況下，字串欄位可以做為供使用者輸入之用的列舉值。 若要將值當做列舉儲存至資料庫，請先手動將字串值對應回列舉值，再使用命令鏈結儲存至資料庫 (請參閱本文稍後的「使用 TSTimesheetEntryService 類別中的命令鏈結，將應用程式中的時間表項目重新儲存回資料庫」一節以取得範例)。
 
 ### <a name="fieldextendedtype-tscustomfieldextendedtype"></a>fieldExtendedType (TSCustomFieldExtendedType)
 
@@ -106,7 +106,7 @@ ms.locfileid: "8682743"
 
 ### <a name="stringoptions-list-of-strings"></a>stringOptions (字串清單)
 
-此屬性只有在 **fieldBaseType** 設定為 **字串** 時才適用。 如果 **stringOptions** 已設定，可透過選項按鈕 (圓形按鈕) 使用的字串值是由清單中的字串所指定。 如果未提供任何字串，則允許在字串欄位中輸入任意格式的文字 (如需範例，請參閱本主題稍後的「使用 TSTimesheetEntryService 類別中的命令鏈結，將時程表項目從應用程式儲存回資料庫」一節)。
+此屬性只有在 **fieldBaseType** 設定為 **字串** 時才適用。 如果 **stringOptions** 已設定，可透過選項按鈕 (圓形按鈕) 使用的字串值是由清單中的字串所指定。 如果未提供任何字串，則允許在字串欄位中輸入任意文字 (請參閱本文稍後的「使用 TSTimesheetEntryService 類別中的命令鏈結，將應用程式中的時間表項目重新儲存回資料庫」一節以取得範例)。
 
 ### <a name="stringlength-int"></a>stringLength (int)
 

@@ -1,17 +1,17 @@
 ---
 title: 解析估計值及實際值的銷售價
-description: 本主題提供有關如何解析估計值及實際值之銷售費率的資訊。
+description: 本文提供有關如何解析估計值及實際值銷售費率的資訊。
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 697d5e330fec1874e8cb59fb86dd688637860346
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ee750b93a5be7be09ed76942c7c235f8c811e8bb
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578238"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911816"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>解析估計值及實際值的銷售價
 

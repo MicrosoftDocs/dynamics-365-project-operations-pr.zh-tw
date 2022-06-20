@@ -1,23 +1,23 @@
 ---
 title: 設定每個法律實體的 Project Operations 整合
-description: 本主題提供有關在 Project Operations 中依法律實體設定整合的資訊。
+description: 本文提供有關在 Project Operations 中按法律實體設定整合的資訊。
 author: sigitac
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 64606a20a49fd8e9602b6ac3c1ab1880796eb128
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f33e641ee0932655282618c99a26e2603660059
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585828"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914668"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>設定每個法律實體的 Project Operations 整合 
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
-本主題為您逐步解說設定每個法律實體的 Dynamics 365 Project Operations 所需的步驟。
+本文將逐步解說根據法律實體個別設定 Dynamics 365 Project Operations 所需的步驟。
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>啟用 Dynamics 365 Finance 中的功能金鑰
 

@@ -1,17 +1,17 @@
 ---
 title: 管理專案報價
-description: 本主題提供有關專案報價的資訊。
+description: 本文提供專案報價的相關資訊。
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: eab780241953bbabab199e146c94a15e272e35c9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b9dad9ab9b6cef11ad337f9c3f536fe467b6a347
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579572"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911632"
 ---
 # <a name="manage-project-quotes"></a>管理專案報價
 

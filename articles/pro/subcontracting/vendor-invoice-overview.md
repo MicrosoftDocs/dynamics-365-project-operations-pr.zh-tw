@@ -1,17 +1,17 @@
 ---
 title: 開立廠商發票- 概念和建立
-description: 本主題說明廠商發票的概念、使用案例，以及在 Microsoft Dynamics 365 Project Operations 中建立廠商發票的方式。
+description: 本文說明廠商發票的概念、使用案例，以及在 Microsoft Dynamics 365 Project Operations 中建立廠商發票的方式。
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: dc9b3954b237294f52aa0bb74f8008a5dfdf78fd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 38f0760697522b7a5e561cec7d38dfd5c3eaf9fc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580538"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911448"
 ---
 # <a name="vendor-invoicing---concept-and-creation"></a>開立廠商發票- 概念和建立
 
