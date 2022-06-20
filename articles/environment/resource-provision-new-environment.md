@@ -1,18 +1,18 @@
 ---
 title: 佈建新的環境
-description: 本主題提供有關如何佈建新的 Project Operations 環境的資訊。
+description: 本文提供有關如何佈建新 Project Operations 環境的資訊。
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9cc3dafd6a2b6f92b585643c5d43ab52a3faf59e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594798"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931596"
 ---
 # <a name="provision-a-new-environment"></a>佈建新的環境
 
@@ -20,7 +20,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 
 
-此主題提供關於如何佈建新的資源/非庫存型案例適用的 Dynamics 365 Project Operations 環境的資訊。
+本文提供有關如何為資源/非庫存型案例佈建新的 Dynamics 365 Project Operations 環境的資訊。
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>在 LCS 專案中啟用 Project Operations 自動化佈建
 

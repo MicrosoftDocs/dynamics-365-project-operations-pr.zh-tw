@@ -1,23 +1,23 @@
 ---
 title: 專案投入量追蹤
-description: 本主題提供有關如何追蹤專案投入量和工作進度的資訊。
+description: 本文提供有關如何追蹤專案投入量和工作進度的資訊。
 author: ruhercul
 ms.date: 02/15/2022
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c41dbc138f6fc92a9586de173ba5dfc89c7e44e3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593786"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929250"
 ---
 # <a name="project-effort-tracking"></a>專案投入量追蹤
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
-對照排程追蹤進度的需求會因行業不同而有所不同。 有些行業以細微等級進行追蹤，而其他行業則以較粗略等級進行追蹤。 本主題說明如何進行排程以符合您組織的需求。
+對照排程追蹤進度的需求會因行業不同而有所不同。 有些行業以細微等級進行追蹤，而其他行業則以較粗略等級進行追蹤。 本文說明如何進行排程以符合您組織的需求。
 
 ## <a name="effort-tracking-view"></a>投入量追蹤檢視表
 

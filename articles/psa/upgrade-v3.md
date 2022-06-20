@@ -1,6 +1,6 @@
 ---
 title: 升級考量 - Microsoft Dynamics 365 Project Service Automation 2.x 或 1.x 版至版本 3
-description: 本主題提供有關從 Project Service Automation 2.x 或 1.x 版升級至版本 3 時必須進行考量的資訊。
+description: 本文提供有關從 Project Service Automation 2.x 或 1.x 版升級至版本 3 時必須進行考量的資訊。
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c37c30b7c694cec8c07b68492d935128881e6317
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f67b2fe39c9d0224207e7c655892318ec7e09b8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601744"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918900"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>升級考量 - 從 PSA 2.x 或 1.x 版升級至版本 3
 
@@ -40,7 +40,7 @@ Dynamics 365 Project Service Automation 和 Dynamics 365 Field Service 都會使
 
 在 Project Service Automation 版本 3 中，將可預約資源指派給工作的結構描述已變更。 明細工作已被取代，而且 **工作實體** 的工作與 **資源指派** 實體的團隊成員之間有直接 1:1 關聯。 指派給專案團隊成員的工作現在會直接儲存在資源指派實體中。  
 
-這些變更會影響所有在專案團隊上有具名可預約資源及一般資源之資源指派的現有專案升級。 這主題提供當您將專案升級至版本 3 時，需要納入考量的注意事項。 
+這些變更會影響所有在專案團隊上有具名可預約資源及一般資源之資源指派的現有專案升級。 本文提供當您將專案升級至版本 3 時，需要納入考量的注意事項。 
 
 ### <a name="tasks-assigned-to-named-resources"></a>已指派給具名資源的工作
 版本 2 和版本 1 中的工作使用基礎工作實體，讓團隊成員可以描繪其預設定義角色以外的角色。 例如，可將預設獲指派「方案經理」角色的蔡美雪指派至具有開發人員角色的工作。 在版本 3 中，具名團隊成員的角色一律是預設，因此任何指派給美雪的工作都會使用她的方案經理預設角色。

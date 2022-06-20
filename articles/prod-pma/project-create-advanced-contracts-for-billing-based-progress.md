@@ -1,6 +1,6 @@
 ---
 title: 根據進度扣款的預付型合約
-description: 本主題說明如何建立專案合約，讓您可以根據已完成工作的百分比產生客戶的發票。
+description: 本文說明如何建立專案合約，讓您可以根據工作完成百分比來為客戶產生發票。
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: bdafc2ed2398054d8b0bf42bdd96dfe0eccee93b
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 26fe072b8241c7fdc96629f534e33a8fe53d3164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683153"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913656"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>根據進度扣款的預付型合約
 [!include [banner](../includes/banner.md)]
 
-本主題說明如何建立專案合約，讓您可以根據已完成工作的百分比建立客戶的發票。 系統會針對您為專案設定之工作的預算類別自動計算發票金額。 當您與客戶議定專案合約時，會設定開立發票的時機。
+本文說明如何建立專案合約，讓您可以根據工作完成百分比來為客戶建立發票。 系統會針對您為專案設定之工作的預算類別自動計算發票金額。 當您與客戶議定專案合約時，會設定開立發票的時機。
 
-請使用此主題中的程序，來設定合約、相關聯專案以及針對您為專案設定之工作預算類別計算發票金額的帳單規則。
+使用本文中的程序設定合約、相關聯專案以及計費規則 (此規則計算您為專案所設定之工作的預算類別發票金額)。
 
 建立合約與專案之後，您可以設定專案的詳細資料。 例如，您可以定義活動，並將工作者指派至專案。
 

@@ -1,24 +1,24 @@
 ---
 title: 2020 年 12 月 - 庫存/生產型案例適用的 Project Operations 新增功能
-description: 本主題提供關於庫存/生產型案例適用的 Project Operations 2020 年 12 月版本中所提供之品質更新的資訊。
+description: 本文提供有關庫存/生產型案例適用 Project Operations 2020 年 12 月發行版本中所提供之品質更新的資訊。
 author: Yowelle
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 9550cf8fd594585b70d373ecf9eea1b32285e47f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e570bf3e7a808afa5d41db0c073045c91e4931d7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594936"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911356"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>庫存/生產型案例適用的 Project Operations 2020 年 12 月的新功能或變更
 
 _適用於：庫存/生產型案例適用的 Project Operations_
 
-此主題適用於下列 Dynamics 365 Project Operations 元件和版本：
+這篇文章適用於下列 Dynamics 365 Project Operations 元件和版本：
 
   - Dynamics 365 Finance 環境 10.0.15 版中的專案管理與會計
 

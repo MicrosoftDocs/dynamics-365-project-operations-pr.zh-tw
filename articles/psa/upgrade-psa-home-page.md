@@ -1,6 +1,6 @@
 ---
 title: 升級首頁
-description: 本主題顯示到哪裡尋找有關 Dynamics 365 Project Service Automation 的新功能和其已變更功能的重要資訊，以及升級為最新版本的程序。
+description: 本文顯示要到哪裡尋找有關 Dynamics 365 Project Service Automation 的新功能和其已變更功能的重要資訊，以及升級為最新版本的程序。
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -19,12 +19,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 337bb2d13eae7cc971b801a3c9662a7a1769909f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5dcf41af31a60b952ce82c08e3c082490d59d4f6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591369"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926628"
 ---
 # <a name="upgrade-home-page"></a>升級首頁
 
@@ -48,14 +48,14 @@ ms.locfileid: "8591369"
 開始升級程序前，建議您完成下列工作：
 
 - 確認是否 Dynamics 365 Field Service 和 Project Service Automation 都已安裝在已識別的執行個體。 如果這兩個解決方案都已安裝，您必須先規劃升級這兩項，再繼續正常使用該執行個體。
-- 仔細檢閱下列主題。 知道並了解版本之間的變更將有助於進行您的升級程序。 這些主題提供有關 PSA 中主要變更的資訊，以及規劃升級至版本 3.x 的考量和建議。
+- 仔細檢閱下列文章。 知道並了解版本之間的變更將有助於進行您的升級程序。 這些文章提供有關 PSA 中主要變更的資訊，以及規劃升級至版本 3.x 的考量和建議。
 
     - [Project Service Automation 版本 3 的新功能或變更](whats-new-changed-v3.md)
     - [升級考量 - 從 Project Service Automation 2.x 或 1.x 版升級至版本 3](upgrade-v3.md)
 
 - 先升級沙箱執行個體以評估您的實作中的變更，然後再升級生產執行個體。
 
-檢閱過前述主題並準備好升級至 PSA 3.x 版或 UCI 架構版本時，請送出要求至 Microsoft 支援服務，讓升級可在系統管理中心進行。 在要求中，提供您的執行個體的詳細資料。
+檢閱過前述文章並準備好升級至 PSA 3.x 版或 UCI 架構版本時，請送出要求至 Microsoft 支援服務，讓升級可在系統管理中心進行。 在要求中，提供您的執行個體的詳細資料。
 
 ## <a name="older-versions-of-psa-psa-version-2x-in-a-newly-created-instance"></a>新建立執行個體中的舊版 PSA (PSA 2.x 版)
 

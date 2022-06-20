@@ -1,17 +1,17 @@
 ---
 title: 轉包合約服務內容資源
-description: 本主題說明如何為特定的時間轉包合約服務內容指定廠商所提供的專用資源。
+description: 本文說明如何為特定時間轉包合約服務內容指定廠商提供的專用資源。
 author: rumant
 ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 96bce2d6797c124331ce0174b16804ff8dfec993
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 84fbbd6e1a82db2b2d998b5f41579396df884ec3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576076"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924144"
 ---
 # <a name="subcontract-line-resources"></a>轉包合約服務內容資源
 

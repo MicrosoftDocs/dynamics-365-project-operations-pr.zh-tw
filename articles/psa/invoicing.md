@@ -1,6 +1,6 @@
 ---
 title: 在 Project Service Automation 中開立發票
-description: 本主題提供有關開立發票的資訊。
+description: 本文提供有關開立發票的資訊。
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 84134778225bfce1126ccf70b32e0c82c4ccc3fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fa036dda6514449b04e1416bde2cd9c21fc558b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579296"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926812"
 ---
 # <a name="invoicing-in-project-service-automation"></a>在 Project Service Automation 中開立發票
 
@@ -94,7 +94,7 @@ PSA 不是為了產生客戶面向發票而設計，原因如下：
 用於建立發票的批次處理工作是週期性工作。 如果此批次處理已執行多次，就會建立工作的多個執行個體，並造成錯誤。 因此，您只能啟動批次處理一次，並且只有在其停止執行時才要重新啟動此工作。
 
 > [!NOTE]
-> Project Service Automation 中的批次開立發票只會針對發票排程所設定的專案合約服務內容執行。 使用固定價格計費方式的合約服務內容必須已設定里程碑。 使用時間和材料計費方式的專案合約服務內容必須設定以日期為依據的發票排程。 [報價和報價明細](basic-quote-lines.md#invoice-schedule)主題中已提供有關在以報價明細為根據之專案的內容中設定開立發票頻率的資訊。 這同樣適用於專案型合約服務內容。      
+> Project Service Automation 中的批次開立發票只會針對發票排程所設定的專案合約服務內容執行。 使用固定價格計費方式的合約服務內容必須已設定里程碑。 使用時間和材料計費方式的專案合約服務內容必須設定以日期為依據的發票排程。 在[報價和報價明細](basic-quote-lines.md#invoice-schedule)文章中，已提供有關在基於報價之專案內容中設定發票開立頻率的資訊。 這同樣適用於專案型合約服務內容。      
  
 ### <a name="edit-a-draft-psa-invoice"></a>編輯草稿 PSA 發票
 

@@ -1,23 +1,23 @@
 ---
 title: 管理營收估計值
-description: 此主題提供有關如何使用專案的營收估計值的資訊。
+description: 本文提供有關如何使用專案營收估計的資訊。
 author: sigitac
 ms.date: 11/04/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6f91a0eb6fa0d13ebe8dfb6e837dae0bbff3eb5e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 051535ce8dd4997a923b1511d242638361076979
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595856"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928468"
 ---
 # <a name="manage-revenue-estimates"></a>管理營收估計值
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
-您可以建立、計算、過帳、沖銷或減少營收估計值。 您可以手動或使用週期程序來執行此動作。 此主題提供有關如何使用專案的營收估計值的資訊。
+您可以建立、計算、過帳、沖銷或減少營收估計值。 您可以手動或使用週期程序來執行此動作。 本文提供有關如何使用專案營收估計的資訊。
 
 ### <a name="manage-revenue-estimates-manually"></a>手動管理營收估計值
 

@@ -1,6 +1,6 @@
 ---
 title: 聯邦獎勵支出時間表查詢
-description: 這份主題提供「聯邦獎勵支出時間表」查詢的相關資訊。
+description: 本文提供聯邦獎勵支出時間表查詢的相關資訊。
 author: velofog
 ms.date: 04/2/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: b88c97f3dcb1020ccf17788256990485580f6964
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 00f9e97b9a6b3e8fe5e9cf9143e670612869b84c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684448"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916646"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>聯邦獎勵支出時間表查詢
 

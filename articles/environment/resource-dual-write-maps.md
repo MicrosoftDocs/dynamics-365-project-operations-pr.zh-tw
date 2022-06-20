@@ -1,17 +1,17 @@
 ---
 title: Project Operations 雙重寫入對應版本
-description: 本主題提供 Dynamics 365 Project Operations 所需的雙重寫入對應清單。
+description: 本文提供 Dynamics 365 Project Operations 所需的雙重寫入對應清單。
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 385893e8ecdb29f4dc411c233b9ae19bb2448dfd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612740"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959393"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations 雙重寫入對應版本
 
@@ -54,7 +54,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 | 時數估計值的 Project Operations 整合實體 (msdyn_resourceassignments) | 1.0.0.5 | 佈建時不需要。 ||
 | Project Operations 整合專案費用類別匯出實體 (msdyn_expensecategories) | 1.0.0.1 | 佈建時不需要。 ||
 | Project Operations 整合專案費用匯出實體 (msdyn_expenses) | 1.0.0.3 | 佈建時不需要。 ||
-| Project Operations 整合專案廠商發票匯出實體 (msdyn_projectvendorinvoices) | 1.0.0.0 | 佈建時不需要。 ||
+| Project Operations 整合專案廠商發票匯出實體 (msdyn_projectvendorinvoices) | 1.0.0.1 | 佈建時不需要。 |10.0.26 或更新版本|
 | Project Operations 整合專案廠商發票明細匯出實體 (msdyn_projectvendorinvoicelines) | 1.0.0.4 | 佈建時不需要。 | 10.0.26 或更新版本 |
 | 所有公司的專案資源角色 (bookableresourcecategories) | 1.0.0.1 | 資料表對應必須進行初始同步，才能同步處理佈建時在 Dynamics 365 Dataverse 環境中填入的專案經理和團隊成員資源角色。 Dataverse 是初始同步處理的主要來源。 ||
 | 專案工作 (msdyn_projecttasks) | 1.0.0.4 | 佈建時不需要。 ||

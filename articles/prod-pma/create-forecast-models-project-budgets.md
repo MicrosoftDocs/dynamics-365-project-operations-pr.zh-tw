@@ -1,6 +1,6 @@
 ---
 title: 建立專案預算的預測模型
-description: 本主題說明如何為剩餘預算建立預測模型。
+description: 本文說明如何建立剩餘預算的預測模型。
 author: Yowelle
 ms.date: 04/24/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 992dd74524ae6a7c329612a125d60bebfcbe7dd2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: e6b1419c41124d2062595f7346efb7538e50ee33
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683620"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916692"
 ---
 # <a name="create-forecast-models-for-project-budgets"></a>建立專案預算的預測模型 
 
 [!include [banner](../includes/banner.md)]
 
-本主題說明如何為剩餘預算建立預測模型。 受預算控制的專案會使用兩種類型的預算：原始和剩餘。 建立專案預算時，您必須指定已在 **預測模型** 頁面中建立的原始及剩餘預算預測模型。 當您認可專案預算時，系統會根據指定的模型建立專案預算。
+本文說明如何建立剩餘預算的預測模型。 受預算控制的專案會使用兩種類型的預算：原始和剩餘。 建立專案預算時，您必須指定已在 **預測模型** 頁面中建立的原始及剩餘預算預測模型。 當您認可專案預算時，系統會根據指定的模型建立專案預算。
 
 > [!NOTE]
 > 預算控制所用的預測模型不能有子模型，也不可做為子模型。

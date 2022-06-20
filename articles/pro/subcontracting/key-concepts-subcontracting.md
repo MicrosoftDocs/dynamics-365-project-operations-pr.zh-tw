@@ -1,17 +1,17 @@
 ---
 title: 轉承包中的重要概念
-description: 本主題說明一些適用於轉承包在 Microsoft Dynamics 365 Project Operations 中的重要概念。
+description: 本文說明一些適用於 Microsoft Dynamics 365 Project Operations 中的轉承包的重要概念。
 author: rumant
 ms.date: 08/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 159eeca3aa9ed0c490be5ce3a8f46c7d7206aebe
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0ac84d132a2d62528d97ed3776a78062a589a380
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578101"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927686"
 ---
 # <a name="key-concepts-in-subcontracting"></a>轉承包中的重要概念
 
@@ -19,7 +19,7 @@ ms.locfileid: "8578101"
 
 _**適用於：** 精簡部署 - 交易至開立預估發票_
 
-主題說明一些您在開始使用 Microsoft Dynamics 365 Project Operations 中的轉承包功能前，應注意的重要概念。
+這篇文章說明一些在您開始使用 Microsoft Dynamics 365 Project Operations 的轉承包功能之前，應該了解的重要概念。
 
 ## <a name="contracting-unit-on-the-subcontract"></a>轉包合約上的合約單位
 

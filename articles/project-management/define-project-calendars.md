@@ -1,6 +1,6 @@
 ---
 title: 定義專案行事曆
-description: 本主題提供有關如何將行事曆範本套用至專案以追蹤專案排程的資訊。
+description: 本文提供有關如何將行事曆範本套用至專案以追蹤專案排程的資訊。
 author: ruhercul
 ms.date: 02/05/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 0e31fcaf039ae214394b08b60b5d41987dc648e7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e195cdb0dc5acc2ea816fadce40811675a855de2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578928"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933528"
 ---
 # <a name="define-project-calendars"></a>定義專案行事曆
 

@@ -1,6 +1,6 @@
 ---
 title: 費用管理行動工作區
-description: 本主題提供有關費用管理行動工作區的資訊。 此工作區允許使用者擷取並上傳收據，讓他們可以稍後將收據附加至費用報表。 使用者也可以使用附加的收據快速建立費用明細，並建立和管理他們的費用報表。
+description: 本文提供費用管理行動工作區的相關資訊。 此工作區允許使用者擷取並上傳收據，讓他們可以稍後將收據附加至費用報表。 使用者也可以使用附加的收據快速建立費用明細，並建立和管理他們的費用報表。
 author: suvaidya
 ms.date: 12/01/2017
 ms.topic: article
@@ -12,16 +12,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d5309b55ed146d21d7a42e0b40add9ee346d48aa
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: aba8073fcf788f94bbcc622ab963426d230e9999
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682792"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920878"
 ---
 # <a name="expense-management-mobile-workspace"></a>費用管理行動工作區
 
-本主題提供有關 **費用管理** 行動工作區的資訊。 此工作區允許使用者擷取並上傳收據，讓他們可以稍後將收據附加至費用報表。 使用者也可以使用附加的收據快速建立費用明細，並建立和管理他們的費用報表。 此外，核准者還可以使用 **費用管理** 行動工作區來檢視指派給他們的費用報表，並核准或拒絕這些費用報表。
+本文提供 **費用管理** 行動工作區的相關資訊。 此工作區允許使用者擷取並上傳收據，讓他們可以稍後將收據附加至費用報表。 使用者也可以使用附加的收據快速建立費用明細，並建立和管理他們的費用報表。 此外，核准者還可以使用 **費用管理** 行動工作區來檢視指派給他們的費用報表，並核准或拒絕這些費用報表。
 
 
 此行動工作區旨在與 Dynamics 365 Unified Ops 行動應用程式搭配使用。

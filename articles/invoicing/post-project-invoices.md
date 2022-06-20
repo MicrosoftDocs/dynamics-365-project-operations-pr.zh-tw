@@ -1,17 +1,17 @@
 ---
 title: 發票開立程序概觀
-description: 本主題提供在資源/非庫存型案例適用的 Project Operations 中開立發票的程序概觀。
+description: 本文提供有關在資源/非庫存型案例適用 Project Operations 中發票開立程序概觀的資訊。
 author: sigitac
 ms.date: 01/29/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 0328d5321909bcc17754da4e19d7652b77a665d5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6b285a88be14a5972e9a4604713d7d35a3a442b6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582700"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923086"
 ---
 # <a name="invoicing-process-overview"></a>發票開立程序概觀
 

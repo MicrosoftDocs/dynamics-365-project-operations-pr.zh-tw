@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d919a26000b127dd6fb2fd8a49d79e3087f1c403
-ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
+ms.openlocfilehash: 6c9424b8aaf867254bde085cffaa649c846920cc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8709954"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933988"
 ---
 # <a name="configure-expense-management"></a>設定費用管理
 
-本主題說明設定費用管理之前，您必須在規劃過程中進行的考量和決策。 在費用管理中，您可以儲存付款方式、差旅申請、費用報表、原則等相關資訊。
+本文說明在設定費用管理之前的規劃期間，您必須進行的考量和決策。 在費用管理中，您可以儲存付款方式、差旅申請、費用報表、原則等相關資訊。
 
 因為在規劃費用管理設定時所做的許多決策是根據組織的階層和財務結構而定，您必須參考這些區域的計劃文件。
 

@@ -1,6 +1,6 @@
 ---
 title: 從 Project Service Automation 到 Project Operations 的功能變更
-description: 本主題提供從 Project Service Automation 到 Dynamics 365 Project Operations 的功能變更概觀。
+description: 本文提供從 Project Service Automation 到 Dynamics 365 Project Operations 的功能變更概觀。
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/03/2022
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7e41b381d6da267f58174305f33fc229c66cd7b7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8a6030faf777051ea1003679589af4bdf97322ab
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595396"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925340"
 ---
 # <a name="feature-changes-from-project-service-automation-to-project-operations"></a>從 Project Service Automation 到 Project Operations 的功能變更
 
-從 Dynamics 365 Project Service Automation 至 Dynamics 365 Project Operations 精簡版的升級分三個階段提供。 本主題提供有關完成升級時預期可看到的主要變更的資訊。
+從 Dynamics 365 Project Service Automation 至 Dynamics 365 Project Operations 精簡版的升級分三個階段提供。 本文提供有關完成升級時預期可看到的主要變更的資訊。
 
 | 升級傳遞 | 階段 1 <br>(2022 年 1 月) | 階段 2 <br>(2022 年 4 月浪潮) | 階段 3  |
 |------------------|------------------------|---------------------------|---------------------------|

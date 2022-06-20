@@ -1,23 +1,23 @@
 ---
 title: 收入認列概觀
-description: 本主題提供 Project Operations 中收入認列的資訊。
+description: 本文提供有關 Project Operations 中收入認列的資訊。
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 51c553ecf45452615cbcadce6386f32be427acaa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 22486693226256f765589b272e6df36aceaf9c1c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601422"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926260"
 ---
 # <a name="revenue-recognition-overview"></a>收入認列概觀
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
-在 Dynamics 365 Project Operations 中，收入認列原則會根據專案或專案的一部分所選取的帳務方式而有所不同。 本主題提供 Project Operations 中收入認列的資訊。
+在 Dynamics 365 Project Operations 中，收入認列原則會根據專案或專案的一部分所選取的帳務方式而有所不同。 本文提供有關 Project Operations 中收入認列的資訊。
 
 ## <a name="transactions-accounted-using-time-and-material-billing-method"></a>使用時間和資料帳務方式記帳的交易
 

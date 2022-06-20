@@ -1,24 +1,24 @@
 ---
 title: 2022 年 3 月 - Project Operations 精簡部署新增功能
-description: 本主題提供有關 Project Operations 精簡部署 2022 年 3 月發行版本中所提供之品質更新的資訊。
+description: 本文提供有關 Project Operations 精簡部署 2022 年 3 月發行版本中所提供之品質更新的資訊。
 author: sigitac
 ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8a83491da1d312406dfb36f5ad214c307c15cfbf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 321d59568bfd33bb00a1500afe514fbecf9a0250
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583740"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934218"
 ---
 # <a name="whats-new-march-2022---project-operations-lite-deployment"></a>2022 年 3 月 - Project Operations 精簡部署新增功能
 
 _適用於：精簡部署 - 交易至開立預估發票_
 
-本主題適用於 Microsoft Dynamics 365 Project Operations 的下列元件和版本：
+本文適用於 Microsoft Dynamics 365 Project Operations 的下列元件和版本：
 
 - Dataverse 環境 4.30.0.99 版中的 Project Operations
 
@@ -40,7 +40,7 @@ _適用於：精簡部署 - 交易至開立預估發票_
 | 帳單和定價 | 2558859 | 改善進行定價維度設定時的錯誤訊息。 |
 | 帳單和定價 | 2558933 | 將 **msdyn\_project** 新增為定價維度時，**從專案估計值匯入** 失敗。 |
 | 帳單和定價 | 2559101 | 專案參數刪除作業未封鎖，並造成問題。 |
-| 商機管理 | 2570390 | 雙重寫入外掛程式強制報價、訂單及商機上的帳戶類型做為 **客戶**，即使該帳戶類型不正確。 |
+|   商機管理 | 2570390 | 雙重寫入外掛程式強制報價、訂單及商機上的帳戶類型做為 **客戶**，即使該帳戶類型不正確。 |
 | 帳單和定價 | 2586097 | 從專案合約服務內容移除專案時，未沖回分割的已開單成本實際值。 |
 | 帳單和定價 | 2589619 | 目錄外材料上的稅金會傳播至未開單銷售實際值和發票。 |
 |   商機管理 | 2594015 | 對於付款條件為 **Net60** 的客戶，無法以成交關閉報價。 |
@@ -51,9 +51,9 @@ _適用於：精簡部署 - 交易至開立預估發票_
 
 ## <a name="removed-and-deprecated-features"></a>已移除和已取代的功能
 
-[Project Operations 中已移除或已取代的功能](../../whats-new/removed-depreciated-features-project.md)主題說明 Dynamics 365 Project Operations 已移除或已取代的功能。
+[Project Operations 中已移除或已取代的功能](../../whats-new/removed-depreciated-features-project.md)文章題說明 Dynamics 365 Project Operations 已移除或已取代的功能。
 
 - 已移除的功能在產品中不復存在。
 - 取代的功能不在主動開發之列，可能會在未來的更新中遭移除。
 
-將任何功能從產品移除之前 12 個月，取代公告會出現在 [Project Operations 中已移除或已取代的功能](../../whats-new/removed-depreciated-features-project.md)主題中。
+將任何功能從產品移除之前 12 個月，取代公告會出現在 [Project Operations 中已移除或已取代的功能](../../whats-new/removed-depreciated-features-project.md)文章中。

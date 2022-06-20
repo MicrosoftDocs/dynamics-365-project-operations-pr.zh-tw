@@ -1,6 +1,6 @@
 ---
 title: 費用管理概觀
-description: 本主題提供有關費用管理的一般資訊，以及其他資源的連結。 您可以使用費用管理來建立整合式工作流程，讓您可以儲存付款方式資訊、匯入信用卡交易，以及追蹤員工在開支業務費用時所花費的資金。
+description: 本文提供有關費用管理的一般資訊，以及其他資源的連結。 您可以使用費用管理來建立整合式工作流程，讓您可以儲存付款方式資訊、匯入信用卡交易，以及追蹤員工在開支業務費用時所花費的資金。
 author: ShylaThompson
 ms.date: 07/25/2019
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 93a8581db26dfecb9f847740c979e096dc3e227d
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 778a068bc80b099037b895f7e0d4add4d454242f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684816"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934034"
 ---
 # <a name="expense-management-overview"></a>費用管理概觀
 
@@ -39,7 +39,7 @@ ms.locfileid: "8684816"
 
 費用報表項目經過重新設計，可以簡化體驗，並減少完成費用報表所需的時間。 您可以在 [功能管理] 中啟用此功能。 您可以新增新的設定頁面，以設定費用欄位的顯示性，並指定哪些資料在輸入費用報表時是必要、選用或不適用的資料。 開啟此功能時，即可使用新的費用工作區。 此工作區取代先前的費用工作區，並且是改善輸入體驗的登陸頁面。
 
-如需詳細資訊，請參閱[顛覆想像的費用報表](ExpenseWorkspaceNew.md)。
+如需詳細資訊，請參閱[重新定義的費用報表](ExpenseWorkspaceNew.md)。
 
 ### <a name="blogs"></a>部落格
 

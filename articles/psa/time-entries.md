@@ -1,6 +1,6 @@
 ---
 title: 建立時間項目
-description: 此主題提供有關如何建立時間項目的資訊。
+description: 本文提供有關如何建立時間項目的資訊。
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4b8f88da372cd56b19bed82ad6918da6ddd6f202
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1b707ccb970365ddbac75646da902733e2976d48
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593510"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930768"
 ---
 # <a name="create-time-entries"></a>建立時間項目
 

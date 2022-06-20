@@ -1,6 +1,6 @@
 ---
 title: 將專案實際值從 Project Service Automation 直接同步處理至要在 Finance and Operations 中進行過帳的專案整合帳目
-description: 本主題說明用來將 Microsoft Dynamics 365 Project Service Automation 中的專案實際值直接同步處理至 Finance and Operations 的範本及基礎工作。
+description: 本文說明用來將 Microsoft Dynamics 365 Project Service Automation 中的專案實際值直接同步處理至財務和營運的範本及基礎工作。
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 12929c324bb3a7c344edc9be2e3a8f4941ff9ea4
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7d912a11d9c7bc66ed43911ee32f25092d551cd6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683528"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929480"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>將專案實際值從 Project Service Automation 直接同步處理至要在 Finance and Operations 中進行過帳的專案整合帳目
 
 [!include[banner](../includes/banner.md)]
 
-本主題說明用來將 Dynamics 365 Project Service Automation 中的專案實際值直接同步處理至 Dynamics 365 Finance 的範本及基礎工作。
+本文說明用來將 Dynamics 365 Project Service Automation 中的專案實際值直接同步處理至 Dynamics 365 Finance 的範本及基礎工作。
 
 範本會將交易從 Project Service Automation 同步處理至 Finance 中的暫存表格。 完成同步處理後，您 **必須** 將資料從暫存表格匯入至整合日記帳中。
 

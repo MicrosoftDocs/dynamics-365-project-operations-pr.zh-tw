@@ -1,6 +1,6 @@
 ---
 title: 專案時間項目行動工作區
-description: 本主題提供有關專案時間項目行動工作區的資訊。 此工作區可讓使用者使用行動裝置來輸入和儲存專案的時間。
+description: 本文提供專案時間項目行動工作區的相關資訊。 此工作區可讓使用者使用行動裝置來輸入和儲存專案的時間。
 author: Yowelle
 ms.date: 12/01/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 64a80d931332a4d6edfcd175d7168a7815ddca38
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: a163e32dae0231b5d71d1de2dbb473593b989164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683942"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919528"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>專案時間項目行動工作區
 
 [!include [banner](../includes/banner.md)]
 
-本主題提供有關 **專案時間項目** 行動工作區的資訊。 此工作區可讓使用者使用行動裝置來輸入和儲存專案的時間。
+本文提供 **專案時間項目** 行動工作區的相關資訊。 此工作區可讓使用者使用行動裝置來輸入和儲存專案的時間。
 
 此行動工作區旨在與 Dynamics 365 Unified Ops 行動應用程式搭配使用。 
 

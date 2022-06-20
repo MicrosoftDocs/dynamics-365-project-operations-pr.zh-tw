@@ -1,17 +1,17 @@
 ---
 title: 將轉包商設定為可預約資源
-description: 本主題說明如何設定和維護從系統中使用者及連絡人所建立的轉包商資源，讓他們可以與 Microsoft Dynamics 365 Project Operations 中的轉包合約建立關聯。
+description: 本文說明如何設定和維護從系統中使用者及連絡人所建立的轉包商資源，讓這些資源可以在 Microsoft Dynamics 365 Project Operations 中建立與轉包合約的關聯。
 author: rumant
 ms.date: 07/28/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6d2f250063afc24de99e308d8d7583d1822bcabb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f005a05fb874f9e32a0041db5fc8fa1228fc91f1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597236"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927502"
 ---
 # <a name="set-up-subcontractors-as-bookable-resources"></a>將轉包商設定為可預約資源
 

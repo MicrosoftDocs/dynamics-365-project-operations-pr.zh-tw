@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation 中的預約配置方法
-description: 本主題提供有關您可以預約配置的不同方式的資訊。
+description: 本文提供有關您可以預約配置的不同方式的資訊。
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: f0f4f5c68698fbe88de968e65a65b316b10872d9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dff11de0726004653233c6b90e194825c3850e0c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590106"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929158"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Project Service Automation 中的預約配置方法
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-不論您是直接將團隊成員新增至 **團隊** 索引標籤上的專案，還是透過排程面板將資源預約到專案或需求，您都有一些可以用來預約配置的不同方法。 本主題說明每個方法的運作方式，以及哪些方法可能導致過量預約資源。
+不論您是直接將團隊成員新增至 **團隊** 索引標籤上的專案，還是透過排程面板將資源預約到專案或需求，您都有一些可以用來預約配置的不同方法。 本文說明每個方法的運作方式，以及哪些方法可能導致過量預約資源。
 
 ## <a name="full-capacity"></a>完整產能 
 [完整產能] 方法會預約資源指定之開始日期到結束日期的完整產能。 例如，如果資源的行事曆是設定為每日工作八小時 (一週五日)，則設定涵蓋五個工作日的開始和結束日期會預約 40 小時的資源。 預約是在不考慮資源剩餘產能的情況下完成。 如果其他專案已預約該期間的資源，則此 40 小時會預約為額外時數，這可能導致過量預約。

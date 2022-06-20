@@ -1,17 +1,17 @@
 ---
 title: 解析專案估計值及實際值的銷售價
-description: 本主題提供有關在專案估計值和實際值上解析銷售價的資訊。
+description: 本文提供有關解析專案估計值及實際值之銷售價的資訊。
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8aa731d48a3ce39dfbf4fc1e5934b0844caf2953
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9a6a19a866ab3218f2a0fa297b5f6a00ed809d2f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575709"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917474"
 ---
 # <a name="resolve-sales-prices-for-project-estimates-and-actuals"></a>解析專案估計值及實際值的銷售價
 

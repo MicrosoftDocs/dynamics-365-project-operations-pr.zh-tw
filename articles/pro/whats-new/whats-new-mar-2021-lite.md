@@ -1,25 +1,25 @@
 ---
 title: 2021 年 3 月 - Project Operations 精簡部署新增功能
-description: 本主題提供關於 Project Operations Lite 精簡部署 2021 年 3 月版本中所提供之品質更新的資訊。
+description: 本文提供有關 Project Operations 精簡部署 2021 年 3 月發行版本中所提供之品質更新的資訊。
 author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dd9c3b5fc4eb30aaf385ba67a8d54875048e40cd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8ab045af503e9944fbc013b4e75ce45446786912
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583850"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913886"
 ---
 # <a name="whats-new-march-2021---project-operations-lite-deployment"></a>2021 年 3 月 - Project Operations 精簡部署新增功能
 
 _適用於：精簡部署 - 交易至開立預估發票_
 
 
-此主題適用於下列 Dynamics 365 Project Operations 元件和版本：
+這篇文章適用於下列 Dynamics 365 Project Operations 元件和版本：
 
 - Dataverse 環境的 Project Operations 版本 4.8.0.91 
 

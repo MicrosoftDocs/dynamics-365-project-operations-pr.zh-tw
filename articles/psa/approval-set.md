@@ -1,18 +1,18 @@
 ---
 title: Project Service Automation 中的核准集
-description: 本主題提供有關核准集、要求以及這些作業子集的資訊。
+description: 本文提供核准集、要求以及這些作業子集的相關資訊。
 author: stsporen
 manager: tfehr
 ms.date: 05/28/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 0783441d3bf7ed80192a3890a2e297fea05fe425
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 568815967b909d2a5ee9bf40b4fee97e0ad4d295
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583298"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927042"
 ---
 # <a name="approval-sets-in-project-service-automation"></a>Project Service Automation 中的核准集
 

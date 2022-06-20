@@ -1,17 +1,17 @@
 ---
 title: 排程模式
-description: 本主題提供有關排程模式的資訊。
+description: 本文提供排程模式的相關資訊。
 author: ruhercul
 ms.date: 05/28/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: cb507528c4815f5149c813bba0a354f7d840a4a5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3cbe14f8d458c5d9631e0595912afa8cbb87b9de
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588404"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923638"
 ---
 # <a name="scheduling-modes"></a>排程模式
 
@@ -38,7 +38,7 @@ Project Operations 中有三種可用的排程模式：
 | 固定投入量工作    | 重新計算期間。 | 重新計算單位。    | 重新計算期間。 |
 | 固定期間工作  | 重新計算投入量。   | 重新計算投入量。    | 重新計算單位。   |
 
-如需指定模式隱含意義的詳細資訊，請參閱[變更工作類型以取得更準確的排程](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72)。 在主題中，使用的是 **工作** 一詞，而不是 **投入量**。
+如需指定模式隱含意義的詳細資訊，請參閱[變更工作類型以取得更準確的排程](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72)。 文章中的用語是 **工作** 而不是 **投入量**。
 
 ## <a name="change-the-organizations-scheduling-mode"></a>變更組織的排程模式
 

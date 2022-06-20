@@ -1,17 +1,17 @@
 ---
 title: 回收先前已核准的項目
-description: 本主題說明專案團隊成員如何要求回收先前所提交和核准的時間、費用及材料使用記錄，以及專案經理如何核准或拒絕回收要求。
+description: 本文說明專案團隊成員如何要求回收先前所提交和核准的時間、費用及材料使用記錄，以及專案經理如何核准或拒絕回收要求。
 author: rumant
 ms.date: 01/31/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 18796e803ff73806aaa60b453048ee3160406b40
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 54fc7ac2301a4423ebf70b0b67ad489580c347b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586564"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930354"
 ---
 # <a name="recall-previously-approved-entries"></a>回收先前已核准的項目
 

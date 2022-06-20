@@ -1,17 +1,17 @@
 ---
 title: 時間項目 UI 行為
-description: 本主題提供有關時間項目 UI 行為的資訊。
+description: 本文提供時間項目 UI 行為的相關資訊。
 author: stsporen
 ms.date: 03/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 5b7bd3e9145673268907e749decdd728dcfb533f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b39f182901681875eb90f17d9421bcad63762f54
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601330"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918164"
 ---
 # <a name="time-entry-ui-behavior"></a>時間項目 UI 行為
 
@@ -21,7 +21,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 **每週時間項目** 網格是自訂控制項，其中有 **維度** 和 **期間** 這兩個主要區段。
 
 ## <a name="keyboard-shortcuts"></a>鍵盤快速鍵
-| 動作​​        | 捷徑                  |
+| 動作        | 捷徑                  |
 |------------   |------------------------   |
 | 新的           | Alt + Shift + n           |
 | 複製列      | Alt + Shift + c           |

@@ -1,6 +1,6 @@
 ---
 title: Project Service 3.x 的更新版本排程
-description: 本主題提供有關 Dynamics 365 Project Service Automation 可用版本與即將發行版本的資訊。
+description: 本文提供有關 Dynamics 365 Project Service Automation 已提供及即將發行版本的資訊。
 ms.custom: dyn365-projectservice
 ms.date: 03/28/2022
 ms.reviewer: johnmichalak
@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5be7327999b4f29801a8ba3826524c66b04be8fa
-ms.sourcegitcommit: f366fe0ba062e4e500921854563d57ee3bfd1ce5
+ms.openlocfilehash: 07bc494d6e2650673f664ef13a38cf50bebf11c9
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8732876"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959396"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Project Service 3.x 的更新版本排程
 
@@ -37,7 +37,7 @@ ms.locfileid: "8732876"
 
 | 方案  |  最新版本 |
 |-------|----|
-| Project Service Automation    | 3.10.74.200 |
+| Project Service Automation    | 3.10.75.142 |
 | Project Service Automation 桌面增益集                | 3.60          |
 
 如需 Project Service 更新的詳細資訊，請參閱 [Dynamics 365 發行計劃](/dynamics365/release-plans/)。 
@@ -45,30 +45,30 @@ ms.locfileid: "8732876"
 | 站別  | 地區 | 目前版本 | 下一版 |  排程日期
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>第 1 站</strong> | |  |  | |
-| | <i>第一個版本</i> | [3.10.74.200](whats-new-ur43.md) | 待定 | 2022 年 5 月 27 日
+| | <i>第一個版本</i> | [3.10.75.142](whats-new-ur-44.md) | 待定 | 2022 年 7 月 1 日
 |<strong>第 2 站</strong> | |  |  | |
-| | <i>南美洲</i> | [3.10.74.200](whats-new-ur43.md) | 待定 | 2022 年 6 月 3 日
-| | <i>加拿大</i> | [3.10.74.200](whats-new-ur43.md) | 待定 | 2022 年 6 月 3 日
-| | <i>印度</i> | [3.10.74.200](whats-new-ur43.md) | 待定 | 2022 年 6 月 3 日
-| | <i>法國</i> | [3.10.74.200](whats-new-ur43.md) | 待定 | 2022 年 6 月 3 日
-| | <i>南非</i> | [3.10.74.200](whats-new-ur43.md) | 待定 | 2022 年 6 月 3 日
-| | <i>德國</i> | [3.10.74.200](whats-new-ur43.md) | 待定 | 2022 年 6 月 3 日
-| | <i>瑞士</i> | [3.10.74.200](whats-new-ur43.md) | 待定 | 2022 年 6 月 3 日
-| | <i>南韓</i> | [3.10.74.200](whats-new-ur43.md) | 待定 | 2022 年 6 月 3 日
-| | <i>挪威</i> | [3.10.74.200](whats-new-ur43.md) | 待定 | 2022 年 6 月 3 日
+| | <i>南美洲</i> | [3.10.75.142](whats-new-ur-44.md) | 待定 | 2022 年 7 月 8 日
+| | <i>加拿大</i> | [3.10.75.142](whats-new-ur-44.md) | 待定 | 2022 年 7 月 8 日
+| | <i>印度</i> | [3.10.75.142](whats-new-ur-44.md) | 待定 | 2022 年 7 月 8 日
+| | <i>法國</i> | [3.10.75.142](whats-new-ur-44.md) | 待定 | 2022 年 7 月 8 日
+| | <i>南非</i> | [3.10.75.142](whats-new-ur-44.md) | 待定 | 2022 年 7 月 8 日
+| | <i>德國</i> | [3.10.75.142](whats-new-ur-44.md) | 待定 | 2022 年 7 月 8 日
+| | <i>瑞士</i> | [3.10.75.142](whats-new-ur-44.md) | 待定 | 2022 年 7 月 8 日
+| | <i>南韓</i> | [3.10.75.142](whats-new-ur-44.md) | 待定 | 2022 年 7 月 8 日
+| | <i>挪威</i> | [3.10.75.142](whats-new-ur-44.md) | 待定 | 2022 年 7 月 8 日
 |<strong>第 3 站</strong> | |  |  | |
-| | <i>日本</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 2022 年 5 月 13 日
-| | <i>亞太區域</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 2022 年 5 月 13 日
-| | <i>英國</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 2022 年 5 月 13 日
-| | <i>大洋洲</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 2022 年 5 月 13 日
-| | <i>阿拉伯聯合大公國</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 2022 年 5 月 13 日
+| | <i>日本</i> | [3.10.75.142](whats-new-ur-44.md) | 待定 | 2022 年 7 月 15 日
+| | <i>亞太區域</i> | [3.10.75.142](whats-new-ur-44.md) | 待定 | 2022 年 7 月 15 日
+| | <i>英國</i> | [3.10.75.142](whats-new-ur-44.md) | 待定 | 2022 年 7 月 15 日
+| | <i>大洋洲</i> | [3.10.75.142](whats-new-ur-44.md) | 待定 | 2022 年 7 月 15 日
+| | <i>阿拉伯聯合大公國</i> | [3.10.75.142](whats-new-ur-44.md) | 待定 | 2022 年 7 月 15 日
 |<strong>第 4 站</strong> | |  |  | |
-| | <i>歐洲</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 2022 年 5 月 20 日
+| | <i>歐洲</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | 2022 年 6 月 17 日
 |<strong>第 5 站</strong> | |  |  | |
-| | <i>北美洲</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 2022 年 5 月 29 日
+| | <i>北美洲</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | 2022 年 6 月 24 日
 |<strong>第 6 站</strong> | |  |  | |
-| | <i>政府社群雲端</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 2022 年 5 月 29 日
-| | <i>專用級別群組</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 2022 年 6 月 3 日
+| | <i>政府社群雲端</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | 2022 年 6 月 24 日
+| | <i>專用級別群組</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | 2022 年 7 月 1 日
 
 
 

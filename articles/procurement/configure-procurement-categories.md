@@ -1,18 +1,18 @@
 ---
 title: 將採購類別與專案採購單及待處理廠商發票搭配使用
-description: 本主題說明如何設定可與專案採購單及待處理廠商發票搭配使用的採購類別。
+description: 本文說明如何設定可與專案採購單及待處理廠商發票搭配使用的採購類別。
 author: sigitac
 ms.date: 04/07/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee68d7906cb0c887c19a32363ec7fda547cb74bd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: 7d774631a4712de9b29ddedfee2ea3fc4a2d436f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8613248"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927410"
 ---
 # <a name="use-procurement-categories-with-project-purchase-orders-and-pending-vendor-invoices"></a>將採購類別與專案採購單及待處理廠商發票搭配使用
 
@@ -47,7 +47,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 1. 移至 **採購和委外 \> 採購類別**。
 1. 選取 **編輯類別階層**。
-1. 選取所需的類別階層節點，然後在 **指派專案類別** 索引標籤上，將節點與 **時間**、**費用**或 **項目專案** 類別 (即 **預設時間** 或 **預設費用** 類別) 中的專案類別建立關聯。
+1. 選取所需的類別階層節點，然後在 **指派專案類別** 索引標籤上，將節點與 **時間**、**費用** 或 **項目專案** 類別 (即 **預設時間** 或 **預設費用** 類別) 中的專案類別建立關聯。
 1. 選取 **儲存**。
 1. 關閉頁面。
 

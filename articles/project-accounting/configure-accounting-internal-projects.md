@@ -1,17 +1,17 @@
 ---
 title: 設定內部專案會計
-description: 本主題提供有關如何為 Project Operations 內部專案設定會計實務的資訊。
+description: 本文提供有關如何在 Project Operations 中設定內部專案會計做法的資訊。
 author: sigitac
 ms.date: 10/09/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9da72d8dbf720e380a49a1010caca472ee024783
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7fc2b7247da699a194688b18aa0a695b06cc44c6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597834"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919452"
 ---
 # <a name="configure-accounting-for-internal-projects"></a>設定內部專案會計
 

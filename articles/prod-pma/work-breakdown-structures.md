@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1e69d7cc97e3a7a59bdba387282fe19d12f5780
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7f1a77c6e4e5f0926ff7afe1066f9a0cf7cdfb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683352"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920648"
 ---
 # <a name="work-breakdown-structures-overview"></a>分工結構圖階層概觀
 
@@ -35,7 +35,7 @@ WBS 的詳細程度取決於估計值所需的準確度以及針對這些估計�
 
 相比之下，媒體與廣告、軟體以及 IT 基礎結構等產業中的專案多半很獨特，而且生產力是看執行任務者個人的經驗和能力而定。 因此，這些產業會使用 WBS 取得專案的近似大小，而不是詳細追蹤該專案的進度。 
 
-建立 WBS 是一項繁複程序，通常歷時甚久才能完成，而且需要各種各樣的人進行共同作業與資訊交流。 本主題說明如何使用 WBS 增強功能來您的評估與追蹤需求。
+建立 WBS 是一項繁複程序，通常歷時甚久才能完成，而且需要各種各樣的人進行共同作業與資訊交流。 本文說明如何使用 WBS 增強功能來滿足您的估計值和追蹤需求。
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>建立 WBS 的先決條件
 若要建立 WBS，您必須可以建立工作排程並估計工作成本。
@@ -166,7 +166,7 @@ Finance 有三個適用於專案 WBS 的檢視表：規劃檢視表、投入量�
 
 ### <a name="planning-view"></a>規劃檢視表
 
-規劃檢視表會顯示排程與成本資訊的計劃或基準估計。 雖然沒有用於追蹤專案 WBS 版本與基準的功能，但是此檢視表中的值主要用來表示基準版本。 本主題的「排程估計值」及「成本估計值」小節說明此檢視表以及如何用來建立 WBS。
+規劃檢視表會顯示排程與成本資訊的計劃或基準估計。 雖然沒有用於追蹤專案 WBS 版本與基準的功能，但是此檢視表中的值主要用來表示基準版本。 本文中的「排程估計」和「成本估計」章節說明此檢視表以及如何將其用於建立 WBS。
 
 ### <a name="effort-tracking-view"></a>努力追蹤檢視表
 

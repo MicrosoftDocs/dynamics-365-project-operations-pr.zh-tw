@@ -1,17 +1,17 @@
 ---
 title: 專案報價明細概觀
-description: 本主題提供有關使用專案報價明細進行專案工作的資訊。
+description: 本文提供有關將專案報價明細用於專案工作的資訊。
 author: rumant
 ms.date: 10/01/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 07ee2e6a7823b25eacb1c7ad6180f8af571348bb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c74b14e4ccfc1e47c0a1df62980ab7a3d619617d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587024"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920142"
 ---
 # <a name="project-quote-lines-overview"></a>專案報價明細概觀
 

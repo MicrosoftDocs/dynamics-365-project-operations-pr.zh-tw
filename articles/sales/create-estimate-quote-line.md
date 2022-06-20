@@ -1,6 +1,6 @@
 ---
-title: 在報價訂單上建立估計值
-description: 本主題提供有關如何在專案的報價明細上建立估計值的資訊。
+title: 在報價明細上建立估計值
+description: 本文提供有關如何在專案報價明細上建立估計值的資訊。
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 2a673c3ff646e76cf150dbcac40373d5dddcc4ae
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9f606ff2c33c46063f7025e8bc58e704d472061b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582240"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912552"
 ---
-# <a name="create-estimates-on-a-quote-line"></a>在報價訂單上建立估計值
+# <a name="create-estimates-on-a-quote-line"></a>在報價明細上建立估計值
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
 在專案型報價上，您可以使用報價明細詳細資料實體來估計交付專案所需的工作。 然後就可以與客戶分享該估計值。
 
-專案型報價單明細不必有任何報價明細詳細資料。 或者，可以有許多報價明細詳細資料。 報價明細詳細資料可用來估計時間、費用或服務費。 Dynamics 365 Project Operations 不允許估計報價明細詳細資料上的材料。 這些稱為交易分類。 估計的稅額也可以在交易分類上輸入。
+專案型報價明細不必有任何報價明細詳細資料。 或者，可以有許多報價明細詳細資料。 報價明細詳細資料可用來估計時間、費用或服務費。 Dynamics 365 Project Operations 不允許估計報價明細詳細資料上的材料。 這些稱為交易分類。 估計的稅額也可以在交易分類上輸入。
 
 除了交易分類之外，報價明細詳細資料還有一種交易類型。 報價明細詳細資料有兩種交易類型，即 **成本** 和 **專案合約**。
 

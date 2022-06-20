@@ -1,6 +1,6 @@
 ---
 title: 確認、更新和傳送專案報價
-description: 本主題提供有關將報價傳送給客戶作確認、根據意見反應修改後再重新傳送報價的資訊。
+description: 本文提供有關向客戶傳送報價以進行確認、根據意見反應進行修改，然後重新傳送報價的資訊。
 author: ruhercul
 ms.date: 05/09/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: ec8a000bea7d80827e2e63b03ed9229b1ecbe1c9
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 445362523b7e38e8543cbc89f9dacf4aca048f0c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684126"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932240"
 ---
 # <a name="confirm-update-and-send-a-project-quotation"></a>確認、更新和傳送專案報價
 

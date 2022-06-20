@@ -1,17 +1,17 @@
 ---
 title: 專案報價的摘要資訊 - 精簡
-description: 本主題提供有關套用至專案報價並對其造成影響之資訊及設定的資訊。 (Sales)
+description: 本文提供有關套用至專案報價並對其造成影響之資訊及設定的資訊。 (Sales)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 267978da59ba1c916272ec0c9ff9044ed0d81f50
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3441348cb46804f8f76cb23b3f916fe69c3fbe99
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574880"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917014"
 ---
 # <a name="header-details-for-project-quotes"></a>專案報價的標題詳細資料
 

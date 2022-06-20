@@ -1,17 +1,17 @@
 ---
 title: 專案的費用財務估計值
-description: 本主題提供有關定義或估計專案型費用的資訊。
+description: 本文提供有關定義或估計專案型費用的資訊。
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c14dc31d666d0e0d026cf9cddfa1e78dee40f717
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5a29244a65dd88d3ba0f8333a63627bb0c068273
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589462"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925666"
 ---
 # <a name="financial-estimates-for-expenses-on-projects"></a>專案的費用財務估計值
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_

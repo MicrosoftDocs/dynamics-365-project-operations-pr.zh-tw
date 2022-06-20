@@ -1,6 +1,6 @@
 ---
 title: 自訂每週時間項目
-description: 本主題提供有關如何實作支援組織實務之自訂商務規則的資訊。
+description: 本文提供有關如何實作支援組織實務之自訂商務規則的資訊。
 author: stsporen
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1cc32a1d8776f4adaa0031154aba6bd6733b7f7d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bdc8df4050d895504fa126e2ee55fcd3b4de123f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581044"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918946"
 ---
 # <a name="customize-weekly-time-entry"></a>自訂每週時間項目 
 
@@ -46,9 +46,9 @@ ms.locfileid: "8581044"
 - Type
 - 項目狀態
 
-**維度** 區段不允許直接編輯。 此區段是由可讓自訂欄位新增至每週時間輸入網格的檢視表所支援。 如需如何新增自訂欄位的詳細資訊，請參閱本主題後面的「擴充性」一節。
+**維度** 區段不允許直接編輯。 此區段是由可讓自訂欄位新增至每週時間輸入網格的檢視表所支援。 如需如何新增自訂欄位的詳細資訊，請參閱本文稍後的「擴充性」一節。
 
-### <a name="duration"></a>期間
+### <a name="duration"></a>Duration
 [期間] 區段以欄標題顯示一週中哪幾天。 此區段允許直接編輯。 建立具有適當維度的時間項目列之後，使用者就可以直接快速輸入他們在這些維度上花費的時間量。
 
 ## <a name="create-a-new-time-entry"></a>建立新的時間項目

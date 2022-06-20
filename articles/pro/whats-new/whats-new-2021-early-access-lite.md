@@ -1,24 +1,24 @@
 ---
 title: 2021 年第 2 段浪潮搶先體驗的新增功能 - Project Operations 精簡部署
-description: 本主題提供有關 Project Operations 精簡部署 2021 年第 2 段浪潮搶先體驗版本中所提供功能的資訊。
+description: 本文提供有關 Project Operations 精簡部署 2021 年第 2 段浪潮搶先體驗中所提供之功能的資訊。
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
-ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.openlocfilehash: d245868c8bd9ff332707a81c074d6c7ae3649378
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723666"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924098"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>2021 年第 2 段浪潮搶先體驗的新增功能 - Project Operations 精簡部署
 
 _適用於：精簡部署 - 交易至開立預估發票_
 
-此主題適用於下列 Dynamics 365 Project Operations 元件和版本：
+這篇文章適用於下列 Dynamics 365 Project Operations 元件和版本：
 
   - Dataverse 環境的 Project Operations 版本 4.23.0.4
 

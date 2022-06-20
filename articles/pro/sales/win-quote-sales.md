@@ -1,20 +1,20 @@
 ---
-title: 結束報價 - 精簡
-description: 本主題提供有關在 Project Operations 中關閉報價的資訊。
+title: 關閉報價 - 精簡
+description: 本文提供有關在 Project Operations 中關閉報價的資訊。
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: bde4794c19dd69b6dd77abf5483c674cd7503d23
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e3a199843f379dc53d63372f91e8be2e1bcbf4e9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574696"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916922"
 ---
-# <a name="close-a-quote---lite"></a>結束報價 - 精簡
+# <a name="close-a-quote---lite"></a>關閉報價 - 精簡
 
 _**適用於：** 精簡部署 - 交易至開立預估發票_
 

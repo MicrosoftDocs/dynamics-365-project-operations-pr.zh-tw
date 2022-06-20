@@ -1,24 +1,24 @@
 ---
 title: 庫存/生產型案例適用的 Project Operations 2021 年 5 月新功能或變更
-description: 本主題提供有關庫存/生產型案例適用之 Project Operations 2021 年 5 月發行版本所提供品質更新的資訊。
+description: 本文提供有關庫存/生產型案例適用 Project Operations 2021 年 5 月發行版本中所提供之品質更新的資訊。
 author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 701ed791dce2dd0f7d196810de7538c65cb99d93
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ec1f256e77bad581bb415611260809e377dc38e8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586288"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927134"
 ---
 # <a name="whats-new-or-changed-in-project-operations-may-2021-for-stockedproduction-based-scenarios"></a>庫存/生產型案例適用的 Project Operations 2021 年 5 月新功能或變更
 
 **適用於：** 庫存/生產型案例適用的 Project Operations
 
-此主題適用於下列 Dynamics 365 Project Operations 元件和版本：
+這篇文章適用於下列 Dynamics 365 Project Operations 元件和版本：
 
 - Dynamics 365 Finance 環境 10.0.19 版中的專案管理與會計
  

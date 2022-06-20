@@ -1,17 +1,17 @@
 ---
 title: 專案合約 - 重要概念 - 精簡
-description: 本主題提供有關專案合約重要概念的資訊。
+description: 本文提供有關專案合約重要概念的資訊。
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 09252e449c11d6602dccba83f26413f380698814
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e92edadc49469ad5f541be8bce7b7a8043b981e2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580584"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932654"
 ---
 # <a name="concepts-unique-to-project-contracts"></a>專案合約獨有的概念
 
@@ -19,7 +19,7 @@ _**適用於：** 精簡部署 - 交易至開立預估發票_
 
 
 
-此主題提供在 Dynamics 365 Project Operations 中開始使用專案合約之前，需注意的重要概念：
+本文提供開始使用 Dynamics 365 Project Operations 中的專案合約之前，應了解的重要概念：
 
 ## <a name="contracting-unit"></a>合約單位
 

@@ -1,17 +1,17 @@
 ---
 title: 新式核准的升級考量
-description: 本主題探討啟用新式核准功能時，系統管理員應納入考量的要點。
+description: 本文探討啟用新式核准功能時，系統管理員應納入考量的要點。
 author: stsporen
 ms.date: 01/31/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: a3757f057a801318feccde9be3e49c7b40fa8fcb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 44a933c92d4ef8dff40f20200d74c4bbdf8caa76
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578376"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931734"
 ---
 # <a name="upgrade-considerations-for-modern-approvals"></a>新式核准的升級考量 
 

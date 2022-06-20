@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation 版本 3 的新功能或變更
-description: 本主題提供 Project Service Automation 版本 3 中新推出或已變更功能的相關資訊。
+description: 本文提供有關 Project Service Automation 版本 3 新功能與變更的資訊。
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 15925cb88cc413f9a23a25e89ddd29668e9171de
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8d076e270f426131119eab097e7f359c228edb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581642"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926582"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Project Service Automation 版本 3 的新功能或變更
 
@@ -32,7 +32,7 @@ ms.locfileid: "8581642"
 
 
 
-本主題提供有關 Project Service Automation 在版本 2 或版本 1 與版本 3 之間對使用者介面 (UI)、功能和詞彙所做變更的資訊。
+本文提供有關 Project Service Automation 在版本 2 或版本 1 與版本 3 之間對使用者介面 (UI)、功能和詞彙所做變更的資訊。
 
 ## <a name="project-scheduling"></a>專案排程功能
 「專案排程」在舊版中稱為分工結構圖 (WBS)，現已重新命名為「排程」，您可按一下 **排程** 索引標籤來存取。 
@@ -150,7 +150,7 @@ ms.locfileid: "8581642"
 本節提供有關 Project Service Automation 版本 3 的時間、費用和核准變更的資訊。 隨附於 Dynamics 365 Project Service Automation 解決方案的 **時間項目** 功能已翻新成運用整合介面架構。 這樣就可以提供遵循回應式設計的一致整合使用者介面 (UI)，讓您在任何螢幕大小或裝置上都能看到最佳畫面。 
 
 ### <a name="landing-page"></a>登陸頁面
-非可擴充自訂時間輸入體驗已在版本 3 中被取代。 現在取而代之的是可擴充且易於存取的原生網格體驗。 您可以使用左側網站地圖來存取時間項目功能。 有了這樣的變更後，您已無法一次輸入一週的時間。 而是必須為網格中的每一天建立時間項目。 建立幾個時間項目之後，使用者就可以使用本主題稍後所述的 **複製** 功能來大量建立時間項目。 
+非可擴充自訂時間輸入體驗已在版本 3 中被取代。 現在取而代之的是可擴充且易於存取的原生網格體驗。 您可以使用左側網站地圖來存取時間項目功能。 有了這樣的變更後，您已無法一次輸入一週的時間。 而是必須為網格中的每一天建立時間項目。 建立幾個時間項目之後，使用者就可以使用本文稍後所述的 **複製** 功能來大量建立時間項目。 
 
 ![時間項目登陸頁面。](media/time-entry-landing-page-07.png)
  

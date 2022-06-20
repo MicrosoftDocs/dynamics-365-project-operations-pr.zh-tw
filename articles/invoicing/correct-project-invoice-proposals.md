@@ -1,17 +1,17 @@
 ---
 title: 更正草稿專案發票提案的會計處理
-description: 本主題說明如何調整草稿發票提案中的會計相關資訊。
+description: 本文說明如何調整草稿發票提案中的會計處理相關資訊。
 author: sigitac
 ms.date: 01/05/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 32f566a798d07b698693392f3aa1823f91fe5408
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575064"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921200"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>更正草稿專案發票提案的會計處理
 
@@ -19,7 +19,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 專案發票的 *營運詳細資料* 是由預估發票上的專案經理進行維護。 這些詳細資料包含有關必須開立發票之工時、費用、材料或里程碑的決定；費率；以及預付款與保留款金額的申請。 確認原始預估發票後，您可建立並確認[更正預估發票](../proforma-invoicing/corrective-invoices.md)，以調整營運詳細資料。
 
-專案發票的 *會計詳細資料* 是在客戶面向發票單據中進行維護。 這些詳細資料包含套用至發票的銷售稅計算和財務維度。 本主題提供有關如何在草稿專案發票提案中調整這些會計詳細資料的詳細資訊。
+專案發票的 *會計詳細資料* 是在客戶面向發票單據中進行維護。 這些詳細資料包含套用至發票的銷售稅計算和財務維度。 本文提供有關如何在草稿專案發票提案中調整這些會計詳細資料的詳細資訊。
 
 ## <a name="adjust-sales-tax"></a>調整銷售稅金
 

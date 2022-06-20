@@ -1,18 +1,18 @@
 ---
 title: 使用待處理廠商發票來購買非庫存材料或採購類別
-description: 本主題說明如何記錄待處理廠商發票。
+description: 本文說明如何記錄待處理廠商發票。
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e81f7a54e304ae6fc9a9f2637124579b6e7b54e9
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: b1c05755f6759e90e031a11261f15a2c4b6b716e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612647"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921982"
 ---
 # <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>使用待處理廠商發票來購買非庫存材料或採購類別
 
@@ -23,7 +23,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 例如，Contoso Robotics US 正在進行設備更新專案，需要軟體授權。 這些授權是從協力廠商所採購。  使用 Dynamics 365 Finance 時，應付帳款職員會記錄待處理廠商發票單據，並將授權成本直接劃歸到設備更新專案上。 
 
 > [!IMPORTANT]
-> 使用本主題中所述的功能之前，請先檢閱並套用必要的設定。 如需詳細資訊，請參閱[啟用非庫存材料和待處理廠商發票](configure-materials-nonstocked.md)和[將採購類別與專案採購單及待處理廠商發票搭配使用](configure-procurement-categories.md)
+> 使用本文所述的功能之前，請先檢閱並套用必要的設定。 如需詳細資訊，請參閱[啟用非庫存材料和待處理廠商發票](configure-materials-nonstocked.md)和[將採購類別與專案採購單及待處理廠商發票搭配使用](configure-procurement-categories.md)
 
 ## <a name="post-a-project-related-pending-vendor-invoice"></a>過帳專案相關的待處理廠商發票 
 

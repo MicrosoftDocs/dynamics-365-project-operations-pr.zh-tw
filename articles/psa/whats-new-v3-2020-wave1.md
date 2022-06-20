@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation 3.x 版 2020 年第 1 段發行浪潮中新推出或已變更的功能
-description: 本主題提供 Project Service Automation 版本 3 2020 年第 1 段發行浪潮中新推出或已變更功能的相關資訊。
+description: 本文提供有關 Project Service Automation 版本 3 2020 年第 1 段發行浪潮中新功能與變更的資訊。
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 073b70b4ae02d943eb0794b51e888815ee16f438
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c762f2e7931046d32464cfa8486ef8405aa7d836
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577870"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928606"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3-wave-1-2020"></a>Project Service Automation 版本 3 2020 年第 1 段發行浪潮中新推出或已變更的功能
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-本主題著重說明移轉至最新發行的 Project Service Automation (PSA) 3.x 版 2020 年第 1 段發行浪潮時的重要升級考量。
+文章特別指出遷移至最新版本的 Project Service Automation (PSA) 3.x 版 2020 年第 1 段發行浪潮時的主要升級考量。
 
 ## <a name="time-entry"></a>時間項目
 時間項目體驗已擴充，以便在更多客戶案例中提供可用於擴充時間項目的功能。 這包括用於新增項目類型的功能，這些類型會根據顯示為 **時間來源** 的欄位結構描述名稱 **時間項目設定** 來促使產生特定行為。 已新增名為「時間、費用、狀態和核准」(TESA) 的新解決方案來支援此功能。

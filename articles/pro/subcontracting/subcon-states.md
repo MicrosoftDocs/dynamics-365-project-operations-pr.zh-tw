@@ -1,17 +1,17 @@
 ---
 title: 轉包合約的狀態轉換
-description: 本主題說明在 Microsoft Dynamics 365 Project Operations 中建立、執行和關閉轉包合約時，該轉包合約上發生的狀態轉換。
+description: 本文說明在 Microsoft Dynamics 365 Project Operations 中建立、執行和關閉轉包合約時，該轉包合約上發生的狀態轉換。
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c9533d046398c708c55467e6b1a25acf6abade3e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b41e3d44a17c51778dd850c7d4a48351a5d44554
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579158"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919728"
 ---
 # <a name="state-transitions-on-a-subcontract"></a>轉包合約的狀態轉換 
 
@@ -19,7 +19,7 @@ ms.locfileid: "8579158"
 
 _**適用於：** 精簡部署 - 交易至開立預估發票_
 
-本主題說明 Microsoft Dynamics 365 Project Operations 中轉包合約的狀態轉換。 個別狀態會表示為草稿、已確認、已關閉或已取消。 下列影像表示狀態轉換。
+本文說明 Microsoft Dynamics 365 Project Operations 中轉包合約的狀態轉換。 個別狀態會表示為草稿、已確認、已關閉或已取消。 下列影像表示狀態轉換。
 
 ![轉包合約狀態模型](../media/SubconStates.png)  
 

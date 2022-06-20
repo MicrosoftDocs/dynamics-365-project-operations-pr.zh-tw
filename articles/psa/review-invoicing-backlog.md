@@ -1,6 +1,6 @@
 ---
 title: 檢閱專案與專案合約上的開立發票待辦項目
-description: 此主題提供有關如何檢閱時間、費用及產品待辦項目的資訊，以及說明如何將這些待辦項目標示為已準備好開立發票。
+description: 本文提供有關如何檢閱時間、費用及產品待辦項目的資訊，以及說明如何將這些待辦項目標示為已準備好開立發票。
 author: rumant
 ms.custom: ''
 ms.author: rumant
@@ -15,12 +15,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 51a7ecfefcc20544f5be378a347e3568285cafb3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 833ace7fd6285191f4b023a029286cd36b5de8f4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600548"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928882"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>檢閱專案與專案合約上的開立發票待辦項目
 
@@ -28,7 +28,7 @@ ms.locfileid: "8600548"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-當交易已準備好可以建立並處理發票時，該交易應標示 **已準備好開立發票**。 本主題說明可以建立的交易類型。
+當交易已準備好可以建立並處理發票時，該交易應標示 **已準備好開立發票**。 本文說明可以建立的交易類型。
 
 ## <a name="review-the-time-and-material-billing-backlog"></a>檢閱時間和資料帳務待辦項目
 

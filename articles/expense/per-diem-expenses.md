@@ -1,6 +1,6 @@
 ---
 title: 每日津貼費用
-description: 此主題提供有關如何處理每日津貼費用的資訊。
+description: 本文提供有關如何處理每日津貼費用的資訊。
 author: suvaidya
 ms.date: 03/18/2022
 ms.topic: article
@@ -13,17 +13,17 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fe72f066a6819c3b43e3977d5e7afb01ba95338c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0d2f95b677720726049d7d010e9738ad8c513802
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596040"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923178"
 ---
 # <a name="per-diem-expenses"></a>每日津貼費用
 
 > [!IMPORTANT] 
-> 本主題中所述的功能可做為預覽版本的一部分提供給目標使用者。
+> 本文中所述的功能可做為預覽版本的一部分提供給目標使用者。
 
 每日津貼付款是公司支付給員工的固定、預先規定的每日補助，抵償其在出差時所產生的住宿費 (旅館)、餐費和雜費等開銷。 公司是將此津貼支付給員工，而不是支付實際差旅費用。 員工可以使用他們的 **零用/其他** 每日津貼補助來支付重要商務會議的小費、客房服務、洗衣或乾洗服務。 每日津貼費率可能有所不同，取決於雇主選擇的補償方式是讓員工報銷住宿費與餐費的總開支，還是只讓他們報銷餐費和雜費的開支。
 

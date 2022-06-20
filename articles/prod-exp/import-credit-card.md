@@ -1,6 +1,6 @@
 ---
 title: 匯入和維護信用卡交易
-description: 本主題說明如何匯入和維護費用相關信用卡交易。 您可以設定這些交易，讓交易按照週期性排程自動進行匯入，也可以在需要時手動匯入這些交易。
+description: 本文說明如何匯入和維護費用相關信用卡交易。 您可以設定這些交易，讓交易按照週期性排程自動進行匯入，也可以在需要時手動匯入這些交易。
 author: KimANelson
 ms.date: 01/12/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: bd7ca997e18bf3c11fa188b603c899cc470df035
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 44aac1db60ef8f0e3f25612d03b46520dd09ee9e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683758"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916784"
 ---
 # <a name="import-and-maintain-credit-card-transactions"></a>匯入和維護信用卡交易
 

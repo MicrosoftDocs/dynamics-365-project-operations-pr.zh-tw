@@ -1,6 +1,6 @@
 ---
 title: 將具名可預約資源預約給專案團隊並指派工作
-description: 本主題提供有關如何將具名資源預約給專案團隊以及將這些資源指派至工作的資訊。
+description: 本文提供有關如何將具名可預約資源預約給專案團隊以及將這些資源指派至工作的資訊。
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: cdbcd84d2277ba1c8e68270d5b1f8ca45c17f05e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 61c9b47088e836c0a9c78477adf891df3d14853b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575340"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919314"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>將具名可預約資源預約給專案團隊並指派工作 
 

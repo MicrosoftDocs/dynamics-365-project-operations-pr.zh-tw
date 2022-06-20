@@ -1,21 +1,21 @@
 ---
 title: 管理專案合約上的多個客戶
-description: 本主題提供有關如何管理專案合約上的多個客戶的資訊。
+description: 本文提供有關如何管理專案合約中多個客戶的資訊。
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: bf8b0d313b2b07924d730fe8923b05559bbcc244
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 78ee117c1068e7af4674cc3b21e1055fd05bb43a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591302"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928330"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>管理專案合約上的多個客戶
 
-本主題提供有關如何管理專案合約上的多個客戶的資訊。 當需要多個客戶的契約協議來資助交易時，您可以使用專案合約。 在 **專案合約** 頁面上，**摘要** 索引標籤包含有關交易主要客戶的資訊。 參與交易的其他客戶可以新增至 **客戶** 索引標籤。
+本文提供有關如何管理專案合約中多個客戶的資訊。 當需要多個客戶的契約協議來資助交易時，您可以使用專案合約。 在 **專案合約** 頁面上，**摘要** 索引標籤包含有關交易主要客戶的資訊。 參與交易的其他客戶可以新增至 **客戶** 索引標籤。
 
 專案合約 **客戶** 索引標籤中的所有合約客戶將預設為專案合約所建立之任何新專案型合約服務內容的客戶。 任何現有的專案型合約服務內容都不會繼承稍後建立的新合約客戶記錄。
 

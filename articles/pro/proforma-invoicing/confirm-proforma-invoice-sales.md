@@ -1,17 +1,17 @@
 ---
 title: 確認專案預估發票
-description: 本主題提供有關在 Project Operations 中確認專案預估發票的資訊。
+description: 本文提供有關在 Project Operations 中確認專案預估發票的資訊。
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 276f54936ad9fd72fdc7e85196b43463572e6d3e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 101e4564fcf57cbbfc713773ed760291b9d28410
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600272"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922212"
 ---
 # <a name="confirm-a-proforma-project-invoice"></a>確認專案預估發票 
 

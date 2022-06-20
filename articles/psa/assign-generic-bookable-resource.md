@@ -1,6 +1,6 @@
 ---
 title: 指派一般可預約資源至工作與專案團隊
-description: 這主題提供有關為工作與專案團隊預約一般資源的資訊。
+description: 本文提供有關為工作與專案團隊預約一般資源的資訊。
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 043a295bb7daee86ec0a701b29fd32c59654832d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9f67ab7381747e5d780f8b0024dd98ae8420d05f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591992"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923546"
 ---
 # <a name="assign-generic-bookable-resources-to-a-task-and-generate-resource-requirements"></a>指派一般可預約資源至工作，並產生資源需求 
 

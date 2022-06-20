@@ -1,6 +1,6 @@
 ---
 title: 更新外掛程式屬性以包含新的定價維度
-description: 此主題提供有關更新定價維度外掛程式屬性的資訊。
+description: 本文提供有關更新定價維度外掛程式屬性的資訊。
 author: Rumant
 ms.custom: ''
 ms.date: 11/19/2018
@@ -15,21 +15,21 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 0c9ac219dd19cf5dd14d54b199329de0c15fe2ae
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 459aefb510cc9a9ec55a86ca7e362db98ccabb70
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580861"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913196"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>更新外掛程式屬性以包含新的定價維度
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!NOTE]
-> 如果您沒有使用 Project Service Automation (PSA) 報價和合約功能，可略過本主題。
+> 如果您沒有使用 Project Service Automation (PSA) 報價和合約功能，可略過這篇文章。
 
-本主題假設您已完成[建立自訂欄位和實體](create-custom-fields-entities.md)、[將自訂欄位新增至價格設定與交易實體](field-references.md)以及[將自訂欄位設定為定價維度](set-up-pricing-dimensions.md)主題中的程序。 如果您尚未完成這些程序，請返回並加以完，然後再回到本主題。
+本文假設您已完成[建立自訂欄位和實體](create-custom-fields-entities.md)、[將自訂欄位新增至價格設定與交易實體](field-references.md)以及[將自訂欄位設定為定價維度](set-up-pricing-dimensions.md)文章中的程序。 如果您尚未完成這些程序，請返回並加以完，然後再回到本文章。
 
 在專案報價明細的 **報價明細** 頁面上建立報價明細詳細資料後，系統會在背景中建立兩個估計明細，其中一個明細用於成本面估計，另一個用於銷售面估計。 這同樣適用於專案合約服務內容。
 

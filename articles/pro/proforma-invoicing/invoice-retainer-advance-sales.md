@@ -1,19 +1,19 @@
 ---
-title: 開立定額保留後隨用即扣型付款或預付金的發票
-description: 本主題提供有關如何在 Project Operations 中開立定額保留後隨用即扣型付款 (保留款) 或預付金發票的資訊。
+title: 開立保留款或預付金的發票
+description: 本文提供有關如何在 Project Operations 中開立保留款或預付金發票的資訊。
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: aa659ebfa6d848f312caa1d197404d77b1f6ee21
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 044186d5c7759866dec3883103acec19cb571c11
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590566"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914438"
 ---
-# <a name="invoice-a-retainer-or-an-advance"></a>開立定額保留後隨用即扣型付款 (或預付金) 的發票
+# <a name="invoice-a-retainer-or-an-advance"></a>開立保留款或預付金的發票
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 

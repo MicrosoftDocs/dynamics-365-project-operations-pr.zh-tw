@@ -1,17 +1,17 @@
 ---
 title: 管理專案型商機
-description: 本主題提供有關如何使用與專案相關之商機的資訊。
+description: 本文提供有關如何處理與專案相關之商機的資訊。
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f39940ac063a8c202f33797ed649518907563e31
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 29e5a2c91186021eee9bb23aba3d42228fcd9381
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600410"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933206"
 ---
 # <a name="manage-project-based-opportunities"></a>管理專案型商機
 
@@ -19,7 +19,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 以專案為主的公司通常都會分佈在多個國家/地區和地理位置，展開其交付作業。 專案執行及交付成本會根據管理交付的地理位置或部門不同而不同。 反過來，這可能會影響交易的利潤。 交付專案型服務通常需要大量人力資源時間、可觀差旅費用、材料成本及其他費用。
 
-Dynamics 365 Project Operations 中的專案型商機是使用 Dynamics 365 Sales 的擴充功能所設計。 主題提供有關包含在專案型公司管理專案型商機所需之其他功能中的不同欄位與商務規則的詳細資料。
+Dynamics 365 Project Operations 中的專案型商機是使用 Dynamics 365 Sales 的擴充功能所設計。 本文提供有關專案型公司管理專案型商機所需之其他功能中所包含不同欄位和商務規則的詳細資訊。
 
 ## <a name="view-all-project-based-opportunities"></a>檢視所有專案型商機
 

@@ -1,6 +1,6 @@
 ---
 title: 報表首頁
-description: 本主題提供有關 Dynamics 365 Project Service Automation 中報表的資訊。
+description: 本文提供有關 Dynamics 365 Project Service Automation 中報表的資訊。
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da9458741563aa918bc09259e35ba9002ff0ba13
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cf55495cc435d929bd305c9fea270aeb2d62a3da
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595948"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921660"
 ---
 # <a name="reporting-home-page"></a>報表首頁
 
@@ -47,10 +47,10 @@ Microsoft Power BI 和 Dynamics 365 合起來以見解探索應用程式的形�
 
 
 ## <a name="additional-resources"></a>其他資源
-如需 PSA 中報表功能的詳細資訊，請參閱下列主題：
+如需 PSA 中報表功能的詳細資訊，請參閱下列文章：
 
 - [使用 Project Service 資料模型](reports-working-project-service-data-model.md)
-- [儀表板 ](reports-dashboards.md)
+- [儀表板](reports-dashboards.md)
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: 時間項目行事曆
-description: 此主題提供有關如何使用時間項目行事曆的資訊。
+description: 本文提供有關如何使用時間項目行事曆的資訊。
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: fae112be462bfd1b216a18da1691c39981fe61b6
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f206a7ff39e7d6919c618f5f2064e45975bfb0db
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574328"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915772"
 ---
 # <a name="time-entry-calendar"></a>時間項目行事曆
 

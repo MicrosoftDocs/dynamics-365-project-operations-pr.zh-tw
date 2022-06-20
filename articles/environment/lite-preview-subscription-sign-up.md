@@ -1,21 +1,21 @@
 ---
 title: 註冊預覽版訂閱 - 精簡
-description: 本主題提供有關如何訂閱和部署「Project Operations Lite 部署 – 交易至開立預估發票」的資訊。
+description: 本文提供相關資訊，讓您了解如何訂閱和部署 Project Operations 精簡部署 - 交易至開立預估發票。
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6953956c0b3401a6c64ee597f966ba4a4c0d07b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587990"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921246"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>註冊預覽版訂閱 - 精簡 
 
-本主題說明如何訂閱試用版方案，以及部署 Dynamics 365 Project Operations 精簡部署 - 交易至開立預估發票。
+本文說明如何訂閱試用供應項目，以及部署 Dynamics 365 Project Operations 精簡部署 - 交易至開立預估發票。
 
 > [!NOTE]
 > 此程序將會在即將發行的 Project Operations 中變更。
@@ -50,7 +50,7 @@ ms.locfileid: "8587990"
 
 ## <a name="create-a-new-dataverse-environment"></a>建立新 Dataverse 環境
 
-1. 依照主題 [Dataverse 部署模型](lite-deployment.md)中的指示，佈建新的 Project Operations Dataverse 部署環境。 選取環境類型時，請務必使用 **試用 (以訂閱為準)**。
+1. 依照 [Dataverse 部署模型](lite-deployment.md)文章中的指示，佈建新的 Project Operations Dataverse 部署環境。 選取環境類型時，請務必使用 **試用 (以訂閱為準)**。
 
   ![新環境。](./media/19CreateEnvironment.png)
 
@@ -65,7 +65,7 @@ ms.locfileid: "8587990"
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>安裝 CDS 設定並設定示範資料
 
-依照主題[套用示範設定和設定資料](lite-apply-demo-setup-config-data.md)中的指示，安裝 CDS 設定並設定示範資料。
+依照[套用示範設定和設定資料](lite-apply-demo-setup-config-data.md)文章中的指示安裝 CDS 設定並設定示範資料。
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

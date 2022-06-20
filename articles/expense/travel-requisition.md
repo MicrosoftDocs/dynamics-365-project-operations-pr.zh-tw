@@ -1,17 +1,17 @@
 ---
 title: 差旅申請
-description: 本主題提供有關差旅申請的資訊。
+description: 本文提供差旅申請的相關資訊。
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 45d303d482f6c034cad2c3423c3e505fc62950a4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 98031c45be138f61a05b255f7218abfcdd96aa69
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585644"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923132"
 ---
 # <a name="travel-requisitions"></a>差旅申請
 

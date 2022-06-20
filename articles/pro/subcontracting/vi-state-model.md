@@ -1,17 +1,17 @@
 ---
 title: 廠商發票的狀態轉換
-description: 本主題說明 Microsoft Dynamics 365 Project Operations 中廠商發票的狀態轉換。
+description: 本文說明 Microsoft Dynamics 365 Project Operations 中廠商發票的狀態轉換。
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7efb52621ee325d5025dfad0b45218d1fe20a063
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 58b07322fb6480fdeb07eb867a7aabc0eff7b955
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584678"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934310"
 ---
 # <a name="state-transitions-on-a-vendor-invoice"></a>廠商發票的狀態轉換
 
@@ -19,7 +19,7 @@ ms.locfileid: "8584678"
 
 _**適用於：** 精簡部署 - 交易至開立預估發票_
 
-本主題說明 Microsoft Dynamics 365 Project Operations 中廠商發票的狀態轉換。 使用下列狀態：**草稿**、**審查中**、**已確認**、**保留** 和 **已取消**。
+本文說明 Microsoft Dynamics 365 Project Operations 中廠商發票的狀態轉換。 使用下列狀態：**草稿**、**審查中**、**已確認**、**保留** 和 **已取消**。
 
 下列圖表顯示狀態轉換。
 

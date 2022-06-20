@@ -1,6 +1,6 @@
 ---
 title: 資源分配專案首頁
-description: 本主題提供有關 Dynamics 365 Project Service Automation (PSA) 中資源管理功能的資訊。
+description: 本文提供有關 Dynamics 365 Project Service Automation (PSA) 中資源管理功能的資訊。
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ec114f6dc04b493e30fcaae0d50616108c695f2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 14328ba1af46eca3a8996d330180d888987b7966
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599812"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925248"
 ---
 # <a name="resourcing-projects-home-page"></a>資源分配專案首頁
 
@@ -46,7 +46,7 @@ ms.locfileid: "8599812"
 - 維護技能和熟練度存放庫。
 
 
-您可以在 PSA 中使用一般或具名資源的團隊來為專案配置人員。 您可以使用各種方法來新增和指派團隊成員，以及管理其預約和指派。 如需詳細資訊，請參閱下列主題：
+您可以在 PSA 中使用一般或具名資源的團隊來為專案配置人員。 您可以使用各種方法來新增和指派團隊成員，以及管理其預約和指派。 如需詳細資訊，請參閱下列文章：
 
 - [將具名可預約資源預約給專案團隊並指派其工作](assign-named-bookable-resource.md)
 - [指派一般可預約資源至工作，並產生資源需求](assign-generic-bookable-resource.md)

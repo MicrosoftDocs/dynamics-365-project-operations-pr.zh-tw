@@ -1,18 +1,18 @@
 ---
 title: 廠商發票整合
-description: 本主題提供有關 Project Operations 中廠商發票整合的資訊。
+description: 本文提供有關 Project Operations 中廠商發票整合的資訊。
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d1e41638b6fe827e9e577860a78a84a9948053e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591165"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912046"
 ---
 # <a name="vendor-invoice-integration"></a>廠商發票整合
 
@@ -21,7 +21,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 移至 **應付帳款** > **發票** > **待處理廠商發票** 並使用待處理廠商發票單據，可以記錄 Dynamics 365 Project Operations 中的專案相關採購。 如需詳細資訊，請參閱[使用待處理廠商發票購買非庫存材料](../procurement/pending-vendor-invoices.md)。
 
 > [!IMPORTANT]
-> 使用本主題中所述的功能之前，請先檢閱並套用必要的設定。 如需詳細資訊，請參閱[啟用非庫存材料和待處理廠商發票](../procurement/configure-materials-nonstocked.md)。
+> 使用本文所述的功能之前，請先檢閱並套用必要的設定。 如需詳細資訊，請參閱[啟用非庫存材料和待處理廠商發票](../procurement/configure-materials-nonstocked.md)。
 
 在 Project Operations 中，會使用特殊過帳規則將專案相關廠商發票過帳：
 

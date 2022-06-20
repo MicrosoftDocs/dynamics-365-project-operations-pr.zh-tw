@@ -1,17 +1,17 @@
 ---
 title: 專案合約 - 重要概念
-description: 本主題提供有關 Project Operations 中專案合約重要概念的資訊。
+description: 本文提供有關 Project Operations 中專案合約重要概念的資訊。
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 016a5d1defacdc6ba5828ca26395c9123e9323d0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582930"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926214"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>專案型合約獨有的概念
 
@@ -19,7 +19,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 
 
-此主題提供在 Dynamics 365 Project Operations 中開始使用專案合約之前，需注意的重要概念：
+本文提供開始使用 Dynamics 365 Project Operations 中的專案合約之前，應了解的重要概念：
 
 ## <a name="owning-company"></a>負責公司
 

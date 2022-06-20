@@ -1,17 +1,17 @@
 ---
 title: 專案更正發票
-description: 本主題提供有關如何在 Project Operations 中建立和確認更正發票的資訊。
+description: 本文提供有關如何在 Project Operations 中建立和確認更正發票的資訊。
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 29a21dd1da03b06c95c030e5bafc8e3e25fb789b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c6176247db37c3276d775050497585ead011e5a1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578192"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917336"
 ---
 # <a name="corrective-project-invoices"></a>專案更正發票
 

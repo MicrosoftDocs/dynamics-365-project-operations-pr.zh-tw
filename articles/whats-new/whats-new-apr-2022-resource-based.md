@@ -1,24 +1,24 @@
 ---
 title: 2022 年 4 月新增功能 - 資源/非庫存型案例適用的 Project Operations
-description: 本主題提供有關資源/非庫存型案例適用 Microsoft Dynamics 365 Project Operations 2022 年 4 月發行版本中所提供之品質更新的資訊。
+description: 本文提供有關資源/非庫存型案例適用 Microsoft Dynamics 365 Project Operations 2022 年 4 月發行版本中所提供之品質更新的資訊。
 author: sigitac
 ms.date: 04/08/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dc713e7a0dd6993e38ce3e3b2ba19f796a6f4773
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: 5ea1c96d64309990962f431b1c72ae47bf445bfa
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8613245"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912368"
 ---
 # <a name="whats-new-april-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>2022 年 4 月新增功能 - 資源/非庫存型案例適用的 Project Operations
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
-本主題適用於 Microsoft Dynamics 365 Project Operations 的下列元件和版本：
+本文適用於 Microsoft Dynamics 365 Project Operations 的下列元件和版本：
 
 - Dataverse 環境 4.41.0.45 版中的 Project Operations
 - Dynamics 365 Finance 環境 10.0.26 版中的專案管理與會計

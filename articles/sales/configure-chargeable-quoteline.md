@@ -1,17 +1,17 @@
 ---
 title: 設定專案型報價明細的應收費元件
-description: 本主題提供有關專案型報價明細中所包含元件、應收費和不應收費元件的資訊。
+description: 本文提供有關專案型報價明細中內含、應收費和不應收費元件的資訊。
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 025a04fa63bfdb53aaababcd964a5dcb92c0a3a1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ff409132ef9103641578f9c94f8ea1ff56738a71
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601176"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915542"
 ---
 # <a name="configure-the-chargeable-components-of-a-project-based-quote-line"></a>設定專案型報價明細的應收費元件
 

@@ -1,6 +1,6 @@
 ---
 title: 將自訂欄位設定為定價維度
-description: 本主題提供有關如何使用自訂欄位進行定價維度設定的資訊。
+description: 本文提供有關如何使用自訂欄位進行定價維度設定的資訊。
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 41c65d6bf64d8a81759239f2a31f3a68953181c8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0c0c43e483ebcb016747e533d685f13fd5dd8700
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599398"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917566"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>將自訂欄位設定為定價維度
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
-開始之前，本主題假設您已完成[建立自訂欄位和實體](create-custom-fields-entities-pricing-dimensions.md)以及[將必要的自訂欄位新增至價格設定與交易實體](add-custom-fields-price-setup-transactional-entities.md)主題中的程序。 如果您尚未完成這些程序，請返回並加以完，然後再回到本主題。 
+開始之前，本文假設您已完成[建立自訂欄位和實體](create-custom-fields-entities-pricing-dimensions.md)和[將必要的自訂欄位新增至價格設定與交易實體](add-custom-fields-price-setup-transactional-entities.md)文章中的程序。 如果您尚未完成這些程序，請返回並加以完，然後再回到本文章。 
 
-本主題提供有關設定自訂定價維度的資訊。 在 **參數** 頁面上，**以金額為準的定價維度** 索引標籤會顯示定價維度實體中的記錄。 此索引標籤中的網格預設會有兩列：
+本文提供有關設定自訂定價維度的資訊。 在 **參數** 頁面上，**以金額為準的定價維度** 索引標籤會顯示定價維度實體中的記錄。 此索引標籤中的網格預設會有兩列：
 
 - **msdyn_resourcecategory** (角色)
 - **msdyn_OrganizationalUnit** (組織單位)

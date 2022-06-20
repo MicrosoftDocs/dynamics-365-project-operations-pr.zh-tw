@@ -1,24 +1,24 @@
 ---
 title: 2022 年 2 月新增功能 - Project Operations 精簡部署
-description: 本主題提供有關 Project Operations 精簡部署 2022 年 2 月發行版本中所提供之品質更新的資訊。
+description: 本文提供有關 Project Operations 精簡部署 2022 年 2 月發行版本中所提供之品質更新的資訊。
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: af66a5f61adf4f016f3fa547bbdfc75d06b2711b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1203faa2dd53a8fb82cff0857a1725426ebff19a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574558"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922810"
 ---
 # <a name="whats-new-february-2022---project-operations-lite-deployment"></a>2022 年 2 月新增功能 - Project Operations 精簡部署
 
 _適用於：精簡部署 - 交易至開立預估發票_
 
-本主題適用於 Microsoft Dynamics 365 Project Operations 的下列元件和版本：
+本文適用於 Microsoft Dynamics 365 Project Operations 的下列元件和版本：
 
 - Dataverse 環境 4.28.0.120 版中的 Project Operations
 

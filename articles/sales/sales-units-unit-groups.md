@@ -1,6 +1,6 @@
 ---
 title: 單位和單位群組
-description: 此主題提供有關如何在 Dynamics 365 Project Operations 中建立單位和單位群組的資訊。
+description: 本文提供有關如何在 Dynamics 365 Project Operations 中建立單位和單位群組的資訊。
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e0e1339c8fccb52b7471dc49a19be4dfc37be605
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a46b7d182d3d7fc77c1275c108f5dc569ffebff1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578422"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921430"
 ---
 # <a name="units-and-unit-groups"></a>單位和單位群組
 
@@ -28,7 +28,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 單位是用來計算您所銷售產品或服務的數量或計量。 例如，如果您銷售園藝材料，可能也會銷售整包、整盒和整個貨架為單位的種子。 單位群組是這些不同單位的集合。
 
-若要完成本主題中的步驟，請確定您已獲指派系統管理員或 Sales Professional Manager 角色，或擁有同等權限。
+若要完成本文中的步驟，請確定您已獲指派系統管理員或銷售專業經理角色或已有同等效的權限。
 
 ## <a name="create-a-unit-group"></a>建立單位群組
 

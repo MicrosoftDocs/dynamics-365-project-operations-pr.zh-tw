@@ -1,24 +1,24 @@
 ---
 title: 設定廠商留成
-description: 本主題說明如何設定廠商留成。
+description: 本文說明如何設定廠商留成。
 author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e0cd7669c7d6b916261e2c85cce0f24ff241a075
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f30e8829d8d5d99c81fce730cb93cd7ce31913fe
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583694"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929756"
 ---
 # <a name="set-up-vendor-retention"></a>設定廠商留成
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
-本主題提供有關如何設定廠商留成的資訊。
+本文提供有關如何設定廠商留成的資訊。
 
 ## <a name="set-up-a-vendor-retention-account-in-general-ledger"></a>在總帳中設定廠商留成科目
 

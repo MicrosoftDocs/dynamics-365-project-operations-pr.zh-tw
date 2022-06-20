@@ -1,6 +1,6 @@
 ---
 title: 建立自訂欄位和實體
-description: 本主題說明如何在 Power Apps 平台建立自己解決方案中的選項組與實體。
+description: 本文說明如何在 Power Apps 平台建立自己解決方案中的選項組與實體。
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,19 +16,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: d2fbe6a4061a93ac3186bbc8624bf5d16209cdf9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3b6f675d604f3b6a6f2465c413ceff3d16815e12
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574374"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926904"
 ---
 # <a name="create-custom-fields-and-entities"></a>建立自訂欄位和實體 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 每當您想要在 Power Apps 平台建立自訂選項組或實體時，請完成下列步驟。  
-本主題中的程序應使用 Project Service Automation (PSA) 的 Web 介面來完成。
+本文中的程序應使用 Project Service Automation (PSA) 的 Web 介面來完成。
 
 > [!IMPORTANT]
 > 建議您在不同的解決方案中進行所有自訂定價維度變更。 這個重要的最佳做法提供您日後視需要更新或移除變更的彈性、有助於重複使用您的工作，以及讓您更便於將這些變更移植到另一個執行個體。 進行所有必要變更之後，將此解決方案匯出為 **受管理的解決方案**，再將其匯入至其他執行個體，即可重複使用您的定價設定。

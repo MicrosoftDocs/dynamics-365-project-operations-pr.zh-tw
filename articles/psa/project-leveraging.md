@@ -1,6 +1,6 @@
 ---
 title: 銷售估計和專案
-description: 本主題提供有關如何利用銷售處理中的排程和估計的資訊。
+description: 本文提供有關如何利用銷售處理中的排程和估計的資訊。
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 35cf804a7442d3033db32f5a5224737d1752e549
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 957c2337cce3b3bf65a0bfef7c1aee6a730971fc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596362"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925386"
 ---
 # <a name="sales-estimates-and-projects"></a>銷售估計和專案
 

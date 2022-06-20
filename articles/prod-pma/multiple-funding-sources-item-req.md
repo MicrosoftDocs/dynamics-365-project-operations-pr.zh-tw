@@ -1,23 +1,23 @@
 ---
 title: 含多個資金來源的專案合約的項目需求
-description: 本主題提供有關如何在有多個資金來源的情況下設定和使用項目需求的資訊。
+description: 本文提供有關如何在有多個資金來源的情況下設定和使用項目需求的資訊。
 author: sigitac
 ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d4af03e02d3c2eb0d442e6213ff5b9cf583d54b3
-ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
+ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8728103"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931182"
 ---
 # <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>含多個資金來源的專案合約的項目需求
 
 _**適用於：** 庫存/生產型案例適用的 Project Operations_
 
-某些簽訂專案型供貨的契約協議可能需要多個資金來源。 本主題說明當專案或專案合約需要多個資金來源時，如何選取和設定所需的來源。
+某些簽訂專案型供貨的契約協議可能需要多個資金來源。 本文說明當專案或專案合約需要多個資金來源時，如何選取和設定所需的來源。
 
 ## <a name="terminology"></a>辭彙
 

@@ -1,17 +1,17 @@
 ---
 title: 資源管理模式概觀
-description: 本主題提供有關 Dynamics 365 Project Operations 中資源管理功能的資訊。
+description: 本文提供有關 Dynamics 365 Project Operations 中資源管理功能的資訊。
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: f30bac95b2beb92345cbe25332963c58d2bde4bb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dd50d12686a6ad17f6a95ccf0c2f1447cc470bf7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585046"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928422"
 ---
 # <a name="resource-management-modes-overview"></a>資源管理模式概觀
 
@@ -38,7 +38,7 @@ Dynamics 365 Project Operations 支援兩種模式，讓您執行整體預約流
 
 ![混合模式。](./media/resource-management-hybrid.png)
 
-除了支援的集中模式程序之外，也請參閱下列主題，以便在混合模式下管理所有其他支援的預約流程：
+除了支援的集中模式程序之外，也請參閱下列文章以在混合模式下管理所有其他支援的預約流程：
 
 將資源直接預約給專案：
 - [將具名可預約資源預約給專案團隊並指派工作](/dynamics365/project-service/assign-named-bookable-resource)

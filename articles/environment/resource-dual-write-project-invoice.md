@@ -1,22 +1,22 @@
 ---
 title: 專案發票整合
-description: 本主題提供有關用於開立客戶發票之 Project Operations 雙重寫入整合的資訊。
+description: 本文提供有關用於開立客戶發票之 Project Operations 雙重寫入整合的資訊。
 author: sigitac
 ms.date: 04/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1e7294360f041b030efca225c6754fe3bbc0eadf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5ee2d78f1ca1d78f6909d9995a92ac301f06d6a6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581228"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912092"
 ---
 # <a name="project-invoice-integration"></a>專案發票整合
 
-本主題提供有關用於開立客戶發票之 Project Operations 雙重寫入整合的資訊。
+本文提供有關用於開立客戶發票之 Project Operations 雙重寫入整合的資訊。
 
 在 Project Operations 中，專案經理會管理專案帳務積存，並在 Microsoft Dataverse 中為客戶建立預估發票。 應收帳款記帳員或專案會計師會根據此預估發票，建立客戶面向發票。 雙重寫入整合可確保預估發票詳細資料會同步處理至財務和營運應用程式。 將客戶面向發票過帳之後，系統 會根據會計詳細資料更新 Dataverse 中的相關專案實際值。 下圖提供此項整合的高階概念概觀。
 

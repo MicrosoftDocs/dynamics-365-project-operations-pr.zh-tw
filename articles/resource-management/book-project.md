@@ -1,17 +1,17 @@
 ---
 title: 預約給專案
-description: 本主題提供有關預約資源給專案的資訊。
+description: 本文提供有關預約資源給專案的資訊。
 author: ruhercul
 ms.date: 01/24/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: b47ae8cb38be6d29804aec8b069e6a8aec0ffb70
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dca9d722eae595af7a81c2b4684729d7658ed012
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591350"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928514"
 ---
 # <a name="book-to-a-project"></a>預約給專案
 

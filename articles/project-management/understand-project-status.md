@@ -1,17 +1,17 @@
 ---
 title: 了解專案狀態
-description: 本主題提供有關指派給 Dynamics 365 Project Operations 中專案之狀態的資訊。
+description: 本文提供有關 Dynamics 365 Project Operations 中指派至專案之狀態的資訊。
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9efa6135bbaa98f8968e09fcf38c9dd4fde84fe4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 86cb60b634b62af23f39720c0452dca82ff3ad26
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578882"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923592"
 ---
 # <a name="understand-project-status"></a>了解專案狀態
 

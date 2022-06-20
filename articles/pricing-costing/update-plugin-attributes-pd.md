@@ -1,33 +1,33 @@
 ---
 title: 使用新的定價維度來更新外掛程式屬性
-description: 此主題提供有關如何更新定價維度的外掛程式屬性的資訊。
+description: 本文提供有關如何更新定價維度外掛程式屬性的資訊。
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b3b441b9ea0418e10db80a86613b2c41ea2c4673
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2ae502fea533d9f199ef5ee1cc85b623f08cbd84
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575018"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920004"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>使用新的定價維度來更新外掛程式屬性
 
-此主題提供有關如何更新定價維度的外掛程式屬性的資訊。
+本文提供有關如何更新定價維度外掛程式屬性的資訊。
 
 > [!NOTE]
-> 此主題只適用於 Dynamics 365 Project Operations 中的報價及合約功能。
+> 本文僅適用於 Dynamics 365 Project Operations 中的報價及合約功能。
 
 ## <a name="prerequisites"></a>先決條件
-在您完成此主題中的步驟之前，您必須已完成下列主題中的程序：
+完成本文中的步驟之前，您必須先完成下列文章中的程序：
 
   - [建立自訂欄位和實體](create-custom-fields-entities-pricing-dimensions.md) 
   - [將自訂欄位新增至價格設定與交易實體](add-custom-fields-price-setup-transactional-entities.md)
   - [將自訂欄位設定為定價維度](set-up-custom-fields-pricing-dimensions.md)。 
   
-如果您尚未完成這些程序，請先完成然後再回到本主題。
+如果您尚未完成這些程序，請返加以完成，然後再返回本文章。
 
 ## <a name="register-a-plug-in"></a>註冊外掛程式
 當報價明細詳細資料建立於專案報價明細的 **報價明細** 頁面時，系統會建立兩個估計明細。 其中一個明細用於成本面估計，另一個用於銷售面估計。 這同樣適用於專案合約服務內容。

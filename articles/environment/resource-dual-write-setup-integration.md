@@ -1,24 +1,24 @@
 ---
 title: Project Operations 設定和設定資料整合
-description: 本主題提供有關設定和配置 Project Operations 雙重寫入對應的資訊。
+description: 本文提供有關安裝和設定 Project Operations 雙重寫入對應的資訊。
 author: sigitac
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1ffa25ff36c39010d6aee31d928c3eaa0086c3d8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 173ff01e938af48d2d6488d5e59cf4e74b3af8e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586886"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914530"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Project Operations 設定和設定資料整合
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
-本主題提供有關 Project Operations 雙重寫入設定和設定資料整合的資訊。
+本文提供有關用於安裝及設定實體之 Project Operations 雙重寫入整合的資訊。
 
 ## <a name="project-contracts-contract-lines-and-projects"></a>專案合約、合約服務內容和專案
 

@@ -1,6 +1,6 @@
 ---
 title: 進階報價、定價和帳務
-description: 本主題提供有關 Project Service Automation 中報價、帳務和定價的資訊。
+description: 本文提供有關 Project Service Automation 中報價、帳務和定價的資訊。
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 54047f34d950fc79e510bfe0d6601e271c02a92c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8106a18fefc34141fdc5d350c60e87ec4b2a4c1d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579342"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921798"
 ---
 # <a name="advanced-quoting-pricing-and-billing-guide"></a>進階報價、定價和帳務指南
 
@@ -32,7 +32,7 @@ ms.locfileid: "8579342"
 
 能夠在適當時間找到適當資源、在專案上預約這些資源以及確保資源獲得利用，可協助組織達到營收目標和客戶滿意度目標。 
 
-先前在本主題中的 PDF 連結已移除，內容移至下列主題：
+先前在本文中的 PDF 連結已移除，內容已移至下列文章：
 
 - [報價、定價和帳務](../quote-bill-price.md)
 - [銷售處理](../basic-sales-process.md)
@@ -50,7 +50,7 @@ ms.locfileid: "8579342"
 - [記錄實際值](../advanced-actuals.md)
 
 > [!NOTE]
-> 本主題將會在日後的文件更新中移除。 
+> 這篇文章將會在日後的文件更新中移除。 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

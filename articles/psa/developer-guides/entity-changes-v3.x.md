@@ -1,6 +1,6 @@
 ---
 title: 實體、控制項和使用者介面變更 (Project Service Automation 3.x)
-description: 本主題說明 Microsoft Dynamics Project Service Automation 3.x 中的解決方案變更。
+description: 本文說明 Microsoft Dynamics Project Service Automation 3.x 中的解決方案變更。
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,19 +15,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da43e0d15e655977c0c1be7348192a0189a56a6c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f54d263666c4fb999464f98c0138fc008dbbbd2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597558"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926858"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>實體、控制項和使用者介面變更 (Project Service Automation 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 
-Microsoft Dynamics Project Service Automation (PSA) 3.x 發行後，實體、控制項、檢視表和使用者介面已發生許多變更。 本主題提供有關這些重要變更的資訊。
+Microsoft Dynamics Project Service Automation (PSA) 3.x 發行後，實體、控制項、檢視表和使用者介面已發生許多變更。 本文提供有關這些重要變更的資訊。
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>銷售文件、銷售文件明細、銷售文件明細詳細資料實體的上下層關聯
 在版本 3.0 之前發行的 Dynamics 365 Project Service Automation (PSA) 版本中，銷售文件、銷售文件明細、銷售文件明細詳細資料實體之間的部分關聯是透過保存相關實體 GUID 之字串表示法的字串欄位來實作。 這是因為平台的限制，要求解決方案伺服器端及用戶端上必須有大量自訂程式碼，才能讓這些關聯運作起來仿如一般 Dynamics CRM 實體關聯，以及讓字串欄位作用起來像查詢欄位那樣。

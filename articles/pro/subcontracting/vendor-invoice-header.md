@@ -1,17 +1,17 @@
 ---
 title: 廠商發票的標題詳細資料
-description: 本主題說明 Microsoft Dynamics 365 Project Operations 中廠商發票標題所提供的功能。
+description: 本文說明 Microsoft Dynamics 365 Project Operations 中廠商發票標題所提供的功能。
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 17be106d5486358ff0bbf011af3da26a4c85a274
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 95f84f2d2a357abbd8d507705412a0434b44f658
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575570"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929848"
 ---
 # <a name="header-details-for-vendor-invoices"></a>廠商發票的標題詳細資料
 
@@ -19,7 +19,7 @@ ms.locfileid: "8575570"
 
 _**適用於：** 精簡部署 - 交易至開立預估發票_
 
-本主題說明 Microsoft Dynamics 365 Project Operations 中廠商發票標題所提供的功能。
+本文說明 Microsoft Dynamics 365 Project Operations 中廠商發票標題所提供的功能。
 
 當專案經理規劃和執行專案時，他們可能會使用轉包商，並購買廠商提供的產品與服務。 在專案執行期間，成本是因為按照與廠商之間轉包合約所採購之服務、材料及費用類別而產生。 廠商會建立廠商發票，以開具專案的這些成本。
 

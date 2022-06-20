@@ -1,17 +1,17 @@
 ---
 title: 設定專案合約服務內容的應收費元件
-description: 本主題提供有關合約服務內容中內含、應收費和不應收費元件的資訊。
+description: 本文提供有關合約服務內容中內含、應收費和不應收費元件的資訊。
 author: rumant
 ms.date: 10/12/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: bd419e189cd063f1cb2a1f0ecd3cd6450de0996b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 175b25dbcc43a5954fbbf2d54efdd73e19395907
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586610"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928284"
 ---
 # <a name="configure-chargeable-components-of-a-project-contract-line"></a>設定專案合約服務內容的應收費元件
 

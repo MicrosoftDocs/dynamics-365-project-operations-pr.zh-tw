@@ -1,6 +1,6 @@
 ---
 title: 使用 Project Service 中現有的欄位做為定價維度
-description: 本主題提供有關使用現有 Project Service 欄位做為定價維度的資訊。
+description: 本文提供有關使用現有 Project Service 欄位做為定價維度的資訊。
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 3d8251b4516b4598c9c92779c59b9609d8113ac9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: abc3a3a2b61ea6f8dd34d82bf91546f8f7552a61
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580124"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925202"
 ---
 # <a name="use-an-existing-field-in-project-service-as-a-pricing-dimension"></a>使用 Project Service 中現有的欄位做為定價維度
 

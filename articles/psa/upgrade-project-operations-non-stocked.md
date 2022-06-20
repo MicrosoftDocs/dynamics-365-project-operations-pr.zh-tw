@@ -1,6 +1,6 @@
 ---
 title: 從 Project Service Automation 升級至 Project Operations
-description: 本主題概述從 Microsoft Dynamics 365 Project Service Automation 升級至 Dynamics 365 Project Operations 的程序。
+description: 本文概述從 Microsoft Dynamics 365 Project Service Automation 升級至 Dynamics 365 Project Operations 的程序。
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/13/2022
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 3f31173197a3055cdc51567261dd91925fc9f430
-ms.sourcegitcommit: bec7382d1319d59645e8e79fdb20df58617c97c6
+ms.openlocfilehash: 30eb02240de6617d4c550ce59db2a454eee36f5b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8626708"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912966"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>從 Project Service Automation 升級至 Project Operations
 
-我們很高興宣布從 Microsoft Dynamics 365 Project Service Automation 升級至 Dynamics 365 Project Operations 的三個階段中的第一階段。 本主題為參與這段精彩過程的客戶提供概觀。 日後發佈的主題將會包含開發人員考量以及關於功能增強的詳細資料。 不僅提供指引來協助您做好升級至 Project Operations 的準備，還會說明升級後可望獲得的效益。
+我們很高興宣布從 Microsoft Dynamics 365 Project Service Automation 升級至 Dynamics 365 Project Operations 的三個階段中的第一階段。 本文為參與這段精彩過程的客戶提供概觀。 日後發佈的文章將會包含開發人員考量以及關於功能增強的詳細資料。 不僅提供指引來協助您做好升級至 Project Operations 的準備，還會說明升級後可望獲得的效益。
 
 升級傳遞計劃分成三個階段。
 
@@ -90,7 +90,7 @@ ms.locfileid: "8626708"
     > [!NOTE]
     > 視環境中的資料量而定，升級可能需要數小時的時間。 管理升級的核心團隊應進行相應的規劃，並在非營業時間執行升級。 在某些情況下，如果資料量龐大，最好在週末執行升級。 對於排程的決策應根據較低階環境中的測試結果來制定。
 
-3. 視情況而定升級自訂解決方案。 此時，請部署您在本主題的[測試和重構自訂](#testing-and-refactoring-customizations)區段對自訂所做的任何變更。
+3. 視情況而定升級自訂解決方案。 此時，請部署您在本文的[測試和重構自訂](#testing-and-refactoring-customizations)區段對自訂所做的任何變更。
 4. 移至 **設定** \> **解決方案**，並選擇解除安裝 **Project Operations 已取代元件** 解決方案。
 
     此解決方案是保存升級過程中存在之資料模型和元件的暫時解決方案。 移除此解決方案，就會移除所有不再使用的欄位和元件。 如此一來，就有助於簡化介面，使整合和擴充變得更輕鬆。
@@ -126,7 +126,6 @@ Project Operations 中的專案規劃功能不再依賴於用戶端邏輯與伺�
 | Project Service Automation                             | Project Operations 精簡部署                        | 支援               |
 | Dynamics 365 Finance 專案管理與會計 | Project Operations 精簡部署                        | 目前不支援 |
 | Finance 專案管理與會計              | 資源/非庫存案例適用的 Project Operations     | 目前不支援 |
-| Finance 專案管理與會計              | 庫存/生產訂單案例適用的 Project Operations | 目前不支援 |
 | Project Service Automation 3.x                         | 資源/非庫存案例適用的 Project Operations     | 目前不支援 |
 | Project for the Web (專用環境)            | Project Operations 精簡部署                        | 目前不支援 |
 

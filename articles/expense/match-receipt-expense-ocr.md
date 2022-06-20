@@ -1,6 +1,6 @@
 ---
 title: 使用 OCR 擷取收據
-description: 本主題提供有關使用光學字元辨識 (OCR) 處理收據的資訊。
+description: 本文提供有關對收據進行光學字元辨識 (OCR) 處理的資訊。
 author: suvaidya
 ms.date: 11/10/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1d4c2cce88514e7822515fc407fc7cf31cb34924
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ee16a43fa544af793676072f304d732359d3d9ec
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596270"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917796"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>使用 OCR 擷取收據
 

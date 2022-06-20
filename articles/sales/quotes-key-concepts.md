@@ -1,6 +1,6 @@
 ---
 title: 報價 - 重要概念
-description: 本主題提供有關 Project Operations 中所提供之專案報價和銷售報價的資訊。
+description: 本文提供有關 Project Operations 中可用專案報價和銷售報價的資訊。
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fbaed6a0967ce4ef4eec572de9e2a7da95c3cbd9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579894"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912506"
 ---
 # <a name="concepts-unique-to-project-based-quotes"></a>專案型報價獨有的概念
 
@@ -35,7 +35,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 - **欄位與概念**：銷售報價不包含某些包含在專案報價中的欄位與概念。 這些欄位包括 **承包單位**、**客戶經理** 和 **帳單連絡人**。  
 - **類型**：銷售報價與專案報價也是由 **類型** 這個選項組型欄位來識別。 就銷售報價而言，此欄位的值為 **項目型**。 至於專案報價，其值為 **工作型**。
 
-本主題側重於專案報價的詳細資料。
+本文內容側重於專案報價的詳細資料。
 
 Project Operations 中的專案報價可以有多個明細項目或報價明細。 專案報價實際上有兩個用於明細項目的網格。 一個網格適用於允許進行詳細估計的專案型明細。 另一個網格適用於使用簡易單價以及數量為主方法的產品型明細。
 

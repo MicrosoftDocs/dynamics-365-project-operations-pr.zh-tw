@@ -1,17 +1,17 @@
 ---
 title: 專案的材料財務估計值
-description: 本主題提供有關定義或估計專案型材料成本的資訊。
+description: 本文提供有關定義或估計專案型材料的資訊。
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 089158666dc8fd09cd5d2b615715ed8aaff5575a
-ms.sourcegitcommit: e6090e1fef5f475a3cd56b78b6abca29f90da8f5
+ms.openlocfilehash: eb33c8e2ead2a558bf53256095645011212ff343
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8737292"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925675"
 ---
 # <a name="financial-estimates-for-materials-on-projects"></a>專案的材料財務估計值
 

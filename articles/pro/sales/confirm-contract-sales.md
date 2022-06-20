@@ -1,17 +1,17 @@
 ---
 title: 確認專案合約
-description: 本主題提供有關如何在 Project Operations 中確認合約的資訊。
+description: 本文提供有關如何在 Project Operations 中確認合約的資訊。
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f5dab041bab1268235ed542f06d1b4b4cd240305
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0e92dc42c4ff6bdc40c479511c80d3e500df781a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599306"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929986"
 ---
 # <a name="confirm-a-project-contract"></a>確認專案合約
 

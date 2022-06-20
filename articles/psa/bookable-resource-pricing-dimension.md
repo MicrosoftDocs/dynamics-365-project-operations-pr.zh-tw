@@ -1,6 +1,6 @@
 ---
 title: 使用可預約資源做為定價維度
-description: 本主題提供有關使用可預約資源做為定價維度的資訊。
+description: 本文提供有關使用可預約資源做為定價維度的資訊。
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7b07ac8659c9eccf3db41775acf5ca2043016a59
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: becb64bb137079422a765dd7cd61369297e1ffb1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576398"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916094"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>使用可預約資源做為定價維度
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-本主題提供有關使用可預約資源做為定價維度的資訊。 開始之前，如果尚未建立定價維度解決方案，就必須建立新的定價維度。 如果已經有定價維度解決方案，則可以在該解決方案中進行變更。 如果您沒有為組織建立新的定價維度解決方案，請完成[建立自訂欄位和實體](create-custom-fields-entities.md)主題中的程序。
+本文提供有關使用可預約資源做為定價維度的資訊。 開始之前，如果尚未建立定價維度解決方案，就必須建立新的定價維度。 如果已經有定價維度解決方案，則可以在該解決方案中進行變更。 如果您沒有為組織建立新的定價維度解決方案，請完成[建立自訂欄位和實體](create-custom-fields-entities.md)文章中的程序。
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>將可預約資源新增至表單和檢視表
 若要讓欄位在定價維度解決方案的 UI 中可見，您必須逐步瀏覽主要 Project Service 實體的所有表單和檢視表，並將這些欄位新增至這些實體的表單和檢視表中。

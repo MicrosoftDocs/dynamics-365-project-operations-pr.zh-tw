@@ -1,6 +1,6 @@
 ---
 title: 實際值
-description: 本主題提供有關如何在 Microsoft Dynamics 365 Project Operations 中處理實際值的資訊。
+description: 本文提供有關如何在 Microsoft Dynamics 365 Project Operations 中使用實際值的資訊。
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f0cb8c478e2ce6fba589d51d95649f53f62e883
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2551b7d6d20df170c913e302e734583135265529
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581274"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924788"
 ---
 # <a name="actuals"></a>實際值
 
@@ -33,7 +33,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 Project Operations 會將專案業務開發生命週期中發生的財務交易記錄為實體值。 在生命週期的各種事件中建立實際值的作業各不相同，取決於專案業務開發使用的是時間和材料計費模型還是固定價格計費模型，以及此作業是在售前階段還是其本身為內部專案。
 
-下列主題說明不同變化在各種事件中對實際值資料表的影響：
+下列文章說明不同變化在各種事件中對實際值資料表的影響：
 
 - [時間和材料業務開發中的實際值影響](ActualsonTM.md)
 - [在固定價格業務開發中的影響](ActualonFP.md)

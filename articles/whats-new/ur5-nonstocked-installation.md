@@ -1,25 +1,25 @@
 ---
 title: 更新 Finance 環境中的 Project Operations
-description: 本主題提供有關如何在 Dynamics 365 Finance 環境中更新 Project Operations 的資訊。
+description: 本文提供有關如何在 Dynamics 365 Finance 環境中更新 Project Operations 的資訊。
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0cf9da8cc9d1f29dc41d4b119278e545047020bc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579914"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912460"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>更新 Finance 環境中的 Project Operations
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 
-本主題提供有關如何在 Dynamics 365 Finance 環境中更新 Dynamics 365 Project Operations 的資訊。 將 Project Operations 更新至更新 5 (UR5) 所需的程序有三個。
+本文提供有關如何在 Dynamics 365 Finance 環境中更新 Dynamics 365 Project Operations 的資訊。 將 Project Operations 更新至更新 5 (UR5) 所需的程序有三個。
 
 - [將套件匯入預覽版專案中](#import)
 - [套用更新](#apply)

@@ -1,17 +1,17 @@
 ---
 title: 計算產品型報價明細的成本
-description: 本主題提供有關將成本價套用至產品型報價明細的資訊。
+description: 本文提供有關將成本價套用至產品型報價明細的資訊。
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 33cfd42a61b368dc2d2d7f18bfaccf3a221a38fe
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 23eb3d29081769347d62098534a9863fd28fa90c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598295"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932562"
 ---
 # <a name="costing-product-based-quote-lines"></a>計算產品型報價明細的成本
 

@@ -1,17 +1,17 @@
 ---
 title: 在完全移轉時遷移完整開立發票的帳單里程碑
-description: 本主題說明如何遷移固定價格的帳單里程碑，此里程碑已在投入實際運作日期之前向客戶開立未交付專案合約的發票。
+description: 本文說明如何遷移固定價格的帳單里程碑，此里程碑已在投入實際運作日期之前向客戶開立未交付專案合約的發票。
 author: sigitac
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ccdba864a68521024b2c479c12cf5cea616c5bbf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d7bb3dbb5acd9be447c405ec17f18d00c500f655
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576260"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912230"
 ---
 # <a name="migrate-fully-invoiced-billing-milestones-at-cutover"></a>在完全移轉時遷移完整開立發票的帳單里程碑
 

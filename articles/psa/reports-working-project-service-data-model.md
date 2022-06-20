@@ -1,6 +1,6 @@
 ---
 title: 使用 Project Service Automation 資料模型
-description: 此主題提供有關如何使用資料模型的資訊。
+description: 本文提供有關如何使用資料模型的資訊。
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: e0849e5b2ab144814fe5310b11a758475ef56ef5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 67932eea78048c09f5f836d1330f412466622c6a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587530"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926674"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>使用 Project Service Automation 資料模型
 
@@ -31,7 +31,7 @@ ms.locfileid: "8587530"
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 
-Dynamics 365 Project Service Automation 擴充其他應用程式實體，並在 Common Data Service 資料模型中引進其本身的實體。 此主題描述一些會在一般 PSA 報表案例中遇到的實體。
+Dynamics 365 Project Service Automation 擴充其他應用程式實體，並在 Common Data Service 資料模型中引進其本身的實體。 本文說明一些會在一般 PSA 報表案例中遇到的實體。
 
 ## <a name="reporting-on-opportunities"></a>報告商機
 

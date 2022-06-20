@@ -1,28 +1,28 @@
 ---
 title: 專案排程 API 效能
-description: 本主題提供有關專案排程 API 效能評定的資訊，並找出最佳做法以達最有效利用。
+description: 本文提供有關專案排程 API 效能評定的資訊，並找出最佳做法以達最有效利用。
 author: ruhercul
 ms.date: 11/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3c14d27c561a86cd359cbdcbb448ae764dd3d90e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ee1bd8e4412ee1d10f445628c5dc87cc9fa91d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593832"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911172"
 ---
 # <a name="project-schedule-api-performance"></a>專案排程 API 效能
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations 精簡部署 - 交易至開立預估發票、Project for the Web_
 
-本主題提供有關專案排程應用程式開發介面 (API) 效能評定的資訊，並找出最佳做法以發揮最大的使用效益。
+本文提供有關專案排程應用程式開發介面 (API) 效能評定的資訊，並找出最佳做法以發揮最大的使用效益。
 
 ## <a name="project-scheduling-service"></a>專案排程服務
 專案排程服務是在 Microsoft Azure 中執行的多組織用戶共享服務。 其設計目的是要在使用者處理專案時提供快速且流暢的體驗，以改善互動。 達成這項改善的方法是，接受變更要求、處理這些要求，然後立即傳回結果。 服務以非同步方式保存至 Dataverse，不會封鎖使用者，使其無法執行其他作業。
 
-專案排程 API 依賴專案排程服務，以執行本主題後面幾節中更詳細說明的要求。
+專案排程 API 依賴專案排程服務，以執行本文稍後幾節中詳加說明的要求。
 
 專案排程 API 是專門為了與下列分工結構圖 (WBS) 實體搭配使用而設計：
 

@@ -1,6 +1,6 @@
 ---
 title: 在固定價格業務開發中的影響
-description: 本主題提供有關業務開發在 Microsoft Dynamics 365 Project Operations 中處於固定價格業務開發生命週期時各種事件中對實際值資料表所產生影響的資訊。
+description: 本文提供有關業務開發在 Microsoft Dynamics 365 Project Operations 中處於固定價格業務開發生命週期時各種事件中對實際值資料表所產生影響的資訊。
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 222e7c5eefd7c619e4d7389cdaff2f96176ff275
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 50819d77d56935bfe5438d7d9dae99562bcc0b49
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579218"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918118"
 ---
 # <a name="actuals-impact-in-a-fixed-price-engagement"></a>在固定價格業務開發中的影響
 

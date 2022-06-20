@@ -1,17 +1,17 @@
 ---
 title: 記錄已轉包元件的時間、費用及材料使用方式
-description: 本主題說明 Microsoft Dynamics 365 Project Operations 如何追蹤已轉包元件的專案上所記錄的時間、費用及材料使用方式。
+description: 本文說明 Microsoft Dynamics 365 Project Operations 如何追蹤已轉包元件的專案上所記錄的時間、費用及材料使用方式。
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5a31b4a1092cc4829cbfc789e8b8e30030b2826b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1c05b941fb51c8b56422e3b5d3868c9b69197187
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599214"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927640"
 ---
 # <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>在已轉包元件的專案上記錄時間、費用及材料使用方式
 
@@ -19,7 +19,7 @@ ms.locfileid: "8599214"
 
 _**適用於：** 精簡部署 - 交易至開立預估發票_
 
-本主題說明 Microsoft Dynamics 365 Project Operations 如何追蹤已轉包元件的專案上所記錄的時間、費用及材料使用方式。
+本文說明 Microsoft Dynamics 365 Project Operations 如何追蹤已轉包元件的專案上所記錄的時間、費用及材料使用方式。
 
 ## <a name="costing-for-subcontractor-time-on-projects"></a>計算專案的轉包商時間成本
 在 Project Operations 中，合約工作者可以當做員工，以類似的方式來記錄專案的時間。 在專案和/或專案工作上輸入時間時，合約工作者可以選取特定的轉包合約和轉包合約服務內容。

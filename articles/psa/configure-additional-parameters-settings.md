@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 0ceaa3af630df132339895a8497e49daf2e102c3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 75fe0aab8ea8bf41fcb98f4318380c93ac52fef8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592314"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919222"
 ---
 # <a name="configure-additional-parameter-settings-project-service"></a>設定其他參數設定 (Project Service)
 
@@ -30,7 +30,7 @@ ms.locfileid: "8592314"
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-您在前幾個主題中設定項目之後，需要設定其他專案參數以用於專案。 首次安裝 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]時，您已建立參數設定，以便先建立 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 運作所需的所有記錄。 現在要回頭設定這些設定的額外欄位。  
+在前幾篇文章中設定項目之後，就需要設定其他專案參數以用於專案。 首次安裝 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]時，您已建立參數設定，以便先建立 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 運作所需的所有記錄。 現在要回頭設定這些設定的額外欄位。  
   
  您將需要進行下列設定：  
   

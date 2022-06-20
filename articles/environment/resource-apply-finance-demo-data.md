@@ -1,24 +1,24 @@
 ---
 title: 將示範資料套用至 Finance 雲端託管的環境
-description: 本主題說明如何將 Project Operations 中的示範資料套用至 Dynamics 365 Finance 雲端託管的環境。
+description: 本文說明如何將 Project Operations 中的示範資料套用至 Dynamics 365 Finance 雲端託管的環境。
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e4ccc7eb02fabdc0476fe454f33bff637ab8b835
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4ce53c171929f0610c53025becaebea46d902c90
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588956"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924650"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>將示範資料套用至 Finance 雲端託管的環境
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 > [!IMPORTANT]
-> 本主題僅適用於 Microsoft Dynamics 365 Finance 10.0.13 版，只能在雲端託管的環境上執行。 將品質更新套用至環境 **之前**，請先完成本主題中的步驟。
+> 本文僅適用於 Microsoft Dynamics 365 Finance 10.0.13 版，只能在雲端託管的環境上執行。 將品質更新套用至環境 **之前**，請先完成本文中的步驟。
 
 1. 在 LCS 專案中，開啟 **環境詳細資料** 頁面。 請注意，其中包含使用遠端桌面通訊協定 (RDP) 連接至環境所需的詳細資料。
 

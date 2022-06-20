@@ -1,6 +1,6 @@
 ---
 title: 關閉定價維度
-description: 本主題顯示如何設定 Project Service 解決方案中的定價維度。
+description: 本文顯示如何設定 Project Service 解決方案中的定價維度。
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: f308104246efe671d2001e660aa8c0ab9ef44c7a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 81c3cfaad8dc8d057985b509f20c3ba31de45e3b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581688"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913150"
 ---
 # <a name="turn-off-a-pricing-dimension"></a>關閉定價維度
 

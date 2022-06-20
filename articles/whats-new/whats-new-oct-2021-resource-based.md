@@ -1,24 +1,24 @@
 ---
 title: 2021 年 10 月新增功能 - 資源/非庫存型案例適用的 Project Operations
-description: 本主題提供有關資源/非庫存型案例適用 Project Operations 2021 年 10 月發行版本中所提供之品質更新的資訊。
+description: 本文提供有關資源/非庫存型案例適用 Project Operations 2021 年 10 月發行版本中所提供之品質更新的資訊。
 author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c64ef1e2ba9e33b2ca7575a40cc51e0ae987a9f8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4dc5cc9a5842a02338b99c7c8d707bc0b81c74a1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598478"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914627"
 ---
 # <a name="whats-new-october-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021 年 10 月新增功能 - 資源/非庫存型案例適用的 Project Operations
 
 *適用於：資源/非庫存型案例適用的 Project Operations*
 
-此主題適用於下列 Dynamics 365 Project Operations 元件和版本：
+這篇文章適用於下列 Dynamics 365 Project Operations 元件和版本：
 
    - Microsoft Dataverse 環境版本 4.25.0.91 中的 Project Operations
    - Dynamics 365 Finance 環境 10.0.21 版中的專案管理與會計

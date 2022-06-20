@@ -1,17 +1,17 @@
 ---
 title: 管理帳務積存
-description: 本主題提供有關如何在 Project Operations 中檢視和處理帳務積存的資訊。
+description: 本文提供有關如何在 Project Operations 中檢視和使用帳務積存的資訊。
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 9837af0d3c0b2476edab35a53092cf95a44e5244
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5be05639650bb5b9d646067e8d83bada60824081
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599966"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929358"
 ---
 # <a name="manage-billing-backlog"></a>管理帳務積存
 

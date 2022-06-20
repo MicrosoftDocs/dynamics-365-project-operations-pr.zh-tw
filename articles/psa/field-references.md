@@ -1,6 +1,6 @@
 ---
 title: 將自訂欄位新增至價格設定與交易實體
-description: 本主題提供有關將自訂欄位新增至價格設定與交易實體的資訊。
+description: 本文提供有關將自訂欄位新增至價格設定與交易實體的資訊。
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,20 +16,20 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: cb4a99b10e5d0c79e80bcd46d2f60ccdab4487aa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b666d1767306b9833fba36c6ed2c59a633c5fdf0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596914"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920464"
 ---
 # <a name="add-custom-fields-to-price-setup-and-transactional-entities"></a>將自訂欄位新增至價格設定與交易實體 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-本主題假設您已完成主題[建立自訂欄位和實體](create-custom-fields-entities.md)中的程序。 如果您尚未完成這些程序，請返回並加以完，然後再回到本主題。 
+本文假設您已完成主題[建立自訂欄位和實體](create-custom-fields-entities.md)中的程序。 如果您尚未完成這些程序，請返回並加以完，然後再回到本文章。 
 
-本主題中的程序會告訴您如何將必要的自訂欄位參照新增至實體和使用者介面 (UI) 元素，例如表單和檢視表。
+本文中的程序會告訴您如何將必要的自訂欄位參考新增至實體和使用者介面 (UI) 元素，例如表單和檢視表。
 
 ## <a name="add-custom-pricing-dimension-fields"></a>新增自訂定價維度欄位 
 建立自訂欄位和實體之後，下一個步驟是透過建立參照欄位，讓價格設定和交易實體感知任何自訂實體或選項組。 依據定價維度清單包含的是選項組維度、實體維度還是這兩個維度都包含而定，分別依照 **選項組型自訂定價維度** 或 **實體型自訂定價維度** 或兩者中的步驟操作。

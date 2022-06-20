@@ -1,6 +1,6 @@
 ---
 title: 將自訂欄位設定為定價維度
-description: 本主題提供有關設定自訂定價維度的資訊。
+description: 本文提供有關設定自訂定價維度的資訊。
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,20 +16,20 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 91ec6d502a44771e7e03b67cc2be40c527fff355
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 14d27b53b42744d47e298bf5a926c1262dbf44d4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591900"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922587"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>將自訂欄位設定為定價維度 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-開始之前，本主題假設您已完成[建立自訂欄位和實體](create-custom-fields-entities.md)以及[將自訂欄位新增至價格設定與交易實體](field-references.md)主題中的程序。 如果您尚未完成這些程序，請返回並加以完，然後再回到本主題。 
+開始之前，本文假設您已完成[建立自訂欄位和實體](create-custom-fields-entities.md)和[將自訂欄位新增至價格設定與交易實體](field-references.md)文章中的程序。 如果您尚未完成這些程序，請返回並加以完，然後再回到本文章。 
 
-本主題提供有關設定自訂定價維度的資訊。 在 Project Service Web 介面的 **參數** 頁面中，**以金額為準的定價維度** 索引標籤會顯示定價維度實體中的記錄。 Project Service 安裝預設會在此索引標籤的網格中建立 2 個列：
+本文提供有關設定自訂定價維度的資訊。 在 Project Service Web 介面的 **參數** 頁面中，**以金額為準的定價維度** 索引標籤會顯示定價維度實體中的記錄。 Project Service 安裝預設會在此索引標籤的網格中建立 2 個列：
 
 - **msdyn_resourcecategory** (角色)
 - **msdyn_OrganizationalUnit** (組織單位)

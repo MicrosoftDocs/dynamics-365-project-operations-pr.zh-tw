@@ -1,17 +1,17 @@
 ---
 title: 專案排程記錄
-description: 本主題提供的資訊與範例，可協助您使用專案排程記錄來追蹤與專案排程服務及專案排程 API 相關的失敗。
+description: 本文提供的資訊與範例，可協助您使用專案排程記錄來追蹤與專案排程服務及專案排程 API 相關的失敗。
 author: ruhercul
 ms.date: 11/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 1a58a588d3e2fb92f1b4a4ed0f6f69d0a63908db
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c57419642e90e4def01f2cd2474c9e82dc162b86
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589508"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923685"
 ---
 # <a name="project-scheduling-logs"></a>專案排程記錄
 

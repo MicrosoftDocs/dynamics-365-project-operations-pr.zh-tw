@@ -1,24 +1,24 @@
 ---
 title: 2022 年 2 月 - 資源/非庫存型案例適用的 Project Operations 新增功能
-description: 本主題提供有關資源/非庫存型案例適用 Project Operations 2022 年 2 月發行版本中所提供之品質更新的資訊。
+description: 本文提供有關資源/非庫存型案例適用 Project Operations 2022 年 2 月發行版本中所提供之品質更新的資訊。
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 76ae00517c857415c89d7a03f421686dad28da93
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b036c0a3c39c52cb15277293679ef88906cae2c4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600824"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932976"
 ---
 # <a name="whats-new-february-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>2022 年 2 月 - 資源/非庫存型案例適用的 Project Operations 新增功能
 
 *適用於：資源/非庫存型案例適用的 Project Operations*
 
-本主題適用於 Microsoft Dynamics 365 Project Operations 的下列元件和版本：
+本文適用於 Microsoft Dynamics 365 Project Operations 的下列元件和版本：
 
 - Dataverse 環境 4.28.0.120 版中的 Project Operations
 - Dynamics 365 Finance 環境 10.0.24 版中的專案管理與會計
@@ -76,11 +76,11 @@ ms.locfileid: "8600824"
 
 ## <a name="removed-and-deprecated-features"></a>已移除和已取代的功能
 
-[Project Operations 中已移除或已取代的功能](removed-depreciated-features-project.md)主題說明 Dynamics 365 Project Operations 已移除或已取代的功能。
+[Project Operations 中已移除或已取代的功能](removed-depreciated-features-project.md)文章題說明 Dynamics 365 Project Operations 已移除或已取代的功能。
 
 - 已移除的功能在產品中不復存在。
 - 取代的功能不在主動開發之列，可能會在未來的更新中遭移除。
 
-將任何功能從產品移除之前 12 個月，取代公告會出現在 [Project Operations 中已移除或已取代的功能](removed-depreciated-features-project.md)主題中。
+將任何功能從產品移除之前 12 個月，取代公告會出現在 [Project Operations 中已移除或已取代的功能](removed-depreciated-features-project.md)文章中。
 
 對於僅影響編譯時間但與沙箱和生產環境二進位相容,的中斷性變更來說，取代時間將少於12個月。 這些變更通常是必須對編譯器進行的功能更新。

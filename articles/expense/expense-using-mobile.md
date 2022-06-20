@@ -1,6 +1,6 @@
 ---
 title: 行動費用應用程式
-description: 本主題提供有關費用管理行動工作區的資訊。
+description: 本文提供費用管理行動工作區的相關資訊。
 author: suvaidya
 ms.date: 11/15/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 14bd76df5f058d2af9f77990471a0a173fe8c15d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ba7ccae04fbb02252e3ceb01f123ce1e85375b7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588910"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930216"
 ---
 # <a name="mobile-expense-app"></a>行動費用應用程式
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
-本主題提供有關 **費用管理** 行動工作區的資訊。 此工作區允許使用者擷取並上傳收據，讓他們可以稍後將收據附加至費用報表。 使用者也可以使用附加的收據快速建立費用明細，並建立和管理他們的費用報表。 此外，核准者還可以使用 **費用管理** 行動工作區來檢視指派給他們的費用報表，並核准或拒絕這些費用報表。
+本文提供 **費用管理** 行動工作區的相關資訊。 此工作區允許使用者擷取並上傳收據，讓他們可以稍後將收據附加至費用報表。 使用者也可以使用附加的收據快速建立費用明細，並建立和管理他們的費用報表。 此外，核准者還可以使用 **費用管理** 行動工作區來檢視指派給他們的費用報表，並核准或拒絕這些費用報表。
 
 此行動工作區旨在與 Dynamics 365 Unified Ops 行動應用程式搭配使用。
 

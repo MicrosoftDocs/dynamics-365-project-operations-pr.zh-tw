@@ -1,6 +1,6 @@
 ---
 title: 從總帳或採購與委外中檢視費用報表
-description: 本主題說明如何檢視顯示交易的原始費用報表。
+description: 本文說明如何檢視交易出現所在的原始費用報表。
 author: saraschi2
 ms.date: 02/26/2018
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 303bfff8b0e329bc47fb8df72939cf1266e9f1d7
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: e17e34702f39cd8651899b3e0b68b7809bf10d86
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685138"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929605"
 ---
 # <a name="view-an-expense-report-from-general-ledger-or-procurement-and-sourcing"></a>從總帳或採購與委外中檢視費用報表
 

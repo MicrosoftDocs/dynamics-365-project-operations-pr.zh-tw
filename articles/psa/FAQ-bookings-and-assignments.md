@@ -1,6 +1,6 @@
 ---
 title: 資源預約以及其與工作指派有何關聯
-description: 本主題提供有關如何管理具名資源、資源預約和工作指派，以及其彼此之間有何關聯的資訊。
+description: 本文提供有關如何管理具名資源、資源預約和工作指派，以及其彼此之間有何關聯的資訊。
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 953d7ca1995eae823fd29d0a9e85ff6a2a2eb59b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fd8f028a9f4056a646f5001ee8c91191c71140af
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575469"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910942"
 ---
 # <a name="resource-bookings-and-how-they-relate-to-task-assignments"></a>資源預約以及其與工作指派有何關聯
 

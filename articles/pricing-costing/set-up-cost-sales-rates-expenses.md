@@ -1,17 +1,17 @@
 ---
 title: 設定費用的成本及銷售費率
-description: 本主題提供有關如何為交易類別和費用類別設定成本及銷售費率的資訊。
+description: 本文提供有關如何設定交易與費用類別之成本及銷售費率的資訊。
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: de7f95f9dcb1dff866d165dba9aaaedb480c1ad5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c503230348750af246f6ee7a4af1176d7bf22ba4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598432"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911862"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>設定費用的成本及銷售費率
 

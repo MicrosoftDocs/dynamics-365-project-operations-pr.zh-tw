@@ -1,6 +1,6 @@
 ---
 title: 專案規劃首頁
-description: 本主題提供有關專案規劃的資訊。
+description: 本文提供專案規劃的相關資訊。
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ef893b78ca3a421e22dbbabdce7a0a18d4b9abd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f6309a2eecd0f6c7d38f2d88120300eb342be629
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588129"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919038"
 ---
 # <a name="project-planning-home-page"></a>專案規劃首頁
 
@@ -43,7 +43,7 @@ PSA 中的專案管理工具可協助您輕鬆執行專案。 內建範本和排
 - 針對處於準銷售案源中的專案預測資源需求。
 - 追蹤進度及成本耗用以成功交付專案。
 
-下列主題提供的資訊可協助專案經理使用 PSA 所支援的工具，預估工作、預估專案成本並預測資源需求：
+下列文章提供的資訊可協助專案經理使用 PSA 所支援的工具來預估工作、預估專案成本以及預測資源需求：
 
 - [建立排程 ](project-creating.md)
 - [預估專案成本及營收](project-estimating.md)

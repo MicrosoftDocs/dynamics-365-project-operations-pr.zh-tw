@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation V3 更新版本 13 的新功能或變更內容
-description: 本主題提供 Project Service Automation V3 更新版本 13 中新功能的相關資訊。
+description: 本文提供 Project Service Automation V3 更新版本 13 新功能的相關資訊。
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/04/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: eb935d5bf3d2deb95db420f20a8102dae1864515
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f4898391922f5ecbc99d78e49358ea749fe27b3f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596141"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930676"
 ---
 # <a name="project-service-automation-update-release-13-v3"></a>Project Service Automation 更新版本 13 V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8596141"
 
 我們很高興宣布 Dynamics 365 Project Service Automation (PSA) 應用程式的最新更新。 此版本包含一些對品質、效能和可用性的重要改進。 此版本與 Dynamics 365 9. x 相容。 若要更新至此版本，請前往 Dynamics 365 online 系統管理中心，然後移至解決方案頁面以安裝更新。 如需詳細資訊，請參閱[安裝、更新或移除偏好的解決方案](/power-platform/admin/install-remove-preferred-solution)。
 
-本主題列出 Project Service Automation V3 更新版本 13 新推出或已變更的功能及修正。 這個版本的組建編號為 V3.10.3.18，依照下列排程提供：
+本文列出 Project Service Automation V3 更新版本 13 新增或變更的功能和修正。 這個版本的組建編號為 V3.10.3.18，依照下列排程提供：
 
 - **正式運作 (自我更新)：** 2019 年 11 月
 - **自動更新：** 2019 年 12 月

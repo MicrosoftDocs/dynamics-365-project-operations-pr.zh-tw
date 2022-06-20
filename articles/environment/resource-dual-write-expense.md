@@ -1,24 +1,24 @@
 ---
 title: 費用管理整合
-description: 本主題提供有關 Project Operations 中使用雙重寫入進行費用報表整合的資訊。
+description: 本文提供有關在 Project Operations 中使用雙重寫入進行費用報表整合的資訊。
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b41be519dbfa89668712bc28ccb1888cd08c38a2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c64c318dc1915a9a87b6ae3c6b8a2aa6d3c9cd36
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585782"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924604"
 ---
 # <a name="expense-management-integration"></a>費用管理整合
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
-本主題提供有關 Project Operations [全額費用部署](../expense/expense-overview.md)中使用雙重寫入進行費用報表整合的資訊。
+本文提供有關在 Project Operations [完整費用部署](../expense/expense-overview.md)中使用雙重寫入進行費用報表整合的資訊。
 
 ## <a name="expense-categories"></a>費用類別
 

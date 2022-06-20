@@ -1,23 +1,23 @@
 ---
 title: 設定費用管理參數
-description: 本主題描述控制費用管理中一般行為的參數。
+description: 本文說明控制費用管理中一般行為的參數。
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: bbaabd34d8f4af5dbcaff507fbb9f8de79355aa4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6432e119f38071b028c013561bab99820778a11d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577134"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931458"
 ---
 # <a name="configure-expense-management-parameters"></a>設定費用管理參數
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
-本主題描述控制費用管理中一般行為的參數。
+本文說明控制費用管理中一般行為的參數。
 
 ## <a name="general"></a>一般
 

@@ -1,6 +1,6 @@
 ---
-title: 顛覆想像的費用報表 (包含影片)
-description: 本主題說明費用報表項目經過重新設計而顛覆想像的體驗。
+title: 重新定義的費用報表 (包含影片)
+description: 本文提供說明費用報表項目的重新設計及重新定義體驗。
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
@@ -13,14 +13,14 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 562ec3701a607ed95f663f3e0846d044b3bf504e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c74b4b70722af72bc66dba0662813c29d3d1df04
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586932"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930262"
 ---
-# <a name="expense-reports-reimagined"></a>顛覆想像的費用報表
+# <a name="expense-reports-reimagined"></a>重新定義的費用報表
 
 費用報表項目經過重新設計，可以簡化程序並縮短完成報表所需的時間。 以下是新的費用體驗的主要元件：
 
@@ -32,7 +32,7 @@ ms.locfileid: "8586932"
 - 新的頁面，可用來指定必要欄位、選用欄位以及不應包含的欄位。 此頁面有助於減少必須設定的欄位數目。
 - 新的費用報表外觀與風格，讓報表看起來不再像是專為會計人員設計的一樣。
 
-若要開啟新體驗，請使用 **功能管理** 工作區來開啟 **顛覆想像的費用報表工作區** 功能。 下列動作會在您開啟此功能時發生：
+若要開啟新體驗，請使用 **功能管理** 工作區來開啟 **重新定義的費用報表工作區** 功能。 下列動作會在您開啟此功能時發生：
 
 - 現有的費用工作區會用新的工作區來取代。
 - 新增費用欄位顯示性的新功能表項目。
@@ -66,7 +66,7 @@ ms.locfileid: "8586932"
 初次發行版本側重於費用項目案例。 任何費用報表審查或核准案例都會繼續使用現有的費用項目頁面。
 
 
-[顛覆想像的費用報表工作區] 不支援下列功能，但已規劃在未來的版本中推出： 
+[重新定義的費用報表工作區] 不支援下列功能，但已規劃在未來的版本中推出： 
 
 - 差旅申請整合
 - 每日津貼費用項目

@@ -1,6 +1,6 @@
 ---
 title: 專案資源分配首頁
-description: 本主題提供有關專案資源分配的資訊。
+description: 本文提供專案資源分配的相關資訊。
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 38793c4b9fc6cd2c1999661cb2acc587086b0143
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 605a6884cb342abf029644dbf8f2d75127df1786
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684862"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924006"
 ---
 # <a name="project-resourcing-home-page"></a>專案資源分配首頁
 
 [!include [banner](../includes/banner.md)]
 
-本主題提供有關專案資源分配的資訊。
+本文提供專案資源分配的相關資訊。
 
 專案規劃階段對專案經理和資源管理員的一項挑戰是資源配置，他們必須在其中判斷和保留要在專案上使用的正確資源。 在 Dynamics 365 Finance 中，專案的資源分配功能可讓您定義視為暫時資源的角色，這些資料可保留用於特定業務開發或部分業務開發。 此類型的資源分配可讓專案經理和資源管理員完成下列工作：
 
@@ -41,7 +41,7 @@ ms.locfileid: "8684862"
 
 在專案規劃繼續進行的過程中，可將規劃的資源取代為人員配置資源。 專案經理也可以在任何專案階段返回並更新資源分配保留。
 
-下列主題提供有關處理資源分配專案時所需要完成之工作的資訊。
+下列文章提供有關處理資源分配專案時所需完成之工作的資訊。
 
 - [設定專案資源](set-up-project-resources.md)
 - [管理資源專長](manage-resource-competencies.md)

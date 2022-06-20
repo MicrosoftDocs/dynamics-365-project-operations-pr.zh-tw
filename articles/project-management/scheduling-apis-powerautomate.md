@@ -1,25 +1,25 @@
 ---
 title: 使用專案排程 API 與 Power Automate
-description: 本主題提供使用專案排程應用程式開發介面 (API) 的範例流程。
+description: 本文提供使用專案排程應用程式開發介面 (API) 的範例流程。
 author: ruhercul
 ms.date: 01/26/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9708226b0955cfa6c405b9616c14765f9ebc21f7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2527375ff3f3d631f3bb3de1458abb3b8838db54
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597696"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916324"
 ---
 # <a name="use-project-schedule-apis-with-power-automate"></a>使用專案排程 API 與 Power Automate
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
-本主題說明的範例流程示範使用 Microsoft Power Automate 建立完整專案計劃、建立作業集和更新實體的方法。 此範例示範如何建立專案、專案團隊成員、作業集、專案工作和資源指派。 本主題還會說明如何更新實體以及執行作業集。
+本文說明的範例流程示範使用 Microsoft Power Automate 建立完整專案計劃、建立作業集和更新實體的方法。 此範例示範如何建立專案、專案團隊成員、作業集、專案工作和資源指派。 本文還會說明如何更新實體以及執行作業集。
 
-以下是在本主題範例流程中所記載步驟的完整清單：
+以下是在本文範例流程中所記載步驟的完整清單：
 
 1. [建立PowerApps  觸發程式](#1)
 2. [建立專案](#2)
@@ -40,7 +40,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 ## <a name="assumptions"></a>假設
 
-本主題假設您具備 Dataverse 平台、雲端流程及專案排程應用程式開發介面 (API) 的基本知識。 如需詳細資訊，請參閱本主題稍後的[參考資料](#references)。
+本文假設您具備 Dataverse 平台、雲端流程及專案排程應用程式開發介面 (API) 的基本知識。 如需詳細資訊，請參閱本文稍後的[參考資料](#references)。
 
 ## <a name="create-a-flow"></a>建立流程
 
@@ -65,7 +65,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 1. 在 **解決方案** 頁面上，選取您所建立的解決方案，然後選取 **新增**。
 2. 在左窗格中，選取 **雲端流程** \> **自動化** \> **雲端流程** \> **即時**。
 3. 在 **流程名稱** 欄位中，輸入 **排程 API 示範流程**。
-4. 在 **選擇觸發此流程的方式** 清單中，選取 **Power Apps**。 建立 Power Apps 觸發程序時，邏輯取決於身為作者的您。 在本主題中，讓輸入參數保持空白以進行測試。
+4. 在 **選擇觸發此流程的方式** 清單中，選取 **Power Apps**。 建立 Power Apps 觸發程序時，邏輯取決於身為作者的您。 在本文中，讓輸入參數保持空白以進行測試。
 5. 選取 **建立**。
 
 ## <a name="step-2-create-a-project"></a><a id="2"></a>步驟 2：建立專案

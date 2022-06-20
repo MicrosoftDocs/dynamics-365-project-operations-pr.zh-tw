@@ -1,24 +1,24 @@
 ---
 title: 建立資源指派
-description: 本主題提供有關建立一般及具名資源指派的資訊。
+description: 本文提供有關建立一般和具名資源指派的資訊。
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 2b918392fbcde1071aa52ffa7834938be1acd383
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 31404fc35d72acb9ad791ef8a755f23108f528ad
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576536"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933482"
 ---
 # <a name="create-resource-assignments"></a>建立資源指派
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
 
-資源指派是專案團隊成員與分葉節點工作的直接關聯。 本主題提供有關不同指派資源方式的資訊。
+資源指派是專案團隊成員與分葉節點工作的直接關聯。 本文提供有關各種指派資源的不同方式的資訊。
 
 ## <a name="create-a-generic-team-member-through-task-assignment"></a>透過工作指派建立一般團隊成員
 

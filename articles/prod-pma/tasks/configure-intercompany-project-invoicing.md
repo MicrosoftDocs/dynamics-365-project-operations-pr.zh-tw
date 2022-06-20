@@ -1,6 +1,6 @@
 ---
 title: 設定公司之間的專案發票開立
-description: 本主題說明如何設定您組織中兩家公司之間的專案發票開立。
+description: 本文示範如何在您的組織中設定兩家公司之間的專案發票開立。
 author: Yowelle
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab0d1eb2806d2e1650faccf3fbb63c63c0fa9e05
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 74548a4c30ceb6826e5280948f6829e567bc02e0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683265"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916600"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>設定公司之間的專案發票開立
 
 [!include [banner](../../includes/banner.md)]
 
-本主題說明如何設定您組織中兩家公司之間的專案發票開立。 此工作會使用 USSI 資料集。
+本文示範如何在您的組織中設定兩家公司之間的專案發票開立。 此工作會使用 USSI 資料集。
 
 1. 在導覽窗格中，移至 **模組 > 應付帳款 > 供應商 > 所有供應商**。
 2. 在 **所有供應商** 清單中，尋找並選取所需的記錄。

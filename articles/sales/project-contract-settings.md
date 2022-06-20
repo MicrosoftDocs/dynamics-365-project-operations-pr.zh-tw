@@ -1,23 +1,23 @@
 ---
 title: 專案合約設定
-description: 本主題提供有關影響合約服務內容之欄位的資訊，以及有關概括所有明細項目之合約的資訊。
+description: 本文提供有關影響專案合約之欄位的資訊，以及有關將所有明細項目彙總至之合約的資訊。
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 461e6026730e4895b4d660db0f50b621432fd01a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1c3317eb36a98e14074fb504cfac5ff6e25fa3a0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580938"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921568"
 ---
 # <a name="header-details-for-project-based-contracts"></a>專案型合約的標題詳細資料
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
-本主題提供有關套用至整個專案合約之欄位 (包括影響所有合約服務內容之設定) 的資訊。 此外，還提供有關概括所有提高專案合約 KPI 之明細項目的合約資訊。
+本文提供有關套用至整個專案合約之欄位 (包括會影響所有合約服務內容的設定) 的資訊。 此外，還提供有關概括所有提高專案合約 KPI 之明細項目的合約資訊。
 
 下表列出專案合約上屬於 Dynamics 365 Project Operations 所獨有的欄位，或在 Dynamics 365 Sales 銷售訂單行為上有重要變更的欄位。
 

@@ -1,22 +1,22 @@
 ---
 title: 2021 年 2 月 - Project Operations 精簡部署新增功能
-description: 本主題提供關於 Project Operations Lite 精簡部署 2021 年 2 月版本中所提供之品質更新的資訊。
+description: 本文提供有關 Project Operations 精簡部署 2021 年 2 月發行版本中所提供之品質更新的資訊。
 author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 139494962562aaaf005e116f02bcd41db58eea27
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 329bc31ad4c0958fe60e73b257e6b4c262bb60f9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574604"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914024"
 ---
 # <a name="whats-new-february-2021---project-operations-lite-deployment"></a>2021 年 2 月 - Project Operations 精簡部署新增功能
 
-此主題適用於下列 Dynamics 365 Project Operations 元件和版本：
+這篇文章適用於下列 Dynamics 365 Project Operations 元件和版本：
 
   - Dataverse 環境的 Project Operations 版本 4.7.0.95
 

@@ -1,6 +1,6 @@
 ---
 title: 報價和報價明細
-description: 本主題提供有關報價和報價明細的資訊。
+description: 本文提供有關報價和報價明細的資訊。
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ff0a221b9d9ee1176f4e6c996613e33a6ca5e84
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4c59f018adc7ee439fd77a819e2fb7620941e958
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599030"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933344"
 ---
 # <a name="quotes-and-quote-lines"></a>報價和報價明細
 
@@ -39,7 +39,7 @@ ms.locfileid: "8599030"
 - 銷售報價不包含某些包含在具有欄位之專案報價中的欄位與概念。 這些欄位包括 **承包單位**、**客戶經理** 和 **帳單連絡人**。  
 - 銷售報價與專案報價也是由名為 **類型** 的選項組型欄位來識別。 就銷售報價而言，此欄位的值為 **項目型**。 至於專案報價，其值為 **工作型**。
 
-本主題內容將重點放在專案報價的詳細資料上。
+本文將重點放在專案報價的詳細資料上。
 
 PSA 中的專案報價可以有多個明細項目或報價明細。 專案報價實際上有兩個用於明細項目的網格。 一個網格適用於允許進行詳細估計的專案型明細。 另一個網格適用於使用簡易單價以及數量為主方法的產品型明細。
 

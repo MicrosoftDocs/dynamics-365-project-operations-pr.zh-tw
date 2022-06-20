@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation 更新版本 29.5 Hotfix V3 中的新功能或變更
-description: 本主題列出 Project Service Automation 更新版本 29.5 Hotfix V3 提供的功能和修正。
+description: 本文列出 Project Service Automation V3 更新版本 29.5 Hotfix 中提供的功能和修正。
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 03/26/2021
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: df0f486a3a3d592b8780671ab05ed26f97df24ea
-ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.openlocfilehash: a023a2e777b04575bf31a55f1104bacbdf346744
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723575"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926352"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-295-v3"></a>Project Service Automation V3 更新版本 29.5 的新功能或變更內容
 
 我們很高興地宣佈 Dynamics 365 的 Project Service Automation 應用程式的最新更新。 此版本包含一些對品質、效能和可用性的重要改進。 此版本與 Dynamics 365 9. x 相容。 若要更新至此版本，請前往 Dynamics 365 online 系統管理中心，請移至解決方案頁面以安裝更新。 如需詳細資訊，請參閱[安裝、更新或移除偏好的解決方案](/power-platform/admin/install-remove-preferred-solution)。
 
-本主題列出 Project Service Automation V3 更新版本 29.5 新推出或已變更的功能及修正。 此版本的組建編號為 V3.10.47.150，已於 2021 年 1 月透過自我更新正式推出。
+本文列出 Project Service Automation V3 更新版本 29.5 新增或變更的功能和修正。 此版本的組建編號為 V3.10.47.150，已於 2021 年 1 月透過自我更新正式推出。
 
 ## <a name="update-release-295"></a>更新版本 29.5
 
