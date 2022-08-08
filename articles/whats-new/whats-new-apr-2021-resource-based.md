@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a060bdc4e4c9f37ec666b1cf4d078986ad1571db
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 490b7aa38bfdfbcdce21a21e582296e4ce15aeeb
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912414"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029244"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021 年 4 月新增功能 - 資源/非庫存型案例適用的 Project Operations
 
@@ -48,7 +48,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 | Project Operations 整合專案廠商發票匯出實體 (msdyn\_projectvendorinvoices) | 1.0.0.0 | 新增資料表對應，以便將財務和營運應用程式中的廠商發票標題同步處理至 Dataverse。 |
 | Project Operations 整合專案廠商發票明細匯出實體 (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | 新增資料表對應，以便將財務和營運應用程式中的廠商發票明細同步處理至 Dataverse。 |
 
-更新 Project Operations Dataverse 解決方案以及 Finance and Operations 解決方案版本時，請務必在您的環境中執行最新版本的對應，並啟用所有相關的資料表對應。 如果未啟用最新版本的對應，特定功能可能無法正確運作。 您可以在 **雙重寫入** 頁面的 **版本** 欄中查看對應的使用中版本。 您可以選取 **資料表對應版本**、選取最新版本，然後儲存選取的版本來啟用新的對應版本。 如果您已對現成可用的資料表對應進行自訂，請重新套用變更。 如需詳細資訊，請參閱[解決方案生命週期管理](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management)。
+更新 Project Operations Dataverse 解決方案以及財務和營運解決方案版本時，請務必在您的環境中執行最新版本的對應，並啟用所有相關的資料表對應。 如果未啟用最新版本的對應，特定功能可能無法正確運作。 您可以在 **雙重寫入** 頁面的 **版本** 欄中查看對應的使用中版本。 您可以選取 **資料表對應版本**、選取最新版本，然後儲存選取的版本來啟用新的對應版本。 如果您已對現成可用的資料表對應進行自訂，請重新套用變更。 如需詳細資訊，請參閱[解決方案生命週期管理](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management)。
 
 如果啟動對應時發生問題，請依照[對應上發生的遺失資料表欄問題](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps)雙重寫入疑難排解指南一節中的指示操作。
 

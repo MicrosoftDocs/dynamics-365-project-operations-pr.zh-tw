@@ -1,5 +1,5 @@
 ---
-title: 將 Project Service Automation 中的專案估計值直接同步處理至 Finance and Operations
+title: 將 Project Service Automation 中的專案估計值直接同步處理至財務和營運
 description: 本文說明用來將 Microsoft Dynamics 365 Project Service Automation 中的專案工時估計值和專案費用估計值直接同步處理至 Dynamics 365 Finance 的範本及基礎工作。
 author: Yowelle
 ms.date: 07/20/2018
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: fb39a377a51b09f04564b4fe8527e34f0ea12682
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2a71a2a7ca0c9179ddd5667364d8b5c9e413b917
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8920832"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029795"
 ---
-# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>將 Project Service Automation 中的專案估計值直接同步處理至 Finance and Operations
+# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>將 Project Service Automation 中的專案估計值直接同步處理至財務和營運
 
 [!include[banner](../includes/banner.md)]
 

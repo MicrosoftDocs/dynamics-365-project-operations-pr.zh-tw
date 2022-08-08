@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f20dda2b7b384608b8f4b548c18ac21d07fee07
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2a5b5159ceb8aa5b29dffad59517bc11fbf16871
+ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924834"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "9183964"
 ---
 # <a name="review-proposed-resources"></a>檢閱提案的資源
 
@@ -40,8 +40,8 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
     發生下列狀態更新：
 
     - 在 **排程小幫手** 頁面上，狀態指示器會更新，以指出該預約是提案所建議，而不是已確認預約。
-    - 在資源要求上，狀態已變更為 **需要檢閱**。
-    - 在專案的 **團隊** 索引標籤上，一般團隊成員的 **要求狀態** 值會變更為 **需要檢閱**。
+    - 在資源要求上，要求的審查者應將狀態變更為 **需要審查**。
+    - 在專案的 **團隊** 索引標籤上，一般團隊成員的 **要求狀態** 值會自動變更為 **需要審查**。
 
 專案經理可以接受或拒絕提案。
 

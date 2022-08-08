@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 2d773603abef7ab45d4d1c298e5553e57893294d
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: 8313288ecf7ff1350cd82c62d3d0c291d8a3ded4
+ms.sourcegitcommit: 7772d72a7c96a44ffb23369f8ffb436813449239
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959390"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "9031183"
 ---
 # <a name="whats-new-june-2022---project-operations-lite-deployment"></a>2022 年 6 月新增功能 - Project Operations 精簡部署
 
@@ -20,7 +20,7 @@ _**適用於：** 精簡部署 - 交易至開立預估發票_
 
 本文適用於 Microsoft Dynamics 365 Project Operations 的下列元件和版本：
 
-- Dataverse 環境 4.43.0.77 版中的 Project Operations
+- Dataverse 環境版本 4.43.0.77 或 4.43.0.119 中的 Project Operations
 
 ## <a name="quality-updates"></a>品質更新
 

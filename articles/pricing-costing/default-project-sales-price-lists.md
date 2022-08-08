@@ -6,12 +6,12 @@ ms.date: 10/13/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7a8f99cd03e5c2c15941c17469cc5632765b0fdc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 99af12577abeb0b77dc5d8a117d1e3b292bf0b80
+ms.sourcegitcommit: 260368e1d0751db713da073a641c63c04876fcdf
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917704"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "9036401"
 ---
 # <a name="default-price-lists"></a>預設價目表
 
@@ -25,7 +25,7 @@ Dynamics 365 Project Operations 中的每個專案報價和合約都會包含預
 系統會完成下列程序，以判斷專案報價預設要使用的價目表：
 
 1. 系統查看已附加至客戶專案價目表的價目表。 
-2. 如果有附加至客戶記錄的專案價目表，則系統會查看附加至專案參數 (符合專案報價貨幣) 的銷售價目表。
+2. 如果沒有附加至客戶記錄的專案價目表，則系統會查看附加至專案參數 (符合專案報價貨幣) 的銷售價目表。
 3. 接下來，系統會檢查價目表的日期有效性 (是否符合專案報價日期範圍)。 具體而言，報價建立日期。
 4. 如果有多個對專案報價日期生效的價目表，則專案報價預設使用所有的價目表。
 5. 如果沒有任何價目表對專案報價日期生效，則專案報價上沒有預設專案價目表。 專案報價上會出現警告訊息。 訊息表示因為沒有附加專案價目表，無法設定專案估計值與實際值的價格。

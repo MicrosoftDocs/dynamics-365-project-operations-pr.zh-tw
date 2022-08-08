@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: b146174583fdea45481b87375158ebe83ed63418
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a8c8e63a2d8c238f582b67348f88b7285a0b1e12
+ms.sourcegitcommit: 278740b352f1ed9618ee5c79597c8f449984d6f4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911126"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177369"
 ---
 # <a name="project-stages"></a>專案階段
 
@@ -47,7 +47,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 
 ## <a name="plan"></a>計劃
 
-當您贏得與專案相關聯的報價，且專案已進入 **合約** 階段時，專案階段會更新為 **計劃**。 專案處於 **計劃** 階段時，**專案實體** 頁面會顯示合約的詳細資料。
+當您贏得與專案相關聯的報價，且專案已進入 **合約** 階段時，專案階段會更新為 **計劃**。 專案處於 **計劃** 階段時，**專案實體** 上的 **銷售** 索引標籤會顯示合約的詳細資料。
 
 ## <a name="deliver"></a>交付
 

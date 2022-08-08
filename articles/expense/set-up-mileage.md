@@ -6,12 +6,12 @@ ms.date: 05/20/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 03ca18c8fef6228f2ba553ebe50447beda5a857c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 9689bbaf4c4f88ad9f746c3f98676f97e634ab6c
+ms.sourcegitcommit: 5e1f549a2e55a87351b2979e3aff402ed35487e1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8930124"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9064268"
 ---
 # <a name="set-up-mileage-using-mileage-rate-tiers"></a>使用里程費率層級來設定里程
 
@@ -50,5 +50,15 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 啟用此功能之後，重設里程層級以正確反映 **數量** 欄位的值。 
 
+## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>啟用 [依會計年度計算里程總計] 功能
+
+**依會計年度計算里程總計** 功能會啟用費用管理參數中的新設定，此設定執行里程總計計算依據的是會計年度，而不是日曆年度。 若要啟用此功能，請完成下列步驟。
+
+1. 移至 **工作區** > **功能管理**。
+1. 在清單中，尋找並選取 **依會計年度計算里程總計**，然後選取 **立即啟用**。
+1. 移至 **費用管理** > **設定** > **一般** > **費用管理參數**。
+1. 在 **費用管理參數** 頁面上，尋找並啟用 **將會計年度用於里程總計**。
+
+啟用 **將會計年度用於里程總計** 之後，里程總計會依據會計年度進行計算。
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

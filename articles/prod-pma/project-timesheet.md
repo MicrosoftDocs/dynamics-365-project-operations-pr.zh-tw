@@ -2,7 +2,7 @@
 title: 專案時程表行動應用程式
 description: 本文提供 Microsoft Dynamics 365 Project Timesheet 行動應用程式的相關資訊。 專案時程表行動應用程式可讓使用者在其行動裝置上提交和核准專案的時程表。
 author: abruer
-ms.date: 04/08/2019
+ms.date: 06/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 6f4be64f595371334e4065b60ca1a81232b333f7
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 730ed36841d07df60e8a8f343126209f0edcc593
+ms.sourcegitcommit: 5c971b15295046b3c92ff6638dd1352129f1c390
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923960"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9110965"
 ---
 # <a name="project-timesheet-mobile-application"></a>專案時程表行動應用程式
 
@@ -28,7 +28,7 @@ ms.locfileid: "8923960"
 
 ## <a name="overview"></a>概觀
 
-Microsoft Dynamics 365 Project Timesheet 行動應用程式 (iPhone 或 Android) 可讓使用者在其行動裝置上提交和核准專案的時程表。 此行動應用程式會顯示位於 Dynamics 365 Finance 的 [專案管理與會計] 區域中的時間表功能，並改善使用者生產力和效率，以及讓專案時間表可以適時輸入並獲核准。
+Microsoft Dynamics 365 Project Timesheet 行動應用程式 (iPhone 或 Android) 可讓使用者在其行動裝置上提交和核准專案的時程表。 此行動應用程式會顯示位於 Dynamics 365 Finance 的 [專案管理與會計] 區域中的時程表功能 這有助於提升使用者生產力與效率，還可促成適時輸入和核准專案時程表。
 
 ## <a name="download-and-install-the-mobile-app"></a>下載並安裝行動應用程式
 
@@ -38,6 +38,19 @@ Microsoft Dynamics 365 Project Timesheet 行動應用程式 (iPhone 或 Android)
 
 在 Finance 中，必須啟用專案時程表行動應用程式。 若要啟用此功能，請移至 **專案管理與會計參數 \> 時程表**，然後選取 **啟用 Microsoft Dynamics 365 Project Timesheet** 參數。
 
+### <a name="resolve-sign-in-issues"></a>解決登入問題
+
+**問題：** 登入 Project Timesheet 行動應用程式期間，使用者收到錯誤訊息，指出他們「無法存取該租用戶中的應用程式 '2bc50526-cdc3-4e36-a970-c284c34cbd6e'。」
+
+**問題：** 登入 Project Timesheet 行動應用程式期間，使用者收到類似下列其中一個範例的錯誤：
+
+- 「AADSTS50020：身分識別提供者 'https://sts.windows.net/[應用程式識別碼]' 的使用者帳戶 '[使用者名稱]'不存在於租用戶 '[租用戶識別碼]' 中，並且無法存取該租用戶中的應用程式 '[應用程式識別碼]'。」
+- 「選取的使用者帳戶不存在於租用戶 '[租用戶識別碼]' 中，並且無法存取該租用戶中的應用程式 '[應用程式識別碼]'。」
+
+**說明：** 這些問題是由 2022 年 5 月對 Azure Active Directory (Azure AD) 所進行與外部使用者相關的變更造成。 因為此變更不對財務和營運應用程式進行，可能會影響任何版本平台或應用程式上的客戶。
+
+**修正：** 必須透過 Azure AD 邀請所有外部使用者加入租用戶。 如需詳細資訊，請參閱[透過 Azure Active Directory B2B 共同作業邀請使用者](/power-platform/admin/invite-users-azure-active-directory-b2b-collaboration)。
+
 ## <a name="sign-in-to-the-app"></a>登入應用程式
 
 1.  在行動裝置上啟動應用程式。
@@ -46,11 +59,11 @@ Microsoft Dynamics 365 Project Timesheet 行動應用程式 (iPhone 或 Android)
 
 3.  第一次登入時，系統會提示您輸入您的使用者名稱和密碼。 輸入您的認證。
 
-4.  您會登入您的預設公司。
+4. 您將會登入您的預設公司。
 
 ## <a name="submit-a-project-timesheet"></a>提交專案時程表
 
-您可以在應用程式中建立並提交專案時程表。 您可以根據先前的時程表、已儲存的明細或專案指派的資訊建立新的時程表。 如果已指定您做為代理人，輸入您也可以為其他工作者輸入時程表。 若要將時程表建立為代理人，請選取 **功能表** 按鈕，然後選取資源名稱。
+您可以在應用程式中建立並提交專案時程表。 您可以根據先前的時程表、已儲存的明細或專案指派的資訊建立新的時程表。 如果已指定您做為代理人，則您也可以為其他工作者輸入時程表。 若要以代理人身分建立時程表，請選取 **功能表** 按鈕，然後選取資源名稱。
 
 時程表頁面會根據目前日期，為時程表期間建立新的時程表。 將會顯示工作週。 如果時程表期間涵蓋多週，您可以從 [工作週] 索引標籤選取另一個工作週。
 如果目前日期有時程表，就會顯示該時程表。 如果您需要在不同的時程表期間建立新的時程表，請選取 **功能表** 按鈕，然後選取 **新增時程表**。
@@ -92,7 +105,7 @@ Microsoft Dynamics 365 Project Timesheet 行動應用程式 (iPhone 或 Android)
 
 ## <a name="review-timesheets"></a>審查時程表
 
-您可以在功能表中找到需要審查的時程表清單。 此選項只有在將您指定為工作流程核准者時，才會提供。 支援標題和明細核准。 明細等級核准提供標示一行或多行明細以供核准的功能。 審查時程表資訊之後，按一下 **核准**、**委派** 或 **退回** 以繼續工作流程。
+您可在功能表上找到需要審查的時程表清單。 此選項只有在已將您指定為工作流程核准者時，才會提供。 支援標題和明細核准。 明細等級核准提供標示一行或多行明細以供核准的功能。 審查時程表資訊之後，按一下 **核准**、**委派** 或 **退回** 以繼續工作流程。
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

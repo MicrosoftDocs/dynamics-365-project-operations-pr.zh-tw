@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 173ff01e938af48d2d6488d5e59cf4e74b3af8e4
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d03393de893c39ceb53c06a3031395f765a26f55
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914530"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029142"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Project Operations 設定和設定資料整合
 
@@ -35,7 +35,7 @@ Dataverse 中的專案合約功能會使用 **專案合約標題 (salesorders)**
 專案實體會使用 **專案 V2 (msdyn\_projects)** 資料表對應，同步處理至財務和營運應用程式。 專案會計師可以：
 
   - 移至 **專案管理與會計** > **所有專案**，以審查財務和營運應用程式中的專案。 
-  - 移至 **專案管理與會計** > **所有專案** > **設定** > **顯示預設會計**，以更新財務和營運應用程式中專案的會計屬性。  
+  -  移至 **專案管理與會計** > **所有專案** > **設定** > **顯示預設會計**，以更新財務和營運應用程式中專案的會計屬性。  
   - 選取財務和營運應用程式中的專案識別碼 (這會在 Dataverse 中開啟相關的專案記錄)，以檢閱營運專案屬性，例如估計的開始和結束日期。
 
 專案是透過 **專案合約服務內容** 實體與專案合約建立關聯。

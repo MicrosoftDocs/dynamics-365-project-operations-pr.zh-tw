@@ -4,7 +4,7 @@ description: 如何建立 Project Service 中的專案範本
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
-ms.date: 8/03/2018
+ms.date: 07/19/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 127b6e43a15f19a42791e78b55865ab11ca50c7a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8159e0390441e5029f9beb0228cffcbc4d683479
+ms.sourcegitcommit: 278740b352f1ed9618ee5c79597c8f449984d6f4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598984"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177415"
 ---
 # <a name="create-a-project-template-project-service"></a>建立專案範本 (Project Service)
 
@@ -40,7 +40,14 @@ ms.locfileid: "8598984"
 - **專案估計值**：專案估計值在範本中與專案中的運作方式相同，除了預設成本和售價的價目表一律會預設[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]參數中定義的成本和銷售價目表。 其餘功能與專案中相同。  
   
 - **專案團隊形成**：形成專案範本的專案團隊時，您無法預約範本中的具名資源。 您可以使用分工結構圖中的 **產生專案團隊** 產生一組一般資源。 您也可以為一般資源指定必要的技能和熟練度。 您無法將一般資源替代為專案範本中可預約的資源。  
-  
+
+## <a name="create-a-project-template-from-an-existing-project"></a>從現有專案建立專案範本
+您可以遵循下列方式從範本建立專案範本：
+
+- **分工結構圖**：範本中衍生自專案的分工結構圖會複製所有工作和相依性。 所建立的指派將會根據建立專案範本時新增至專案團隊的一般團隊成員而定。
+- **專案估計值**：從現有專案建立專案範本時，來源專案中的估計值會複製到專案範本。
+- **專案團隊成員**：從現有專案建立範本時，所有具名團隊成員會取代為組織的一般資源。 所有職位名稱和角色都會保留。
+
 ## <a name="create-a-project-from-a-template"></a>從範本建立專案  
  您可以遵循下列方式從範本建立專案：  
   

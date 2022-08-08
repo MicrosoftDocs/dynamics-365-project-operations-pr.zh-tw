@@ -2,24 +2,24 @@
 title: 在工作網格中工作時的疑難排解
 description: 本文提供在工作網格中工作時所需的疑難排解資訊。
 author: ruhercul
-ms.date: 04/05/2022
+ms.date: 07/22/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 208ed55abf4cdf0ad2b035bd923e183ff3cae660
+ms.sourcegitcommit: e91136d3335ee03db660529eccacd48907774453
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911034"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9188221"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>在工作網格中工作時的疑難排解 
 
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations 精簡部署 - 交易至開立預估發票、Project for the Web_
 
-Dynamics 365 Project Operations 所運用的工作網格是 Microsoft Dataverse 中託管的 iFrame。 由於這種運用，因此必須符合特定需求，才能確保驗證和授權正確發揮作用。 本文概述常見的問題，這些問題可能會影響在分工結構圖 (WBS) 中呈現網格或管理工作的能力。
+Dynamics 365 Project Operations 所使用的工作網格是 Microsoft Dataverse 中託管的 iframe。 由於這樣使用，因此必須符合特定需求，才能確保驗證和授權正確發揮作用。 本文概述常見的問題，這些問題可能會影響在分工結構圖 (WBS) 中呈現網格或管理工作的能力。
 
 常見問題包括：
 
@@ -72,7 +72,10 @@ Project Operations 需要專案參數參照 PEX 端點。 必須有此端點，�
 4. 從 **專案參數** 頁面移除欄位。
 
 ### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>風險降低措施 3：登入 project.microsoft.com
-在 Microsoft Edge 瀏覽器中，開啟新的索引標籤、移至 project.microsoft.com，然後使用您要用來存取 Project Operations 的使用者角色登入。
+
+在瀏覽器中，開啟新的索引標籤、移至 project.microsoft.com，然後使用您要用來存取 Project Operations 的使用者角色登入。 重要的是，在瀏覽器中只有一個使用者登入 Microsoft 產品。 「login.microsoftonline.com 拒絕連接」錯誤訊息大多是在有多個使用者登入時出現，如下圖所示。
+
+![顯示兩個使用者已登入的 [選擇帳戶] 登入頁面。](media/MULTIPLE_USERS_LOGGED_IN.png)
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>問題：無法載入專案，且 UI 停滯在進度環上
 

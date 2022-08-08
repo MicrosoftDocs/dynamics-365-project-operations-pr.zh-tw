@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4ce53c171929f0610c53025becaebea46d902c90
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 793b1a01f3bf692bb9f4c2d9abad9a44b110544a
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924650"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029887"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>將示範資料套用至 Finance 雲端託管的環境
 
@@ -76,7 +76,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 18. 關閉遠端桌面工作階段，並使用 LCS **環境詳細資料** 頁面登入環境，以確認其可依預期正常運作。
 
-![Finance and Operations。](./media/10FinanceAndOperations.png)
+![財務和營運。](./media/10FinanceAndOperations.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

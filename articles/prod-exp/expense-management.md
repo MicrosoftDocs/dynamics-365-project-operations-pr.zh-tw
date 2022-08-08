@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 778a068bc80b099037b895f7e0d4add4d454242f
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d693177ac68a92cec3893b4126a0bd7c79e0bb74
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934034"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029336"
 ---
 # <a name="expense-management-overview"></a>費用管理概觀
 
@@ -43,7 +43,7 @@ ms.locfileid: "8934034"
 
 ### <a name="blogs"></a>部落格
 
-您可以在 [Microsoft Dynamics 365 部落格](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)和 [Microsoft Dynamics 365 Finance and Operations - 財務部落格](https://community.dynamics.com/365/financeandoperations/b/financials)中找到意見、新聞及其他資訊。
+您可以在 [Microsoft Dynamics 365 部落格](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)和 [Microsoft Dynamics 365 Finance - Financials 部落格](https://community.dynamics.com/365/financeandoperations/b/financials)上找到選項、新聞及其他資訊。
 
 [Microsoft Dynamics Operations 合作夥伴社群部落格](https://community.dynamics.com/partner/b/operationspartnercommunityblog)為 Microsoft Dynamics 合作夥伴提供單一資源，他們可以利用此資源來了解 MBS Operations 的最新動態與趨勢。
 

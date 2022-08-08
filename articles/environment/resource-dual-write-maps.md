@@ -2,16 +2,16 @@
 title: Project Operations 雙重寫入對應版本
 description: 本文提供 Dynamics 365 Project Operations 所需的雙重寫入對應清單。
 author: sigitac
-ms.date: 04/22/2021
+ms.date: 07/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: e904ad18b6ea94cd6d31d1878b5bc9e7c52be741
+ms.sourcegitcommit: c8b8fef5626790208c5290b1bb92b17a5d90d286
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959393"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112419"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations 雙重寫入對應版本
 
@@ -46,7 +46,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 | 專案合約標題 (銷售訂單) | 1.0.0.1 | 佈建時不需要。 ||
 | 專案合約服務內容 (salesorderdetails) | 1.0.0.0 | 佈建時不需要。 ||
 | 專案資金來源 (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | 佈建時不需要。 ||
-| Project Operations 材料估計值整合資料表 (msdyn\_estimatelines) | 1.0.0.0 | 佈建時不需要。 ||
+| 材料估計值的專案整合資料表 (msdyn\_estimatelines) | 1.0.0.0 | 佈建時不需要。 ||
 | 專案發票提案 V2 (發票) | 1.0.0.3 | 佈建時不需要。 ||
 | Project Operations 整合實際值 (msdyn_actuals) | 1.0.0.14 | 佈建時不需要。 ||
 | Project Operations 整合合約服務內容里程碑 (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | 佈建時不需要。 ||

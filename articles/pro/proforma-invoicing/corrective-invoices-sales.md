@@ -6,16 +6,16 @@ ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c6176247db37c3276d775050497585ead011e5a1
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 3e8e10d69368f4704ec6121106fbfd35394dc441
+ms.sourcegitcommit: 95dacb0e74fa8970f56fdb1cbaa915d3fbec6e0f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917336"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9023649"
 ---
 # <a name="corrective-project-invoices"></a>專案更正發票
 
-_**適用於：** 精簡部署 - 交易至開立預估發票_
+_**適用於：** 精簡部署 - 交易至開立預估發票、資源/非庫存型案例適用的 Project Operations_
 
 確認過的專案發票可進行更正以處理與客戶及專案經理議定的變更或貸記。
 

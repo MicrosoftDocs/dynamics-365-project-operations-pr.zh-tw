@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ea1c96d64309990962f431b1c72ae47bf445bfa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 999006b2c2fe2b31d6e47910a3f1a55cab415f0e
+ms.sourcegitcommit: 5c971b15295046b3c92ff6638dd1352129f1c390
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912368"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9110874"
 ---
 # <a name="whats-new-april-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>2022 年 4 月新增功能 - 資源/非庫存型案例適用的 Project Operations
 
@@ -25,7 +25,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 ## <a name="features-included-in-this-release"></a>此版本包含的功能
 
-採購類別可用於專案採購訂單和待處理廠商發票中。 如需詳細資訊，請參閱[將採購類別與專案採購單及待處理廠商發票搭配使用](configure-procurement-categories.md)。
+採購類別可用於專案採購訂單和待處理廠商發票中。 如需詳細資訊，請參閱[將採購類別與專案採購單及待處理廠商發票搭配使用](../procurement/configure-procurement-categories.md)。
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Project Operations 雙重寫入對應更新
 

@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: ecd6bded5fcf834ea14f7aca1ff11a1ede162877
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b4ed85123c92a60c6b6308fda3d9ef2f6693a0dd
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922856"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028876"
 ---
 # <a name="project-mobile-applications-overview"></a>Project 行動應用程式概觀
 
@@ -33,7 +33,7 @@ Dynamics 365 專案時程表行動應用程式可讓使用者在其行動裝置�
 
 ## <a name="project-time-entry-workspace"></a>專案時間輸入工作區
 
-專案時間輸入工作區可讓使用者針對專案輸入並儲存時間。 但是，此工作區不允許使用者送出或核准專案時程表。 只能用於時間輸入。 此行動工作區適旨在與財務和營運行動應用程式一起使用。
+專案時間輸入工作區可讓使用者針對專案輸入並儲存時間。 但是，此工作區不允許使用者送出或核准專案時程表。 只能用於時間輸入。 此行動工作區旨在與財務和營運行動應用程式一起使用。
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>我的時程表/我的審查時程表
 

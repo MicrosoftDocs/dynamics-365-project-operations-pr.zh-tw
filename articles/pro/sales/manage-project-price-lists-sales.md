@@ -6,16 +6,16 @@ ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6902d22c7bd4b422466c924ee6473146b036caa5
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: af89996fcaca9823d32e84e10ce6d29ead4f3d6d
+ms.sourcegitcommit: 95dacb0e74fa8970f56fdb1cbaa915d3fbec6e0f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929940"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9023603"
 ---
 # <a name="manage-project-price-lists-on-project-quotes"></a>管理專案報價上的專案價目表 
 
-_**適用於：** 精簡部署 - 交易至開立預估發票_
+_**適用於：** 精簡部署 - 交易至開立預估發票、資源/非庫存型案例適用的 Project Operations_
 
 專案報價是為了支援多個有效日期銷售價目表而設計。 在 Dynamics 365 Project Operations 中，加入了新的名為 **專案價目表** 的相關實體。 此實體與專案報價之間有 1 對多的關聯。
 

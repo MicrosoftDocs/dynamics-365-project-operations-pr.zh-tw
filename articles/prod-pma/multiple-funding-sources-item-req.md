@@ -6,12 +6,12 @@ ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 079856e7cf2ffa9b80ab31ebad1c1b5dbe36a4ad
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931182"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028463"
 ---
 # <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>含多個資金來源的專案合約的項目需求
 
@@ -33,7 +33,7 @@ Contoso 已贏得一份設備更新合約，其中有兩個客戶：Adatum US �
 
 ### <a name="prerequisites"></a>先決條件
 
-- 必須有 Microsoft Dynamics 365 Finance and Operations **10.0.27 版或更新版本**，才能使用有多個發票帳戶的項目需求。
+- 必須有 Microsoft Dynamics 365 Finance **10.0.27 版或更新版本**，才能使用有多個發票帳戶的項目需求。
 - 系統管理員必須在 **功能管理** 工作區中啟用 **允許庫存/生產型案例適用的 Project Operations 有多個資金來源的項目需求** 功能。
 
 ### <a name="set-up-the-invoice-account-defaulting-rules"></a>設定發票帳戶預設規則

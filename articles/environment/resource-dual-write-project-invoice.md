@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ee2d78f1ca1d78f6909d9995a92ac301f06d6a6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 61f16ebdbabd6545c09d8d7bd82d99b85dc09975
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912092"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029014"
 ---
 # <a name="project-invoice-integration"></a>專案發票整合
 
@@ -24,6 +24,6 @@ ms.locfileid: "8912092"
 
 專案經理在 Dataverse 中確認預估發票之後，會使用雙重寫入資料表對應 **專案發票提案 V2 (發票)** 將預估發票標題資訊同步處理至財務和營運應用程式。 這是從 Dataverse 到財務和營運應用程式的單向整合。 不支援直接在財務和營運應用程式中建立或刪除專案發票提案。
 
-Dataverse 中的發票確認還會觸發商務規則，在 **實際值** 實體中建立帳務相關記錄。 這些記錄是使用雙重寫入資料表對應 **Project Operations 整合實際值 (msdyn\_actuals)** 來同步處理至 Finance and Operations。 如需詳細資訊，請參閱[專案估計值和實際值](resource-dual-write-estimates-actuals.md)。 
+Dataverse 中的發票確認還會觸發商務規則，在 **實際值** 實體中建立帳務相關記錄。 這些記錄是使用雙重寫入資料表對應 **Project Operations 整合實際值 (msdyn\_actuals)** 來同步處理至財務和營運。 如需詳細資訊，請參閱[專案估計值和實際值](resource-dual-write-estimates-actuals.md)。 
 
 專案發票提案明細是由定期程序 **從臨時表格匯入** 所建立。 此程序是根據 **實際值臨時表格** 資料表中的已開單銷售實際值詳細資料來執行。 如需詳細資訊，請參閱[管理專案發票提案](../invoicing/format-update-project-invoice-proposals.md#create-project-invoice-proposals)。 
