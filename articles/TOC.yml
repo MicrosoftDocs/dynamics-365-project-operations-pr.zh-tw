@@ -62,10 +62,12 @@
           href: environment/uninstall-project-operations.md
     - name: 新增功能
       items:
-        - name: 2022 年 7 月 - 資源/非庫存型案例適用的 Project Operations
-          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: 2022 年 8 月 - 資源/非庫存型案例適用的 Project Operations
+          href: whats-new/whats-new-aug-2022-resource-based.md
         - name: 封存
           items:
+            - name: 2022 年 7 月 - 資源/非庫存型案例適用的 Project Operations
+              href: whats-new/whats-new-july-2022-resource-based.md
             - name: 2022 年 6 月 - 資源/非庫存型案例適用的 Project Operations
               href: whats-new/whats-new-june-2022-resource-based.md
             - name: 2022 年 5 月 - 資源/非庫存型案例適用的 Project Operations
@@ -384,6 +386,42 @@
           items:
             - name: 資源使用率概觀
               href: resource-management/resource-utilization-overview.md
+    - name: 轉包合約管理
+      items:
+        - name: Project Operations 中的轉包合約管理
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: 轉承包中的重要概念
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: 管理廠商和專案價目表
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: 做為可預約資源的轉包商
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: 轉包合約的標題詳細資料
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: 時間轉包合約服務內容
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: 費用類別轉包合約服務內容
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: 產品轉包合約服務內容
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: 轉包合約服務內容資源
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: 轉包合約服務內容里程碑
+          href: pro/subcontracting/subcontract-line-milestones.md
+        - name: 轉包專案團隊成員
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: 專案團隊成員轉包選項
+          href: pro/subcontracting/subcon-options.md
+        - name: 已轉包資源指派的成本估計
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: 設定排程面板，以顯示合約工作者和已轉包產能
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: 使用合約工作者和已轉包產能為專案配置人員
+          href: pro/subcontracting/staffing-cw.md
+        - name: 記錄已轉包元件的時間、費用及材料使用方式
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: 轉包合約的狀態轉換
+          href: pro/subcontracting/subcon-states.md
     - name: 時間
       items:
         - name: 時間概觀
@@ -578,8 +616,10 @@
           href: revenue-recognition/rev-rec-completed-contract-method.md
     - name: 進階設定
       items:
-        - name: 在專案驗收期間，遷移已開立全額發票的帳單里程碑
+        - name: 在專案驗收期間，移轉已開立全額發票的帳單里程碑
           href: advanced-configuration/migrating-invoiced-milestones.md
+        - name: 同步處理專案狀態以防止對已關閉的專案進行輸入
+          href: advanced-configuration/sync-project-status.md
     - name: 升級
       items:
         - name: 新式核准的升級考量
@@ -610,13 +650,15 @@
           href: environment/security-model.md
     - name: 新增功能
       items:
-        - name: 2022 年 7 月新增功能 - 精簡部署
-          href: pro/whats-new/whats-new-july-2022-lite.md
+        - name: 2022 年 8 月新增功能 - 精簡部署
+          href: pro/whats-new/whats-new-aug-2022-lite.md
         - name: 封存
           items:
+            - name: 2022 年 7 月新增功能 - 精簡部署
+              href: pro/whats-new/whats-new-july-2022-lite.md
             - name: 2022 年 6 月新增功能 - 精簡部署
               href: pro/whats-new/whats-new-june-2022-lite.md
-            - name: 2021 年第 2 段發行浪潮搶先體驗新增功能 - 精簡部署
+            - name: 2021 年第 2 波新增功能搶先體驗 - 精簡部署
               href: pro/whats-new/whats-new-2021-early-access-lite.md
             - name: 2022 年 5 月新增功能 - 精簡部署
               href: pro/whats-new/whats-new-may-2022-lite.md
