@@ -6,12 +6,12 @@ ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ada06186121d41edddaa06f747b3e1687c303928
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929204"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230305"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>使用專案排程 API 以對排程實體執行作業
 
@@ -45,9 +45,9 @@ OperationSet 是工作單位模式，當交易中有數個必須處理的排程�
 - **msdyn_CreateProjectV1**：此 API 可以用來建立專案。 專案和預設專案貯體會立即建立。
 - **msdyn_CreateTeamMemberV1**：此 API 可以用來建立專案團隊成員。 團隊成員記錄會立即建立。
 - **msdyn_CreateOperationSetV1**：此 API 可用來排定數個必須在交易中執行的要求。
-- **msdyn_PSSCreateV1**：此 API 可以用來建立實體。 實體可以是任何支援建立作業的專案排程實體。
-- **msdyn_PSSUpdateV1**：此 API 可以用來更新實體。 實體可以是任何支援更新作業的專案排程實體。
-- **msdyn_PSSDeleteV1**：此 API 可以用來刪除實體。 實體可以是任何支援刪除作業的專案排程實體。
+- **msdyn_PssCreateV1**：此 API 可以用來建立實體。 實體可以是任何支援建立作業的專案排程實體。
+- **msdyn_PssUpdateV1**：此 API 可以用來更新實體。 實體可以是任何支援更新作業的專案排程實體。
+- **msdyn_PssDeleteV1**：此 API 可以用來刪除實體。 實體可以是任何支援刪除作業的專案排程實體。
 - **msdyn_ExecuteOperationSetV1**：此 API 是用來執行指定作業集中所有的作業。
 
 ## <a name="using-project-schedule-apis-with-operationset"></a>與 OperationSet 搭配使用專案排程 API

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ef2be1f6286c55861e92abf5c85a5387aec8cd1c
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: a3173b98bee90b138bb7ce1b59bde90d8d0f5db2
+ms.sourcegitcommit: fcfcedacfea4d6feabacb6b83bb9c14e5a25fcaf
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959400"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9316931"
 ---
 # <a name="whats-new-or-changed-in-project-operations-june-2022-for-stockedproduction-based-scenarios"></a>庫存/生產型案例適用的 Project Operations 2022 年 6 月新增功能或變更
 
@@ -24,7 +24,7 @@ _**適用於：** 庫存/生產型案例適用的 Project Operations_
 
 ## <a name="features-included-in-this-release"></a>此版本包含的功能
 
-有多個資金來源的專案合約可以使用項目需求。 如需詳細資訊，請參閱[包含多個資金來源的專案合約的項目需求](/multiple-funding-sources-item-req.md)。
+有多個資金來源的專案合約可以使用項目需求。 如需詳細資訊，請參閱[包含多個資金來源的專案合約的項目需求](../multiple-funding-sources-item-req.md)。
 
 ## <a name="quality-updates"></a>品質更新
 

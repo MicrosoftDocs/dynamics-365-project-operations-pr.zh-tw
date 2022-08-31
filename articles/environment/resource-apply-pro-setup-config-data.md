@@ -1,17 +1,17 @@
 ---
-title: 在 Common Data Service 中設定和套用設定資料
+title: 在 Microsoft Dataverse 中設定和套用設定資料
 description: 本文提供有關在 Project Operations 中設定和套用設定資料的資訊。
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 2c918425e9a6c5fe8888ed8a4258ca59f0464828
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b09d3ea7348082a0467fd7b47918c9e00d1f1e8c
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928008"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230215"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>在 Common Data Service 中設定和套用設定資料 
 
@@ -21,10 +21,10 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 ## <a name="prerequisites"></a>先決條件
 
-開始設定 Common Data Service (CDS) 中的資料之前，必須符合下列先決條件：
+在您開始在 Microsoft Dataverse 中設定資料前，必須符合下列先決條件：
 
-1.  為 Project Operations 佈建 CD 環境和 Dynamics 365 Finance 環境。
-2.  Dynamics 365 Finance 的法律實體資訊會與 CD 環境共用。 這表示 CDS 中的 **公司** 實體有下列公司記錄：
+1.  為 Project Operations 佈建 Dataverse 環境和 Dynamics 365 Finance 環境。
+2.  Dynamics 365 Finance 的法律實體資訊會與 Dataverse 環境共用。 這表示 Dataverse 中的 **公司** 實體具有下列公司記錄：
   - THPM
   - USPM
   - GBPM
