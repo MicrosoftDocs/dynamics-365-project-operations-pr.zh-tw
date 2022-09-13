@@ -6,12 +6,12 @@ ms.date: 01/27/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 68e504dd031596b295b1383a8e81621744cae8d2
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 9a3a99c326b7ebbdfa859c3298b35e910af0eb2a
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922304"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9409967"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>套用 Project Operations 的示範設定和設定資料 - 精簡 
 
@@ -21,7 +21,7 @@ _**精簡部署 - 交易至開立預估發票_
 
 ## <a name="prerequisites"></a>先決條件
 
-開始設定之前，您必須已為 Dynamics 365 Project Operations 佈建 Common Data Service (CDS) 環境。
+開始設定之前，您必須已為 Dynamics 365 Project Operations 佈建 Dataverse 環境。
 
 
 ## <a name="instructions"></a>指示

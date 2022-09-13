@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 112dbb98de09ef342c03d122a29cb8025058e47f
-ms.sourcegitcommit: 6b6c2bfd04e3e613ed1f38355c7cd47c3a56748d
+ms.openlocfilehash: 4042dca72a33f48e04e51af2a3cfd2da83146afd
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9347999"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403846"
 ---
 # <a name="whats-new-august-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>資源/非庫存型案例適用的 Project Operations 2022 年 8 月新增功能
 
@@ -38,6 +38,11 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 | 功能區域 | 參考編號 | 品質更新 |
 | --- | --- | --- |
 |   商機管理 | 2762089 | 當組織停用自動儲存時，將關閉合約視為遺失的錯誤處理。|
+|專案規劃和追蹤 | 2767841 | 遙測會更新「專案實體建立」或「專案實體更新」案例。|
+|帳單和定價 | 2771072 | 報價成交時的 Null 參考例外狀況處理。|
+|帳單和定價 | 2844181 |取得相互關聯識別碼和封鎖發票建立作業時失敗。|
+|帳單和定價 | 2852836 | 在 CE 中建立和核准的公司間費用缺少公司間實際值。|
+
 
 ### <a name="project-management-and-accounting-in-finance"></a>Finance 中的專案管理與會計
 
