@@ -168,6 +168,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: 複製專案報價
               href: sales/lose-quote.md
+            - name: 啟用及修訂專案報價
+              href: sales/activation-and-revision.md
             - name: 關閉專案報價
               href: sales/win-quote.md
         - name: 管理專案合約
@@ -198,6 +200,8 @@
                   href: sales/import-estimate-project-contract-line.md
                 - name: 在專案型合約服務內容中建立發票排程
                   href: sales/invoice-schedules-contract-line.md
+            - name: 複製專案型合約
+              href: sales/copy-project-based-contracts-sales.md
             - name: 確認專案合約
               href: pro/sales/confirm-contract-sales.md
             - name: 預付款和保留款
@@ -228,11 +232,11 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: 覆寫專案銷售價目表
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: 解析估計值及實際值的成本價
+            - name: 判斷估計值及實際值的成本價
               href: pricing-costing/cost-price-resolution.md
-            - name: 解析估計值及實際值的銷售價
+            - name: 判斷估計值及實際值的銷售價
               href: pricing-costing/sales-price-resolution.md
-            - name: 成本價目表
+            - name: 複製價目表
               href: pricing-costing/copy-price-lists.md
             - name: 停用價目表
               href: pricing-costing/deactivatepricelists.md
@@ -766,6 +770,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: 複製專案型報價
               href: sales/lose-quote.md
+            - name: 啟用及修訂專案報價
+              href: sales/activation-and-revision.md
             - name: 關閉專案型報價
               href: pro/sales/win-quote-sales.md
         - name: 管理專案型合約
@@ -838,11 +844,11 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: 覆寫專案銷售價目表
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: 解析專案估計值及實際值的成本價
+            - name: 判斷專案估計值及實際值的成本價
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: 解析專案估計值及實際值的銷售價
+            - name: 判斷專案估計值及實際值的銷售價
               href: pro/pricing-costing/sales-price-resolution-sales.md
-            - name: 成本價目表
+            - name: 複製價目表
               href: pricing-costing/copy-price-lists.md
             - name: 停用專案價目表
               href: pricing-costing/deactivatepricelists.md
