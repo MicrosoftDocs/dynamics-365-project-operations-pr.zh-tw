@@ -6,18 +6,18 @@ ms.date: 09/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6504302578d1eb3d00c717ea93cd4c4212acb4e7
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: 1288a571d50604ee400db9c16822719d0649628b
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410108"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475174"
 ---
 # <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>判斷專案估計值及實際值的銷售價
 
 _**適用於：** 精簡部署 - 交易至開立預估發票_
 
-為了在 Microsoft Dynamics 365 Project Operations 中判斷估計值及實際值的銷售價，系統會先使用新加入估計及實際內容中的日期和貨幣來判斷銷售價目表。 特別是在實際內容中，系統會使用 **交易日期** 欄位來判斷適用的價目表。 判斷銷售價目表之後，系統會判斷銷售或帳單費率。
+為了在 Microsoft Dynamics 365 Project Operations 中判斷估計值及實際值的銷售價，系統會先使用新加入估計及實際內容中的日期和貨幣來判斷銷售價目表。 特別是在實際內容中，系統會使用 **交易日期** 欄位來判斷適用的價目表。 新加入估計值或實際值的 **交易** 值會與價目表中的 **生效開始日期 (時區不轉換)** 和 **生效結束日期 (時區不轉換)** 值進行比較。 判斷銷售價目表之後，系統會判斷銷售或帳單費率。
 
 ## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>判斷時間實際及估計明細的銷售費率
 

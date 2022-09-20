@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8a6030faf777051ea1003679589af4bdf97322ab
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a9c69fc4296d30763f3994a4955e64ab258ceb4f
+ms.sourcegitcommit: 675e9f3615e701c5f998de3a5ea3e25df11ae107
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8925340"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9459916"
 ---
 # <a name="feature-changes-from-project-service-automation-to-project-operations"></a>從 Project Service Automation 到 Project Operations 的功能變更
 
 從 Dynamics 365 Project Service Automation 至 Dynamics 365 Project Operations 精簡版的升級分三個階段提供。 本文提供有關完成升級時預期可看到的主要變更的資訊。
 
-| 升級傳遞 | 階段 1 <br>(2022 年 1 月) | 階段 2 <br>(2022 年 4 月浪潮) | 階段 3  |
+| 升級傳遞 | 階段 1 <br>(2022 年 1 月) | 階段 2 <br>(2022 年 11 月) | 階段 3  |
 |------------------|------------------------|---------------------------|---------------------------|
 | 對專案的分工結構圖 (WBS) 沒有相依性。 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | 在 Project Operations 目前支援的限制中包括 WBS。 | &nbsp; | :heavy_check_mark: | :heavy_check_mark: |

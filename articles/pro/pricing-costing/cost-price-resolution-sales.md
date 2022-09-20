@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: c2295174df1ce766c6d1304f4e9c55d32d5c4775
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410139"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475221"
 ---
 # <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>決定專案估計值及實際值的成本費率
 
 _**適用於：** 精簡部署 - 交易至開立預估發票_
 
-為了決定估計及實際內容中的成本價目表和成本費率，系統會使用相關專案之 **日期**、**貨幣** 和 **合約單位** 欄位中的資訊。
+為了在 Microsoft Dynamics 365 Project Operations 中判斷估計值及實際值的成本費率，系統會先使用新加入估計及實際內容中的日期和貨幣來判斷成本價目表。 特別是在實際內容中，系統會使用 **交易日期** 欄位來判斷適用的價目表。 新加入估計值或實際值的 **交易** 值會與價目表中的 **生效開始日期 (時區不轉換)** 和 **生效結束日期 (時區不轉換)** 值進行比較。 決定成本價目表之後，系統會決定成本費率。 
 
 ## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>決定時間實際及估計內容中的成本費率
 
