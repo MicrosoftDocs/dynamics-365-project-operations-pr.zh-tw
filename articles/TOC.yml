@@ -508,6 +508,8 @@
           href: approvals/cancelapproval.md
         - name: 回收先前已核准的項目
           href: approvals/recall-cancel.md
+        - name: 安全性與核准
+          href: approvals/approvals-security.md
         - name: 開發人員附註
           items:
             - name: 對於核准的開發人員附註
@@ -560,6 +562,8 @@
               href: procurement/vendor-retention-overview.md
             - name: 設定廠商保留額
               href: procurement/set-up-vendor-retention.md
+            - name: 付費時支付
+              href: procurement/Pay-when-paid.md
     - name: 發票請款
       items:
         - name: 發票處理概觀
@@ -1102,6 +1106,8 @@
           href: approvals/cancelapproval.md
         - name: 回收先前已核准的項目
           href: approvals/recall-cancel.md
+        - name: 安全性與核准
+          href: approvals/approvals-security.md
         - name: 開發人員附註
           items:
             - name: 對於核准的開發人員附註
