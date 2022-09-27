@@ -6,16 +6,16 @@ ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ab9f69e36aa58bfe3a2f8e3455db66b6bceea968
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 67e0a0143fa354ca9a87bfac5fbbd6306a97811c
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261736"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522885"
 ---
 # <a name="verification-of-vendor-invoices-with-approved-actuals"></a>使用核准的實際值驗證廠商發票
 
-_**適用於：** 精簡部署 - 交易至開立預估發票_
+_**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
 Microsoft Dynamics 365 Project Operations 可讓專案經理以下列方式驗證廠商發票明細：
 

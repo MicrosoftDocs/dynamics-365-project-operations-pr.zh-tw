@@ -2,20 +2,20 @@
 title: 產品轉包合約服務內容
 description: 本文說明如何記錄產品的轉包合約服務內容，以及使用各種欄位來記錄從廠商購買的產品。
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b5852df1876eff591ae6a131b229d979eacf5aad
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 1ca042eaf95a5e252f00248e83efb959ab3ce801
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262095"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522832"
 ---
 # <a name="subcontract-lines-for-products"></a>產品轉包合約服務內容
 
-_**適用於：** 精簡部署 - 交易至開立預估發票_
+_**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
 Dynamics 365 Project Operations 中的轉包合約可以有產品的轉包合約服務內容。 這些服務內容可讓專案經理向廠商購買產品，這些產品可以接著用於專案工作中。
 

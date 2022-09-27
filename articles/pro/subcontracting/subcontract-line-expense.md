@@ -2,20 +2,20 @@
 title: 費用類別的轉包合約服務內容
 description: 本文說明如何記錄費用的轉包合約服務內容，以及使用欄位來記錄向廠商購買的時間。
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7166642abc2187a53f7019639df6f0d7124f4765
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: ba1241ce40b7c5b488e278e8f1b8e9f352f45dc8
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261830"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522597"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>費用類別的轉包合約服務內容
 
-_**適用於：** 精簡部署 - 交易至開立預估發票_
+_**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
 Dynamics 365 Project Operations 中的轉包合約可以有費用類別的服務內容。 費用類別的轉包合約服務內容可讓專案經理從廠商 (他們可以向專案收費) 那裡購買服務或產品類別。
 

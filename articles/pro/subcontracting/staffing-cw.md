@@ -2,20 +2,20 @@
 title: 使用合約工作者和已轉包產能為專案配置人員
 description: 本文說明如何在 Microsoft Dynamics 365 Project Operations 中，使用合約工作者或轉包的產能來為專案需求配置人員。
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8edb053467ef200ca3e051e2fd78106734318389
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 30e16efeed93ab4568eac57fb3ed46067a08524d
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261244"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522425"
 ---
 # <a name="staffing-a-project-with-contract-workers-and-subcontracted-capacity"></a>使用合約工作者和已轉包產能為專案配置人員
 
-_**適用於：** 精簡部署 - 交易至開立預估發票_
+_**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
 可以使用員工或合約工作者來為一般專案團隊成員配置人員。 使用合約工作者為專案配置人員時，您可以人員配置選項限制在已指派至轉包合約服務內容的特定合約工作者。 
 

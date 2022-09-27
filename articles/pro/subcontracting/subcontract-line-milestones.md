@@ -2,20 +2,20 @@
 title: 轉包合約服務內容里程碑
 description: 本文說明如何建立和維護廠商轉包合約按里程碑請款的發票排程。
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2fe26f5ba3c7bbc689c83a2ba67d444a09a264d5
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 431a57adf82c79f72d44886636183d48e0931f53
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261783"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522409"
 ---
 # <a name="subcontract-line-milestones"></a>轉包合約服務內容里程碑
 
-_**適用於：** 精簡部署 - 交易至開立預估發票_
+_**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
 在 Dynamics 365 Project Operations 中，採用固定價格計費方式的轉包合約服務內容可以指定廠商按里程碑請款的發票排程。
 

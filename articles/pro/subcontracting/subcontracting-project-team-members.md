@@ -2,20 +2,20 @@
 title: 轉包專案團隊成員
 description: 本文說明如何在 Microsoft Dynamics 365 Project Operations 中轉包專案團隊成員。
 author: rumant
-ms.date: 12/03/2021
+ms.date: 9/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 14abd82cbbd256770105d4272f686590737e2648
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: a2f17d6f270029e3a517e99c7bb518cdb19b8d23
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261360"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522785"
 ---
 # <a name="subcontracting-project-team-members"></a>轉包專案團隊成員
 
-_**適用於：** 精簡部署 - 交易至開立預估發票_
+_**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
 在 Microsoft Dynamics 365 Project Operations 中，您可以選擇將未配置人員或已配置人員的專案團隊成員轉包出去。
 

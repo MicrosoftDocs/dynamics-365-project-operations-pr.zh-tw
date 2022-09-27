@@ -6,12 +6,12 @@ ms.date: 02/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 5e030c1aa4a41b428a0f4541fd204a7a3deaba08
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: ca205073edbce2b399aab3ae273d635c8af96765
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918072"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524906"
 ---
 # <a name="approval-sets"></a>核准集
 
@@ -45,14 +45,9 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
 ## <a name="configure-approval-sets"></a>設定核准集
 
 ### <a name="enable-the-approval-sets-feature"></a>啟用核准集功能
-啟用核准集功能之前，請先確認目前沒有任何核准在處理中。
+啟用核准集功能之前，請先確認目前沒有任何核准在處理中。 此功能啟用後，將無法停用。
 
 - 移至 **專案參數** 頁面，並選取 **功能控制** > **啟用現代化核准**。
-
-### <a name="turn-off-the-approval-sets-feature"></a>關閉核准集功能
-關閉核准集功能之前，請先確認目前沒有任何核准在處理中。
-
-- 移至 **專案參數** 頁面，並選取 **功能控制** > **停用現代化核准**。
 
 ### <a name="configuring-the-asynchronous-threshold"></a>設定非同步閾值 
 如果建立了核准集，當所選取待核准的記錄數目超過指示的閾值時，處理作業就會移至背景。 使用 **非同步閾值** 欄位來設定何時應同步或非同步執行核准處理。 選取下列其中一個值：

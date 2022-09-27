@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e11f1cfd714212691146eed59bcfb5b5facd750c
-ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.openlocfilehash: da37adcf63a10b9f245283d377e70fd08b3aa9c5
+ms.sourcegitcommit: 385081ecc839d7d4a557eda2bb1578ca073f7e41
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/18/2022
-ms.locfileid: "9029199"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9527977"
 ---
 # <a name="expense-management-integration"></a>費用管理整合
 
@@ -34,7 +34,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 ## <a name="expense-reports"></a>費用報表
 
-費用報表是在財務和營運應用程式中所建立並獲得核准。 如需詳細資訊，請參閱[在 Dynamics 365 Project Operations 中建立和處理費用報價](/learn/modules/create-process-expense-reports/)。 專案經理核准費用報表之後，此報價會過帳至總帳。 在 Project Operations 中，會使用特殊過帳規則將專案相關費用報表明細過帳：
+費用報表是在財務和營運應用程式中所建立並獲得核准。 如需詳細資訊，請參閱[在 Dynamics 365 Project Operations 中建立和處理費用報價](/training/modules/create-process-expense-reports/)。 專案經理核准費用報表之後，此報價會過帳至總帳。 在 Project Operations 中，會使用特殊過帳規則將專案相關費用報表明細過帳：
 
   - 專案相關成本 (包括不可退回稅金) 不會立即過帳至總帳中的專案成本科目，而是過帳至費用整合科目。 此科目是在 **Dynamics 365 Customer Engagement 上的 Project Operations** 索引標籤的 **專案管理與會計** > **設定** > **專案管理與會計參數** 中進行設定。
   - 雙重寫入會使用 **Project Operations 整合專案費用報表實體 (msdyn\_expenses)** 資料表對應來同步處理至 Dataverse。

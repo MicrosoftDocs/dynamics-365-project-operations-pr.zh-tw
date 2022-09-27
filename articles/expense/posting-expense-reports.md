@@ -1,8 +1,8 @@
 ---
 title: 過帳費用報表
 description: 本文說明如何過帳費用報表。
-author: suvaidya
-ms.date: 09/09/2020
+author: ramagadu
+ms.date: 08/12/2022
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4b084357179a28279344c995047f1a0a458cf9aa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d0ae4559a08553236158a663513401cb38cbe28f
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934494"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524859"
 ---
 # <a name="post-expense-reports"></a>過帳費用報表
 
@@ -30,5 +30,15 @@ ms.locfileid: "8934494"
 
 您也可以同時將清單中所有的費用報表過帳。 選取所有費用報表，然後選取 **過帳**。
 
+## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>啟用「以廠商貨幣針對現金支付方式過帳費用負債」的功能
+
+**以廠商貨幣針對現金支付方式過帳費用負債** 的功能，可讓費用報表以現金支付方式依廠商貨幣過帳。
+
+目前，當您提交現金費用時，會以記帳貨幣來過帳支出報表。 因涉及交易貨幣、記帳貨幣和廠商貨幣之間的金額轉換，所以如果費用和實際付款日期的匯率不同，則支付給廠商金額可能會不正確。
+
+這項功能將確保在過帳費用報表時，以廠商貨幣記錄廠商餘額。
+
+1. 移至 **工作區** \> **功能管理**。
+2. 在清單中尋找並選取 **以現金支付方式依產商貨幣過帳費用負債** 來張貼廠商貨幣的費用責任，然後選取 **立即啟用**。
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,20 +2,20 @@
 title: 時間轉包合約服務內容
 description: 本文說明如何記錄時間轉包合約服務內容，以及記錄向廠商購買的時間。
 author: rumant
-ms.date: 08/05/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8e9619dc713fde3127f552234e4a7427d99be683
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 3ba013dd7ad023acc4f0cf077099c8c2c8d5bcd8
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261952"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522221"
 ---
 # <a name="subcontract-lines-for-time"></a>時間轉包合約服務內容
 
-_**適用於：** 精簡部署 - 交易至開立預估發票_
+_**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
 Dynamics 365 Project Operations 中的轉包合約可以有時間的轉包合約服務內容。 時間轉包合約服務內容可讓專案經理購買廠商資源時間，來為專案工作和資源需求配置人力。
 

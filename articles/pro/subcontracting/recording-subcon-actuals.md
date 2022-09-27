@@ -2,20 +2,20 @@
 title: 記錄已轉包元件的時間、費用及材料使用方式
 description: 本文說明 Microsoft Dynamics 365 Project Operations 如何追蹤已轉包元件的專案上所記錄的時間、費用及材料使用方式。
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 89fbbfcd1535660e92d0cc80beb91029331e990f
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: b82c14412cfb0405040902a2329c3b6692422d89
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261126"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522503"
 ---
 # <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>在已轉包元件的專案上記錄時間、費用及材料使用方式
 
-_**適用於：** 精簡部署 - 交易至開立預估發票_
+_**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
 本文說明 Microsoft Dynamics 365 Project Operations 如何追蹤已轉包元件的專案上所記錄的時間、費用及材料使用方式。
 
