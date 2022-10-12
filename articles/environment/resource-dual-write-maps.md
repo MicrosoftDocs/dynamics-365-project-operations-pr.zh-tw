@@ -6,12 +6,12 @@ ms.date: 07/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e904ad18b6ea94cd6d31d1878b5bc9e7c52be741
-ms.sourcegitcommit: c8b8fef5626790208c5290b1bb92b17a5d90d286
+ms.openlocfilehash: b86b9ecdc63989189c76dd8380024aa44c7641a5
+ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9112419"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9621071"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations 雙重寫入對應版本
 
@@ -48,14 +48,14 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 | 專案資金來源 (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | 佈建時不需要。 ||
 | 材料估計值的專案整合資料表 (msdyn\_estimatelines) | 1.0.0.0 | 佈建時不需要。 ||
 | 專案發票提案 V2 (發票) | 1.0.0.3 | 佈建時不需要。 ||
-| Project Operations 整合實際值 (msdyn_actuals) | 1.0.0.14 | 佈建時不需要。 ||
+| Project Operations 整合實際值 (msdyn_actuals) | 1.0.0.15 | 佈建時不需要。 |10.0.29 或更新版本|
 | Project Operations 整合合約服務內容里程碑 (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | 佈建時不需要。 ||
 | 費用估計值的 Project Operations 整合實體 (msdyn_estimatelines) | 1.0.0.2 | 佈建時不需要。 ||
 | 時數估計值的 Project Operations 整合實體 (msdyn_resourceassignments) | 1.0.0.5 | 佈建時不需要。 ||
 | Project Operations 整合專案費用類別匯出實體 (msdyn_expensecategories) | 1.0.0.1 | 佈建時不需要。 ||
 | Project Operations 整合專案費用匯出實體 (msdyn_expenses) | 1.0.0.3 | 佈建時不需要。 ||
-| Project Operations 整合專案廠商發票匯出實體 (msdyn_projectvendorinvoices) | 1.0.0.1 | 佈建時不需要。 |10.0.26 或更新版本|
-| Project Operations 整合專案廠商發票明細匯出實體 (msdyn_projectvendorinvoicelines) | 1.0.0.4 | 佈建時不需要。 | 10.0.26 或更新版本 |
+| Project Operations 整合專案廠商發票匯出實體 (msdyn_projectvendorinvoices) | 1.0.0.2 | 佈建時不需要。 |10.0.29 或更新版本|
+| Project Operations 整合專案廠商發票明細匯出實體 (msdyn_projectvendorinvoicelines) | 1.0.0.5 | 佈建時不需要。 | 10.0.29 或更新版本 |
 | 所有公司的專案資源角色 (bookableresourcecategories) | 1.0.0.1 | 資料表對應必須進行初始同步，才能同步處理佈建時在 Dynamics 365 Dataverse 環境中填入的專案經理和團隊成員資源角色。 Dataverse 是初始同步處理的主要來源。 ||
 | 專案工作 (msdyn_projecttasks) | 1.0.0.4 | 佈建時不需要。 ||
 | 專案交易類別 (msdyn_transactioncategories) | 1.0.0.0 | 佈建時不需要。 ||
