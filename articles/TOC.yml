@@ -62,10 +62,12 @@
           href: environment/uninstall-project-operations.md
     - name: 新增功能
       items:
-        - name: 2022 年 8 月 - 資源/非庫存型案例適用的 Project Operations
-          href: whats-new/whats-new-aug-2022-resource-based.md
+        - name: 2022 年 9 月 - 資源/非庫存型案例適用的 Project Operations
+          href: whats-new/whats-new-sept-2022-resource-based.md
         - name: 封存
           items:
+            - name: 2022 年 8 月 - 資源/非庫存型案例適用的 Project Operations
+              href: whats-new/whats-new-aug-2022-resource-based.md
             - name: 2022 年 7 月 - 資源/非庫存型案例適用的 Project Operations
               href: whats-new/whats-new-july-2022-resource-based.md
             - name: 2022 年 6 月 - 資源/非庫存型案例適用的 Project Operations
@@ -668,10 +670,12 @@
           href: environment/security-model.md
     - name: 新增功能
       items:
-        - name: 2022 年 8 月新增功能 - 精簡部署
-          href: pro/whats-new/whats-new-aug-2022-lite.md
+        - name: 2022 年 9 月新增功能 - 精簡部署
+          href: pro/whats-new/whats-new-sept-2022-lite.md
         - name: 封存
           items:
+            - name: 2022 年 8 月新增功能 - 精簡部署
+              href: pro/whats-new/whats-new-aug-2022-lite.md
             - name: 2022 年 7 月新增功能 - 精簡部署
               href: pro/whats-new/whats-new-july-2022-lite.md
             - name: 2022 年 6 月新增功能 - 精簡部署
@@ -1180,10 +1184,12 @@
               href: whats-new/ur5-nonstocked-installation.md
     - name: 新增功能
       items:
-        - name: 2022 年 7 月新增功能 - 庫存/生產型案例適用的 Project Operations
-          href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
+        - name: 2022 年 9 月新增功能 - 庫存/生產型案例適用的 Project Operations
+          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
         - name: 封存
           items:
+            - name: 2022 年 7 月新增功能 - 庫存/生產型案例適用的 Project Operations
+              href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
             - name: 2022 年 6 月新增功能 - 庫存/生產型案例適用的 Project Operations
               href: prod-pma/whats-new/whats-new-jun-2022-stocked.md
             - name: 2021 年 10 月新增功能 - 庫存/生產型案例適用的 Project Operations
@@ -1434,8 +1440,12 @@
       href: psa/overview.md
     - name: 新增功能
       items:
-        - name: Project Service 3.x 的更新發行排程
+        - name: Project Service 3.x 的更新版本排程
           href: psa/version-history-ps.md
+        - name: 更新版本 47 V3 的新功能或變更
+          href: psa/whats-new-ur-47.md
+        - name: 更新版本 45 V3 的新功能或變更
+          href: psa/whats-new-ur-45.md
         - name: 更新版本 44 V3 的新功能或變更
           href: psa/whats-new-ur-44.md
         - name: 更新版本 43 V3 的新功能或變更
