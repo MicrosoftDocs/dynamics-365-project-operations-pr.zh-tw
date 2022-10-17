@@ -1534,6 +1534,14 @@
           href: psa/whats-new-v3-2020-wave1.md
         - name: Project Service Automation V3 的新功能或變更
           href: psa/whats-new-changed-v3.md
+    - name: Project Service Automation 升級 (應用程式版本 Project Operations 精簡 4.x)
+      items:
+        - name: 從 Project Service Automation 升級至 Project Operations
+          href: psa/upgrade-project-operations-non-stocked.md
+        - name: 從 Project Service Automation 到 Project Operations 的功能變更
+          href: psa/psa-project-operations-changes.md
+        - name: Project Service Automation 到 Project Operations 專案排程轉換程序
+          href: psa/PSA-Upgrade-Project-Conversion.md
     - name: 規劃您的實作 (應用程式版本 3.x)
       items:
         - name: 範例資料安裝
