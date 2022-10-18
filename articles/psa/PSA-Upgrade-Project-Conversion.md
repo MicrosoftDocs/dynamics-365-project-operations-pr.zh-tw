@@ -1,9 +1,9 @@
 ---
-title: 從 Project Service Automation 到 Project Operations 的功能變更
+title: Project Service Automation 至 Project Operations 專案排程轉換程序
 description: 本文提供從 Microsoft Dynamics 365 Project Service Automation 到 Dynamics 365 Project Operations 的功能變更概觀。
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 02/03/2022
+ms.date: 10/07/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -16,14 +16,14 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 9869b3ad0fb6429484a26f367e06a0996f110ed8
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
+ms.openlocfilehash: 84a40fcc9a8561c4ade0be175b08f701f3196508
+ms.sourcegitcommit: 28004d38800782540fa5642d41f8fe0f6e2d9fa5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621205"
+ms.lasthandoff: 10/08/2022
+ms.locfileid: "9642558"
 ---
-# <a name="feature-changes-for-project-service-automation-to-project-operations"></a>從 Project Service Automation 到 Project Operations 的功能變更
+# <a name="project-service-automation-to-project-operations-project-scheduling-conversion-process"></a>Project Service Automation 至 Project Operations 專案排程轉換程序
 
 當專案成功從 Microsoft Dynamics 365 Project Service Automation 3.X 升級到 Dynamics 365 Project Operations Lite 後，就無法在工作網格分工結構圖 (WBS) 中編輯專案工作。 客戶將可以在追蹤網格中檢視 WBSs，其中新的欄位已新增，以提供和該工作相關的所有詳細資料。 對於需要進行 WBS 編輯的專案，您可以選擇性將符合條件的專案轉換為新的 Project for the web 排程體驗。
 

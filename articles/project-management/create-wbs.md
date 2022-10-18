@@ -6,12 +6,12 @@ ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a947c0a44464bfad6c3bd74b0cb4fb8128924859
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 19d2dfeff39fd3c5edd5124c27134a9fe360e4d1
+ms.sourcegitcommit: 8f4841387deea2998589b7365c3373585a16cb0e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932056"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9655178"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>建立分工結構圖 (WBS)
 
@@ -112,6 +112,18 @@ ms.locfileid: "8932056"
 您可以使用 Project Operations 中的排程，建立工作之間的前置任務關聯。 **前置任務** 欄位使用一個或多個值來表示工作所依存的工作。 將前置任務值指派給工作時，該工作只能在所有的前置任務工作都已完成後開始。 由於此相依性，工作的規劃開始日期會重設為完成前置任務工作的日期。
 
 工作模式對於前置任務/相依工作的開始和結束日期已進行的更新沒有任何影響。
+
+## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>了解期間、資源行事曆和專案行事曆對工作的影響
+工作期間定義為工作開始日期開始時間與完成日期結束時間之間的工作時數。   Project for the Web 對期間測量單位的定義如下：
+
+| **期間量值** | **數量**|
+|----------------------------------------------------|----------------------|
+| 每天的時數 | 8 |
+| 每週的時數 |  40 |
+| 每月的天數 |  20 |
+
+未指派的工作會使用專案的行事歷來排定。 不過，一開始指派資源時，工作的排程會更新，以便遵循資源的行事曆。 對已有指派之工作的後續變更是由專案的[排程模式](scheduling-modes.md)來控制。 若要進一步了解行事曆對工作的影響，請參閱 [Project for the Web 中的資源行事曆](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686)和[工作開始時間與您的專案！的的](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+
 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>協助工具和鍵盤快速鍵
 

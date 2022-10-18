@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: ef8b4dd98d64dac1e2420f8e6a104258f126f112
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
+ms.openlocfilehash: 04b5f2f8223cdc80028860dd880dde314be244eb
+ms.sourcegitcommit: b3a70bc4f2850cff5c2b7114cff7bd61ec298143
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621222"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9634795"
 ---
 # <a name="whats-new-september-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>2022 年 9 月新增功能 - 資源/非庫存型案例適用的 Project Operations
 
@@ -35,6 +35,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 | 費用管理 | **可用供應商貨幣的種類張貼欠款費用的能力**<br>此功能在現金支付方式中，讓費用報告能以供應商的貨幣種類張貼。 | [可用供應商的貨幣種類張貼費用欠款的能力](/dynamics365/project-operations/expense/posting-expense-reports#enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature) |
 | 專案採購 | **支付廠商付款時付款**<br>此功能啟用「付款時付款」(PWP) 功能，可和 Project Operations 非庫存環境一起使用。 它可依據保留條款封鎖/保留付給供應商的款項，直到從客戶那裡收到付款。 | [支付廠商付款時付款](/dynamics365/project-operations/procurement/pay-when-paid) |
 | 專案採購 | **專案採購申請**<br>此功能可讓使用者在法律實體中建立專案相關的採購訂單，而此法律實體已啟用 Dynamics 365 Customer Engagement 整合上的 Project Operations。 專案採購單可用來讓採購部門角色記錄專案的非庫存原料採購。 專案採購單將不會同步到 Dataverse。 不過，您可以使用虛擬實體在 Dataverse 中顯示專案採購單內容的專案經理資訊。 與專案相關的供應商發票成本與 Dataverse 中的專案實際值實體整合。 使用 Project Operations 整合日誌可將專案成本紀錄在專案分類帳中。 | |
+|專案規劃和追蹤|**使用專案排程 API 以對排程實體執行作業** </br> </br>資源指派分佈編輯 API 可讓開發人員在任何支援的日期範圍內，透過程式設計方式指定工作受託人的投入量，以進行更精細的時間分段投入規劃。|[使用專案排程 API 以對排程實體執行作業](/dynamics365/project-operations/project-management/schedule-api-preview)|
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Project Operations 雙重寫入對應更新
 

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 2cce7ae25f05258e8bf0bab9430324bc9b30e329
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
+ms.openlocfilehash: a02ac7a69489bc7974eb0e63c11fa5de74795b78
+ms.sourcegitcommit: b3a70bc4f2850cff5c2b7114cff7bd61ec298143
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621223"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9634842"
 ---
 # <a name="whats-new-september-2022---project-operations-lite-deployment"></a>2022 年 9 月新增功能 - Project Operations 精簡部署
 
@@ -30,6 +30,7 @@ _**適用於：** 精簡部署 - 交易至開立預估發票_
 | 帳單和定價 | **時區互通的價格預設**<br>Project Operations 在所有專案實際值上引進了時區互通日期的概念。 新的欄位 (**交易日期**) 現在可在帳目明細和實際值上使用，並將用來儲存交易發生的日期，但是不會將該日期轉換為國際標準時間。 此日期將用於下游處理，例如價格預設和發票建立。 | <p>[決定專案估計值及實際值的成本費率](/dynamics365/project-operations/pro/pricing-costing/cost-price-resolution-sales)</p><p>[判斷專案估計值及實際值的銷售價](/dynamics365/project-operations/pro/pricing-costing/sales-price-resolution-sales)</p> |
 | 帳單和定價 | **Project Operations 中的日期有效價格覆寫**<br>有效期限內價格覆寫提供覆寫或變更價目表中特定價格的方法。 | [有效期限內價格覆寫](/dynamics365/project-operations/pricing-costing/dateffective_price_overrides) |
 | 時間和費用 | **全域核准者**<br>此功能啟用獨立軟體廠商 (ISV) 和集中核准，無論專案中的專案或團隊成員狀態為何。 | [安全性與核准](/dynamics365/project-operations/approvals/approvals-security) |
+|專案規劃和追蹤|**使用專案排程 API 以對排程實體執行作業** </br> </br>資源指派分佈編輯 API 可讓開發人員在任何支援的日期範圍內，透過程式設計方式指定工作受託人的投入量，以進行更精細的時間分段投入規劃。|[使用專案排程 API 以對排程實體執行作業](/dynamics365/project-operations/project-management/schedule-api-preview)|
 
 ## <a name="quality-updates"></a>品質更新
 
