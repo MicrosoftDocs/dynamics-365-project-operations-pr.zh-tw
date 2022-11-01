@@ -1752,9 +1752,7 @@
               href: psa/FAQ-soft-book-in-web-app.md
             - name: 如何自訂專案階段商務程序流程？
               href: psa/FAQ-customize-bpf.md
-            - name: 分工結構圖升級考量
-              href: psa/upgrade-considerations-tasks.md
-        - name: 白皮書
+        - name: 技術白皮書
           href: psa/white-papers.md
         - name: 系統管理員指南
           items:
