@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 2d7b372cac391fab7a81ac6ac5d2ea6d12977b5c
-ms.sourcegitcommit: 9de444ae0460c8d15c77d225d0c0ad7f8445d5fc
+ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9686965"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709434"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>從 Project Service Automation 升級至 Project Operations
 
@@ -70,7 +70,7 @@ ms.locfileid: "9686965"
 
 ## <a name="licensing"></a>授權
 
-如果您有 Project Service Automation 的有效授權，則可以安裝和使用 Project Operations，其中包含 Project Operations 所有的功能以及其他項目。 接著就可以在不同的環境中測試 Project Operations 的功能，同時繼續在生產環境中使用 Project Service Automation。 當您的 Project Service Automation 授權到期後，您必須轉換到 Project Operations。 規劃這次轉換時，您必須考慮到 Project Operations 授權沒有包含 Project Service Automation 授權的事實。
+如果您有 Project Service Automation 的有效授權，則可以安裝和使用 Project Operations，其中包含 Project Operations 所有的功能以及其他項目。 如此一來，您就可以測試 Project Operations 的功能，同時繼續在生產環境中使用 Project Service Automation。 當您的 Project Service Automation 授權到期後，您必須轉換到 Project Operations。 規劃這次轉換時，您必須考慮到 Project Operations 授權沒有包含 Project Service Automation 授權的事實。 如果客戶已部署 Project Service Automation，並在計劃遷移至 Project Operations 時需要繼續使用或增加其 PSA 授權，則可能會在這些情況下根據已購買的 Project Operations 授權要求暫時 PSA 授權。 一個 Project Operations 授權會發行一個 Project Service Automation 授權。 您可以使用下列連結來要求暫時 PSA 授權：aka.ms/ineedpsa
 
 ## <a name="testing-and-refactoring-customizations"></a>測試和重構自訂
 
