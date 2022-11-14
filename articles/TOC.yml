@@ -286,6 +286,8 @@
           href: project-management/define-project-calendars.md
         - name: 排程模式
           href: project-management/scheduling-modes.md
+        - name: 外部排程
+          href: project-management/external-scheduling.md
         - name: 更新專案
           href: project-management/update-project.md
         - name: 複製專案
@@ -914,6 +916,8 @@
           href: project-management/define-project-calendars.md
         - name: 排程模式
           hreF: project-management/scheduling-modes.md
+        - name: 外部排程
+          href: project-management/external-scheduling.md
         - name: 更新專案
           href: project-management/update-project.md
         - name: 複製專案
