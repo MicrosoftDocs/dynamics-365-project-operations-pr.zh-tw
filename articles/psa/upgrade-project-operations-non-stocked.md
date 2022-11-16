@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
-ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
+ms.openlocfilehash: ac2435c99f3aa9b2a6cdb08d7ce5f6628e7f6ac4
+ms.sourcegitcommit: bea5f9b4066277344add1da3a1567ed56a0cfd31
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9709434"
+ms.lasthandoff: 11/02/2022
+ms.locfileid: "9736656"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>從 Project Service Automation 升級至 Project Operations
 
@@ -97,7 +97,7 @@ ms.locfileid: "9709434"
     視環境中的資料量而定，升級可能需要數小時的時間。 管理升級的核心團隊應進行相應的規劃，並在非營業時間執行升級。 在某些情況下，如果資料量龐大，最好在週末執行升級。 對於排程的決策應根據較低階環境中的測試結果來制定。
 
 3. 視情況而定升級自訂解決方案。 此時，請部署您在本文的[測試和重構自訂](#testing-and-refactoring-customizations)區段對自訂所做的任何變更。
-4. 移至 **設定** \> **解決方案**，並選擇解除安裝 **Project Operations 已取代元件** 解決方案。
+4. 移至 **make.powerapps.com**，從入口網站右上角的下拉式清單中選取您的環境，從左功能表選取 **解決方案**，再選取 **Project Operations 已取代的元件** 解決方案並 **解除安裝**。
 
     此解決方案是保存升級過程中存在之資料模型和元件的暫時解決方案。 移除此解決方案，就會移除所有不再使用的欄位和元件。 如此一來，就有助於簡化介面，使整合和擴充變得更輕鬆。
     
