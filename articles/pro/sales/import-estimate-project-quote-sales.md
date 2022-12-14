@@ -1,19 +1,19 @@
 ---
-title: 將專案的估計值匯入至專案型報價明細 - 精簡
-description: 本文提供有關如何將估計值從專案匯入至報價明細的資訊。
+title: 將專案中的估計值匯入至專案報價明細
+description: 本文提供有關如何將估計值從專案匯入至專案報價明細的資訊。
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 820d858fecf70e50a9ce8943db706ff6cac29992
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 61c9660f18882d12a7da8965c23b65e408256219
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917290"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824476"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>將專案的估計值匯入至專案型報價明細 
+# <a name="import-estimates-from-a-project-to-a-project-quote-line"></a>將專案中的估計值匯入至專案報價明細 
 
 _**適用於：** 精簡部署 - 交易至開立預估發票、資源/非庫存型案例適用的 Project Operations_
 

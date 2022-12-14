@@ -1,19 +1,19 @@
 ---
-title: 專案型合約服務內容概觀
-description: 本文提供有關使用專案型合約服務內容的資訊。
+title: 專案合約服務內容概觀
+description: 本文提供有關在 Project Operations 中使用專案合約服務內容的資訊。
 author: rumant
 ms.date: 10/28/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d32edac6537a4b0f51e9d2f72cb4a7342606d2c5
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f5a529233692a39b0674417cd4ea225e40243086
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931412"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824616"
 ---
-# <a name="project-based-contract-lines-overview"></a>專案型合約服務內容概觀
+# <a name="project-contract-lines-overview"></a>專案合約服務內容概觀
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 

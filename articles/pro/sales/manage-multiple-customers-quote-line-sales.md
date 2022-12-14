@@ -1,23 +1,23 @@
 ---
-title: 管理專案型報價明細上的多個客戶 - 精簡
-description: 本文說明如何管理專案型報價明細上的多個客戶。
+title: 管理專案報價明細中的多個客戶
+description: 本文說明如何管理專案報價明細中的多個客戶。
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fbd0c17de3de8dc4cd84860851fb5837b86586cd
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 70007499ea61e7d81df071cc6d003896d721555b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927778"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824428"
 ---
-# <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>管理專案型報價明細上的多個客戶 - 精簡
+# <a name="manage-multiple-customers-on-project-quote-lines"></a>管理專案報價明細中的多個客戶
 
 _**適用於：** 精簡部署 - 交易至開立預估發票_
 
-專案型報價明細支援的案例，其中每個報價明細都有要支付其費用的客戶清單。 專案型報價明細上的這個客戶清單可能會與報價上的客戶清單相同。 您也可以將客戶清單變更為不同的。 專案報價成交時，專案型報價明細上的客戶清單會複製到對應的專案型合約服務內容，以建立最終專案合約。 專案型報價上的客戶會複製到專案合約。
+專案報價明細支援的案例，其中每個報價明細都有一份要為其付費的客戶清單。 專案型報價明細上的這個客戶清單可能會與報價上的客戶清單相同。 您也可以將客戶清單變更為不同的。 專案報價成交時，專案型報價明細上的客戶清單會複製到對應的專案型合約服務內容，以建立最終專案合約。 專案型報價上的客戶會複製到專案合約。
 
 為最終專案合約開立發票時，專案型合約服務內容上的客戶清單將優先於專案合約上的清單。 只有在新的專案合約服務內容上，才會預設使用專案合約上的客戶清單。
 

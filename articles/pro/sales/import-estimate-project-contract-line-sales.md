@@ -1,21 +1,21 @@
 ---
-title: 將估計值匯入至專業型合約服務內容 - 精簡
+title: 將估計值從專案匯入至專案合約服務內容
 description: 本文提供有關將財務估計值從專案匯入至合約服務內容的資訊。
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d6e3bdfeb1ea9de32d6712ac5671be39c243702a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 73ae0ccbb5372c9dfbc28ac154094c89add0913d
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924190"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824664"
 ---
-# <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>將估計值匯入至專業型合約服務內容 - 精簡
+# <a name="import-estimates-from-a-project-to-a-project-contract-line"></a>將估計值從專案匯入至專案合約服務內容
 
-_**適用於：** 精簡部署 - 交易至開立預估發票_
+_**適用於：** 精簡部署 - 交易至開立預估發票、資源/非庫存型案例適用的 Project Operations_ _
 
 在 Dynamics 365 Project Operations 中，您將專案中的估計值匯入至專案型合約服務內容。
 

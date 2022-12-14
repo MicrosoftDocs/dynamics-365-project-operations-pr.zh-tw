@@ -1,17 +1,17 @@
 ---
-title: 商機設定 - 精簡
+title: 專案商機的標題詳細資料
 description: 本文提供專案型交易和專案型商機明細的相關資訊。
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: e2a95c57bff326237fb97a6cf432096833369eb8
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: ec332e2fb97436d7ec3d31b75ee2383edcb5c7e4
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934402"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824569"
 ---
 # <a name="header-details-for-project-opportunities"></a>專案商機的標題詳細資料
 

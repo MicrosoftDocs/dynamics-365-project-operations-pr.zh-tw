@@ -1,19 +1,19 @@
 ---
-title: 複製專案型商機
+title: 複製專案商機
 description: 本文提供有關在 Project Operations 中複製專案型商機的資訊。
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: cc772391de97f4b2de6e9e29f97a6af4d5514319
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 0fe29918e14a944de7277639f752ad53513a7589
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8926122"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826118"
 ---
-# <a name="copy-project-based-opportunities"></a>複製專案型商機
+# <a name="copy-project-opportunities"></a>複製專案商機
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 

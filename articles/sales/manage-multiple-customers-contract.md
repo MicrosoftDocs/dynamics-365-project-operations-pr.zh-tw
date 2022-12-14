@@ -1,19 +1,19 @@
 ---
-title: 管理專案合約上的多個客戶
-description: 本文提供有關如何管理專案合約中多個客戶的資訊。
+title: 管理專案型合約中的多個客戶
+description: 本文提供有關如何管理專案型合約中多個客戶的資訊。
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 78ee117c1068e7af4674cc3b21e1055fd05bb43a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 1aae178830d7b671c33295ca6d2910ee4be2f8dd
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928330"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825368"
 ---
-# <a name="manage-multiple-customers-on-project-contracts"></a>管理專案合約上的多個客戶
+# <a name="manage-multiple-customers-on-project-based-contracts"></a>管理專案型合約中的多個客戶
 
 本文提供有關如何管理專案合約中多個客戶的資訊。 當需要多個客戶的契約協議來資助交易時，您可以使用專案合約。 在 **專案合約** 頁面上，**摘要** 索引標籤包含有關交易主要客戶的資訊。 參與交易的其他客戶可以新增至 **客戶** 索引標籤。
 

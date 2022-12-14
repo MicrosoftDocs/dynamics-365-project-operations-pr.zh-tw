@@ -1,31 +1,29 @@
 ---
-title: 管理潛在客戶
+title: 管理專案型潛在客戶
 description: 本文提供有關管理專案型潛在客戶的資訊。
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 080f53ee2f800b8433d055525852f5c2e21aab77
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2e1ea2ade5302427c02b271cd5d595206b137bd7
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8920188"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825789"
 ---
-# <a name="manage-leads"></a>管理潛在客戶
+# <a name="manage-project-based-leads"></a>管理專案型潛在客戶
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
 在 Project Operations 中，可以管理專案型潛在客戶並授與其資格。 潛在客戶管理程序包括建立工作型潛在客戶以及授與這些潛在客戶資格。 
 
-## <a name="project-sales-leads"></a>專案銷售潛在客戶
-
 在 **銷售** 區段的左導覽窗格中，開啟 **潛在客戶** 清單頁面，以檢視系統中所有潛在客戶記錄的清單。 如果您也有 Dynamics 365 Sales 或 Dynamics 365 Field Service 應用程式，則顯示的潛在客戶清單是工作型潛在客戶及其他可建立之類型的潛在客戶。
 
 您可以建立依據 **類型** 值的篩選來建立篩選過的檢視，只查看專案型潛在客戶。 例如，您可以選擇只顯示工作型潛在客戶。
 
-## <a name="create-a-new-lead-for-a-project-based-deal"></a>建立專案型交易的新潛在客戶
+## <a name="create-a-new-project-based-lead"></a>建立新的專案型潛在客戶 
 
 授與專案型潛在客戶資格時，會建立商機和客戶。 專案型商機是商機階段中銷售追隨活動的起點。 專案型商機具有銷售專案工作所需的獨特功能。 這些功能包括：
 

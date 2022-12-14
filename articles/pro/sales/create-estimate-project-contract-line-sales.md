@@ -1,32 +1,32 @@
 ---
-title: 估計專案型合約服務內容 - 精簡
+title: 估計專案合約服務內容
 description: 本文提供有關估計專案型合約服務內容的資訊。
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8b4379cc5822d08b55623f0f3d4d49791af90927
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 86872aa58067f55243fa19dc865971f76660f594
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914392"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824757"
 ---
-# <a name="estimate-a-projectbased-contract-line---lite"></a>估計專案型合約服務內容 - 精簡
+# <a name="estimate-a-project-contract-line"></a>估計專案合約服務內容
 
 _**適用於：** 精簡部署 - 交易至開立預估發票_
 
-在 Dynamics 365 Project Operations 中，專案型合約服務內容會有可協助估計交付合約服務內容所需工作之成本及可能營收的詳細資訊。
+在 Dynamics 365 Project Operations 中，專案合約服務內容會有可協助估計交付合約服務內容所需工作之成本及可能營收的詳細資訊。
 
-若要估計專案型合約服務內容，請移至專案型 **合約服務內容** 上的 **合約服務內容詳細資料** 索引標籤。  有兩種可在專案型合約服務內容中建立估計值的方式：
+若要估計專案合約服務內容，請移至專案型 **合約服務內容** 上的 **合約服務內容詳細資料** 索引標籤。  有兩種可在專案型合約服務內容中建立估計值的方式：
 
    - 手動新增合約服務內容詳細資料，以直接在合約服務內容上建立估計值。
    - 建立專案及專案計劃，然後將專案及工作關聯至專案的合約服務內容。 這樣會啟用可藉以根據合約服務內容所含元件將專案計劃估計值匯入至合約服務內容的程序。
 
 ## <a name="create-an-estimation-directly-on-a-projectbased-contract-line"></a>直接在專案型合約服務內容中建立估計
 
-若要直接在專案型合約服務內容上建立估計值，請依照下列步驟進行：
+若要直接在專案合約服務內容上建立估計，請依照下列步驟進行：
 
 1. 移至合約服務內容，並選取 **合約服務內容詳細資料** 索引標籤。您在此索引標籤上建立的明細將會合計起來，並顯示為此 **合約服務內容** 的 **合約值**。 
 2. 在 **合約服務內容詳細資料** 子格中，選取 **新增合約服務內容詳細資料**。 快速建立滑桿隨即開啟。 **合約服務內容詳細資料** 頁面上有下列欄位。

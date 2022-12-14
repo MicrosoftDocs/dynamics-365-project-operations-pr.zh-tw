@@ -1,19 +1,19 @@
 ---
-title: 產品型報價明細概觀 - 精簡
+title: 產品型報價明細概觀
 description: 本文提供有關使用產品型報價明細的資訊。
 author: rumant
 ms.date: 10/30/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: db0700e789202a8fdd0ef3b49959421ac54fb9ad
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a260c0f51cc2d958281dbc6f0f711347cab85a9a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914300"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826212"
 ---
-# <a name="product-based-quote-lines-overview---lite"></a>產品型報價明細概觀 - 精簡
+# <a name="product-based-quote-lines-overview"></a>產品型報價明細概觀
 
 _**適用於：** 精簡部署 - 交易至開立預估發票_
 

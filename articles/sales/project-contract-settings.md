@@ -1,17 +1,17 @@
 ---
-title: 專案合約設定
-description: 本文提供有關影響專案合約之欄位的資訊，以及有關將所有明細項目彙總至之合約的資訊。
+title: 專案型合約的標題詳細資料
+description: 本文提供 Project Operations 中的欄位相關資訊和專案型合約相關資訊。
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 1c3317eb36a98e14074fb504cfac5ff6e25fa3a0
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 5839a812dbb3a61fcf271ae6e80e22bfe61f7e14
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8921568"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824290"
 ---
 # <a name="header-details-for-project-based-contracts"></a>專案型合約的標題詳細資料
 

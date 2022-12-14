@@ -1,23 +1,23 @@
 ---
-title: 將專案和工作對應至專案型合約服務內容 - 精簡
+title: 將專案和工作對應至專案合約服務內容
 description: 本文提供有關在合約服務內容中新增和移除專案和工作的資訊。
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c8075e3161acd904969f964e5ab32dfe04edc4b6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 45118bb5a36203a3121a5f7ada0992d2c2491a4a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932516"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825048"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>將專案和工作對應至專案型合約服務內容 
+# <a name="map-projects-and-tasks-to-a-project-contract-line"></a>將專案和工作對應至專案合約服務內容 
 
 _**適用於：** 精簡部署 - 交易至開立預估發票、資源/非庫存型案例適用的 Project Operations_
 
-在專案型合約服務內容上，您可以將專案中的特定工作對應至合約服務內容。
+在專案合約服務內容上，您可以將專案中的特定工作對應至合約服務內容。
 
 當您將特定工作對應至合約服務內容時，計費方式、可收費率選項、不得超過限制以及合約服務內容上定義的客戶都將只適用於這些特定工作。
 
@@ -25,7 +25,7 @@ _**適用於：** 精簡部署 - 交易至開立預估發票、資源/非庫存�
 
 專案分工結構圖 (WBS) 中的所有其他階段都可以與資料型合約服務內容相關聯。
 
-## <a name="associate-tasks-to-project-based-contract-lines"></a>將工作關聯至專案型合約服務內容
+## <a name="associate-tasks-to-project-contract-lines"></a>將工作關聯至專案合約服務內容
 
 工作可從 **合約服務內容** 頁面的 **應收費工作** 索引標籤或從 **專案** 頁面的 **工作帳單** 索引標籤中，關聯至合約服務內容。
 

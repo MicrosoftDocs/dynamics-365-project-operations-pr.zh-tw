@@ -1,27 +1,27 @@
 ---
-title: 專案型報價明細的發票排程
+title: 專案報價明細的發票排程
 description: 本文提供有關為報價明細建立發票排程與里程碑的資訊。
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b1e431bc3586f9fef7a01348555e4ee4e06cc66c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 98006cc2857f01298054c4f0e70781bf4b8b474b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918302"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825742"
 ---
-# <a name="invoice-schedules-on-project-based-quote-lines"></a>專案型報價明細的發票排程
+# <a name="invoice-schedules-on-project-quote-lines"></a>專案報價明細的發票排程
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
-專案型報價明細提供表示發票排程的功能。 這在報價階段中是選擇性的，因為應用程式繫結至報價明細時，不支援開立專案開票。 只有在報價成交後，才允許開立發票。 在報價階段建立發票排程唯一造成的下游影響是，將此發票排程複製到專案型合約服務內容。 如果您未在報價階段建立發票排程，則可以在專案型合約服務內容上這樣做。
+專案報價明細提供顯示發票排程的功能。 這在報價階段中是選擇性的，因為應用程式繫結至報價明細時，不支援開立專案開票。 只有在報價成交後，才允許開立發票。 在報價階段建立發票排程唯一造成的下游影響是，將此發票排程複製到專案型合約服務內容。 如果您未在報價階段建立發票排程，則可以在專案型合約服務內容上這樣做。
 
 總而言之，發票排程的目的在於允許自動建立專案型合約服務內容的草稿發票。 
 
-## <a name="create-a-time-and-material-invoice-schedule-for-a-project-based-quote-line"></a>建立專案型報價明細的時間和材料發票排程
+## <a name="create-a-time-and-material-invoice-schedule-for-a-project-quote-line"></a>建立專案報價明細的時間和材料發票排程
 
 專案型報價明細的帳務方式為 [時間和材料] 時，系統會產生基於日期的發票排程。 若要讓系統自動產生基於日期的發票排程，請完成下列步驟。
 
@@ -36,7 +36,7 @@ _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡
     - **交易截止日期** 會設定為 **發票執行日期** 的前一天。
     - **執行狀態** 會自動設為 **未執行**。 自動發票建立作業針對特定發票執行日期執行時，此作業會將此欄位更新為 **執行成功** 或 **執行失敗**。
 
-## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>建立專案型報價明細的固定價格發票排程
+## <a name="create-a-fixed-price-invoice-schedule-for-a-project-quote-line"></a>建立專案報價明細的固定價格發票排程
 
 專案型報價明細的帳務方式為 **固定價格** 時，系統會建立基於里程碑的發票排程。 完成下列步驟，為一組在行事曆期間平均分佈的固定里程碑，自動產生此排程。
 

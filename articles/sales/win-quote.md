@@ -1,23 +1,23 @@
 ---
-title: 關閉報價
+title: 關閉專案型報價
 description: 本文提供有關在 Project Operations 中關閉報價的資訊。
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 45bdfe5fb9eddb8f96ed1bc017596c8fe436245e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b35417d4258a1e837fdf7a61bbcc303ec04a900
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931872"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824206"
 ---
-# <a name="close-a-quote"></a>關閉報價
+# <a name="close-project-based-quotes"></a>關閉專案型報價
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
-專案報價可以當做 [成交] 或 [未成交] 來關閉。 因為 Microsoft Dynamics 365 Project Operations 中的報價不支援 [啟用] 和 [修訂] 功能，您可以關閉草稿報價。
+專案報價可以因為 **成交** 或 **未成交** 而關閉。 
 
 ## <a name="close-a-quote-as-won"></a>以成交關閉報價
 

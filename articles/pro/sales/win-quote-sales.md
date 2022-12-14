@@ -1,5 +1,5 @@
 ---
-title: 關閉報價 - 精簡
+title: 關閉專案報價
 description: 本文提供有關在 Project Operations 中關閉報價的資訊。
 author: rumant
 ms.date: 10/01/2020
@@ -7,14 +7,14 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: e3a199843f379dc53d63372f91e8be2e1bcbf4e9
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 4335fa5467640af840c0f68a648c9b8a6864d834
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916922"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826165"
 ---
-# <a name="close-a-quote---lite"></a>關閉報價 - 精簡
+# <a name="close-project-quotes"></a>關閉專案報價
 
 _**適用於：** 精簡部署 - 交易至開立預估發票_
 
@@ -30,7 +30,7 @@ _**適用於：** 精簡部署 - 交易至開立預估發票_
 
 如果仍附加至草稿報價時，專案上的時間有任何實際值，則只會記錄時間或費用的成本。 以 [成交] 關閉報價之後，應用程式會沖銷舊的成本實際值並重新建立新的成本實際值，以重構成本。 應用程式會根據相關聯專案合約服務內容的帳務方式處理這些成本實際值。 如果成本實際值參考時間和材料合約服務內容，就會在關閉報價並建立專案合約時，建立其對應的未開單銷售實際值。 如果成本實際值參考固定價格合約服務內容，則應用程式會停止重新處理根據專案合約客戶分割帳單規則所定的成本實際值。
 
-## <a name="closing-a-quote-as-lost"></a>以未成交關閉報價：
+## <a name="closing-a-quote-as-lost"></a>以未成交關閉報價
 
 將專案報價關閉為 [未成交] 時，狀態會設定為 [已關閉]，而狀態原因是 [未成交]。 關閉報價會將專案報價設定為唯讀。 已關閉的報價無法重新開啟，因此關閉報價之前，確認對話方塊會確認您的變更。
 

@@ -1,23 +1,23 @@
 ---
-title: 管理專案報價上的多個客戶
+title: 管理專案型報價中的多個客戶
 description: 本文提供有關處理涉及多個為專案提供資金之客戶的報價的資訊。
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 16cd07527fddd093748a18c1f7c900c8b32be85d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b9c82ababdb9a588a0d28cae60a49d0594378d9
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928192"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825138"
 ---
-# <a name="manage-multiple-customers-on-a-project-quote"></a>管理專案報價上的多個客戶
+# <a name="manage-multiple-customers-on-a-project-based-quote"></a>管理專案型報價中的多個客戶
 
-_**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
+_**適用於：** 資源/非庫存型案例適用的 Project Operations_
 
-專案報價支援提案涉及多個為交易提供資金之客戶的案例。 報價的 **摘要** 索引標籤有 **潛在的客戶** 欄位，可識別交易的主要客戶。 您可以在專案報價的 **客戶** 索引標籤上設定交易的其他客戶 。
+專案型報價支援提案涉及多個為交易提供資金之客戶的案例。 報價的 **摘要** 索引標籤有 **潛在的客戶** 欄位，可識別交易的主要客戶。 您可以在專案報價的 **客戶** 索引標籤上設定交易的其他客戶 。
 
 專案報價 **客戶** 索引標籤上的所有報價客戶，預設為任何針對報價所建立之 **新** 專案型報價明細上的報價明細客戶。 任何現有的專案報價明細都不會繼承在其後所建立的新報價客戶記錄。
 

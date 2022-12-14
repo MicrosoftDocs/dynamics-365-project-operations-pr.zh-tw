@@ -1,21 +1,21 @@
 ---
-title: 估計專案型報價明細
-description: 本文提供有關如何在專案型報價明細上建立估計值的資訊。
+title: 估計專案報價明細
+description: 本文提供有關如何在專案報價明細上建立估計值的資訊。
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2a8aa2971431cd1f2082c8fc80db1438be185f5b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: bac3a3fa2d14c857edfb469a005406c346c8dbf6
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914346"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825977"
 ---
-# <a name="estimating-a-project-based-quote-line"></a>估計專案型報價明細
+# <a name="estimate-a-project-quote-line"></a>估計專案報價明細
 
-_**適用於：** 精簡部署 - 交易至開立預估發票_
+_**適用於：** 精簡部署 - 交易至開立預估發票、資源/非庫存型案例適用的 Project Operations_
 
 專案型報價明細的詳細資料可協助您估計提供報價明細所需工作的成本和可能營收。
 
@@ -24,7 +24,7 @@ _**適用於：** 精簡部署 - 交易至開立預估發票_
 - 使用報價明細詳細資料，直接在報價明細上手動建立估計值。 
 - 建立專案和專案計劃，然後將專案以及專案上的工作關聯至報價明細。 將會啟用根據您所提供資訊將專案計劃中估計值匯入至報價明細的程序。
 
-## <a name="create-estimates-directly-on-a-project-based-quote-line"></a>直接在專案型報價明細上建立估計值
+## <a name="create-estimates-directly-on-a-project-quote-line"></a>直接在專案報價明細上建立估計值
 
 若要在專案型報價明細建立估計值，請選取 **報價明細詳細資料** 索引標籤。您在此索引標籤上建立的明細項目將會摘要列出此報價明細的報價值。 
 
@@ -68,8 +68,7 @@ _**適用於：** 精簡部署 - 交易至開立預估發票_
 
 獲利率計算會將成本及銷售報價明細詳細資料上的金額轉換成環境的基準貨幣，以報告報價的整體估計利潤。
 
-> 附註
-> > 貨幣捨入錯誤和變動利潤可能會因為缺少即日有效的匯率而發生。 這些計算只能用於專案合約，因為這些計算只是近似值，並不適用於在匯率上需要較多捨入有效位數且必須有更高日期時效性意識的實際法定報告或其他申報。
+> [!注意] 貨幣進位誤差和變動利潤可能會因為缺少即日有效的匯率而發生。 這些計算只能用於專案合約，因為這些計算只是近似值，並不適用於在匯率上需要較多捨入有效位數且必須有更高日期時效性意識的實際法定報告或其他申報。
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

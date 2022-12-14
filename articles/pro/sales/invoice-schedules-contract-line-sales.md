@@ -1,19 +1,19 @@
 ---
-title: 在專案型合約服務內容中建立發票排程 - 精簡
+title: 在專案合約服務內容上建立發票排程
 description: 本文提供有關建立發票排程與里程碑的資訊。
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 403b993c3f61ca5f0fb1bac45331aa0613d16439
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 1a6d0647ee012212a74a674cfa4e995d0e375b77
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8921108"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824710"
 ---
-# <a name="create-invoice-schedules-on-a-project-based-contract-line---lite"></a>在專案型合約服務內容中建立發票排程 - 精簡
+# <a name="create-invoice-schedules-on-a-project-contract-line"></a>在專案合約服務內容上建立發票排程
 
 _**適用於：** 精簡部署 - 交易至開立預估發票_
 

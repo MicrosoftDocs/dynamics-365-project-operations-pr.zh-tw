@@ -1,23 +1,23 @@
 ---
-title: 將專案和工作對應至專案型報價明細
-description: 本文提供有關如何將專案和工作對應至專案型工作明細的資訊。
+title: 將專案和工作對應至專案報價明細
+description: 本文提供有關如何將專案和工作對應至專案工作明細的資訊。
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8971a334bd19f0ef106f88034a1abbb3c338de22
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b276e7fb6ec8b98188c9396aca5092d19848afcc
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917152"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824198"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>將專案和工作對應至專案型報價明細
+# <a name="map-projects-and-tasks-to-project-quote-lines"></a>將專案和工作對應至專案報價明細
 
 _**適用於：** 資源/非庫存型案例適用的 Project Operations、精簡部署 - 交易至開立預估發票_
 
-在專案型報價明細上，您可以對應已經與報價明細相關聯之專案的特定工作。
+在專案報價明細上，您可以對應已經與報價明細相關聯之專案的特定工作。
 
 將工作對應至報價明細時，您已在報價明細中定義的下列項目只會套用至這些工作：
 

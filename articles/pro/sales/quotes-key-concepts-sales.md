@@ -1,17 +1,17 @@
 ---
-title: 報價 - 重要概念 - 精簡
+title: 專案報價獨有的概念
 description: 本文提供有關在 Project Operations 中使用專案報價的資訊。
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a8c2f009b7a0bebbf6a49bf942dd19f97205072e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7f0a33f1d7d77f3b5aebfdcf8e6aeb14072cd596
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916968"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825883"
 ---
 # <a name="concepts-unique-to-project-quotes"></a>專案報價獨有的概念
 
@@ -82,9 +82,13 @@ Project Operations 支援四種類型的交易分類：
 
 Project Operations 報價是建立在 Dynamics 365 Sales 報價的基礎上。 不過，您會在功能上注意到一些重要差異：
 
-- 不支援 **修訂** 和 **啟用** 動作。
+
 - Project Operations 報價有兩種不同類型的明細。 一個用於專案，另一個用於產品。
 - Project Operations 報價有其本身的表單以及 UI 元素、商務規則、外掛程式中的商務規則，以及使其與 Sales 報價有所不同的用戶端指令碼。
+- 銷售報價可讓您將多份訂單附加至銷售報價。 在 Project Operations 中，只能將一個專案合約附加至專案報價。
+- 贏得銷售報價時，相關商機可以保持開啟。 贏得專案報價後，便會關閉相關商機。
+- 銷售報價不包含專案報價中所包含的一些欄位與概念。 這些欄位包括 **承包單位**、**客戶經理** 和 **帳單連絡人**。  
+- **類型**：銷售報價與專案報價也是由 **類型** 這個選項組型欄位來識別。 就銷售報價而言，此欄位的值為 **項目型**。 至於專案報價，其值為 **工作型**。
 
 因此，不建議互換使用 Sales 報價與 Project Operations 報價。
 
