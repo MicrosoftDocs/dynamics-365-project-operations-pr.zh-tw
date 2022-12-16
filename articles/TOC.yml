@@ -846,7 +846,7 @@
               items:
                 - name: 預付款和保留款型合約
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: 設定保留款排程設定保留款排程
+                - name: 設定保留款排程
                   href: pro/sales/set-up-schedule-retainers-sales.md
                 - name: 在專案合約上建立專項預付金
                   href: pro/sales/create-ad-hoc-advance-sales.md

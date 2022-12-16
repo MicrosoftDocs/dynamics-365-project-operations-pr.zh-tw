@@ -3,15 +3,15 @@ title: 安全性與核准
 description: 本文說明在 Microsoft Dynamics 365 Project Operations 中使用核准的安全性設定。
 author: stsporen
 ms.date: 08/29/2022
-ms.topic: security
+ms.topic: conceptual
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 0dcadaa142bf46e4c54f160759602ac749022108
-ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
+ms.openlocfilehash: 88186485dff43c3011095b267640151948b4d77c
+ms.sourcegitcommit: 0d11377bf3ac74c80afbd2013775fcc9869f926a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9709387"
+ms.lasthandoff: 12/10/2022
+ms.locfileid: "9841913"
 ---
 # <a name="security-and-approvals"></a>安全性與核准
 
